@@ -53,7 +53,13 @@ Three things follow from that:
    the build composes this tree with core's and publishes a single
    `meta.sqlite`, which is what `meta.audiosilo.app`, the AudioSilo player and
    the Audiobookshelf provider facade all read. A merge here reaches readers
-   through that release, not through this repository directly.
+   through that release, not through this repository directly. A merge here
+   cannot start a workflow there either, so `.github/workflows/notify-core.yml`
+   asks for one: a `community-data` `repository_dispatch`, which core's
+   `release.yml` accepts beside its own triggers. It needs a `CORE_DISPATCH_TOKEN`
+   secret (a fine-grained PAT scoped to `KodeStar/audiosilo-meta` with
+   Contents: read and write); unconfigured, it logs and exits cleanly, and the
+   data rides the next core-side release instead.
 
 ## Contributing
 

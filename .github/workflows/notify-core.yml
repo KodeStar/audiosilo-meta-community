@@ -1,0 +1,78 @@
+name: notify-core
+
+# Ask the CORE repository to cut a data release when community data lands here.
+#
+# WHY THIS EXISTS. The release artifact is composed from both repositories -
+# core's release.yml checks this one out beside its own tree and runs
+# `metabuild -data data --community <dir>` - but the release is cut THERE, and a
+# merge here cannot trigger a workflow there. So this sends a
+# `repository_dispatch` of type `community-data`, which core's release.yml
+# accepts as a third trigger beside its `push` paths filter and
+# `workflow_dispatch`.
+#
+# The dispatch is only a TRIGGER. It carries this commit's sha for the log and
+# nothing else that is acted on: core always composes from the two repositories
+# at their current `main`, so the release it cuts is a function of the two trees
+# and never of this payload.
+#
+# SECURITY. This runs on `push` to `main`, so it executes only trusted code that
+# has already been reviewed and merged - no fork code, no untrusted input. The
+# only secret it can reach is the dispatch token, and it is used for exactly one
+# API call to one repository.
+on:
+  push:
+    branches: [main]
+    # Only DATA can change the artifact. A README or workflow edit here changes
+    # nothing core would build, so it must not spend a release.
+    paths:
+      - "data/**"
+
+# Least privilege: nothing in this repository is read or written. The dispatch
+# authenticates with CORE_DISPATCH_TOKEN, which github.token cannot stand in for
+# - the job token is scoped to the repository it runs in, and the target is
+# another one.
+permissions: {}
+
+# Serialize: two quick merges must not race two dispatches into core's
+# `data-release` concurrency group, where the second would be queued behind a run
+# that already includes its data. Never cancelled in flight - a cancelled
+# dispatch is a release that silently never happens.
+concurrency:
+  group: notify-core
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch a data release in the core repository
+        env:
+          CORE_DISPATCH_TOKEN: ${{ secrets.CORE_DISPATCH_TOKEN }}
+          COMMUNITY_SHA: ${{ github.sha }}
+        # ONE-TIME MAINTAINER SETUP: create a fine-grained PAT scoped to
+        # KodeStar/audiosilo-meta with the "Contents: read and write" repository
+        # permission (what POST /repos/{owner}/{repo}/dispatches requires) and
+        # save it here as the CORE_DISPATCH_TOKEN Actions secret. Creating the
+        # credential is deliberately a human step.
+        #
+        # UNCONFIGURED IS NOT A FAILURE. Without the secret this logs and exits
+        # 0: the data has landed either way, and core picks it up with its next
+        # core-side data or tooling change, or a manual workflow_dispatch there.
+        # A red workflow on every community merge would be noise for a state the
+        # maintainer already knows about.
+        #
+        # A configured token that FAILS is a different thing and does fail the
+        # job: it means a release was expected and did not happen, which is worth
+        # a notification and a re-run.
+        run: |
+          if [ -z "${CORE_DISPATCH_TOKEN}" ]; then
+            echo "no CORE_DISPATCH_TOKEN configured - core release will pick this up with the next core-side data/tooling change or a manual dispatch"
+            exit 0
+          fi
+          GH_TOKEN="${CORE_DISPATCH_TOKEN}" gh api \
+            --method POST \
+            --header "Accept: application/vnd.github+json" \
+            /repos/KodeStar/audiosilo-meta/dispatches \
+            --raw-field event_type=community-data \
+            --raw-field "client_payload[community_sha]=${COMMUNITY_SHA}"
+          echo "dispatched community-data to KodeStar/audiosilo-meta for ${COMMUNITY_SHA}"
