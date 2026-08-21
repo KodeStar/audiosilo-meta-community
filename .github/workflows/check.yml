@@ -1,0 +1,133 @@
+name: check
+
+# Validate every pull request and every push to main.
+#
+# SECURITY: this uses the plain `pull_request` trigger, NOT
+# `pull_request_target`, so fork pull requests run with a read-only token and no
+# access to secrets. Do not switch to `pull_request_target` (the "pwn request"
+# supply-chain pattern) - any privileged follow-up must live in a separate
+# workflow that consumes only artifacts. Core's check.yml carries the same rule.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+# Least privilege: read the code, nothing more. The keys job talks to the public
+# core repository's releases through this same read-only token; no secrets are
+# used anywhere in this workflow.
+permissions:
+  contents: read
+
+# One live validation per pull request; a superseded head validates a tree that
+# can no longer be merged. Pushes to main are never cancelled (the sha group is
+# unique per push).
+concurrency:
+  group: check-${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || github.sha }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  # The core repository holds ALL the tooling (one implementation of pack math,
+  # canonical JSON and validation - see README.md). This is the exact core commit
+  # the checks below run, pinned by sha rather than floating on main so a core
+  # change can never turn this repository's history red on its own.
+  #
+  # TO BUMP: put the new full 40-character sha of KodeStar/audiosilo-meta@main
+  # here in its own pull request, and read the diff of what the checks say. A
+  # bump that turns the tree red is a data fix (usually `metafmt --write`), not a
+  # reason to un-bump.
+  #
+  # NOTE on why this is a checkout and not `go run github.com/kodestar/...@v`:
+  # the core module carries the ~1.5GB core data tree, and Go has no way to
+  # fetch a module without it. Measured 2026-08-21: proxy.golang.org answers
+  # "fetch timed out" for the .info AND .zip of every core version cut after the
+  # seed landed (v0.10.0, v0.11.0, and the pseudo-version of this very commit),
+  # so `go run <module>@<version>` falls through to `direct`, which clones the
+  # whole 3.5GB repository - it took ~40 minutes here just to resolve the
+  # pseudo-version, before any build. A blobless sparse checkout of the tooling
+  # directories is the cheap, exact equivalent and pins just as hard. If core
+  # ever publishes tool binaries, or splits the tooling into a module of its
+  # own, this becomes a one-line download instead.
+  CORE_REPO: KodeStar/audiosilo-meta
+  CORE_REF: c5761d5dc6e4209fa9f5381802ac4cce7bde3c48
+
+jobs:
+  # STRUCTURE - everything the community tree can be judged on by itself: schema,
+  # entry key/id agreement, pack placement, caps and bounds, the sidecar member
+  # rules, and canonical formatting. `--profile community` is what tells the
+  # tooling this root deliberately holds one family: a stray file belonging to
+  # another family is reported as an unrecognized location, and the cross-family
+  # rules whose other side is not in this tree stand down rather than fail.
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Checkout the core tooling
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.CORE_REPO }}
+          ref: ${{ env.CORE_REF }}
+          path: core
+          # Blobless + sparse: the tooling, the schemas and the module files,
+          # never data/. Without this the checkout would pull the whole core
+          # catalogue for two commands that never read it.
+          sparse-checkout: |
+            cmd
+            internal
+            pkg
+            schema
+            go.mod
+            go.sum
+            schema.go
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: core/go.mod
+
+      - name: Validate the community tree (metacheck)
+        working-directory: core
+        run: go run ./cmd/metacheck -data "$GITHUB_WORKSPACE/data" --profile community
+
+      - name: Check canonical formatting (metafmt)
+        working-directory: core
+        run: go run ./cmd/metafmt --check -data "$GITHUB_WORKSPACE/data" --profile community
+
+  # KEYS - the one rule that reaches outside this repository: every entry key is
+  # a live core work slug. The stand-in for a core checkout is the newest DATA
+  # release artifact, which is the catalogue as every consumer currently sees it.
+  # See scripts/key-check.sh for the verdicts and why a retired key fails.
+  keys:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download the newest data release artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # Core publishes BOTH data releases (data-v*, carrying meta.sqlite.gz)
+        # and code/image releases (v*, no data assets), so GitHub's "latest" can
+        # be either. The artifact is therefore the non-draft, non-prerelease
+        # release carrying meta.sqlite.gz with the MAXIMUM published_at - by
+        # publish time, NOT list position, which is not publish-chronological.
+        # This mirrors core's release.yml and latestDataRelease in
+        # internal/serve/github.go.
+        run: |
+          tag="$(gh api "repos/$CORE_REPO/releases?per_page=30" \
+            --jq '([.[] | select((.draft or .prerelease) | not) | select(any(.assets[]?; .name == "meta.sqlite.gz"))] | max_by(.published_at) | .tag_name) // empty')"
+          if [ -z "$tag" ]; then
+            echo "no data release carrying meta.sqlite.gz found in $CORE_REPO" >&2
+            exit 1
+          fi
+          echo "checking entry keys against $CORE_REPO@$tag"
+          gh release download "$tag" --repo "$CORE_REPO" --pattern meta.sqlite.gz
+          gh release download "$tag" --repo "$CORE_REPO" --pattern meta.sqlite.gz.sha256
+          # The published checksum is over the .gz, the universal anchor.
+          sha256sum -c meta.sqlite.gz.sha256
+          gunzip meta.sqlite.gz
+
+      - name: Check every entry key resolves to a live work
+        run: scripts/key-check.sh meta.sqlite data
