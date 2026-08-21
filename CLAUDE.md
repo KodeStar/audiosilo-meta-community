@@ -67,6 +67,30 @@ Three consequences:
    and runs the full cross-tree check before building the artifact. A dangling
    key there is a red release, never a silently dropped sidecar.
 
+And one layer EARLIER, so a bad key never becomes a pull request in the first
+place: the **intake bot** (`.github/workflows/intake.yml`) asks the same artifact
+the same question BEFORE it composes anything (`metaissue --profile community
+--works-db meta.sqlite`). Three outcomes, and they are deliberately the key
+check's own with one divergence: a live slug composes, an unknown slug is refused
+with the slug named, and a RETIRED slug composes under the SURVIVOR with a note
+on the pull request. The divergence is the retired case, and only in direction -
+key-check.sh fails a retired key because it is already written down and the fix
+is to re-key it, while the bot is choosing the key and simply chooses the live
+one. A bot that wrote the tombstoned key would open a pull request its own CI
+rejects.
+
+## The tooling checkout (both workflows)
+
+Neither workflow can `go run github.com/kodestar/audiosilo-meta/...`: the core
+module carries the ~1.5GB core data tree and proxy.golang.org times out on every
+post-seed version, so a direct fetch clones the whole repository (~40 minutes,
+measured). Both workflows instead do a **blobless sparse checkout of core's
+tooling directories at a pinned sha** and run from it. `check.yml` and
+`intake.yml` must name the SAME `CORE_REF`, or the bot would compose with
+different rules than the checks validate against - bump them in one pull request.
+The full rationale is in check.yml's own comment; consolidating the two into one
+pin is a recorded follow-up rather than a second mechanism.
+
 ## Conventions
 
 - **No AI attribution anywhere.** No `Co-Authored-By` trailers, no "Generated

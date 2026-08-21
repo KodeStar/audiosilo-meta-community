@@ -22,11 +22,11 @@ body:
         and this sidecar is keyed by it. If the book is not in the database yet,
         add it there first.
 
-        > **Note:** the intake bot does not compose pull requests from this form
-        > in this repository yet - that automation lands in a later step. Until it
-        > does, a maintainer applies the file by hand, so this is a valid way to
-        > contribute today; opening a pull request against
-        > `data/works-community/` directly works too.
+        The intake bot composes a pull request from this form automatically: it
+        verifies the work slug against the newest published catalogue, places the
+        entry in the right pack file, and validates the result. If the slug has
+        been retired by a core merge it re-keys to the surviving one and says so.
+        Opening a pull request against `data/works-community/` directly works too.
 
         **Own words only, neutral reference-guide voice.** Summarize, do not
         retell; the length caps exist for a legal reason. Each recap may reveal
