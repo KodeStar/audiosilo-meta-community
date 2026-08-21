@@ -64,9 +64,13 @@ Two routes, both fine:
   or
   [Add recaps](https://github.com/KodeStar/audiosilo-meta-community/issues/new?template=add-recaps.yml)
   and attach the file the guided builder at
-  [meta.audiosilo.app/build](https://meta.audiosilo.app/build) produces. Intake
-  automation for these forms lands in a later step; until it does, a maintainer
-  applies the file by hand.
+  [meta.audiosilo.app/build](https://meta.audiosilo.app/build) produces. The
+  **intake bot** composes the pull request for you
+  (`.github/workflows/intake.yml`): it checks the work slug against the newest
+  published catalogue, places the entry in the right pack file, validates the
+  result and opens a pull request for review. A work the catalogue does not hold
+  is refused with the slug named rather than composed; a slug a core merge has
+  RETIRED is composed under the surviving one, noted on the pull request.
 - **A pull request** against `data/works-community/` directly. Put the entry in
   the pack whose range covers the work slug - or the nearest one - and let
   `metafmt --write` place it correctly (see below). Approximately right is

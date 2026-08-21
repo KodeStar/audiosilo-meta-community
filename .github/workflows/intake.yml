@@ -1,0 +1,440 @@
+name: intake
+
+# Two jobs, both about the bot's own pull requests - core's intake.yml, adapted
+# to a repository that holds DATA ONLY:
+#
+#   intake  turns a characters/recaps issue-form submission into a validated bot
+#           pull request
+#   rebase  keeps those pull requests mergeable when main moves under them
+#
+# Two things differ from core, and both come from this repository holding one
+# family and no tooling:
+#
+#   1. The TOOLING is a pinned, blobless sparse checkout of core (see check.yml,
+#      which does the same for the same reason - the core module is un-fetchable
+#      through the Go proxy). Every command runs from ./core against
+#      $GITHUB_WORKSPACE/data with `--profile community`.
+#   2. The WORK-EXISTENCE question - is this sidecar keyed by a live core work
+#      slug - cannot be answered from this tree at all: the works family is not
+#      in it. metaissue is given `--works-db`, the newest data release's
+#      meta.sqlite, which is exactly the stand-in scripts/key-check.sh reads on
+#      the pull-request path. A key it cannot verify is refused rather than
+#      composed, so the bot never opens a pull request its own CI would reject; a
+#      key core has RETIRED is composed under the SURVIVING slug, with a note.
+#
+# SECURITY (core's posture, unchanged): `intake` runs on the `issues` event, so
+# there is NO fork code execution - the only untrusted input is the issue
+# body/title and any file the submitter attached. That input is treated strictly
+# as DATA: written to a file via an environment variable (never interpolated into
+# a shell command), parsed by metaissue, never executed. metaissue fetches
+# attachments HTTPS-only from GitHub's user-attachment hosts with a size cap. Do
+# not add a step that evals or runs anything derived from the issue. `rebase`
+# runs on `push` to main, trusted from the other end: the code it executes is
+# main's (and core's, at the pinned sha), and the only branches it rewrites
+# (force-push included) are ones this workflow created.
+#
+# The `labeled` trigger is load-bearing: the GitHub API silently DROPS labels on
+# issues opened by non-collaborators (the audiosilo-sidecars contributor tool
+# creates add-characters/add-recaps intake issues over the API), so such an issue
+# arrives label-less and the `opened`/`edited` runs skip it. When a maintainer
+# later applies the routing label, that fires neither `opened` nor `edited` -
+# only `labeled`. The job-level `if` narrows `labeled` to genuine routing labels.
+on:
+  issues:
+    types: [opened, edited, labeled]
+  # A merge to main can leave an already-open intake PR conflicting in a pack
+  # file. Only a change to the data tree can do that.
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+
+# Least privilege at the workflow level is "nothing"; each job takes what it
+# needs (issues: write is the intake job's alone).
+permissions: {}
+
+# Serialize runs per issue, and separately serialize the rebase sweep: two
+# sweeps at once would race on the same branches and on --force-with-lease. The
+# issue-number expression is empty for a push, so without the conditional both
+# would share one accidental "intake-" group.
+#
+# Nothing is ever cancelled in flight: creating an issue with both `data` and
+# `data:<template>` emits several events at once, and the generic `data` event is
+# intentionally skipped by the job-level guard - with cancel-in-progress it would
+# cancel the run that opens the pull request.
+concurrency:
+  group: ${{ github.event_name == 'push' && 'intake-rebase' || format('intake-{0}', github.event.issue.number) }}
+  cancel-in-progress: false
+
+env:
+  # KEEP IN STEP WITH .github/workflows/check.yml - the two must name the SAME
+  # core commit, or the bot would compose with different rules than the checks
+  # validate against. Bump both in one pull request; check.yml's own comment
+  # carries the full rationale for pinning by sha and for the sparse checkout.
+  CORE_REPO: KodeStar/audiosilo-meta
+  CORE_REF: c5761d5dc6e4209fa9f5381802ac4cce7bde3c48
+
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    # Only act on issues carrying a data-routing label (data:characters,
+    # data:recaps). For opened/edited we check the issue's current label set; for
+    # a `labeled` event we gate on the label just added and EXCLUDE the three
+    # outcome labels this workflow applies at the end (data:invalid /
+    # data:needs-human / data:duplicate). Without that exclusion the workflow's
+    # own outcome-labeling would re-fire a `labeled` run - a duplicate intake and
+    # a duplicate comment - for every non-ok verdict.
+    if: >-
+      github.event_name == 'issues' && (
+      (
+        github.event.action != 'labeled' &&
+        contains(join(github.event.issue.labels.*.name), 'data:')
+      ) || (
+        github.event.action == 'labeled' &&
+        startsWith(github.event.label.name, 'data:') &&
+        github.event.label.name != 'data:invalid' &&
+        github.event.label.name != 'data:needs-human' &&
+        github.event.label.name != 'data:duplicate'
+      ))
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Checkout the core tooling
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.CORE_REPO }}
+          ref: ${{ env.CORE_REF }}
+          path: core
+          # Blobless + sparse: the tooling, the schemas and the module files,
+          # never core's data/ - see check.yml.
+          sparse-checkout: |
+            cmd
+            internal
+            pkg
+            schema
+            go.mod
+            go.sum
+            schema.go
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: core/go.mod
+
+      - name: Download the newest data release artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # The same selection as check.yml's keys job and core's own
+        # latestDataRelease: the non-draft, non-prerelease release carrying
+        # meta.sqlite.gz with the MAXIMUM published_at, because core cuts code
+        # releases with no data assets too and GitHub's "latest" can be either.
+        run: |
+          tag="$(gh api "repos/$CORE_REPO/releases?per_page=30" \
+            --jq '([.[] | select((.draft or .prerelease) | not) | select(any(.assets[]?; .name == "meta.sqlite.gz"))] | max_by(.published_at) | .tag_name) // empty')"
+          if [ -z "$tag" ]; then
+            echo "no data release carrying meta.sqlite.gz found in $CORE_REPO" >&2
+            exit 1
+          fi
+          echo "verifying work slugs against $CORE_REPO@$tag"
+          gh release download "$tag" --repo "$CORE_REPO" --pattern meta.sqlite.gz
+          gh release download "$tag" --repo "$CORE_REPO" --pattern meta.sqlite.gz.sha256
+          # The published checksum is over the .gz, the universal anchor.
+          sha256sum -c meta.sqlite.gz.sha256
+          gunzip meta.sqlite.gz
+
+      - name: Dump the issue body to a file
+        env:
+          # Untrusted: written verbatim, never interpolated into a command.
+          BODY: ${{ github.event.issue.body }}
+        run: printf '%s' "$BODY" > issue-body.md
+
+      - name: Compose the sidecar (metaissue)
+        id: run
+        working-directory: core
+        # The routing template is derived inside metaissue from the issue's
+        # labels (issueform.TemplateFromLabels), so the allowlist lives in ONE
+        # place. metaissue always emits a JSON verdict - even with no routing
+        # label it returns status:invalid - so a data:-labelled issue is never
+        # processed silently. A core form opened here (add-work and friends) is
+        # needs-human naming the core repository, which is the profile's own
+        # doing rather than a rule this workflow restates.
+        env:
+          LABELS: ${{ toJSON(github.event.issue.labels.*.name) }}
+        run: |
+          go run ./cmd/metaissue \
+            --labels "$LABELS" \
+            --body "$GITHUB_WORKSPACE/issue-body.md" \
+            --data "$GITHUB_WORKSPACE/data" \
+            --profile community \
+            --works-db "$GITHUB_WORKSPACE/meta.sqlite" \
+            > "$GITHUB_WORKSPACE/result.json" || {
+            echo '{"status":"invalid","files":[],"messages":["metaissue failed to run"]}' > "$GITHUB_WORKSPACE/result.json"
+          }
+          cat "$GITHUB_WORKSPACE/result.json"
+          {
+            echo "status=$(jq -r .status "$GITHUB_WORKSPACE/result.json")"
+            echo "template=$(jq -r '.template // ""' "$GITHUB_WORKSPACE/result.json")"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Build the pull-request body
+        id: prbody
+        if: steps.run.outputs.status == 'ok'
+        env:
+          ISSUE: ${{ github.event.issue.number }}
+          SUBMITTER: ${{ github.event.issue.user.login }}
+        run: |
+          # The license layer is classified by metaissue (issueform.licenseLayer)
+          # and carried on the result, so this workflow never re-derives it.
+          layer="$(jq -r '.license' result.json)"
+          {
+            echo "Automated from #${ISSUE} (submitted by @${SUBMITTER})."
+            echo
+            echo "License layer: **${layer}**."
+            echo
+            echo "Files:"
+            jq -r '.files[]? | "- `" + . + "`"' result.json
+            echo
+            mapfile -t msgs < <(jq -r '.messages[]?' result.json)
+            if [ "${#msgs[@]}" -gt 0 ]; then
+              echo "Notes:"
+              for m in "${msgs[@]}"; do echo "- ${m}"; done
+              echo
+            fi
+            echo "Closes #${ISSUE} on merge."
+            echo
+            echo "> Composed by the intake bot. A maintainer still reviews and approves before merge."
+          } > pr-body.md
+
+      - name: Open the pull request
+        if: steps.run.outputs.status == 'ok'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          # A PR created with the default GITHUB_TOKEN triggers NO pull_request
+          # workflows (GitHub's recursion guard), so the "check" gate never runs
+          # and the PR is unmergeable until a human pushes to it or
+          # closes/reopens it. INTAKE_PAT is a fine-grained PAT (this repository
+          # only, Contents + Pull requests read/write) whose PRs trigger CI
+          # normally; the github.token fallback keeps intake working (degraded)
+          # if the PAT is missing or expired.
+          token: ${{ secrets.INTAKE_PAT || github.token }}
+          base: main
+          # Only the data tree belongs in an intake PR - without this the action
+          # commits the whole working tree, including this job's scratch files
+          # (issue-body.md, result.json, pr-body.md, meta.sqlite) and the core
+          # tooling checkout under core/.
+          add-paths: data/**
+          branch: intake/issue-${{ github.event.issue.number }}
+          commit-message: "intake: issue #${{ github.event.issue.number }} (${{ steps.run.outputs.template }})"
+          title: "[intake] ${{ github.event.issue.title }}"
+          body-path: pr-body.md
+          labels: |
+            data
+            bot-intake
+          delete-branch: true
+
+      - name: Comment the outcome and label the issue (non-ok)
+        if: steps.run.outputs.status != '' && steps.run.outputs.status != 'ok'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+          STATUS: ${{ steps.run.outputs.status }}
+        run: |
+          {
+            case "$STATUS" in
+              duplicate)   echo "This looks like it's **already in the database**." ;;
+              needs-human) echo "Thanks! This needs a **maintainer** to finish - it can't be applied mechanically." ;;
+              invalid)     echo "This submission couldn't be processed automatically. Please check the details below." ;;
+            esac
+            echo
+            jq -r '.messages[]? | "- " + .' result.json
+            echo
+            echo "_Posted by the intake bot._"
+          } > comment.md
+          gh issue comment "$ISSUE" --body-file comment.md
+          gh issue edit "$ISSUE" --add-label "data:${STATUS}" || true
+
+  # Keep the bot's own open pull requests mergeable after a merge to main.
+  #
+  # Records are stored in pack files (PACK-SPEC.md in core), so two pull requests
+  # adding entries in the same slug range touch the same file and the second one
+  # conflicts. The resolution is mechanical - three-way merge the entries,
+  # re-render canonically - and it is scripted so a maintainer never hand-merges a
+  # bot pull request. scripts/pack-union-merge.sh owns the rules (and the cases it
+  # refuses); core's scripts/packmerge_test.go drives that script through real
+  # rebases, so this workflow is only the sweep around it.
+  #
+  # Every failure is contained to ONE pull request: the branch is restored, the
+  # working tree cleaned, a comment posted, and the sweep moves on. A transport
+  # failure (a lost --force-with-lease race, a branch deleted mid-sweep) must not
+  # take the remaining pull requests down with it.
+  rebase:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    # Narrower than the intake job's: no issues: write, because nothing here
+    # touches an issue.
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # The rebase needs real history, and the PAT (when present) is what
+          # makes the force-push re-trigger the required checks - the same
+          # reasoning as the create-pull-request step above.
+          fetch-depth: 0
+          token: ${{ secrets.INTAKE_PAT || github.token }}
+
+      - name: Checkout the core tooling
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.CORE_REPO }}
+          ref: ${{ env.CORE_REF }}
+          path: core
+          sparse-checkout: |
+            cmd
+            internal
+            pkg
+            schema
+            go.mod
+            go.sum
+            schema.go
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: core/go.mod
+
+      - name: Rebase open intake pull requests
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # jq is preinstalled on ubuntu-latest and is what pack-union-merge.sh
+        # merges with; a runner image without it would fail the merge step and
+        # leave every conflicted pull request for a human, which is the safe way
+        # round.
+        run: |
+          set -uo pipefail
+          git config user.name "audiosilo-intake-bot"
+          git config user.email "intake-bot@users.noreply.github.com"
+
+          # .gitattributes routes data/**/*.json to this driver; a driver only
+          # runs where it is configured, so this line is what turns it on for the
+          # sweep. It matters because git's LINE merge is unsound for a pack file:
+          # two branches adding the SAME entry key can have their insertions
+          # anchored at different lines, and git then writes the key TWICE - a
+          # file pkg/pack refuses and metafmt cannot re-render. The driver merges
+          # the entry maps before any of that can happen, and refuses exactly what
+          # the recipe below refuses.
+          git config merge.packjson.name "three-way merge of pack-file entries"
+          git config merge.packjson.driver "scripts/pack-union-merge.sh %O %A %B %P"
+
+          # The tooling runs from the core checkout against THIS tree, under the
+          # profile that says this root holds one family.
+          fmt() { (cd core && go run ./cmd/metafmt --write -data "$GITHUB_WORKSPACE/data" --profile community); }
+          chk() { (cd core && go run ./cmd/metacheck -data "$GITHUB_WORKSPACE/data" --profile community); }
+
+          gh pr list --state open --label bot-intake --json number,headRefName \
+            --jq '.[] | [.number, .headRefName] | @tsv' > prs.tsv
+          if [ ! -s prs.tsv ]; then
+            echo "no open intake pull requests"
+            exit 0
+          fi
+
+          # restore returns the checkout to a clean copy of main. `git clean` is
+          # not optional: metafmt --write can CREATE pack files before metacheck
+          # rejects the tree, and an untracked file left behind would be
+          # committed onto the next pull request in the sweep.
+          restore() {
+            git rebase --abort 2>/dev/null || true
+            git checkout --quiet --force main 2>/dev/null || true
+            git clean -fdq data 2>/dev/null || true
+          }
+
+          swept=0
+          while IFS=$'\t' read -r number branch; do
+            echo "::group::PR #${number} (${branch})"
+            failure=""
+
+            if ! git fetch --quiet origin main "$branch"; then
+              failure="the branch could not be fetched (deleted, or renamed?)"
+            elif git merge-base --is-ancestor origin/main "origin/${branch}"; then
+              echo "already on top of main"
+              echo "::endgroup::"
+              continue
+            elif ! git checkout --quiet -B "$branch" "origin/${branch}"; then
+              failure="the branch could not be checked out"
+            else
+              # The rebase output is kept because a CLEAN rebase can still have
+              # merged two branches' entries: the driver resolves a pack conflict
+              # inside the replay, and says so on the line grepped for below.
+              rebaselog="${RUNNER_TEMP:-/tmp}/rebase-${number}.log"
+              if git rebase origin/main > "$rebaselog" 2>&1; then
+                cat "$rebaselog"
+                if grep -q "merged both sides" "$rebaselog"; then
+                  # A driver merge lands as jq's rendering of the entry map, and
+                  # the merged pack may now be due a split, so normalize before
+                  # pushing - the same pass the conflicted path runs below.
+                  if ! fmt; then
+                    failure="metafmt could not normalize the merged tree"
+                  elif ! chk; then
+                    failure="metacheck rejected the merged tree"
+                  else
+                    git add data
+                    if ! git diff --cached --quiet; then
+                      GIT_EDITOR=true git commit --amend --no-edit --quiet \
+                        || failure="the normalized merge could not be committed"
+                    fi
+                  fi
+                fi
+              else
+                cat "$rebaselog"
+                # Three-way merge every conflicted pack file, then let metafmt place
+                # and re-render the result. Anything else - a conflict outside
+                # data/, or one member edited on both sides - is for a person.
+                for f in $(git diff --name-only --diff-filter=U); do
+                  case "$f" in
+                    data/*.json) scripts/pack-union-merge.sh "$f" || failure="the pack merge could not resolve ${f}" ;;
+                    *) failure="conflict outside the data tree: ${f}" ;;
+                  esac
+                  [ -z "$failure" ] || break
+                done
+                if [ -z "$failure" ] && ! fmt; then
+                  failure="metafmt could not normalize the merged tree"
+                fi
+                if [ -z "$failure" ] && ! chk; then
+                  failure="metacheck rejected the merged tree"
+                fi
+                if [ -z "$failure" ]; then
+                  git add data
+                  GIT_EDITOR=true git rebase --continue || failure="the rebase could not be continued"
+                fi
+              fi
+            fi
+
+            if [ -z "$failure" ] && ! git push --force-with-lease origin "$branch"; then
+              # A lost lease means someone else moved the branch while we worked;
+              # the next push to main sweeps it again.
+              failure="the branch moved while it was being rebased"
+            fi
+
+            restore
+            if [ -n "$failure" ]; then
+              gh pr comment "$number" --body "The intake bot could not rebase this branch onto \`main\` mechanically: ${failure}. It needs a maintainer." \
+                || echo "::warning::could not comment on PR #${number}"
+              echo "::warning::PR #${number} needs a human: ${failure}"
+            else
+              echo "rebased and pushed"
+              swept=$((swept + 1))
+            fi
+            echo "::endgroup::"
+          done < prs.tsv
+          echo "rebased ${swept} pull request(s)"
