@@ -7,10 +7,17 @@ name: check
 # access to secrets. Do not switch to `pull_request_target` (the "pwn request"
 # supply-chain pattern) - any privileged follow-up must live in a separate
 # workflow that consumes only artifacts. Core's check.yml carries the same rule.
+#
+# workflow_dispatch is here because the KEYS job's verdict is a function of
+# something outside this repository: the newest core data release. A key that
+# reports unknown today because core has not cut a release yet resolves once it
+# does, with no commit here to hang a re-run on - so a maintainer needs to be
+# able to ask again by hand.
 on:
   pull_request:
   push:
     branches: [main]
+  workflow_dispatch:
 
 # Least privilege: read the code, nothing more. The keys job talks to the public
 # core repository's releases through this same read-only token; no secrets are
