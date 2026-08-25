@@ -3325,6 +3325,18 @@
         ],
         "work": "mirror-dance"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:us:B002V1A7F4",
+            "type": "community"
+          }
+        ],
+        "text": "In this entry of the Vorkosigan Saga, an unnamed clone of Miles Vorkosigan successfully impersonates him as Admiral Naismith, commandeering a Dendarii warship and a combat squad for an unauthorized raid meant to rescue dozens of children from a Jacksonian clone house before their bodies are used in brain transplants. When Miles learns that someone using his covert identity has taken the ship toward Jackson's Hole, he must decide how to respond without exposing that the impersonator is his own secret brother, created years earlier from a childhood sample of Miles for a Komarran plot against his father. As Miles moves to intervene, the raid grows more dangerous, endangering both the rescued children and his own people.",
+        "work": "mirror-dance"
+      },
       "recaps": {
         "ending": "Ryoval is dead, killed by Mark's Killer persona, and Baron Fell gains access to his half-brother's holdings after accepting Mark's exchange. In return, the clone medical collective leaves Jackson's Hole for Escobar with funding and Dendarii protection. The earlier rescued clones receive long-term support from money Mark places in escrow, and he invests in medical work intended to replace lethal brain transplantation. Bel Thorne leaves Dendarii command and may pursue Imperial Security work. Elli Quinn and Elena Bothari-Jesek remain trusted allies, while Miles and Quinn's conflicting hopes for their future remain unresolved. Aral Vorkosigan is recovering from a heart transplant. Miles survives cryo-amnesia and captivity but conceals convulsions and worries about lasting memory damage while awaiting medical clearance. Mark accepts the Black Gang as part of himself and plans confidential therapy, college, and eventual work as an intelligence analyst. He and Miles settle into a more equal brotherhood, and Mark begins a cautious, family-supported relationship with Kareen.",
         "in_short": "Mark, Miles Vorkosigan's engineered clone brother, steals a Dendarii cruiser to save children raised as replacement bodies. Miles pursues him, is gravely wounded during the extraction, and disappears in a cryo-chamber secretly routed to a Jackson's Hole medical collective. While Imperial Security's search falters, Mark gains recognition from the Vorkosigan family and leads a private recovery mission. Revived with amnesia, Miles eventually recovers his identity, while Baron Ryoval captures and tortures Mark. Protective personae called the Black Gang preserve Mark until Killer murders Ryoval. Mark exchanges Ryoval's code keys for the collective's evacuation and financial support. Both brothers return to Barrayar. Miles remains on medical leave with convulsions and memory fears, while Mark funds the rescued clones and a safer medical venture, plans therapy and study, and begins building a relationship with Kareen.",
@@ -4177,6 +4189,18 @@
             "type": "community"
           }
         ],
+        "work": "mission-of-honor"
+      },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:uk:B004FT70QY",
+            "type": "community"
+          }
+        ],
+        "text": "In this entry of the Honor Harrington series, the Solarian League reels after a Solarian admiral's unprovoked attack on Manticoran ships ends in the destruction of his own flagship and the surrender of his task force, an incident secretly engineered by the Mesan Alignment to push the League and Manticore toward open war. While Solarian officials debate how to respond and Honor Harrington travels personally into Haven to negotiate an end to that separate, long-running war, the Alignment quietly moves a covert strike force into position near the Manticore system, preparing a surprise attack meant to look untraceable. Across several fronts, political leaders, naval officers, and secret operatives maneuver toward a confrontation that could reshape the balance of power among the galaxy's great states.",
         "work": "mission-of-honor"
       },
       "recaps": {

@@ -2466,6 +2466,18 @@
         ],
         "work": "the-village-of-noobtown"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:uk:1774240963",
+            "type": "community"
+          }
+        ],
+        "text": "The second entry in the Noobtown series follows Jim as mayor of the small settlement Windfall Village, juggling everyday quests, resource shortages, and a barrier that protects the town from monsters above ground but not below. When Jim leads a party to reclaim the goblin-held Iron Pass Mine for its iron and crystals, a solo attempt to clear its remaining traps leaves him pinned and badly injured underground, until an unexpected creature offers rescue in exchange for becoming his bonded companion. With the mine reopened, Jim turns to building the village's economy and defenses, even as a sudden civil war between goblins and their rebelling wargs offers a fragile window to prepare before the valley's eventual victor turns its attention back to the village.",
+        "work": "the-village-of-noobtown"
+      },
       "recaps": {
         "ending": "Windfall survives the siege after Jim directs the goblin armies into battle with Dirge's Pumas and his allies secure all three siege cauldrons. Jim exposes the town tailor as the goblins' informant and uses the unstable life-energy orb to eliminate the underground attackers. The town's barrier is fully restored, and its defenders retake the Western Gate Fortress. Dirge loses most of his force but escapes north with 82 survivors. Jim remains mayor and specializes as a Mage Knight. Shart retains the dangerous orb, Badgelor's obligation against an unnamed betrayer remains unresolved, and Fenris leaves with Zorlando to resume the Narwhal trade mission. SueLeeta, Jarra, Mar, and the other surviving defenders remain part of Windfall's recovery. Bashara reports to the Sphinx after the conflict, and the search for the Shadow God's body continues elsewhere in the Riverlands. King Har Charles's campaign and his war with King Tim Simon also remain unresolved.",
         "in_short": "Jim works to turn Windfall Village, also known as Noobtown, into a viable settlement by reclaiming its mine and seeking a trade route to Narwhal. The journey reveals a refugee crisis and a murderous bandit force led by Dirge. After surviving the puma forest, Jim finds an unnatural life spring and secures its reality-defying source. His planned campaign against the bandits is interrupted by a goblin siege. Windfall's defenders capture the siege cauldrons, destroy a hidden underground force, and manipulate the goblins and Dirge's Pumas into fighting each other. The barrier is restored and the Western Gate Fortress is retaken. Dirge escapes north with a small remnant, while Fenris and Zorlando depart with trade goods for Narwhal. Jim remains mayor and becomes a Mage Knight. Bashara is ultimately revealed to serve the Sphinx, whose search for the Shadow God's body continues.",
@@ -3212,6 +3224,18 @@
             "type": "community"
           }
         ],
+        "work": "the-vor-game"
+      },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:us:B002V0GFSS",
+            "type": "community"
+          }
+        ],
+        "text": "Freshly graduated from the Imperial Military Academy, Miles Vorkosigan is assigned as chief meteorology officer at a remote winter-training base, a posting meant to test whether he can work within a chain of command before earning a coveted ship assignment. Miles clashes with the base's hostile commander, survives a near-fatal accident in the field, and quietly looks into a death that turns out to have an innocent explanation, all while proving unexpectedly skilled at predicting the base's dangerous local weather. When a toxic-waste accident escalates into a standoff over the safety of enlisted technicians, Miles's intervention draws the attention of Imperial Security, and he is taken into custody on a serious accusation partway through his assignment.",
         "work": "the-vor-game"
       },
       "recaps": {

@@ -543,6 +543,18 @@
         ],
         "work": "soldiers-of-fortune-joshua-dalzelle"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:us:B010BZ654S",
+            "type": "community"
+          }
+        ],
+        "text": "The second Omega Force novel opens with mercenary captain Jason Burke and his crew posing as internal security officers to pull Senator Hallis Vongaard, along with his family, out of a political purge on the blockaded world of Corran. Their cover blown mid-operation, the team fights free under fire and flies the family to safety in Eshquaria aboard their gunship Phoenix, evading a determined pursuit along the way. Once the senator is delivered and paid for, the mysterious broker who hired the rescue, Crisstof Dalton, reveals himself and offers Omega Force a further, unofficial job connected to the political crisis unfolding on Corran.",
+        "work": "soldiers-of-fortune-joshua-dalzelle"
+      },
       "recaps": {
         "ending": "Omega Force learns that the raids were a diversion meant to empty Eshquaria's home system before an assault on Shorret-3. With official channels unavailable or suspect, the crew attacks alone. Phoenix destroys one warship and damages another, but loses its shields, propulsion, and maneuvering before crashing near the settlement's tether anchor. Lucky breaks into the compound, and Kage stops the winch intended to bring the orbital ore platform down on six million people. Jason, Crusher, and Kage are seriously wounded while holding the control room. Colleren and Bostco reach them and summon medical aid. The crew has interrupted the attack, but the platform's final safety, the remaining enemy force, Phoenix's condition, and the immediate status of Doc and Twingo are not confirmed. Kross's appearance at The Complex and the presence of ConFed-linked assets leave the conspiracy's leadership and accountability unresolved, as do Dowarty's fate and Corran's political crisis.",
         "in_short": "After rescuing Corranian senator Hallis Vongaard and his family, Omega Force accepts a covert Eshquarian contract to investigate increasingly organized attacks on shipping. Posing as smugglers, the crew of Phoenix works through Mr. Black and Dowarty into a mercenary network, prevents an attack on a colonist fleet, and follows an injured Dowarty to The Complex. There Jason spots Mr. Kross, the official who manages Colleston's staff, amid a professional base, apparent ConFed transport, and supporting warships. Kage's copied records reveal that the raids are a diversion for an attempt to destroy Shorret-3 with its own orbital ore platform. Omega Force attacks without trusted support. Phoenix is crippled and crashes, but Lucky breaches the tether compound and Kage stops its winch. Colleren and Bostco arrive after Jason, Crusher, and Kage are seriously injured. The attack is interrupted, while the platform's safety, several crew members' conditions, Phoenix's future, and the conspiracy's leadership remain unresolved.",
@@ -2962,6 +2974,18 @@
             "type": "community"
           }
         ],
+        "work": "specops"
+      },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:us:B06W5861HP",
+            "type": "community"
+          }
+        ],
+        "text": "The second Expeditionary Force novel sends the stolen Thuranin star carrier Flying Dutchman back out on an independent mission, now crewed by a new multinational Special Operations contingent under Colonel Joe Bishop alongside the surviving members of the original crew. Their goal is to find an Elder communications device that might let the ship's alien AI, Skippy, contact his own kind, but early searches of abandoned alien sites turn up nothing useful while straining trust between the untested newcomers and Bishop's veterans. When a routine reconnaissance leaves part of the landing party stranded on a moon just as a Kristang battle fleet arrives for training exercises, Bishop must find a way to rescue his people without exposing the ship or revealing humanity's presence to a species that would consider it a target.",
         "work": "specops"
       },
       "recaps": {

@@ -1213,6 +1213,18 @@
         ],
         "work": "silence"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:uk:B0B1N8P7SL",
+            "type": "community"
+          }
+        ],
+        "text": "The second Unbound novel picks up with Felix Nevarre stranded in the void alongside his companion Pit and the now-weakened, imprisoned entity called the Maw, fleeing hostile creatures that feed on mana while Felix learns to control the involuntary leakage that keeps drawing them near. As the trio makes their way through the void's strange, isolated pockets of civilization, they are captured by a pirate crew and brought before the leader of a fortified stronghold called the Ten Hands, where Felix conceals his true nature even as Pit discovers that the pirates use captured people to power their ships. In a separate thread, Vessilia Dayne recovers from an earlier ordeal and testifies before her guild's tribunal in defense of the companions who defied orders to rescue abandoned prisoners.",
+        "work": "silence"
+      },
       "recaps": {
         "ending": "Felix and Pit return to the continent through the ruined temple's blood gate. The Maw crosses with them and confronts an unidentified chained presence, leaving its fate and Felix's primordial connection unresolved. Felix's dependence on Ravenous Tithe and his advancing bloodline processing also remain dangerous. The Ten Hands captain is dead, many captives are free, and Dahlia escapes alone, but Korm's fate and the whereabouts of the corva farmer's spouse and children are unknown. In Harwatch, Evie, Harn, and their companions cremate Magda. The Inquisition seals the Hargate and controls Foglands access, while the guild's concealed primordial-essence experiments continue in a desert domain. The imprisoned unidentified envoy deliberately infects another prisoner with blood-red primordial rot, advancing an unexplained plan connected to his father.",
         "in_short": "Banished into the void with Pit and the weakened Maw, Felix Nevarre learns to control his mana, escapes the Ten Hands pirates, and finds temporary refuge in Echo's Reach. In Harwatch, Magda Aren's allies uncover the guild's secret exploitation of Foglands survivors and recover Magda's preserved body. Echo's Reach leaders blame and banish Felix, after which he learns that the Ten Hands engineered the attacks. The pirates destroy the settlement and enslave its people as mana sources. Felix pursues the raiders, frees many captives, destroys their ships, and kills their corrupted captain. He and Pit then reach a ruined temple and activate a blood gate with the pursuing whale maw's blood, returning to the continent. Magda is cremated, but the guild's experiments continue despite the Inquisition's arrival. An unidentified imprisoned envoy begins spreading primordial rot, while the Maw confronts a vast chained presence after the crossing.",
@@ -3742,6 +3754,18 @@
             "type": "community"
           }
         ],
+        "work": "sky-world"
+      },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:us:B0BGK5WQFJ",
+            "type": "community"
+          }
+        ],
+        "text": "The eighteenth Undying Mercenaries novel opens when James McGill's daughter Etta discovers a buried, high-security bunker on the family's land - a discovery that draws deadly attention once McGill's own inquiries into it are traced by Earth's internal security, costing him a formal execution and an unexplained early revival. He is released just as a Rigelian diplomatic delegation arrives requesting his presence and warning Earth against activating Big Sky, a new planetary defense shield network. When Earth proceeds with the shield's first test despite the warning, the activation ends in catastrophe, and McGill's unit mobilizes for what looks like the opening of a far larger conflict.",
         "work": "sky-world"
       },
       "recaps": {

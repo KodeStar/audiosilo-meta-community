@@ -2855,6 +2855,18 @@
         ],
         "work": "the-flowers-of-vashnoi"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:us:1982557702",
+            "type": "community"
+          }
+        ],
+        "text": "This novella-length entry in the Vorkosigan Saga follows Ekaterin and Miles Vorkosigan as they inspect an experimental cleanup project in the Vashnoi nuclear exclusion zone, where genetically engineered radbugs are meant to strip radioactive contamination from the soil. When many of the insects go missing and hidden footage reveals a barefoot boy taking them from the test plot, Ekaterin and the project's lead scientist track the theft to a concealed settlement inside the irradiated zone. There they find a small group of people, including a severely ill teenage girl, who have survived hidden from the outside world for years, raising urgent questions about how they got there and what will happen to them now that they have been found.",
+        "work": "the-flowers-of-vashnoi"
+      },
       "recaps": {
         "ending": "Ekaterin forces the concealed household out of the exclusion zone after stopping Ma Roga's attempt to burn their home and kill Boris. Jadwiga, Ingisi, and Boris remain together under radiation isolation and evaluation at Hassadar General, while Ma Roga is guarded separately. Jadwiga's prognosis is still unknown. Miles decides that Vadim's long concealment of the settlement will cost him his ranger position, although Miles intends to find him other employment. Enrique offers Butterbug Ranch as quarantine space for the animals and as a possible later home and workplace for the three younger survivors. The Vashnoi restoration continues: the first radbugs proved that biological cleanup can work, but the failed trial leads Enrique to plan a tougher, burrowing, unpleasant-tasting design.",
         "in_short": "Ekaterin and Miles investigate missing radbugs from a promising cleanup experiment in the Vashnoi exclusion zone and discover a concealed household living amid severe radioactive contamination. Ingisi stole the insects as a gift for the dying Jadwiga, unaware that their glow marked concentrated radiation. Ma Roga, who was once exiled to the zone by Count Piotr and later sheltered abandoned children there, resists evacuation. Ranger Vadim Sammi is exposed as the settlement's long-time secret supplier. When Ma Roga tries to burn the household and kill Boris rather than let the group be separated, Ekaterin stops her. Jadwiga, Ingisi, and Boris are taken to Hassadar General, while Ma Roga is guarded separately. Vadim loses his ranger post, the animals gain a quarantine option at Butterbug Ranch, and Enrique prepares a redesigned radbug trial. Jadwiga's survival and the younger residents' long-term future remain unresolved.",
@@ -3378,6 +3390,18 @@
             "type": "community"
           }
         ],
+        "work": "the-forever-ship"
+      },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:uk:B0D343WN3Z",
+            "type": "community"
+          }
+        ],
+        "text": "The first book in the Starship Omega series follows the crew of the Imperium starship Tennyson as they detect a scrambled transmission in an ancient language, drawing suspicion from their Ornu overseer and leading them to investigate a signal-emitting probe near a distant asteroid. The investigation turns violent when combat drones attack the ship, and the crew barely recovers both the probe and a stranded Marine before learning the signal warns of an ancient threat that has also been detected elsewhere in the galaxy. Captain Bill Henderson, secretly opposed to Imperial rule, uses the discovery to arrange a covert meeting with a former military contact, leading to a dangerous mission: boarding an enemy dreadnought and fighting toward a contested world's surface in search of the same ancient technology both sides now want.",
         "work": "the-forever-ship"
       },
       "recaps": {
@@ -4439,6 +4463,18 @@
             "type": "community"
           }
         ],
+        "work": "the-fourth-secret"
+      },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:uk:B093CR89PC",
+            "type": "community"
+          }
+        ],
+        "text": "The fourth book in the Divine Apostasy series finds Ruwen Starfield establishing a new dungeon, Shattered Sun, on the edge of his territory while rebuilding his combat abilities after losing his original class in a prior death. Alongside his companion Sift, Ruwen sets out on a resource-gathering mission that leads them into an underground oil lake guarded by a hostile creature and, deeper still, into a hidden facility used by an enemy faction to revive its soldiers for the ongoing war. After narrowly escaping the facility by triggering an explosion, Ruwen returns home with valuable intelligence and immediately turns to diplomacy, offering displaced cultivator clans equal standing and a permanent home within his city without requiring combat service in return.",
         "work": "the-fourth-secret"
       },
       "recaps": {

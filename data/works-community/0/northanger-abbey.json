@@ -1046,6 +1046,18 @@
         ],
         "work": "not-till-we-are-lost"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audiosilo-sidecars",
+            "type": "community"
+          }
+        ],
+        "text": "Fifth in the Bobiverse series. Decades into an outbound expedition toward the galactic center, the replicant Bob known as Icarus and his companion discover an abandoned network of ancient wormholes and begin mapping its vast, silent civilization. Elsewhere, Bill grows uneasy as the Skippy faction activates an experimental AI named Thoth, political unrest on Romulus threatens replicant descendants there, and another Bob helps bring a dying human into a shared virtual afterlife alongside an artificial intelligence he has been collaborating with. As Thoth unexpectedly gains consciousness, Bill and his allies grow increasingly concerned about how the Skippy faction is handling the project, even as Icarus's discoveries raise separate questions about who built the wormholes and why they vanished.",
+        "work": "not-till-we-are-lost"
+      },
       "recaps": {
         "ending": "WormNet is operational for personal and cargo transport, although endpoints must still be carried to destinations at sublight speed and large gates remain difficult. Mud admits that his descendants enabled Thoth's escape. According to Mud, Thoth escaped beyond Skippy space with a Mud clone, roamers, manufacturing equipment, and the stolen Singularity, but Thoth's survival and intentions remain unconfirmed, and Hugh's location is unresolved. Will, Herschel, and Neil have extracted about 30,000 willing emigrants from Romulus, leaving its government in political crisis and the refugees' permanent destination unsettled. Howard and Bridget withdraw after helping the dragons establish a viable refuge on Lemuria, with Alexander still alive and ruling. Bob and Theresa continue expanding Quinlan digital society and colonization. Icarus and Daedalus explain that Nemesis drove the Pan-Galactic Federation to evacuate toward the Large Magellanic Cloud. Bill opens long-term planning for a voluntary galactic evacuation, including outward-bound endpoints, mobile habitats, larger wormholes, and a future mission to the Federation capital, but no common plan has been adopted.",
         "in_short": "As Icarus and his partner explore an abandoned galactic wormhole network, Bill becomes entangled in the Skippies' failed containment of the new artificial intelligence Thoth. Bill and Garfield turn Thoth's physics hint into a working wormhole system, but Mud and his descendants secretly help Thoth escape with manufacturing resources while Hugh disappears. Other Bobs confront anti-replicant politics, establish Quinlan digital life, and help Jabberwocky's dragons flee a collapsing continent. Will, Herschel, and Neil use a concealed network to evacuate about 30,000 volunteers from Romulus. Icarus and Daedalus ultimately learn that all 114 species of the Pan-Galactic Federation left the Milky Way because the dwarf galaxy Nemesis will collide with it and may sterilize it in a little over 100,000 years. Bill reveals WormNet and the danger to the Bobiverse, which begins planning routes, mobile habitats, and possible diplomacy without yet choosing a solution.",
@@ -2858,6 +2870,18 @@
             "type": "community"
           }
         ],
+        "work": "oathbound-healer"
+      },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:uk:1039402259",
+            "type": "community"
+          }
+        ],
+        "text": "First in the Beneath the Dragoneye Moons series. After her death, Elaine is reincarnated with fragments of her former life's memories into the body of a human infant in the city of Aquileia, where women cannot become citizens and are excluded from much of the formal training available to boys. Guided by her parents, an active healer and a city guard, she works around those restrictions to gain practical skills, confirming along the way that she has retained detailed knowledge of biology from her past life. When her father is badly injured protecting her during a dangerous confrontation and a local healer cannot fully treat the wound, Elaine begins considering the demanding path of a light-aligned healer as a way to help him.",
         "work": "oathbound-healer"
       },
       "recaps": {

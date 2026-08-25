@@ -344,6 +344,18 @@
         ],
         "work": "flowers-of-esthelm"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:uk:1774248123",
+            "type": "community"
+          }
+        ],
+        "text": "The third entry in The Wandering Inn series introduces Laken, a blind traveler pulled from San Francisco into a new world, who finds shelter with the powerful, ostracized half-troll Durene and unexpectedly gains the rare Emperor class. Elsewhere, the depleted Horns of Hammerad risk a dangerous excavation in the ruined city of Albez in search of desperately needed treasure, while Ryoka Griffin navigates a growing rivalry with a rival runner and an unusual friendship with a frost fairy offering to teach her Fae magic. At the Wandering Inn itself, staff and allies scramble to keep the business running in Erin's absence, and a newly arrived doctor from Earth is thrust into frontline battlefield medicine with only makeshift tools.",
+        "work": "flowers-of-esthelm"
+      },
       "recaps": {
         "ending": "Erin mourns Toren after authorizing Pisces to sever the mana sustaining him. No one witnesses Toren's destruction, so his fate remains uncertain. Erin chooses to return to Liscor with Ceria, Pisces, Yvlon, and Ksmvr. Pisces and Ksmvr recover an enchanted door and anchor from Albez, and the Horns give them to Erin. The mages turn the pair into a working portal connected to the inn, although its range and traffic depend on stored mana.\n\nLyonette has made the Wandering Inn viable through honey, cooked bees, and Antinium customers. She cares for the young white-furred Gnoll and a bee larva while Pawn's painted soldiers begin developing individual identities. Delegates from other Antinium hives arrive to inspect Liscor's unusual population, with Pawn's Acolyte class still concealed. Laken and Durene rule a devastated River Farm that needs food, shelter, burial work, and protection. Ryoka remains tied to Ivolethe and Magnolia while facing Persua's threatened revenge. Geneva continues her medical work in Baleros with her injured body dependent on the self-bodied rogue. The Esthelm siege is over, but the wider Goblin Lord army, Garen's hostility, and Magnolia's conflict with the Circle of Thorns remain open.",
         "in_short": "Several distant struggles reshape the people around the Wandering Inn. Laken becomes an Emperor and saves avalanche-buried River Farm with Durene. Geneva establishes neutral battlefield medicine in Baleros but survives only through a self-bodied rogue's connection. Ryoka befriends Ivolethe, clashes with Persua, and becomes Magnolia Reinhart's uneasy ally. Pawn turns a disastrous religious awakening into a path toward Antinium individuality, while Lyonette restores the inn by serving his painted soldiers and caring for a young Gnoll. In Esthelm, Redfang warriors sacrifice themselves to help defeat a Goblin Lord force as the independent skeleton Toren commands undead and escapes. Erin learns that Pisces created Toren with sentience and orders his mana link severed, though his death is not confirmed. She leaves for Liscor with the Horns of Hammerad, carrying a recovered magical door that now opens a portal to her inn.",
@@ -2266,6 +2278,18 @@
         ],
         "work": "for-we-are-many"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audiosilo-sidecars",
+            "type": "community"
+          }
+        ],
+        "text": "The second entry in the Bobiverse series follows the self-replicating AI Bob and his many copies as they juggle the survival of two very different communities: the Deltans, a primitive species Bob has quietly protected on the planet Eden, and the human colonists now settling the harsh world of Vulcan after fleeing a dying Earth. As Bob helps the Deltans defend against local predators and slowly uncovers evidence of a devastating, unidentified threat that once nearly wiped them out, other Bob copies scouting distant systems find entire civilizations erased and stripped of resources by an unknown force called the Others. Back on Earth, a radical faction escalates attacks on the planet's collapsing food supply even as evacuation efforts continue, and Bob must weigh how much intervention he can justify before his help does more harm than good to the people he has chosen to protect.",
+        "work": "for-we-are-many"
+      },
       "recaps": {
         "ending": "The defense of Delta Pavonis fails. The Others kill the Pav who remain on the planet and spend years stripping the system, but Jacques's contingency saves 20,000 Pav in stasis along with cultural, biological, and agricultural archives. Once awakened and told what happened, representatives of the survivors choose a new world at HIP-84051 instead of returning to a ruined homeworld under permanent Bob support. Their refugee ships depart for resettlement. Jacques and other replicants destroyed in battle can be restored into new vessels. Bill, Riker, and Oliver begin expanding dreadnought fleets and the network regroups at Gamma Pavonis while Bill develops a possible offensive answer to the Others. On Eden, Bob secretly visits Camelot through a Deltan-form android after years of banishment, but Diana dies and the unusually long-lived Archimedes is left a widower. On Vulcan, Stéphane dies, and Howard's human-form android allows him to begin a physical relationship with Bridget. Bender remains missing, Henry remains in recovery, and surviving Brazilian probes may still be active elsewhere.",
         "in_short": "The Bobs expand human colonies, link their distant network through SCUT, and confront threats on several fronts. Bob protects the Deltans from giant flying predators but is banished for the destructive scale of his intervention. Riker discovers that Vehement used malware to force Homer into sabotaging Earth's food infrastructure; Homer later destroys himself, and Riker eliminates Vehement's leadership. Meanwhile, Mario's discoveries reveal the Others, a hive species that consumes life and strips entire systems. New weapons, hardened ships, cloaking, and android bodies follow, but the Bobs cannot stop an Others fleet at Delta Pavonis. Jacques saves 20,000 members of the native Pav before the rest are killed and their world is dismantled. The refugees choose resettlement at HIP-84051. Howard returns physically to Vulcan through an android and begins a relationship with Bridget after Stéphane's death, while Bob secretly rejoins Archimedes's family before Diana dies. The network ends the book building fleets for an offensive war.",
@@ -4004,6 +4028,18 @@
             "type": "community"
           }
         ],
+        "work": "fracture"
+      },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:uk:B09TTWH1NX",
+            "type": "community"
+          }
+        ],
+        "text": "Fracture continues the story of Drew and his team defending a besieged stadium enclave against the alien Naga, in a world reshaped into a network of claimable territory nodes. As the group secures the last Naga stronghold and gains access to new facilities like a command post and communications array, leadership weighs bringing untested teenage fighters into combat for badly needed experience. With the Naga threat waning, attention turns toward Arlington, where unconfirmed but possibly dangerous claimants, human or otherwise, have taken hold of nearby nodes, and rising friction between military authority and independent factions complicates the enclave's next moves.",
         "work": "fracture"
       },
       "recaps": {
