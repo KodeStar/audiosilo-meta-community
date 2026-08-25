@@ -2,8 +2,9 @@
 
 The **CC BY-SA 4.0 community layer** of the AudioSilo audiobook metadata
 database behind [meta.audiosilo.app](https://meta.audiosilo.app): the
-spoiler-tagged **characters** and position-keyed **recaps** written by people who
-have read or heard the book.
+spoiler-tagged **characters**, the position-keyed **recaps** and the
+spoiler-free work **descriptions** written by people who have read or heard the
+book.
 
 The repository IS the data. There is one family here,
 `data/works-community/`, in the range-packed pack layout the whole project uses,
@@ -15,19 +16,26 @@ data/works-community/<dir-bound>/<bound>.json
 ```
 
 Each pack file is `{"entries": {"<work-slug>": {...}}}`, and each entry holds up
-to two members:
+to three members:
 
 - **characters** - the cast, each entry gated by a `reveal` position, described
   in own words for a reader who has just reached that chapter.
 - **recaps** - "story so far" summaries keyed by a `through` position, plus the
   optional whole-book `in_short` and `ending` summaries for a reader who has
   finished.
+- **description** - the spoiler-free paragraph a stranger reads before deciding
+  to listen: the intro on the work's page, its meta description, and the blurb
+  every downstream consumer shows. It is schema-supported once core's
+  `schema_version` 6 change has landed and this repository's pinned `CORE_REF`
+  has been bumped to it.
 
-Read **[AUTHORING.md](AUTHORING.md)** before writing either. To produce them from
-a book you own rather than from memory, follow **[EXTRACTION.md](EXTRACTION.md)**
+Read **[AUTHORING.md](AUTHORING.md)** before writing any of them. To produce
+them from a book you own rather than from memory, follow
+**[EXTRACTION.md](EXTRACTION.md)**
 (from an EPUB) or **[EXTRACTION-AUDIO.md](EXTRACTION-AUDIO.md)** (from the
 audiobook, via local ASR). Source material never enters this repository - only
-the derived sidecars.
+the derived sidecars. For a `description` that grounding is not a preference but
+a requirement - see AUTHORING.md.
 
 ## Its relationship to KodeStar/audiosilo-meta
 
@@ -80,7 +88,10 @@ Two routes, both fine:
 - **A pull request** against `data/works-community/` directly. Put the entry in
   the pack whose range covers the work slug - or the nearest one - and let
   `metafmt --write` place it correctly (see below). Approximately right is
-  enough; placement self-heals.
+  enough; placement self-heals. This is the **only** contributor route for a
+  `description`: there is deliberately no issue form for that member until the
+  intake pipeline has proven itself on the two that exist. Descriptions
+  otherwise land in maintainer-reviewed generation batches.
 
 Whichever route, [AUTHORING.md](AUTHORING.md) is the standard the entry is
 reviewed against: own words, neutral reference-guide voice, the length caps, and

@@ -8,7 +8,10 @@ its CLAUDE.md is worth reading before any non-trivial change.
 ## What this is
 
 **Data only.** One pack family, `data/works-community/`, holding the CC BY-SA
-4.0 characters and recaps sidecars, keyed by work slug. No Go module, no
+4.0 characters, recaps and description sidecars, keyed by work slug. The third
+member, `description` - the spoiler-free intro paragraph - is schema-supported
+once core's `schema_version` 6 change has landed and `CORE_REF` has been bumped
+to it; written against an older pin, metacheck rejects it. No Go module, no
 schemas, no build - the tooling all lives in core and is run against this tree.
 The three authoring guides (AUTHORING.md, EXTRACTION.md, EXTRACTION-AUDIO.md)
 live here because they document the process that produces this content.
@@ -102,7 +105,11 @@ pin is a recorded follow-up rather than a second mechanism.
   see AUTHORING.md's copyright section and the `metaextract ngram` check.
 - **Facts only, never fabricated.** If a fact cannot be verified, omit the
   optional field rather than guess. A sidecar written from model recollection
-  says so in its `sources[]`; it never invents specifics to fill a gap.
+  says so in its `sources[]`; it never invents specifics to fill a gap. A
+  `description` is the exception that goes further: recollection is **not**
+  accepted for it at all (maintainer decision, 2026-08-21), because it asserts
+  what a book is about with no spoiler gate and no reader position to bound it.
+  Skip the work over inventing its premise.
 - **CI security is deliberate**: plain `pull_request`, never
   `pull_request_target`, and a read-only token with no secrets. Core carries the
   same rule for the same reason.
