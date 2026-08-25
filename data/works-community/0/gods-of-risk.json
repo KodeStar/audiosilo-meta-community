@@ -3137,6 +3137,18 @@
         ],
         "work": "green-world"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:uk:1039404693",
+            "type": "community"
+          }
+        ],
+        "text": "Green World follows James McGill as he investigates a string of thefts from Central's supply docks tied to the resettlement of displaced aliens on Earth. Working the case alone and against orders, he traces the smuggling operation to a hidden transport device that pulls him off-world entirely, onto a planet stockpiled with weapons and equipment sized for a large, unknown military force. There he crosses paths with a familiar contact from his past and a renegade mercenary commander with his own agenda, setting off a chain of dangerous encounters that eventually sends McGill on a desperate effort to help a colleague pursue an unorthodox, legally questionable revival for someone she loved.",
+        "work": "green-world"
+      },
       "recaps": {
         "ending": "The Green World bombardment is believed to destroy the rebellion's undersea bases and end the gateway assault on Central, but Legion Varus leaves its trapped ground force behind. Abigail Claver dies in a plasma-grenade blast during the raid. The opposing alien power files a formal complaint, and Governor Knox protects her position by accepting Claver as the substitute culprit. McGill is released and is no longer treated as a criminal on Earth, while the wider rebel network and the political case remain unresolved. Etta survives restoration with her memories intact, but her incomplete body record forces the Investigator and Florimel to rebuild her with substitute human DNA, including material from Natasha Elkin. Her changed body bars an easy return to her Central life. After attacking Galina, Etta leaves Earth for Dustworld, where she joins Florimel and the Investigator in continued unregistered work. Galina recovers, holds imperator rank again, and resumes her personal relationship with McGill despite their damaged professional trust. Carlos still intends to leave Legion Varus, leaving a future command vacancy uncertain.",
         "in_short": "James McGill traces stolen migration supplies from Central's docks to Green World, where the Claver network is equipping an anti-Earth rebellion. Legion Varus enters Skae territory, raids the planet, and discovers enemy infrastructure beneath its ocean. Kraken, dogmen, and a solid-water dome trap the ground force until Galina Turov uses McGill as cover for a devastating bombardment and abandons the island troops. The strike appears to halt a simultaneous gateway attack on Central, but Etta is killed and Earth faces a diplomatic crisis. McGill, Florimel, and the Investigator recover Etta's archived mind and rebuild her in a body partly derived from Natasha Elkin. McGill escapes prosecution by directing Governor Knox toward Abigail Claver. In the closing material, Etta admits attacking Galina and chooses exile on Dustworld with Florimel and the Investigator, while McGill and Galina resume their relationship.",
@@ -4045,6 +4057,18 @@
             "type": "community"
           }
         ],
+        "work": "ground-state"
+      },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:us:B0FS2Z2SVC",
+            "type": "community"
+          }
+        ],
+        "text": "Ground State continues Joe Bishop's Task Force Black as it tries to track two escaped alien starships and uncover what the Maxolhx empire knows about them, all while nursing a badly damaged ship. A dangerous boarding raid on an enemy cruiser secures a captured navigation core, while separate analysis of the enemy's unusual technology and covert political maneuvering begin to reveal that the invaders are trying to rebuild the infrastructure needed for a larger incursion. As factions on Earth argue over whether to negotiate or fight, Bishop works to identify and disrupt the supply chain the enemy needs before it can finish building a replacement gateway into the galaxy.",
         "work": "ground-state"
       },
       "recaps": {

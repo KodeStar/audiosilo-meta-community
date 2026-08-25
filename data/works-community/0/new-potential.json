@@ -241,6 +241,18 @@
         ],
         "work": "new-potential"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:uk:B0DNKR5KKM",
+            "type": "community"
+          }
+        ],
+        "text": "The sixth entry in the Ultimate Level 1 series. Max is held in a magically sealed cell by a captor who eventually fits him with a collar, seals his stored gear, and releases him into hostile wilderness with a seven-day head start before the hunt resumes. Relying on improvised weapons and his own abilities, he fights his way through dangerous creatures, frees a captive named Amy, and travels with her toward the city of Kwan Ma, hoping to find someone capable of removing the collar. As the deadline closes in, the two make their way through the city's outer districts, where reaching help requires earning tokens and renown from its ring-based society.",
+        "work": "new-potential"
+      },
       "recaps": {
         "ending": "Max kills the dragonkin ruler in a public arena battle and uses her powers to prevent the traveler behind his removal from escaping. Bob attacks the traveler and acquires the travel ability Max needs. Max declares himself the city's champion, appointing Jazz Jack to oversee civic affairs and the dark elf attendant to run the arena. He defeats Amy over her role in the first weaponsmith's murder and leaves her with Jazz Jack for execution. The city remains under Max's remote authority, while his promise of a future skill shard to Jazz Jack and his obligation to help the dwarven weaponsmith create two more weapons remain open. Max returns to his own world, races through tower floors 40 to 47, and reunites with Tanila, Fowl, Batrire, Cordelia, and Dexic on floor 48. They conceal his cross-world captivity behind a story of overseas travel. Tanila confirms that she carries Max's child, and they expect threats connected to both of them. The party will tackle floors 49 and 50 together. Bob withdraws to evolve, the silver dragon's living egg remains in Max's care, and the original silver-eyed hunter is still at large.",
         "in_short": "A silver-eyed hunter abducts Max and releases him into a hostile world under a binding collar. Max survives the wilderness, frees Amy, and enters a city where arena victories offer power and a possible route home. Fighting as Ifrit, he advances through increasingly lethal contests while learning local crafting and strengthening Consume, which he names Bob. Amy gains power but arranges their first weaponsmith's murder. The dragonkin ruler then traps Max in a tower on another traveler's orders. Max survives the horde, kills a coerced silver dragon after promising to save its egg, breaks his collar, and defeats the ruler in dragon form. He takes the traveler's world-crossing ability, places Jazz Jack and the dark elf attendant over the city, and leaves Amy for execution. Back home, Max rejoins Tanila's party on floor 48. Tanila is pregnant, Bob is evolving, and the reunited group plans to clear floors 49 and 50 together.",
@@ -970,6 +982,18 @@
             "type": "community"
           }
         ],
+        "work": "night-school"
+      },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:us:B01JKE3C24",
+            "type": "community"
+          }
+        ],
+        "text": "The 21st Jack Reacher novel. Reacher is summoned to a covert interagency unit whose supposed training course turns out to be cover for investigating a mysterious hundred-million-dollar transaction. In Hamburg, a courier from a jihadist sleeper cell relays an unidentified American's asking price, and the seller's identity and what is being sold become the unit's central mystery, with a CIA double agent inside the cell limiting how openly the team can act. Working alongside his former sergeant Neagley and FBI and CIA support, Reacher chases leads through bars, a technology convention, and financial records, ruling out suspects until an eyewitness account and a police sketch finally narrow the search.",
         "work": "night-school"
       },
       "recaps": {

@@ -157,6 +157,18 @@
         ],
         "work": "thesaurize"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:uk:B0CMR27PPK",
+            "type": "community"
+          }
+        ],
+        "text": "The tenth entry in The Completionist Chronicles continues the story of Joe, a Ritual Architect and councilman of the growing settlement Novusheim, as he balances town development with an urgent personal search. After a letter reveals that his associate Daniela is being held against her will at a distant settlement, Joe sets out with allies to establish long-range travel through a network of linked shrines, hoping to reach her before communication goes silent entirely. Along the way Joe experiments with new rituals and magic, including a fast but ethically troubling method for locating Daniela that his friends work to talk him out of using, while continuing to expand Novusheim's defenses against escalating monster attacks.",
+        "work": "thesaurize"
+      },
       "recaps": {
         "ending": "Middle Village is largely destroyed after Joe's team uses ice wraiths and overloaded towers to penetrate the trap around Daniela. Joe forces Daniela to respawn, causing the elven cleric to violate his oath and lose his power temporarily. The cleric then accepts a two-day nonaggression agreement, promises not to act through proxies, and gives Joe authority over the local guild in return for healing. Joe resurrects Daniela and six human mages, restores the badly injured Jaxon, ends the bombardment, and removes the guild rule that compelled membership. Daniela helps dismantle the town hall, while survivors are offered a voluntary journey toward Novusheim before another beast wave. Heartpiercer McShootypants and Socar remain allied and survive the operation. Joe has completed Havoc's demand to destroy three elven settlements and can claim the recharge-station plans, but he is without mana for about a day. The cleric will be restrained for only two days, the broader theocracy remains hostile, and Novusheim still needs population, stronger defenses, and eventual Tier 5 city status for the larger escape plan.",
         "in_short": "Joe strengthens Novusheim while trying to locate Daniela, who is detained more than ten thousand miles away. He builds a shrine network, changes his approach to ritual design, rescues human laborers from elven rule, and destroys settlements for Havoc's recharge-station quest. A dangerous vault releases undying ice wraiths but also yields a valuable giant-world alloy and its recipe. Joe eventually discovers that Daniela is bait in Middle Village, a theocratic trap designed to capture him. With Jaxon, Heartpiercer McShootypants, Socar, and Nimue, he turns nearby wraiths and expendable defense towers into a diversion. Joe sends Daniela to respawn, exploiting the cleric's broken oath to win temporary peace and control of the local guild. He then revives Daniela and other casualties, restores Jaxon, dismantles the town hall, and leads willing survivors toward Novusheim. The rescue succeeds, but elven retaliation, the settlement's growth, and escape from the giant world remain unresolved.",
@@ -1425,6 +1437,18 @@
             "type": "community"
           }
         ],
+        "work": "this-inevitable-ruin"
+      },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:us:B0DK282SYV",
+            "type": "community"
+          }
+        ],
+        "text": "The seventh entry in the Dungeon Crawler Carl series finds Carl and Donut settling into the ninth floor's dungeon city of Laracos as newly minted warlords of the ragtag Princess Posse, forced into faction wars against a coalition of hostile teams. While recruiting crawlers, building alliances with the city's awakened NPCs, and preparing defenses before a ceasefire expires, Carl must also contend with a dangerous entity trapped in his chest tattoo that is increasingly able to act through him without his consent. As the countdown to open warfare ticks away, Carl and his allies scramble to fortify their new stronghold, secure allies among the local factions, and ready themselves for an assault by a much larger and better-equipped enemy force.",
         "work": "this-inevitable-ruin"
       },
       "recaps": {

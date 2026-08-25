@@ -1251,6 +1251,18 @@
         ],
         "work": "dead-reckoning"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:us:B0CNTZNKPJ",
+            "type": "community"
+          }
+        ],
+        "text": "The fifteenth entry in Omega Force finds Cage and the synth Lucky held captive after a rescue that turns out to be anything but: their captor, a shipowner hunting stolen battle-synth technology, discovers Lucky's mimic hardware has already been removed and instead conscripts them for an unclear mission under threat of a hidden explosive device. While Cage feigns illness to probe the ship's systems and Lucky works the crew for allies, Jason Burke and Combat Unit 701 chase a financial trail through brokers and a core-world bank to track the captor down, even as their home base on Satora is seized by hostile authorities and Omega Force is forced into a scattered evacuation. As the search narrows toward a world of anonymous mercenary contracts, a separate crisis brews back at Omega Force: a rejuvenation procedure has left Crusher dangerously unstable and exposed a genetic secret that could get him killed if the wrong people learn of it.",
+        "work": "dead-reckoning"
+      },
       "recaps": {
         "ending": "Omega Force stops the fortress extraction. Two of the five founders' descendants are killed, one is delivered alive to Esquarian intelligence, and the unstable prototype synth is destroyed by Lucky and 701. The impostor escapes, acquires Omega Force's contact details, and threatens retaliation, but Jason and Cage give rival syndicates and mercenary interests evidence that turns them against him. Cage disables the remote system controlling the coerced ship crew's explosive implants, although their safe evacuation is not confirmed. Lucky stays with Omega Force, while 701 plans to return to guard the Archive. Crusher gives up the public identity of Felex through a staged death, and Mazer and Morakar return home to preserve the deception. With Satora still holding its base, accounts, and equipment, Omega Force remains united aboard the Phoenix and heads for Esquarian protection, resupply, and refit.",
         "in_short": "Lucky and Cage are held by a crime financier who wants Lucky for a secret recovery operation. Jason Burke and Combat Unit 701 trace the financier's money and infiltrate his hired force, while the rest of Omega Force loses its Satora base and follows aboard the Phoenix. Lucky secures his friends' release by remaining behind, but the reunited crew discovers that the financier is an impostor seeking five syndicate founders' descendants from an ancient fortress. Omega Force stops their extraction, kills the unstable prototype synth, and sends a surviving founder's descendant to Esquarian intelligence. The impostor escapes but loses remote control over his coerced crew and is exposed to rival syndicates and mercenary guilds. Cage disrupts the crew's explosive controls, though their safe evacuation remains unconfirmed. Crusher's death as Felex is staged so he can live under his chosen identity. The displaced crew stays together and accepts Esquarian support.",
@@ -4342,6 +4354,18 @@
             "type": "community"
           }
         ],
+        "work": "death-world"
+      },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:us:B00YT8AV8A",
+            "type": "community"
+          }
+        ],
+        "text": "The fifth entry in Undying Mercenaries opens with McGill reconnecting with his family on leave, revealing that he has a daughter, Etta, from a prior relationship with Della, and arranging for his non-legion parents to meet her. Those plans are cut short when a homecoming ceremony for Legion Varus's first shipment from the newly won Machine World turns into a mass-casualty disaster: an out-of-control freighter crashes into the crowd, killing McGill along with his parents, who, as civilians, cannot be revived. Consumed by grief, McGill pushes his unit's pursuit of the unidentified attackers across a series of candidate star systems, eventually helping to locate a hidden, supposedly uninhabited world connected to the raid. When the pursuing ship comes under a sudden boarding attack as it moves to strike the planet, McGill and his squad must defend the ship, including the chamber holding its crew's only means of revival.",
         "work": "death-world"
       },
       "recaps": {

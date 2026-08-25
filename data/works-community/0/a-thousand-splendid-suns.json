@@ -1365,6 +1365,18 @@
         ],
         "work": "a-wanted-man"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:us:B0090Q9BM8",
+            "type": "community"
+          }
+        ],
+        "text": "The seventeenth Jack Reacher novel finds Reacher hitchhiking across Nebraska with a freshly broken nose when he is picked up by three strangers driving east in a Chevrolet. Unknown to him, a killing that investigators quickly judge to be the work of professionals has just taken place nearby, and law enforcement is hunting two suspects last seen in a distinctive red car. As Reacher rides along with his new companions, who give their names as Karen Delfuenso, Alan King, and Don McQueen, the group's route brings them toward a growing police search, with no connection yet established between the travelers and the crime authorities are trying to solve.",
+        "work": "a-wanted-man"
+      },
       "recaps": {
         "ending": "A sniper kills Julia Sorenson as she, Reacher, and Karen Delfuenso approach Wadiah's concealed former military installation. Reacher sends Delfuenso to summon support and enters alone. Inside, he finds handwritten financial records and containers of nuclear waste used as the visible reserve behind Wadiah's paper currency. He locates Don McQueen alive but bound and held by Peter King. Reacher kills Peter, frees McQueen, and fights toward an exit. Delfuenso returns in time to kill the guards about to shoot Reacher, then drives them away before the Quantico force arrives. McQueen and Delfuenso survive, while Sorenson and Peter are dead. The installation and its records remain for the incoming FBI operation, and the man who used the Lester identity is identified as Wadiah's mole within the CIA. Peter was only second in command, so Wadiah's ultimate leader and the wider reach of the network remain unresolved. Reacher leaves before the FBI can debrief him.",
         "in_short": "Hitchhiking through Nebraska, Jack Reacher accepts a ride from Alan King, Don McQueen, and Karen Delfuenso as police investigate a killing at a pumping station. Apparent murders and abductions draw Reacher into an unsanctioned investigation with FBI agent Julia Sorenson. The case proves to be a concealed FBI operation against Wadiah: McQueen is undercover, Delfuenso is his secret backstop, and Alan King is dead. Tracking McQueen leads Reacher, Sorenson, and Delfuenso to a hidden former military installation, where a sniper kills Sorenson. Reacher infiltrates the site, discovers an illicit paper bank backed by stored nuclear waste, frees McQueen, and kills Peter King, Wadiah's second in command. Delfuenso saves both men from the remaining guards and drives them away before federal forces arrive. Wadiah's local operation is exposed, but its ultimate leader remains unknown.",
@@ -2941,6 +2953,18 @@
             "type": "community"
           }
         ],
+        "work": "abyss"
+      },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-25",
+            "ref": "audible:uk:B0C1CTSRPP",
+            "type": "community"
+          }
+        ],
+        "text": "The seventh book of the Unbound series opens with Felix Nevarre transformed into a Greater Primordial and thrust into rule over a newly conquered city and its flooded surrounding territory. Still learning the extent of his new authority, Felix works to stabilize a population devastated by war, root out paladins and assassins hiding within the city, and install a chancellor to govern in his place, all while his closest allies grapple with the ways his growing power has reshaped their own abilities. Political intrigue among the city's nobility and a monster incursion tied to the changed landscape complicate his efforts to secure the territory before he and his people can move on.",
         "work": "abyss"
       },
       "recaps": {
