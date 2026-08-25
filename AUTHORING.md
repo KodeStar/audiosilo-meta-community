@@ -64,8 +64,8 @@ rejects it as an unknown member.
 The family is separate from `data/works/` so the licence boundary is structural:
 everything in `works-community` is **CC BY-SA 4.0**, everything in the core
 families is CC0. Every member carries `license` (**must** be `"CC-BY-SA-4.0"`)
-and `sources`; `characters` and `recaps` additionally carry `work` (the parent
-work slug, which must equal the entry key).
+and `sources`, and every member carries `work` (the parent work slug, which
+must equal the entry key).
 
 Add your entry to the community pack whose range covers the work slug - or the
 nearest one - and run `go run ./cmd/metafmt --write`: it places the entry
@@ -177,6 +177,7 @@ Copyright) - never their jokey, editorializing tone.
 
 ```json
 {
+  "work": "a-deadly-education",
   "license": "CC-BY-SA-4.0",
   "sources": [{ "type": "community", "ref": "audible:us:B012345678" }],
   "text": "A senior year at the Scholomance, a school with no teachers, no holidays and no way out until graduation. El has an affinity for mass destruction and refuses to use it, which leaves her scraping through on spite, hoarded mana and hard-won craft - and being repeatedly, publicly rescued by the one classmate everybody else adores."
