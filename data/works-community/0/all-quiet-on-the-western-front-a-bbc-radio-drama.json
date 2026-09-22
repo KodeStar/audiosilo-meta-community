@@ -1293,6 +1293,310 @@
         "work": "all-the-pretty-horses"
       }
     },
+    "all-the-skills-a-deck-building-litrpg": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A twelve-year-old borderland boy who resents Baron Kane and is fascinated by card magic. After witnessing a riderless dragon destroy the baron's carriage guard, he is ordered to open the locked case found in the wreck.",
+            "id": "arthur",
+            "name": "Arthur",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Arthur's father and the adult he trusts most. Calvan lives as a laborer in Border Village No. 49 and is Arthur's intended confidant after the dragon attack.",
+            "id": "calvan",
+            "name": "Calvan",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The noble who rules Arthur's borderland home. His guarded carriage carries a valuable card until a dragon attacks it.",
+            "id": "baron-kane",
+            "name": "Baron Kane",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An unnamed, riderless red dragon that ambushes Baron Kane's carriage, kills its carded escort, and takes their cards. It finds a locked case in the wreck and orders Arthur to open it.",
+            "id": "red-dragon",
+            "name": "the red dragon",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Arthur's closest friend in the border village. Arthur thinks of him while deciding where to hide the stolen card, but fears that even his best friend would be unable to keep such a dangerous secret.",
+            "id": "ernie",
+            "name": "Ernie",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A village kitchen worker whose feet have been amputated. Yuma directs Arthur while he prepares food for the dragon-soil work crews, giving him the practical experience through which his strange new card begins producing visible skills.",
+            "id": "yuma",
+            "name": "Yuma",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Baron Kane's carded treasure seeker. Dino uses a long-range ability to locate Calvan's hidden cache of knives and coins in the woods, but does not find the card Arthur carries.",
+            "id": "dino",
+            "name": "Dino",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Ernie's mother. Amanda becomes gravely ill after eating scourge-tainted food and dies despite Arthur's attempt to help prepare medicine; Ernie dies from the same illness soon afterward.",
+            "id": "amanda",
+            "name": "Amanda",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A well-provisioned traveler associated with Calvan who arrives with the donkey Bella. Red quietly tests Arthur's honesty and considers him for an opportunity that may provide a route away from the increasingly dangerous border village.",
+            "id": "red",
+            "name": "Red",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Red's donkey and Arthur's early animal-care companion. Looking after her briefly eases his grief and helps him develop equine care skills.",
+            "id": "bella",
+            "name": "Bella",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The identity Arthur uses while traveling with Red's caravan, chosen to keep attention away from his family background. The young apprentice presents himself under this name while learning caravan work and concealing the true nature of his card.",
+            "id": "ernest-youngblood",
+            "name": "Ernest Youngblood",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Red's physically imposing second-in-command and the owner of a cart covered with tobacco. He strikes Arthur for looking beneath the guarded cart.",
+            "id": "second",
+            "name": "Second",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "One of Second's associates in the caravan. Hivey joins in belittling Arthur and helps enforce Second's intimidating presence around the guarded tobacco cart, whose concealed contents Arthur is determined to discover.",
+            "id": "hivey",
+            "name": "Hivey",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Harvest Moon dragon rider partnered with Doshi. Chancy investigates vandalism at a schoolhouse by combining his far-seeing ability with Doshi's magic, reconstructing the offense and offering a carded boy hive work in place of punishment.",
+            "id": "chancy",
+            "name": "Chancy",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Chancy's silver-blue dragon partner. Doshi helps investigate a local crime through a combined magical reconstruction, detects unusual power around Arthur, and privately approaches him through a projected image while he is away from the caravan.",
+            "id": "doshi",
+            "name": "Doshi",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Bert referees the boys' gambling match and has a card. Chancy gives him the option of working for the hive rather than receiving a beating and paying restitution.",
+            "id": "bert",
+            "name": "Bert",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A small purple dragon serving on a hive rescue team. Tess and her rider save Arthur from pursuing scourgelings after his escape from Second, then carry him through a spatial rift toward a hive rather than returning him to the caravan.",
+            "id": "tess",
+            "name": "Tess",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Tess's rider and a member of a capable hive rescue pair. Hive staff identify Johanna while explaining that she and Tess are among their strongest rescuers.",
+            "id": "johanna",
+            "name": "Johanna",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hive official responsible for receiving survivors. Magda records Arthur as an uncarded displaced farm boy under the history he supplies, arranges medical attention, and explains how rescue teams and care for young evacuees operate.",
+            "id": "magda",
+            "name": "Magda",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The head director of the Wolf Cub Orphanage. Freyja places Arthur with Horatio, lays out the institution's rules, and uses a card-mark test to evaluate whether Arthur is ready to accept a card, unaware that he is already concealing cards.",
+            "id": "freyja",
+            "name": "Freyja",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arthur's new roommate at the Wolf Cub Orphanage. Horatio has a reputation for poor work, greets Arthur with hostility, and resents being assigned to help him settle in.",
+            "id": "horatio",
+            "name": "Horatio",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young silver dragon whose ability to smell strong magic makes Arthur's hidden cards dangerous to carry near the hive. Marteen searches the arena crowd for the source of two exceptional card scents despite her rider's attempts to control her.",
+            "id": "marteen",
+            "name": "Marteen",
+            "reveal": {
+              "chapter": 31
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A rare yellow dragon with a light aspect who once belonged to Horatio's father. Sams remains unlinked after that rider's death and waits for Horatio to obtain a rare card compatible with his light-enhancing abilities.",
+            "id": "sams-dragon",
+            "name": "Sams",
+            "reveal": {
+              "chapter": 33
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The restaurant's head chef, who recognizes Arthur's cooking ability and hires him as a part-time apprentice while he remains in school.",
+            "id": "restaurant-head-chef",
+            "name": "the restaurant head chef",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The restaurant's head chef, now identified as Chef Barlow. He supports Arthur's kitchen work and indicates that a bakery position may open for Horatio.",
+            "id": "chef-barlow",
+            "name": "Chef Barlow",
+            "reveal": {
+              "chapter": 33
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Marteen's rider and the person responsible for Arthur after the silver dragon carries him to the hive. Kenzie apologizes for the abduction and explains the dragon's intense interest in him.",
+            "id": "kenzie",
+            "name": "Kenzie",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hostile dragon rider who corners Arthur in restricted hive tunnels and demands a toll. Deacon uses a force effect to pin him against a wall and tries to seize his anchor bag until Kenzie intervenes and threatens a duel.",
+            "id": "deacon",
+            "name": "Deacon",
+            "reveal": {
+              "chapter": 41
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A riderless purple dragon whose former partner, Deborah, was killed. Pregnant and expecting her ordinary clutch to be disregarded, Corrie avoids the assigned nesting area and hides in a cave to lay an unusually small egg.",
+            "id": "corrie",
+            "name": "Corrie",
+            "reveal": {
+              "chapter": 43
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Calvan's successor and Arthur's uncle, encountered at Wolfmoon as a noble seeking access to a rare hatchling. Arthur confirms the family connection from a crest preserved among his mother's possessions.",
+            "id": "lionel-rowantree",
+            "name": "Lionel Rowantree",
+            "reveal": {
+              "chapter": 47
+            }
+          },
+          {
+            "aliases": [
+              "Penn"
+            ],
+            "description": "Lionel Rowantree's son and Arthur's cousin. Arthur identifies Penn from their family connection while covertly following his newly discovered relatives at Wolfmoon.",
+            "id": "pennrow-rowantree",
+            "name": "Pennrow Rowantree",
+            "reveal": {
+              "chapter": 47
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The false noble identity Arthur adopts when Penn catches him near Lionel's guest apartment. Presenting himself as Baron Kane's son lets Arthur remain close to his Rowantree relatives while concealing both his true family connection and his investigation.",
+            "id": "ernest-kane",
+            "name": "Ernest Kane",
+            "reveal": {
+              "chapter": 48
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A border-village specialist whom Calvan asks to examine Lionel's stolen card box. Lena analyzes its rune protections and works with Arthur to breach the outer lock.",
+            "id": "lena",
+            "name": "Lena",
+            "reveal": {
+              "chapter": 53
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0BLTLDSYM",
+            "type": "community"
+          }
+        ],
+        "work": "all-the-skills-a-deck-building-litrpg"
+      }
+    },
     "all-the-weyrs-of-pern": {
       "characters": {
         "characters": [
