@@ -2532,6 +2532,293 @@
         "work": "all-the-skills-5-a-deck-building-litrpg"
       }
     },
+    "all-the-skills-6-a-deck-building-litrpg": {
+      "characters": {
+        "characters": [
+          {
+            "description": "Brixaby's rider, a cardsmith, and the newly recognized leader of Blood Moon Hive. He begins his rule by examining a depleted card library and testing whether the former leader's staff will accept his authority.",
+            "id": "arthur",
+            "name": "Arthur",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Brix"
+            ],
+            "description": "Arthur's unusually large legendary purple dragon and bonded field partner. His recent growth has made his old blacksmithing equipment unusable, while his portals and linked card powers remain central to Arthur's efforts to secure Blood Moon Hive.",
+            "id": "brixaby",
+            "name": "Brixaby",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The former leader's senior manservant and the keeper of a concealed card library. He appears unwilling to recognize Arthur's new authority, admits him to the nearly emptied library, and then seals the dimensional entrance behind him.",
+            "id": "reginald",
+            "name": "Reginald",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "One of Blood Moon Hive's two remaining legendary riders from the previous administration. Arthur regards him as a potential leader, but the old regime has left him passive and unprepared to exercise independent authority.",
+            "id": "desmond",
+            "name": "Desmond",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A legendary Blood Moon rider and Desmond's associate. She is among the senior figures Arthur inherits when he takes control of the hive, although the former leader's command structure has given her little practice at governing on her own.",
+            "id": "sybil",
+            "name": "Sybil",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arthur's absent predecessor, whose exploitative rule depleted Blood Moon Hive's card reserves and left its people dependent on a rigid hierarchy.",
+            "id": "former-blood-moon-leader",
+            "name": "Former Blood Moon leader",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Equinox's rider. At her introduction, she is identified through her bond with the young red dragon as one of the rider-dragon teams available to Blood Moon Hive.",
+            "id": "soledad",
+            "name": "Soledad",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young red dragon bonded to Soledad. The pair belong to the developing group around Arthur and Blood Moon Hive, with Equinox still early in his growth and training when first identified as one of the hive's available rider-dragon teams.",
+            "id": "equinox",
+            "name": "Equinox",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hooded guide who operates in a void realm and can carry Arthur between planes. The guide helps Arthur leave the sealed library dimension and reach Wolf Moon Hive while pursuing Reginald.",
+            "id": "hooded-portal-guide",
+            "name": "Hooded portal guide",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A power holder in Wolf Moon Hive and an active political enemy of Arthur. Reginald identifies his leadership circle as the source of a legendary-card bounty, making Whitaker a direct obstacle to Arthur's return and consolidation of Blood Moon Hive.",
+            "id": "whitaker",
+            "name": "Whitaker",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An emotion reader, Martine's rider, and a former associate of Arthur. After Whitaker marginalizes the pair and withholds their expected rewards, she negotiates practical living terms and agrees to relocate to Blood Moon Hive.",
+            "id": "kenzie",
+            "name": "Kenzie",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Kenzie's silver dragon, whose talents are oriented toward support rather than direct fighting. She can identify promising potential riders by scent and travels with Kenzie after their standing within Wolf Moon Hive deteriorates.",
+            "id": "martine",
+            "name": "Martine",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elderly pink dragon and former chief tactics officer who volunteers for Arthur's retinue. She joins after the migration of Wolf Moon's neglected riderless dragons, bringing military experience to a force that urgently needs organization.",
+            "id": "cinderwood",
+            "name": "Cinderwood",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arthur's close ally and a shadow-moving combatant who helps convene his first major leadership meeting. She stands with him as he reports the emptied libraries and rejects continuation of Blood Moon Hive's blood price.",
+            "id": "cressida",
+            "name": "Cressida",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The king's mythic dragon and a demanding patron of Arthur and Brixaby. Lung Bai treats legendary cards as tests of judgment, insists that they pursue advancement through their own choices, and requires Arthur to continue leading Blood Moon Hive.",
+            "id": "lung-bai",
+            "name": "Lung Bai",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The ruler of the dragon hives, newly lucid enough to receive Arthur's report on the kingdom. His health still requires monitoring, and he asks for time to consider Arthur's account while Marion remains nearby to oversee his condition.",
+            "id": "the-king",
+            "name": "The king",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Blood Moon combatant who works in close partnership with Sams. During the hive's first disastrous eruption response, Arthur entrusts the pair with closing the portal used by mentally incapacitated riders.",
+            "id": "horatio",
+            "name": "Horatio",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Horatio's dragon and a dependable partner in Blood Moon's portal response. Sams acts on Arthur's command to close the route through which disabled dragons and falling riders have been returning from the eruption.",
+            "id": "sams",
+            "name": "Sams",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A healer, Asha's rider, and the king's son. He returns after treating Lung Bai's dragon with a new energy-restoring card from the royal library, adding another capable healer to Arthur's circle after the eruption battle.",
+            "id": "marion",
+            "name": "Marion",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Marion's young silver healing dragon. She returns beside her rider after their work treating Lung Bai's dragon, forming a medical partnership whose skills are important to the exhausted fighters around Arthur.",
+            "id": "asha",
+            "name": "Asha",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Cressida's intuitive pink dragon and a traveler through shadows. While Brixaby lies exhausted after absorbing a legendary card, Joy receives a precise warning of approaching danger and helps the group escape before hostile scouts arrive.",
+            "id": "joy",
+            "name": "Joy",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arthur's cousin, whose unexplained absence becomes alarming when Arthur investigates Rowantree Estate. Arthur's bond-seeking ability cannot locate Penn, adding to the evidence that the outwardly peaceful property is compromised.",
+            "id": "penn",
+            "name": "Penn",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Snow Moon Hive's leaders. He offers to place Arthur's forces in a legendary accelerated-time training space, with Arthur responsible for supplying the shards needed to operate it.",
+            "id": "hale",
+            "name": "Hale",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Snow Moon Hive's two leaders and a member of the gathered legendary leadership group. Rose joins the negotiations over accelerating eruptions and Blood Moon Hive's need for a stronger retinue.",
+            "id": "rose",
+            "name": "Rose",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The leader of Buck Moon Hive and holder of a legendary temporal ability. He evaluates Arthur by exploring several versions of their discussion, then accepts Arthur's opposition to the Scourgelings as credible.",
+            "id": "ismael",
+            "name": "Ismael",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An escaped, body-hopping Scourge enemy connected to Arthur and Brixaby. The Mindsinger uses coercive song and mental control, making its continued freedom a threat even before its current location or next objective is known.",
+            "id": "mindsinger",
+            "name": "Mindsinger",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A wild purple dragon with a natural storage card and a talent for logistics. He helps Arthur and Brixaby move their stockpiled training supplies into Blood Moon Hive, then receives a carrying harness and one of the new payment tokens.",
+            "id": "studley",
+            "name": "Studley",
+            "reveal": {
+              "chapter": 31
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Cinderwood's long-time unbonded human companion and a user of support cards. Dan Dan stabilizes Arthur after the crack-eruption battle, providing immediate aid when he emerges badly injured and depleted of life force.",
+            "id": "dan-dan",
+            "name": "Dan Dan",
+            "reveal": {
+              "chapter": 41
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A former assistant to Whitaker and a possible informer with divided loyalties. She warns Arthur that enemies within the hives may be discussing his death during a Scourgeling battle, claiming friendship and self-preservation as her motives.",
+            "id": "former-wolf-moon-assistant",
+            "name": "Former Wolf Moon assistant",
+            "reveal": {
+              "chapter": 47
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Penn's father, Arthur's uncle, and the holder of the family card Master of Spells. In the Rowantree winery he declares loyalty to the Mindsinger and traps Arthur with a runic array that cuts him off from his cards.",
+            "id": "lionel-rowantree",
+            "name": "Lionel Rowantree",
+            "reveal": {
+              "chapter": 49
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0GZ7S23PS",
+            "type": "community"
+          }
+        ],
+        "work": "all-the-skills-6-a-deck-building-litrpg"
+      }
+    },
     "all-the-skills-a-deck-building-litrpg": {
       "characters": {
         "characters": [
