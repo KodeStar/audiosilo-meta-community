@@ -357,6 +357,305 @@
         "work": "rise-of-the-living-forge-5"
       }
     },
+    "rise-of-the-living-forge-6": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The leader of the Menagerie and master of the Devil's Den. She uses her reach within the shadows to force the Dwarven Council to stop pursuing Ifrit, then recruits Ida as an insider who can report on the dwarves.",
+            "id": "lillia",
+            "name": "Lillia",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A figure pursued by the Dwarven Council until Lillia forces Indrana to end the hunt and surrender any claim of dwarven authority over him.",
+            "id": "ifrit",
+            "name": "Ifrit",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Indrana's daughter and a dwarven smith caught between the Council and the Menagerie. She rejects her mother's authority, accepts Lillia's protection, and agrees to serve as the Menagerie's source within the dwarven order.",
+            "id": "ida",
+            "name": "Ida",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A powerful figure on the Dwarven Council and Ida's mother. Lillia corners her politically and personally, compelling her to end the dwarven pursuit of Ifrit and transfer her smithing hammer to Ida.",
+            "id": "indrana",
+            "name": "Indrana",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A deceased covert informant who worked against the Adventurers Guild. His efforts and death remain important to Arwin.",
+            "id": "blake",
+            "name": "Blake",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Menagerie's Living Forge and one of the makers of a legendary connected suit of armor. Working with Wallace, Koyu, and the Infernal Armory, he completes a body for the awakened forge and gains new choices for his own growth.",
+            "id": "arwin",
+            "name": "Arwin",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "An awakened forge allied with Arwin and the Menagerie. It helps create a legendary armor set and identifies the completed armor as its own body.",
+            "id": "infernal-armory",
+            "name": "Infernal Armory",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A master artisan who works beside Arwin, Koyu, and the Infernal Armory. His practical experience and control of the forging process help the group finish the connected armor that becomes the awakened forge's body.",
+            "id": "wallace",
+            "name": "Wallace",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A lich artisan bound to Menagerie Street and a trusted participant in Arwin's forge work. He helps Arwin, Wallace, and the Infernal Armory complete the awakened forge's connected armor body.",
+            "id": "koyu",
+            "name": "Koyu",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An attendant at the Devil's Den who firmly enforces its prohibition on violence. When Vanessa arrives looking for Ifrit, Monica stops the visitor from turning a hostile message into a fight inside Lillia's establishment.",
+            "id": "monica",
+            "name": "Monica",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Shimmering Shield warrior-for-hire"
+            ],
+            "description": "A hired fighter affiliated with the Shimmering Shield. She comes to the Devil's Den looking for Ifrit and carries an employer's hostile message, but says she was not sent to kill him.",
+            "id": "vanessa",
+            "name": "Vanessa",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The publicly unfavored Blacktongue twin, whose analytical class gives him unusually detailed information about objects. His family places him in a duel against the better-equipped Drake, expecting Thane's defeat to strengthen the favored heir's reputation.",
+            "id": "thane-blacktongue",
+            "name": "Thane Blacktongue",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Thane's twin and the celebrated heir of House Blacktongue. He arranges a public duel that treats Thane as a family asset and an expendable means of enhancing his own status.",
+            "id": "drake-blacktongue",
+            "name": "Drake Blacktongue",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Menagerie intelligence operative with a citywide information network. He interferes with Eleven's surveillance of Vanessa as the warrior approaches the Devil's Den.",
+            "id": "rodrick",
+            "name": "Rodrick",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Menagerie member who joins Rodrick in monitoring Vanessa's approach and takes position to oversee Vanessa's confrontation with Arwin.",
+            "id": "anna",
+            "name": "Anna",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A potion merchant and logistics specialist chosen for the Menagerie's Blacktongue delegation. Her trade knowledge gives the group a credible commercial presence among nobles, while her portable shop provides transportation and supplies.",
+            "id": "esmerelda",
+            "name": "Esmerelda",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Menagerie fighter trusted with the defense of the Devil's Den while the Blacktongue delegation travels. She remains with the combatants assigned to protect the guild's home territory.",
+            "id": "olive",
+            "name": "Olive",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An observer who monitors the Menagerie's growing strength and the dangers gathering around the Blacktongue party. Lillia's ability to block her surveillance makes her reassess the group.",
+            "id": "eleven",
+            "name": "Eleven",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Menagerie combatant selected to remain at the Devil's Den and help protect the guild's home territory while the Blacktongue delegation travels.",
+            "id": "art",
+            "name": "Art",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Menagerie combatant who remains with the home force to protect the Devil's Den while the Blacktongue delegation travels.",
+            "id": "madiv",
+            "name": "Madiv",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Menagerie combatant who remains at the Devil's Den with the force assigned to protect the guild's home territory while the Blacktongue delegation travels.",
+            "id": "keen",
+            "name": "Keen",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Guild operative"
+            ],
+            "description": "An Adventurers Guild operative carrying a dagger designed to steal magic. He approaches the Blacktongues with a dangerous gift and defends the Guild's methods as necessary, prompting Arwin to confront him before the weapon can reach its intended recipient.",
+            "id": "mask",
+            "name": "Mask",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A senior Setting Sun representative who has abandoned his former name. He evaluates Arwin for class sunsetting and explains that the mesh is failing and the Adventurers Guild's proposed solution is not the only possible path.",
+            "id": "two",
+            "name": "Two",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Menagerie combatant active in the guild's operations.",
+            "id": "vix",
+            "name": "Vix",
+            "reveal": {
+              "chapter": 41
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Menagerie member who can become translucent and pass through solid walls.",
+            "id": "phasing-menagerie-member",
+            "name": "Phasing Menagerie member",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A bloodthirsty devil bound to a cursed obsidian axe. It manifests a shadowy form after Thane interferes with its attempt to claim Vanessa, freezing the others nearby while it confronts him.",
+            "id": "thanes-weapon-devil",
+            "name": "Thane's weapon-devil",
+            "reveal": {
+              "chapter": 48
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Menagerie fighter who joins Arwin, Olive, and Anna on the expedition to recover a hidden vault.",
+            "id": "menagerie-vault-fighter",
+            "name": "Menagerie vault fighter",
+            "reveal": {
+              "chapter": 70
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Menagerie's newly awakened auction house. Its dungeon-heart mechanism is bound to Madiv, who is intended to serve as its controller and auctioneer, but its behavior remains unknown when it first stirs.",
+            "id": "mausoleum",
+            "name": "Mausoleum",
+            "reveal": {
+              "chapter": 87
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Menagerie associate who remains away training when the guild assigns teams for its vault operation. She is not assigned to either active operation team.",
+            "id": "maeve",
+            "name": "Maeve",
+            "reveal": {
+              "chapter": 62
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Menagerie associate who remains away training when the guild assigns teams for its vault operation. He is not assigned to either active operation team.",
+            "id": "elias",
+            "name": "Elias",
+            "reveal": {
+              "chapter": 62
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Devil's Den's newly created armored guardian, a transcendent manifested soul rather than owned equipment. She is conscious, recognizes no master, and chooses to defend the Den while reserving lethal force for situations in which she judges death necessary.",
+            "id": "lillias-manifested-soul-guardian",
+            "name": "Lillia's manifested soul guardian",
+            "reveal": {
+              "chapter": 65
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0H857FH3Y",
+            "type": "community"
+          }
+        ],
+        "work": "rise-of-the-living-forge-6"
+      }
+    },
     "ritual-of-ruin": {
       "characters": {
         "characters": [
