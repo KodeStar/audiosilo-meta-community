@@ -1294,6 +1294,318 @@
       }
     },
     "all-the-skills-2-a-deck-building-litrpg": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Ernest Kane"
+            ],
+            "description": "A young man operating inside Wolf Moon Hive under the identity Ernest Kane. Valentina recognizes him near a newly recovered legendary egg, making him a possible candidate despite his apparently modest standing.",
+            "id": "arthur",
+            "name": "Arthur",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "One of Wolf Moon Hive's legendary-card leaders. She protects the unexpected legendary egg, recognizes Arthur beneath his cover identity, and takes a practical interest in whether he might be suitable for it.",
+            "id": "valentina",
+            "name": "Valentina",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A legendary-card leader of Wolf Moon Hive and the rider of Crag. He helps recover and guard the newly discovered legendary egg before rival hives can claim it.",
+            "id": "whitaker",
+            "name": "Whitaker",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An unlinked purple dragon found dead in an inaccessible cave after laying an egg. Her recovered egg proves to be legendary and immediately becomes a major concern for Wolf Moon Hive.",
+            "id": "cory",
+            "name": "Cory",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A noble candidate seeking a bond with Wolf Moon Hive's rare egg. She recognizes Arthur's Ernest Kane identity after helping him from a canal.",
+            "id": "cressida-icehouse",
+            "name": "Cressida Icehouse",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arthur's trusted former orphanage headmistress. She takes charge of the Borderland children he releases from timeless storage and offers the older children a chance to consider hive recruitment.",
+            "id": "freyja",
+            "name": "Freyja",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arthur's absent apartment-mate, known at first through the room they are meant to share inside the hive.",
+            "id": "horatio",
+            "name": "Horatio",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A candidate whose powerful rare earth card produces uncontrolled tremors that endanger the rare egg. Valentina disqualifies him, removes him from the selection, and sentences him to two weeks working in the dragon-soil fields.",
+            "id": "granton",
+            "name": "Granton",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A newly hatched rare pink shimmer dragon in critical condition. She rejects the available candidates, and a sickness seeker detects signs of scourge corruption.",
+            "id": "pink-hatchling",
+            "name": "Pink hatchling",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Barlow"
+            ],
+            "description": "A chef who knows Arthur from before his Ernest Kane identity. His recognition at the Scholars Guild service entrance puts Arthur's covert visit at immediate risk.",
+            "id": "chef-barlow",
+            "name": "Chef Barlow",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Valentina's enormous, elderly blue dragon. She collects Arthur, Cressida, and the newly linked Joyberry and carries them to the hive leader.",
+            "id": "alyssa",
+            "name": "Alyssa",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Joy"
+            ],
+            "description": "The pink shimmer hatchling after a successful bond completes her damaged core and restores her health. She links with Cressida through Quest of Life and introduces herself as Joyberry.",
+            "id": "joyberry",
+            "name": "Joyberry",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A mind mage affiliated with the white dragons. She records Arthur's chosen memories and testimony for the crown while confirming that he has some natural resistance to mental influence.",
+            "id": "devi",
+            "name": "Devi",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Arthur's recruiter and a practical Wolf Moon ally. She checks on him after the Scholars Guild disaster, helps him look the part of a minor noble, and assists his preparations for legendary competition.",
+            "id": "kenzie",
+            "name": "Kenzie",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A prince placed beside Arthur at the legendary hopefuls' dinner. His card shows him the next few seconds, and he uses that foresight while explaining the royal contenders around them.",
+            "id": "marion-amberlion",
+            "name": "Marion Amberlion",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Penn"
+            ],
+            "description": "A Rowantree suspicious of Ernest Kane's connection to a legendary card missing from his family. He tests Ernest with a sudden fork attack at the hopefuls' dinner.",
+            "id": "pennrow-rowantree",
+            "name": "Pennrow Rowantree",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Echo"
+            ],
+            "description": "Marion's younger half-sister and a royal legendary recruit. She reveals herself by transforming into Penn's likeness and can reproduce another person's appearance and card abilities.",
+            "id": "princess-echo",
+            "name": "Princess Echo",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A mind-magic scourge entity whose song seizes attention and directs its victims. It catches Arthur near the eruption site while he is trying to warn the arriving white dragons.",
+            "id": "mindsinger",
+            "name": "Mindsinger",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A rare mind healer at Buck Moon Hive who repairs Arthur's severe psychic injuries. The healer learns that Arthur holds two related legendary cards, promises confidentiality, and offers later training to strengthen his mental defenses.",
+            "id": "buck-moon-mind-healer",
+            "name": "Buck Moon mind healer",
+            "reveal": {
+              "chapter": 31
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Horatio's dragon, visibly changed by their new rare light-related bond. He arrives at Buck Moon carrying Horatio after Arthur's recovery from the eruption.",
+            "id": "sams",
+            "name": "Sams",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The noble whose family Arthur invokes while appearing before royal inquisitors as Ernest Kane, supposedly a non-heir son. The claim gives Arthur's cover a place in the noble hierarchy.",
+            "id": "baron-kane",
+            "name": "Baron Kane",
+            "reveal": {
+              "chapter": 34
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A young worker at Buck Moon who helps Arthur after he collapses from an all-night training run. Arthur hires her as his assistant for the legendary egg's hatching period.",
+            "id": "carly",
+            "name": "Carly",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The leading recruit in Buck Moon's ranking for the legendary egg. His position marks him as the strongest early favorite among the candidates.",
+            "id": "francis-orchardtree",
+            "name": "Francis Orchardtree",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A former legendary recruit whom Valentina says Arthur strongly resembles. Her connection to him becomes newly significant during the dueling phase.",
+            "id": "lottie-rowantree",
+            "name": "Lottie Rowantree",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A tiny, four-winged dark shimmer dragon hatched from Wolf Moon's legendary egg. He tears cards from candidates and leaders, turning the selection hall against him as an immediate lethal threat.",
+            "id": "brixaby",
+            "name": "Brixaby",
+            "reveal": {
+              "chapter": 43
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Calvan"
+            ],
+            "description": "Arthur's absent father at the border cottage. After learning more about his mother, Arthur tries to contact Calvan for answers about her legendary card and its history.",
+            "id": "calvan-rowantree",
+            "name": "Calvan Rowantree",
+            "reveal": {
+              "chapter": 47
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The ancient ruler who summons Arthur and Brixaby to court. He has a mythic dragon, appears as a bored teenager, and holds legendary riders within his royal retinue.",
+            "id": "the-king",
+            "name": "The king",
+            "reveal": {
+              "chapter": 52
+            }
+          },
+          {
+            "description": "Arthur's uncle and Penn's father. At court he claims that Arthur possesses a legendary card belonging to their family and petitions the king to transfer one of Arthur's paired cards to Penn.",
+            "id": "lionel-rowantree",
+            "name": "Lionel Rowantree",
+            "reveal": {
+              "chapter": 53
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Arthur",
+              "Ernest Kane"
+            ],
+            "description": "During the royal hearing, Arthur publicly gives his birth name and identifies Calvan Rowantree as his father. This establishes Pennrow as his cousin.",
+            "id": "arthur-rowantree",
+            "name": "Arthur Rowantree",
+            "reveal": {
+              "chapter": 53
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "The king's immense mythic dragon, aligned with water and magic. She stops Brixaby's attempted escape but grants Arthur another opportunity to argue for his life and their bond.",
+            "id": "lung-bai",
+            "name": "Lung Bai",
+            "reveal": {
+              "chapter": 55
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hostile cardholder from Arthur's earlier journey. Arthur owed him a coerced favor after a rescue during conflict, and the debt remains unresolved at the beginning of this book.",
+            "id": "second",
+            "name": "Second",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0BZZZHFFG",
+            "type": "community"
+          }
+        ],
+        "work": "all-the-skills-2-a-deck-building-litrpg"
+      },
       "recaps": {
         "ending": "Arthur survives the king's attempt to break his bond with Brixaby by surrendering Marion's unwanted time card, admitting how he obtained Master of Body Enhancement, and swearing a binding oath of service. He returns to Wolf Moon Hive with both legendary cards and begins building a retinue around Cressida, Joyberry, Carly, Horatio, and Sams. His identity as Calvan Rowantree's son is now public. Lionel and Pennrow retain their claim against him but are sent home to handle trouble in their duchy. Calvan is freed from the royal oath that confined him to Baron Kane's territory, although he remains in danger. Marion has abandoned his title and succession rather than take back the card that burdened him. Lung Bai directs royal mind mages to handle contact with the Mindsinger, but Brixaby absorbs the creature's sister's mind card before it can be returned. The act makes Brixaby grow and begin acquiring its power, while leaving Arthur unable to fulfill his bargain and worsening the unresolved scourge threat.",
         "in_short": "Arthur enters Wolf Moon Hive as Ernest Kane, protects a dying pink hatchling, and helps Cressida obtain the card that lets her bond with Joyberry. Competing for a legendary egg draws Arthur, Pennrow, Marion, and Echo into a disastrous eruption controlled by the Mindsinger. After surviving the field test and a series of duels, Arthur meets Brixaby, a legendary hatchling whose uncontrolled power steals cards. Brixaby links with Arthur's paired legendary cards and chooses him over Pennrow. At court, Arthur is exposed as Arthur Rowantree, condemned, and separated from his dragon after Lionel claims one of his cards for Pennrow. Arthur wins a second hearing by offering Marion's time card and accepting a royal oath. He returns to Wolf Moon with Brixaby, frees Calvan from an old oath, and begins forming a retinue. The book ends when Brixaby absorbs the mind card promised to the Mindsinger, grows larger, and starts gaining its power.",
