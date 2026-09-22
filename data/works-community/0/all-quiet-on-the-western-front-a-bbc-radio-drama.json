@@ -1685,6 +1685,307 @@
       }
     },
     "all-the-skills-3-a-deck-building-litrpg": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A capable Wolf Moon trainee who commands a class of new riders during eruption duty. He is linked to Brixaby and carries the responsibilities that come with being a legendary rider.",
+            "id": "ernest-kane",
+            "name": "Ernest Kane",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Arthur",
+              "Ernest Kane"
+            ],
+            "description": "The true identity of the rider known as Ernest Kane. Arthur is the former Duke Rowantree's son and adopted his dead childhood friend's name as protection.",
+            "id": "arthur-rowantree",
+            "name": "Arthur Rowantree",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Brix"
+            ],
+            "description": "Arthur's tiny legendary dragon partner. Although too small to carry his rider, he is exceptionally agile, can speak directly into nearby minds, and can temporarily imitate powers used around him.",
+            "id": "brixaby",
+            "name": "Brixaby",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Cressida"
+            ],
+            "description": "Joy's rider and one of Arthur's trusted classmates. She helps lead the formation, protects Joy, and brings both defensive magic and practical judgment to the group.",
+            "id": "cressida-icehouse",
+            "name": "Cressida Icehouse",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Joyberry"
+            ],
+            "description": "Cressida's young pink dragon and a frontline member of Arthur's class. Her quest card can identify objectives and rewards for the group.",
+            "id": "joy",
+            "name": "Joy",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Red Laird"
+            ],
+            "description": "A riderless red dragon whom Arthur recognizes among the dragons that abduct his group from Guardian City. He is associated with the hidden Mesa Free Hive.",
+            "id": "laird",
+            "name": "Laird",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A leader of Mesa Free Hive who identifies Arthur and Brixaby after their capture. She presents the desert settlement as a viable alternative to kingdom rule while keeping the visitors under restraint.",
+            "id": "chablis",
+            "name": "Chablis",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A riderless rare red dragon temporarily assigned to carry Arthur. His darkness-based transport is powerful but dangerous.",
+            "id": "shadow",
+            "name": "Shadow",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior leader at Wolf Moon Hive and Alyssa's rider. She deploys Arthur's trainee class to Guardian City and orders them to protect major card stores during the eruption.",
+            "id": "valentina",
+            "name": "Valentina",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior Wolf Moon figure already connected to Arthur's training and the hive's political leadership.",
+            "id": "whitaker",
+            "name": "Whitaker",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The instructor responsible for training Arthur's flying class. She is partnered with the orange dragon Brooks.",
+            "id": "athena",
+            "name": "Athena",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Athena's orange dragon partner and a member of the flight instruction staff.",
+            "id": "brooks",
+            "name": "Brooks",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A green dragon paired with Willard in Arthur's training class. During an exercise, he attacks Lilac after being marked and is permanently removed from the class with his rider.",
+            "id": "maurice",
+            "name": "Maurice",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Sylvie's purple dragon and a member of Arthur's training class. Maurice injures her during an exercise, prompting Arthur's first disciplinary decision as class leader.",
+            "id": "lilac",
+            "name": "Lilac",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A brown dragon in Arthur's flying class whose material-disintegration power clears falling debris and opens an escape route for trapped civilians during the Guardian City rescue.",
+            "id": "char",
+            "name": "Char",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A low-ranked blue dragon whose saltwater control supports Arthur's formation during the Guardian City emergency. He remains paired with an unnamed rider.",
+            "id": "len",
+            "name": "Len",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Mesa Free Hive craftmaster and chainmail worker who accepts Brixaby as an apprentice and negotiates pay for his work.",
+            "id": "dimitri",
+            "name": "Dimitri",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Mesa herb grower who cultivates unusual plants in partially cured dragon soil. She hires Arthur to test their effects in exchange for rare shards.",
+            "id": "flossie",
+            "name": "Flossie",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Mesa farmer whose rare magic accelerates plant growth without exhausting the soil. He teaches Arthur farming and lets him copy the growth spell.",
+            "id": "taza",
+            "name": "Taza",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A stealth-capable Mesa defender who notices Brixaby's sudden physical growth but chooses not to challenge Arthur's explanation.",
+            "id": "ghost",
+            "name": "Ghost",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An uncommon brown earth dragon captured while under the Mindsinger's control. His rider is being held hostage, giving him a direct reason to resist once Arthur restores his awareness.",
+            "id": "digger",
+            "name": "Digger",
+            "reveal": {
+              "chapter": 47
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arthur's friend from Wolf Moon Hive and the rider linked to Sams.",
+            "id": "horatio",
+            "name": "Horatio",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Horatio's dragon partner, known to Arthur from Wolf Moon Hive and able to use light magic.",
+            "id": "sams",
+            "name": "Sams",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Valentina's legendary dragon. She warns Arthur that a major city eruption could produce a demi-scourgeling that Brixaby would be obliged to fight.",
+            "id": "alyssa",
+            "name": "Alyssa",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An escaped mind-controlling Scourge entity and an unresolved enemy already tied to Arthur and Brixaby.",
+            "id": "mindsinger",
+            "name": "Mindsinger",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A disgraced Blood Moon heir burdened by gambling debts and connected to the identity Arthur has used for protection.",
+            "id": "baron-kane",
+            "name": "Baron Kane",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Arthur's father and the former Duke of Rowantree, endangered by the continuing struggle over the house.",
+            "id": "calvan-rowantree",
+            "name": "Calvan Rowantree",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arthur's uncle and a rival claimant whose ambitions threaten Arthur and his father.",
+            "id": "lionel-rowantree",
+            "name": "Lionel Rowantree",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Penn"
+            ],
+            "description": "Arthur's cousin, a competing Rowantree claimant who also holds legendary power.",
+            "id": "pennrow-rowantree",
+            "name": "Pennrow Rowantree",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A hostile carded associate who claims Arthur owes him for an earlier rescue. The obligation remains unsettled at the start of this book.",
+            "id": "second",
+            "name": "Second",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0CQ97PNCJ",
+            "type": "community"
+          }
+        ],
+        "work": "all-the-skills-3-a-deck-building-litrpg"
+      },
       "recaps": {
         "ending": "Arthur's coalition liberates Free Hive of the Waves, ends the active control over its surviving victims, and recovers many stolen eggs. The victory does not kill the Mindsinger. Brixaby's bond and nullification divert its attempt to seize Arthur, forcing it into a Scourge-rotted white dragon that escapes with followers, eggs, and a hidden legendary card. Digger reunites with his rider and helps relocate refugees to Island Free Hive. Laird returns to Mesa Free Hive to develop a volunteer defense force, while Cressida, Joy, Horatio, and Sams remain together and intend to rejoin Arthur later. At Wolf Moon Hive, Whitaker accuses Arthur of undermining command, but Valentina accepts his decision to leave. Brixaby identifies their recovered legendary card as Call of the Heart. Arthur and Brixaby intentionally trigger Return to Start, obscure their trail through Mesa, and follow the seeker's map through a portal to a kingdom on the far side of the world. They hope its unknown target will strengthen the wider fight against the Scourge.",
         "in_short": "Arthur and Brixaby are abducted to Mesa Free Hive, where they discover a society outside kingdom rule and prepare to confront the escaped Mindsinger. After finding Mesa's hidden combat-card library, they survive an emissary attack that kills Shadow, and Brixaby consumes the captured legendary weapon and grows large enough to carry Arthur. They repel an invasion, only to learn that the Mindsinger has stolen dragon eggs across several hives to harvest cards from hatchlings. Arthur unites Mesa volunteers with Wolf Moon forces, frees controlled victims, and reaches the operation's center. Brixaby prevents the Mindsinger from taking Arthur's body, but the enemy escapes inside a corrupted white dragon with eggs, followers, and a legendary card. The surviving eggs are recovered and the damaged hive evacuated. Arthur rejects Wolf Moon's political future, recovers Call of the Heart, and deliberately escapes with Brixaby. Its map sends them through a portal toward an unknown resource in a distant kingdom, while Cressida, Joy, Horatio, and Sams plan to follow.",
