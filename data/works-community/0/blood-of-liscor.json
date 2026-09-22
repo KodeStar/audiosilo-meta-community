@@ -1627,6 +1627,185 @@
         "work": "blood-world"
       }
     },
+    "bloodcrete": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Framkis"
+            ],
+            "description": "A returning gravity soulcrafter and ally of House Blacksilver, Theo is traveling as Framkis while searching for materials needed to improve his soul home. His work on an Arbai sand-ocean expedition is also connected to the danger surrounding Norro Yorthin.",
+            "id": "theo",
+            "name": "Theo",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "An Ichil light and kante soulcrafter traveling with Theo and Nauda. With her relative's guidance, Fiyu is designing a corporeal floor around her own identity and experiences rather than accepting a plan limited by the expectations of her home world.",
+            "id": "fiyu",
+            "name": "Fiyu",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "An authority-level Ichil traveler who guides Fiyu's development. He supplies rare materials and access to distant worlds, but increasingly requires Fiyu to choose and defend the principles of her own soulcrafting design.",
+            "id": "fiyus-relative",
+            "name": "Fiyu's relative",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Theo's interworld adversary and part of the threat driving his urgency. Theo connects Vistul to dangers beyond the immediate demon attacks and political instability around Norro Yorthin, making further preparation and advancement essential.",
+            "id": "vistul",
+            "name": "Vistul",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Tatian healer and natural-material soulcrafter allied with a colony on Celeste. Nauda leads a scouting force, cultivates sublime honey, and is warned by Tithes to seek a weir key as conflict between hives grows.",
+            "id": "nauda",
+            "name": "Nauda",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "The queen of Nauda's allied colony on Celeste. Queen Yessir regards Nauda as both an ally and a potential military asset, promotes her to Nauda guard, and prepares for a widening conflict among hives.",
+            "id": "queen-yessir",
+            "name": "Queen Yessir",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Queen Yessir's mate and a politically difficult figure connected to House Crimson. Tithes arrives with a sublime device and warns Nauda that worsening events on Fythe make the recovery of a weir key urgent.",
+            "id": "tithes",
+            "name": "Tithes",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A ruler-tier native of Celeste who rejoins Theo after working on a mushroom farm. Cree-Cree is a capable miner and demon fighter, but is still learning to judge people independently of caste and physical form.",
+            "id": "cree-cree",
+            "name": "Cree-Cree",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Arbai stone shaper and researcher who collaborates with Theo. Navim tests the gravity-responsive sand brought back from the expedition, agrees to turn it into soul-home windows, and crafts a durable pickaxe for Cree-Cree.",
+            "id": "navim",
+            "name": "Navim",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A traditionalist authority of House Blacksilver. Karcheval distrusts foreign materials and worries that reliance on outsiders could weaken or transform the house from within, placing him at odds with some of Theo's methods and associations.",
+            "id": "karcheval",
+            "name": "Karcheval",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A cursed traveler with extensive soulcrafting knowledge and intermittent lucid awareness. Senka reunites with Theo in a childlike state, briefly warns him not to worsen the plateau conflict, and points him toward a route through another world.",
+            "id": "senka",
+            "name": "Senka",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Asplendat soulcrafter who discovers Theo shadowing a Bloodcrete convoy. Homes opposes coerced ideological obedience and, after the confrontation, offers a conditional channel for negotiation if Theo can prove that an outside power is manipulating the conflict.",
+            "id": "homes",
+            "name": "Homes",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A House Blacksilver authority skilled in stealth and dust control. Jan helps review Theo's evidence from the plateaus and joins the house's investigation of the demon attacks and political pressure there.",
+            "id": "jan",
+            "name": "Jan",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A House Blacksilver authority and field commander whose armament can freeze enemies and kante attacks within a blue field. Dan appears among the authorities taking responsibility for Theo's plateau investigation.",
+            "id": "dan",
+            "name": "Dan",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dangerous apparent Earth-born outsider whom Theo considers a peer. Reports that Wraith Darkblade has ascended again make him a significant unknown amid the growing struggle over the Dustwind Plateaus.",
+            "id": "wraith-darkblade",
+            "name": "Wraith Darkblade",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Nauda's former mentor and an experienced Tatian ruler. Nanjuma helps her assess materials, confirms that an earlier gate dispute has been settled, and warns that neither Nauda nor Tatian is prepared for the dangers of a giant forest.",
+            "id": "nanjuma",
+            "name": "Nanjuma",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A ruler-tier representative of House of Coin at the plateau standoff. Cathina keeps her contingent close enough to matter after Fiyu appeals to her, while bargaining for additional assets before committing further support.",
+            "id": "cathina",
+            "name": "Cathina",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A House Crimson power opposed by Tithes. He seeks the demon-summoning artifact and commands an army whose funding is tied to death, making his intervention an immediate danger in the plateau conflict.",
+            "id": "tithes-father",
+            "name": "Tithes' father",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0GLR2GWKW",
+            "type": "community"
+          }
+        ],
+        "work": "bloodcrete"
+      }
+    },
     "bloodlines": {
       "characters": {
         "characters": [
