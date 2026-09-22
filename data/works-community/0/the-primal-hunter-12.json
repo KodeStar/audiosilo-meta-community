@@ -1245,6 +1245,445 @@
       }
     },
     "the-primal-hunter-15": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Arcane Hunter"
+            ],
+            "description": "Earth's leading hunter and the Malefic Viper's Chosen. He enters the Holy Church's Milky Way headquarters to demand the release of Ell'Hakan's true soul, while expecting the dispute may become violent.",
+            "id": "jake-thayne",
+            "name": "Jake Thayne",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A former enemy of Jake whose true soul remains in Holy Church custody after his death, leaving their conflict unresolved.",
+            "id": "ellhakan",
+            "name": "Ell'Hakan",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A figure from earlier events whose surviving records remain relevant to Jake and the Malefic Viper.",
+            "id": "yip-of-yore",
+            "name": "Yip of Yore",
+            "reveal": {
+              "chapter": 0
+            }
+          },
+          {
+            "aliases": [
+              "Villy"
+            ],
+            "description": "Jake's primordial patron and adviser. He knows that damage within Jake's soul threatens the safety of a future B-grade evolution.",
+            "id": "malefic-viper",
+            "name": "Malefic Viper",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Holy Church augur who holds Ell'Hakan's soul under an earlier consent and takes part in the negotiations with Jake.",
+            "id": "jacob",
+            "name": "Jacob",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Jacob's guardian and companion during the confrontation with Jake. He helps escort Jake into the city prepared for the Church's fighters.",
+            "id": "bertram",
+            "name": "Bertram",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Earth's principal political and military administrator. She enters an apparent expedition outside Haven while an enemy force prepares an ambush intended to kill her.",
+            "id": "miranda",
+            "name": "Miranda",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An allied void engineer whose teleportation bypasses the Holy Church's planetary defenses. He can send Jake into the Church headquarters and stands ready to bring Carmen if reinforcement is needed.",
+            "id": "arnold",
+            "name": "Arnold",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The commander of the anti-Earth force preparing an ambush intended to kill Miranda.",
+            "id": "former-loyalist-king",
+            "name": "Former Loyalist King",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An elf infiltrator within the loyalist force who helps draw Miranda toward its prepared ambush.",
+            "id": "elf-double-agent",
+            "name": "Elf Double Agent",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Fourteenth of the Holy Light"
+            ],
+            "description": "A senior Holy Church recruiter summoned to negotiate directly with Jake over Ell'Hakan's soul.",
+            "id": "lodestar-matron",
+            "name": "Lodestar Matron",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "This senior cleric commands Jacob, by divine authority, to free a captive meant for use against Jake. He dismisses Jacob's warning about the danger and views the being as expendable.",
+            "id": "holy-church-head-priest",
+            "name": "Holy Church Head Priest",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "false god"
+            ],
+            "description": "An entity regenerated from a fragment of the Fallen King. It recognizes Jake, radiates desolation, and attacks him alongside Holy Church fighters.",
+            "id": "desolate-child-of-loss",
+            "name": "Desolate Child of Loss",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A destroyed ruler whose remaining fragment is used to regenerate the Desolate Child of Loss.",
+            "id": "fallen-king",
+            "name": "Fallen King",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Rune Maiden"
+            ],
+            "description": "Jake's rune warrior ally. Her transformed body and runes resist desolation, letting her contain the regenerated Desolate Child of Loss in a sealed close-range battle.",
+            "id": "carmen",
+            "name": "Carmen",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "His karmic reading helps establish that the surrendered loyalist ruler is lying before Miranda passes judgment.",
+            "id": "william",
+            "name": "William",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Jake's wind-aligned companion. She assists Arnold with experiments after the Church settlement and remains part of Jake's circle as preparations begin for travel beyond Earth.",
+            "id": "sylphie",
+            "name": "Sylphie",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Haven's construction manager. After Jake's alchemy accident damages the underground laboratory, he arranges reinforcement and shielding for the site.",
+            "id": "hank",
+            "name": "Hank",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A troll grovekeeper who cultivates rare alchemical ingredients and tends Jake's banana plant.",
+            "id": "rick",
+            "name": "Rick",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Jake's brother and a judge within the Court of Shadows. He oversees regional contracts and explains why Umbra kept the Court neutral during the conflict with the Holy Church.",
+            "id": "caleb",
+            "name": "Caleb",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Caleb's partner and the mother of their son.",
+            "id": "maya",
+            "name": "Maya",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Caleb and Maya's son, living with them at their protected family compound.",
+            "id": "adam",
+            "name": "Adam",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The leader whose authority keeps the Court of Shadows out of the Holy Church conflict. Her prohibition applies to contracts offered by several sides and preserves the Court's political independence.",
+            "id": "umbra",
+            "name": "Umbra",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior swordsman and clan patriarch who supports Miranda's deterrence policy as the universe opens.",
+            "id": "sword-saint",
+            "name": "Sword Saint",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hunter god of the Pantheon of Life who has invited Jake to visit after their unusual prior connection through Nevermore. Jake intends to address that connection during the coming diplomatic journey.",
+            "id": "artemis",
+            "name": "Artemis",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A figure Jake plans to meet during his diplomatic visit to the Pantheon of Life.",
+            "id": "yggdrasil",
+            "name": "Yggdrasil",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A succubus who serves as Jake's official liaison to the Order. She receives Earth's arriving delegation and assigns its representatives to suitable Order contacts.",
+            "id": "erin",
+            "name": "Erin",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Jake's healer companion, currently training in Nevermore. A newly built private alchemical tower at his Order residence belongs to her. Duskleaf advises that she needs combat experience because healers are often targeted.",
+            "id": "jakes-healer-companion",
+            "name": "Jake's Healer Companion",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Order figure who advises that Jake's absent healer companion needs combat experience because healers are often targeted.",
+            "id": "duskleaf",
+            "name": "Duskleaf",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior leader of the Pantheon of Life.",
+            "id": "natures-attendant",
+            "name": "Nature's Attendant",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Sword Saint"
+            ],
+            "description": "The personal name of the Sword Saint, revealed as he approaches an Order vampire family. As Miyamoto, he seeks an exchange of knowledge that could aid the vampires of his own clan.",
+            "id": "miyamoto",
+            "name": "Miyamoto",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A powerful vampire god who evaluates the Blood Legacy, accepts Miyamoto's clan as a prospective ally, and arranges future delegations and a teleportation connection. She leaves the artifact with Miyamoto to help extend vampirism into the newly integrated universe.",
+            "id": "vampire-true-ancestor",
+            "name": "Vampire True Ancestor",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Order member whose connection to Jake attracts political attention from several dragonflights. She is away on a dungeon expedition while those groups seek closer relations through her.",
+            "id": "scarlet",
+            "name": "Scarlet",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A labyrinth maker who joins the Pantheon expedition through an S-grade proxy while a stronger clone remains aboard the ship.",
+            "id": "minaga",
+            "name": "Minaga",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Jake's Nevermore group whom he anticipates seeing again at the Pantheon of Life.",
+            "id": "dina",
+            "name": "Dina",
+            "reveal": {
+              "chapter": 31
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Sovereign"
+            ],
+            "description": "A B-grade avian ruler whose related flock is destroyed by Jake. He receives the flock's final call, identifies Jake as the killer, and intends to seek revenge after protecting his current nests.",
+            "id": "rainbow-feather-sovereign",
+            "name": "Rainbow Feather Sovereign",
+            "reveal": {
+              "chapter": 49
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An endangered space-and-mysticism creature and the only known member of its species on the hunting ground. It communicates simple requests and can enter a subspace realm.",
+            "id": "shimmerfur-warp-snatcher",
+            "name": "Shimmerfur Warp Snatcher",
+            "reveal": {
+              "chapter": 50
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Dryad hunter who works with a High Elf. The pair defend a cave entrance while a Simivita force prepares to attack.",
+            "id": "dryad-hunter",
+            "name": "Dryad Hunter",
+            "reveal": {
+              "chapter": 51
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A High Elf hunter with a lesser blessing of Artemis. Together with a Dryad partner, the hunter protects a cave entrance from attacking Simivita.",
+            "id": "high-elf-hunter",
+            "name": "High Elf Hunter",
+            "reveal": {
+              "chapter": 51
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A trophy-bearing Simivita leader who directs an attack on two hunters guarding a cave.",
+            "id": "simivita-chieftain",
+            "name": "Simivita Chieftain",
+            "reveal": {
+              "chapter": 51
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A B-grade spirit fighter who leads a large Simivita population. Jake selects him as the target of his first deliberate B-grade hunt.",
+            "id": "simivita-warlord",
+            "name": "Simivita Warlord",
+            "reveal": {
+              "chapter": 54
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A winged B-grade who speaks for a group arriving after Jake's duel with the Sovereign. She is the strongest visible member of the group and helps prevent either wounded combatant from continuing safely.",
+            "id": "forest-fae",
+            "name": "Forest Fae",
+            "reveal": {
+              "chapter": 63
+            }
+          },
+          {
+            "description": "A B-grade treant allied with the Forest Fae. It has limited use of its own body, acts through a summoned avatar, and becomes one of Jake's targets.",
+            "id": "b-grade-tree",
+            "name": "B-grade Tree",
+            "reveal": {
+              "chapter": 67
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Prideleader"
+            ],
+            "description": "A fast B-grade lioness who confronts Jake after receiving a misleading account of his actions. She fights with regenerative green lightning and crystalline forearms while trying to determine the truth of the conflict.",
+            "id": "fulminated-emeraldclaw-prideleader",
+            "name": "Fulminated Emeraldclaw Prideleader",
+            "reveal": {
+              "chapter": 68
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The hunting planet's strongest known local B-grade, a solitary creature with dark and life affinities. It shelters the Forest Fae within its muted jungle domain and bears a lesser blessing from an unidentified source.",
+            "id": "darkwood-chimera",
+            "name": "Darkwood Chimera",
+            "reveal": {
+              "chapter": 72
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0H8ZSFTG9",
+            "type": "community"
+          }
+        ],
+        "work": "the-primal-hunter-15"
+      },
       "recaps": {
         "ending": "Jake kills the Darkwood Chimera inside Umbra's Shadow Realm after accepting a harder version of the contracted fight. Umbra remakes his discarded cloak into the soulbound Umbral Cloak, which can hide and defend him but also allows her to locate him. She offers the name of the unknown party behind the contract if Jake abandons the Malefic Viper and becomes her Chosen. Jake refuses, yet keeps the cloak. He then chooses the mythical Event Horizon skill, gaining a new way to designate, locate, and strike distant prey. The Rainbow Feather Sovereign completes his separate battle by killing the Forest Fae. Jake's hunting trip is nearly finished, though he still intends to honor his limited promise to the endangered Warp Snatcher. Elsewhere, Earth is managing controlled multiversal access under Miranda, the Holy Church has left the Milky Way, Artemis and Jake are slowly exploring a relationship, and Yggdrasil and Nature's Attendant are attempting to rebuild the Fallen King. Jake still cannot safely evolve to B-grade until he repairs the corrupted Viper-linked ability in his soul. The identity of the contract issuer remains unknown.",
         "in_short": "Jake Thayne forces the Holy Church to surrender Ell'Hakan's soul and leave the Milky Way after Carmen permanently destroys the Desolate Child of Loss. With Earth entering a controlled opening to the wider multiverse, Jake travels to the Pantheon of Life, begins a cautious relationship with Artemis, and entrusts the Fallen King's fragment and remaining memories to Yggdrasil for reconstruction. He then undertakes a solo hunt to test his archery and prepare for B-grade. Jake kills the Simivita Warlord and several other B-grades, develops arrows that resist time effects, and uncovers a Court of Shadows contract against him. Umbra strengthens the contracted Darkwood Chimera as a greater trial, but Jake kills it and accepts the surveillance risk of her Umbral Cloak. The Rainbow Feather Sovereign kills the Forest Fae, while Jake gains Event Horizon and leaves with his damaged soul ability, the contract's issuer, and the Fallen King's restoration still unresolved.",
