@@ -2461,6 +2461,369 @@
       }
     },
     "all-the-skills-5-a-deck-building-litrpg": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A Cardsmith, legendary-linked rider, and leader of his retinue. As danger grows around New Houston, he attempts the difficult task of combining Cressida's four related summon cards before the group departs.",
+            "id": "arthur-rowantree",
+            "name": "Arthur Rowantree",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Arthur's close dragon partner. He helps the retinue prepare to leave New Houston while Arthur works on improving Cressida's deck.",
+            "id": "brixaby",
+            "name": "Brixaby",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arthur's ally, who entrusts four complementary animal-summon cards to him for a dangerous attempt to make them work as a single set.",
+            "id": "cressida-icehouse",
+            "name": "Cressida Icehouse",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A mythic dragon whose authority reaches beyond Arthur's retinue. In return for earlier assistance, Lung Bai has required Arthur to come back to Wolf Moon Hive, leaving the group with an obligation it cannot ignore.",
+            "id": "lung-bai",
+            "name": "Lung Bai",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A trusted member of Arthur's retinue. He has developed a new card technique with Sams and is preparing to demonstrate it as the group plans its departure.",
+            "id": "horatio",
+            "name": "Horatio",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A healer in Arthur's retinue and Asha's rider. He combines practical medical knowledge with a body-polish card to treat Arthur after the exhausting card-alteration attempt.",
+            "id": "marion",
+            "name": "Marion",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Marion's young silver dragon, whose healing breath helps restore Arthur after his dangerous work. She is the same age as the red hatchling Equinox.",
+            "id": "asha",
+            "name": "Asha",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Arthur's retinue and the rider linked to the red hatchling Equinox.",
+            "id": "soledad",
+            "name": "Soledad",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Soledad's red hatchling. Equinox is the same age as Asha, the young silver dragon paired with Marion.",
+            "id": "equinox",
+            "name": "Equinox",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Horatio's large yellow dragon and the other half of their new battlefield technique. Sams converts accumulated light into the mana needed to plunge enemies into darkness while selected allies retain their sight.",
+            "id": "sams",
+            "name": "Sams",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Cressida's pink dragon and combat partner. Joy accompanies Cressida and Arthur through Brixaby's Void Portal when they travel to the central cities to prepare for an infiltration.",
+            "id": "joy",
+            "name": "Joy",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The leader of a group of farmers driven to ambush travelers after an eruption ruined local land. He says surviving families have received too little aid and have also lost supplies to exploiting riders.",
+            "id": "ciaran",
+            "name": "Ciaran",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An uncommon rider in Blood Moon Hive's Purple Wing, paired with Squish. He warns the newly arrived Arthur that riderless purple dragons should not be dismissed, since the survivors are fast and resourceful.",
+            "id": "griff",
+            "name": "Griff",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The assumed name Arthur uses while he and Brixaby pose as rare transfers to enter Blood Moon Hive's Purple Wing.",
+            "id": "ernest",
+            "name": "Ernest",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Griff's purple dragon and partner within Blood Moon Hive's Purple Wing. The pair meet Arthur and Brixaby while the newcomers are operating under a rare-rank disguise.",
+            "id": "squish",
+            "name": "Squish",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A four-month-old riderless purple dragon whose card greatly reduces the weight of anything she touches. She brings Brixaby scavenged remains and shards, hoping to earn protection and a chance at a rider.",
+            "id": "candy-floss",
+            "name": "Candy Floss",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An outspoken displaced worker who challenges Blood Moon Hive's claim to property removed during an evacuation. He is among the civilians Arthur considers recruiting as riders for Purple Wing.",
+            "id": "larry",
+            "name": "Larry",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Blood Moon Hive's legendary leaders. He helps administer the blood-price system under the hive's strict rank hierarchy.",
+            "id": "desmond",
+            "name": "Desmond",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Blood Moon Hive's legendary leaders. She participates in the summit where Arthur receives authority over Purple Wing and learns the obligations attached to command.",
+            "id": "sybil",
+            "name": "Sybil",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The legendary figure who controls Blood Moon Hive's blood-price system. This leader appoints Arthur as Purple Wing captain and binds him to an oath that makes the captain responsible for the wing's payments.",
+            "id": "blood-moon-leader",
+            "name": "Blood Moon leader",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A legendary Blood Moon dragon who explains the hive's blood-price system to Brixaby.",
+            "id": "blood-drop",
+            "name": "Blood Drop",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A displaced traveling merchant whose caravan, cart, and horses were lost in an eruption. He retains some recovered stock and asks to join Purple Wing, bringing commercial experience to Arthur's search for sustainable work.",
+            "id": "thackeray",
+            "name": "Thackeray",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An evacuee and mother seeking safety for herself and her daughters. She volunteers for possible partnership with a Purple Wing dragon despite Arthur's warning that every rider must bear the blood price.",
+            "id": "amanda",
+            "name": "Amanda",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An evacuee who rejects another captain's recruitment approach and seeks a place in Purple Wing. His common enhancement card gives him exceptional bodily awareness, balance, and skill at dodging, though he is initially unmatched.",
+            "id": "steve",
+            "name": "Steve",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A purple dragon who links with Steve in Purple Wing. The dragon can move rapidly to a visible place, though the destination is not reliably precise.",
+            "id": "steves-purple-dragon",
+            "name": "Steve's purple dragon",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Amanda's newly linked green hatchling. Their matching seed-related cards produce a shared ability that can create plants and flowers without seeds.",
+            "id": "amandas-green-hatchling",
+            "name": "Amanda's green hatchling",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Steve's purple dragon partner in Purple Wing. Bolt can move rapidly to a visible destination, but the ability is unreliable enough that Arthur treats it mainly as an escape option.",
+            "id": "bolt",
+            "name": "Bolt",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The boatman associated with a route through a between-worlds realm. Arthur and Brixaby use this passage to inspect a recent eruption crater.",
+            "id": "dark-rower",
+            "name": "Dark Rower",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Marion's father and the ruler of the kingdom. When Marion and Asha examine him, they find a severe age-related condition affecting his brain, and their healing can offer only temporary relief.",
+            "id": "the-king",
+            "name": "The king",
+            "reveal": {
+              "chapter": 47
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A leader of Wolf Moon Hive and rider of Alyssa. She was Arthur's leader before the current book, while the hive's political divisions remain unresolved.",
+            "id": "valentina",
+            "name": "Valentina",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior Wolf Moon power holder connected to Arthur's training and a continuing political rival.",
+            "id": "whitaker",
+            "name": "Whitaker",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A riderless red dragon and council figure at Mesa Free Hive. He remains there to strengthen the hive's defenses.",
+            "id": "laird",
+            "name": "Laird",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A leader of Mesa Free Hive who is wary of combat. The hive's defensive direction remains unsettled.",
+            "id": "chablis",
+            "name": "Chablis",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arthur's father and the former Duke of Rowantree. The unresolved family succession dispute leaves him vulnerable at the border.",
+            "id": "calvan-rowantree",
+            "name": "Calvan Rowantree",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arthur's uncle and a rival claimant in the Rowantree succession dispute. He remains a threat to Arthur and Calvan.",
+            "id": "lionel-rowantree",
+            "name": "Lionel Rowantree",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Arthur's cousin, a rival legendary holder, and a competing claimant within Rowantree. Their unresolved family conflict remains part of the danger Arthur carries into this book.",
+            "id": "pennrow-rowantree",
+            "name": "Pennrow Rowantree",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An escaped, mind-controlling Scourge enemy tied to Arthur and Brixaby. The Mindsinger remains at large with followers, eggs, a corrupted white-dragon body, and a legendary card.",
+            "id": "mindsinger",
+            "name": "Mindsinger",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A disgraced Blood Moon heir burdened by gambling debts. His earlier connection to Arthur's cover identity and his interest in Arthur's legendary card leave an unresolved threat.",
+            "id": "baron-kane",
+            "name": "Baron Kane",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A hostile carded associate who claims Arthur owes an obligation arising from an earlier rescue. The attempted murder, debt, and continuing threat have not been settled.",
+            "id": "second",
+            "name": "Second",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0DV1ZS4JF",
+            "type": "community"
+          }
+        ],
+        "work": "all-the-skills-5-a-deck-building-litrpg"
+      },
       "recaps": {
         "ending": "Arthur removes the former Blood Moon leader's cards after the leader attacks him, while Brixaby takes Call of Life from the leader's dragon and openly reveals his legendary nature. Arthur assumes control of Blood Moon Hive and leaves Horatio and Sams in temporary command as another eruption approaches. Arthur then travels to the palace with Brixaby, Cressida, Marion, Desmond, and Sybil. Lung Bai accepts Arthur's new authority, warns that Call of Life can kill as readily as heal, and identifies Asha as an origin of healing. Marion and Asha briefly restore the king's awareness, but they cannot cure his underlying brain condition. A stable king might help regulate the eruptions, leaving his fragile recovery, Blood Moon's transition, Larry's unfinished investigation, Arthur's concealed time card, Brixaby's dangerous new power, and the wider eruption crisis unresolved.",
         "in_short": "Arthur and his retinue infiltrate Blood Moon Hive while seeking another card for Brixaby and discover a regime that extracts shards or life force through the blood price. As captain of neglected Purple Wing, Arthur pairs riders and dragons, improves food and pay, and builds a rescue-first force. A secret expedition into an old eruption cone reveals underground nests and a core that feeds them. Destroying it gives Arthur origin shards, which he and Brixaby forge into a concealed legendary time card. During the next eruption, a legendary demi-Scourgeling appears, and Blood Moon's leader destroys it with dangerous life energy before turning on Arthur. Arthur strips the leader's cards, Brixaby claims Call of Life, and they take control of the hive. At the palace, Marion and Asha temporarily restore the ailing king's awareness, but an imminent eruption and the kingdom's deeper instability remain unresolved.",
