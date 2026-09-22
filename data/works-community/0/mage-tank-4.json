@@ -467,6 +467,472 @@
         "work": "mage-tank-4"
       }
     },
+    "mage-tank-5": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Arlo"
+            ],
+            "description": "Closetland's ruler and Fortune's Folly's dimensional defender. He begins the book refining a shield style that combines segmented barriers, teleportation, portals, and thrown weapons under a Littan instructor.",
+            "id": "arlo-xordrel",
+            "name": "Arlo Xor'Drel",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Arlo's bonded familiar, who remains mentally linked to him and serves as his logistical contact beyond the training ground.",
+            "id": "grotto",
+            "name": "Grotto",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Littan expert in shield-and-hammer combat who trains Arlo in defensive fighting.",
+            "id": "littan-training-major",
+            "name": "Littan Training Major",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A local imperial noble who negotiates with Arlo over the relocated city. He relinquishes the Littan Empire's remaining claims to its residents and salvage through an accounting settlement.",
+            "id": "local-littan-count",
+            "name": "Local Littan Count",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A freed resident who brings the city's other survivors together and speaks for them while their government and housing remain undecided.",
+            "id": "former-enslaved-representative",
+            "name": "Former Enslaved Representative",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fortune's Folly's alchemist. She develops self-repairing prosthetics for civilians and explores how local workers could manufacture affordable versions at scale as a source of income.",
+            "id": "nuralie",
+            "name": "Nuralie",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fortune's Folly's swordsman. During the city's recovery, he contributes physical labor by dismantling former city walls so their materials can be reused.",
+            "id": "varrin",
+            "name": "Varrin",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fortune's Folly's cleric and healer. She coordinates religious support, mental rehabilitation, and clinic work for people displaced by the city's destruction.",
+            "id": "xim",
+            "name": "Xim",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An unidentified man found alive beneath the relocated city. His body and soul are abnormally dispersed through distant strands of flesh, and hidden soul threads connect him to members of Arlo's party.",
+            "id": "malformed-intruder",
+            "name": "Malformed Intruder",
+            "reveal": {
+              "chapter": 8
+            }
+          },
+          {
+            "description": "Fortune's Folly's mage. When a hostile infiltrator refuses to cooperate, her unusually strong social influence persuades him to treat her as a trusted confidante.",
+            "id": "etja",
+            "name": "Etja",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hostile intelligence served by an infiltrator who can divide himself among hosts and preserve hidden links to them. Its objectives are unclear, but the party treats its distributed tissue as a possible surveillance and infection threat.",
+            "id": "unifier",
+            "name": "Unifier",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Delve Core allied with Grotto. Throne combines System technology, soul work, and avatar-derived methods with him to create an organic body capable of accompanying the party, then begins planning further creation Delves with him.",
+            "id": "throne",
+            "name": "Throne",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A System authority that takes control of Grotto's request, reinforces his bond with a newly made body, and increases his luck.",
+            "id": "system-core-1",
+            "name": "System Core 1",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An overworked System authority that observes Grotto and Throne creating a body for Grotto. It considers System Core 1 dangerously unstable and disputes the intervention in Grotto's petition.",
+            "id": "system-core-2",
+            "name": "System Core 2",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Closetland's director for magical-animal husbandry and relations with sapient beast peoples. She sponsors a damaged talking cloak and arranges exploratory visits for displaced magical communities considering refuge in Closetland.",
+            "id": "former-princess",
+            "name": "Former Princess",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A damaged, speaking cloak that claims descent from Hysteria. The former princess vouches for it, sponsors its acceptance into Closetland, and arranges for its repair.",
+            "id": "talking-cloak",
+            "name": "Talking Cloak",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Closetland's liaison to major Hiwardian houses. She interprets their diplomatic gifts and evaluates an archive containing compromising intelligence about powerful houses and officials.",
+            "id": "varrins-sister",
+            "name": "Varrin's Sister",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A multi-souled golem who once served Throne and is now reconciled with her. He advises Closetland on weapons, logistics, tactics, armor production, and the appropriate size of an ordinary-citizen defense force.",
+            "id": "valti",
+            "name": "Valti",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Varrin's grandfather is a master smith. Seeing the separate soul of Varrin's otherwise unchangeable sword gives him a new direction for his craft.",
+            "id": "varrins-grandfather",
+            "name": "Varrin's Grandfather",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Closetland-aligned spellbow whom Arlo is asked to help form a new Delver party. She combines dimensional control, telekinetic surgery, mystical shielding, and mirror techniques while evaluating prospective teammates.",
+            "id": "dragon-princess",
+            "name": "Dragon Princess",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A former captive seeking a place in the dragon princess's party. She is a mobile close-range fighter whose tryout depends on tight coordination with an incorporeal monster companion that can ambush through solid obstacles.",
+            "id": "captive-beastmaster",
+            "name": "Captive Beastmaster",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The captive beastmaster's monster companion and intended teammate. It phases through solid objects and coordinates close-range attacks with her during their trial before the dragon princess.",
+            "id": "incorporeal-monster-companion",
+            "name": "Incorporeal Monster Companion",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arlo's nonhuman dimensional summon and a recognized Delver despite not being human. His eligibility provides an important precedent when Closetland considers whether Valti can join a conventional party.",
+            "id": "shog",
+            "name": "Shog",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A controlling entity sought by a C'thon. The pursuing C'thon believes the Brood King is using the Stone Lord as a valuable, mind-slaved host, but both figures' locations remain unknown.",
+            "id": "brood-king",
+            "name": "Brood King",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A ruler believed to have been reduced to a mind-slaved host for the Brood King.",
+            "id": "stone-lord",
+            "name": "Stone Lord",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Ravvenblaq Treasure Hunter"
+            ],
+            "description": "Varrin's older brother, a Ravvenblaq Delver seeking the final place in the dragon princess's party. He demonstrates physical disguises, tangible illusions, assassination skill, and stealth capable of concealing an entire group.",
+            "id": "varrins-older-brother",
+            "name": "Varrin's Older Brother",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A candidate for the dragon princess's party whose divine training has pushed her combat skills far beyond her Delver level. She can shape her own blood, bone, and tendons into armor, a bow, and exceptionally destructive arrows.",
+            "id": "archer-candidate",
+            "name": "Archer Candidate",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The governor responsible for Closetland's capital. She helps receive and address the large, varied population gathered in a public arena to pledge fealty and formally accept Arlo's protection and rule.",
+            "id": "governess-lena",
+            "name": "Governess Lena",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ayama's ruler at the international summit. She receives intelligence about the Littan border city and forest, analyzes the uncertain crisis there, and prepares to question Arlo about the events linked to the avatars.",
+            "id": "foreign-god-king",
+            "name": "Foreign God-King",
+            "reveal": {
+              "chapter": 33
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An oath-bound assassin captured at the summit after an attempted killing. During questioning, she identifies Mercy before her oath inflicts psychic punishment. She survives, falls comatose, and enters the custody of the foreign God-King.",
+            "id": "summit-assassin",
+            "name": "Summit Assassin",
+            "reveal": {
+              "chapter": 37
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A name given by an oath-bound summit assassin immediately before the oath punishes her. At this point Mercy is only a possible investigative lead, with no confirmed identity or established relationship to the false Empress.",
+            "id": "mercy",
+            "name": "Mercy",
+            "reveal": {
+              "chapter": 37
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A ruler who helps identify the apparent Littan Empress as a substitute or illusion, then uses extreme time manipulation to capture and question the summit assassin.",
+            "id": "hiwardian-king",
+            "name": "Hiwardian King",
+            "reveal": {
+              "chapter": 37
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The senior Littan commander who explains the military factions opposing Fortune's Folly's role in Operation Forest. He presents the party as allies and arranges regulated public challenges to settle their standing with the army.",
+            "id": "littan-grand-general",
+            "name": "Littan Grand General",
+            "reveal": {
+              "chapter": 39
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A promoted Littan officer given command of twenty Delver parties, including the party led by Arlo, for Operation Forest.",
+            "id": "littan-company-commander",
+            "name": "Littan Company Commander",
+            "reveal": {
+              "chapter": 42
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Staff Officer"
+            ],
+            "description": "An Operation Forest officer assigned as the company commander's primary staff officer. He resents Arlo over deaths connected to the naval blockade.",
+            "id": "resentful-littan-major",
+            "name": "Resentful Littan Major",
+            "reveal": {
+              "chapter": 42
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A level-26 Littan specialist attached to Arlo's forest group. His soul appears unusually dense and intertwined with an unexplained friendly presence.",
+            "id": "littan-specialist",
+            "name": "Littan Specialist",
+            "reveal": {
+              "chapter": 44
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Heavy-Armored Sergeant"
+            ],
+            "description": "A heavily armored Littan soldier who joins Arlo, Varrin, Grotto, and a major for the advance through the Heavy Armor dungeon.",
+            "id": "littan-imperial-sergeant",
+            "name": "Littan Imperial Sergeant",
+            "reveal": {
+              "chapter": 57
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An external dragon power whose actions create an urgent problem outside the Labyrinth while Arlo's party remains trapped within it.",
+            "id": "cerulean-dragon-ruler",
+            "name": "Cerulean Dragon Ruler",
+            "reveal": {
+              "chapter": 63
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A winged imperial officer assigned to protect a nobleman's daughter and connect her with Closetland while she trains toward a creation Delve.",
+            "id": "lieutenant-moonwing",
+            "name": "Lieutenant Moonwing",
+            "reveal": {
+              "chapter": 64
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An avatar who enters the Labyrinth with a sibling and identifies the unresponsive Etja as their wayward child. Orexis arrives with overwhelming force, rejects the group's objections, and intends to take her from Arlo's protection.",
+            "id": "orexis",
+            "name": "Orexis",
+            "reveal": {
+              "chapter": 66
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Second Avatar"
+            ],
+            "description": "An avatar who arrives beside Orexis to reclaim Etja. The pair's sudden entrance turns the group's failed attempt to leave the Labyrinth into an immediate struggle for survival against opponents of unknown limits.",
+            "id": "orexiss-sibling",
+            "name": "Orexis's Sibling",
+            "reveal": {
+              "chapter": 66
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Spectral-Predator Handler"
+            ],
+            "description": "An Iskarim traveler whose spectral predator accompanies Arlo's group toward an obelisk. She investigates the unnatural movement of forest animals and treats their abandoned habitats as evidence of outside control.",
+            "id": "iskarim-animal-handler",
+            "name": "Iskarim Animal-Handler",
+            "reveal": {
+              "chapter": 70
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Reptilian Familiar's Handler"
+            ],
+            "description": "A concealed high-power operative bonded to a gigantic reptilian familiar. He has orders to gather intelligence on the avatars and volunteers to delay their pursuit through the forest so Arlo's smaller group can escape.",
+            "id": "animal-handler",
+            "name": "Animal-Handler",
+            "reveal": {
+              "chapter": 70
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hostile presence that controls or influences travel within its pocket realm and presents Arlo with an unreliable route to a lost obelisk.",
+            "id": "blue-flame",
+            "name": "Blue Flame",
+            "reveal": {
+              "chapter": 73
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A foreign military leader who confronts Arlo inside an isolated pocket realm. He demands access to the costly mist procedure for candidates from his realm and turns that demand into an attempted political kidnapping.",
+            "id": "foreign-general",
+            "name": "Foreign General",
+            "reveal": {
+              "chapter": 73
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A hostile noble who joins the foreign general's prepared force against Arlo. His case rests on accusations that are identified during the confrontation as consequences of false, avatar-induced evidence.",
+            "id": "hiwardian-noble",
+            "name": "Hiwardian Noble",
+            "reveal": {
+              "chapter": 73
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The only crown who withstands the force that destroys the council. Afterward, the United leader pressures this survivor to administer the realm in the United's interests.",
+            "id": "surviving-crown",
+            "name": "Surviving Crown",
+            "reveal": {
+              "chapter": 77
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The colossal head of the United force that enters a government chamber after an apparent external influence kills most of its council. The leader offers the lone surviving crown continued rule on the United's terms.",
+            "id": "united-leader",
+            "name": "United Leader",
+            "reveal": {
+              "chapter": 77
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0H9M6MSJ1",
+            "type": "community"
+          }
+        ],
+        "work": "mage-tank-5"
+      }
+    },
     "mageling": {
       "characters": {
         "characters": [
