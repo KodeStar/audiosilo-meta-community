@@ -1777,6 +1777,311 @@
         "work": "all-the-skills-3-a-deck-building-litrpg"
       }
     },
+    "all-the-skills-4-a-deck-building-litrpg": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Ernest Kane"
+            ],
+            "description": "An outsider who reaches an unfamiliar walled city with Brixaby and begins investigating why Scourgelings threaten its approaches. He is linked to the dragon and presents himself as a traveler displaced by a random portal.",
+            "id": "arthur",
+            "name": "Arthur",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Brix"
+            ],
+            "description": "Arthur's linked dragon partner, separated from him briefly while hunting outside the unfamiliar city. Brixaby is a determined seeker and fighter, but at this point is still too small to carry Arthur through the air.",
+            "id": "brixaby",
+            "name": "Brixaby",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "The proprietor of a translation-card shop who bargains with Arthur over an enchanting primer. The proprietor offers language instruction and brief access to a language card in exchange.",
+            "id": "translation-shop-proprietor",
+            "name": "Translation-Shop Proprietor",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arthur's returning ally and Joy's rider. While crossing the Scourge Deadlands with Horatio, Joy, and Sams, Cressida contacts Arthur to report their progress and receives his warning about active Scourgeling threats.",
+            "id": "cressida",
+            "name": "Cressida",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Joyberry"
+            ],
+            "description": "Cressida's dragon and a returning member of Arthur's group. Joy has grown since Arthur last saw her and breaks through Brixaby's opening while the allied travelers remain surrounded by flying Scourgelings.",
+            "id": "joy",
+            "name": "Joy",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Sams's rider and a returning ally who survives the Scourge Deadlands crossing with Cressida. Horatio fights in partnership with his dragon, and their combined light attack is powerful enough to strike flying Scourgelings.",
+            "id": "horatio",
+            "name": "Horatio",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Horatio's dragon and light-combat partner. Sams reaches Arthur's group after a difficult journey across the Scourge Deadlands and contributes to the pair's forceful light-based attack against the pursuing flock.",
+            "id": "sams",
+            "name": "Sams",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Prince Marion"
+            ],
+            "description": "A prince who is present when Brixaby brings a badly wounded Arthur to the hospital. Marion helps arrange the urgent healing Arthur needs.",
+            "id": "marion",
+            "name": "Marion",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A displaced survivor who led younger travelers during a dangerous wagon crossing. Soledad has no cards when she meets Arthur, but asks to accompany him in pursuit of a combat card and the possibility of becoming a dragon rider.",
+            "id": "soledad-boudreaux",
+            "name": "Soledad Boudreaux",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Soledad's newly linked red hatchling, left with the territory defenders while Arthur's smaller team descends toward the Darkheart core. The young dragon identifies the name Equinox to Arthur before the groups separate.",
+            "id": "equinox",
+            "name": "Equinox",
+            "reveal": {
+              "chapter": 48
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A silver origin hatchling whose bond becomes possible after Marion's damaged heart deck is repaired. She selects Breath of Healing, links with Marion, and reveals her name as Asha before the group must retreat.",
+            "id": "asha",
+            "name": "Asha",
+            "reveal": {
+              "chapter": 50
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A healer and heart-deck specialist whose card set provides unusual insight into cards and skills. Ravi advises Arthur not to force a replacement anchor while his soul resists it, and offers training for the coming Darkheart attempt.",
+            "id": "ravi",
+            "name": "Ravi",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A discreet local trader willing to exchange supplies and practical support for lesser cards. Daniel agrees to find Arthur and Brixaby a private workshop while remaining wary of attention from the sheriffs.",
+            "id": "daniel",
+            "name": "Daniel",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A border law officer who speaks Arthur's language and controls entry to the walled city. Domingo accepts Arthur's account of accidental portal travel and recognizes that the gate attack creates an immediate danger.",
+            "id": "domingo",
+            "name": "Domingo",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A local undersheriff who sends Arthur and Brixaby to investigate attacks on caravans traveling through the Scourge Deadlands. Lopez coordinates the response and carries a rare mapping spell that Arthur copies.",
+            "id": "lopez",
+            "name": "Lopez",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "New Houston's senior law officer, responsible for organizing a force against the rare Scourgelings. Walker bargains with Arthur, reserving early places in the reshuffling in return for his guidance on the expedition.",
+            "id": "over-sheriff-walker",
+            "name": "Over-Sheriff Walker",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Leader of the visiting Lightning Cats adventuring team and a former customer for chainmail from Mesa Free Hive. John joins the organized hunt for the rare Scourgelings outside New Houston as part of the expedition force.",
+            "id": "john",
+            "name": "John",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Claude the Kluge"
+            ],
+            "description": "An adventurer from the Icelands who specializes in improvised machinery. Claude's paired utility cards make his unconventional devices unusually dependable, and he builds a catapult and bicycle-like equipment for the fissure battle.",
+            "id": "claude",
+            "name": "Claude",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A heavily protected adventurer who fills the Scourgeling pit with toxic gas, then uses the danger to tag nearly every valuable corpse as his own. Bradley has personal shields and a reputation that makes local officers reluctant to confront him.",
+            "id": "bradley",
+            "name": "Bradley",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Penn"
+            ],
+            "description": "Arthur's cousin, a rival holder of legendary power, and a competing Rowantree claimant. Although Pennrow is not present at the start of this volume, Arthur carries unresolved fear and conflict connected to him.",
+            "id": "pennrow-rowantree",
+            "name": "Pennrow Rowantree",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Marion's father, a king whose mind has been damaged. The mythic dragons ask Marion to attempt his treatment, making Eleazar the focus of a new obligation protected by their promise of safe passage and return.",
+            "id": "king-eleazar",
+            "name": "King Eleazar",
+            "reveal": {
+              "chapter": 49
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An escaped mind-controlling Scourge enemy tied to Arthur and Brixaby. Mindsinger remains an unresolved threat from earlier events, operating through a corrupted white-dragon body and retaining followers, eggs, and a legendary card.",
+            "id": "mindsinger",
+            "name": "Mindsinger",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A leader at Wolf Moon Hive, rider of Alyssa, and Arthur's former superior. Valentina supports Arthur, but the division within the hive leaves her position and Arthur's relationship with its leadership unsettled.",
+            "id": "valentina",
+            "name": "Valentina",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior power holder at Wolf Moon Hive who is connected to Arthur's training and remains his political rival. The conflict attached to Whitaker carries into this volume as part of the hive's continuing division.",
+            "id": "whitaker",
+            "name": "Whitaker",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Red Laird"
+            ],
+            "description": "A riderless red dragon and council figure at Mesa Free Hive. Laird remains at Mesa to strengthen its defenses, leaving the hive's preparations and future security as active concerns while Arthur travels elsewhere.",
+            "id": "laird",
+            "name": "Laird",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A leader of Mesa Free Hive whose reservations about combat shape the settlement's unsettled defensive direction. Chablis remains part of the political situation Arthur leaves behind while pursuing other threats.",
+            "id": "chablis",
+            "name": "Chablis",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arthur's father and the former Duke of Rowantree. Calvan remains vulnerable near the border while the dispute over the Rowantree claim continues to threaten the family and complicate Arthur's eventual return.",
+            "id": "calvan-rowantree",
+            "name": "Calvan Rowantree",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arthur's uncle and a rival claimant within the Rowantree family. Lionel remains an unresolved threat to both Arthur and Calvan as this volume begins, with the family conflict still awaiting resolution.",
+            "id": "lionel-rowantree",
+            "name": "Lionel Rowantree",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A disgraced Blood Moon heir whose gambling debts connect him to Arthur's Ernest Kane identity. His debt-driven interest in Arthur's legendary card remains an unresolved danger carried from earlier events.",
+            "id": "baron-kane",
+            "name": "Baron Kane",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A hostile carded associate who claims Arthur owes him for an earlier rescue. Second has already attempted to kill Arthur, leaving both the claimed obligation and the personal danger unresolved as the new journey begins.",
+            "id": "second",
+            "name": "Second",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0CXF9VWN1",
+            "type": "community"
+          }
+        ],
+        "work": "all-the-skills-4-a-deck-building-litrpg"
+      }
+    },
     "all-the-skills-a-deck-building-litrpg": {
       "characters": {
         "characters": [
