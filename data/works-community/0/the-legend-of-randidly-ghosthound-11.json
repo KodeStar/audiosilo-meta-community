@@ -1858,6 +1858,300 @@
       }
     },
     "the-legend-of-randidly-ghosthound-14": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Randidly",
+              "Ghosthound"
+            ],
+            "description": "A formidable spear fighter, military commander, and master of Alpha Cosmos who seeks freedom from Nexus control. He protects the worlds tied to him while developing independent command of Aether, Nether, and his evolving images.",
+            "id": "randidly-ghosthound",
+            "name": "Randidly Ghosthound",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Randidly's trusted lieutenant, veteran trainer, and Aether-bonded ally. She joins his expedition as a resilient combatant whose experience and direct counsel make her one of his most dependable companions.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Randidly's soulbound partner and a precise engraving specialist. She collaborates with him across distance on large-scale energy workings and provides both technical insight and a personal connection to the worlds he protects.",
+            "id": "nevaeh",
+            "name": "Nevaeh",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Fifth Cohort commandant and Randidly's military patron. His authority places Randidly within the cohort's military hierarchy and its political obligations.",
+            "id": "commandant-wick",
+            "name": "Commandant Wick",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Randidly's missing former spear teacher, whose absence leaves his whereabouts and his relationship with Randidly unresolved.",
+            "id": "shal",
+            "name": "Shal",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Randidly's Aether-bonded ally and romantic partner, serving as a capable Fifth Cohort combatant. Their established bond connects her to his wider struggle for survival and independence within the Nexus.",
+            "id": "vuala",
+            "name": "Vuala",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Engraving Guild official from the Swak family, known for specialist work involving image purification.",
+            "id": "gabriel-swak",
+            "name": "Gabriel Swak",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Solomon Rex's daughter and an exceptional Nether sensor.",
+            "id": "neshama-rex",
+            "name": "Neshama Rex",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Karen's civic leader and the manager of Randidly's assets. She safeguards the city's autonomy and Karen Academy while preparing its people, defenses, and public institutions for future large-scale threats.",
+            "id": "tatiana",
+            "name": "Tatiana",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The High Eastern Prospector and a Tellus acquaintance of Randidly. He is also connected to Helen's family, placing him within the circle of dependable allies Randidly knows from his earlier time on Tellus.",
+            "id": "bear-tarn",
+            "name": "Bear Tarn",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A military officer in Commandant Wick's faction who reports that coordinated Nether attacks are striking the Fifth Cohort's Aether bases.",
+            "id": "lady-elia",
+            "name": "Lady Elia",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A recovering fox-person recruit in Randidly's elite unit whom Randidly considers for command responsibility as the force divides.",
+            "id": "raymond-ballast",
+            "name": "Raymond Ballast",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Raymond's six-tailed brother, whose sudden strength and unexplained hostility lead him to try to kill Raymond.",
+            "id": "raymonds-six-tailed-brother",
+            "name": "Raymond's six-tailed brother",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A powerful image that suppresses and controls Raymond's brother's body, then wounds Raymond and Helen.",
+            "id": "image-occupying-raymonds-brother",
+            "name": "Image occupying Raymond's brother",
+            "reveal": {
+              "chapter": 43
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Wick-family recruit in Randidly's elite unit who recognizes his ability to strengthen the people fighting under him.",
+            "id": "charlotte-wick",
+            "name": "Charlotte Wick",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A favored disciple of the Frost Matriarch who leads a frost-seeker squad. She and nine companions are trapped under a suppressive Nether array.",
+            "id": "claudette-bagon",
+            "name": "Claudette Bagon",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A ram-demon member of Randidly's elite recruits who helps lead the unit during its advance on a Nether pinion.",
+            "id": "ram-demon-recruit",
+            "name": "Ram-demon recruit",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An impulsive Karen Academy student who enters an auction warehouse with Mint and Cassandra, where the three discover an unknown intruder.",
+            "id": "delilah",
+            "name": "Delilah",
+            "reveal": {
+              "chapter": 66
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The acknowledged leader of a Pinnacle Seeker force. Her ice-palace image suppresses the surrounding spatial barriers, and she directs the advance toward the battlefield's core.",
+            "id": "frost-matriarch",
+            "name": "Frost Matriarch",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A renowned Order Dukies trailbreaker serving as Delilah's temporary guardian while the girl's parents are away. She is determined to keep the twelve-year-old away from a danger the authorities cannot yet discuss openly.",
+            "id": "vi",
+            "name": "Vi",
+            "reveal": {
+              "chapter": 67
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Karen Academy student who teaches Randidly Scrawl, an engraving technique that links a power source to material and overrides ordinary connections.",
+            "id": "todd",
+            "name": "Todd",
+            "reveal": {
+              "chapter": 72
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A disgraced Order Dukies applicant who secretly maintains a dark-steel bomb. Blaming Randidly for abandoning Xperia, he intends to use the weapon to punish Karen and demonstrate the city's vulnerability.",
+            "id": "garrett",
+            "name": "Garrett",
+            "reveal": {
+              "chapter": 77
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Karen Academy's strongest student fighter and the student nearest to clearing its difficult labyrinth. He challenges Todd over Todd's newly exposed connection to Randidly and presses for an explanation.",
+            "id": "zach-crumb",
+            "name": "Zach Crumb",
+            "reveal": {
+              "chapter": 87
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A rescued Nether gatekeeper and former guardian of the shaft who now lives within Randidly's worlds. His incomplete memories may illuminate the ancient Nether beings and sealed workings below the Nexus.",
+            "id": "demio",
+            "name": "Demio",
+            "reveal": {
+              "chapter": 88
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A blue-skinned goblin chef who owns an isolated farm protected from outside images and the Nexus overlay. When Randidly and Claudette cannot pay for a meal, Rose requires them to settle the debt through farm labor.",
+            "id": "rose",
+            "name": "Rose",
+            "reveal": {
+              "chapter": 96
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Claudette's father, who appears to control the Bagon estate.",
+            "id": "don-bagon",
+            "name": "Don Bagon",
+            "reveal": {
+              "chapter": 102
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A feared veteran assassin who refuses a Swak-family request to pursue Randidly.",
+            "id": "veteran-assassin",
+            "name": "Veteran assassin",
+            "reveal": {
+              "chapter": 12
+            }
+          },
+          {
+            "description": "A camel-riding Lancer who chooses a name and permanently becomes independent from Randidly's summons. He then asks Randidly for work and serves as the guard assigned to a Swak associate.",
+            "id": "kerwin",
+            "name": "Kerwin",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hired swordsman who helps defend a Swak-family talent site from an Engraving Guild raid, killing two investigators alongside a six-tailed vulpine ally.",
+            "id": "tattooed-swordsman",
+            "name": "Tattooed swordsman",
+            "reveal": {
+              "chapter": 101
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An awakened brass automaton carrying the Ghosthound engraving. It leaves Karen with Todd and Zach to seek a true name and an identity beyond its assigned designation while helping civilians face the Calamity.",
+            "id": "ba-zeta",
+            "name": "B.A. Zeta",
+            "reveal": {
+              "chapter": 122
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Helen's mother, living at a homestead near Tellus's eastern border. She understands the painful purpose of Randidly's visit before he can speak and receives him inside to hear what happened to her daughter.",
+            "id": "islinda",
+            "name": "Islinda",
+            "reveal": {
+              "chapter": 141
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0H7MF1JTR",
+            "type": "community"
+          }
+        ],
+        "work": "the-legend-of-randidly-ghosthound-14"
+      },
       "recaps": {
         "ending": "Commandant Wick remains alive and powerful after admitting that he killed Helen to force Randidly and the defecting elite squad back into obedience. Randidly takes Helen's broken fate weapon, tells her mother Islinda that Helen died protecting him, and promises that the killer will be remembered. A later spar with Bear Tarn gives his grief a temporary outlet, but not a resolution. Nevaeh supports him and begins testing the removal of unwanted Nexus Aether constructs, while Randidly designs a ritual that could eventually cleanse Xperia and Alpha Cosmos at scale. Claudette trains inside Alpha Cosmos and supplies Nether-core methods, but her refinement, Don Bagon's control, and the tattooed swordsman's threat remain open. Shal has lost contact with his home planet and is vulnerable to a dangerous offer. Rose refuses rescue for his failing world despite the danger to its people. On Xperia, the decentralized Calamity continues to spread as Zach, Todd, and B.A. Zeta protect refugees. Randidly ends the volume expanding his independent power, preparing to evolve his Nether core, and choosing deliberate preparation over immediate vengeance.",
         "in_short": "Randidly helps contain a Fifth Cohort Nether invasion, reunites with Shal, and survives the Nether King's escape through a path toward the pinnacle. He then turns from factional service toward an independent power base, transferring inhabited worlds into Alpha Cosmos, preparing Xperia's first Calamity, and arranging to refine Claudette Bagon's image in exchange for hidden history and Nether knowledge. He defeats but does not kill a tattooed swordsman whose ancient seal exposes a larger Nexus mystery. At the Imperium Ball, Randidly, Claudette, and the elite squad publicly leave Commandant Wick's faction as sabotage and shaft tremors destabilize the Nexus. Wick retaliates by torturing and murdering Helen. Randidly contains his grief, tells her family, and postpones revenge while strengthening his images and planning to strip Nexus Aether controls from his worlds. Xperia's Calamity, Claudette's freedom, Rose's dying world, Shal's vulnerability, and the ancient shaft array remain unresolved.",
