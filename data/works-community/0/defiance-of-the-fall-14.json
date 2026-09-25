@@ -1221,6 +1221,326 @@
         "work": "defiance-of-the-fall-16"
       }
     },
+    "defiance-of-the-fall-17": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A wounded seal bearer who reaches the Mercurial Court docks under a recognized law-keeper identity. Zac keeps his Void power hidden while relying on his newly transformed living regalia and seeking a safe route onward.",
+            "id": "zac",
+            "name": "Zac",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A powerful array specialist who pursues Zac to the Mercurial Court docks. He abandons his ambush there, gives Zac a bag of resources, and proposes future cooperation without resolving their rivalry.",
+            "id": "elemental-pursuer",
+            "name": "Elemental Pursuer",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Zac's contracted spatial companion, sheltered unconscious in his shrine while she suppresses temporal injuries from the pursuit.",
+            "id": "esmeralda",
+            "name": "Esmeralda",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A living companion whose completed transformation makes her Zac's torso and right-arm regalia. She strengthens his protection, weapon edge, and chains, although the flame within her remains difficult to control.",
+            "id": "alea",
+            "name": "Alea",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Princess Asura"
+            ],
+            "description": "An Imperial princess announced as a distinguished guest for the Mercurial Court's opening ceremony.",
+            "id": "asura",
+            "name": "Asura",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Zac's demon companion, separated from him while pursuing opportunities within the memory domains. He has adopted a criminal-informer identity and has not returned when Zac begins weighing a dangerous rescue.",
+            "id": "ogras",
+            "name": "Ogras",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Zac's illusionist subordinate and a realm singer of the Mercurial Court. He appears at the opening ceremony disoriented, troubled by repeated sleep, and using a sphere to gather faith and Peregrine Ocean energy.",
+            "id": "janos",
+            "name": "Janos",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The enigmatic leader of the Mercurial Court, present through a supremacy-level imprint. Grand Dream formally opens the gate of transformation and presents the Court's trial as a chance to see beyond illusion.",
+            "id": "grand-dream",
+            "name": "Grand Dream",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Templar who recognizes Zac beneath his borrowed identity and stops him at the gondolas, demanding that Janos remain behind.",
+            "id": "enkindling-sage",
+            "name": "Enkindling Sage",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A figure whose absence prompts an undead envoy to confront Zac and demand an account of what happened to him.",
+            "id": "arcaz-umbrizi",
+            "name": "Arcaz Umbrizi",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An unnamed numerologist working with the Rosemore Sect inside the Mousetrap. The numerologist reunites with Zac and guides his group to the sect's concealed base.",
+            "id": "numerologist",
+            "name": "Numerologist",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An undead envoy carrying a second heart of contained creation energy. She reaches a limited agreement with Zac, offers concealment against a powerful pursuer, and reserves the right to protect her faction's interests.",
+            "id": "an-azol-descendant",
+            "name": "An-Azol Descendant",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A supposedly dead corruptor linked to false eternity, displaced karmic debt, and the threat hunting Zac. Her interest in his Void connection makes him both a target and possible bait for a greater Imperial response.",
+            "id": "mox",
+            "name": "Mox",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The Pathfinders' chief researcher and architect of the project drawing dangerous Hope crystals from a lower plane. His faction distributes the energy despite nightmares that can become physically real.",
+            "id": "naruk",
+            "name": "Naruk",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An authority connected to the Order of Fertile Earth whom Zac attempts to summon inside Mox's hidden realm. Mox's attention destroys the token before Roan can answer, leaving Zac without immediate aid.",
+            "id": "roan",
+            "name": "Roan",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A powerful figure manifested through Zac's Fushi Mountain Gate during the confrontation with Mox. His imposing scales force the hidden sanctuary out of the void and bring its concealed master into the open.",
+            "id": "margrave-wartorius",
+            "name": "Margrave Wartorius",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A supreme intervener wielding an authority of death against Mox's soul-harvesting domain. The Primo joins the Imperial counterattack and turns true death upon the purgatories holding the captive souls.",
+            "id": "the-primo",
+            "name": "The Primo",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A powerful Mercurial Court elder who registers Zac as an outer disciple. Old Sixth gives him a Mercurial Sack that can turn sufficiently understood illusions into real objects.",
+            "id": "old-sixth",
+            "name": "Old Sixth",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A separate seal bearer traveling toward the Anima Court. Velary carries seven emotion idols that protect and restore her mind, while recurring visions of an ancient Imperial road guide her uncertain route.",
+            "id": "velary",
+            "name": "Velary",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A separate seal bearer traveling toward another court. Zac worries that his disruption of Sangha-linked karma could place her route in danger.",
+            "id": "cathaya",
+            "name": "Cathaya",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior Explorers Guild member with a prophetic dream Dao bone and secret training under the eighth elder. She investigates hidden corruption, captures Esmeralda during a dream-state episode, and directs both companions toward Zac.",
+            "id": "explorers-guild-vice-leader",
+            "name": "Explorers Guild Vice Leader",
+            "reveal": {
+              "chapter": 45
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The leader of the Explorers Guild's fifty-person hunting party. She does not register on Zac's corruption compass when he scans the group before the lodge hunt.",
+            "id": "explorers-guild-guildmaster",
+            "name": "Explorers Guild Guildmaster",
+            "reveal": {
+              "chapter": 45
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dream-goddess glimpsed through the vice leader’s unexplained vision as a failing, egg-like construct overshadowed by a greater presence associated with rot.",
+            "id": "savona",
+            "name": "Savona",
+            "reveal": {
+              "chapter": 45
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Explorers Guild figure whom the dying guildmaster identifies as an enemy replacement. The original Royce was displaced months earlier, and the surviving impersonator remains active within the broader infiltration.",
+            "id": "royce",
+            "name": "Royce",
+            "reveal": {
+              "chapter": 57
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A fire archer traveling with Iz Tayn in the Far Sea Court on Zac's behalf. Carl exhausts a prepared solar-arrow technique to break a beast tide and protect a frontier base while its spiritual spring emerges.",
+            "id": "carl",
+            "name": "Carl",
+            "reveal": {
+              "chapter": 58
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Iz"
+            ],
+            "description": "Carl's Flame Bearer companion on the Far Sea Court route. Iz Tayn kills a compromised militia captain, burns away hostile influence, and identifies a long-running infiltration hidden within the frontier base.",
+            "id": "iz-tayn",
+            "name": "Iz Tayn",
+            "reveal": {
+              "chapter": 58
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elemental descended from an old prior who emerges from a monarch he has parasitized. Kaltosa Lu has infiltrated the invaders and opposes their commander, but his independent objective makes him an uncertain partner.",
+            "id": "kaltosa-lu",
+            "name": "Kaltosa Lu",
+            "reveal": {
+              "chapter": 64
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The commander treated as superior by the soldiers assaulting the hunting lodge. Descartes confronts Kaltosa Lu as the Hall of Abundance becomes exposed and several factions compete for the divine core.",
+            "id": "descartes",
+            "name": "Descartes",
+            "reveal": {
+              "chapter": 64
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Explorers Guild Vice Leader"
+            ],
+            "description": "The previously unnamed Explorers Guild vice leader is identified as Idych while she and Esmeralda remain concealed near the contested Hall of Abundance.",
+            "id": "idych",
+            "name": "Idych",
+            "reveal": {
+              "chapter": 64
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Descartes’ principal, whose familiar force manifests inside the divine core and reaches toward it through the Hall of Abundance.",
+            "id": "august",
+            "name": "August",
+            "reveal": {
+              "chapter": 65
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A figure connected to the Empyrean Chalice who emerges from it after the Chalice drives Kaltosa Lu away.",
+            "id": "giphos",
+            "name": "Giphos",
+            "reveal": {
+              "chapter": 68
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Kaltosa Lu's attendant and diviner. Lompo accompanies him safely out of the ancestral tomb after Descartes' death, as Kaltosa Lu abandons an immediate pursuit of Zac and turns toward other seal bearers.",
+            "id": "lompo",
+            "name": "Lompo",
+            "reveal": {
+              "chapter": 71
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A deceased figure connected to the Mercurial Court's hidden sacrifice. Before departing on her new duty, Idych asks Zac to establish that Marai died as a martyr, leaving him with an unresolved obligation.",
+            "id": "marai",
+            "name": "Marai",
+            "reveal": {
+              "chapter": 72
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0HH9S1SYY",
+            "type": "community"
+          }
+        ],
+        "work": "defiance-of-the-fall-17"
+      }
+    },
     "defiance-of-the-fall-2": {
       "characters": {
         "characters": [
