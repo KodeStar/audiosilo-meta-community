@@ -95,7 +95,11 @@ Two routes, both fine:
 
 Whichever route, [AUTHORING.md](AUTHORING.md) is the standard the entry is
 reviewed against: own words, neutral reference-guide voice, the length caps, and
-the spoiler model. A member you write must carry `"license":
+the spoiler model. Every data pull request is first reviewed against it by
+`.github/workflows/ai-verify.yml`, which posts a `passed`/`flagged` comment and
+the `ai-verified`/`ai-flagged` label; the maintainer's steward (see core's
+GOVERNANCE.md, "The steward") merges a pull request once `keys`, `structure` and
+that review have all passed on its exact head, and works a flag into a fix. A member you write must carry `"license":
 "CC-BY-SA-4.0"` - the schema enforces it, because a CC0 record can never carry
 the share-alike licence and a sidecar can never carry CC0.
 

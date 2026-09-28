@@ -1,0 +1,150 @@
+name: ai-verify
+
+# AI review of a community pull request's PROSE: the spoiler model, own words,
+# the neutral reference-guide voice, the description contract and provenance
+# (the rules in AUTHORING.md). It posts a PASS/FLAG comment and label exactly
+# as core's ai-verify does: the job key `verify`, the comment heading and the
+# two labels are a contract with audiosilo-meta-sync's steward, which merges on
+# them (CLAUDE.md, "The AI review"). Rename none of them without the steward.
+# The job's COLOUR is a separate signal: red means no verdict was reached (see
+# the script's EXIT STATUS note).
+#
+# SECURITY: the plain `pull_request` trigger, NOT `pull_request_target` (see
+# check.yml). A fork pull request gets no secrets, so it is not run at all (the
+# job `if:` below); it is verified by a maintainer's workflow_dispatch, which runs
+# from the default branch with the secret. The context is contributor text and is
+# handed to a tool-less model as DATA (see .github/scripts/ai-verify.sh).
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled]
+    paths:
+      - "data/**"
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: "Pull request number to verify"
+        required: true
+        type: number
+
+permissions:
+  contents: read
+  pull-requests: write
+
+# A `labeled` event for anything but the opt-in `ai-verify` label, and any fork
+# event, is a no-op run with its own group, so it can never cancel a real one
+# (the intake bot labels its pull requests right after opening them; core lost
+# the verdict on 26 of 30 intake pull requests to exactly that).
+concurrency:
+  group: ai-verify-${{ github.event.pull_request.number || github.event.inputs.pr }}-${{ ((github.event.action == 'labeled' && github.event.label.name != 'ai-verify') || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository)) && 'noop' || 'run' }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      HAS_OAUTH: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+    # Same-repo branches or a manual dispatch; a `labeled` event only for the
+    # opt-in `ai-verify` label, never for the two outcome labels this job applies
+    # (which would re-fire it and cancel the run that just labelled).
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (
+        (
+          github.event.action != 'labeled' ||
+          github.event.label.name == 'ai-verify'
+        ) &&
+        github.event.pull_request.head.repo.full_name == github.repository
+      )
+    steps:
+      # Pinned by sha, as core's ai-verify.yml is: this job holds the OAuth
+      # secret and a write token, and a moved tag would run new code beside both.
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Gather the changed entries
+        id: gather
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT: ${{ github.event_name }}
+          PR_INPUT: ${{ github.event.inputs.pr }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            PR="$PR_INPUT"
+            if ! [[ "$PR" =~ ^[0-9]+$ ]]; then
+              echo "::error::pr input must be a pull request number; got '${PR}'"
+              exit 1
+            fi
+            BASE_SHA="$(gh pr view "$PR" --json baseRefOid -q .baseRefOid)"
+            HEAD_SHA="$(gh pr view "$PR" --json headRefOid -q .headRefOid)"
+            git fetch --no-tags origin "$BASE_SHA" "$HEAD_SHA"
+          else
+            PR="$PR_NUMBER"
+          fi
+          echo "pr=$PR" >> "$GITHUB_OUTPUT"
+          bash .github/scripts/ai-verify-context.sh "$BASE_SHA" "$HEAD_SHA" context.txt
+          if [ -s context.txt ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          # data/** changed but no ENTRY did: a pure re-render or pack split
+          # (a CORE_REF bump's `metafmt --write`, say). There is no prose to
+          # judge, so this is a pass without a model call - leaving it unlabelled
+          # would keep the previous head's outcome label on a head it never
+          # judged, and the steward could never merge the pull request.
+          if ! git diff --quiet "${BASE_SHA}...${HEAD_SHA}" -- data/; then
+            echo "storage_only=true" >> "$GITHUB_OUTPUT"
+            printf '{"verdict":"pass","findings":[]}\n' > verdict.json
+            {
+              echo "### AI verification: passed"
+              echo
+              echo "No works-community entry changed: this pull request only re-renders or moves entries between packs, so there is no prose to review."
+            } > comment.md
+          fi
+
+      # Pinned, and bumped by hand after checking the flags ai-verify.sh passes
+      # still mean the same thing; `claude --version` is a liveness probe (core's
+      # ai-verify.yml explains the outage that taught both).
+      - name: Install Claude Code CLI
+        if: steps.gather.outputs.has_changes == 'true' && env.HAS_OAUTH == 'true'
+        run: |
+          npm install -g @anthropic-ai/claude-code@2.1.273
+          claude --version
+
+      - name: Run AI verification
+        if: steps.gather.outputs.has_changes == 'true'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: bash .github/scripts/ai-verify.sh context.txt verdict.json comment.md
+
+      # Runs even when the verification step FAILED (a skip), so the skip keeps
+      # its trace on the pull request while the job stays red. A skip clears both
+      # outcome labels: a label must never assert a verdict this run did not
+      # reach.
+      - name: Post the verdict and label the PR
+        if: ${{ !cancelled() && (steps.gather.outputs.has_changes == 'true' || steps.gather.outputs.storage_only == 'true') }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ steps.gather.outputs.pr }}
+        run: |
+          if [ ! -s comment.md ]; then
+            echo "::warning::ai-verify produced no comment - verification did not reach a verdict; see the log above"
+            exit 0
+          fi
+          gh pr comment "$PR" --body-file comment.md || echo "::warning::could not post the ai-verify comment on PR $PR"
+          verdict="$(jq -r '.verdict // "skip"' verdict.json 2>/dev/null || echo skip)"
+          case "$verdict" in
+            pass) gh pr edit "$PR" --remove-label ai-flagged --add-label ai-verified || true ;;
+            flag) gh pr edit "$PR" --remove-label ai-verified --add-label ai-flagged || true ;;
+            *)    gh pr edit "$PR" --remove-label ai-verified --remove-label ai-flagged || true
+                  echo "verdict=$verdict; outcome labels cleared" ;;
+          esac
