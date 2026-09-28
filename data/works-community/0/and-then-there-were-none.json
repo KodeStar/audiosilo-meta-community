@@ -167,7 +167,119 @@
         "work": "and-then-there-were-none"
       }
     },
-    "angels-amp-demons": {
+    "angels-demons": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A Harvard professor of religious symbology, an expert in the history of secret societies and their hidden iconography. Summoned unexpectedly to investigate a shocking murder marked with an ancient symbol, he is drawn into a race across Europe. Rational, knowledgeable, and slightly out of his depth in the field, he relies on his scholarship to decode clues under intense time pressure.",
+            "id": "robert-langdon",
+            "name": "Robert Langdon",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A gifted physicist at CERN, the great European research laboratory, and the daughter of a murdered scientist. Poised, athletic, and scientifically brilliant, she has worked on cutting-edge experiments with her father and joins Langdon to pursue the people responsible for his death and for a dangerous theft.",
+            "id": "vittoria-vetra",
+            "name": "Vittoria Vetra",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A respected CERN physicist who is also a Catholic priest, seeking to reconcile science and faith through his research. He is murdered at the very start of the story, his death branded with a strange symbol, and it is this killing and the theft connected to it that set the entire plot in motion.",
+            "id": "leonardo-vetra",
+            "name": "Leonardo Vetra",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The director of CERN, a brilliant and coldly rational man confined to a wheelchair by illness. Nicknamed for his forbidding manner, he is contemptuous of religion and fiercely protective of his laboratory's work. He summons Langdon and pushes the early investigation with impatient intensity.",
+            "id": "maximilian-kohler",
+            "name": "Maximilian Kohler",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "The Camerlengo"
+            ],
+            "description": "The camerlengo, the late Pope's devoted chamberlain, who assumes temporary stewardship of the Vatican during the crisis and the papal conclave that follows the pontiff's death. Young, humble, and passionately faithful, he appears as a calm, sympathetic figure trying to protect the Church through a terrifying threat.",
+            "id": "camerlengo",
+            "name": "Carlo Ventresca",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The commander of the Swiss Guard, the elite force that protects the Vatican and the Pope. Disciplined and skeptical, he is reluctant at first to believe the scale of the danger and wary of outside interference in matters of Vatican security.",
+            "id": "commander-olivetti",
+            "name": "Commander Olivetti",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An elderly, level-headed cardinal charged with overseeing the conclave that will elect the next Pope. Thoughtful and devout, he serves as a steady presence among the assembled cardinals as the election is thrown into chaos by unfolding events.",
+            "id": "cardinal-mortati",
+            "name": "Cardinal Mortati",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A ruthless, professional killer carrying out a series of murders and abductions on behalf of a hidden master he communicates with only by phone. Cold, sensual, and proud of his lethal craft, he claims descent from an ancient order of assassins and takes cruel pleasure in his work, remaining a step ahead of Langdon throughout the pursuit.",
+            "id": "the-hassassin",
+            "name": "The Hassassin",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-07-25",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          }
+        ],
+        "work": "angels-demons"
+      },
+      "recaps": {
+        "ending": "The Illuminati threat is exposed as a fabrication staged from within the Church. The camerlengo, Carlo Ventresca, is revealed to be the mastermind behind everything: he poisoned the Pope, arranged the theft of the antimatter, hired the assassin, and staged a false revival of the Illuminati so that he could appear to save the Church and be swept to power. His climactic rescue of the antimatter, flying it above the city and parachuting to apparent glory while Langdon survives a fall into the Tiber, is part of the performance, including a wound he inflicts on himself to seem divinely marked. On the verge of being acclaimed the next Pope, he is undone when it emerges that the Pope he murdered was his biological father, conceived through artificial insemination so that the pontiff never broke his vow of chastity. Devastated by this truth, Ventresca sets himself ablaze before the crowds in St. Peter's. The elderly Cardinal Mortati, who uncovers and reveals the truth, is elected the new Pope. Langdon and Vittoria survive, and the Church quietly buries the scandal, preserving the illusion of a miracle for the faithful.",
+        "in_short": "Harvard symbologist Robert Langdon is summoned to CERN after a scientist is murdered and branded with the ancient symbol of the Illuminati, a secret brotherhood long thought extinct. A vial of antimatter, capable of a devastating explosion, has been stolen and hidden somewhere in Vatican City, set to detonate at midnight, just as the cardinals gather to elect a new Pope. With the physicist Vittoria Vetra, Langdon races through Rome following a trail of Illuminati clues hidden in Renaissance art and architecture, while a hired assassin murders four kidnapped cardinals one by one. The seemingly heroic camerlengo, the late Pope's chamberlain, rallies the Church and, in an apparent act of divine courage, flies the antimatter high above the city so it explodes harmlessly in the sky, and Langdon survives a fall from the aircraft. But it is revealed to be an elaborate deception: the camerlengo himself orchestrated the entire plot, murdering the Pope and staging the Illuminati threat to make himself the Church's savior, only to learn that the Pope he killed was secretly his own father. Exposed, the camerlengo takes his own life by fire, and a new Pope is chosen.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "book",
+            "text": "Robert Langdon, a Harvard professor of religious symbology, is roused in the middle of the night and summoned urgently to CERN, the European physics laboratory, after a researcher is found murdered and branded with a mysterious symbol tied to the Illuminati, a secret brotherhood believed to have vanished centuries ago. There he learns that a small quantity of antimatter, a substance capable of a catastrophic explosion, has been stolen. The trail points toward Vatican City, where the cardinals are about to gather to elect a new Pope. So begins a desperate race, with a scientist's expertise and Langdon's knowledge of hidden symbols, to prevent an act of terror aimed at the heart of the Catholic Church.",
+            "through": {
+              "chapter": 1
+            }
+          }
+        ],
+        "sources": [
+          {
+            "imported_at": "2026-07-25",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          }
+        ],
+        "work": "angels-demons"
+      }
+    },
+    "angels-demons-dan-brown": {
       "characters": {
         "characters": [
           {
@@ -293,7 +405,7 @@
             "type": "community"
           }
         ],
-        "work": "angels-amp-demons"
+        "work": "angels-demons-dan-brown"
       },
       "recaps": {
         "ending": "Langdon and Vittoria discover that the supposed Illuminati plot was orchestrated by Camerlengo Carlo Ventresca. He murdered the pope after learning that the pontiff had fathered a child through artificial insemination, then arranged Leonardo Vetra's death, the antimatter theft, and the cardinals' murders to manufacture a crisis in which he could appear divinely chosen. Kohler had recorded Ventresca's confession, and the surviving evidence reaches the conclave. Ventresca learns that he himself was the pope's child, conceived without breaking the pope's vow of celibacy, and publicly burns himself to death. Cardinal Mortati is elected pope. The antimatter has exploded harmlessly high above Rome after Langdon survives the fall from the helicopter with a parachute-like cover. Vittoria and Langdon leave the Vatican together, and Mortati gives Langdon the final Illuminati diamond brand on indefinite loan.",
@@ -350,119 +462,7 @@
             "type": "community"
           }
         ],
-        "work": "angels-amp-demons"
-      }
-    },
-    "angels-demons": {
-      "characters": {
-        "characters": [
-          {
-            "description": "A Harvard professor of religious symbology, an expert in the history of secret societies and their hidden iconography. Summoned unexpectedly to investigate a shocking murder marked with an ancient symbol, he is drawn into a race across Europe. Rational, knowledgeable, and slightly out of his depth in the field, he relies on his scholarship to decode clues under intense time pressure.",
-            "id": "robert-langdon",
-            "name": "Robert Langdon",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
-            "description": "A gifted physicist at CERN, the great European research laboratory, and the daughter of a murdered scientist. Poised, athletic, and scientifically brilliant, she has worked on cutting-edge experiments with her father and joins Langdon to pursue the people responsible for his death and for a dangerous theft.",
-            "id": "vittoria-vetra",
-            "name": "Vittoria Vetra",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A respected CERN physicist who is also a Catholic priest, seeking to reconcile science and faith through his research. He is murdered at the very start of the story, his death branded with a strange symbol, and it is this killing and the theft connected to it that set the entire plot in motion.",
-            "id": "leonardo-vetra",
-            "name": "Leonardo Vetra",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "minor"
-          },
-          {
-            "description": "The director of CERN, a brilliant and coldly rational man confined to a wheelchair by illness. Nicknamed for his forbidding manner, he is contemptuous of religion and fiercely protective of his laboratory's work. He summons Langdon and pushes the early investigation with impatient intensity.",
-            "id": "maximilian-kohler",
-            "name": "Maximilian Kohler",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "The Camerlengo"
-            ],
-            "description": "The camerlengo, the late Pope's devoted chamberlain, who assumes temporary stewardship of the Vatican during the crisis and the papal conclave that follows the pontiff's death. Young, humble, and passionately faithful, he appears as a calm, sympathetic figure trying to protect the Church through a terrifying threat.",
-            "id": "camerlengo",
-            "name": "Carlo Ventresca",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The commander of the Swiss Guard, the elite force that protects the Vatican and the Pope. Disciplined and skeptical, he is reluctant at first to believe the scale of the danger and wary of outside interference in matters of Vatican security.",
-            "id": "commander-olivetti",
-            "name": "Commander Olivetti",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "minor"
-          },
-          {
-            "description": "An elderly, level-headed cardinal charged with overseeing the conclave that will elect the next Pope. Thoughtful and devout, he serves as a steady presence among the assembled cardinals as the election is thrown into chaos by unfolding events.",
-            "id": "cardinal-mortati",
-            "name": "Cardinal Mortati",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "minor"
-          },
-          {
-            "description": "A ruthless, professional killer carrying out a series of murders and abductions on behalf of a hidden master he communicates with only by phone. Cold, sensual, and proud of his lethal craft, he claims descent from an ancient order of assassins and takes cruel pleasure in his work, remaining a step ahead of Langdon throughout the pursuit.",
-            "id": "the-hassassin",
-            "name": "The Hassassin",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "antagonist"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-07-25",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "angels-demons"
-      },
-      "recaps": {
-        "ending": "The Illuminati threat is exposed as a fabrication staged from within the Church. The camerlengo, Carlo Ventresca, is revealed to be the mastermind behind everything: he poisoned the Pope, arranged the theft of the antimatter, hired the assassin, and staged a false revival of the Illuminati so that he could appear to save the Church and be swept to power. His climactic rescue of the antimatter, flying it above the city and parachuting to apparent glory while Langdon survives a fall into the Tiber, is part of the performance, including a wound he inflicts on himself to seem divinely marked. On the verge of being acclaimed the next Pope, he is undone when it emerges that the Pope he murdered was his biological father, conceived through artificial insemination so that the pontiff never broke his vow of chastity. Devastated by this truth, Ventresca sets himself ablaze before the crowds in St. Peter's. The elderly Cardinal Mortati, who uncovers and reveals the truth, is elected the new Pope. Langdon and Vittoria survive, and the Church quietly buries the scandal, preserving the illusion of a miracle for the faithful.",
-        "in_short": "Harvard symbologist Robert Langdon is summoned to CERN after a scientist is murdered and branded with the ancient symbol of the Illuminati, a secret brotherhood long thought extinct. A vial of antimatter, capable of a devastating explosion, has been stolen and hidden somewhere in Vatican City, set to detonate at midnight, just as the cardinals gather to elect a new Pope. With the physicist Vittoria Vetra, Langdon races through Rome following a trail of Illuminati clues hidden in Renaissance art and architecture, while a hired assassin murders four kidnapped cardinals one by one. The seemingly heroic camerlengo, the late Pope's chamberlain, rallies the Church and, in an apparent act of divine courage, flies the antimatter high above the city so it explodes harmlessly in the sky, and Langdon survives a fall from the aircraft. But it is revealed to be an elaborate deception: the camerlengo himself orchestrated the entire plot, murdering the Pope and staging the Illuminati threat to make himself the Church's savior, only to learn that the Pope he killed was secretly his own father. Exposed, the camerlengo takes his own life by fire, and a new Pope is chosen.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "book",
-            "text": "Robert Langdon, a Harvard professor of religious symbology, is roused in the middle of the night and summoned urgently to CERN, the European physics laboratory, after a researcher is found murdered and branded with a mysterious symbol tied to the Illuminati, a secret brotherhood believed to have vanished centuries ago. There he learns that a small quantity of antimatter, a substance capable of a catastrophic explosion, has been stolen. The trail points toward Vatican City, where the cardinals are about to gather to elect a new Pope. So begins a desperate race, with a scientist's expertise and Langdon's knowledge of hidden symbols, to prevent an act of terror aimed at the heart of the Catholic Church.",
-            "through": {
-              "chapter": 1
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-07-25",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "angels-demons"
+        "work": "angels-demons-dan-brown"
       }
     },
     "angels-flight": {

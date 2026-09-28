@@ -1699,162 +1699,6 @@
         "work": "the-cider-house-rules"
       }
     },
-    "the-city-amp-the-city": {
-      "characters": {
-        "characters": [
-          {
-            "aliases": [
-              "Tyador"
-            ],
-            "description": "A senior inspector in Beszel's Extreme Crime Squad and the investigator assigned to an unidentified woman's murder. Methodical and skeptical, he is practiced at noticing his own city while consciously disregarding the people, buildings, and traffic of Ul Qoma that occupy the same physical streets.",
-            "id": "tyador-borlu",
-            "name": "Tyador Borlú",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
-            "description": "A constable in the Extreme Crime Squad who becomes Borlú's principal colleague on the murder case. Direct, capable, and grounded in local police work, she follows the practical evidence through Beszel while remaining alert to the political risks surrounding any possible breach between the cities.",
-            "id": "lizbyet-corwi",
-            "name": "Lizbyet Corwi",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The young woman whose body is discovered in Beszel at the start of the investigation. The damage to her face initially prevents identification, making her movements, associations, and reason for being transported across the city central questions in Borlú's case.",
-            "id": "mahalia-geary",
-            "name": "Mahalia Geary",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Borlú's superior in the Extreme Crime Squad. He gives Borlú room to pursue an unusual case but remains conscious that any suggestion of an illegal crossing could remove the investigation from ordinary police authority and place everyone involved under Breach's scrutiny.",
-            "id": "inspector-gadlem",
-            "name": "Inspector Gadlem",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A veteran Besz pathologist whose examination of the dead woman helps Borlú separate the circumstances of her death from the elaborate attempt to conceal her identity and route into Beszel.",
-            "id": "doctor-shukman",
-            "name": "Doctor Shukman",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "minor"
-          },
-          {
-            "description": "A foreign academic whose influential writing about Beszel and Ul Qoma made him an authority on the disputed idea of Orciny, a supposed third city existing in the spaces between them. He later rejected his own theory but remains closely associated with it in the minds of students and conspiracy believers.",
-            "id": "david-bowden",
-            "name": "David Bowden",
-            "reveal": {
-              "chapter": 7
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "An American student and friend of Mahalia's in Ul Qoma. She shared Mahalia's archaeological circle and knows how strongly Mahalia had become interested in Orciny, making her an important source for Borlú once the investigation crosses legally into Ul Qoma.",
-            "id": "yolanda-rodriguez",
-            "name": "Yolanda Rodriguez",
-            "reveal": {
-              "chapter": 12
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The Ul Qoman senior detective partnered with Borlú when the case moves across the official border. Abrasive at first and fiercely protective of his jurisdiction, he is nonetheless a serious investigator willing to test evidence that unsettles both cities' preferred explanations.",
-            "id": "quissim-dhatt",
-            "name": "Quissim Dhatt",
-            "reveal": {
-              "chapter": 12
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "An operative of Breach who becomes Borlú's guide and custodian after the inspector violates the cities' defining prohibition. He can move through shared space without belonging visibly to either city and teaches Borlú how Breach reads actions that ordinary citizens have trained themselves not to perceive.",
-            "id": "ashil",
-            "name": "Ashil",
-            "reveal": {
-              "chapter": 24
-            },
-            "role": "supporting"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "the-city-amp-the-city"
-      },
-      "recaps": {
-        "ending": "Borlú and Ashil establish that Orciny is not a hidden third city. The myth has been used to cloak an archaeological smuggling operation that exploits crosshatched spaces and the citizens' learned refusal to see across the urban divide. David Bowden, once the chief public advocate of Orciny, helped sustain that illusion. Mahalia discovered enough to threaten the operation, and Bowden killed her during a confrontation before her body was transported into Beszel by legal means. When Bowden tries to escape through overlapping territory, Borlú shoots him while consciously acting across the boundary between cities. Breach accepts that Borlú has solved the case but does not return him to his former life. He becomes part of Breach under Ashil's direction, inhabiting the spaces between Beszel and Ul Qoma and estranged from ordinary membership in either one.",
-        "in_short": "Besz detective Tyador Borlú investigates the murder of American archaeology student Mahalia Geary, whose body has been left in Beszel although her life and studies were based in Ul Qoma. The two cities occupy the same physical territory, but citizens must ignore the other city and cross only through an official border; violations summon the secretive power called Breach. Borlú works first with Lizbyet Corwi and then with Ul Qoman detective Quissim Dhatt, tracing Mahalia's obsession with Orciny, a rumored third city hidden between the two. After another witness is killed and Borlú himself breaches, the operative Ashil helps him continue. They discover that Orciny is a fiction used to disguise the smuggling of archaeological objects through crosshatched spaces. Scholar David Bowden killed Mahalia when she threatened the scheme. Borlú kills Bowden during a final attempted escape across the cities' divide and, unable to resume his old identity, joins Breach.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "book",
-            "text": "In Beszel, Inspector Tyador Borlú is called to a patch of waste ground where a young woman has been found dead. Her face has been badly damaged and she carries no identification. Borlú and Constable Lizbyet Corwi determine that the site is only where the body was dumped. Their work takes place within the peculiar geography of Beszel and Ul Qoma: the two cities occupy many of the same streets and buildings, but their citizens are trained to recognize only their own city and to unsee the other. Crossing or openly acknowledging the wrong city outside the official border is breach, an offense answered by a feared authority beyond either police force. The victim's unfamiliar clothes and manner of death raise the possibility that she came from Ul Qoma, but the evidence does not yet justify invoking Breach and surrendering the case.",
-            "through": {
-              "chapter": 5
-            }
-          },
-          {
-            "scope": "book",
-            "text": "The dead woman is identified as Mahalia Geary, an American graduate student attached to an archaeological project in Ul Qoma. She had become absorbed in Orciny, the disputed legend of a third city said to exist in the hidden spaces between Beszel and Ul Qoma. David Bowden, a foreign scholar whose earlier work popularized the idea before he repudiated it, is part of the intellectual world surrounding the theory. Borlú receives information suggesting that Mahalia was killed in Ul Qoma and brought illegally into Beszel, which would make the murder part of a breach. Yet the route of the van used to dump her body and the available border evidence do not fit a simple forbidden crossing. Breach declines to take over, leaving Borlú to pursue the case through normal channels. To investigate Mahalia's life, he must travel legally through Copula Hall, the border passage that turns the shared physical space into a jurisdictional crossing.",
-            "through": {
-              "chapter": 10
-            }
-          },
-          {
-            "scope": "book",
-            "text": "After passing through the official border, Borlú enters Ul Qoma and must now see as foreign the Besz streets and people he ordinarily inhabits. He is partnered with senior detective Quissim Dhatt, whose suspicion of Besz interference gradually gives way to professional cooperation. They examine Mahalia's studies, her archaeological contacts, and her growing conviction that Orciny was real. Her friend Yolanda Rodriguez describes Mahalia's state of mind and the ideas circulating among the foreign students. The investigators also consider whether nationalist groups, unificationists, or political authorities might have used the murder to provoke conflict between the cities. Mahalia's fascination with spaces that are difficult to classify appears increasingly connected to her death, but testimony about Orciny mixes genuine fear, academic speculation, and deliberate obscurity.",
-            "through": {
-              "chapter": 15
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Borlú and Dhatt follow evidence linking Mahalia's archaeological work to missing or illicitly moved artifacts. The case suggests that someone has taken advantage of crosshatched areas, where Beszel and Ul Qoma overlap and citizens carefully ignore activity assigned to the other city. The idea of Orciny offers an effective screen: witnesses can interpret unexplained movements as the work of an invisible third power instead of examining people they have been conditioned not to see. David Bowden's history with the theory and his access to Mahalia's circle make him increasingly important, though the investigators still lack a complete account of the killing. Yolanda becomes both a vital witness and a person in danger, while pressure from police and political interests narrows the investigators' freedom to act.",
-            "through": {
-              "chapter": 20
-            }
-          },
-          {
-            "scope": "book",
-            "text": "The attempt to protect Yolanda fails, and the violence around the case confirms that someone is eliminating people who can expose the route used for the archaeological traffic. During the pursuit that follows, Borlú deliberately sees and acts across the division between the cities. Breach intervenes immediately and removes him from both police jurisdictions. Instead of simply making him disappear, the operative Ashil questions him and allows the murder inquiry to continue under Breach's control. Moving with Ashil, Borlú experiences the shared urban space without the ordinary discipline of belonging wholly to Beszel or Ul Qoma. This perspective makes the central deception clearer: the unexplained movements attributed to Orciny can be carried out by ordinary people exploiting the perceptual rules of the two cities. The remaining task is to prove who used that deception and why Mahalia had to be silenced.",
-            "through": {
-              "chapter": 25
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Borlú and Ashil uncover no secret third city. Orciny is a story that has protected an artifact-smuggling operation conducted through the ambiguous, crosshatched spaces of Beszel and Ul Qoma. David Bowden, whose scholarship had given the legend authority, helped preserve the deception. Mahalia learned enough about the traffic to endanger it, and Bowden killed her during a confrontation. Her body was then moved into Beszel without the spectacular breach the first clues seemed designed to imply. When Bowden attempts to escape by using the overlap between the cities, Borlú consciously targets him across their boundary and shoots him. The murder is solved, but Borlú's own breach has ended his former existence. Rather than return to the Besz police, he joins Breach and learns to inhabit the spaces between the two civic realities under Ashil's guidance.",
-            "through": {
-              "chapter": 30
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "the-city-amp-the-city"
-      }
-    },
     "the-city-and-the-stars": {
       "characters": {
         "characters": [
@@ -2241,6 +2085,162 @@
           }
         ],
         "work": "the-city-of-brass"
+      }
+    },
+    "the-city-the-city": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Tyador"
+            ],
+            "description": "A senior inspector in Beszel's Extreme Crime Squad and the investigator assigned to an unidentified woman's murder. Methodical and skeptical, he is practiced at noticing his own city while consciously disregarding the people, buildings, and traffic of Ul Qoma that occupy the same physical streets.",
+            "id": "tyador-borlu",
+            "name": "Tyador Borlú",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A constable in the Extreme Crime Squad who becomes Borlú's principal colleague on the murder case. Direct, capable, and grounded in local police work, she follows the practical evidence through Beszel while remaining alert to the political risks surrounding any possible breach between the cities.",
+            "id": "lizbyet-corwi",
+            "name": "Lizbyet Corwi",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The young woman whose body is discovered in Beszel at the start of the investigation. The damage to her face initially prevents identification, making her movements, associations, and reason for being transported across the city central questions in Borlú's case.",
+            "id": "mahalia-geary",
+            "name": "Mahalia Geary",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Borlú's superior in the Extreme Crime Squad. He gives Borlú room to pursue an unusual case but remains conscious that any suggestion of an illegal crossing could remove the investigation from ordinary police authority and place everyone involved under Breach's scrutiny.",
+            "id": "inspector-gadlem",
+            "name": "Inspector Gadlem",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A veteran Besz pathologist whose examination of the dead woman helps Borlú separate the circumstances of her death from the elaborate attempt to conceal her identity and route into Beszel.",
+            "id": "doctor-shukman",
+            "name": "Doctor Shukman",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A foreign academic whose influential writing about Beszel and Ul Qoma made him an authority on the disputed idea of Orciny, a supposed third city existing in the spaces between them. He later rejected his own theory but remains closely associated with it in the minds of students and conspiracy believers.",
+            "id": "david-bowden",
+            "name": "David Bowden",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An American student and friend of Mahalia's in Ul Qoma. She shared Mahalia's archaeological circle and knows how strongly Mahalia had become interested in Orciny, making her an important source for Borlú once the investigation crosses legally into Ul Qoma.",
+            "id": "yolanda-rodriguez",
+            "name": "Yolanda Rodriguez",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Ul Qoman senior detective partnered with Borlú when the case moves across the official border. Abrasive at first and fiercely protective of his jurisdiction, he is nonetheless a serious investigator willing to test evidence that unsettles both cities' preferred explanations.",
+            "id": "quissim-dhatt",
+            "name": "Quissim Dhatt",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An operative of Breach who becomes Borlú's guide and custodian after the inspector violates the cities' defining prohibition. He can move through shared space without belonging visibly to either city and teaches Borlú how Breach reads actions that ordinary citizens have trained themselves not to perceive.",
+            "id": "ashil",
+            "name": "Ashil",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          }
+        ],
+        "work": "the-city-the-city"
+      },
+      "recaps": {
+        "ending": "Borlú and Ashil establish that Orciny is not a hidden third city. The myth has been used to cloak an archaeological smuggling operation that exploits crosshatched spaces and the citizens' learned refusal to see across the urban divide. David Bowden, once the chief public advocate of Orciny, helped sustain that illusion. Mahalia discovered enough to threaten the operation, and Bowden killed her during a confrontation before her body was transported into Beszel by legal means. When Bowden tries to escape through overlapping territory, Borlú shoots him while consciously acting across the boundary between cities. Breach accepts that Borlú has solved the case but does not return him to his former life. He becomes part of Breach under Ashil's direction, inhabiting the spaces between Beszel and Ul Qoma and estranged from ordinary membership in either one.",
+        "in_short": "Besz detective Tyador Borlú investigates the murder of American archaeology student Mahalia Geary, whose body has been left in Beszel although her life and studies were based in Ul Qoma. The two cities occupy the same physical territory, but citizens must ignore the other city and cross only through an official border; violations summon the secretive power called Breach. Borlú works first with Lizbyet Corwi and then with Ul Qoman detective Quissim Dhatt, tracing Mahalia's obsession with Orciny, a rumored third city hidden between the two. After another witness is killed and Borlú himself breaches, the operative Ashil helps him continue. They discover that Orciny is a fiction used to disguise the smuggling of archaeological objects through crosshatched spaces. Scholar David Bowden killed Mahalia when she threatened the scheme. Borlú kills Bowden during a final attempted escape across the cities' divide and, unable to resume his old identity, joins Breach.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "book",
+            "text": "In Beszel, Inspector Tyador Borlú is called to a patch of waste ground where a young woman has been found dead. Her face has been badly damaged and she carries no identification. Borlú and Constable Lizbyet Corwi determine that the site is only where the body was dumped. Their work takes place within the peculiar geography of Beszel and Ul Qoma: the two cities occupy many of the same streets and buildings, but their citizens are trained to recognize only their own city and to unsee the other. Crossing or openly acknowledging the wrong city outside the official border is breach, an offense answered by a feared authority beyond either police force. The victim's unfamiliar clothes and manner of death raise the possibility that she came from Ul Qoma, but the evidence does not yet justify invoking Breach and surrendering the case.",
+            "through": {
+              "chapter": 5
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The dead woman is identified as Mahalia Geary, an American graduate student attached to an archaeological project in Ul Qoma. She had become absorbed in Orciny, the disputed legend of a third city said to exist in the hidden spaces between Beszel and Ul Qoma. David Bowden, a foreign scholar whose earlier work popularized the idea before he repudiated it, is part of the intellectual world surrounding the theory. Borlú receives information suggesting that Mahalia was killed in Ul Qoma and brought illegally into Beszel, which would make the murder part of a breach. Yet the route of the van used to dump her body and the available border evidence do not fit a simple forbidden crossing. Breach declines to take over, leaving Borlú to pursue the case through normal channels. To investigate Mahalia's life, he must travel legally through Copula Hall, the border passage that turns the shared physical space into a jurisdictional crossing.",
+            "through": {
+              "chapter": 10
+            }
+          },
+          {
+            "scope": "book",
+            "text": "After passing through the official border, Borlú enters Ul Qoma and must now see as foreign the Besz streets and people he ordinarily inhabits. He is partnered with senior detective Quissim Dhatt, whose suspicion of Besz interference gradually gives way to professional cooperation. They examine Mahalia's studies, her archaeological contacts, and her growing conviction that Orciny was real. Her friend Yolanda Rodriguez describes Mahalia's state of mind and the ideas circulating among the foreign students. The investigators also consider whether nationalist groups, unificationists, or political authorities might have used the murder to provoke conflict between the cities. Mahalia's fascination with spaces that are difficult to classify appears increasingly connected to her death, but testimony about Orciny mixes genuine fear, academic speculation, and deliberate obscurity.",
+            "through": {
+              "chapter": 15
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Borlú and Dhatt follow evidence linking Mahalia's archaeological work to missing or illicitly moved artifacts. The case suggests that someone has taken advantage of crosshatched areas, where Beszel and Ul Qoma overlap and citizens carefully ignore activity assigned to the other city. The idea of Orciny offers an effective screen: witnesses can interpret unexplained movements as the work of an invisible third power instead of examining people they have been conditioned not to see. David Bowden's history with the theory and his access to Mahalia's circle make him increasingly important, though the investigators still lack a complete account of the killing. Yolanda becomes both a vital witness and a person in danger, while pressure from police and political interests narrows the investigators' freedom to act.",
+            "through": {
+              "chapter": 20
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The attempt to protect Yolanda fails, and the violence around the case confirms that someone is eliminating people who can expose the route used for the archaeological traffic. During the pursuit that follows, Borlú deliberately sees and acts across the division between the cities. Breach intervenes immediately and removes him from both police jurisdictions. Instead of simply making him disappear, the operative Ashil questions him and allows the murder inquiry to continue under Breach's control. Moving with Ashil, Borlú experiences the shared urban space without the ordinary discipline of belonging wholly to Beszel or Ul Qoma. This perspective makes the central deception clearer: the unexplained movements attributed to Orciny can be carried out by ordinary people exploiting the perceptual rules of the two cities. The remaining task is to prove who used that deception and why Mahalia had to be silenced.",
+            "through": {
+              "chapter": 25
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Borlú and Ashil uncover no secret third city. Orciny is a story that has protected an artifact-smuggling operation conducted through the ambiguous, crosshatched spaces of Beszel and Ul Qoma. David Bowden, whose scholarship had given the legend authority, helped preserve the deception. Mahalia learned enough about the traffic to endanger it, and Bowden killed her during a confrontation. Her body was then moved into Beszel without the spectacular breach the first clues seemed designed to imply. When Bowden attempts to escape by using the overlap between the cities, Borlú consciously targets him across their boundary and shoots him. The murder is solved, but Borlú's own breach has ended his former existence. Rather than return to the Besz police, he joins Breach and learns to inhabit the spaces between the two civic realities under Ashil's guidance.",
+            "through": {
+              "chapter": 30
+            }
+          }
+        ],
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          }
+        ],
+        "work": "the-city-the-city"
       }
     },
     "the-cloak": {
