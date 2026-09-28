@@ -97,7 +97,7 @@ Check the changed entries for:
 - Own words: text that reads as a retailer or publisher blurb, jacket copy, an award or review quote, or a passage lifted from the book (long verbatim-sounding dialogue, typographic quotation of the book's prose) is a finding. Plain factual narration in the reviewer's own phrasing is what is wanted.
 - Retelling: a recap that is a scene-by-scene reconstruction rather than a summary, or a 'description' that has turned into a plot summary.
 - Provenance: a 'description' whose sources are only {type: community} with no 'ref' naming the edition read is a finding (a description must be grounded in the book, not recollection).
-- Consistency inside the entry: a character's card contradicting a recap about the same event, two recaps contradicting each other, a character with the same name listed twice.
+- Consistency inside the entry: a character's card contradicting a recap about the same event, two recaps contradicting each other, a character with the same name listed twice. Read every text AT ITS OWN POSITION first: a card describes a character as a reader at its 'reveal' chapter knows them, and a recap covers events through its own 'through' chapter, so a later recap telling what happened after a card's reveal (help that could not come arrives after all, an ally turns) is the spoiler model working, not a contradiction. It is a contradiction only when the two disagree about the same moment.
 - A REMOVED entry is a finding only if nothing in the pull request explains it (a removal that appears together with the same content under another key is a re-key, not a loss).
 
 Do NOT report schema, licence, a member's 'work' backref, length caps or formatting: CI enforces those. Do NOT ask for more context; there is no second turn.
