@@ -2,18 +2,12 @@ name: ai-verify
 
 # AI review of a community pull request's PROSE: the spoiler model, own words,
 # the neutral reference-guide voice, the description contract and provenance
-# (the rules in AUTHORING.md). It posts a PASS/FLAG comment and label,
-# exactly as core's ai-verify does, because that comment and label are what the
-# steward in audiosilo-meta-sync merges on: a community data pull request merges
-# only once `keys`, `structure` and `verify` concluded well on its exact head and
-# it carries `ai-verified` (core's GOVERNANCE.md, "The steward"). A flag is
-# evidence the steward's sandboxed agent works against; nothing waits for a
-# human. The job's COLOUR is a separate signal: red means no verdict was reached
-# (see the script's EXIT STATUS note).
-#
-# The JOB KEY `verify` is a contract with the steward (it waits for a check run
-# of that name on the head), as the comment's `### AI verification: ...` heading
-# and the two outcome labels are. Rename none of them without the steward.
+# (the rules in AUTHORING.md). It posts a PASS/FLAG comment and label exactly
+# as core's ai-verify does: the job key `verify`, the comment heading and the
+# two labels are a contract with audiosilo-meta-sync's steward, which merges on
+# them (CLAUDE.md, "The AI review"). Rename none of them without the steward.
+# The job's COLOUR is a separate signal: red means no verdict was reached (see
+# the script's EXIT STATUS note).
 #
 # SECURITY: the plain `pull_request` trigger, NOT `pull_request_target` (see
 # check.yml). A fork pull request gets no secrets, so it is not run at all (the

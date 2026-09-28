@@ -35,45 +35,24 @@ trap 'rm -rf "$tmp"' EXIT
 git diff --name-only "$MB" "$HEAD" -- 'data/**/*.json' > "$tmp/files"
 
 # One map of every entry in those packs, per side. A pack absent on a side
-# contributes nothing.
+# contributes nothing (git show fails quietly for it).
 side() {
   local rev="$1"
   while IFS= read -r f; do
-    [ -n "$f" ] || continue
-    if git cat-file -e "$rev:$f" 2>/dev/null; then
-      git show "$rev:$f"
-    fi
+    [ -n "$f" ] && git show "$rev:$f" 2>/dev/null || true
   done < "$tmp/files" | jq -s 'map(.entries // {}) | add // {}'
 }
 side "$MB" > "$tmp/base.json"
 side "$HEAD" > "$tmp/head.json"
 
-# The slugs whose entry differs between the two sides, each with its kind.
+# Every entry that differs between the two sides, rendered in ONE jq pass:
+# under -r a string prints raw (the headers) and an object pretty (the entry).
 jq -r -n --slurpfile b "$tmp/base.json" --slurpfile h "$tmp/head.json" '
   $b[0] as $B | $h[0] as $H
   | ([$B, $H] | map(keys) | add | unique)[] as $k
-  | if ($B | has($k) | not) then "\($k)\tADDED"
-    elif ($H | has($k) | not) then "\($k)\tREMOVED"
-    elif $B[$k] != $H[$k] then "\($k)\tCHANGED"
-    else empty end' > "$tmp/changed"
+  | if ($B | has($k) | not) then "=== ENTRY \($k) (ADDED)", $H[$k], ""
+    elif ($H | has($k) | not) then "=== ENTRY \($k) (REMOVED)", $B[$k], ""
+    elif $B[$k] != $H[$k] then "=== ENTRY \($k) (CHANGED)", "--- new", $H[$k], "--- previous", $B[$k], ""
+    else empty end' > "$OUT"
 
-: > "$OUT"
-while IFS=$'\t' read -r slug kind; do
-  {
-    echo "=== ENTRY $slug ($kind)"
-    case "$kind" in
-      ADDED)
-        jq --arg k "$slug" '.[$k]' "$tmp/head.json" ;;
-      CHANGED)
-        echo "--- new"
-        jq --arg k "$slug" '.[$k]' "$tmp/head.json"
-        echo "--- previous"
-        jq --arg k "$slug" '.[$k]' "$tmp/base.json" ;;
-      REMOVED)
-        jq --arg k "$slug" '.[$k]' "$tmp/base.json" ;;
-    esac
-    echo
-  } >> "$OUT"
-done < "$tmp/changed"
-
-echo "ai-verify-context: $(wc -l < "$tmp/changed" | tr -d ' ') changed entries across $(wc -l < "$tmp/files" | tr -d ' ') packs"
+echo "ai-verify-context: $(grep -c '^=== ENTRY ' "$OUT" || true) changed entries across $(wc -l < "$tmp/files" | tr -d ' ') packs"
