@@ -94,6 +94,24 @@ different rules than the checks validate against - bump them in one pull request
 The full rationale is in check.yml's own comment; consolidating the two into one
 pin is a recorded follow-up rather than a second mechanism.
 
+## The AI review (ai-verify.yml) and the steward
+
+`ai-verify.yml` reviews a data pull request's PROSE against AUTHORING.md and
+posts `### AI verification: passed|flagged` plus the `ai-verified` /
+`ai-flagged` label. `.github/scripts/ai-verify.sh` is core's script of the same
+name with a community prompt: the transport, the untrusted-data handling, the
+verdict parse and the comment render are copied and must stay in step with
+core's. `.github/scripts/ai-verify-context.sh` renders the changed ENTRIES
+(keyed by work slug across the touched packs, so a pack split is invisible),
+never a raw diff.
+
+Three names are a CONTRACT with audiosilo-meta-sync's steward, which merges a
+community data pull request only when `keys`, `structure` and `verify` concluded
+well on its exact head and `ai-verified` is on it: the job key `verify`, the
+comment heading, and the two labels. The prompt tells the model it has not read
+the book and may never have heard of it: "I cannot verify this" is never a
+finding (core learned that on a real preorder it called fabricated four times).
+
 ## Conventions
 
 - **No AI attribution anywhere.** No `Co-Authored-By` trailers, no "Generated
