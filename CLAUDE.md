@@ -130,7 +130,10 @@ finding (core learned that on a real preorder it called fabricated four times).
   Skip the work over inventing its premise.
 - **CI security is deliberate**: plain `pull_request`, never
   `pull_request_target`, and a read-only token with no secrets. Core carries the
-  same rule for the same reason.
+  same rule for the same reason. The one exception is `ai-verify.yml`, which
+  needs the OAuth secret and `pull-requests: write` to post its verdict - and
+  therefore runs only on same-repo branches (and a maintainer's dispatch), never
+  on a fork, with the contributor text handed to a tool-less model as data.
 - **The merge driver is not optional for pack conflicts.** git's line merge can
   write one entry key twice, which is not valid pack storage. Configure
   `scripts/pack-union-merge.sh` (see README.md) before resolving one by hand.

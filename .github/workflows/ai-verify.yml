@@ -57,8 +57,10 @@ jobs:
         github.event.pull_request.head.repo.full_name == github.repository
       )
     steps:
+      # Pinned by sha, as core's ai-verify.yml is: this job holds the OAuth
+      # secret and a write token, and a moved tag would run new code beside both.
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
           persist-credentials: false
@@ -90,8 +92,22 @@ jobs:
           bash .github/scripts/ai-verify-context.sh "$BASE_SHA" "$HEAD_SHA" context.txt
           if [ -s context.txt ]; then
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          # data/** changed but no ENTRY did: a pure re-render or pack split
+          # (a CORE_REF bump's `metafmt --write`, say). There is no prose to
+          # judge, so this is a pass without a model call - leaving it unlabelled
+          # would keep the previous head's outcome label on a head it never
+          # judged, and the steward could never merge the pull request.
+          if ! git diff --quiet "${BASE_SHA}...${HEAD_SHA}" -- data/; then
+            echo "storage_only=true" >> "$GITHUB_OUTPUT"
+            printf '{"verdict":"pass","findings":[]}\n' > verdict.json
+            {
+              echo "### AI verification: passed"
+              echo
+              echo "No works-community entry changed: this pull request only re-renders or moves entries between packs, so there is no prose to review."
+            } > comment.md
           fi
 
       # Pinned, and bumped by hand after checking the flags ai-verify.sh passes
@@ -115,7 +131,7 @@ jobs:
       # outcome labels: a label must never assert a verdict this run did not
       # reach.
       - name: Post the verdict and label the PR
-        if: ${{ !cancelled() && steps.gather.outputs.has_changes == 'true' }}
+        if: ${{ !cancelled() && (steps.gather.outputs.has_changes == 'true' || steps.gather.outputs.storage_only == 'true') }}
         env:
           GH_TOKEN: ${{ github.token }}
           PR: ${{ steps.gather.outputs.pr }}
