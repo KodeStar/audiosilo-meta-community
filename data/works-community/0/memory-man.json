@@ -313,6 +313,228 @@
       }
     },
     "mermaid-school": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A new first-year pupil at Lady Sealia Foam's school. Marnie hopes to make friends, obey the rules, and establish herself without being judged by the reputation of her famous aunt, Christabel. She shares Christabel's powerful singing voice but not her enthusiasm for mischief.",
+            "id": "marnie-blue",
+            "name": "Marnie Blue",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Marnie's famous aunt, a singer and radio presenter whose school years were marked by rule-breaking and unauthorized seahorse rides. Christabel has a strong voice like Marnie's, but her unruly reputation makes Marnie worry about how the school will receive her.",
+            "id": "christabel-blue",
+            "name": "Christabel Blue",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Marnie's protective mother and Christabel's sister. Daphne warns Marnie that Miss Mullet is strict and that the East Lagoon rocks are dangerous because mermaids could be exposed to humans there.",
+            "id": "daphne-blue",
+            "name": "Daphne Blue",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The head of the concealed mermaid school in Mermaid Lagoon. Lady Sealia Foam presides over the institution Marnie is about to enter, where secrecy from humans and adherence to school rules are central concerns.",
+            "id": "lady-sealia-foam",
+            "name": "Lady Sealia Foam",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The school's deputy, known to Marnie before her arrival as a strict but fair authority figure. Miss Mullet helps enforce the rules at a school whose location and pupils must remain hidden from humans.",
+            "id": "miss-mullet",
+            "name": "Miss Mullet",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Christabel's goldfish, with an established habit of carrying off shiny belongings. His tendency to collect attractive objects contributes to the disorder surrounding Christabel and her possessions.",
+            "id": "garbo",
+            "name": "Garbo",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A nervous but welcoming new pupil who quickly befriends Marnie. Pearl hopes to become a marine biologist and shares that ambition while helping her new classmate feel welcome.",
+            "id": "pearl-cockle",
+            "name": "Pearl Cockle",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A status-conscious first-year pupil who collides with Marnie, calls her a minnow, and treats her as an unwelcome rival. Orla also takes pride in her sister Sheila's singing work in the Gulf of Mexico.",
+            "id": "orla-finnegan",
+            "name": "Orla Finnegan",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The school's octopus music teacher, responsible for gathering Marnie and the other first-year pupils at the start of their school life. Her classroom places singing at the center of the new pupils' education.",
+            "id": "miss-tinkle",
+            "name": "Miss Tinkle",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A first-year pupil in Marnie's new class. Dora is among the classmates Marnie meets as she tries to settle into school and make friends.",
+            "id": "dora-agua",
+            "name": "Dora Agua",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A first-year pupil in Marnie's new class. Lupita joins the small group of classmates Marnie meets at the beginning of school.",
+            "id": "lupita-barracuda",
+            "name": "Lupita Barracuda",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Marnie's first-year group, assembled with the other new pupils by Miss Tinkle. Mabel enters the story as part of the small class in which Marnie must navigate new friendships and tensions.",
+            "id": "mabel-anemone",
+            "name": "Mabel Anemone",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The cook at Lady Sealia Foam's school. Monsieur Poisson is one of the staff members who help maintain the concealed institution in Mermaid Lagoon as its new first-year pupils arrive.",
+            "id": "monsieur-poisson",
+            "name": "Monsieur Poisson",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A legendary former queen of the merfolk and an ancestor of Lady Sealia Foam. Her story tells how she saved Mermaid Lagoon by offering friendship to a lonely maker of weather, even though helping him placed her voice and tail at risk.",
+            "id": "queen-maretta",
+            "name": "Queen Maretta",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The lionfish librarian at Lady Sealia Foam's school. Len works in the library shown to the first-year pupils during their delayed tour of the school and its facilities.",
+            "id": "len",
+            "name": "Len",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Lady Sealia Foam's husband and the head of a separate academy for merboys elsewhere in Mermaid Lagoon. His school is presented as the counterpart to the institution attended by Marnie and her classmates.",
+            "id": "lord-foam",
+            "name": "Lord Foam",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The stable master responsible for the school's seahorses. Mr Splendid oversees animals that the first-year pupils have been forbidden to approach during the school tour.",
+            "id": "mr-splendid",
+            "name": "Mr Splendid",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An aggressive school seahorse whom Marnie accidentally alarms when she enters a stable against instructions. Typhoon's frightened reaction draws attention to Marnie's breach of the rules.",
+            "id": "typhoon",
+            "name": "Typhoon",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A difficult blue seahorse once ridden by Christabel. Urchin is known for accepting Christabel alone, yet he recognizes Marnie as another member of the Blue family and responds warmly when she approaches him.",
+            "id": "urchin",
+            "name": "Urchin",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The school's lobster oceanography teacher. Mr Scampi guides Marnie and her classmates through practical study of marine life, including a group exercise counting blue tang.",
+            "id": "mr-scampi",
+            "name": "Mr Scampi",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Orla's older sister, a singer working in the Gulf of Mexico. Sheila is missing after a powerful hurricane, and Orla is also distressed because a demo Sheila sent to Christabel was never played on the radio.",
+            "id": "sheila-finnegan",
+            "name": "Sheila Finnegan",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A comparatively manageable green seahorse from the school stables. Pearl chooses Andrew as her mount when she and Marnie take the seahorses without permission to search for the missing Orla.",
+            "id": "andrew",
+            "name": "Andrew",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Arthur"
+            ],
+            "description": "A human who has spent ten years watching the East Lagoon rocks. From his boat, Arthur studies the area through binoculars and thinks he may have glimpsed two differently colored tails, though he cannot rule out dolphins.",
+            "id": "arthur-bagshot",
+            "name": "Arthur Bagshot",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B09BB2VMLJ",
+            "type": "community"
+          }
+        ],
+        "work": "mermaid-school"
+      },
       "recaps": {
         "ending": "Marnie and Pearl bring Orla safely back from the East Lagoon, and Orla apologizes for her treatment of Marnie. Sheila has survived the hurricane, while Garbo's collection yields her missing demo. Christabel plans to broadcast the recording and bring Sheila back to Mermaid Lagoon as her studio assistant. Marnie finishes her first adventure with Pearl and Orla as friends and with the difficult seahorse Urchin willing to trust her. Christabel's possible past connection with an Arthur remains unexplained. The greater unresolved danger is Arthur Bagshot, a human who has watched the East Lagoon rocks for ten years. He suspects that he saw two colored tails near the rocks and intends to return, leaving Mermaid Lagoon's secrecy under renewed threat.",
         "in_short": "Marnie Blue begins mermaid school hoping to escape comparisons with her famous, unruly aunt Christabel, but repeated trouble and Orla Finnegan's hostility quickly damage her standing. Marnie finds loyal friends in Pearl, Dora, and Lupita, and she earns the trust of Christabel's former seahorse, Urchin. After learning that Orla's anger is connected to her missing sister Sheila and a demo Christabel failed to play, Marnie and Pearl search for Orla at the forbidden East Lagoon rocks. They rescue her, and Marnie risks going onto land, temporarily exchanging her tail and voice for legs. Orla apologizes and becomes Marnie's friend. Sheila is found alive, and Garbo's hoard contains her missing demo. Christabel agrees to air it and employ Sheila. The book closes with human watcher Arthur Bagshot suspecting that he saw mermaid tails and planning to return.",
