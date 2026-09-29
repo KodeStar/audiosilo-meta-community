@@ -2243,6 +2243,50 @@
         "work": "the-city-the-city"
       }
     },
+    "the-clamshell-show": {
+      "recaps": {
+        "ending": "Pearl Cockle's command of the rock tuba lets the merfolk escape from the panicked grotto and later restores the stage. Arthur Bagshot reaches Christabel Blue, and they acknowledge that they still love each other. Christabel nevertheless remains in Mermaid Lagoon because she sees no workable life for a mermaid and a human together. Lady Sealia Foam orders Lord Foam's guards to return Arthur to the surface and warn him not to reveal what he witnessed. The Clamshell Show then resumes. Marnie Blue and Orla Finnegan divide the role of Queen Maretta, the Storm Sprite performer takes over as Prince Cobalt, and the production succeeds. Sheila Finnegan and the Radio Sea Wave producer disclose that the supposed album offer was their test of the original leads, who abandoned the cast and lost the music agent's interest. Marnie and Orla are friends again and receive encouragement from the agent. Arthur survives his return to his boat and does not immediately commit to another search, leaving his future with Christabel unresolved.",
+        "in_short": "Marnie Blue and Orla Finnegan compete to play Queen Maretta in the annual Clamshell Show, and Orla's deception briefly destroys their friendship. A talented new pupil wins the role, but she and her brother neglect rehearsals and quit on show night for a supposed album opportunity. The crisis deepens when Arthur Bagshot enters Clamshell Grotto and exposes the merfolk gathering to a human. Pearl Cockle uses the giant rock tuba to operate the hidden exit, preventing a crush. Arthur and Christabel Blue confirm their love, but accept that their different worlds keep them apart, and he is escorted to the surface. The performance resumes with an Atoll Academy Storm Sprite as Prince Cobalt and Marnie and Orla sharing Queen Maretta. Their teamwork makes the show a success and attracts a music agent's interest. The abandoned leads then learn that their offer was a test arranged by Sheila Finnegan and the studio producer. Marnie and Orla end reconciled, while Christabel and Arthur remain separated.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Marnie Blue is a mermaid pupil in Mermaid Lagoon. Orla Finnegan and Pearl Cockle are fellow pupils, Christabel Blue is Marnie's aunt and a radio star, and Lady Sealia Foam is the head of their school. Marnie's school life therefore connects her closely to both her friends and her aunt's public reputation.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Marnie Blue, Orla Finnegan, and Pearl Cockle learn that the annual Clamshell Show will be a joint production with Atoll Academy. Pearl has the orchestra's rock-tuba place, while Marnie and Orla both pursue the role of Queen Maretta. Their competition soon strains their friendship. Christabel Blue advises Marnie to withdraw rather than risk that friendship, but Marnie continues. In the first singing round, Marnie and several other candidates advance, including Orla and a gifted new pupil. Orla then falsely tells Marnie that the second audition has been delayed. Miss Mullet corrects the schedule, but Marnie arrives too late and ends her friendship with Orla after confronting her. Before either girl can perform in the second round, Miss Tinkle selects the new pupil as Queen Maretta. Marnie has therefore lost both the part she wanted and, for the moment, her closest rival and friend.",
+            "through": {
+              "chapter": 3
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Orla apologizes for deceiving Marnie, and they reconcile before accepting Storm Sprite roles. The new Queen Maretta performer and her brother, who plays Prince Cobalt, visit Radio Sea Wave and behave dismissively toward Christabel Blue and her colleagues. At rehearsals they repeatedly arrive late, lack preparation, and contribute to a failing production. Meanwhile, Marnie finds evidence that Christabel has a painful connection to a human named Arthur. Arthur Bagshot is searching the lagoon after messages exchanged at the East Lagoon rocks. On the night of the performance, the original leads arrive late and abandon the show for an apparent album offer. An Atoll Academy Storm Sprite volunteers to replace Prince Cobalt, while Marnie and Orla must decide who will take Queen Maretta. Before they can settle the question, Arthur enters Clamshell Grotto in diving equipment. His arrival sends the assembled merfolk into panic and turns the already disrupted premiere into an emergency over their hidden world.",
+            "through": {
+              "chapter": 9
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Marnie, Orla, and Pearl search for the grotto's emergency route as the crowd panics. Marnie realizes that Lady Sealia is calling for Pearl because the rock tuba controls the clamshell stage. Pearl plays its lowest note, closing the stage and exposing an escape behind it so the audience can leave safely. Arthur reaches Christabel and declares that he still loves her. Christabel returns his love but explains that a human and a mermaid cannot share an ordinary life. Lady Sealia orders Lord Foam's guards to escort Arthur to the surface, while Christabel uses the live broadcast to calm Mermaid Lagoon and restart the show. Pearl reopens the stage. Marnie and Orla share Queen Maretta, the Storm Sprite volunteer plays Prince Cobalt, and the performance succeeds. A music agent praises the girls' teamwork. Sheila and the Radio Sea Wave producer reveal that the original leads' album offer was a test, and their decision to quit costs them the agent's interest. Christabel remains in the lagoon, while Arthur returns safely to his boat and does not commit to searching again immediately.",
+            "through": {
+              "chapter": 13
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B09B9ZP58M",
+            "type": "community"
+          }
+        ],
+        "work": "the-clamshell-show"
+      }
+    },
     "the-cloak": {
       "characters": {
         "characters": [
