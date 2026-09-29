@@ -2738,6 +2738,278 @@
         "work": "the-second-betrayal"
       }
     },
+    "the-second-form-at-st-clares": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Pat"
+            ],
+            "description": "One of the O'Sullivan twins, Pat returns to St Clare's with Isabel as both girls move up from the first form. She is part of the established circle of friends reunited on the school train and expects the new level to bring more demanding work under Miss Jenks.",
+            "id": "pat-osullivan",
+            "name": "Pat O'Sullivan",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Isabel"
+            ],
+            "description": "Pat's twin and a returning St Clare's pupil, Isabel moves up into the second form with her sister and their friends. She begins the term among a familiar group while the class adjusts to higher expectations and the prospect of serious work under Miss Jenks.",
+            "id": "isabel-osullivan",
+            "name": "Isabel O'Sullivan",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Carlotta"
+            ],
+            "description": "A returning pupil whose circus upbringing has given her exceptional ability with horses and acrobatics. After staying with family during the holiday, Carlotta comes back to St Clare's under instructions from her father and grandmother to make a determined effort to improve her manners.",
+            "id": "carlotta-brown",
+            "name": "Carlotta Brown",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning member of the established group entering the second form. Alison begins the journey back to St Clare's distressed that her friend Sadie Greene will not be returning for the term, leaving her without the companion whose presence she had expected.",
+            "id": "alison",
+            "name": "Alison",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Alison's absent companion, who does not return to St Clare's for the new term. Her absence leaves Alison unhappy at the start of the school journey.",
+            "id": "sadie-greene",
+            "name": "Sadie Greene",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Roberta"
+            ],
+            "description": "A returning pupil and Janet's close friend, Bobby is known for practical jokes. As the girls travel back to school, she acknowledges that second-form work will be more serious and declares that she intends to apply herself without giving up her taste for mischief.",
+            "id": "bobby",
+            "name": "Bobby",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning St Clare's pupil and Bobby's close companion. Janet rejoins Pat, Isabel, Carlotta, Alison, Doris, Hilary, and the rest of their established circle on the school train as they prepare to begin life in the second form.",
+            "id": "janet",
+            "name": "Janet",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning pupil who travels back to St Clare's with the familiar group entering the second form. At the beginning of the term she is one of the established classmates settling into Miss Jenks's form and facing the increased demands of the new school year.",
+            "id": "doris",
+            "name": "Doris",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The responsible former head of the first form, Hilary returns hoping to earn a leadership position in the second. Her earlier experience makes her a natural candidate for responsibility as the returning pupils prepare for the greater demands of the new term.",
+            "id": "hilary",
+            "name": "Hilary",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A pupil who remains in the first form when the others move up. Pamela becomes head of that form.",
+            "id": "pamela-boardman",
+            "name": "Pamela Boardman",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Anna"
+            ],
+            "description": "A habitually lazy pupil who has been kept in the second form rather than moved up. Anna is expected to share leadership with Elsie Fanshawe, with the staff hoping that the responsibility of becoming a joint head will encourage her to make a greater effort.",
+            "id": "anna-johnson",
+            "name": "Anna Johnson",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Elsie"
+            ],
+            "description": "A spiteful pupil retained in the second form and expected to serve as joint head with Anna Johnson. Elsie regards the likely appointment as an opportunity to impose her will on the younger girls who have moved up from the first form.",
+            "id": "elsie-fanshawe",
+            "name": "Elsie Fanshawe",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Gladys"
+            ],
+            "description": "A withdrawn new member of the second form who rejects friendly approaches and keeps herself apart. Her classmates can see that she is unhappy, but she gives them no explanation and offers little encouragement to anyone trying to include her.",
+            "id": "gladys-hillman",
+            "name": "Gladys Hillman",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Gladys's gravely ill mother, who is in hospital while her daughter is sent away to school. Gladys has no other close family and is overwhelmed by their separation.",
+            "id": "gladyss-mother",
+            "name": "Gladys's mother",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Mirabel Unwin"
+            ],
+            "description": "A new pupil who arrives late and immediately declares that she will leave at half-term. Mirabel refuses to invest in school life and disrupts lessons rather than cooperate, although she says that she can play both the piano and the violin.",
+            "id": "mirabel",
+            "name": "Mirabel",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Mirabel's mother welcomes Gladys during the half-term outing. She also volunteers to call on Gladys's hospitalised mother when circumstances allow.",
+            "id": "mirabels-mother",
+            "name": "Mirabel's mother",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Belinda"
+            ],
+            "description": "The school's new head girl, who also continues as sports captain. Belinda opens the term by urging every form to train seriously for lacrosse, combining her wider leadership duties with responsibility for the school's sporting effort.",
+            "id": "belinda-towers",
+            "name": "Belinda Towers",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The new teacher of elocution and drama. Her lively teaching quickly attracts Alison's admiration, but her engaging manner does not give her firm control over Mirabel, whose deliberate interruptions repeatedly disrupt the lessons.",
+            "id": "miss-quentin",
+            "name": "Miss Quentin",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The headmistress of St Clare's, direct and composed in dealing with difficult pupils. She warns Mirabel that continued membership of the school depends on the qualities Mirabel chooses to show, placing responsibility for the outcome firmly on the new girl.",
+            "id": "miss-theobald",
+            "name": "Miss Theobald",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The mistress responsible for the second form, known to expect serious work from pupils moving beyond their first year. Her reputation makes the returning girls anticipate a demanding term in which they will have to balance their amusements with sustained effort.",
+            "id": "miss-jenks",
+            "name": "Miss Jenks",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The games mistress who supervises lacrosse. When Mirabel arrives late after interference with her clothes and boots, Miss Wilton knows nothing of the cause and makes her sit out the first half, though she gives the pupil an opportunity to explain herself.",
+            "id": "miss-wilton",
+            "name": "Miss Wilton",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A member of the second form who takes part in the discussion after illness forces the class concert to be delayed. Kathleen supports using the postponement to add Gladys to the programme, helping the newly included pupil gain a place in the shared event.",
+            "id": "kathleen",
+            "name": "Kathleen",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Margery Fenworthy"
+            ],
+            "description": "An established St Clare's lacrosse player who appears in the school team for the match against St Christopher's. She plays alongside Lucy Oriell and the newly selected Gladys as St Clare's works to hold its opponents to a draw.",
+            "id": "margery",
+            "name": "Margery",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Lucy"
+            ],
+            "description": "A St Clare's lacrosse player chosen for the school side facing St Christopher's. Lucy takes the field with Margery and Gladys in a closely contested match that gives the second form's new player a chance to prove herself.",
+            "id": "lucy-oriell",
+            "name": "Lucy Oriell",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A teacher who distrusts Mirabel's explanation when the pupil's work is missing or spoiled and punishes her because of her earlier behaviour.",
+            "id": "mamzelle",
+            "name": "Mam'zelle",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B071VRNHXT",
+            "type": "community"
+          }
+        ],
+        "work": "the-second-form-at-st-clares"
+      }
+    },
     "the-secret-adversary": {
       "characters": {
         "characters": [
