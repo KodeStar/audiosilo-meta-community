@@ -3956,6 +3956,297 @@
         "work": "the-original-dracula"
       }
     },
+    "the-osullivan-twins-at-st-clares": {
+      "characters": {
+        "characters": [
+          {
+            "description": "One of the O'Sullivan twins, now settled at St Clare's after a difficult first term. Pat returns determined to improve her schoolwork and takes responsibility with Isabel for preparing their cousin Alison for the practical demands of school life.",
+            "id": "pat",
+            "name": "Pat",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Pat's twin and an established first-form pupil at St Clare's. Isabel shares Pat's resolve to work hard and helps introduce their new cousin Alison to the school, promising to guide her through unfamiliar duties and routines.",
+            "id": "isabel",
+            "name": "Isabel",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Alison"
+            ],
+            "description": "Pat and Isabel's cousin, newly entering the first form at St Clare's. Vain, anxious to make the right impression, and reliant on the twins, Alison dislikes the prospect of domestic duties and needs their help to adjust to the school's expectations.",
+            "id": "alison-osullivan",
+            "name": "Alison O'Sullivan",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Max"
+            ],
+            "description": "A famous painter whose daughter is among the new pupils arriving at St Clare's. His reputation makes the twins notice the new girl before they have been properly introduced to her.",
+            "id": "max-oriell",
+            "name": "Max Oriell",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The first-form mistress who receives the pupils at the start of term and welcomes Pat, Isabel, and their cousin Alison on their arrival.",
+            "id": "miss-roberts",
+            "name": "Miss Roberts",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Margery"
+            ],
+            "description": "An older-looking new first-former who keeps apart from the other girls. Margery is rude, secretive about her past, and weak or unwilling in lessons.",
+            "id": "margery-fenworthy",
+            "name": "Margery Fenworthy",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Lucy"
+            ],
+            "description": "Max Oriell's daughter and a sociable new member of the first form. Lucy is unusually advanced for her class and quick at lessons.",
+            "id": "lucy-oriell",
+            "name": "Lucy Oriell",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The headmistress of St Clare's. She warmly acknowledges the twins' improved attitude, welcomes the cousins at the start of term, and makes clear that they may bring serious difficulties to her for help.",
+            "id": "miss-theobald",
+            "name": "Miss Theobald",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Janet"
+            ],
+            "description": "A returning first-form pupil who shares the dormitory with the twins and the new girls. Janet is observant and quick to form suspicions, deciding early that Margery's hostile behaviour may conceal an earlier history.",
+            "id": "janet-robins",
+            "name": "Janet Robins",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Doris"
+            ],
+            "description": "A returning first-form pupil and one of Alison's dormitory companions. Doris struggles with academic work but is known among the girls as an entertaining mimic and a talented dancer.",
+            "id": "doris-elward",
+            "name": "Doris Elward",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Kathleen"
+            ],
+            "description": "A returning member of the first form who shares a dormitory with Pat, Isabel, Alison, and their friends. Kathleen belongs to the established group into which the new pupils must find their places.",
+            "id": "kathleen-gregory",
+            "name": "Kathleen Gregory",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Sheila"
+            ],
+            "description": "A returning first-form pupil in the dormitory shared by the O'Sullivan cousins and their friends. Sheila is part of the settled school circle that receives Alison and the other newcomers.",
+            "id": "sheila-naylor",
+            "name": "Sheila Naylor",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Hilary"
+            ],
+            "description": "A returning first-form pupil and dormitory companion of Pat, Isabel, and the new girls. Hilary is one of the established members of the group Alison joins at the beginning of term.",
+            "id": "hilary-wentworth",
+            "name": "Hilary Wentworth",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Belinda"
+            ],
+            "description": "A senior pupil with authority in school games. Belinda finds Alison's effort at lacrosse inadequate and assigns Pat and Isabel to improve it.",
+            "id": "belinda-towers",
+            "name": "Belinda Towers",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Rita"
+            ],
+            "description": "A senior pupil for whom Alison must perform service duties. Alison's attempt to tend Rita's fire ends with Rita's French preparation being burned, exposing the new girl's lack of practical experience.",
+            "id": "rita-george",
+            "name": "Rita George",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Katie"
+            ],
+            "description": "A senior pupil who shares the service arrangement involving Alison. She helps supervise the practical work after Alison mishandles the fire and accidentally burns Rita George's French preparation.",
+            "id": "katie-white",
+            "name": "Katie White",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A lively second-form pupil who plans a forbidden midnight birthday feast in the music room. She selects a small group of guests, gathers cooking supplies, and deliberately keeps Erica outside the secret.",
+            "id": "tessie",
+            "name": "Tessie",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An intrusive second-form pupil whom the others distrust with secrets. After discovering enough about Tessie's forbidden party to locate it, Erica decides to spoil the gathering in retaliation for being excluded and rebuked.",
+            "id": "erica",
+            "name": "Erica",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A member of the kitchen staff who lends Tessie a frying pan for the secret birthday feast. Her knowledge of that request also gives Erica a clue about the party's arrangements.",
+            "id": "gladys",
+            "name": "Gladys",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The French teacher at St Clare's. A mysterious knock draws her attention from her study, and sounds and cooking smells lead her toward the pupils' prohibited midnight gathering.",
+            "id": "mamzelle",
+            "name": "Mam'zelle",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The history teacher, willing to give up a free Saturday to reward the first form with a theatre outing if their work remains strong. She accepts Margery's apology after a classroom confrontation and asks the form not to prolong the dispute.",
+            "id": "miss-lewis",
+            "name": "Miss Lewis",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Pamela",
+              "Pam"
+            ],
+            "description": "A former Redroofs pupil, now attending St Hilda's, who knew Margery at an earlier school. Pamela reports Margery's repeated expulsions but also warns that secret damage to another girl's property does not resemble Margery's openly defiant conduct.",
+            "id": "pamela-holding",
+            "name": "Pamela Holding",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The school nurse and a member of staff responsible for the sick bay. She responds when Margery raises the alarm about the fire and helps account for the pupils during the evacuation.",
+            "id": "matron",
+            "name": "Matron",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Queenie"
+            ],
+            "description": "A second-form pupil confined to the sick bay with a chill when fire breaks out. Her mention of a different pupil named Erica contributes to the mistaken belief that the Erica trapped upstairs has already escaped.",
+            "id": "queenie-hobart",
+            "name": "Queenie Hobart",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Margery's estranged father and an Everest climber. News of her rescue prompts him to visit, renew his support, and let her continue at St Clare's. They also plan a mountaineering holiday together.",
+            "id": "margerys-father",
+            "name": "Margery's father",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A teacher consulted about Lucy's educational future. Miss Walker recognises Lucy's exceptional artistic promise and cautions that an immediate general scholarship must be weighed against her prospects for later specialist art training.",
+            "id": "miss-walker",
+            "name": "Miss Walker",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B072LMQYTB",
+            "type": "community"
+          }
+        ],
+        "work": "the-osullivan-twins-at-st-clares"
+      }
+    },
     "the-outlaw-demon-wails": {
       "characters": {
         "characters": [
