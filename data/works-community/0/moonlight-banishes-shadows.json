@@ -3019,6 +3019,352 @@
       }
     },
     "mother-of-learning-arc-4": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Zorian"
+            ],
+            "description": "An accidental time traveler, skilled mind mage, and organizer of the effort to escape the loop. After Quatach-Ichl's soul attack leaves him badly injured, he restores Zach and resumes the search for the Sovereign Gate keys.",
+            "id": "zorian-kazinski",
+            "name": "Zorian Kazinski",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Zach"
+            ],
+            "description": "The House Noveda heir and Zorian's fellow traveler through the time loop. Zorian finds him comatose from severe soul damage and secretly treats him, allowing the two to recover and return to their search for the Gate keys.",
+            "id": "zach-noveda",
+            "name": "Zach Noveda",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A rival looper who operates through simulacrums in the real world. His attacks on the Cyoria Aranea and House Noveda show that he escaped the loop and is moving against Zorian and Zach, although his identity remains unknown.",
+            "id": "red-robe",
+            "name": "Red Robe",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Red Robe",
+              "Veyers impersonator"
+            ],
+            "description": "Veyers' lawyer friend and the man exposed as Red Robe after using Veyers' appearance at a midnight meeting. Allied with Silverlake and Quatach-Ichl, he threatens widespread wraith attacks and war to force a truce until the festival.",
+            "id": "jornak",
+            "name": "Jornak",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "invading lich"
+            ],
+            "description": "A formidable lich allied with the invasion. His soul attack leaves Zorian and Zach badly injured, costing them several restarts while they recover.",
+            "id": "quatach-ichl",
+            "name": "Quatach-Ichl",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An accomplished dimensional specialist who helps the group create a portable miniature pocket dimension. After Panaxeth privately approaches the loopers, she vanishes and leaves behind a soulless body.",
+            "id": "silverlake",
+            "name": "Silverlake",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "imprisoned primordial"
+            ],
+            "description": "A being bound to the Sovereign Gate that claims to be the imprisoned primordial. It contacts Zorian through the malfunctioning Guardian and offers him a body outside the loop in exchange for a sworn promise of release.",
+            "id": "panaxeth",
+            "name": "Panaxeth",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Sovereign Gate guardian"
+            ],
+            "description": "The mechanism governing access through the Sovereign Gate. It recognizes the five Imperial key pieces, identifies authorized users, and controls passage through the protected exit that the loopers hope to use.",
+            "id": "guardian-of-the-threshold",
+            "name": "Guardian of the Threshold",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Zorian's eldest brother"
+            ],
+            "description": "An expedition leader and Zorian's eldest brother. He joins the temporarily marked network with members of his foreign expedition and takes a central role in the difficult search across another continent for the Imperial Staff.",
+            "id": "daimen-kazinski",
+            "name": "Daimen Kazinski",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Daimen's fiancee"
+            ],
+            "description": "A member of House Taramatula, Daimen's fiancee, and part of the foreign expedition brought into the temporary looper network. She supports the group searching across another continent for the Imperial Staff.",
+            "id": "orissa",
+            "name": "Orissa",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Zach's hydra"
+            ],
+            "description": "The female hydra formerly guarding the Imperial Orb. Zach uses the Imperial Dagger to bind her to him, turning a dangerous guardian into an obedient and protective ally who can be carried inside the Orb.",
+            "id": "princess",
+            "name": "Princess",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "academy mentor"
+            ],
+            "description": "A demanding academy mentor brought into the temporary looper network. He joins the marked allies in assessing the temporary markers, their limits, and the deadline those limits impose.",
+            "id": "xvim",
+            "name": "Xvim",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A combat instructor with contacts in the Eldemar military. As a temporarily marked ally, he joins the discussion of the markers' limits.",
+            "id": "kyron",
+            "name": "Kyron",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "warrior-priest"
+            ],
+            "description": "A capable warrior-priest and opponent of the invasion. Necromancer agents kill him during an early restart before Zorian can prevent it, demonstrating both his importance and the risks facing potential allies.",
+            "id": "alanic",
+            "name": "Alanic",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "academy instructor"
+            ],
+            "description": "An academy instructor whose institutional influence helps Zorian respond when Zach disappears. Despite Zorian's unlikely explanation, she presses for an investigation and assists in locating Zach at a hidden estate.",
+            "id": "ilsa",
+            "name": "Ilsa",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Kirielle"
+            ],
+            "description": "Zorian's younger sister, whom he persuades their parents to let accompany him to Cyoria during his recovery. Her presence gives him a family responsibility while he is still unable to use magic safely.",
+            "id": "kirielle-kazinski",
+            "name": "Kirielle Kazinski",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "monster hunter"
+            ],
+            "description": "A temporary looper who develops into a capable combat mage through repeated training. With her six-restart marker nearing its end, she accepts that it cannot be extended and will not attempt a dangerous soul-transfer escape.",
+            "id": "taiven",
+            "name": "Taiven",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "alchemist"
+            ],
+            "description": "A temporary looper who concentrates on alchemy and improves his ability to defend himself. He refuses any escape that would take his original body's life and will consider the physical route only if it can include his daughter.",
+            "id": "kyle",
+            "name": "Kyle",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An associate of Jornak who leaves a heavily warded house with him during an evacuation. Their unexplained departure makes Veyers a possible lead in the search for Red Robe.",
+            "id": "veyers",
+            "name": "Veyers",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "dragon mage"
+            ],
+            "description": "A powerful dragon mage whose group Jornak claims has joined the invading alliance.",
+            "id": "oganj",
+            "name": "Oganj",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Cyoria Aranea matriarch"
+            ],
+            "description": "The matriarch of Cyoria's Aranea web. Zorian approaches her after a Red Robe simulacrum attacks her people, offering detailed foreknowledge and intimate evidence of the web's secrets to establish cooperation.",
+            "id": "spear-of-resolve",
+            "name": "Spear of Resolve",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A younger Aranea assigned by her matriarch to serve as a separate channel between the web and its human allies. Her appointment reduces the web's dependence on Zorian as its only intermediary and gives it a distinct liaison.",
+            "id": "aranean-liaison",
+            "name": "Aranean liaison",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "shifter mother"
+            ],
+            "description": "A local mother whose daughter is a shifter. After Zorian helps the girl and responds without hostility to seeing her claws, Rea accepts his discretion and becomes a useful connection to the shifter community.",
+            "id": "rea",
+            "name": "Rea",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "kidnapped boy's sister"
+            ],
+            "description": "A wolf-shifter student whose younger brother has been abducted. Because the invaders require shifter children for their ritual, her missing sibling may provide a direct lead to the captives and the planned release of Panaxeth.",
+            "id": "wolf-shifter-classmate",
+            "name": "Wolf-shifter classmate",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "spider-like predator"
+            ],
+            "description": "A powerful, hostile magical spider that Zorian has kept confined inside a pocket dimension. He releases the uncontrolled predator during the confrontation with Silverlake, directing a dangerous weapon into the final battle.",
+            "id": "grey-hunter",
+            "name": "Grey Hunter",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A non-magical language specialist hired for the expedition. Familiar with Sulrothum hand signs and some spoken language, he explains why the wasps may mistake ordinary speech for magical chanting.",
+            "id": "ibak",
+            "name": "Ibak",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Sulrothum tribal leader who holds the Imperial Ring at the Ziggurat of the Sun. Aranea scouts report that he can use the artifact.",
+            "id": "sulrothum-high-priest",
+            "name": "Sulrothum high priest",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "dragon mage"
+            ],
+            "description": "A centuries-old dragon mage known to the lizardfolk. A sage directs the expedition toward her after identifying her as the likely holder of the Imperial Staff.",
+            "id": "violet-eye",
+            "name": "Violet Eye",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A city detective who receives evidence of the planned invasion and local guild involvement from a simulacrum created by Zorian. He is asked to quietly coordinate trustworthy official contacts and hold a contingency package.",
+            "id": "city-detective",
+            "name": "City detective",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Crown investigator trying to discover who secretly defended Cyoria during the attack. The inquiry continues despite scarce resources and other state priorities.",
+            "id": "crown-investigator",
+            "name": "Crown investigator",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0BKR654B3",
+            "type": "community"
+          }
+        ],
+        "work": "mother-of-learning-arc-4"
+      },
       "recaps": {
         "ending": "Zorian's apparent death and Jornak's apparent victory are constructed realities used to uncover Jornak's hidden safeguards. Zorian removes the month's loop memories from everyone else who knows the secret, while preserving copies for Xvim, Alanic, and Daimen. The solution satisfies Zach's angelic contract, which dissolves harmlessly. Jornak's bargain kills him at the deadline, and Panaxeth remains imprisoned. Quatach-Ichl survives and gains knowledge of the loop through the soul fragment attached to Jornak. One month later, Zorian and Zach keep their roles in Cyoria's defense concealed. Zach sues to recover House Noveda's stolen assets. Daimen accepts the changed Zorian as his brother and helps maintain an intercontinental connection with House Taramatula. The Aranea begin cautious public contact without legal recognition, while Crown investigators continue seeking the city's unknown defenders. Oganj remains alive, Princess retains dangerous divine enhancements, and the Grey Hunter withdraws underground with primordial-altered eggs as Eldemar prepares for wider conflict.",
         "in_short": "With only a limited number of restarts left, Zorian and Zach recover from soul injuries, assemble the five Imperial keys, and expand their alliance. Panaxeth corrupts the hoped-for exit, Silverlake defects, and Zorian crosses into reality through a desperate dimensional breach, where he discovers Zach also escaped. They organize Cyoria's defense while Red Robe, revealed as Jornak, prepares the invasion and Panaxeth's release. Zach's angelic contract requires both stopping that plan and eliminating lasting knowledge of the loop. During the battle, Zorian's coalition contains wraiths, defeats the cult, drives off Oganj, and forces Quatach-Ichl to retreat. Zorian then traps Zach and Jornak in constructed realities, extracts Jornak's contingencies, and erases the month's loop memories from their allies. Zach's contract ends safely, Jornak's pact kills him, and Panaxeth remains sealed. Cyoria rebuilds while Zorian and Zach hide their role, Quatach-Ichl survives with knowledge of the loop, and several political and magical dangers remain.",
