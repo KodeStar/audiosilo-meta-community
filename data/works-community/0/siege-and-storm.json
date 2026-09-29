@@ -2193,6 +2193,223 @@
       }
     },
     "sinister-magic-an-urban-fantasy-dragon-series": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A half-elf Army contractor who hunts magical beings that commit serious crimes against humans. Val senses magic, recovers from injuries unusually fast, and fights with enchanted equipment. She limits contact with her former husband and daughter because enemies connected to her work have threatened her home.",
+            "id": "val",
+            "name": "Val",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Val's telepathic silver tiger ally, summoned through a figurine to assist her in dangerous encounters. When wounded, Sindari can withdraw to his native realm to recuperate.",
+            "id": "sindari",
+            "name": "Sindari",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's Army supervisor and her contact for assignments involving magical criminals.",
+            "id": "willard",
+            "name": "Willard",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Seattle craftswoman who makes Val's magical weapons.",
+            "id": "nin",
+            "name": "Nin",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's daughter, whom Val keeps at a distance because enemies connected to her work have threatened her home.",
+            "id": "amber",
+            "name": "Amber",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Lord Zavryd",
+              "Zavryd'nokquetal"
+            ],
+            "description": "A formidable black dragon who can take human form and acts for the Dragon Justice Court. Zavryd intends to carry a criminal wyvern through a portal for judgment, placing his claim of legal authority in direct conflict with Val's lethal methods.",
+            "id": "zavryd",
+            "name": "Zavryd",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Val's therapist, who evaluates Val's isolation and attitudes toward her work. She teaches Val a breathing technique and encourages her to seek support.",
+            "id": "vals-therapist",
+            "name": "Val's therapist",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The acting Army contact assigned after Willard's hospitalization. An accountant charged with auditing the unit, he questions Val's contract, expenses, and combat payments while investigating the way Willard handled government funds.",
+            "id": "the-lieutenant",
+            "name": "the lieutenant",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An unidentified elf who secretly follows Val and Sindari to Willard's apartment. She throws an explosive that sets the building on fire and escapes through a storm drain. Her possible involvement in Willard's illness remains unconfirmed.",
+            "id": "hostile-elf",
+            "name": "hostile elf",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Willard's pet, rescued by Val from the apartment fire. Val takes temporary responsibility for keeping the cat safe.",
+            "id": "willards-cat",
+            "name": "Willard's cat",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Val's long-separated mother, who once had a relationship with Val's elf father. Her familiarity with elves and hidden magical communities makes her a useful guide when Val brings her an unfamiliar sigil connected to Willard's illness.",
+            "id": "vals-mother",
+            "name": "Val's mother",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's mother's quarter-dwarf tenant, who uses her workshop and makes enchanted yard art. A magical guardian detects Val and leaves Dimitri wary of her.",
+            "id": "dimitri",
+            "name": "Dimitri",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Guardian of a concealed refuge for magical beings. She recognizes the mark on Val's vial as an alchemical symbol used by dark elves.",
+            "id": "lava-golem",
+            "name": "lava golem",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hidden vampire alchemist based beneath an old property in Woodinville. Nin recommends Zoltan as someone who may be able to identify the substance in Val's vial.",
+            "id": "zoltan",
+            "name": "Zoltan",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The local dark elf responsible for the slow formula used against Willard. The mixture contains blood from its maker and a particular kraken, and reversing its effects requires matching biological samples that are dangerous for Val to obtain.",
+            "id": "dark-elf-alchemist",
+            "name": "dark-elf alchemist",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A dark-elf ritual leader wanted by Zavryd alongside her warrior mate. The pair stole a dragon artifact and use it in sacrifices, making her both a target of the Dragon Justice Court and part of the operation Val must enter to seek a cure for Willard.",
+            "id": "dark-elf-high-priestess",
+            "name": "dark-elf high priestess",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A terrified red-haired girl held by dark elves for an apparent sacrifice. Val sees her brought into the ritual chamber and makes rescuing her an additional priority.",
+            "id": "captive-girl",
+            "name": "captive girl",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Shoreline teenager whom Val finds imprisoned for a dark-elf ritual. Jennifer is in immediate danger as Val tries to recover her weapons, secure the materials needed for Willard's treatment, and interrupt the planned sacrifice.",
+            "id": "jennifer",
+            "name": "Jennifer",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "the lieutenant"
+            ],
+            "description": "The auditor who replaced Willard is now identified as Lieutenant Sudo. Willard's recording connects his campaign against Val and the office to a call with General Nash, giving her evidence that the investigation may serve ambitions beyond a routine financial review.",
+            "id": "lieutenant-sudo",
+            "name": "Lieutenant Sudo",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Willard's superior, implicated by a recorded conversation concerning the effort to close her office. Evidence of a possible bribe and suspicious waterfront property has been passed to another general, leaving Nash exposed to a wider investigation.",
+            "id": "general-nash",
+            "name": "General Nash",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Val's therapist, whom she visits again after the immediate crisis. Mary helps Val address stress, isolation, and the conflict between protecting loved ones and maintaining meaningful ties with them.",
+            "id": "mary",
+            "name": "Mary",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An Army courier serving Willard's office. Corporal Clark brings Val an official loaner Jeep and confirms that Willard is improving, Val has been cleared by the police, and her government work has been restored.",
+            "id": "corporal-clark",
+            "name": "Corporal Clark",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B088B8L81Y",
+            "type": "community"
+          }
+        ],
+        "work": "sinister-magic-an-urban-fantasy-dragon-series"
+      },
       "recaps": {
         "ending": "Val gets Jennifer out of the collapsing dark-elf complex and safely home. Zavryd recovers the stolen artifact, drives away the kraken, heals Val's wound, and provides the dragon blood Zoltan requires. Zoltan combines the gathered samples with Willard's blood and administers an antidote. Willard improves enough to clear Val with the police, restore her assignments, and continue pursuing evidence that General Nash was bribed to close her office. Lieutenant Sudo is reassigned. Val resumes therapy, receives a government Jeep, and decides to work on rebuilding her relationship with Amber. Sindari and Dimitri remain her allies, but Sindari is still bound by an ancestral agreement with dragons. The surviving dark-elf fugitives remain unaccounted for, and Zavryd is still above Seattle after Val refuses his offer to work for the Dragon Justice Court. Their dispute over his authority and his intention to use her as bait remain unresolved.",
         "in_short": "Half-elf contractor Val hunts a wyvern and clashes with Zavryd, a dragon enforcing the judgments of the Dragon Justice Court. When her Army supervisor Willard develops a rapidly worsening illness, Val traces it to dark-elf alchemy while an audit leaves her wanted by federal authorities. With Sindari, Dimitri, Nin, her mother, and vampire alchemist Zoltan helping, she enters a hidden complex beneath Lake Union to collect ingredients for an antidote. The dark elves admit they poisoned Willard to remove Val as an obstacle. Val escapes captivity, kills their high priestess, rescues Jennifer from sacrifice, and flees as Zavryd attacks the lair and kills the alchemist. Zavryd recovers his stolen artifact, saves Val from a kraken, and supplies blood for the cure. Zoltan treats Willard, who improves, clears Val, and exposes evidence of corruption behind the audit. Val returns to duty and therapy, considers reconnecting with Amber, and sees that Zavryd remains in Seattle.",
