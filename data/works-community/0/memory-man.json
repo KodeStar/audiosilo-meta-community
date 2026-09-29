@@ -312,6 +312,43 @@
         "work": "men-at-arms"
       }
     },
+    "mermaid-school": {
+      "recaps": {
+        "ending": "Marnie and Pearl bring Orla safely back from the East Lagoon, and Orla apologizes for her treatment of Marnie. Sheila has survived the hurricane, while Garbo's collection yields her missing demo. Christabel plans to broadcast the recording and bring Sheila back to Mermaid Lagoon as her studio assistant. Marnie finishes her first adventure with Pearl and Orla as friends and with the difficult seahorse Urchin willing to trust her. Christabel's possible past connection with an Arthur remains unexplained. The greater unresolved danger is Arthur Bagshot, a human who has watched the East Lagoon rocks for ten years. He suspects that he saw two colored tails near the rocks and intends to return, leaving Mermaid Lagoon's secrecy under renewed threat.",
+        "in_short": "Marnie Blue begins mermaid school hoping to escape comparisons with her famous, unruly aunt Christabel, but repeated trouble and Orla Finnegan's hostility quickly damage her standing. Marnie finds loyal friends in Pearl, Dora, and Lupita, and she earns the trust of Christabel's former seahorse, Urchin. After learning that Orla's anger is connected to her missing sister Sheila and a demo Christabel failed to play, Marnie and Pearl search for Orla at the forbidden East Lagoon rocks. They rescue her, and Marnie risks going onto land, temporarily exchanging her tail and voice for legs. Orla apologizes and becomes Marnie's friend. Sheila is found alive, and Garbo's hoard contains her missing demo. Christabel agrees to air it and employ Sheila. The book closes with human watcher Arthur Bagshot suspecting that he saw mermaid tails and planning to return.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "book",
+            "text": "Marnie Blue starts at Lady Sealia Foam's hidden school determined to follow the rules and make friends. She is already uneasy about being compared with her aunt Christabel, a celebrated singer and former pupil known for causing trouble. A sea snake appears from Marnie's bag during registration, leaving staff suspicious of her before lessons properly begin. Pearl Cockle becomes her first friend, while Orla Finnegan repeatedly insults and undermines her. In music class, Marnie helps Pearl but is dismissed after continuing to sing by herself. She comes to suspect that Orla arranged the snake incident, although she has no proof. Marnie also learns the legend of Queen Maretta, who saved Mermaid Lagoon through friendship and risked losing her tail and voice while on land. During the school tour, Orla's hostility becomes physical. Pearl, Dora, and Lupita recognize the pattern and suggest that jealousy over Marnie's connection to Christabel may be driving it. At the stables, Orla dares Marnie to enter an area Miss Mullet has expressly forbidden, and Marnie accepts on the condition that Orla go in too.",
+            "through": {
+              "chapter": 5
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Marnie enters the stable, startles Typhoon, and is caught. Orla and Mabel report her while concealing Orla's part in the dare, so Marnie receives detention. Pearl, Dora, and Lupita stand by her. During detention, Marnie meets Urchin, the difficult blue seahorse once ridden by Christabel, and discovers that he accepts her too. Orla later withdraws from class after the others reject her behavior. Marnie finds her crying and learns that Orla's sister Sheila is missing after a hurricane in the Gulf of Mexico. Orla also resents Christabel for failing to broadcast Sheila's demo. Christabel says the recording vanished among other missing studio items, and a search at Radio Sea Wave fails to locate it. Soon Sheila is reported safe, but Orla herself disappears. Refusing to believe the search should end, Marnie and Pearl take Urchin and Andrew from the stables and reach the forbidden East Lagoon rocks. They find Orla trapped beyond a moray eel. Marnie goes onto land to help her, temporarily gaining legs and losing her voice. Once back in the water, both girls regain their tails and voices. Orla apologizes, Marnie accepts her friendship, and they escape an approaching boat.",
+            "through": {
+              "chapter": 10
+            }
+          },
+          {
+            "scope": "book",
+            "text": "After rescuing Orla from the East Lagoon, Marnie follows her suspicion about the missing studio property. Garbo, Christabel's goldfish, has been collecting shiny objects, and his hoard includes Sheila's shell-decorated demo. Christabel agrees to play the recording on her radio show and says Sheila may be able to develop a singing career through sustained work. Marnie then proposes that Sheila become Christabel's studio assistant. Christabel accepts the idea and plans to bring her back from the Gulf of Mexico immediately. Orla thanks Marnie and promises that her mistreatment will not continue, completing their reconciliation. Pearl also identifies beads in Garbo's collection as crystal tears. Together with an inscription found during the search, they suggest that Christabel once had a true love named Arthur, though the man's identity and the relationship remain unconfirmed. At the East Lagoon rocks, a human named Arthur Bagshot watches from a boat. He thinks he may have seen two colored tails, cannot be sure they were not dolphins, and keeps the possibility from his first mate. He decides to return and continue observing the rocks, leaving the mermaids' secrecy in danger.",
+            "through": {
+              "chapter": 12
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B09BB2VMLJ",
+            "type": "community"
+          }
+        ],
+        "work": "mermaid-school"
+      }
+    },
     "message-in-a-bottle-booktrack-edition": {
       "characters": {
         "characters": [
