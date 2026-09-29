@@ -5998,6 +5998,209 @@
         "work": "summer-of-the-monkeys"
       }
     },
+    "summer-term-at-st-clares": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Pat"
+            ],
+            "description": "A returning first-form pupil at St Clare's and Isabel's twin. After quarantine delays their arrival for the summer term, Pat is eager to recover the missed work, compete for a high place in class, and earn promotion alongside her sister.",
+            "id": "pat-osullivan",
+            "name": "Pat O'Sullivan",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Isabel"
+            ],
+            "description": "Pat's twin and a returning member of the first form. Isabel reaches St Clare's late after the sisters spend a week in quarantine, and she shares Pat's determination to make up their lost ground and qualify for promotion.",
+            "id": "isabel-osullivan",
+            "name": "Isabel O'Sullivan",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "The twins' cousin and a first-form pupil. Alison has attached herself closely to Sadie Greene and readily follows the new girl's interest in hairstyles and appearance.",
+            "id": "alison",
+            "name": "Alison",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A former first-form pupil who has moved into the second form. Margery is now one of the school's strongest tennis players, with the ability to contend for the school championship and represent St Clare's in matches.",
+            "id": "margery-fenworthy",
+            "name": "Margery",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Lucy"
+            ],
+            "description": "A former classmate of the twins who has advanced to the second form. Lucy works among scholarship pupils because an accident involving her father had placed her continued education in doubt.",
+            "id": "lucy-oriell",
+            "name": "Lucy Oriell",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Roberta"
+            ],
+            "description": "A capable first-form pupil who uses a nickname and is already Janet's close friend. Bobby is bold, athletic, and inventive, but she prefers elaborate practical jokes to the steady effort her schoolwork requires.",
+            "id": "bobby",
+            "name": "Bobby",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A first-form dormitory mate and Bobby's firm friend. Janet enjoys mischief but is trying to apply herself because she hopes to win promotion, making her the more studious partner in their energetic friendship.",
+            "id": "janet",
+            "name": "Janet",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Carlotta"
+            ],
+            "description": "A new half-Spanish member of the first form. Carlotta has a fierce temper and struggles with ordinary lessons.",
+            "id": "carlotta-brown",
+            "name": "Carlotta Brown",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Prudence"
+            ],
+            "description": "A new first-form pupil who presents herself as unusually dutiful and well connected. Prudence seeks friendships that may benefit her, drawing close to clever Pamela for help and wealthy Sadie for social advantage while quietly checking Pamela's work.",
+            "id": "prudence-arnold",
+            "name": "Prudence Arnold",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Pamela"
+            ],
+            "description": "The youngest pupil in the form and already its strongest scholar. Pamela is diligent, serious, and fond of gardening, though she has little aptitude for games. Her trusting nature leaves her receptive to Prudence's admiring attention.",
+            "id": "pamela-boardman",
+            "name": "Pamela Boardman",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Sadie"
+            ],
+            "description": "A wealthy American newcomer who quickly becomes Alison's closest companion. Sadie is generous and good-tempered, but deeply concerned with clothes and appearance. Her expected fortune also attracts Prudence's calculated interest.",
+            "id": "sadie-greene",
+            "name": "Sadie Greene",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The head of the first form and one of the girls sharing the twins' dormitory. Hilary provides a steady senior presence among classmates whose different tempers and loyalties have not yet settled into a united group.",
+            "id": "hilary",
+            "name": "Hilary",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The headmistress of St Clare's. Miss Theobald oversees the first form's progress and expects pupils to answer honestly for their conduct.",
+            "id": "miss-theobald",
+            "name": "Miss Theobald",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The first-form mistress, whose demanding standards set the academic pace of the term. Miss Roberts believes Pat and Isabel can reach the second form if they compete for leading places, and she closely monitors pupils who fall behind.",
+            "id": "miss-roberts",
+            "name": "Miss Roberts",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The French teacher. Mam'zelle confirms that she neither summoned Janet for extra coaching nor taught her during the cinema outing, helping Miss Roberts uncover Bobby and Janet's deception.",
+            "id": "mamzelle",
+            "name": "Mam'zelle",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The games mistress who assesses the twins as possible members of the first-form tennis team.",
+            "id": "miss-wilton",
+            "name": "Miss Wilton",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Belinda"
+            ],
+            "description": "A senior pupil responsible for sports organization. Belinda sees enough tennis ability in Bobby to offer her a chance at the first-form reserve place, but makes clear that the opportunity depends on regular training and demonstrated effort.",
+            "id": "belinda-towers",
+            "name": "Belinda Towers",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A teacher who encourages pupils from the first and second forms to attend a historical film. Miss Lewis turns the outing into an academic opportunity by offering a prize for the strongest written review.",
+            "id": "miss-lewis",
+            "name": "Miss Lewis",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0711QPMTK",
+            "type": "community"
+          }
+        ],
+        "work": "summer-term-at-st-clares"
+      }
+    },
     "sunreach-skyward-flight": {
       "characters": {
         "characters": [
