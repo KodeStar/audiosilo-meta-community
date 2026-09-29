@@ -12,7 +12,9 @@
 # entry that is new, different or gone, in full:
 #
 #   === ENTRY <slug> (ADDED)      the new entry
-#   === ENTRY <slug> (CHANGED)    the new entry, then the previous version of
+#   === ENTRY <slug> (CHANGED)    a line naming the members the pull request
+#                                 changes, each (added|changed|removed), then
+#                                 the new entry, then the previous version of
 #                                 each member that changed (an unchanged member
 #                                 is printed once, in the new entry)
 #   === ENTRY <slug> (REMOVED)    the previous entry
@@ -62,7 +64,12 @@ jq -r -n --slurpfile b "$tmp/base.json" --slurpfile h "$tmp/head.json" '
   | ([$B, $H] | map(keys) | add | unique)[] as $k
   | if ($B | has($k) | not) then "=== ENTRY \($k) (ADDED)", $H[$k], ""
     elif ($H | has($k) | not) then "=== ENTRY \($k) (REMOVED)", $B[$k], ""
-    elif $B[$k] != $H[$k] then "=== ENTRY \($k) (CHANGED)", "--- new", $H[$k],
+    elif $B[$k] != $H[$k] then "=== ENTRY \($k) (CHANGED)",
+      "--- this pull request changes: " + ([($B[$k] + $H[$k]) | keys[] as $m
+        | select($B[$k][$m] != $H[$k][$m])
+        | "\($m) (\(if ($B[$k] | has($m) | not) then "added" elif ($H[$k] | has($m) | not) then "removed" else "changed" end))"]
+        | join(", ")),
+      "--- new", $H[$k],
       "--- previous (the members that changed)", ($B[$k] | with_entries(select(.value != $H[$k][.key]))), ""
     else empty end' > "$OUT"
 

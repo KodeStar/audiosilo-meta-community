@@ -112,6 +112,19 @@ comment heading, and the two labels. The prompt tells the model it has not read
 the book and may never have heard of it: "I cannot verify this" is never a
 finding (core learned that on a real preorder it called fabricated four times).
 
+**It judges the pull request's change, not the whole entry.** The context
+names, for every CHANGED entry, the members the pull request changes
+(`--- this pull request changes: recaps (added), ...`); every other member is
+shown as context only. A problem wholly inside an unchanged member goes to the
+verdict's `existing` list, never to `findings`, and never makes it flagged; the
+comment quotes those notes (as `>` lines, never list items) under `#### Already
+on main`, so a maintainer can fix them on main. Before this, #60 - a recaps pull
+request - was flagged for a characters card #59 had already merged, which no fix
+on that pull request could touch. Every finding and note begins `<work-slug>
+<member>: ...`: the steward reads that shape to recognise a flag about data
+outside the pull request (audiosilo-meta-sync `scope.go`). This render and
+aggregation are the community's own; core's script has no `existing` list.
+
 ## Conventions
 
 - **No AI attribution anywhere.** No `Co-Authored-By` trailers, no "Generated
