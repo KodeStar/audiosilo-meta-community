@@ -217,7 +217,7 @@ $(cat "$chunk")"
   judge
   [ "$VERDICT" = flag ] && OVERALL=flag
   FINDINGS="$(printf '%s' "$VERDICT_JSON" | jq -c --argjson all "$FINDINGS" '$all + (.findings // [])')"
-  EXISTING="$(printf '%s' "$VERDICT_JSON" | jq -c --argjson all "$EXISTING" '$all + ([.existing // [] | .[] | strings])')"
+  EXISTING="$(printf '%s' "$VERDICT_JSON" | jq -c --argjson all "$EXISTING" '$all + [(.existing | if type == "array" then .[] else empty end) | strings]')"
 done
 VERDICT="$OVERALL"
 VERDICT_JSON="$(jq -cn --arg v "$VERDICT" --argjson f "$FINDINGS" --argjson e "$EXISTING" \
