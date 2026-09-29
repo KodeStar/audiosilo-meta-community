@@ -65,7 +65,8 @@ jq -r -n --slurpfile b "$tmp/base.json" --slurpfile h "$tmp/head.json" '
   | if ($B | has($k) | not) then "=== ENTRY \($k) (ADDED)", $H[$k], ""
     elif ($H | has($k) | not) then "=== ENTRY \($k) (REMOVED)", $B[$k], ""
     elif $B[$k] != $H[$k] then
-      (($B[$k] + $H[$k]) | keys | map(select($B[$k][.] != $H[$k][.]))) as $changed
+      (($B[$k] + $H[$k]) | keys | map(. as $m
+        | select(($B[$k] | has($m)) != ($H[$k] | has($m)) or $B[$k][$m] != $H[$k][$m]))) as $changed
       | "=== ENTRY \($k) (CHANGED)",
       "--- this pull request changes: " + ($changed | map(. as $m | "\($m) (\(if ($B[$k] | has($m) | not) then "added"
         elif ($H[$k] | has($m) | not) then "removed" else "changed" end))") | join(", ")),

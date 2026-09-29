@@ -117,8 +117,10 @@ names, for every CHANGED entry, the members the pull request changes
 (`--- this pull request changes: recaps (added), ...`); every other member is
 shown as context only. The prompt puts a problem wholly inside an unchanged
 member in the verdict's `existing` list, never in `findings`, and the script
-makes that stick: a chunk counts as flagged only when it has a finding, so a
-concern listed under `existing` cannot flag the pull request; the
+makes that stick: a flag whose every concern is under `existing` (no finding,
+at least one note) counts as a pass, so a concern listed there cannot flag the
+pull request - while a flag with neither still flags, since a label must never
+assert a pass the model did not give; the
 comment quotes those notes (as `>` lines, never list items) under `#### Already
 on main`, so a maintainer can fix them on main. Before this, #60 - a recaps pull
 request - was flagged for a characters card #59 had already merged, which no fix
