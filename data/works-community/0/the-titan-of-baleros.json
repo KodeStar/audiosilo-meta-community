@@ -3237,6 +3237,259 @@
       }
     },
     "the-twins-at-st-clares": {
+      "characters": {
+        "characters": [
+          {
+            "description": "One of the identical O'Sullivan twins, Pat is quick-tempered and takes the lead in opposing her parents' decision to send the sisters from Redroofs to St Clare's. Disappointed that they cannot join their friends at Ringmere School, she urges Isabel to help make their new school experience unpleasant.",
+            "id": "pat",
+            "name": "Pat",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Pat's identical twin sister, Isabel shares her resentment at being sent to St Clare's instead of Ringmere School. She is less impulsive and less certain than Pat, but at first allows her sister to lead her into a plan of deliberate non-cooperation.",
+            "id": "isabel",
+            "name": "Isabel",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "The firm but welcoming mistress of the twins' form at St Clare's. Miss Roberts receives the newcomers on arrival and introduces them to the practical expectations of school life without granting them any special standing.",
+            "id": "miss-roberts",
+            "name": "Miss Roberts",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Hilary"
+            ],
+            "description": "A friendly and direct member of the twins' form who also shares their dormitory. Hilary offers Pat and Isabel a sincere welcome even while their proud manner makes other pupils cautious about them, and she gives the newcomers an early point of contact within the school.",
+            "id": "hilary-wentworth",
+            "name": "Hilary Wentworth",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Janet"
+            ],
+            "description": "A sharp-tongued first-form pupil who immediately questions whether girls from Redroofs will suit St Clare's. Janet is willing to challenge the twins' air of superiority openly rather than wait for them to settle in.",
+            "id": "janet-robins",
+            "name": "Janet Robins",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The headmistress of St Clare's, acquainted with the twins' mother. She receives Pat and Isabel courteously and quickly understands that they have arrived unwillingly and are determined not to like the school.",
+            "id": "miss-theobald",
+            "name": "Miss Theobald",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Vera"
+            ],
+            "description": "A quiet pupil in the first form. Vera is among the classmates Pat and Isabel meet as they discover that their former status at Redroofs gives them no automatic place in the social life of St Clare's or any immediate claim on their new classmates' regard.",
+            "id": "vera-johns",
+            "name": "Vera Johns",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Sheila"
+            ],
+            "description": "A first-form pupil whose haughty manner and boastful air keep her apart from the others. When the twins first meet her, she appears as conscious of rank and appearances as they are, making her another socially isolated figure within the form.",
+            "id": "sheila-naylor",
+            "name": "Sheila Naylor",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Kathleen",
+              "Kath"
+            ],
+            "description": "An anxious first-form pupil who is eager to find friends. Kathleen seeks friendship with Pat and Isabel when they are new to the first form.",
+            "id": "kathleen-gregory",
+            "name": "Kathleen Gregory",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Winifred"
+            ],
+            "description": "The capable head girl at St Clare's. Winifred offers assistance to Pat and Isabel when they are new, giving them an early chance to seek guidance even though they remain resistant to the school's customs.",
+            "id": "winifred-james",
+            "name": "Winifred James",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The relaxed art teacher at St Clare's. Miss Walker recognises the twins' artistic ability.",
+            "id": "miss-walker",
+            "name": "Miss Walker",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Mam'zelle Abominable"
+            ],
+            "description": "The strict French teacher at St Clare's, with a kind and humorous side. She quickly discovers serious gaps in the twins' French and expects them to do remedial work. They privately give her the nickname Mam'zelle Abominable.",
+            "id": "mamzelle",
+            "name": "Mam'zelle",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Kenny"
+            ],
+            "description": "A temporary history teacher standing in for the ill Miss Lewis. Known to pupils as Kenny, she struggles to control her classes, and the girls take advantage of her uncertainty by disrupting her lessons.",
+            "id": "miss-kennedy",
+            "name": "Miss Kennedy",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The regular history teacher, currently absent because of illness. Her friend Miss Kennedy is temporarily teaching the subject in her place.",
+            "id": "miss-lewis",
+            "name": "Miss Lewis",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Belinda"
+            ],
+            "description": "A demanding senior pupil whom juniors may be required to help with practical tasks. Her expectations bring the twins' refusal to accept St Clare's customs into direct conflict with an established member of the school.",
+            "id": "belinda-towers",
+            "name": "Belinda Towers",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Rita"
+            ],
+            "description": "An older pupil responsible for organising a nature ramble. Rita sees Kathleen apparently taking money from her purse and reports what she has witnessed, bringing the unexplained losses around the school to a decisive point.",
+            "id": "rita-george",
+            "name": "Rita George",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The mistress responsible for the second form. Miss Jenks is introduced when misbehaviour by girls in that form becomes part of the continuing campaign of tricks played on Miss Kennedy, showing that the classroom problem reaches beyond the twins' own form.",
+            "id": "miss-jenks",
+            "name": "Miss Jenks",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A second-form pupil who helps arrange a prank in which a cat is shut inside a classroom cupboard to frighten Miss Kennedy. Her involvement shows that the disorder troubling the temporary teacher extends beyond the first form.",
+            "id": "tessie",
+            "name": "Tessie",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Queenie"
+            ],
+            "description": "A second-form pupil who admits that she accidentally broke the first-form classroom window with a lacrosse ball. Illness delayed her confession, which clears the first form of suspicion and ends its collective punishment.",
+            "id": "queenie-hobart",
+            "name": "Queenie Hobart",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An injured young dog found by Pat, Isabel, and Kathleen in a field, apparently wounded by pellets. Kathleen refuses to abandon the animal, and the three girls secretly place it in a warm attic room while she tends its injuries.",
+            "id": "wounded-terrier",
+            "name": "Wounded terrier",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The recovering terrier previously hidden and treated by Kathleen with help from Pat and Isabel. After the dog escapes into the school, Miss Theobald allows it to live in the stables under conditions, and Kathleen gives it the name Binks.",
+            "id": "binks",
+            "name": "Binks",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A first-form pupil who contributes a solo dance to the end-of-term concert. Her performance is well received, although Binks escapes onto the stage and trips her at its conclusion without causing a serious consequence.",
+            "id": "doris",
+            "name": "Doris",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The full name of Doris, the first-form pupil who performed the solo dance at the concert. On the last day of term, she packs alongside her classmates as they exchange addresses and prepare to leave St Clare's for the holidays.",
+            "id": "doris-elward",
+            "name": "Doris Elward",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B071S686HW",
+            "type": "community"
+          }
+        ],
+        "work": "the-twins-at-st-clares"
+      },
       "recaps": {
         "ending": "The winter term closes with Pat and Isabel fully accepted by the first form and no longer resisting St Clare's. Their work has improved, Pat has led the geography examination, and both sisters leave confident in their friendships and eager for the next term. Sheila's successful concert performance confirms her new confidence and place in the form, while Vera remains at home recovering from her broken arm. Miss Kennedy receives a warm farewell and leaves only because Miss Lewis will resume the history post. Kathleen takes Binks with her for the holidays, but whether the dog can live with her permanently still depends on her aunt's approval. The concealed circus outing is never reported, though the four truants already lost the replacement treat through illness. The school community's major conflicts are settled, with Binks's permanent home the principal open question.",
         "in_short": "Identical twins Pat and Isabel O'Sullivan arrive at St Clare's determined to dislike it after leaving Redroofs, but their defiance gradually gives way to responsibility and friendship. They accept school customs, improve their French, share punishment with their form, defend the remorseful Kathleen after her thefts are discovered, and help end the mistreatment of Miss Kennedy. A forbidden circus visit, reconciliation with the insecure Sheila, the rescue of a wounded terrier later named Binks, examinations, and the end-of-term concert deepen their place in the school community. Pat tops the geography examination, Sheila succeeds in a major concert role, and Binks is permitted to spend the holidays with Kathleen while her aunt considers keeping him. Miss Kennedy leaves because Miss Lewis is returning. By the final day, the twins openly love St Clare's and intend to return.",
