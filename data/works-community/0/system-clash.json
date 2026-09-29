@@ -2046,6 +2046,204 @@
       }
     },
     "tangled-truths-an-urban-fantasy-dragon-series": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Val"
+            ],
+            "description": "A half-elf Army investigator whose work centers on dangerous magical beings and artifacts. After helping Nin survive a hostile reception at an underground bar, she follows its proprietor to examine a problem involving dark elves.",
+            "id": "val-thorvald",
+            "name": "Val Thorvald",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Val's telepathic tiger ally, summoned through a magical bond. He lends his senses and strength to her work and helps her contain the fight that erupts during Nin's delivery at Rupert's bar.",
+            "id": "sindari",
+            "name": "Sindari",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dragon whom a Dragon Justice Court inquisitor accuses of lying about killing his son in self-defense.",
+            "id": "zav",
+            "name": "Zav",
+            "reveal": {
+              "chapter": 4
+            }
+          },
+          {
+            "aliases": [
+              "Zav",
+              "Zavryd"
+            ],
+            "description": "A black dragon who hunts criminals for the Dragon Justice Court. He protects Val from an inquisitor seeking evidence about a dragon's death, while pursuing dark elves whose long-range artifacts killed thousands of shifters.",
+            "id": "zavryd-nokquetal",
+            "name": "Zavryd'nokquetal",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val and Thad's estranged teenage daughter. She is vacationing near Lake Coeur d'Alene when Willard warns Val that her family may be in danger, making Amber's safety an immediate concern.",
+            "id": "amber",
+            "name": "Amber",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's former husband and Amber's father. He is vacationing with Amber near Lake Coeur d'Alene when Willard warns Val that both of them may face danger connected to Val's work.",
+            "id": "thad",
+            "name": "Thad",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's government supervisor. She warns that Amber and Thad may be endangered near Lake Coeur d'Alene, and her office agrees to watch the Seattle bar connected to a deadly dark-elf artifact.",
+            "id": "willard",
+            "name": "Willard",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's mother, who alerts Val to where Thad and Amber are staying during their Idaho vacation. Her information confirms that Val's family is in the same area as the unexplained Harrison disturbance.",
+            "id": "vals-mother",
+            "name": "Val's mother",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's mother's dog, present with the family near Harrison while Val investigates the attacks around town. He accompanies his owner during her visit to Thad and Amber's rental house.",
+            "id": "rocket",
+            "name": "Rocket",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The troll proprietor of an underground bar that he presents as a safe place for magical beings. After a fight damages the ceiling, he offers Val information if she handles a problem left by dark elves.",
+            "id": "rupert",
+            "name": "Rupert",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A dark-elf operative who arranged for a lethal pleasure orb to be installed at Rupert's bar. The device enthralls humans and shifters, making her part of the hostile artifact operation Val begins investigating.",
+            "id": "female-dark-elf",
+            "name": "Female dark elf",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A dark elf linked to the deadly pleasure-orb experiment at Rupert's bar. He observes the people exposed to the artifact, tying him to the operation Val is trying to trace.",
+            "id": "male-dark-elf",
+            "name": "Male dark elf",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A silver dragon and Dragon Justice Court inquisitor investigating his son's death. He suspects that Val witnessed what happened and uses painful mental coercion in an attempt to search her memories.",
+            "id": "silverclaw-inquisitor",
+            "name": "Silverclaw inquisitor",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A senior member of the Dragon Justice Court and Zav's mother. She arrives through a portal to stop a battle among dragons and rules that Val should undergo rehabilitation for killing the inquisitor's son.",
+            "id": "zavs-mother",
+            "name": "Zav's mother",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Zav's sister and a member of the Dragon Justice Court. She arrives with other court figures to end the dragon conflict and objects when Zav invokes an ancient claim to protect Val.",
+            "id": "zavs-sister",
+            "name": "Zav's sister",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The leader of the displaced goblins operating around Harrison. The group has used a magical artifact to compel Sasquatch to damage the town in an attempt to force the human residents away.",
+            "id": "goblin-work-leader",
+            "name": "Goblin work leader",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A group of Sasquatch near Harrison whose members free Val from a stone trap and show no overt hostility, casting doubt on the belief that they are directing the attacks on town.",
+            "id": "sasquatch-community",
+            "name": "Sasquatch community",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's friend and an expert maker of enchanted weapons and armor who also runs a food truck. She brings Val to Rupert's bar while delivering a specially made shotgun to a client.",
+            "id": "nin",
+            "name": "Nin",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A magical-art maker allied with Val. She warns him that the Dragon Justice Court inquisitor may search for witnesses connected to the death under investigation.",
+            "id": "dimitri",
+            "name": "Dimitri",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A vampire alchemist allied with Val. His interest in the magical value of Sasquatch scent and biological material supports the conclusion that the physical evidence around Harrison is genuine.",
+            "id": "zoltan",
+            "name": "Zoltan",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:uk:B088VPSFJ4",
+            "type": "community"
+          }
+        ],
+        "work": "tangled-truths-an-urban-fantasy-dragon-series"
+      },
       "recaps": {
         "ending": "The Harrison attacks end without a massacre. Willard arranges for all 36 displaced goblins to move to an unclaimed elven sanctuary near Granite Falls, and Val returns the artifact they used to compel the Sasquatch. Amber survives her abduction and the dragon battle, then exchanges phone numbers with Val, opening a cautious path toward repairing their relationship. The inquisitor has forced Val to confess that she killed his son, but Zav prevents her immediate seizure by invoking an ancient legal claim. He marks Val as under his protection and assumes responsibility for her future violations. The Dragon Justice Court accepts the claim for now, although Zav's mother and sister remain part of the unresolved court pressure. Zav then presents himself to other dragons as Val's mate and tries to assert control over her assignments. Val rejects that authority, while Willard reviews the court law. Val's next government assignment is to find the dark-elf scientists behind the lethal artifacts, who remain at large.",
         "in_short": "Val investigates attacks around Harrison while trying to protect her estranged daughter, Amber, from a Dragon Justice Court inquisitor seeking proof that Val killed his son. She discovers that displaced goblins are using a magical artifact to compel peaceful Sasquatch to drive humans from the town. The crisis is resolved by relocating all 36 goblins to an unused elven sanctuary. The inquisitor abducts Amber and forces Val to confess, prompting a battle in which Zav helps Amber escape and protects Val. Court members arrive intending to subject Val to rehabilitation, but Zav invokes an ancient claim that places her under his protection and makes him responsible for her actions. Amber survives and establishes direct contact with Val. Zav publicly treats the claim as a mate bond and tries to control Val's work, but she refuses to accept his authority. The dark elves behind the deadly pleasure-orb operation remain free, and Val is assigned to find them.",
