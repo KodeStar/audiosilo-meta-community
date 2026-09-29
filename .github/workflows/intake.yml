@@ -43,11 +43,15 @@ on:
   issues:
     types: [opened, edited, labeled]
   # A merge to main can leave an already-open intake PR conflicting in a pack
-  # file. Only a change to the data tree can do that.
+  # file, which only a data change can do - but audiosilo-meta-sync's steward
+  # merges a pull request ONLY when its head already contains the tip of main
+  # (behind_by == 0), so ANY push to main leaves every open intake PR behind
+  # and unmergeable until this sweep rebases it. A docs or tooling merge
+  # therefore runs the sweep too (on 2026-09-29 a .github-only merge left six
+  # intake PRs behind with nothing to rebase them). The sweep is cheap when no
+  # intake branch is open, so the trigger is every push to main, as core's.
   push:
     branches: [main]
-    paths:
-      - "data/**"
 
 # Least privilege at the workflow level is "nothing"; each job takes what it
 # needs (issues: write is the intake job's alone).
