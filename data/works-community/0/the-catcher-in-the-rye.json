@@ -2244,6 +2244,189 @@
       }
     },
     "the-clamshell-show": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A pupil at Lady Sealia Foam's school and Christabel Blue's niece. Marnie has prepared for a singing audition and hopes to play Queen Maretta in the Clamshell Show, although competing for the role threatens her friendship with Orla.",
+            "id": "marnie-blue",
+            "name": "Marnie Blue",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Marnie's friend and a fellow pupil who also enters the audition for Queen Maretta. Her decision puts the two friends in direct competition and immediately creates strain between them.",
+            "id": "orla-finnegan",
+            "name": "Orla Finnegan",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Marnie's friend, a keen observer of fish, and the school's only rock-tuba player. Because nobody else plays her instrument, Pearl already has a place in the show orchestra rather than seeking a singing role.",
+            "id": "pearl-cockle",
+            "name": "Pearl Cockle",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Marnie's aunt and a well-known performer on Radio Sea Wave. Her reputation at the school shapes Lady Sealia's unfavorable opinion of Marnie.",
+            "id": "christabel-blue",
+            "name": "Christabel Blue",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The strict head of Marnie's school and one of the adults responsible for the joint Clamshell Show. She keeps a pet dogfish and judges Marnie unfavorably because of Marnie's association with Christabel Blue.",
+            "id": "lady-sealia-foam",
+            "name": "Lady Sealia Foam",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The music teacher who organizes auditions for the schools' production of Queen Maretta and the Storm Sprites.",
+            "id": "miss-tinkle",
+            "name": "Miss Tinkle",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The legendary queen at the center of the schools' planned production. Marnie Blue and Orla Finnegan both hope to portray her in the Clamshell Show.",
+            "id": "queen-maretta",
+            "name": "Queen Maretta",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A pupil seeking the role of Queen Maretta. Her singing in the opening audition is strong enough for Miss Tinkle to advance her to the next round.",
+            "id": "mabel-anemone",
+            "name": "Mabel Anemone",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A pupil who initially takes part in the singing auditions. Miss Tinkle assigns her to the show's chorus rather than advancing her as a candidate for Queen Maretta.",
+            "id": "lupita-barracuda",
+            "name": "Lupita Barracuda",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A pupil who appears in the first round of show auditions. Miss Tinkle decides that her contribution is better suited to stage management than to the role of Queen Maretta.",
+            "id": "dora-agua",
+            "name": "Dora Agua",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A newly arrived pupil with a powerful singing voice who advances as a candidate for Queen Maretta alongside Marnie and Orla. Her identity is not established, and she becomes another strong rival for the lead.",
+            "id": "new-pupil",
+            "name": "New pupil",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The school's crab deputy head. She provides Marnie with the correct time for the second audition, exposing the false schedule that has left Marnie in danger of missing her turn.",
+            "id": "miss-mullet",
+            "name": "Miss Mullet",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An Atoll Academy pupil cast as Prince Cobalt and the brother of the new Queen Maretta performer. He accompanies his sister when she arranges a visit to Marnie's aunt at Radio Sea Wave.",
+            "id": "prince-cobalt-performer",
+            "name": "Prince Cobalt performer",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Orla's older sister and a studio assistant at Radio Sea Wave. She is part of Christabel Blue's regular broadcasting team when Marnie brings the show's two lead performers to the station.",
+            "id": "sheila-finnegan",
+            "name": "Sheila Finnegan",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The head of Atoll Academy, which joins Lady Sealia Foam's school to stage the Clamshell Show. He oversees the participating pupils from his school as the combined cast gathers for rehearsal.",
+            "id": "lord-foam",
+            "name": "Lord Foam",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Christabel Blue's regular Radio Sea Wave team. The producer works behind the scenes at the station during the lead performers' visit and the preparations surrounding the Clamshell Show.",
+            "id": "radio-sea-wave-producer",
+            "name": "Radio Sea Wave producer",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Atoll Academy pupil cast as one of the Storm Sprites in the joint production. He rehearses with Marnie and Orla at Clamshell Grotto and is part of the cast assembled from both schools.",
+            "id": "storm-sprite-performer",
+            "name": "Storm Sprite performer",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A human searching the lagoon after a message he left at the East Lagoon rocks disappeared. He has exchanged messages with Christabel Blue before and believes what he seeks is worth more than treasure.",
+            "id": "arthur-bagshot",
+            "name": "Arthur Bagshot",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An influential guest in the audience for the completed Clamshell Show. Impressed by Marnie and Orla's cooperation onstage, the agent offers them guidance if they pursue future musical opportunities.",
+            "id": "music-agent",
+            "name": "Music agent",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B09B9ZP58M",
+            "type": "community"
+          }
+        ],
+        "work": "the-clamshell-show"
+      },
       "recaps": {
         "ending": "Pearl Cockle's command of the rock tuba lets the merfolk escape from the panicked grotto and later restores the stage. Arthur Bagshot reaches Christabel Blue, and they acknowledge that they still love each other. Christabel nevertheless remains in Mermaid Lagoon because she sees no workable life for a mermaid and a human together. Lady Sealia Foam orders Lord Foam's guards to return Arthur to the surface and warn him not to reveal what he witnessed. The Clamshell Show then resumes. Marnie Blue and Orla Finnegan divide the role of Queen Maretta, the Storm Sprite performer takes over as Prince Cobalt, and the production succeeds. Sheila Finnegan and the Radio Sea Wave producer disclose that the supposed album offer was their test of the original leads, who abandoned the cast and lost the music agent's interest. Marnie and Orla are friends again and receive encouragement from the agent. Arthur survives his return to his boat and does not immediately commit to another search, leaving his future with Christabel unresolved.",
         "in_short": "Marnie Blue and Orla Finnegan compete to play Queen Maretta in the annual Clamshell Show, and Orla's deception briefly destroys their friendship. A talented new pupil wins the role, but she and her brother neglect rehearsals and quit on show night for a supposed album opportunity. The crisis deepens when Arthur Bagshot enters Clamshell Grotto and exposes the merfolk gathering to a human. Pearl Cockle uses the giant rock tuba to operate the hidden exit, preventing a crush. Arthur and Christabel Blue confirm their love, but accept that their different worlds keep them apart, and he is escorted to the surface. The performance resumes with an Atoll Academy Storm Sprite as Prince Cobalt and Marnie and Orla sharing Queen Maretta. Their teamwork makes the show a success and attracts a music agent's interest. The abandoned leads then learn that their offer was a test arranged by Sheila Finnegan and the studio producer. Marnie and Orla end reconciled, while Christabel and Arthur remain separated.",
