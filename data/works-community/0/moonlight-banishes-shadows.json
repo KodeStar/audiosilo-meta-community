@@ -1974,6 +1974,242 @@
         "work": "mother-night"
       }
     },
+    "mother-of-learning-arc-1": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Zorian"
+            ],
+            "description": "A fifteen-year-old First Circle mage beginning his third academy year in Cyoria. Zorian has strong mana-shaping ability but few spells, wants a career designing magical items, and resists his family's business plans. Crowds give him painful headaches, and he resents being assigned to the demanding Xvim.",
+            "id": "zorian-kazinski",
+            "name": "Zorian Kazinski",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Kirielle"
+            ],
+            "description": "Zorian's nine-year-old younger sister. Their parents want him to care for her while they travel for six months, but he refuses the responsibility and returns to the academy without her. She remains at the family home in Sirin.",
+            "id": "kirielle-kazinski",
+            "name": "Kirielle Kazinski",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An academy teacher and administrator who confirms Zorian's First Circle certification, arranges his room and electives, and assigns Xvim as his mentor. She is practical, attentive to his academic plans, and willing to discuss routes around problems in his schooling.",
+            "id": "ilsa",
+            "name": "Ilsa",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Zorian's assigned academy mentor, known among students for unusually demanding standards.",
+            "id": "xvim",
+            "name": "Xvim",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A sociable classmate whose ability has changed dramatically since the previous school year. Zach displays knowledge and mana reserves far beyond those expected of a student, making his sudden expertise one of the first mysteries Zorian notices after returning to Cyoria.",
+            "id": "zach",
+            "name": "Zach",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An academy graduate, combat-class assistant, and old friend who calls Zorian Roach. Taiven is trying to establish herself through field work and persistently asks him to join a four-person expedition into Cyoria's sewers to recover a client's property.",
+            "id": "taiven",
+            "name": "Taiven",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The class representative, known for responsibility and punctuality. She enforces early attendance and takes her duties seriously.",
+            "id": "akoja",
+            "name": "Akoja",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An academy combat instructor and former battle mage. Kyron introduces rapid combat casting through spell-formula tools and oversees the exercise that exposes both Zorian's limited mana reserve and Zach's extraordinary capacity.",
+            "id": "kyron",
+            "name": "Kyron",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An undead mage associated with the force attacking Cyoria during the Summer Festival. He intercepts Zorian and Zach, overcomes Zach's advanced combat magic, and uses an unfamiliar soul spell on both boys after hearing that death may not be permanent.",
+            "id": "invading-lich",
+            "name": "Invading lich",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An academy librarian who employs Zorian after he seeks better access to research tools. She introduces him to practical library work and offers instruction in the divinations used to locate books and information within the collection.",
+            "id": "kira-tishley",
+            "name": "Kira Tishley",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A short, masked attacker who repeatedly stabs Zorian to death. The killing triggers another reset, but the assailant's connection to the planned invasion remains unconfirmed.",
+            "id": "masked-assailant",
+            "name": "Masked assailant",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A spell-formula specialist whom Ilsa arranges as Zorian's private instructor after his rapid progress becomes clear. The individual lessons offer him a more suitable technical challenge than his regular classwork while he remains under Xvim's mentorship.",
+            "id": "nora-bull",
+            "name": "Nora Bull",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A high-ranking politician and powerful mage who serves as Zach's guardian. Across repeated months, Zach defeats him in destructive duels before leaving Cyoria, though Zorian does not yet know the cause of their conflict.",
+            "id": "zachs-guardian",
+            "name": "Zach's guardian",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A transfer student, healer, alchemist, and single father who enters the academy on a scholarship. Largely self-taught through an unofficial village apprenticeship, Kyle hopes to prevent another epidemic like the one that killed his wife and teacher.",
+            "id": "kyle-tveranov",
+            "name": "Kyle Tveranov",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Kyle's daughter"
+            ],
+            "description": "Kyle Tveranov's young daughter, who travels with him to Cyoria when he transfers to the academy. Her mother and grandparents are dead, leaving Kyle to combine his studies and medical ambitions with caring for her.",
+            "id": "canna",
+            "name": "Canna",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Zorian's landlady"
+            ],
+            "description": "Ilsa's friend and the landlady recommended when Zorian brings Kirielle to Cyoria. She rents them rooms and can supervise Kirielle during academy hours, giving the siblings a supportive household away from academy housing.",
+            "id": "imaya",
+            "name": "Imaya",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Cyoria police detective assigned as Zorian's divination instructor and to investigate reports of mind-using spiders in the sewers. He initially doubts the spider claims but provides a possible official route for the inquiry.",
+            "id": "police-detective",
+            "name": "Police detective",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Aranea leader",
+              "the matriarch"
+            ],
+            "description": "A powerful telepathic leader among the underground Aranea. After learning of the time loop from the unshielded minds around Zorian, she confronts and immobilizes him, then releases him with an invitation to negotiate in the sewers.",
+            "id": "aranea-matriarch",
+            "name": "Aranea matriarch",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The lich connected to the Summer Festival invasion and now identified as the undead mage who defeated Zach during an earlier attack. His command of forbidden magic makes him relevant to Zorian's search for an invader-aligned participant in the time loop.",
+            "id": "quatach-ichl",
+            "name": "Quatach-Ichl",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "younger Aranea",
+              "Zorian's Aranean tutor"
+            ],
+            "description": "A younger Aranea assigned to continue Zorian's psionic education while the matriarch concentrates on the invasion. She becomes his regular instructor in mind-sense, empathy, and psychic defenses, maintaining the alliance's training work.",
+            "id": "young-aranea-tutor",
+            "name": "Young Aranea tutor",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A classmate from a family with a multigenerational tradition of mind magic. Ilsa pairs her with Zorian for supervised telepathy practice, where her spell-based education provides a contrast to his stronger natural mind-sense and telepathic aptitude.",
+            "id": "tanami",
+            "name": "Tanami",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "red-robed attacker",
+              "red-robed traveler"
+            ],
+            "description": "An invader-aligned looper who appears in red robes during the assault on Zach. The necromancer has soul perception, functional mind magic, and a simulacrum that lets him evade the Aranea's ambush while concealing his true position.",
+            "id": "third-time-traveler",
+            "name": "Third time traveler",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B09MXJQG1Z",
+            "type": "community"
+          }
+        ],
+        "work": "mother-of-learning-arc-1"
+      }
+    },
     "moving-pictures": {
       "characters": {
         "characters": [
