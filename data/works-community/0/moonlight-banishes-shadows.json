@@ -2661,6 +2661,293 @@
         "work": "mother-of-learning-arc-2"
       }
     },
+    "mother-of-learning-arc-3": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Zorian"
+            ],
+            "description": "A student mage and mind mage caught in the time loop alongside Zach. After restarting, he brings his younger sister Kirielle to Cyoria while he and Zach confront the loop's limited time and search for a way out.",
+            "id": "zorian-kazinski",
+            "name": "Zorian Kazinski",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Zach",
+              "last living heir of House Noveda"
+            ],
+            "description": "Zorian's exceptionally powerful partner in the time loop and the last living heir of House Noveda. He brings extensive combat experience and the resources of his house to their shared effort to understand the loop and escape it.",
+            "id": "zach-noveda",
+            "name": "Zach Noveda",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Sovereign Gate guardian"
+            ],
+            "description": "The limited entity that administers the Sovereign Gate. It explains the loop's monthly resets, the danger to copied souls, the finite number of remaining iterations, and the need to assemble five key pieces before the barred exit can be reopened.",
+            "id": "guardian-of-the-threshold",
+            "name": "Guardian of the Threshold",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "red-robed traveler",
+              "rival looper"
+            ],
+            "description": "A hostile time traveler absent from the current loop but central to Zorian and Zach's investigation. He escaped the loop by unknown means and has interfered with Zach's memories.",
+            "id": "red-robe",
+            "name": "Red Robe",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Kirielle"
+            ],
+            "description": "Zorian's younger sister. He brings her to Cyoria at the start of a restart and tries to keep her safe while pursuing the loop's dangers and secrets.",
+            "id": "kirielle-kazinski",
+            "name": "Kirielle Kazinski",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Zorian and Kirielle's mother. She opposes teaching Kirielle magic because she regards the stigma attached to her own witch mother as a serious social risk.",
+            "id": "zorians-mother",
+            "name": "Zorian's mother",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An exacting academy mentor whose expertise includes shaping, wards, and dimensional magic. He tests both loopers and begins giving Zorian advanced instruction, including defenses against teleportation.",
+            "id": "xvim",
+            "name": "Xvim",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A warrior-priest and soul-magic practitioner who agrees to teach Zorian and Zach soul defense. He examines Zorian's marker and judges the loopers' existing defenses before beginning their training.",
+            "id": "alannic",
+            "name": "Alannic",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An alchemist brought into Zorian's trusted circle. The time loop gives him room to pursue sustained research while contributing practical alchemical knowledge to the group's preparations.",
+            "id": "kyle",
+            "name": "Kyle",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A monster hunter and ally who learns about the time loop. She helps Zorian gain experience against ordinary opponents and serves as a practical sparring partner while the loopers prepare for more dangerous operations.",
+            "id": "taiven",
+            "name": "Taiven",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A shifter specialist consulted about the threatened sacrifice of shifter children. The expert explains why the ritual requires their complete primordial essence, recommends contacting local shifter tribes, and offers to make transformation potions from suitable creatures Zorian supplies.",
+            "id": "shifter-expert",
+            "name": "Shifter expert",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "necromancer",
+              "invader collaborator"
+            ],
+            "description": "A necromancer tied to the planned invasion, the Cult of the World Dragon, and the threatened sacrifice beneath Cyoria. Zorian identifies his schemes as part of the danger that informed allies must disrupt.",
+            "id": "sudimir",
+            "name": "Sudimir",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "invading lich"
+            ],
+            "description": "A hostile ancient lich supporting the Abassan invasion. He possesses an imperial Crown that Zorian's marker identifies as the first known component needed to unlock the time-loop exit.",
+            "id": "quatach-ichl",
+            "name": "Quatach-Ichl",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An elusive witch who previously tried to obtain the Grey Hunter's eggs. Her dealings with the creature complicate Zorian's efforts to secure the rare materials she demands.",
+            "id": "silver-lake",
+            "name": "Silver Lake",
+            "reveal": {
+              "chapter": 9
+            }
+          },
+          {
+            "description": "An academy classmate who asks Zorian for realistic advice on becoming financially independent. Her concern about limited magical prospects is accompanied by personal interest in him, which he declines to pursue while trapped in the loop.",
+            "id": "akoja",
+            "name": "Akoja",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An Aranean community that may understand the ancient gate network. Its leaders agree to investigate Zorian's time-loop claim after he supports it with precise predictions.",
+            "id": "silent-doorway-adepts",
+            "name": "Silent Doorway Adepts",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Koth treasure hunter"
+            ],
+            "description": "Zorian's eldest brother, now a treasure hunter in Koth and engaged to a woman from a noble bee-mage household. He is wary of Zorian's sudden magical advancement and is himself a natural psychic.",
+            "id": "zorians-eldest-brother",
+            "name": "Zorian's eldest brother",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "future sister-in-law"
+            ],
+            "description": "Zorian's prospective sister-in-law, a member of a Kothic noble household whose magic centers on breeding and controlling magical bees.",
+            "id": "zorians-eldest-brothers-fiancee",
+            "name": "Zorian's eldest brother's fiancee",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "expelled heir",
+              "missing fire mage"
+            ],
+            "description": "An expelled heir from a weakened military house and the first concrete lead in the search for Red Robe. He is a skilled fire mage whose whereabouts are unknown, and Zach's memories concerning him appear to have been deliberately erased.",
+            "id": "noble-house-teenager",
+            "name": "Noble-house teenager",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "middle brother"
+            ],
+            "description": "Zorian's estranged middle brother. A mediated confrontation with their eldest brother brings an old grievance into the open, centered on promised support during his academy years that was never provided.",
+            "id": "zorians-middle-brother",
+            "name": "Zorian's middle brother",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Zlotic contact"
+            ],
+            "description": "A student from Zlotic whom Zorian's simulacrum contacts as a possible cultural guide and translator for a future expedition in search of a key piece.",
+            "id": "desert-born-classmate",
+            "name": "Desert-born classmate",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dangerous grey hunter-mother pursued by Zorian and Zach. It recognizes and avoids their prepared trap, behavior that points to earlier training by Silver Lake.",
+            "id": "grey-hunter-mother",
+            "name": "Grey hunter-mother",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A civic authority who secretly commands the fifteen-person local inner circle of the Cult of the World Dragon.",
+            "id": "local-mage-guild-head",
+            "name": "Local Mage Guild head",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A lawyer with a history of aiding the Cult of the World Dragon. The missing noble-house teenager sought his counsel and later shelter, and investigators find the teenager's body hidden in his basement.",
+            "id": "cult-associated-lawyer",
+            "name": "Cult-associated lawyer",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A devil-wasp mage who serves as the high priest of the Ziggurat of the Sun. He wears the Imperial Ring among his ornaments until Zorian compels him to remove and surrender it.",
+            "id": "devil-wasp-high-priest",
+            "name": "Devil-wasp high priest",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An enormous eight-headed guardian that emerges from a cenote in Koth's Green Hell, blocking the treasure-hunting expedition's path to the Orb of the First Emperor.",
+            "id": "eight-headed-hydra",
+            "name": "Eight-headed hydra",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0B3CH221B",
+            "type": "community"
+          }
+        ],
+        "work": "mother-of-learning-arc-3"
+      }
+    },
     "moving-pictures": {
       "characters": {
         "characters": [
