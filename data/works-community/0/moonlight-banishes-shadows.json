@@ -2267,6 +2267,329 @@
       }
     },
     "mother-of-learning-arc-2": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Zorian",
+              "Roach"
+            ],
+            "description": "A young academy mage caught in a repeating month. After losing his Aranea allies, he leaves Cyoria to strengthen his soul defenses, telepathy, wardcraft, combat skills, and ability to escape danger while trying to keep his family beyond the reach of a hostile fellow traveler.",
+            "id": "zorian-kazinski",
+            "name": "Zorian Kazinski",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Zach"
+            ],
+            "description": "A powerful fellow mage already known to be reliving the month. Zorian begins this book without direct contact with him and remains unsure of his current condition.",
+            "id": "zach-noveda",
+            "name": "Zach Noveda",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Kirielle"
+            ],
+            "description": "Zorian's younger sister and a central reason for his caution. He stays near his family while judging whether his enemy can identify them, and his concern for Kirielle shapes his plans even when he leaves Cyoria to train.",
+            "id": "kirielle-kazinski",
+            "name": "Kirielle Kazinski",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Kyle"
+            ],
+            "description": "An alchemist and parent whose list of contacts directs Zorian toward possible teachers of soul magic. One isolated witch recognizes his name and asks Zorian to carry a conciliatory message to Kyle and his daughter.",
+            "id": "kyle-tveranov",
+            "name": "Kyle Tveranov",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Kyle's daughter"
+            ],
+            "description": "Kyle's young daughter and Kirielle's friend from earlier events.",
+            "id": "canna",
+            "name": "Canna",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An isolated northern witch and skilled alchemist whom Zorian approaches about soul magic. She knows Kyle and offers help only if Zorian completes demanding tests and obtains Grey Hunter eggs.",
+            "id": "northern-witch",
+            "name": "Northern witch",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A town trader who makes his workroom and plant reference collection available to Zorian. In return, he receives first choice when Zorian sells materials gathered in the wild.",
+            "id": "local-merchant",
+            "name": "Local merchant",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Zorian's exacting academy mentor, known for relentless mana-shaping exercises. Zorian resolves to master every task Xvim sets.",
+            "id": "xvim",
+            "name": "Xvim",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A monster hunter and combat trainer who recruits Zorian for dungeon expeditions beneath Cyoria. She notices that he is far more experienced than an ordinary third-year student, though he presents his limited mana reserves as his chief weakness.",
+            "id": "taiven",
+            "name": "Taiven",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An academy teacher who gives Zorian a practical answer to his mounting record-keeping problem. She teaches him an alteration technique for retaining a notebook's design in memory and reconstructing its written contents after a reset.",
+            "id": "ilsa",
+            "name": "Ilsa",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "invading lich"
+            ],
+            "description": "An ancient lich revered by the invading force and feared as its enforcer. His discipline makes unauthorized desertion unlikely, and he personally kills Zorian when the young mage's reconnaissance becomes too disruptive.",
+            "id": "quatach-ichl",
+            "name": "Quatach-Ichl",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "red-robed traveler",
+              "third traveler"
+            ],
+            "description": "A hostile necromancer with extensive experience inside the repeating month. He removed the Cyoria Aranea from subsequent restarts and knows that other human loop participants exist, though Zorian does not know whether his own identity has been exposed.",
+            "id": "rival-looper",
+            "name": "Rival looper",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "River Navigator leader"
+            ],
+            "description": "The leader of an Aranean web willing to negotiate with Zorian. She accepts magical services and telepathic relays in return for instruction, giving him a structured path toward stronger mental defenses and practical psychic combat.",
+            "id": "river-navigators-matriarch",
+            "name": "River Navigators' matriarch",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Aranean mind-magic instructor"
+            ],
+            "description": "An Aranean teacher who normally trains the web's young. Her daily drills teach Zorian to form a responsive mental shell that detects intrusion, repairs itself under pressure, and lets him counterattack without dropping his defenses.",
+            "id": "river-navigators-instructor",
+            "name": "River Navigators' instructor",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Filigree Sage leader"
+            ],
+            "description": "The leader of an Aranean web that offers Zorian deeper memory training on demanding terms. She asks him to transport an expedition into the ruined Cyoria settlement so her people can recover knowledge and valuables from the abandoned site.",
+            "id": "filigree-sages-matriarch",
+            "name": "Filigree Sages' matriarch",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A fellow academy student who quietly belongs to a wolf-shifter tribe. Zorian approaches her for advice about a threatened cat-shifter family, and she agrees to discuss the subject later.",
+            "id": "wolf-shifter-classmate",
+            "name": "Wolf-shifter classmate",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A shy eight-year-old girl whom Zorian helps in a Cyoria park. She quickly becomes Kirielle's friend. Reports of telepathic rats near her home make Zorian uneasy, although he does not yet know why her household has attracted attention.",
+            "id": "kirielle-s-friend",
+            "name": "Kirielle's friend",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The composed and perceptive mother of Kirielle's new friend. Her daughter reports strange creatures near their home, but Zorian initially finds no indication that the woman herself poses a danger to him or his family.",
+            "id": "kirielle-s-friend-s-mother",
+            "name": "Kirielle's friend's mother",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A local mayor identified in stolen records as the principal client and senior partner of an illegal merchant operation. His recent orders include assassinations and risky procurement, while his authority appears to shield the network from investigation.",
+            "id": "local-mayor",
+            "name": "Local mayor",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Kirielle's friend",
+              "abducted shifter child"
+            ],
+            "description": "Kirielle's young friend is revealed to be a cat shifter after her parents are killed and she is taken from their home. Zorian's investigation shows that the attackers deliberately abducted her and received orders to keep her alive and unharmed.",
+            "id": "cat-shifter-child",
+            "name": "Cat-shifter child",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "former criminal mother"
+            ],
+            "description": "The mother of Kirielle's friend is a cat shifter who left a criminal life behind and moved her family to escape her past. Zorian learns this by reading her surface thoughts while monitoring the household for another cult attack.",
+            "id": "cat-shifter-mother",
+            "name": "Cat-shifter mother",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "invader collaborator"
+            ],
+            "description": "A necromancer rules the undead-filled mansion reached through the invaders' dimensional gate. He senses soul magic and controls wards capable of disabling Zorian's prepared explosives.",
+            "id": "mansion-necromancer",
+            "name": "Mansion necromancer",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "local mayor",
+              "mansion necromancer",
+              "invader collaborator"
+            ],
+            "description": "The local mayor is revealed to be the necromancer directing the undead mansion and supporting the invasion.",
+            "id": "mayor-necromancer",
+            "name": "Mayor-necromancer",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "undead-hunting priest"
+            ],
+            "description": "An undead hunter who examines Zorian after armed attackers besiege his temple. He identifies the unknown structure embedded in Zorian's soul as an unusually deep marker that acts as both an identifier and a beacon.",
+            "id": "warrior-priest",
+            "name": "Warrior-priest",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "scaled combat alchemist"
+            ],
+            "description": "An alchemist targeted by deliberately controlled undead animals. After Zorian saves him, he examines the young mage's soul and detects foreign material already blending into it, along with a separate construct too deeply integrated to identify.",
+            "id": "transformation-alchemist",
+            "name": "Transformation-alchemist",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Cyoria Aranea leader"
+            ],
+            "description": "The leader of Zorian's former Aranean allies beneath Cyoria. Her web is gone at the start of every new month, leaving Zorian with an unopened memory packet and an incomplete warning that the time loop itself is deteriorating.",
+            "id": "aranea-matriarch",
+            "name": "Aranea matriarch",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Sovereign Gate guardian"
+            ],
+            "description": "The control-room presence attached to the Sovereign Gate. It recognizes both Zorian and Zach as controllers, but its answers become contradictory when the system confronts two branded participants where it expects only one.",
+            "id": "guardian-of-the-threshold",
+            "name": "Guardian of the Threshold",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A snake spirit revered by an Aranean web. It recognizes Zorian and Zach as branded loop participants, explains that only one person should carry the brand, and describes the loop as a periodically created temporary reproduction of the world.",
+            "id": "snake-spirit",
+            "name": "Snake spirit",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B09V1XJ949",
+            "type": "community"
+          }
+        ],
+        "work": "mother-of-learning-arc-2"
+      },
       "recaps": {
         "ending": "The assault on the mayor-necromancer's mansion ends with his surrender. Zorian and the warrior-priest remove a compulsion blocking his testimony, exposing collaborators and the cult's use of shifter children to reach the primordial beneath Cyoria. The resulting arrests force the invaders to attempt the release early, and the emerging entity triggers a reset. Zach then confronts Zorian, confirms that the Aranea begin every month dead, and becomes his active partner. They learn that both carry loop brands even though the system was designed for one entrant. Zorian recovers the matriarch's final message and uses its credentials to reach the Sovereign Gate with Zach. The Guardian reports that a controller has already left and refuses them passage, suggesting that the rival looper has claimed or manipulated the exit. Zorian and Zach remain in a deteriorating recreated world, committed to escaping together. The invasion, the primordial, Quatach-Ichl's gate network, the missing Aranea, and the rival looper all remain unresolved.",
         "in_short": "After the Cyoria Aranea vanish from every restart, Zorian leaves the city to study soul magic, telepathy, wards, and combat. He discovers that his loop marker is a flawed copy of Zach's, develops methods for carrying records across resets, and returns to investigate the invasion. His work uncovers a dimensional-gate network, a mansion that harvests souls, and a cult plan to sacrifice young shifters to release the primordial beneath Cyoria. Official action captures the mayor-necromancer but provokes an early release attempt and another reset. Zach then joins Zorian openly. A spirit explains that the loop is a temporary reproduction of the world meant for one traveler. The Aranea matriarch's recovered message identifies the Sovereign Gate as the likely exit, but its Guardian says another controller has already left and bars them. Zorian and Zach remain together inside the failing loop, seeking a way to save them both.",
