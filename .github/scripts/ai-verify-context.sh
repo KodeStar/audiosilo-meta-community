@@ -64,13 +64,13 @@ jq -r -n --slurpfile b "$tmp/base.json" --slurpfile h "$tmp/head.json" '
   | ([$B, $H] | map(keys) | add | unique)[] as $k
   | if ($B | has($k) | not) then "=== ENTRY \($k) (ADDED)", $H[$k], ""
     elif ($H | has($k) | not) then "=== ENTRY \($k) (REMOVED)", $B[$k], ""
-    elif $B[$k] != $H[$k] then "=== ENTRY \($k) (CHANGED)",
-      "--- this pull request changes: " + ([($B[$k] + $H[$k]) | keys[] as $m
-        | select($B[$k][$m] != $H[$k][$m])
-        | "\($m) (\(if ($B[$k] | has($m) | not) then "added" elif ($H[$k] | has($m) | not) then "removed" else "changed" end))"]
-        | join(", ")),
+    elif $B[$k] != $H[$k] then
+      (($B[$k] + $H[$k]) | keys | map(select($B[$k][.] != $H[$k][.]))) as $changed
+      | "=== ENTRY \($k) (CHANGED)",
+      "--- this pull request changes: " + ($changed | map(. as $m | "\($m) (\(if ($B[$k] | has($m) | not) then "added"
+        elif ($H[$k] | has($m) | not) then "removed" else "changed" end))") | join(", ")),
       "--- new", $H[$k],
-      "--- previous (the members that changed)", ($B[$k] | with_entries(select(.value != $H[$k][.key]))), ""
+      "--- previous (the members that changed)", ($B[$k] | with_entries(select(.key | IN($changed[])))), ""
     else empty end' > "$OUT"
 
 echo "ai-verify-context: $(grep -c '^=== ENTRY ' "$OUT" || true) changed entries across $(wc -l < "$tmp/files" | tr -d ' ') packs"

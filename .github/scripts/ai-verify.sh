@@ -215,9 +215,14 @@ for chunk in "$CHUNK_DIR"/*; do
 
 $(cat "$chunk")"
   judge
-  [ "$VERDICT" = flag ] && OVERALL=flag
+  # A flag counts only with a finding to show for it: a concern the model put
+  # under 'existing' (data this pull request does not change) can never flag it,
+  # whatever the verdict field says.
+  if [ "$VERDICT" = flag ] && [ "$(printf '%s' "$VERDICT_JSON" | jq '[.findings[]?] | length')" -gt 0 ]; then
+    OVERALL=flag
+  fi
   FINDINGS="$(printf '%s' "$VERDICT_JSON" | jq -c --argjson all "$FINDINGS" '$all + (.findings // [])')"
-  EXISTING="$(printf '%s' "$VERDICT_JSON" | jq -c --argjson all "$EXISTING" '$all + [(.existing | if type == "array" then .[] else empty end) | strings]')"
+  EXISTING="$(printf '%s' "$VERDICT_JSON" | jq -c --argjson all "$EXISTING" '$all + [.existing[]? | strings]')"
 done
 VERDICT="$OVERALL"
 VERDICT_JSON="$(jq -cn --arg v "$VERDICT" --argjson f "$FINDINGS" --argjson e "$EXISTING" \
