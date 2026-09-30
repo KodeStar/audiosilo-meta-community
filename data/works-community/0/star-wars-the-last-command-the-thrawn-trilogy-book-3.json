@@ -2726,6 +2726,257 @@
         "work": "stories-of-your-life-and-others"
       }
     },
+    "storm-forged": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Val"
+            ],
+            "description": "A half-elf investigator, mother, and coffee-shop co-owner who is learning magic while seeking protection from dragon compulsion. At the end of the first chapter, a wounded older gnome reaches her yard and collapses.",
+            "id": "val-thorvald",
+            "name": "Val Thorvald",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Zav",
+              "Zavryd"
+            ],
+            "description": "A Stormforge dragon known formally as Zavryd'nokquetal and established before this book as Val's claimed mate.",
+            "id": "zavryd-nokquetal",
+            "name": "Zavryd'nokquetal",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's summoned magical tiger ally, called through a figurine when she needs his aid.",
+            "id": "sindari",
+            "name": "Sindari",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Val's magic instructor"
+            ],
+            "description": "Val's elven half-sister, roommate, and magic teacher. She studies Earth culture and engineering while teaching Val telepathy and mental defense.",
+            "id": "vals-elven-half-sister",
+            "name": "Val's elven half-sister",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Nin's grandfather"
+            ],
+            "description": "Nin's grandfather, a gnome craftsman who vanished twenty years ago after teaching her to make weapons. He arrives at Val's home badly injured and gravely ill, with orcs close behind him, and appears not to have aged normally during his absence.",
+            "id": "ty",
+            "name": "Ty",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A quarter-gnome craftsperson, coffee-shop co-owner, and established member of Val's household circle.",
+            "id": "nin",
+            "name": "Nin",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A vampire alchemist who lives in Val's basement and shares ownership of the coffee shop.",
+            "id": "zoltan",
+            "name": "Zoltan",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Dr. Walker"
+            ],
+            "description": "A lion-shifter, former Army doctor, and restorative surgeon called in by Willard to examine Ty. Experienced with magical patients, he can assess the gnome's failing health discreetly and arrange care outside an ordinary human hospital.",
+            "id": "dr-daku-walker",
+            "name": "Dr. Daku Walker",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's Army superior and an established ally familiar with the magical community.",
+            "id": "willard",
+            "name": "Willard",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A quarter-dwarven craftsperson, Val's housemate, and one of her coffee-shop partners.",
+            "id": "dimitri",
+            "name": "Dimitri",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's daughter and sword student. She trains to protect herself from supernatural dangers while maintaining ties with both Val and her father, Thad. Her safety remains one of Val's central concerns.",
+            "id": "amber",
+            "name": "Amber",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Amber's father and Val's former husband. He brings Amber to Val's house for sword practice.",
+            "id": "thad",
+            "name": "Thad",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Val's therapist, who knows about her asthma, poor sleep, nightmares, and discomfort with admitting vulnerability. She encourages Val to be honest with Zav about her health and to accept that trust requires revealing needs she would rather conceal.",
+            "id": "mary",
+            "name": "Mary",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Zav's uncle, a Stormforge dragon whose disappearance after an illness deprives Zav's mother of a supporter on the ruling council.",
+            "id": "zavs-uncle",
+            "name": "Zav's uncle",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Zav's mother, whose position on the dragon ruling council is weakened by her brother's disappearance.",
+            "id": "zavs-mother",
+            "name": "Zav's mother",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Would-be political mate"
+            ],
+            "description": "A powerful red dragon proposed as Zav's political mate. She follows him to Earth and restrains Val with magic.",
+            "id": "rival-female-dragon",
+            "name": "Rival female dragon",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A female dragon among the hostile leaders inside the Crying Caverns. She seeks greater political authority and supports a plot to kill the queen, seize the Dragon Justice Court, and take control of the dragon ruling council.",
+            "id": "female-conspirator-seeking-council-power",
+            "name": "Female conspirator seeking council power",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A second female dragon present with the hostile leadership inside the Crying Caverns. She participates in the conspirators' attempt to control Val and Zav as the competing leaders argue over authority and their plans for dragon government.",
+            "id": "other-female-conspirator",
+            "name": "Other female conspirator",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Ty's pursuer"
+            ],
+            "description": "A hostile Silverclaw dragon connected to Ty's captivity who arrives on Earth in pursuit of him.",
+            "id": "silver-dragon-leader",
+            "name": "Silver dragon leader",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Zav's sister, seen accompanying the dragons who carry him into the Crying Caverns. She appears to cooperate with his captors, placing her allegiance in doubt as Val's smaller team proceeds with the rescue despite being badly outnumbered.",
+            "id": "zavs-sister",
+            "name": "Zav's sister",
+            "reveal": {
+              "chapter": 23
+            }
+          },
+          {
+            "description": "A half-troll enchanter with advanced security-crafting skills. She offers to strengthen the coffee shop and train Dimitri while taking temporary responsibility for a vulnerable troll child until she can locate a suitable troll family for him.",
+            "id": "inga",
+            "name": "Inga",
+            "reveal": {
+              "chapter": 31
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Willard's organization who brings a selection of vetted magical weapons for Amber. His delivery lets her choose a sword suited to defending herself from supernatural opponents while Val prepares for a dangerous mission.",
+            "id": "corporal-clark",
+            "name": "Corporal Clark",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The hungry son of a slain troll whom Val finds scavenging near the coffee shop. She buys him food and offers him limited paid cleaning work after learning that the trolls around him make him compete for meals.",
+            "id": "orphaned-troll-boy",
+            "name": "Orphaned troll boy",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Val gives her the recovered journal and financial help from the dragon mission. She considers moving closer to Val and Amber.",
+            "id": "vals-mother",
+            "name": "Val's mother",
+            "reveal": {
+              "chapter": 31
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B08MSWMCQG",
+            "type": "community"
+          }
+        ],
+        "work": "storm-forged"
+      }
+    },
     "storm-front": {
       "characters": {
         "characters": [
