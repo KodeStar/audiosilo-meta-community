@@ -3168,6 +3168,227 @@
       }
     },
     "elven-doom": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Val"
+            ],
+            "description": "A half-elf Army magical investigator searching Rupert's closed bar for a missing dark-elf pleasure orb. She finds signs of multiple deaths, recovers a magically active fragment, and discovers that someone has stolen her private medical records.",
+            "id": "val-thorvald",
+            "name": "Val Thorvald",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "The troll proprietor of a shuttered bar where a dangerous magical orb has disappeared. He is also missing when Val searches the premises, which contain evidence that several people died there.",
+            "id": "rupert",
+            "name": "Rupert",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A young troll whom Val pursues after finding him with a magically active fragment from the missing pleasure orb.",
+            "id": "young-troll",
+            "name": "Young troll",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A black dragon who hunts criminals for the Dragon Justice Court. He stops his sister from interrogating Val and presents Val as his claimed mate, a public position meant to protect her from consequences connected to Dob's death.",
+            "id": "zav",
+            "name": "Zav",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "purple-haired woman",
+              "lilac dragon"
+            ],
+            "description": "Zav's hostile sister, a lilac dragon who also appears as a purple-haired woman. Convinced that Val may exploit or kill Zav, she steals private records and tries to search Val's thoughts for evidence.",
+            "id": "zavs-sister",
+            "name": "Zav's sister",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A magical craftsperson and friend of Val who helps evaluate a sinister fragment from a dark-elf orb. He plans to open a shop for enchanted goods in partnership with Zoltan.",
+            "id": "dimitri",
+            "name": "Dimitri",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A vampire alchemist who works with Dimitri and can examine dangerous magical materials. He is asked to analyze a fragment from the missing pleasure orb and has also translated dark-elf writings.",
+            "id": "zoltan",
+            "name": "Zoltan",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's friend, a magical craftsperson and successful food-truck owner. She recognizes that the recovered orb fragment carries unsafe magic and advises Dimitri about where his proposed shop might prosper.",
+            "id": "nin",
+            "name": "Nin",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's summoned tiger ally, linked to her through a figurine and able to communicate telepathically. He accompanies her into the Northern Pride headquarters and helps investigate the ritual killings found there.",
+            "id": "sindari",
+            "name": "Sindari",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's Army supervisor and the official directing the dark-elf inquiry. She recognizes the ritual nature of the Northern Pride deaths and treats the theft of an alchemy book from secure evidence as a warning of an imminent operation.",
+            "id": "willard",
+            "name": "Willard",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val and Thad's daughter, with whom Val has recently resumed contact. Her return to Val's life is one of the personal connections that Mary regards as a positive change.",
+            "id": "amber",
+            "name": "Amber",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's former husband and Amber's father. Val has recently renewed contact with him, adding an important family connection to the support network she discusses in therapy.",
+            "id": "thad",
+            "name": "Thad",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Mary"
+            ],
+            "description": "Val's therapist. She observes that Val is rebuilding ties with family and friends, while cautioning that a romance with Zav could be dangerous because dragon claims carry possessive expectations.",
+            "id": "mary-watanabe",
+            "name": "Mary Watanabe",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "supposed cousin"
+            ],
+            "description": "An armed elf who interrupts the painful search of Val's mind and claims to be a cousin sent by Val's father. Her arrival offers Val a possible first connection to an elven family she has never known.",
+            "id": "lorena",
+            "name": "Lorena",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Zav",
+              "Zavryd"
+            ],
+            "description": "Zav's formal name identifies the same dragon whom Val knows by his shorter name. He returns from court politics wounded by a challenger and says he intends to free Val from his mark after completing his criminal hunt on Earth.",
+            "id": "zavryd-nokquetal",
+            "name": "Zavryd'nokquetal",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Rupert's surviving troll child, who identifies Yemeli Lore and an unnamed male dark elf as his father's killers. Val gives him food and offers to help him find shelter through Nin.",
+            "id": "ruperts-child",
+            "name": "Rupert's child",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A female dark elf implicated by Rupert's surviving child in Rupert's murder and the lethal pleasure-orb scheme. Val identifies her as one of the suspects she intends to pursue at Mount Rainier.",
+            "id": "yemeli-lore",
+            "name": "Yemeli Lore",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The unnamed male dark elf identified alongside Yemeli Lore as one of Rupert's killers. He is also connected to the deadly pleasure-orb operation that Val is preparing to confront.",
+            "id": "unnamed-male-dark-elf",
+            "name": "Unnamed male dark elf",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A quiet, experienced Army sergeant assigned to Willard's Mount Rainier expedition. He joins the search for a missing scientific team and for evidence that dark elves are operating on the volcano.",
+            "id": "banderas",
+            "name": "Banderas",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Army courier with magical ancestry who joins the Rainier search. He can sense dark elves at close range, giving the team another means of locating the enemy in difficult mountain terrain.",
+            "id": "clark",
+            "name": "Clark",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Sabo"
+            ],
+            "description": "A quarter-elven Army officer on Willard's Mount Rainier team. Like Val and Clark, she has some ability to detect magical beings and helps search for the dark elves' hidden operation.",
+            "id": "lieutenant-sabo",
+            "name": "Lieutenant Sabo",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:uk:B08B45RZ3Y",
+            "type": "community"
+          }
+        ],
+        "work": "elven-doom"
+      },
       "recaps": {
         "ending": "Nearly two weeks after the Rainier caves collapse, seismic activity has settled and no dark elves are known to have escaped. Yemeli Lore and the male scientist are alive in Dragon Justice Court custody, but their papers indicate a larger campaign against other volcanic sites. Lorena remains free after being exposed as a false cousin and anti-dragon rebel who used the luck charm to control Val. Zav confirms that Lorena arranged the assassination of his only clutchmate brother. He accepts that Val did not attack him willingly, yet keeps emotional distance because she remains vulnerable to coercion. His claim and mark still bind them, and their attraction remains unresolved. Zav offers to help Val seek elven and dwarven training, then agrees to join her next assignment, a kelpie case. Willard pays Val for the Rainier work despite her disobedience. Val may also become a partner in Dimitri's shop, and she begins rebuilding her relationship with Amber through regular weapons lessons.",
         "in_short": "Val investigates a vanished dark-elf pleasure orb and a series of ritual murders, uncovering a plan to force Mount Rainier to erupt by channeling melted glacier water toward magma. She joins Willard's Army expedition, penetrates the dark elves' glacier complex with Sindari and Zav, and helps disable the pipe system. Zav captures Yemeli Lore and her male associate, while his sister seals part of the apparatus and takes the prisoners to the Dragon Justice Court. During the fight, Val discovers that Lorena, her supposed cousin, hid compulsion magic in a luck charm and used it to make her attack Zav. Rainier remains intact and its seismic activity subsides, but evidence points to broader volcanic attacks. Lorena escapes, and Val's susceptibility to control leaves her romance with Zav unsettled. They nevertheless agree to pursue a kelpie together, while Val plans magical training and begins teaching Amber to defend herself.",
