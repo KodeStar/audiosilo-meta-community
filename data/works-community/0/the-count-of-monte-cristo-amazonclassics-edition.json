@@ -3243,6 +3243,131 @@
         "work": "the-da-vinci-code-the-young-adult-adaptation"
       }
     },
+    "the-dark-between": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Newton Sawyer"
+            ],
+            "description": "An independent courier and owner-pilot of Slipwing, Dash is burdened by debt when he takes Leira, Viktor, and Conover aboard. He is known formally as Newton Sawyer, but uses Dash, and has reluctantly become the leader of an expedition tied to powerful alien technology.",
+            "id": "dash",
+            "name": "Dash",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A courier and Viktor's longtime partner, Leira enters Dash's life after being rescued alongside Viktor. She carries an alien lens whose purpose the pair initially withhold, and becomes Dash's trusted field partner as the new expedition takes shape.",
+            "id": "leira",
+            "name": "Leira",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An engineer and Leira's longtime partner, Viktor is rescued with her and supplies the fuel that enables Dash's escape. His technical experience makes him an important member of the small crew gathered aboard Slipwing.",
+            "id": "viktor",
+            "name": "Viktor",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Pinetti's young nephew joins Slipwing under an open-ended passage arrangement. Conover is a keen scientific investigator whose implanted eye lenses and unusual ability to analyze unfamiliar technology distinguish him within Dash's crew.",
+            "id": "conover",
+            "name": "Conover",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The unseen AI linked to the archetype, Sentinel identifies Dash as the long-awaited Messenger and assists him in operating the alien machine. Sentinel is a separate intelligence from the archetype itself and serves as Dash's guide to its systems and mission.",
+            "id": "sentinel",
+            "name": "Sentinel",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The proprietor of Penumbra's Eternal Grind and one of Dash's creditors. Pinetti trades Dash's debt for an arrangement requiring him to provide Conover with passage, food, and care aboard Slipwing for an unspecified length of time.",
+            "id": "pinetti",
+            "name": "Pinetti",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Leira's cousin and an experienced ship mechanic who received some of her training from Viktor. Amy inspects the badly damaged Slipwing at Passage and offers to begin its extensive repairs through an unofficial IOU arrangement.",
+            "id": "amy-anson",
+            "name": "Amy Anson",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Passage's operations commander, Jameson fines Amy for using drones without authorization and requires her either to repair the damaged unit or pay an additional penalty. He also remembers Dash from an earlier disagreement over docking fees.",
+            "id": "jameson",
+            "name": "Jameson",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The unseen AI responsible for the forge, Custodian confirms Dash as the Messenger and recognizes Sentinel as the archetype's supervising intelligence. It explains that the immense facility built the archetype and can repair it, although it cannot manufacture the needed power cores.",
+            "id": "custodian",
+            "name": "Custodian",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A robed man encountered inside the unseen complex beneath Shylock. After Dash clarifies which traveler is the Messenger, the man offers to guide Dash, Leira, and Conover to the object they have come to recover.",
+            "id": "order-leader",
+            "name": "Order leader",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Golden combat mech approaching the forge, the harbinger can partially enter the dark between and thereby obscure its position. Its arrival gives Dash little time to prepare the archetype and defend the vulnerable installation.",
+            "id": "harbinger",
+            "name": "Harbinger",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A member of the secret order from Shylock who joins the other survivors in helping Viktor, Amy, and Conover install the forge's level-two core. The monk's knowledge of unseen language and systems gives the crew another interpreter during the urgent defense effort.",
+            "id": "monk",
+            "name": "Monk",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:1774241900",
+            "type": "community"
+          }
+        ],
+        "work": "the-dark-between"
+      }
+    },
     "the-dark-tower-ii-the-drawing-of-the-three": {
       "characters": {
         "characters": [
