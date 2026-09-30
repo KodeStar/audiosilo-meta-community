@@ -2833,6 +2833,41 @@
           }
         ],
         "work": "the-hitchhikers-guide-to-the-galaxy-primary-phase"
+      },
+      "recaps": {
+        "ending": "Arthur and Ford escape the invasion flagship in a capsule, separating them from Zaphod, Trillian, and Marvin, whose immediate fate remains unknown. The capsule transfers into Golgafrincham Ark Fleet Ship B and carries them to prehistoric Earth. The ark's unwanted middlemen settle there, displace the native cavemen, and become the ancestors of humanity. Arthur and Ford therefore conclude that the intended Earth experiment has been irreversibly altered. A test with letter tiles produces a question involving six multiplied by nine, which does not fit Deep Thought's answer of 42. The replacement Earth project has already been abandoned, so it offers no route to restart the calculation. The story closes with Arthur and Ford stranded two million years before Arthur's birth. Zaphod, Trillian, and Marvin remain aboard the hostile flagship, the Ultimate Question is unresolved, and the police pursuit arising from the theft of the Heart of Gold has no stated conclusion.",
+        "in_short": "Earth is demolished for a hyperspace route, but Ford Prefect rescues Arthur Dent and begins a journey that brings them together with Zaphod Beeblebrox, Trillian, and Marvin. On Magrathea they learn that Earth was an experiment designed to discover the Ultimate Question corresponding to the answer 42. A temporal displacement takes the group to Milliways, after which a stolen craft carries them to an invasion fleet run by shape-changing beings. Arthur and Ford escape separately and land with Golgafrincham Ark Fleet Ship B on prehistoric Earth. They realize its discarded middlemen will replace the native cavemen as humanity, corrupting the experiment. The question produced from Arthur's mind does not match 42. Arthur and Ford remain stranded in the distant past, while Zaphod, Trillian, and Marvin are left on the hostile flagship with their fate unconfirmed.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "book",
+            "text": "Arthur Dent's attempt to protect his house ends when Ford Prefect reveals that he is an alien researcher and takes Arthur away moments before a Vogon fleet destroys Earth. The pair hide on a construction ship, where Arthur receives a Babel Fish, but Prostetnic Vogon Jeltz has them expelled into space. The stolen Heart of Gold rescues them through its Infinite Improbability Drive. Its occupants are Ford's semi-cousin Zaphod Beeblebrox, Trillian - whom Arthur knew on Earth as Trisha McMillan - and the robot Marvin.\n\nThe ship reaches Magrathea and survives an automated missile attack when Arthur activates the improbability drive. On the supposedly dead planet, the party separates and Arthur meets Slartibartfast, a resident planet designer. Magrathea's population has awakened after a five-million-year recession and resumed its work. Slartibartfast shows Arthur a new Earth under construction. The original was destroyed only minutes before completing a ten-million-year calculation. Humanity formed part of that vast organic experiment, which Trillian's white mice had commissioned in order to determine the Ultimate Question.",
+            "through": {
+              "chapter": 3
+            }
+          },
+          {
+            "scope": "book",
+            "text": "A historical recording explains that Deep Thought calculated 42 as the solution to a fundamental question about existence, then designed Earth to discover the corresponding question. Benjy Mouse and Frankie Mouse abandon the replacement-Earth plan and charge Arthur and Trillian with recovering the lost question. Police corner the group on Magrathea, but an exploding hyperspatial generator carries them millions of years forward to Milliways. There they reunite with Marvin and steal a craft that returns to an invasion fleet.\n\nThe fleet's rapidly changing inhabitants mistake Zaphod for their commander. Arthur identifies the apparent command chair as the true Admiral, and the flagship's living furnishings attack. Arthur and Ford escape in one capsule, leaving Zaphod, Trillian, and Marvin behind. The capsule transfers to Golgafrincham Ark Fleet Ship B, filled with middlemen expelled from their society under a false pretext. The ark crashes on prehistoric Earth. Its passengers fail to build a capable civilization but displace the native cavemen and become humanity's ancestors. Arthur and Ford conclude that their arrival has corrupted Earth's intended computation. Letter tiles yield a question involving six times nine, incompatible with 42. Arthur and Ford are stranded two million years before Arthur's birth, while the fate of their companions remains unconfirmed.",
+            "through": {
+              "chapter": 6
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The dramatised story ends in chapter 6 with Arthur and Ford stranded on prehistoric Earth, while Zaphod, Trillian, and Marvin remain aboard the hostile fleet flagship with no confirmed immediate outcome. Chapter 7 is a production retrospective rather than a continuation of that plot. It traces the programme from Douglas Adams's early concept through its backing as a BBC pilot and the institutional decisions that allowed stereo production. It also describes how the BBC Radiophonic Workshop created the distinctive sound design used for the Guide, the Vogon ship, and Earth's destruction.\n\nThe documentary identifies Simon Jones as Arthur Dent, Geoffrey McGivern as Ford Prefect, Mark Wing-Davey as Zaphod Beeblebrox, and Stephen Moore as Marvin. It recounts how the radio programme led to a bestselling book, then describes the severe deadline pressure surrounding the second radio series. The retrospective closes by noting the property's expansion into television, stage productions, and books, while presenting a film adaptation as an ambition that had not yet been realized.",
+            "through": {
+              "chapter": 7
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:uk:B004EVMD9M",
+            "type": "community"
+          }
+        ],
+        "work": "the-hitchhikers-guide-to-the-galaxy-primary-phase"
       }
     },
     "the-hobbit": {
