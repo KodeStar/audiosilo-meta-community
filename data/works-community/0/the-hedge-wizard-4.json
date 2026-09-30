@@ -2653,6 +2653,188 @@
         "work": "the-hitchhikers-guide-to-the-galaxy"
       }
     },
+    "the-hitchhikers-guide-to-the-galaxy-primary-phase": {
+      "characters": {
+        "characters": [
+          {
+            "description": "An ordinary Earth resident who tries to prevent the demolition of his house. Ford brings him away just before Earth is destroyed, leaving him as a displaced human hiding aboard a Vogon construction ship.",
+            "id": "arthur-dent",
+            "name": "Arthur Dent",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Arthur's friend and an alien field researcher who updates a galactic travel guide. Stranded on Earth for fifteen years, he gets Arthur off the planet and arranges their unauthorized passage aboard a Vogon ship.",
+            "id": "ford-prefect",
+            "name": "Ford Prefect",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Vogon commander acting for the Galactic Hyperspace Planning Council. He oversees Earth's destruction to clear a route through space, then orders a search for Arthur and Ford after learning that they have boarded his ship.",
+            "id": "prostetnic-vogon-jeltz",
+            "name": "Prostetnic Vogon Jeltz",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Phil"
+            ],
+            "description": "Ford's semi-cousin, recognizable by his two heads and extra arm. He travels with Trillian aboard the Heart of Gold, which he has stolen, and the authorities are pursuing him for the theft. Arthur previously met him on Earth under the name Phil.",
+            "id": "zaphod-beeblebrox",
+            "name": "Zaphod Beeblebrox",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Trisha McMillan"
+            ],
+            "description": "Zaphod's Earth-born travelling companion. Arthur recognizes her as Trisha McMillan, a woman he met at a party before she departed Earth with Zaphod. She travels aboard the Heart of Gold and keeps two white mice.",
+            "id": "trillian",
+            "name": "Trillian",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Sirius Cybernetics personality prototype robot aboard the Heart of Gold. He escorts Arthur and Ford to the bridge after their rescue and persistently expresses a bleak view of himself and his duties.",
+            "id": "marvin",
+            "name": "Marvin",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Zaphod's brain-care specialist, seen in a report concerning the theft of the Heart of Gold. His appearance supplies professional commentary on Zaphod while the stolen ship remains under pursuit.",
+            "id": "gag-halfrunt",
+            "name": "Gag Halfrunt",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Magrathean planet designer with a particular association with coastlines and Norway. He finds Arthur near the landing party and guides him through the revived planet-building works, where a replacement Earth is taking shape.",
+            "id": "slartibartfast",
+            "name": "Slartibartfast",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of the pan-dimensional beings who appear as white mice. He tells the travellers that his kind directed Earth's long experiment and helped arrange the group's journey, then seeks a faster way to obtain the missing Ultimate Question.",
+            "id": "benjy-mouse",
+            "name": "Benjy Mouse",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A fellow representative of the pan-dimensional beings who use white mice as their apparent form. Alongside Benjy Mouse, he confronts the travellers about the interrupted Earth experiment and the search for its missing result.",
+            "id": "frankie-mouse",
+            "name": "Frankie Mouse",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The supercomputer commissioned to solve a fundamental question about existence. After calculating for millions of years, it gives the answer as 42 and designs Earth to discover the question that makes sense of it.",
+            "id": "deep-thought",
+            "name": "Deep Thought",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A philosopher preserved in the recording of Deep Thought's commission. Majikthise objects to the computer's attempt to settle the great question, appearing as one of the professional thinkers opposed to the inquiry.",
+            "id": "majikthise",
+            "name": "Majikthise",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A philosopher who appears with Majikthise in the historical account of Deep Thought. Vroomfondel initially resists the supercomputer's undertaking on behalf of thinkers whose position would be affected by its result.",
+            "id": "vroomfondel",
+            "name": "Vroomfondel",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A waiter at Milliways who helps the travellers understand that they have reached the universe's final era. He also tells Zaphod where to find Marvin, who has been waiting for the group across an immense span of time.",
+            "id": "garkbit",
+            "name": "Garkbit",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The host at Milliways, the restaurant situated at the end of the universe. He presents the establishment's culminating spectacle as the travellers dine shortly before the final event begins.",
+            "id": "max-quordlepleen",
+            "name": "Max Quordlepleen",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The second-in-command of a vast invasion fleet and a member of a species whose physical form changes radically. This instability of appearance leads the commandant to accept Zaphod as the Admiral when the stolen craft returns to the flagship position.",
+            "id": "under-fleet-commandant",
+            "name": "Under Fleet Commandant",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The commander of the invasion fleet, initially present as what appears to be the flagship's command chair. The Admiral awakens in a dangerous living form as the other apparent furnishings also reveal themselves and attack the travellers.",
+            "id": "the-admiral",
+            "name": "The Admiral",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The captain of Golgafrincham Ark Fleet Ship B, which carries the society's unwanted middlemen. The captain explains that the supposed planetary disaster was invented to send them away, then joins the settlement after the ark crashes on prehistoric Earth.",
+            "id": "b-ark-captain",
+            "name": "B Ark Captain",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:uk:B004EVMD9M",
+            "type": "community"
+          }
+        ],
+        "work": "the-hitchhikers-guide-to-the-galaxy-primary-phase"
+      }
+    },
     "the-hobbit": {
       "characters": {
         "characters": [
