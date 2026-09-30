@@ -1569,6 +1569,180 @@
       }
     },
     "bedsocks-and-broomsticks": {
+      "characters": {
+        "characters": [
+          {
+            "description": "Chair of the Omensford WWWI branch and mother of an adult daughter in IT. When another branch can no longer run the Tri-Village Halloween fete, she accepts responsibility for bringing the event to Omensford.",
+            "id": "nell",
+            "name": "Nell",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An IT consultant whose emotion-driven electrical magic interferes with technology. After the resulting failures cost her job, she remains determined to live independently rather than return to her mother's home.",
+            "id": "fi",
+            "name": "Fi",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A teacher of supernatural pupils and an ambitious gardener. She is preparing an unusually large pumpkin for the Halloween fete and expects it to take the main vegetable prize.",
+            "id": "agatha",
+            "name": "Agatha",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elderly cafe owner, former undersea archaeologist, beekeeper, and witch able to levitate objects. While helping with preparations at the village hall, she reports that her bees have recently become difficult to manage.",
+            "id": "effie",
+            "name": "Effie",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Agatha's husband and a member of the household she shares with their young daughter.",
+            "id": "neville",
+            "name": "Neville",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A werewolf and accomplished baker who supplies food for the Halloween fete.",
+            "id": "steve",
+            "name": "Steve",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A well-known sorceress invited to the Halloween fete as a guest and competition judge.",
+            "id": "visiting-sorceress",
+            "name": "Visiting sorceress",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The leader of the Magewell WWWI branch and Nell's formidable rival. She intends to enter the Omensford competitions and arrives with a distinctive golden, dragon-like familiar.",
+            "id": "magewell-wwwi-chair",
+            "name": "Magewell WWWI chair",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A golden, dragon-like creature bonded to the Magewell WWWI chair. It accompanies her as she prepares to compete at Omensford's Halloween fete.",
+            "id": "magewell-chairs-familiar",
+            "name": "Magewell chair's familiar",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The person responsible for publicising the Halloween fete. Nell considers her proposed design too bold for the event.",
+            "id": "liv",
+            "name": "Liv",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fi's werewolf neighbour and Steve's partner.",
+            "id": "glenn",
+            "name": "Glenn",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A quiet companion who helps the Magewell chair at the fete, including at the refreshments tent.",
+            "id": "magewell-chairs-close-companion",
+            "name": "Magewell chair's close companion",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A doctor accompanied by a large mastiff. He treats Fi at the scene of the broom crash and asks her to call him Mort.",
+            "id": "mort",
+            "name": "Mort",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Magewell chair's close companion, who tells police that the dead witch had not announced the dangerous dive before the broom crash.",
+            "id": "margaret",
+            "name": "Margaret",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The senior police officer handling the Magewell chair's death investigation. The inspector questions Fi about the fete and confirms that police consider the death a homicide.",
+            "id": "detective-inspector",
+            "name": "Detective inspector",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An older witch living close to the deceased Magewell chair. A longstanding friend and WWWI organiser, she treats Agatha after a potion accident and explains that the victim commanded respect without much affection.",
+            "id": "victims-neighbour",
+            "name": "Victim's neighbour",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An outspoken older witch from Magewell who openly disliked its chair and becomes an early focus of Fi's suspicions.",
+            "id": "outspoken-magewell-witch",
+            "name": "Outspoken Magewell witch",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A seer who foresaw the final confrontation and brought the magical liaison after police dismissed the warning. The seer later tells Fi that an approaching evil is hers to face.",
+            "id": "seer",
+            "name": "Seer",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0DVDYFYKV",
+            "type": "community"
+          }
+        ],
+        "work": "bedsocks-and-broomsticks"
+      },
       "recaps": {
         "ending": "The victim's neighbour admits that years of exploitation led her to lace the victim's honey with oleander and switch a prepared scone into place at the fete. She attacks Fi and Agatha with a controlled bee swarm, but Agatha raises a tree and Fi channels lightning through it. The familiar shields Fi with fire. Only ash remains of the attacker, so her death is presumed rather than confirmed. Recovered poisoned honey clears Fi, and magical treatment saves her from the stings, although the discharge turns her hair white and leaves her distressed by the apparent killing. Fi repairs her relationships with Agatha and Liv, accepts a place in Nell's home while unemployed, and chooses to keep the familiar. She then starts a beginner handling course with it at a Welsh dragon ranch. Their psychic connection remains unexplained and their partnership still needs work. A seer also warns Fi that an approaching evil is hers to confront.",
         "in_short": "After losing her IT job because her unstable electrical magic destroys technology, Fi helps at Omensford's Halloween fete. Nell's Magewell rival wins key contests, then crashes her broom and dies. The victim's golden familiar forms a psychic link with Fi and insists the death was murder. Police find specialist sugar associated with Fi's scones, making her a possible suspect, so she investigates with the familiar and Agatha. Medical evidence points to oleander, and the victim's preference for honey exposes her beekeeper neighbour. The neighbour confesses to poisoning a honey-and-cream scone after years of exploitation, then attacks with a bee swarm. Agatha's plant magic and Fi's lightning defeat her, while the familiar protects Fi with fire. Police recover the poisoned honey and clear Fi; the attacker is presumed dead. Fi survives with white hair, reconciles with family and friends, moves in with Nell, keeps the familiar, and begins learning to care for it in Wales. Their bond remains unexplained, and a seer warns Fi of another threat ahead.",
