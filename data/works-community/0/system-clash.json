@@ -2070,14 +2070,6 @@
             "role": "supporting"
           },
           {
-            "description": "A dragon whom a Dragon Justice Court inquisitor accuses of lying about killing his son in self-defense.",
-            "id": "zav",
-            "name": "Zav",
-            "reveal": {
-              "chapter": 4
-            }
-          },
-          {
             "aliases": [
               "Zav",
               "Zavryd"
