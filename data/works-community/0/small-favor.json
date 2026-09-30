@@ -4393,6 +4393,77 @@
         ],
         "work": "snuff"
       }
+    },
+    "so-long-and-thanks-for-all-the-fish": {
+      "characters": {
+        "characters": [
+          {
+            "description": "An Earthman returning from exile across the galaxy. He reaches an Earth that appears intact despite his knowledge of its destruction.",
+            "id": "arthur-dent",
+            "name": "Arthur Dent",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A Guide writer who discovers that Earth is once again listed as an existing destination rather than a destroyed world. The unexpected revision prompts him to obtain passage on a spacecraft bound for Earth.",
+            "id": "ford-prefect",
+            "name": "Ford Prefect",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Fenny"
+            ],
+            "description": "A woman who remains convinced that the vision of yellow spacecraft and Earth's destruction was real. Her unusual brain activity and a revelation she can no longer recall trouble her.",
+            "id": "fenchurch",
+            "name": "Fenchurch",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Vogon official responsible for the recorded demolition of Earth. When the planet proves to exist, he is summoned to account for the discrepancy and becomes the focus of a bureaucratic problem surrounding the failed order.",
+            "id": "prostetnic-vogon-jeltz",
+            "name": "Prostetnic Vogon Jeltz",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Fenchurch's brother, a lorry driver who gives Arthur a lift on his return to Earth. Persistent rain clouds follow him wherever he travels because he unknowingly affects the weather as a rain god, though he does not recognize the cause.",
+            "id": "fenchurchs-brother",
+            "name": "Fenchurch's brother",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A scientist devoted to studying dolphins. Arthur and Fenchurch visit him in California, where he inhabits an inside-out house that he calls an asylum and examines the engraved glass bowls they possess.",
+            "id": "wonko-the-sane",
+            "name": "Wonko the Sane",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B002V1AGC8",
+            "type": "community"
+          }
+        ],
+        "work": "so-long-and-thanks-for-all-the-fish"
+      }
     }
   }
 }
