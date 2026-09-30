@@ -3634,6 +3634,128 @@
         "work": "dungeon-crawler-carl"
       }
     },
+    "dungeon-madness-dramatized-adaptation": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Dungeon Core"
+            ],
+            "description": "The hidden intelligence of the dungeon beneath the Silverwood Tree. Cal reaches Dale by thought while the adventurer is still inside, then loses contact when Dale departs. Alongside Dani, he begins restoring the emptied complex before its sealed entrance opens again.",
+            "id": "cal",
+            "name": "Cal",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "An adventurer, landowner, and party leader who emerges alive after the distortion cat seemingly killed him. Dale is gaunt, his formerly brown eyes are blue, and he has no memory of the period between death and revival. Powerful local figures immediately examine him and seek answers.",
+            "id": "dale",
+            "name": "Dale",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Cal's wisp"
+            ],
+            "description": "The dungeon wisp who works closely with Cal. Dani joins him in planning a broad reconstruction of the depleted dungeon and assumes responsibility for arranging its garden, making her an active partner in preparing the complex for the end of its isolation.",
+            "id": "dani",
+            "name": "Dani",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Dale's badly wounded adviser. During the distortion-cat battle, Hans uses poison after suffering broken bones and internal damage, giving the rest of the party a chance to live. His injuries require surgery by a flesh mage and are expected to keep him inactive for at least a week.",
+            "id": "hans",
+            "name": "Hans",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young half-elf traveling with Dale's party. When Chandra criticizes Hans's actions against the distortion cat, Rose explains that the wounded adviser poisoned the creature to save the other survivors, placing his decision in the context of the group's desperate fight.",
+            "id": "rose",
+            "name": "Rose",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The cleric in Dale's adventuring party. Adam commits part of his own cultivation to a potent battle prayer during the crisis with the distortion cat. The sacrifice cannot be recovered and leaves him at D-rank IV after the party escapes.",
+            "id": "adam",
+            "name": "Adam",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Madame Chandra"
+            ],
+            "description": "A senior local figure who confronts the survivors as they return from the dungeon. Chandra initially holds Hans responsible for putting the party at risk, prompting Rose to explain that his use of poison against the distortion cat enabled the others to survive.",
+            "id": "chandra",
+            "name": "Chandra",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Father Richard"
+            ],
+            "description": "A cleric among the influential figures who meet Dale when he comes back from the dungeon. Richard helps assess the altered and emaciated adventurer while the group questions how Dale returned to life after the distortion cat encounter.",
+            "id": "richard",
+            "name": "Richard",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Guildmaster Frank"
+            ],
+            "description": "The guildmaster who joins the authorities waiting for Dale after his exit from the dungeon. Frank participates in examining the party leader's strange condition and in questioning a revival that Dale himself cannot explain or remember.",
+            "id": "frank",
+            "name": "Frank",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "High Magus Amber"
+            ],
+            "description": "A high magus present when Dale emerges from the dungeon alive but physically changed. Amber stands with the senior figures who inspect him and press for an account of his return, although Dale cannot recall what occurred after his apparent death.",
+            "id": "amber",
+            "name": "Amber",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0764H7Y83",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-madness-dramatized-adaptation"
+      }
+    },
     "dust": {
       "characters": {
         "characters": [
