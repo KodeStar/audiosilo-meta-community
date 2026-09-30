@@ -2791,6 +2791,284 @@
         "work": "as-you-like-it"
       }
     },
+    "ascend-online": {
+      "characters": {
+        "characters": [
+          {
+            "description": "An independent game designer who prepares to enter Ascend Online with five longtime friends. The group looks to him for planning as they study the limited world information available before launch.",
+            "id": "marcus",
+            "name": "Marcus",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "One of Marcus's five longtime friends and gaming companions. He brings news of Ascend Online's release to Marcus and joins the group preparing to enter at launch.",
+            "id": "peter",
+            "name": "Peter",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Marcus's established six-person gaming group. He joins the others at Marcus's home to prepare for Ascend Online before its public launch.",
+            "id": "deckard",
+            "name": "Deckard",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Marcus's longtime friends and regular gaming partners. She takes part in the group's overnight planning session before they begin Ascend Online together.",
+            "id": "misha",
+            "name": "Misha",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A longtime friend of Marcus and member of his six-person gaming group. He joins the others in studying the world primer and coordinating their intended start.",
+            "id": "zach",
+            "name": "Zach",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Marcus's longtime friends and gaming companions. He is part of the group preparing to enter Ascend Online as soon as it opens.",
+            "id": "heron",
+            "name": "Heron",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Marcus's human avatar in Ascend Online. He begins as a level-one novice built to combine swordplay and magic, with the Open-minded trait, Power Attack, a rusty sword, and an empty spellbook.",
+            "id": "lyrian-rastler",
+            "name": "Lyrian Rastler",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "The Goddess of Creation who guides Lyrian through character creation. She explains his options but says the rules prevent her from advising him or interfering with his decisions.",
+            "id": "creativity",
+            "name": "Creativity",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Aldford's sponsor and leader during the goblin raid. He equips Lyrian with clothing and militia armor so the newly arrived adventurer can join the village's defense.",
+            "id": "bann-aldwin",
+            "name": "Bann Aldwin",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A village smith and defender rescued during the raid on Aldford. After being freed from the workshop, this resident helps Lyrian release villagers from a goblin wagon.",
+            "id": "aldfords-smith-militia-captain",
+            "name": "Aldford's smith-militia captain",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A village trader trapped with the smith during the goblin attack. After Lyrian rescues them from their workshop, the merchant helps him free villagers being loaded into a goblin wagon.",
+            "id": "aldfords-merchant",
+            "name": "Aldford's merchant",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Heron"
+            ],
+            "description": "Heron's Ascend Online avatar. Halcyon is traveling with the rest of Lyrian's original gaming group after their planned starting point leaves Lyrian isolated in Aldford.",
+            "id": "halcyon",
+            "name": "Halcyon",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A powerful puma that pursues the badly injured Lyrian to the edge of a crater, forcing him to escape by jumping into the lake below.",
+            "id": "lyrians-puma-nemesis",
+            "name": "Pursuing puma",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The village cook who turns Lyrian's gathered meat into food for Aldford. She teaches him two recipes and gives him an Herbalism primer and provisions for later travel.",
+            "id": "aldfords-half-orc-cook",
+            "name": "Aldford's half-orc cook",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A huntress whom Lyrian finds unconscious inside a spider cocoon in the Webwood. He carries her back to Aldford, where the village healer begins treating her.",
+            "id": "natasha",
+            "name": "Natasha",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A healer devoted to the Dawnfather who treats the huntress Lyrian rescues from the Webwood. She regards Lyrian's arrival during the raid as timely aid for Aldford.",
+            "id": "aldfords-priestess",
+            "name": "Aldford's priestess",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A human mage released from temporal suspension inside a ruined complex. He belongs to the lost research expedition and joins Lyrian's party to survive the ruin's automated purge.",
+            "id": "donovan-cain",
+            "name": "Donovan Cain",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A cosmic power who confronts Creativity over the puma Lyrian freed. Their exchange establishes Destruction as the force that controlled the animal and granted it magical sight.",
+            "id": "destruction",
+            "name": "Destruction",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The freed puma after ether exposure transforms him into a much larger, blue-furred creature. Lyrian names him Amaranth when their new magical bond makes the intelligent animal his telepathic familiar.",
+            "id": "amaranth",
+            "name": "Amaranth",
+            "reveal": {
+              "chapter": 33
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The missing scoutmaster of the research expedition. Aldford learns that he was among those unaccounted for after the goblin attack on the expedition camp.",
+            "id": "bax-rafferty",
+            "name": "Bax Rafferty",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The leader of a large force that demands control of Aldford. He seeks to become an independent player king and has coerced many adventurers into obedience to satisfy the conditions of his quest.",
+            "id": "graves",
+            "name": "Graves",
+            "reveal": {
+              "chapter": 37
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A human woman who speaks for the former captives after their revolt against Graves. She explains their treatment, vouches for two fellow organizers, and asks Aldford to admit the displaced group.",
+            "id": "liberated-adventurer-leader",
+            "name": "Liberated adventurer leader",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dwarf former captive who helped the refugee leader conceal food and organize resistance against Graves. The leader identifies this adventurer as one of her trusted allies.",
+            "id": "liberated-dwarf-organizer",
+            "name": "Liberated dwarf organizer",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Araxi former captive who helped organize the resistance to Graves. He explains that his people begin with little equipment and depend initially on their natural claws and scales.",
+            "id": "liberated-araxi-organizer",
+            "name": "Liberated Araxi organizer",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A violent member of Graves's diminished force who demands harsher punishment after the failed attack on Aldford. The enforcer is willing to threaten retaliation beyond the game.",
+            "id": "graves-half-orc-enforcer",
+            "name": "Graves's half-orc enforcer",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A dead ruler whose spirit is linked to equipment recovered by Graves. Facing goblin captors, Graves invokes the king's name and eventually gives the spirit unrestricted access to his mind.",
+            "id": "slave-king-abdiel",
+            "name": "Slave King Abdiel",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A feline adventurer who joins Aldford and promptly sketches new homes and a workshop with two levels. Lyrian favors assigning him to plan the settlement, subject to Aldwin's approval.",
+            "id": "aldfords-feline-settlement-planner",
+            "name": "Aldford's feline settlement planner",
+            "reveal": {
+              "chapter": 41
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A lore specialist still linked to Graves's party. He offers Aldford a route to Graves in exchange for amnesty and protection, though Lyrian treats his cooperation with caution.",
+            "id": "captured-elven-scout",
+            "name": "Captured elven scout",
+            "reveal": {
+              "chapter": 42
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A white-eyed woman who privately approaches the imprisoned Graves. She can read at least some of his thoughts and offers him a chance at revenge if he agrees to act as her agent.",
+            "id": "pale-skinned-woman",
+            "name": "Pale-skinned woman",
+            "reveal": {
+              "chapter": 47
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B073PG4DX8",
+            "type": "community"
+          }
+        ],
+        "work": "ascend-online"
+      }
+    },
     "ashes-in-the-snow-movie-tie-in": {
       "characters": {
         "characters": [
