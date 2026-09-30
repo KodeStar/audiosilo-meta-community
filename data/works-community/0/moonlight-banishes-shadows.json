@@ -2092,7 +2092,7 @@
             "role": "supporting"
           },
           {
-            "description": "A high-ranking politician and powerful mage who serves as Zach's guardian. Across repeated months, Zach defeats him in destructive duels before leaving Cyoria, though Zorian does not yet know the cause of their conflict.",
+            "description": "A high-ranking politician and powerful mage who serves as Zach's guardian.",
             "id": "zachs-guardian",
             "name": "Zach's guardian",
             "reveal": {
