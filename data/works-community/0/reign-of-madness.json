@@ -358,6 +358,227 @@
       }
     },
     "relic-hunter": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A 24-year-old goat shifter tending bar at the Sundowner after leaving theft and her former pack behind. Riley keeps her distance from local alpha Max Volkov, but word of a valuable magical dagger tests her resolve to remain hidden and law-abiding.",
+            "id": "riley-cruz",
+            "name": "Riley Cruz",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Kansas City's local alpha, whose pack includes werewolves. Riley keeps her distance from him.",
+            "id": "max-volkov",
+            "name": "Max Volkov",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Riley's friend and a recently turned vampire with strong cybersecurity skills. Dez is a regular at the Sundowner.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Riley's hostile manager at the Sundowner.",
+            "id": "hopper",
+            "name": "Hopper",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Riley's former alpha in Santa Fe, whom she deceived before fleeing eight years earlier. The possibility that Carl may still reach her helps make the dagger seem like a source of escape money.",
+            "id": "carl",
+            "name": "Carl",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A vampire power broker in the Southwest and the target of Riley's last major theft before she escaped Santa Fe. Riley took a fragment of the Alatyr Stone from him on Carl's orders.",
+            "id": "damien-creed",
+            "name": "Damien Creed",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Riley's friend, a costume designer and makeup artist who is also a powerful but relatively inexperienced necromancer. Callie is investigating how to banish a demon active in Kansas City.",
+            "id": "callie",
+            "name": "Callie",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The necromancer representative on the local supernatural tribunal and Callie's trainer. Mira brings greater experience to the effort to understand and remove the demon troubling Kansas City.",
+            "id": "mira",
+            "name": "Mira",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Santa Fe private investigator whose telephone number Riley finds hidden in Volkov's desk. His presence raises the possibility of a connection between Volkov and the dangers Riley left behind.",
+            "id": "raul-garcia",
+            "name": "Raul Garcia",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A powerful witch who helped shelter Riley after she arrived in Kansas City as a teenage runaway. Helen is among the experienced practitioners Callie approaches for help with the demon threat.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A tribunal enforcer assigned to provide backup for Callie's work on the demon problem. Craig joins the network of allies responding to the supernatural danger in Kansas City and supports Callie's investigation.",
+            "id": "craig-ward",
+            "name": "Craig Ward",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Santa Fe hustler contacted through Riley's old criminal connections. Levin dislikes Carl and offers to locate a buyer for the stolen dagger in return for a percentage of the sale.",
+            "id": "levin",
+            "name": "Levin",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The demon summoned by Callie and bound to the human world through her. Riley recognizes Zepar as the hooded stranger who directed her attention to the dagger auction, revealing his interest in the weapon.",
+            "id": "zepar",
+            "name": "Zepar",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Riley’s occasional karaoke companion, a werewolf who works as a police dispatcher routing calls involving supernatural activity. Benny is assigned to watch Riley while she stays at Volkov’s house.",
+            "id": "benny",
+            "name": "Benny",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Max Volkov's brother and the person whose invitation is required for entry to the Compound in Romania. The group must secure Aleksei's cooperation before it can pursue the imprisoned source connected to its investigation.",
+            "id": "aleksei",
+            "name": "Aleksei",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Riley's deceased father, according to the account of the fire that killed her parents. The official report names Santiago but records no survivor, deepening the mystery of why Riley has no government records.",
+            "id": "santiago-cruz",
+            "name": "Santiago Cruz",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Riley's deceased mother, as identified in the official account of the fire that killed her parents. The same record says that no one survived, while searches uncover no official trace of Riley's own existence.",
+            "id": "amelia-cruz",
+            "name": "Amelia Cruz",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Wade Mitchell"
+            ],
+            "description": "The human former Green Beret who owned the dagger and has been monitoring Riley in an effort to recover it. His service-related tinnitus appears to interfere with vampire compulsion, making him difficult for Dez to stop.",
+            "id": "nash-mitchell",
+            "name": "Nash Mitchell",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "One of Carl's werewolf subordinates from Riley's Santa Fe past. Mateo uses surveillance of Helen's home to force Riley's cooperation and demands the artifact she once stole from Carl.",
+            "id": "mateo",
+            "name": "Mateo",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A witch in the Kansas City circle Riley regards as family. Bea learns that Carl and Mateo are threatening the group and joins the others in preparing defenses rather than abandoning Riley.",
+            "id": "bea",
+            "name": "Bea",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Riley's chosen family among the Kansas City witches. When told of the threat from Carl and Mateo, Alice stands with the group and helps plan protective measures instead of distancing herself from Riley.",
+            "id": "alice",
+            "name": "Alice",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of the Kansas City witches who form Riley's family and support network. Janice responds to the danger from Carl's pack by joining the group's preparations to defend themselves.",
+            "id": "janice",
+            "name": "Janice",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The highest bidder from the earlier dagger auction, offering one million dollars. After Levin's arranged sale collapses, Riley contacts Fred Parker and sets up a direct exchange in Oklahoma City.",
+            "id": "fred-parker",
+            "name": "Fred Parker",
+            "reveal": {
+              "chapter": 28
+            }
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0D6H783HC",
+            "type": "community"
+          }
+        ],
+        "work": "relic-hunter"
+      },
       "recaps": {
         "ending": "Riley, Dez, and Volkov escape Damien Creed's Flagstaff auction with the war scythe after Riley steals it and the group frees Volkov from Creed's guards. Callie and Craig recover the dagger, and the scythe is used to defeat the demon posing as Fred Parker. The Enclave sends Cage Sato to take charge of the weapons, but Riley negotiates a new career recovering other demon-made artifacts for a fixed fee, expenses, independence, and a team of her choice. Sato becomes her handler, and she retains the dagger as a loaned tool. Dez, Callie, Craig, Helen, and the witches remain allies, while Nash is a possible recruit for protective work. Volkov stays outside Riley's team because his need to control danger still conflicts with her autonomy. Carl and Creed remain alive and hostile, with Creed's financing of Carl now exposed. Dez also discovers that the records of Santiago and Amelia Cruz were fabricated, leaving Riley's true family history unresolved.",
         "in_short": "Former thief and goat shifter Riley Cruz steals a demon-killing dagger with help from her vampire friend Dez, hoping its sale will fund her freedom from Carl, the abusive alpha who raised and trained her. The theft draws pursuit from demon hunter Nash Mitchell, while Carl threatens Riley's witch family and uses a false sale to ambush her. Riley kills Carl's subordinate Mateo, but the apparent buyer Fred Parker proves to be a demon and takes the blade. Riley, Dez, and Max Volkov then steal Damien Creed's war scythe, the only other known demon-killing weapon. The demon is defeated, the dagger is recovered, and Riley accepts independent, well-paid Enclave work retrieving more infernal artifacts. Carl and Creed remain threats, Riley and Volkov remain allies despite their conflict over control, and evidence that Riley's parents used false identities opens a deeper mystery about her past.",
