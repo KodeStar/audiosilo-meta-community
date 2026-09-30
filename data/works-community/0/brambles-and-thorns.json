@@ -3174,6 +3174,270 @@
       }
     },
     "brimstone-burglar": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Kid"
+            ],
+            "description": "A goat shifter who leads independent artifact-recovery work for the Enclave. She approaches Nash with a paid place on her crew and access to information about his military past.",
+            "id": "riley-cruz",
+            "name": "Riley Cruz",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Volkov"
+            ],
+            "description": "The owner of the house where Cage Sato convenes the briefing for Riley's new assignment.",
+            "id": "max-volkov",
+            "name": "Max Volkov",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Wade Mitchell"
+            ],
+            "description": "A former Green Beret and demon hunter whom Riley hopes to recruit as field support. Tinnitus protected him from a vampire's attempt to erase his knowledge of the supernatural, but he remains wary of Riley's offer.",
+            "id": "nash-mitchell",
+            "name": "Nash Mitchell",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Riley's vampire technical partner. She insists that he join the recovery team under the same secrecy oath as Nash, despite the existing friction between the two men.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Sato"
+            ],
+            "description": "The Enclave's imposing handler for Riley's new assignment. He demands binding secrecy oaths from prospective team members before he will disclose the job.",
+            "id": "cage-sato",
+            "name": "Cage Sato",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Craig"
+            ],
+            "description": "A Kansas City tribunal enforcer present at Sato's briefing for Riley's crew. His official position places him within the local supernatural authority overseeing the assignment.",
+            "id": "craig-ward",
+            "name": "Craig Ward",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Cardelli"
+            ],
+            "description": "The missing Enclave retrieval specialist, identified when Dez traces Sato's calls. Cardelli vanished after recovering a dangerous object and making calls from a Kansas City payphone.",
+            "id": "luca-cardelli",
+            "name": "Luca Cardelli",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Bellarose"
+            ],
+            "description": "A woman whose financial trail connects her to Carl and the earlier Alatyr Stone job. Riley sees the payment as leverage against Carl, though Bellarose's wider purpose is not yet known.",
+            "id": "zara-bellarose",
+            "name": "Zara Bellarose",
+            "reveal": {
+              "chapter": 5
+            }
+          },
+          {
+            "description": "Riley's former Santa Fe alpha and an ongoing threat. A suspicious payment tied to the Alatyr Stone gives Riley possible evidence to use against him and renews her concern about his plans.",
+            "id": "carl",
+            "name": "Carl",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Riley's powerful witch ally and a possible magical consultant for her crew. She examines images from the blood-magic sites and identifies materials that point toward the illegal magical market.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Stitch Witch co-owner and member of Helen's witch family. She belongs to the magical circle Riley consults during the investigation.",
+            "id": "bea",
+            "name": "Bea",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Bea"
+            ],
+            "description": "A magical-jewelry seller who knows Helen. She cannot trace the rare crystal, but directs Riley and Helen toward a new shop associated with dangerous magic.",
+            "id": "beatrix",
+            "name": "Beatrix",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Stitch Witch co-owner and witch ally who belongs to the close-knit group Riley regards as family. She is part of the trusted magical circle Riley can consult during the investigation.",
+            "id": "alice",
+            "name": "Alice",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The evasive proprietor of a concealed shop carrying hazardous magical goods. He says a spell blocks his memory of a rare crystal buyer and offers a dark blood ritual to recover it.",
+            "id": "isaac",
+            "name": "Isaac",
+            "reveal": {
+              "chapter": 10
+            }
+          },
+          {
+            "description": "A fox shifter who assists Volkov's investigations. Her report of an unfamiliar shifter scent at the magical market raises concern about a second threat near Riley and Helen.",
+            "id": "tegan",
+            "name": "Tegan",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A rooster taken from Isaac's dangerous-magic shop. Riley names him and leaves him with Nash, presenting the unwanted bird as a companion who might help Nash adjust to life after military service.",
+            "id": "garth",
+            "name": "Garth",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Gwen"
+            ],
+            "description": "A witch skilled with plants and potions who matches the masked buyer seen in Isaac's recovered memory. She recognizes Isaac's name, flees Riley and Volkov, and escapes after a hidden shooter intervenes.",
+            "id": "gwendolyn-reynolds",
+            "name": "Gwendolyn Reynolds",
+            "reveal": {
+              "chapter": 13
+            }
+          },
+          {
+            "description": "Riley’s necromancer ally and Craig’s partner. She enters the present investigation after Craig reports that she has been attacked and found unconscious.",
+            "id": "callie",
+            "name": "Callie",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Carl's beta and principal enforcer. Riley remembers him as a dangerous member of the pack and expects him to be a serious obstacle during the return to Santa Fe.",
+            "id": "tony",
+            "name": "Tony",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Santa Fe friend of Riley's late mother, Amelia Cruz. She has preserved Amelia's unfinished work and personal belongings, gives Riley a ring Amelia made for her, and recalls gaps in Amelia's earlier history.",
+            "id": "maria-baca",
+            "name": "Maria Baca",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The man Riley knew as her late father. Maria Baca's account indicates that he and Amelia Cruz concealed details of their lives before Santa Fe, adding uncertainty to the family history Riley has returned to examine.",
+            "id": "santiago-cruz",
+            "name": "Santiago Cruz",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The late woman Riley knew as her mother. Her former friend Maria has kept her unfinished work and personal effects, while also revealing that Amelia and Santiago concealed their earlier history.",
+            "id": "amelia-cruz",
+            "name": "Amelia Cruz",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A subordinate in Carl's pack whom Riley notices buying treats that could be used to drug guard dogs. He has secretly lost the ability to shift and has hidden that fact from Carl.",
+            "id": "silas",
+            "name": "Silas",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A witch who joins Helen, Alice, and Beatrix in using the Alatyr Stone with a healing spell on Nash.",
+            "id": "janice",
+            "name": "Janice",
+            "reveal": {
+              "chapter": 33
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Amelia Cruz"
+            ],
+            "description": "The true name of the woman Riley believed was her mother. DNA testing shows that Amelia Hunt was neither a shifter nor a witch and was not Riley's biological parent, deepening the uncertainty around Riley's origins.",
+            "id": "amelia-hunt",
+            "name": "Amelia Hunt",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0DD5VYQZ9",
+            "type": "community"
+          }
+        ],
+        "work": "brimstone-burglar"
+      },
       "recaps": {
         "ending": "Riley's team captures Zara Bellarose in Toronto and delivers her and both will-controlling cuffs to Cage Sato. Isaac is also held by the Enclave, but Luca Cardelli remains missing, and Bellarose says the Alatyr Stone was not her true objective. Carl's campaign to force Riley back to the Stone ends when Riley kills him after his confession to murdering the people she believed were her parents. The Stone saves Nash from the magical poison Carl arranged. Riley leases a warehouse as a permanent headquarters, Dez accepts Nash as part of the crew, and Riley and Max Volkov make their relationship public. Bellarose's magic has left Riley able to perceive magic and wards without making her vulnerable to them. DNA results identify her apparent mother as Amelia Hunt and establish that Amelia was not biologically related to Riley, leaving Riley's origins and new abilities unresolved.",
         "in_short": "Riley Cruz accepts an Enclave job to recover a demon-made object that can control a person's will, bringing Max Volkov, Dez, Nash Mitchell, and her witch allies into the search. The trail leads from missing specialist Luca Cardelli to witch Isaac and then to Zara Bellarose, who uses a matching pair of serpent cuffs to compel him to steal a blood-tracing spell. A second campaign of attacks proves to be Carl's attempt to force Riley to recover the hidden Alatyr Stone. Riley and Volkov retrieve it, kill Carl and his attackers, and use the Stone to save the poisoned Nash. In Toronto, the team turns the cuffs against Bellarose and hands her to the Enclave, although Cardelli escapes and her larger purpose remains unknown. Riley establishes a warehouse headquarters and begins an open relationship with Volkov. She also learns that Amelia Hunt was not her biological mother, while the magical perception Bellarose gave her remains unexplained.",
