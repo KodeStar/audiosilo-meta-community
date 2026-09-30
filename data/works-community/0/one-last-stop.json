@@ -3799,6 +3799,232 @@
       }
     },
     "outbound": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A Defender whose iron and void magic are bound to her stewardship of Kit and Irondale. She is recovering from recent temporary deaths, planning her marriage to Rain, and trying to understand the unusual condition of her soul without abandoning her responsibilities.",
+            "id": "tala",
+            "name": "Tala",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Tala's fiance and a kinetic mage in her closest circle. He is preparing to marry Tala while continuing his own magical development.",
+            "id": "rain",
+            "name": "Rain",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Tala's soulbound avian companion and the namesake of the Talons. Reconstitution has left him smaller, but he retains formidable strength, flickering movement, void attacks, and threefold perception.",
+            "id": "terry",
+            "name": "Terry",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Tala's sentient bound sanctum, refuge, and storage space. Kit contains the growing settlement of Irondale and supports Tala's household and allies, while its unusual capacity makes every proposed expansion or new resident a question of safety and control.",
+            "id": "kit",
+            "name": "Kit",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Tala's distinct alternate interface and shared-body collaborator. She assists with records, planning, training, and practical decisions, and has responded differently to their recent trauma. Their cooperation depends on respecting separate perspectives within one life.",
+            "id": "talas-alternate-interface",
+            "name": "Tala's alternate interface",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Irondale's administrator and Tala's civilian representative. Lynn manages population records, labor and rebirth planning, trade, and the settlement's daily needs. She also serves as a trusted intermediary when residents need commitments or answers from Tala.",
+            "id": "lynn",
+            "name": "Lynn",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Master Grediv"
+            ],
+            "description": "A senior Defender and mentor within Tala and Rain's wider circle. His experience makes him a relevant source of guidance as they recover and prepare for further advancement.",
+            "id": "grediv",
+            "name": "Grediv",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Master Nadro"
+            ],
+            "description": "The trusted counselor chosen to oversee Tala and Rain's preparations for marriage and serve as their proposed officiant.",
+            "id": "nadro",
+            "name": "Nadro",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Lisa"
+            ],
+            "description": "A fox-like resident of Kit who specializes in construction. He recognizes the newly arrived glass phoenix as dangerous and responds to her presence with immediate distrust.",
+            "id": "master-lisa",
+            "name": "Master Lisa",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "voluntary glass prisoner"
+            ],
+            "description": "A sapient glass-based being who sought confinement because her drive to accumulate silica could endanger the world around her. She accepts transfer into Kit on the condition that she retains sovereignty over her existing glass while Kit prevents further claims.",
+            "id": "glass-phoenix",
+            "name": "the glass phoenix",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An investigator from the House of Blood who is independently seeking knowledge about gated humanity. Her search has already destroyed a hidden research settlement, and her references to Tala show a connection to Tala's earlier life without yet establishing what she intends to do.",
+            "id": "mia-lane",
+            "name": "Mia Lane",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Mistress Holly"
+            ],
+            "description": "An inscription specialist traveling to Tala and Rain's wedding with a significant gift for the couple.",
+            "id": "holly",
+            "name": "Holly",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An iron and magnetism mage who survives the destruction of a heavily laden caravan by migrating windblade starlings. Wounded and alone, he reports the loss and demonstrates enough control to fly rapidly and improvise defenses on a large scale.",
+            "id": "cazor",
+            "name": "Cazor",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A blind, white-haired boy with an unexplained ability to restrain Terry despite Terry's strength. He carries an unusual supply of sweets in dimensional storage and offers them as experiments.",
+            "id": "simon",
+            "name": "Simon",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A representative of Irondale's Defenders who accompanies their training at old Marleyweather. He respects Tala's request to use a formal title instead of treating her as their mother.",
+            "id": "ron",
+            "name": "Ron",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Lunar Hunt host"
+            ],
+            "description": "The sovereign host of the Lunar Hunt, whose authority exceeds Tala's within the hidden northern domain. He welcomes Tala, Rain, and Terry and leads them into the Hunt under its conditions.",
+            "id": "wolf-god-beast",
+            "name": "the wolf god beast",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The name used for Tala's inner collaborator, who works with her from within their shared body.",
+            "id": "alat",
+            "name": "Alat",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "the Lunar Hunt"
+            ],
+            "description": "The wolf god beast's immortal, voidling-like mate, whose vast body encompasses the Lunar Hunt domain.",
+            "id": "wolf-god-beasts-mate",
+            "name": "the wolf god beast's mate",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An immortal user of authority and illusion who attacks Tala and Rain from a chicken-legged house. Her shifting control turns weapons and perceptions against them, and records identify enslaved souls among her sources of power. She escapes after Tala's destructive counterattack.",
+            "id": "baba-yaga",
+            "name": "Baba Yaga",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "female co-leader",
+              "male co-leader"
+            ],
+            "description": "A married Paragon pair who lead a mobile, multi-species settlement. They receive Tala's group and open negotiations over travel and trade, offering a working example of leadership outside the cycling cities and of two advanced partners developing together.",
+            "id": "flying-village-co-leaders",
+            "name": "the flying village co-leaders",
+            "reveal": {
+              "chapter": 47
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Rain's distinct internal co-operator, capable of helping him sustain several continuing lines of thought. The arrangement differs from Tala and Alat's partnership, but it similarly supports research, magical practice, and the demanding work of preparing for further advancement.",
+            "id": "rains-alternate-interface",
+            "name": "Rain's alternate interface",
+            "reveal": {
+              "chapter": 45
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0GXMWTYW1",
+            "type": "community"
+          }
+        ],
+        "work": "outbound"
+      },
       "recaps": {
         "ending": "Mia Lane's pursuit leaves Rain without an arm until he can regrow it and badly injures several Talons. Tala reaches through their marriage bond, severs Mia Lane's arm, and destroys one of her two soulbound weapons. The magical backlash attracts a large wave of reality-created creatures, forcing former enemies to cooperate in defense of the nearby city. Tala's dissolution breath and the Talons help break the assault, but a field-wide loss of magic leaves everyone exposed, and a Defender dies pushing Rain clear of a killing blow. After the surviving creatures fall, Mia Lane accepts responsibility, surrenders to the cycling cities, and proposes restitution. Tala, Rain, Terry, Lynn, and the Talons survive. Kit attaches to the dead Defender's dimensional storage without integrating it. The House of Blood learns both of Mia Lane's captivity and Tala's survival, and its senior figures prepare for a possible diplomatic settlement. Baba Yaga, the deeper problem of reality repair, and Kit's unexplained new attachment remain unresolved.",
         "in_short": "Tala and Rain marry, learn that their unusual souls cannot presently produce a viable human child, and set out with Terry to study reality repair and pursue advancement. The Lunar Hunt teaches them that healing the world requires balance among reality, void, and magic, and both become Paragons. They survive Baba Yaga, establish trade with mobile settlements, develop shared authority, and deepen their separate efforts toward reforging. Mia Lane eventually finds Tala and nearly kills Rain, but Tala disables one of Mia Lane's bound weapons. The resulting resonance draws a major creature assault. Tala, Rain, Terry, the Talons, local Defenders, and the injured Mia Lane defeat it, though a Defender dies saving Rain. Mia Lane submits to judgment and offers restitution. The House of Blood learns Tala is alive and begins considering negotiation rather than immediate war.",
