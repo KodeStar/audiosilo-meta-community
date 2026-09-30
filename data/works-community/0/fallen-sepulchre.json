@@ -1279,6 +1279,235 @@
         "work": "fallout"
       }
     },
+    "false-security": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Val"
+            ],
+            "description": "A half-elf Army magical investigator and part-owner of Dimitri's new business. Forced to seek safer housing because supernatural visitors have alarmed her landlord, she carries Chopper, bears Zav's detectable mark, and remains determined to make her own choices.",
+            "id": "val-thorvald",
+            "name": "Val Thorvald",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Val's quarter-gnome friend and fellow investor in Dimitri's new coffee, yard-art, and alchemy venture. She helps Val search for an affordable home near the shop.",
+            "id": "nin",
+            "name": "Nin",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A craftsperson opening a coffee, yard-art, and alchemy business with Val and Nin.",
+            "id": "dimitri",
+            "name": "Dimitri",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Dimitri's goblin assistant, who refurbished the shop's espresso machine.",
+            "id": "dimitris-goblin-assistant",
+            "name": "Dimitri's goblin assistant",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Janice"
+            ],
+            "description": "A psychic-business owner neighboring Dimitri's shop. Protective of her injured daughter, she searches Val's Jeep while investigating the new business and reports that a masked vampire attacked her daughter outside the storefronts.",
+            "id": "janice-lindberg",
+            "name": "Janice Lindberg",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A vampire alchemist and partner in Dimitri's new venture. Janice suspects him after the attack on her daughter, but her accusation is unproven.",
+            "id": "zoltan",
+            "name": "Zoltan",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Zav",
+              "Zavryd"
+            ],
+            "description": "A dragon and Dragon Justice Court hunter who has placed a magical mark on Val. He publicly treats her as his protected claimed mate and intends to bring her to her elven kin so she can learn defenses against mental influence, while she resists his possessiveness.",
+            "id": "zavryd-nokquetal",
+            "name": "Zavryd'nokquetal",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val and Thad's daughter, still frightened by dangerous encounters with dragons. She asks Val for basic sword instruction so she can better protect herself, giving mother and daughter a practical way to rebuild trust and spend time together.",
+            "id": "amber",
+            "name": "Amber",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "lilac dragon"
+            ],
+            "description": "Zav's sister and another dragon connected to the Dragon Justice Court. Amber remembers her as a source of fear from an earlier encounter.",
+            "id": "zavs-sister",
+            "name": "Zav's sister",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Weber"
+            ],
+            "description": "A wealthy technology entrepreneur who offers Val two weeks of bodyguard work and asks her to pose as his date in public. He claims magical corporate spies are threatening him.",
+            "id": "bernard-weber",
+            "name": "Bernard Weber",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's summoned magical tiger ally, skilled at detecting enchanted objects and following scent trails. He accompanies her while she evaluates Weber's heavily protected property; during the visit, Dimitri reports that Zoltan is missing from a vandalized laboratory.",
+            "id": "sindari",
+            "name": "Sindari",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's Army superior and a practical source of official intelligence. She checks Weber's business history, cannot confirm his claimed tracking application through her contacts, and alerts Val as scattered vampire incidents grow into a wider threat.",
+            "id": "willard",
+            "name": "Willard",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young elf working from Willard's office who studies forest magic, linguistics, and engineering. Although she lacks the standing to become Val's master, she offers guidance on reaching Val's natural magical aptitude and possible mental defenses.",
+            "id": "young-elf",
+            "name": "Young elf",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "the elven king"
+            ],
+            "description": "The ruler of Val's paternal people and the father she hopes to meet. His settlement confirms Val's connection to him, but its sentries reject her mixed heritage while he is away, leaving her without either recognition or the magical instruction she seeks.",
+            "id": "vals-elven-father",
+            "name": "Val's elven father",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A politically unaffiliated dragon Val encounters while stranded on the elven world. He recognizes Chopper as a weapon once carried by an elven warrior queen who killed a dragon, takes an interest in Val, and departs after a brief conversation.",
+            "id": "visiting-dragon",
+            "name": "Visiting dragon",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Val's instructor",
+              "the king's daughter"
+            ],
+            "description": "The elven king's daughter, revealed as the young observer from Willard's office. Her father authorizes her to teach Val forest magic and mental defense in exchange for housing, giving Val a path toward resisting magical compulsion.",
+            "id": "elven-princess",
+            "name": "Elven princess",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's mother, visiting Seattle for a search-and-rescue conference. She arranges to meet Val for breakfast during her stay.",
+            "id": "vals-mother",
+            "name": "Val's mother",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A vampire blacksmith who works from a house in Green Lake. When Val follows Dimitri's trail there, signs of a struggle indicate that both men were taken by force.",
+            "id": "vampire-blacksmith",
+            "name": "Vampire blacksmith",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A scientist holding Dimitri captive for a purpose not yet disclosed. Dimitri's brief message identifies this figure as the person planning to use him, providing Val with her first direct information about who controls his imprisonment.",
+            "id": "unnamed-scientist",
+            "name": "Unnamed scientist",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Val's former husband and Amber's father. When Val asks for help researching IntelliAds, he supplies useful background on Weber's sale of a cybernetics company and his later, less successful internet ventures.",
+            "id": "thad",
+            "name": "Thad",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Starsinger dragon who knew Val"
+            ],
+            "description": "A Starsinger dragon whom Val recognizes as the visitor she met on the elven world. He speaks in her defense when his clan confronts her over its stolen egg, providing an important voice against immediate retaliation.",
+            "id": "visiting-starsinger",
+            "name": "Visiting Starsinger",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B08HR41PHS",
+            "type": "community"
+          }
+        ],
+        "work": "false-security"
+      }
+    },
     "fangirl": {
       "characters": {
         "characters": [
