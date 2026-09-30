@@ -2870,6 +2870,50 @@
         "work": "the-hitchhikers-guide-to-the-galaxy-primary-phase"
       }
     },
+    "the-hitchhikers-guide-to-the-galaxy-secondary-phase": {
+      "recaps": {
+        "ending": "Zarniwoop reveals that the planet, the overdue liner and the surrounding world belong to an artificial universe housed in his office. He has used Ford, Zaphod and the Heart of Gold to reach the concealed authority behind the Galactic Presidency. The search ends at a remote shack, but its occupant denies that he governs anyone and refuses to claim knowledge beyond his direct experience. Ford and Zaphod therefore obtain no confirmed answer about how the galaxy's major decisions are made. Arthur separates from them and departs the artificial world aboard the Heart of Gold with Marvin, Lintilla, Eddie, the ship's doors and the Guide. Their destination is not established. The fate of the Guide researcher separated from Zaphod remains unknown, and the threat to Lintilla's wider clone population remains unresolved. The final chapter is an interview and does not alter the story state.",
+        "in_short": "Arthur Dent and Ford Prefect begin stranded on prehistoric Earth, while Zaphod Beeblebrox escapes death and follows a hidden instruction to seek Zarniwoop. After surviving the Total Perspective Vortex, Zaphod reunites with Arthur and Ford aboard the Heart of Gold and learns that his former presidency concealed a mission to investigate real galactic power. Their escape from a Vogon attack takes them to a world ruined by a shoe corporation, where Arthur meets the clone Lintilla and Marvin helps free them. The setting proves to be an artificial universe created in Zarniwoop's office. Zarniwoop guides Ford and Zaphod to an isolated man whom others consult on universal decisions, but the man denies ruling or understanding the wider universe. Arthur leaves separately in the Heart of Gold with Marvin and Lintilla, while Ford and Zaphod are left without a clear answer about who holds power.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Earth has been destroyed, but Arthur Dent survives and travels with Ford Prefect, an off-world researcher for the Hitchhiker's Guide. By the start of this phase, Arthur and Ford have become stranded in Earth's prehistoric past. Zaphod Beeblebrox, the former Galactic President, remains a fugitive associated with the Heart of Gold. Marvin, a robot from their travelling party, is also still active.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Zaphod escapes a reported death and obeys a message implanted in his mind telling him to find Zarniwoop at the Guide offices. Frogstar forces seize the building before he can complete the search, taking Zaphod, Marvin and a Guide researcher toward the Total Perspective Vortex. Meanwhile, Arthur and Ford signal a strangely intermittent ship from prehistoric Earth. Zaphod later emerges from the Heart of Gold, having survived the Vortex because its vision confirms his conviction that he is uniquely important. The ship recovers Arthur and Ford after locating Ford's fossilized towel. Prostetnic Vogon Jeltz then pursues the reunited travellers. During the attack, Zaphod contacts his great-grandfather, who explains that the Galactic Presidency concealed a mission to identify the real source of power. Eddie's attempt to understand Arthur's preference for tea temporarily prevents an escape, but the computer finishes its calculation and the Heart of Gold uses maximum Improbability to evade the Vogons.",
+            "through": {
+              "chapter": 3
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The Heart of Gold appears in a cave suspended high above a planet. Arthur falls and is caught by giant bird people, whose ancestors rejected their robots and built an immense statue of him after receiving a broadcast of his dispute with a drinks machine. The bird people avoid the ground because of an old disaster. Arthur descends through the statue and meets Lintilla, an archaeologist pursued by armed corporate soldiers. She reveals that a malfunctioning machine has produced hundreds of billions of identical Lintillas. Their excavation uncovers a geological layer made of compressed shoes. A shoe-corporation executive captures them and explains that relentless marketing transformed the planet into an economy dominated by shoe shops, leading to famine and collapse. The survivors became bird people and abandoned walking. Marvin cuts the executive's power and frees Arthur and Lintilla. Elsewhere, Ford and Zaphod escape their bird mount and find an overdue but apparently functional liner at a deserted spaceport.",
+            "through": {
+              "chapter": 5
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Arthur, Marvin and three Lintilla clones flee toward the spaceport while representatives of the cloning company pursue them and attempt to bind the clones through arranged marriages. Marvin restrains the representatives. Lintilla reports that anti-clones have killed one of her sisters and may be attacking the wider clone population. Ford and Zaphod board the long-delayed liner, whose passengers are repeatedly returned to suspended animation while automated systems wait for supplies that never arrive. Zarniwoop finally appears and reveals that the apparent universe around them is an artificial construction inside his office. He arranged their route so the Heart of Gold could carry them to the hidden power behind the Galactic Presidency. Ford and Zaphod reach a remote shack whose occupant is apparently consulted on major decisions, but he denies ruling anyone or knowing the wider universe exists. The investigation therefore ends without identifying a confirmed authority. Arthur leaves separately aboard the Heart of Gold with Marvin, Lintilla, Eddie, the doors and the Guide. His destination, the threatened clones' fate and the missing Guide researcher's fate remain unresolved.",
+            "through": {
+              "chapter": 6
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:uk:B004EVNUMQ",
+            "type": "community"
+          }
+        ],
+        "work": "the-hitchhikers-guide-to-the-galaxy-secondary-phase"
+      }
+    },
     "the-hobbit": {
       "characters": {
         "characters": [
