@@ -2396,6 +2396,305 @@
       }
     },
     "secrets-of-the-sword-2": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Val"
+            ],
+            "description": "A half-elven investigator and Chopper's wielder. While preparing to marry Zav, she is called to a secure vault where an intruder claims that her sword belongs to its dwarven maker's descendants.",
+            "id": "val-thorvald",
+            "name": "Val Thorvald",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Zavryd",
+              "Zav"
+            ],
+            "description": "Val's dragon mate and fiance. He plans elaborate dragon wedding customs and is expected to accompany her to investigate Chopper's dwarven history.",
+            "id": "zavryd-nokquetal",
+            "name": "Zavryd'nokquetal",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's enchanted dwarven sword. A magical message identifies it as a weapon claimed by the Orehammer clan and demands its return to a descendant of the original maker.",
+            "id": "chopper",
+            "name": "Chopper",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Colonel Willard"
+            ],
+            "description": "Val's official sponsor and the commander responsible for a secure artifact collection. She responds to the vault breach while also taking charge of the human side of Val's wedding plans.",
+            "id": "willard",
+            "name": "Willard",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Briscoe"
+            ],
+            "description": "Willard's intelligence officer who responds to the breach at the secure artifact vault.",
+            "id": "captain-briscoe",
+            "name": "Captain Briscoe",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "the thief",
+              "Chopper claimant"
+            ],
+            "description": "An apparently half-dwarf relic hunter who breaches a secure vault, searches for Chopper, and claims descent from the sword's maker. Her identity and the truth of her hereditary claim remain unconfirmed.",
+            "id": "half-dwarf-relic-hunter",
+            "name": "The half-dwarf relic hunter",
+            "reveal": {
+              "chapter": 1
+            }
+          },
+          {
+            "description": "Val's telepathic magical tiger ally. He can perceive the invisible, hostile beings released in the artifact vault and joins Val in fighting them.",
+            "id": "sindari",
+            "name": "Sindari",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val and Thad's teenage daughter. She arranges extra sword practice with Val, then guides her toward a bridal shop.",
+            "id": "amber",
+            "name": "Amber",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's former husband and Amber's father. He grounds Amber after she punches a boy at school and questions whether her sword training should continue.",
+            "id": "thad",
+            "name": "Thad",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Sable Dragon co-owner who operates a food truck. When a stolen van is found near her business, Val worries that the relic hunter may target her and sends Zav to protect her.",
+            "id": "nin",
+            "name": "Nin",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Nin's assistant and a witness to the relic hunter's inquiries. Her recollection becomes strangely indistinct after the visitor asks where she can find Val.",
+            "id": "tita",
+            "name": "Tita",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An enchanter who leads the Sable Dragon business. After Val warns him that the relic hunter is asking about her, he reports that a mundane police officer has already visited the glamoured coffee shop.",
+            "id": "dimitri",
+            "name": "Dimitri",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A half-troll enchanter who teaches Dimitri and temporarily cares for Reb. She hopes to guide the orphaned boy toward useful enchantment work despite his desire to become a warrior.",
+            "id": "inga",
+            "name": "Inga",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An orphaned troll boy in Inga's temporary care. He wants the life of a warrior, while his guardian intends to train him in enchantment instead.",
+            "id": "reb",
+            "name": "Reb",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Sutherland"
+            ],
+            "description": "A mundane detective investigating a death connected to one of Dimitri's door knockers. He considers Dimitri a suspect and wears a bracelet that carries a faint magical trace.",
+            "id": "detective-sutherland",
+            "name": "Detective Sutherland",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Kohler",
+              "the baker"
+            ],
+            "description": "A part-Fae baker and Sable Dragon customer. A door knocker at her damaged home is alleged to have killed Charlie Wu, drawing police attention to Dimitri's work.",
+            "id": "maggie-kohler",
+            "name": "Maggie Kohler",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The man whose death triggers the investigation of Dimitri's magical products. He was killed by fire after using the enchanted door knocker at Maggie Kohler's home.",
+            "id": "charlie-wu",
+            "name": "Charlie Wu",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Val's human mother and the elven king's former lover. An elf scout questions her before the king's expected appearance at Val's wedding, leaving her uneasy about renewed elven attention.",
+            "id": "vals-mother",
+            "name": "Val's mother",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "the elven king"
+            ],
+            "description": "Val's father and an elven ruler. His plan to attend Val and Zav's wedding prompts an elf scout to inspect Val's mother as part of a security inquiry.",
+            "id": "vals-father",
+            "name": "Val's father",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An ancient dragon healer from a clan hostile to Zav's family and to other sentient peoples. Zav regards this specialist as Sindari's best chance after a death-tainted wound.",
+            "id": "rival-clan-dragon-healer",
+            "name": "Rival-clan dragon healer",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An investigator whom Val plans to ask to examine a bone left by the attackers in the artifact vault.",
+            "id": "zoltan",
+            "name": "Zoltan",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's elven half-sister, a researcher and magical ally. She returns with news about the elven response to the isolated dwarven world and offers to help Val prepare traps.",
+            "id": "vals-elf-half-sister",
+            "name": "Val's elf half-sister",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Zav's dragon sister and a participant in ruling-council affairs. She arrives to collect him for an emergency meeting about the undead danger on the dwarven homeworld.",
+            "id": "zavs-sister",
+            "name": "Zav's sister",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "painter and potter"
+            ],
+            "description": "A werewolf who lives near Val's mother's rural cabin and works as a painter and potter. He shows a personal interest in her and accepts her suggestion that they meet for coffee.",
+            "id": "vals-mothers-werewolf-neighbor",
+            "name": "Val's mother's werewolf neighbor",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An undead dragon reported to occupy Mount Krennel and command skeletal servants. The relic hunter says this powerful creature drove her away from records that could prove Chopper's origin.",
+            "id": "dragon-lich",
+            "name": "The dragon lich",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "coerced messenger"
+            ],
+            "description": "A disgraced young dragon trying to redeem himself through an unauthorized scouting mission. He draws undead fliers away from Val and the relic hunter, but is wounded during the attempt.",
+            "id": "young-green-dragon",
+            "name": "The young green dragon",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "enchanter and blacksmith sent by the dwarven king"
+            ],
+            "description": "A dwarven enchanter and blacksmith authorized by the king to address the recovered dragon blade. He confirms its maker, explains the terms of Val's custody, and offers instruction and records.",
+            "id": "dwarven-envoy",
+            "name": "The dwarven envoy",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young male dragon from the Starsinger clan. After Val prevents the poison attack on the assembled dragons, he approaches her to express his thanks.",
+            "id": "starsinger-dragon",
+            "name": "The Starsinger dragon",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B08XS4PM88",
+            "type": "community"
+          }
+        ],
+        "work": "secrets-of-the-sword-2"
+      },
       "recaps": {
         "ending": "Val stops the dragon lich's poison from reaching the arriving Stormforge dragons while the relic hunter holds back the undead and dies in the effort. Zav and his clan kill the lich, its skeletal army collapses, and Zav destroys the remaining poison device. Sindari survives his injuries. A dwarven envoy verifies that Chopper was forged by the hunter's ancestor and allows Val to wield it against oppressive dragons, provided it eventually returns to the dwarven people. The envoy will supply records and teach her about the blade. On Earth, Val's mother is safe with help from her werewolf neighbor. Police try to arrest Dimitri, but Nin's investigation points them toward Maggie Kohler, and Zav forces them to release Dimitri and pursue that lead. The murder inquiry remains open. Dimitri accepts the role of Zav's best man, Willard continues arranging the celebrations, and Val and Zav move ahead with a wedding that now includes more dragon guests. Elven scrutiny of Val's mother also remains unexplained.",
         "in_short": "Val and Zav investigate a relic hunter's claim that Chopper was taken from its dwarven makers while juggling plans for their human-dragon wedding. The inquiry exposes an undead dragon's occupation of Mount Krennel and a plot to poison Zav's approaching clan. Stranded on the dwarven world, Val reluctantly works with the hunter, loses Chopper to her, and later learns that the lich compelled the theft because the blade could harm it. Val seals the poison vent as the hunter dies holding off skeletal warriors, while Zav and his clan kill the lich. The dwarves confirm the hunter's ancestry, permit Val to retain Chopper temporarily, and offer to teach her its history. Back on Earth, Nin redirects the door-knocker murder investigation from Dimitri toward Maggie Kohler, preventing his immediate arrest. Dimitri becomes Zav's best man, and wedding preparations continue.",
