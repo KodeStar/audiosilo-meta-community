@@ -2808,6 +2808,258 @@
         "work": "the-things-they-carried"
       }
     },
+    "the-third-form-at-st-clares": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A returning third-form pupil whose circus training has made her an accomplished rider.",
+            "id": "carlotta",
+            "name": "Carlotta",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A returning pupil and Bobby's close friend.",
+            "id": "janet",
+            "name": "Janet",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning pupil in the third form.",
+            "id": "alison",
+            "name": "Alison",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning pupil and Isabel's twin.",
+            "id": "pat",
+            "name": "Pat",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning pupil and Pat's twin.",
+            "id": "isabel",
+            "name": "Isabel",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Roberta"
+            ],
+            "description": "A returning pupil, Janet's close friend, and an enthusiastic practical joker.",
+            "id": "bobby",
+            "name": "Bobby",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A responsible returning pupil who has led the form.",
+            "id": "hilary",
+            "name": "Hilary",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning pupil in the third form.",
+            "id": "gladys",
+            "name": "Gladys",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning pupil in the third form.",
+            "id": "mirabel",
+            "name": "Mirabel",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning pupil in the third form.",
+            "id": "doris",
+            "name": "Doris",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The headmistress of St Clare's.",
+            "id": "miss-theobald",
+            "name": "Miss Theobald",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The returning French teacher at St Clare's.",
+            "id": "mamzelle",
+            "name": "Mam'zelle",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Libby"
+            ],
+            "description": "A horse-loving day girl joining the third form. She is Will's sister and Fern's cousin, and her family offers St Clare's pupils favourable terms at the nearby Oaks riding stables.",
+            "id": "libby-francis",
+            "name": "Libby Francis",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Libby's fashion-conscious cousin, who is staying with the Francis family while her parents are away. She fears horses, is strongly attached to Will, and is about to join the third form as a day girl.",
+            "id": "fern",
+            "name": "Fern",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Libby's brother and Fern's cousin, a day-school pupil who finds Fern's persistent attention burdensome.",
+            "id": "will",
+            "name": "Will",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A new pupil whose parents, Sir Robert and Lady Helen, are celebrated actors. She presents herself as a future actress, but her superior manner leaves her unpopular with most of the form while Alison offers friendship.",
+            "id": "rachel-denman",
+            "name": "Rachel Denman",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The third-form mistress. She sets clear standards in class and acts as adviser to the pupils' end-of-term play while leaving its important creative decisions to them.",
+            "id": "miss-adams",
+            "name": "Miss Adams",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Jennifer",
+              "Jenny"
+            ],
+            "description": "The games captain, who quickly recognises Libby's natural ability at tennis.",
+            "id": "jennifer-mills",
+            "name": "Jennifer Mills",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A difficult, high-spirited horse at the Oaks. Carlotta's circus experience allows her to calm and ride him when others consider him unbroken.",
+            "id": "rocky",
+            "name": "Rocky",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The title character of Lady Dorinda's Diamonds, the anonymous script selected for the third form's end-of-term production.",
+            "id": "lady-dorinda",
+            "name": "Lady Dorinda",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Sara"
+            ],
+            "description": "Fern's prep-school friend and a former schoolmate of Rachel at De Winter Academy. Her arrival at St Clare's visibly alarms Rachel before their shared history can be discussed.",
+            "id": "sara-jameson",
+            "name": "Sara Jameson",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Lady Dorinda's accident-prone husband in the form's play. Mirabel is cast in this physically active comic part.",
+            "id": "lord-derwent",
+            "name": "Lord Derwent",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A member of the Francis family whose panicked approach causes Rocky to rear after Fern's rescue, leading to Carlotta's head injury.",
+            "id": "mrs-francis",
+            "name": "Mrs. Francis",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A teacher whose classes provide replacement scenery after rain ruins the third form's original stage sets.",
+            "id": "miss-walker",
+            "name": "Miss Walker",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A teacher who arranges repairs to the production's cut costumes, helping the form keep the play on schedule.",
+            "id": "miss-stratton",
+            "name": "Miss Stratton",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0714B9YWF",
+            "type": "community"
+          }
+        ],
+        "work": "the-third-form-at-st-clares"
+      }
+    },
     "the-third-man": {
       "characters": {
         "characters": [
