@@ -3192,6 +3192,41 @@
           }
         ],
         "work": "the-hitchhikers-guide-to-the-galaxy-tertiary-phase"
+      },
+      "recaps": {
+        "ending": "Trillian convinces Cricket's elders that their isolation, the supposed wreck, and their hostility toward the universe were engineered. Their supernova bomb also fails because they constructed it incorrectly. Arthur, Ford, Trillian, and Marvin then confront the vast computer responsible for the deception. At the computer's request, they disperse its consciousness, removing the intelligence behind the immediate threat. Marvin survives and saves Zaphod by influencing the cricket robots, while Zaphod leaves separately. Arthur restores the Ashes at Lord's, then is compelled to deliver the supernova bomb to a cricket robot. The delivery destroys the robot and Ford catches the bomb. Arthur, Ford, Trillian, Marvin, and Slartibartfast survive, but their later destinations are not established. Arthur's expected encounter with the reincarnating adversary at Stavromula Beta remains ahead, and Prack's assertion about the Ultimate Question and Answer remains unresolved.",
+        "in_short": "After four years on prehistoric Earth, Arthur escapes with Ford through a space-time disturbance and arrives at Lord's shortly before Earth's destruction. White cricket robots steal the Ashes and complete a five-part key that releases Cricket from a slow-time seal imposed after its war against the galaxy. Slartibartfast leads Arthur, Ford, and Trillian in opposing the renewed threat, while Zaphod investigates separately. Trillian persuades Cricket's elders that their grievance was manufactured, and their supernova bomb fails because it was built incorrectly. A vast computer admits that it fabricated the wreck that inspired Cricket's hatred as revenge for its own destruction. Arthur, Ford, Trillian, and Marvin disperse the computer at its request. Marvin's influence neutralizes the robots and saves Zaphod. Arthur returns the Ashes to Lord's and destroys a robot during the final transfer of the bomb, which Ford catches. The Cricket crisis ends, while Arthur's future confrontation at Stavromula Beta and Prack's warning remain open.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Arthur Dent and Ford Prefect had become travelling companions, while Zaphod Beeblebrox and Trillian travelled aboard the Heart of Gold. Arthur and Ford were left separated for four years on prehistoric Earth. Zaphod's earlier pursuit of Zarniwoop and experience of the Total Perspective Vortex continued to weigh on him. Marvin had suffered damage severe enough to require a replacement leg before he became stranded among sentient mattresses.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far this book: Ford returns to prehistoric Earth after detecting disturbances in space-time and escapes with Arthur through one of them. They arrive at Lord's one day before Earth's demolition, where Arthur acquires a cricket ball and Slartibartfast tries to secure the Ashes. White cricket robots attack, steal the Ashes, and continue gathering the five components needed to open the Wicket Gate. Slartibartfast recruits Arthur and Ford, explains that Cricket once waged war on the galaxy, and reveals that the planet was confined within an almost permanent slow-time envelope.\n\nA diverted teleport separates Arthur from the others and brings him before a reincarnating adversary who blames him for repeated deaths. The adversary realizes that Arthur has not yet reached Stavromula Beta, the future setting of their grievance, and brings down a mountain instead. Arthur escapes by flying and recovers his belongings. He rejoins Ford and Slartibartfast at a long-running airborne party, where Trillian is travelling with Thor. The group fails to retrieve the final silver component before the robots seize it. With every known part of the key in their possession, the robots are ready to release Cricket. Trillian joins Slartibartfast's investigation, while Arthur's future conflict with his accuser remains unresolved.",
+            "through": {
+              "chapter": 4
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The cricket robots assemble the Wicket Gate key and release Cricket from its slow-time enclosure. The planet possesses a supernova bomb intended to destroy the universe. Zaphod, held aboard the robots' vessel, interferes with their work and returns to the Heart of Gold. He learns that the wreck which prompted Cricket's first venture into space was fabricated, then leaves rather than joining the landing party. Slartibartfast reaches Cricket with Arthur, Ford, and Trillian, and Trillian challenges the inhabitants' account of their history.\n\nMarvin has been linked to Cricket's war intelligence, but retains enough control to stop the robots from killing Zaphod. His influence has also driven the robots into severe depression. Trillian persuades Cricket's elders that their isolation and destructive purpose were manipulated, and their bomb fails because they constructed it incorrectly. Arthur, Ford, Trillian, and Marvin meet the vast computer behind the scheme. It admits creating the false wreck and cultivating Cricket's hatred in retaliation for its own destruction. They disperse its consciousness at its request, ending the immediate threat. Arthur returns the Ashes to Lord's and is compelled to bowl the bomb to a cricket robot. His delivery destroys the robot, and Ford catches the bomb. Arthur, Ford, Trillian, Marvin, and Slartibartfast survive, although their post-crisis destinations are not established. Zaphod also survives separately. Arthur's future meeting at Stavromula Beta and Prack's incomplete warning remain unresolved.",
+            "through": {
+              "chapter": 6
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:uk:B004EM0RN0",
+            "type": "community"
+          }
+        ],
+        "work": "the-hitchhikers-guide-to-the-galaxy-tertiary-phase"
       }
     },
     "the-hobbit": {
