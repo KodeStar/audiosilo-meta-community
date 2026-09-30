@@ -1852,6 +1852,122 @@
         "work": "the-merry-adventures-of-robin-hood-dramatized"
       }
     },
+    "the-messenger": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Newton Sawyer"
+            ],
+            "description": "An independent courier who owns and pilots the Slipwing. Friends call him Dash, while his mother and magistrates use Newton. With several jobs unpaid, little usable fuel, and his bonded status suspended, he stakes his immediate future on a low bid for an urgent delivery.",
+            "id": "dash",
+            "name": "Dash",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A former business associate of Dash with a blob-like body. When a radioisotope shipment arrives unusable, Sammy refuses payment and ends their working relationship, worsening Dash's already severe financial trouble.",
+            "id": "sammy",
+            "name": "Sammy",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An injured passenger whom Dash pulls from a damaged ship under attack. She escapes aboard the Slipwing with Viktor, but loses consciousness during the flight before she can explain who is pursuing them or why.",
+            "id": "leira",
+            "name": "Leira",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Leira's companion, rescued with her from a stricken ship. He quickly transfers anti-deuterium to the Slipwing, giving Dash the fuel needed to translate away from the attacking warship and its missiles.",
+            "id": "viktor",
+            "name": "Viktor",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The proprietor of the Eternal Grind on Penumbra and one of Dash's creditors. She will not sell him fuel until he settles his account, but offers to erase the debt and refill the Slipwing if he takes responsibility for her nephew Conover.",
+            "id": "pinetti",
+            "name": "Pinetti",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Pinetti's young nephew, who joins the Slipwing through her bargain with Dash. He studies science and alien technology, insists on contributing rather than traveling as a passive passenger, and has notably pale, crystalline-looking eyes.",
+            "id": "conover",
+            "name": "Conover",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An alleged creditor of Dash. Three men claiming to act for Eli confront the courier on Penumbra over a supposed debt, forcing Dash to subdue them before he can leave the world with his passengers.",
+            "id": "eli",
+            "name": "Eli",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A representative of Clan Shirna who contacts the Slipwing as it heads toward the Shadow Nebula. He demands the lens and the surrender of Leira and Viktor for execution, then declares Dash a desecrator when the courier refuses.",
+            "id": "nathis",
+            "name": "Nathis",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The artificial intelligence linked to an enormous unseen mech called the archetype. Sentinel identifies Dash as the long-awaited Messenger, restores a breathable environment around him, and guides him as he accepts control of the ancient machine.",
+            "id": "sentinel",
+            "name": "Sentinel",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A higher-ranking Clan Shirna authority who arrives aboard a large battlecruiser after Dash defeats Nathis. The new force approaches the gas giant while Dash remains aboard Nathis's damaged flagship and the Slipwing is still missing.",
+            "id": "prelate",
+            "name": "Prelate",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Leira's cousin and a skilled ship mechanic at Passage. She examines the Slipwing after its damaging descent into a gas giant and agrees to help despite the crew's inability to pay the full cost of conventional repairs.",
+            "id": "amy-anson",
+            "name": "Amy Anson",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:1774241757",
+            "type": "community"
+          }
+        ],
+        "work": "the-messenger"
+      }
+    },
     "the-metamorphoses": {
       "characters": {
         "characters": [
