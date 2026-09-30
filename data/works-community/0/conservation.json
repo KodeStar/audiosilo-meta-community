@@ -3378,6 +3378,206 @@
         "work": "crazy-rich-asians"
       }
     },
+    "cream-teas-and-crystal-balls": {
+      "characters": {
+        "characters": [
+          {
+            "description": "An unemployed witch living with her mother, Nell, while she rebuilds her life. Fi fears her electrical magic after a previous act of lethal self-defence and tries to avoid using it, even when an escaped cockerel gives her an immediate practical problem.",
+            "id": "fi",
+            "name": "Fi",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Agatha and Neville's cockerel, whose escape sends Fi chasing him through Omensford.",
+            "id": "cluck-norris",
+            "name": "Cluck Norris",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Fi first encounters Mort beside his parked car during her effort to catch an escaped cockerel.",
+            "id": "mort",
+            "name": "Mort",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fi's mother, who lets her live at home while Fi is unemployed and deciding what to do next.",
+            "id": "nell",
+            "name": "Nell",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dream-working therapist whose magic requires the subject to be asleep. Liv is part of Fi's Omensford circle and is present when Fi pursues Agatha and Neville's escaped cockerel through the village streets.",
+            "id": "liv",
+            "name": "Liv",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A bystander who records Fi's pursuit of an escaped cockerel on her phone.",
+            "id": "sita-kumar",
+            "name": "Sita Kumar",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The proprietor of an independent cafe and magic shop in Omensford, where she also conducts crystal-ball readings.",
+            "id": "effie",
+            "name": "Effie",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A customer who urgently asks Effie for a crystal-ball reading.",
+            "id": "grace",
+            "name": "Grace",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A young witch who approaches Fi at Effie's shop seeking a curse that will keep someone away. Fi declines to provide one and instead points her toward protective materials, leaving the reason for the request unexplained.",
+            "id": "unidentified-teenage-girl",
+            "name": "Unidentified teenage girl",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A teenager who questions Fi about breaking or bypassing magical wards. He buys a weak concealment item after seeking information that suggests he intends to enter somewhere protected without permission.",
+            "id": "unidentified-teenage-boy",
+            "name": "Unidentified teenage boy",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Fi's sister, a nature witch who maintains wards around her garden. Agatha is married to Neville, is Bumblebee's mother, and advises Fi when she discusses Mort's invitation and her uncertain return to dating.",
+            "id": "agatha",
+            "name": "Agatha",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A werewolf and Glenn's partner, living near Fi's former cottage. Steve tells Fi that the couple have not disclosed their supernatural nature to the mundane tenants and is part of her local support circle.",
+            "id": "steve",
+            "name": "Steve",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Steve's partner and one of the werewolf couple associated with Fi's old cottage. Glenn shares a household with Steve, though their supernatural identity has not been disclosed to Fi's mundane tenants.",
+            "id": "glenn",
+            "name": "Glenn",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Fi's proud, golden, dragon-like familiar, who firmly objects when Fi shortens her name.",
+            "id": "cressida",
+            "name": "Cressida",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Adriana"
+            ],
+            "description": "A visitor who presents herself as Effie's great-niece and takes a room at Nell's B-and-B, saying that she has come to Omensford to see Effie.",
+            "id": "adriana-harrington",
+            "name": "Adriana Harrington",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Maxie"
+            ],
+            "description": "A former colleague who worked with Fi while people were being rescued in Avalon. His unexpected message arrives just as Fi is pleased about her date with Mort, complicating her thoughts about the new relationship.",
+            "id": "maximilian-baskerville",
+            "name": "Maximilian Baskerville",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The fire-affinity wizard responsible for carrying out Effie's cremation.",
+            "id": "rupert-tyne",
+            "name": "Rupert Tyne",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A dead young woman encountered by Mort and Liv in the other realm. Polly says that an older woman murdered her, abandoned her own body, and took possession of Polly's body. She has no wish to reclaim it.",
+            "id": "polly",
+            "name": "Polly",
+            "reveal": {
+              "chapter": 34
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An earlier victim identified by Polly during the investigation in the other realm. Jenny's body was occupied by the same older woman before the killer later took Polly's body, establishing that the crime was repeated.",
+            "id": "jenny",
+            "name": "Jenny",
+            "reveal": {
+              "chapter": 34
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A link-shifter representing the Magical Liaison Office. Agent Jones approaches Fi at the Spring Social and offers her community-consultant work based on her experience with magical cases around Omensford.",
+            "id": "agent-jones",
+            "name": "Agent Jones",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0F1NVYVYG",
+            "type": "community"
+          }
+        ],
+        "work": "cream-teas-and-crystal-balls"
+      }
+    },
     "crenshaw": {
       "characters": {
         "characters": [
