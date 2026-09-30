@@ -1890,6 +1890,203 @@
         "work": "don-quixote-volume-one"
       }
     },
+    "donkeys-and-demons": {
+      "characters": {
+        "characters": [
+          {
+            "description": "Omensford's new Magical Liaison Office community agent and Nell's daughter. Fi has dealt only with minor or unresolved reports, has not finished her training, and doubts her ability to represent the office in public.",
+            "id": "fi",
+            "name": "Fi",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Fi's niece and Agatha's daughter. Bea accompanies Fi to Magic Club and looks forward to hearing her speak about work with the Magical Liaison Office.",
+            "id": "bea",
+            "name": "Bea",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fi's sister and Bea's mother. Agatha entrusts Bea to Fi for the Magic Club visit.",
+            "id": "agatha",
+            "name": "Agatha",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fi's small golden familiar, a dragon-like creature able to breathe fire and communicate with her mentally. It accompanies Fi to Magic Club and quickly attracts the children's attention.",
+            "id": "fis-familiar",
+            "name": "Fi's familiar",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elderly Omensford resident who objects aggressively to children playing football on the common and demands that Fi intervene. Other locals regard her as widely disliked.",
+            "id": "lucille",
+            "name": "Lucille",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "White Rabbit"
+            ],
+            "description": "The leader of Magic Club. Valerie directs the children with playing-card-style commands and introduces Fi when the club's planned presentation equipment fails.",
+            "id": "valerie-blanc",
+            "name": "Valerie Blanc",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fi's mother and an organiser in Omensford's WWWI. Nell is overseeing the village donkey derby while unusually hot weather threatens whether its races can go ahead.",
+            "id": "nell",
+            "name": "Nell",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Nell's psychic friend, currently away travelling after acquiring a younger body. Her absence is noted while Nell and Agatha work on the donkey derby.",
+            "id": "effie",
+            "name": "Effie",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A doctor assisting the police at the bloodless homicide on the common. Mort has unresolved personal history with Fi and asks to speak with her privately after examining the victim.",
+            "id": "mort",
+            "name": "Mort",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The police investigator leading the inquiry into the bloodless killing on Omensford common. The unusual lack of blood prompts him to call in the Magical Liaison Office and work alongside Fi.",
+            "id": "police-investigator",
+            "name": "Police investigator",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Bea's schoolteacher, whom she describes as cruel to pupils. Her account includes an allegation that he threw a dodgeball at a child.",
+            "id": "hackett",
+            "name": "Hackett",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A parent living beside Lucille whose children had drawn the older woman's hostility while playing. Investigators interview Eileen after Lucille's death.",
+            "id": "eileen-chester",
+            "name": "Eileen Chester",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The strict supervisor responsible for Fi's overdue Magical Liaison Office training course.",
+            "id": "gwen",
+            "name": "Gwen",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The donkey wrangler who brings animals to Omensford and helps prepare the village derby.",
+            "id": "alf",
+            "name": "Alf",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A person who missed a recent WWWI meeting while away on holiday with Glenn.",
+            "id": "steve",
+            "name": "Steve",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A person who missed a recent WWWI meeting while away on holiday with Steve.",
+            "id": "glenn",
+            "name": "Glenn",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A tester who assists the investigation into Hackett's death. Robbie agrees to examine the tea left in Hackett's thermos for evidence that could explain how the victim was overcome.",
+            "id": "robbie",
+            "name": "Robbie",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Magical Liaison Office agent who demands Fi's linked report on the two Omensford killings within an hour, adding an immediate deadline to the investigation.",
+            "id": "agent-jones",
+            "name": "Agent Jones",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An entity whose spirit is manifesting through a portal on Omensford common. It needs magical energy and human sacrifice to take corporeal form, but its complete entry can still be prevented.",
+            "id": "demon",
+            "name": "Demon",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A child present at the donkey derby when Valerie turns toward him during the crisis. He is distinct from the wounded adult donkey wrangler who shares his name.",
+            "id": "young-alf",
+            "name": "Young Alf",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0FHBL8XK3",
+            "type": "community"
+          }
+        ],
+        "work": "donkeys-and-demons"
+      }
+    },
     "dorothy-and-the-wizard-in-oz": {
       "characters": {
         "characters": [
