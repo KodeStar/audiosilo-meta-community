@@ -2237,6 +2237,228 @@
       }
     },
     "world-tree-online": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A 70-year-old widower and experienced challenge gamer, Vincent enters World-Tree Online as a temporary refuge from grief near the second anniversary of his wife Monica's death. He expects a demanding game, not a lasting second life.",
+            "id": "vincent",
+            "name": "Vincent",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Vincent's late wife, whose death nearly two years earlier still weighs on him. His grief helps lead him to enter World-Tree Online as a temporary distraction.",
+            "id": "monica",
+            "name": "Monica",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Vincent's lifelong friend is already a veteran of World-Tree Online, with more than a decade of in-game experience. He urges Vincent to join and approaches the virtual world as a place to live rather than a brief diversion.",
+            "id": "jim",
+            "name": "Jim",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The artificial intelligence behind World-Tree Online and its nanomachine technology. ARKUS also designed technology intended to extend human life, though the system's construction and decisions remain poorly understood.",
+            "id": "arkus",
+            "name": "ARKUS",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Gazal the Forest Lord"
+            ],
+            "description": "A reclusive B-class world boss in Terramor. Gazal becomes the target of Vincent's solo Ranger quest, but their first encounter ends immediately when the inexperienced player attacks despite a warning.",
+            "id": "gazal",
+            "name": "Gazal",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Jim"
+            ],
+            "description": "Jim's player identity in World-Tree Online. Crow-Foot Jim is an experienced Rogue based near Night Rest, and his practical knowledge makes him Vincent's first guide to the game's dangers and systems.",
+            "id": "crow-foot-jim",
+            "name": "Crow-Foot Jim",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A low-tier sheriff-moderator who pursues abusive players alongside Harper. Lucas possesses enforcement powers unavailable to ordinary players, resents his limited rank, and has an attachment to Harper that she does not return.",
+            "id": "lucas",
+            "name": "Lucas",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A beta player and more capable sheriff-moderator who works beside Lucas. Harper is committed to keeping order and takes the unprecedented update seriously, while making clear that she does not share Lucas's romantic interest.",
+            "id": "harper",
+            "name": "Harper",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The last senior moderator known to retain enforcement powers after the update. Lucas immobilizes her with Mod Gun in Midagar and conceals her under rubble when he cannot release or kill her.",
+            "id": "senior-moderator",
+            "name": "Senior Moderator",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Terramor's reigning arena champion, Quinn is a Fighter-Rogue whose speed, close combat skill, Breaker strikes, and Impact Shield make her a formidable opponent. She joins Vincent's proposed climb while seeking a way back to her husband and son.",
+            "id": "quinn",
+            "name": "Quinn",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Pale Alexandria"
+            ],
+            "description": "A Cleric with sword training and an experimental Light Drain ability. Xan joins Vincent and Quinn because she wants to grow beyond her dependence on family, even though leaving Terramor and its familiar protections frightens her.",
+            "id": "xan",
+            "name": "Xan",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A lich world boss that migrated to Fountmel after ruining another world's ecosystem. Draxas spreads a destructive miasma and regenerates through a concealed magical tether. Xan exposes that link with Light Drain, enabling Vincent to destroy it and kill the lich permanently.",
+            "id": "draxas",
+            "name": "Draxas",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Eric"
+            ],
+            "description": "A Justiciar aligned with Lucas who accompanies the attempted entry into Midrun. Eric is among the Snowcrag-selected followers caught in the city's defensive ambush after Lucas tries to impose his authority.",
+            "id": "silver-eric",
+            "name": "Silver Eric",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A high-level Mage-Rogue and former member of the Great Vanguard. The Ice Knight has spent days fighting the creature exploiting Valaheim's exposed world magic and helps Vincent's party seal the leaks that sustain it.",
+            "id": "ice-knight",
+            "name": "Ice Knight",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A covert ally inside Lucas's organization whose party affiliation exposes his connection to Vincent's side. Once discovered, Sam is banned and sent to the dungeon, leaving the rebels without direct contact from their source.",
+            "id": "sam",
+            "name": "Sam",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A high-level former beta tester serving among Lucas's defenders. Farah has advanced as far as Styxis and is especially interested in understanding the negative-energy techniques used by the Void Knights.",
+            "id": "farah",
+            "name": "Farah",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A mercenary commander and skilled strategist among Lucas's leading defenders. The Wolf Lord has encountered a Demon Lord on the route toward the angels and suspects its power may be related to the Void Knights' negative energy.",
+            "id": "wolf-lord",
+            "name": "Wolf Lord",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior official in Lucas's regime and Sam's brother. The Grand Chancellor is part of the command structure organizing Midrun's layered defense after Sam's covert allegiance is exposed.",
+            "id": "grand-chancellor",
+            "name": "Grand Chancellor",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An imprisoned moderator identified on Sam's map of Lucas's dungeon. Valerie is one of the captives the rebels hope to locate inside the castle during their assault on Midrun.",
+            "id": "valerie",
+            "name": "Valerie",
+            "reveal": {
+              "chapter": 33
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of the prisoners marked on Sam's map of the castle dungeon. Zhang's location is part of the intelligence guiding Vincent's attempt to reach and release Lucas's long-held captives.",
+            "id": "zhang",
+            "name": "Zhang",
+            "reveal": {
+              "chapter": 33
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A rebel healer who survives the devastating rune bombardment during the advance through Midrun. Athena works with Xan to revive and treat the remaining attackers before the reduced group continues toward the castle.",
+            "id": "athena",
+            "name": "Athena",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A member of the rebel assault force who survives the rune bombardment in Midrun. River is one of only six immediate survivors still able to press onward toward Lucas's castle.",
+            "id": "river",
+            "name": "River",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audiosilo-meta:work:world-tree-online",
+            "type": "community"
+          }
+        ],
+        "work": "world-tree-online"
+      },
       "recaps": {
         "ending": "Vincent turns Lucas's anti-spell hall against him, reflects Mod Gun, bans him, and kills his frozen body to test whether banned death provides an exit. Lucas awakens in reality, permanently barred from the game, and the update ends for all 500 million trapped players. The Grand Chancellor orders the Justiciars to surrender, while Valerie suppresses the last resistance. Quinn, Xan, Valerie, Harper, Sam, and Zhang are freed. The Ice Knight's release and final fate remain unknown. Harper rejects Lucas, and authorities move to detain him after his conduct becomes public. Vincent, Jim, Quinn, and Xan survive, but pause their climb for family time, recovery, and independent travel. Farah accepts the surrender. The Wolf Lord regrets his service and tentatively plans to meet Vincent on Styxis before a future campaign against the angels. Valerie and Sam may help repair damaged worlds. ARKUS's purpose and the ancient ruins remain unexplained, and the higher-world threat is still waiting when the group resumes its ascent.",
         "in_short": "Widower Vincent enters World-Tree Online shortly before an ARKUS update traps 500 million players under extreme time dilation. He masters runes and negative energy, joins Quinn and Xan in climbing beyond Terramor, and later reunites with Crow-Foot Jim. While they cross worlds and grow stronger, moderator Lucas strips rivals of power, imprisons opponents, and builds the Justiciars into a coercive regime. After Lucas conquers Midrun, the four spend 37 years training on deadly Aramar and return as the Void Knights. They unite a rebellion, invade Midrun, free the moderator Valerie, and reach Lucas's anti-spell trap. Vincent redirects the trap's frequencies and Mod Gun, bans Lucas, and kills his frozen body. Lucas awakens outside the game, proving that banned death is an exit and ending the update for every player. The Justiciars surrender, the captives are freed, and the four friends separate temporarily before continuing their climb.",
