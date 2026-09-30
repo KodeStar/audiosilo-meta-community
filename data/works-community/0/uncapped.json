@@ -301,6 +301,269 @@
         "work": "uncapped"
       }
     },
+    "unchained": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A Heavens-system Trailblazer and Seed-Bearer who leads the search for his blood brother Ryan. During the crossing into the Divided Realms, he accepts appointment as an Envoy of the Fae and gains powers linked to planting seeds of the Ways.",
+            "id": "silas-renner",
+            "name": "Silas Renner",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Silas's fiancée and a formidable reality mage. She accompanies the mission to find Ryan and can use her magic to shelter the travelers from outside interference.",
+            "id": "selena",
+            "name": "Selena",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A veteran companion of Silas and the bond partner of Azuria. He joins the void journey toward Ryan while continuing to restrain Hunger, a power that responds eagerly to the prospect of violence.",
+            "id": "samvek",
+            "name": "Samvek",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A healer who joins Silas's party on its expedition to find Ryan. She serves as the group's medical specialist during the journey.",
+            "id": "talia",
+            "name": "Talia",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Samvek's bonded dragon and the party's guide through the void. Her evolved wings and instinct for routes between worlds allow her to carry the group toward the Divided Realms.",
+            "id": "azuria",
+            "name": "Azuria",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Silas's immensely powerful Eidolon. Their bond makes lasting separation nearly impossible, but Urg refuses to make the initial void crossing in person and remains available to be summoned after the party arrives.",
+            "id": "urg",
+            "name": "Urg",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A human gamer represented by a gnome character. Her home world only recently gained magic, and she accompanies the stronger core fighters into the Divided Realms.",
+            "id": "violet",
+            "name": "Violet",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Fae prince, artificer, and ally of the Ways known from earlier adventures. He is also an allied maker acquainted with Silas.",
+            "id": "tad",
+            "name": "Tad",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The orc who handles talks with Silas's party. After reassessing Silas's strength, he becomes the party's negotiating counterpart.",
+            "id": "orc-leader",
+            "name": "The orc leader",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An orc skilled in manipulating blood held outside the body for combat.",
+            "id": "orc-bloodcaller",
+            "name": "The orc bloodcaller",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Ascendant archlich and one of the undead rulers of Deterious. He receives Silas's party in his tower and offers negotiation after explaining how his civilization survived an orc invasion by embracing undeath.",
+            "id": "overlord-42",
+            "name": "Overlord 42",
+            "reveal": {
+              "chapter": 12
+            }
+          },
+          {
+            "description": "Silas's long-standing friend and a powerful temporal mage. She arrives in the undead ship's engine room at the moment of detonation and holds the blast in frozen time.",
+            "id": "lana",
+            "name": "Lana",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Silas's blood brother and a cultivator commanding a battered resistance against Modron forces. Silas finds him leading the defense alongside his seven wives after following his location across the void.",
+            "id": "ryan",
+            "name": "Ryan",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ryan's wives and a cultivator whose techniques use earth and gravity.",
+            "id": "ryans-earth-and-gravity-wife",
+            "name": "Ryan's earth-and-gravity wife",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ryan's aunt and an A-rank cultivator healer. She leads a team treating the vast number of casualties left by the Modron attack and coordinates battlefield triage with Talia.",
+            "id": "dana",
+            "name": "Dana",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ryan's wives, with poison and shadow affinities. She has a Heavens-system class in place of active cultivation and remains involved in the coalition's recovery after the Modron battle.",
+            "id": "kumo",
+            "name": "Kumo",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ryan's wives, with a mixed human, Modron, and red-dragon bloodline. She can fully assume dragon form, and her resonance with Azuria leads the older dragon to begin training her.",
+            "id": "farah",
+            "name": "Farah",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ryan's wives, whose living vampiric heritage carries a Hunger resembling Samvek's. She begins training with him to control it.",
+            "id": "ryans-vampiric-wife",
+            "name": "Ryan's vampiric wife",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The divine ruler at the center of the Divided Realms system and its three dominant realms.",
+            "id": "divided-realms-ruler",
+            "name": "The Divided Realms ruler",
+            "reveal": {
+              "chapter": 2
+            }
+          },
+          {
+            "description": "A powerful devil discovered inside Ryan's camp after concealing herself as a human observer. Silas and Urg penetrate her defenses and identify her within the camp.",
+            "id": "duchess-of-hell",
+            "name": "The Duchess of Hell",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A figure with authority over the concealed devil following Silas. The observer plans to seek revised contractual terms from him as her assignment grows more perilous.",
+            "id": "asmodeus",
+            "name": "Asmodeus",
+            "reveal": {
+              "chapter": 21
+            }
+          },
+          {
+            "description": "An Earth defender helping reinforce the planet while Silas trains in the Divided Realms. His work supports the effort to protect Earth during a period of mounting political pressure.",
+            "id": "abel-kalestian",
+            "name": "Abel Kalestian",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Silas's appointed stand-in on Earth. Rival factions pressure him to accept a formal ruling position while he manages the planet's growing importance as a center of interworld trade.",
+            "id": "jiang",
+            "name": "Jiang",
+            "reveal": {
+              "chapter": 44
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The full identity of Lana, Silas's adopted family member and temporal mage. She volunteers to become his second Horseman and receives a cultivator core that preserves her existing Heavens-system class structure.",
+            "id": "lana-kalestian",
+            "name": "Lana Kalestian",
+            "reveal": {
+              "chapter": 44
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ryan's wives and an accomplished glyph practitioner who teaches Silas her craft. Their joint experiments unite glyphs and runes in equipment that lets several people direct Silas's golems.",
+            "id": "ryans-glyph-master-wife",
+            "name": "Ryan's glyph-master wife",
+            "reveal": {
+              "chapter": 49
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The full identity of Jiang, Silas's delegated authority on Earth. He refuses agreements that would exchange Earth's long-term independence for immediate off-world advantages and resists armed political coercion.",
+            "id": "jiang-bai",
+            "name": "Jiang Bai",
+            "reveal": {
+              "chapter": 71
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A researcher working in Silas's lunar dungeon on a dragon-blood enhancement serum. When a volunteer develops an unstable partial transformation, she reverses the physical effects and continues refining the treatment.",
+            "id": "asta",
+            "name": "Asta",
+            "reveal": {
+              "chapter": 71
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A European political operator who hires an off-world guild to investigate Silas. The arrangement calls for manipulation if possible and removal if that fails, in exchange for authorization to establish a guild chapter house on Earth.",
+            "id": "european-political-operator",
+            "name": "The European political operator",
+            "reveal": {
+              "chapter": 71
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0GNCJTJTK",
+            "type": "community"
+          }
+        ],
+        "work": "unchained"
+      }
+    },
     "uncle-silas": {
       "characters": {
         "characters": [
