@@ -3122,6 +3122,294 @@
         "work": "dunes-of-midnight"
       }
     },
+    "dungeon-born-dramatized-adaptation": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A dying man murdered by black-clad assailants. His disembodied awareness sinks into a mountain crevasse as his memories begin to disappear.",
+            "id": "unnamed-narrator",
+            "name": "Unnamed narrator",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A powerful, distant dungeon who recognizes a newly sentient core and promises to send someone capable of helping it survive.",
+            "id": "cantor",
+            "name": "Cantor",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The name Dani gives the blue dungeon core formed from the murdered narrator. Newly aware and nearly without memories, Cal learns to cultivate essence, shape his cave, and create defensive creatures.",
+            "id": "cal",
+            "name": "Cal",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A pink dungeon wisp sent by Cantor. She bonds with Cal for their mutual survival, relies on his essence, and teaches him how dungeons grow, cultivate, and defend themselves.",
+            "id": "dani",
+            "name": "Dani",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Bane Shroomish"
+            ],
+            "description": "Cal's first stationary dungeon boss, a G-rank 9 mushroom creature armed with poisonous thorns and clouds of spores.",
+            "id": "dire-shroomish-bane",
+            "name": "Dire Shroomish Bane",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A young shepherd who enters the newly discovered dungeon with four companions. He emerges as the only survivor and sees a chance to profit from the site.",
+            "id": "dale",
+            "name": "Dale",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "An abusive and avaricious shepherd in the first group to investigate Cal's dungeon. His treatment of Dale carries into the expedition.",
+            "id": "tim",
+            "name": "Tim",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A dungeon plant that develops vampiric traits after tasting an intruder's blood, allowing it to heal and become stronger through further feeding.",
+            "id": "blood-moss",
+            "name": "Blood Moss",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Bloody Bane"
+            ],
+            "description": "Cal's F-rank 7 replacement boss, combining a large mushroom form with grasping Blood Moss and its ability to recover through blood.",
+            "id": "dire-shroomish-bloody-bane",
+            "name": "Dire Shroomish Bloody Bane",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An elf in the Adventurers Guild scouting party who identifies the Silverwood sapling, shields it from damage, and convinces the group that the dungeon should not be destroyed as infernal.",
+            "id": "guild-elf",
+            "name": "Guild elf",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Guildmaster Frank"
+            ],
+            "description": "The Adventurers Guild leader organizing settlement around the dungeon. He weighs the interests of the guild, the church, elves, and two rival kingdoms while planning how to secure the site.",
+            "id": "frank",
+            "name": "Frank",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Richard"
+            ],
+            "description": "A cleric summoned to establish a church near the dungeon after its unusual interaction with a blessed pendant attracts ecclesiastical attention.",
+            "id": "father-richard",
+            "name": "Father Richard",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An earthen-affinity monk and essence specialist recruited by Frank to train Dale. He quickly identifies dangerous corruption in his new student's cultivation center.",
+            "id": "craig",
+            "name": "Craig",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dagger-wielding member of Dale's regular guild team. He understands cultivation and explains why beginning the discipline at a young age provides lasting advantages.",
+            "id": "hans",
+            "name": "Hans",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Cal's F-rank 9 Armored Basher boss, a granite-shelled rabbit supported by small celestial healers. It guards the redesigned dungeon's deeper floor.",
+            "id": "raile",
+            "name": "Raile",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Small celestial-tainted Basher variants that support Raile by using Mend to heal injuries.",
+            "id": "glitter-flits",
+            "name": "Glitter Flits",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "High Magus Amber"
+            ],
+            "description": "A Portal Guild leader who takes over negotiations after James's failed offer. She agrees to give Dale a share of portal income and travel privileges in exchange for access to his land.",
+            "id": "amber",
+            "name": "Amber",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Portal Guild mage whose contemptuous opening offer nearly costs his organization the right to establish a portal on Dale's mountain.",
+            "id": "james",
+            "name": "James",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The shield bearer in Dale's established guild party. He holds the line against Raile until the Armored Basher destroys his shield during the first battle on the second floor.",
+            "id": "josh",
+            "name": "Josh",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The archer in Dale's established guild party. He carries a powerful longbow and ends the first fight with Raile by placing an arrow through the boss's eye.",
+            "id": "steve",
+            "name": "Steve",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An unidentified attacker who enters Dale's tent. Dale invokes his magically enforced authority as landowner to expel the intruder and anyone connected to the attempt from the mountain.",
+            "id": "masked-intruder",
+            "name": "Masked intruder",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The proprietor of a dining establishment in the Lion Kingdom capital. She wants to open a restaurant near the dungeon and secure cultivation training for her granddaughter.",
+            "id": "madame",
+            "name": "Madame",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Madame",
+              "Madame Chandra"
+            ],
+            "description": "The capital restaurateur previously known as Madame. Chandra is an A-rank 9 plant mage, Frank's former trainer, and Rose's grandmother. She negotiates to establish a restaurant on Dale's land.",
+            "id": "chandra",
+            "name": "Chandra",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Il-Anwa-essa"
+            ],
+            "description": "A dark-elf royal and ambassador for the Huin Nation. She approaches Dale to negotiate access to the Silverwood Tree, whose pollen is essential to her people's fertility.",
+            "id": "brianna",
+            "name": "Brianna",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Chandra's half-elf granddaughter, an archer and chaos cultivator with opposing celestial and infernal affinities. Artificial advancement left her unable to spend essence safely, so Dale offers only a trial place on his new team.",
+            "id": "rose",
+            "name": "Rose",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A deadly predator accidentally brought into the dungeon by Cal's flawed rune array. It bends light, uses darkness and parasitic tentacles, kills Raile and several miners, then occupies the boss room.",
+            "id": "distortion-cat",
+            "name": "Distortion cat",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A barbarian accepted provisionally into Dale's new party. He previously adventured outside the guild and once killed a teammate accidentally with fragments from a shattered enemy.",
+            "id": "tom",
+            "name": "Tom",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A D-rank cleric who joins Dale's provisional party as its healer after earlier treating Josh's injuries.",
+            "id": "adam",
+            "name": "Adam",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B06XQ78XLP",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-born-dramatized-adaptation"
+      }
+    },
     "dungeon-crawler-carl": {
       "characters": {
         "characters": [
