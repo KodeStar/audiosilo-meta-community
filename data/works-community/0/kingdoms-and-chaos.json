@@ -315,6 +315,240 @@
       }
     },
     "kitty-at-st-clares": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Jenny"
+            ],
+            "description": "The sixth-form pupil appointed head girl and games captain for the new term. She announces both positions to the returning girls and begins the term as the senior pupil responsible for school and games leadership.",
+            "id": "jennifer-mills",
+            "name": "Jennifer Mills",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A sixth-form pupil who quickly attracts Alison's admiration, although Alison's friends regard her as spiteful and sly. Her standing among the younger girls is disputed from the beginning of term.",
+            "id": "margaret-winters",
+            "name": "Margaret Winters",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning third-form pupil who is impressed by Margaret Winters and defends her against warnings from friends. Her confidence in the older girl puts her at odds with the prevailing view in her form.",
+            "id": "alison",
+            "name": "Alison",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Amanda"
+            ],
+            "description": "A new third-form pupil and Helen Wilkes's stepsister. She says that she and Helen cannot bear one another, but the third form welcomes her, and she soon finds companionship among its returning pupils.",
+            "id": "amanda-wilkes",
+            "name": "Amanda Wilkes",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Helen"
+            ],
+            "description": "Amanda Wilkes's stepsister and a pupil in the second form. Amanda introduces their relationship as openly hostile and describes Helen as accustomed to being indulged by her wealthy father.",
+            "id": "helen-wilkes",
+            "name": "Helen Wilkes",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Isabel's twin and a returning third-form pupil who cannot start the term with her classmates. A broken right arm keeps her at home for several weeks, leaving Isabel to return to St Clare's alone.",
+            "id": "pat",
+            "name": "Pat",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Pat's twin and a returning third-form pupil. She is unsettled by having to begin the term without her sister, but her old friends welcome her back and she starts getting to know Amanda Wilkes.",
+            "id": "isabel",
+            "name": "Isabel",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Janet"
+            ],
+            "description": "A returning third-form pupil who acts as an informal leader among her classmates. She introduces Amanda to the form and advises her not to answer Helen's attempts to provoke her.",
+            "id": "janet-robins",
+            "name": "Janet Robins",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Kitty Flatty"
+            ],
+            "description": "A new third-form pupil from Kilblarney who arrives with her pet goat, McGinty. She is allowed to keep him in the old stables while her father works in London, provided she prevents him from disrupting school life.",
+            "id": "kitty-flaherty",
+            "name": "Kitty Flaherty",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Kitty Flaherty's pet goat, whose arrival creates a commotion at St Clare's. Miss Theobald lets him stay in the old stables under Kitty's care, with visits restricted to breaks and after school.",
+            "id": "mcginty",
+            "name": "McGinty",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The sensible head of the second form. When Helen belittles Amanda in public, Grace intervenes and makes clear that such treatment is unacceptable, establishing her authority among the younger pupils.",
+            "id": "grace",
+            "name": "Grace",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Barbara"
+            ],
+            "description": "A sixth-form pupil and friend of Jennifer Mills. She is first seen with Jennifer during the excitement caused by Kitty Flaherty's arrival at school with McGinty.",
+            "id": "barbara-thompson",
+            "name": "Barbara Thompson",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Roberta"
+            ],
+            "description": "A returning member of the third form. Margaret Winters marks her and Kitty late while excusing Alison for the same fault, making Bobby one of the first pupils directly affected by Margaret's favouritism.",
+            "id": "bobby",
+            "name": "Bobby",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The third-form mistress. She is away during the first evening after building work forces the second and third forms into shared accommodation, leaving the pupils to manage the initial disruption.",
+            "id": "miss-adams",
+            "name": "Miss Adams",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The French teacher at St Clare's. Kitty deliberately gives her poor pronunciation despite being capable of an excellent accent, making Mam'zelle a recurring target of Kitty's classroom mischief.",
+            "id": "mamzelle",
+            "name": "Mam'zelle",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning third-form pupil drawn into the quarrel over the forms' shared rooms. During the widening argument she confronts Harriet and threatens her before a teacher ends the disturbance.",
+            "id": "carlotta",
+            "name": "Carlotta",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A second-form pupil who takes her form's side in the argument over the crowded shared accommodation. Her exchange with Carlotta helps turn the underlying tension into an open quarrel.",
+            "id": "harriet",
+            "name": "Harriet",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A teacher who intervenes when the dispute between the second and third forms becomes a general quarrel. She stops the confrontation and directs both groups to resolve their disagreements civilly.",
+            "id": "miss-jenks",
+            "name": "Miss Jenks",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The games mistress responsible for the second form's hockey practice. She sees the form perform badly during a troubled session and responds by assigning extra coaching without knowing what caused the difficulties.",
+            "id": "miss-wilton",
+            "name": "Miss Wilton",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A returning third-form pupil who joins Janet, Pat, and Isabel in taking responsibility before Miss Theobald for the fire-bell prank. Her admission helps remove a punishment wrongly imposed on the second form.",
+            "id": "hilary",
+            "name": "Hilary",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Gladys"
+            ],
+            "description": "A returning third-form pupil who challenges Amanda and Helen over their constant hostility. She draws on her own experience of losing a parent to press them to value the family they now share.",
+            "id": "gladys-hillman",
+            "name": "Gladys Hillman",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The headmistress of St Clare's. She handles Kitty's unusual arrival by allowing McGinty to remain at school, but makes Kitty responsible for keeping the goat in the old stables and away from lessons.",
+            "id": "miss-theobald",
+            "name": "Miss Theobald",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B072LQ4PTX",
+            "type": "community"
+          }
+        ],
+        "work": "kitty-at-st-clares"
+      },
       "recaps": {
         "ending": "Margaret Winters is publicly exposed for trying to frame McGinty for the destruction of the kitchen garden, and her earlier role in the fire-bell report is also brought to Miss Theobald's attention. Margaret remains at St Clare's for her final term after her parents intervene, but loses the head-girl position and Miss Theobald's trust. Jennifer Mills is restored as head girl, with Barbara Thompson as deputy. Pat and Isabel have reconciled after Amanda admits hiding their letters, and Amanda is also reconciled with Helen. Amanda will remain with the second form next term while Pat, Isabel, and their classmates advance. The second form moves into its new common room, ending the accommodation dispute. Kitty Flaherty and McGinty are cleared of the garden damage, then leave with Kitty's parents for Kilblarney. The other pupils depart for the holidays with the term's main conflicts resolved.",
         "in_short": "Kitty Flaherty arrives at St Clare's with her goat, McGinty, as building work forces the second and third forms into shared quarters. Their feud leads to a nighttime fire-bell prank, an anonymous report, and the suspension of head girl Jennifer Mills. Alison eventually reveals that she told Margaret Winters the plan and finds the photographs Margaret used as proof. Meanwhile, Amanda Wilkes secretly blocks Pat and Isabel's letters out of fear of losing Isabel's friendship, but confesses and is forgiven. Kitty and Grace later expose Margaret's attempt to destroy the kitchen garden and blame McGinty. Jennifer is restored as head girl, Barbara Thompson becomes deputy, and Margaret remains at school without her former standing. Amanda makes peace with Helen and will join the second form next term. The forms reconcile, while Kitty and McGinty leave for Kilblarney at the end of term.",
