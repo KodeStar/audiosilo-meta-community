@@ -896,6 +896,337 @@
         "work": "reborn-as-a-demonic-tree-6"
       }
     },
+    "reborn-as-a-demonic-tree-7": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "the All-Seeing Eye"
+            ],
+            "description": "The demonic tree who rules Ashfallen and protects Red Vine Peak. A Nascent Soul cultivator with a vast network of offspring and servants, he must prepare his territory when the Beast Tide begins years ahead of schedule.",
+            "id": "ashlock",
+            "name": "Ashlock",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Stella Crestfallen"
+            ],
+            "description": "Ashlock's adopted daughter and a formidable ether cultivator. The Celestial Empire considers her vital to its survival, while the World Tree calls her a daughter and expects her to become its salvation.",
+            "id": "stella",
+            "name": "Stella",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A world-scale tree exploited by the Celestial Empire for life-extending sap. Hostile to the mortals who have used her, she unleashes the Beast Tide early and identifies Stella as her blood-related daughter.",
+            "id": "world-tree",
+            "name": "World Tree",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Monarch Realm founder and leader of the Celestial Empire. His weakening hold over the empire coincides with an open conflict against the World Tree, whose power his government has long exploited.",
+            "id": "celestial-empire-chairman",
+            "name": "Celestial Empire chairman",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An absent figure connected to Stella's origins and remembered as her apparent father and rescuer. His past choices remain important to her sense of family, but his present whereabouts and purpose are unknown.",
+            "id": "janus",
+            "name": "Janus",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Celestial Warden directing the Eternal Pursuit Pavilion's evacuation of Nightshade City. He bargains with Stella to shelter millions of residents, then conceals her location when ordered to capture her.",
+            "id": "tiberius",
+            "name": "Tiberius",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Stella's disciple, newly enrolled in the Eternal Pursuit Pavilion. She belongs to Ashfallen's rising generation and enters the organization under Stella's guidance as the Beast Tide forces a vast civilian evacuation.",
+            "id": "jasmine",
+            "name": "Jasmine",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A defeated enemy of Ashfallen whose death carries a substantial Eternal Pursuit Pavilion bounty. Stella presents his head to the pavilion as proof of the claim.",
+            "id": "vincent-nightrose",
+            "name": "Vincent Nightrose",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An Ashfallen Grand Elder, master builder, and controller of the Mudcloaks. Though wary of the project's demands, he accepts responsibility for creating shelter and infrastructure for millions of evacuees in Nightrose City.",
+            "id": "douglas",
+            "name": "Douglas",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dangerous and poorly understood entity associated with Nox. Her possible exposure to an arriving Celestial Warden is serious enough that Ashlock treats her presence and true nature as urgent security risks.",
+            "id": "nyxalia",
+            "name": "Nyxalia",
+            "reveal": {
+              "chapter": 3
+            }
+          },
+          {
+            "description": "One of Ashfallen's Grand Elders, Margret manages the sect's ethereal communications and assists Douglas in reaching the northern front to collect construction workers.",
+            "id": "margret",
+            "name": "Margret",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Stella's close ally and an Ashfallen Grand Elder. She serves as a dependable emergency contact, relaying Douglas's request for Stella's help when the wall defenders are overwhelmed.",
+            "id": "diana-ravenborne",
+            "name": "Diana Ravenborne",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An earth cultivator working with Douglas and Sam on the northern defensive wall as the Beast Tide approaches.",
+            "id": "hugo",
+            "name": "Hugo",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A shadow cultivator and overseer of Tartarus who is understood to control an alter ego called Nyxalia. Their presence is a security concern as Ashfallen prepares for outside scrutiny.",
+            "id": "nox",
+            "name": "Nox",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ashlock's Midnight Ink Lindworm summon. Though still a developing creature, Kaida is already part of Ashfallen's unusual collection of allies and is present as the sect prepares for harder Beast Tide waves.",
+            "id": "kaida",
+            "name": "Kaida",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A ninth-stage Star Core light-affinity Ent who defends one of Ashfallen's wall sectors against the early Beast Tide attackers.",
+            "id": "sol",
+            "name": "Sol",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A five-year-old Silverspire prodigy and Ashfallen ally who has already reached the final stage of Silver Core. His recall home places him at the center of a dangerous family contest for his father's shed core.",
+            "id": "ryker",
+            "name": "Ryker",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Ashfallen cultivator who evaluates the advancing Beast Tide. She expects its next escalation to bring much stronger monsters to the front within roughly a fortnight.",
+            "id": "elaine",
+            "name": "Elaine",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ryker's mother, one of the Silverspire Grand Elder's wives, protects her son from competing family branches. She summons him home when the contest for the Silver Core reaches its decisive stage.",
+            "id": "rykers-mother",
+            "name": "Ryker's mother",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ryker's attendant and bodyguard, responsible for escorting the young heir through the coming Silverspire succession struggle. He recognizes Stella and Diana as Ryker's sworn senior sisters in Ashfallen.",
+            "id": "sebastian-silverspire",
+            "name": "Sebastian Silverspire",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A fifth-stage Nascent Soul shadow lich Ent created by Ashlock. Assigned as Stella's shadow guard for the Silverspire journey, he is one of the expedition's strongest protectors.",
+            "id": "anubis",
+            "name": "Anubis",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A figure Stella recognizes after he summons her into a Crestfallen-linked shard of the Mystic Realm.",
+            "id": "elder-vortexian",
+            "name": "Elder Vortexian",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior Ashfallen fire cultivator who enters the Mystic Realm in pursuit of a breakthrough. He refuses a guaranteed escape fruit, believing that reliance on retreat would compromise the resolve needed for his path.",
+            "id": "grand-elder-redclaw",
+            "name": "Grand Elder Redclaw",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ryker's father and the head of a family divided among rival wives and heirs. His impending Golden Core ascension will leave behind a Silver Core, turning the succession dispute into an immediate and lethal contest.",
+            "id": "silverspire-grand-elder",
+            "name": "Silverspire Grand Elder",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The senior wife presiding over Silverspire's response after Ashlock attacks a family envoy. She directs the hostile branch as the family receives Ashlock's captured sword and learns of the All-Seeing Eye's involvement.",
+            "id": "silverspire-first-wife",
+            "name": "Silverspire first wife",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Monarch Realm spatial cultivator of the Celestial Empire and a leading power in the Flower Accord. He seizes Ashlock's awakened soul sword, then uses it to manipulate both Silverspire and rival imperial enforcers.",
+            "id": "councilman-cyphion",
+            "name": "Councilman Cyphion",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A mortal woman in Darklight City who was once mistreated by a fallen cultivator. Rather than dismissing him as beyond redemption, she offers compassion and urges him to accept help after losing his power.",
+            "id": "mary",
+            "name": "Mary",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Ashlock's newly named flagship, a two-core bastion combining void and ether abilities. Its arrival inspires a shared sense of unavoidable doom, even among civilians who do not understand its connection to Ashfallen.",
+            "id": "moros",
+            "name": "Moros",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Elysia Mistshroud"
+            ],
+            "description": "A Nascent Soul cultivator who returns from the Mystic Realm in a wooden avatar. Her infant soul was grown inside a demonic seedling descended from Ashlock, and she describes herself as his vessel rather than his child.",
+            "id": "elysia",
+            "name": "Elysia",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A crippled former cultivator who has the means to restore his cultivation but rejects a return to the pursuit of power and seeks an ordinary future.",
+            "id": "sullivan",
+            "name": "Sullivan",
+            "reveal": {
+              "chapter": 33
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A death-affinity elder who joins Elysia's effort to recover souls during the funeral, working with the Blightbane family as participants in the rite.",
+            "id": "elder-blightbane",
+            "name": "Elder Blightbane",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Harbinger of the Eternal Ash"
+            ],
+            "description": "Ashfallen's Monarch Realm guardian and Ashlock's evolved divine ash companion. His protective domain can preserve mortally wounded allies as ash statues, making him central to the defense of the funeral rite.",
+            "id": "larry",
+            "name": "Larry",
+            "reveal": {
+              "chapter": 37
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The half-human daughter of the dragon primal overlord and a commander within the Beast Tide. Monster testimony places her near the front of the advancing horde.",
+            "id": "dragonkin-commander",
+            "name": "Dragonkin commander",
+            "reveal": {
+              "chapter": 43
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Star Core survivor of Ashlock's attack on a group of flying beasts. Spared after asking to speak, it provides information about the Beast Tide and accepts a communication jade to approach the dragonkin commander.",
+            "id": "fire-wyvern",
+            "name": "Fire wyvern",
+            "reveal": {
+              "chapter": 44
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0GD8SK52W",
+            "type": "community"
+          }
+        ],
+        "work": "reborn-as-a-demonic-tree-7"
+      }
+    },
     "recitatif": {
       "characters": {
         "characters": [
