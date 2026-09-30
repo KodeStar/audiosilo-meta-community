@@ -4463,6 +4463,32 @@
           }
         ],
         "work": "so-long-and-thanks-for-all-the-fish"
+      },
+      "recaps": {
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "book",
+            "text": "Prostetnic Vogon Jeltz learns that Earth still exists even though its demolition was officially recorded. He is ordered to answer for the failure, turning the planet's survival into a Vogon bureaucratic problem. Meanwhile, Arthur Dent crosses the galaxy by hitchhiking and reaches an apparently restored Earth. Its society and his home seem unchanged, although he knows that the world he left was destroyed. A lorry driver gives him a lift and unknowingly brings rain wherever he goes. The driver introduces Arthur to his sister, Fenchurch, who had been hospitalized after the supposed mass vision of yellow spacecraft. She remains certain that the event was real and has unusual brainwave activity linked to the experience. Arthur later finds her again, and the two begin a relationship while she searches for the significance of a revelation she has lost. Elsewhere, Ford Prefect discovers that the Guide now describes Earth as an existing destination. He secures transport and sets course for the planet to investigate the change.",
+            "through": {
+              "chapter": 1
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Fenchurch explains that she received a profound insight in a cafe shortly before Earth's apparent destruction, but the meaning has vanished from her memory. At a hearing, the failure of Prostetnic Vogon Jeltz to destroy Earth is confirmed. Although the bypass that prompted the order is obsolete, the Vogon authorities refuse to reverse a registered decision openly. They instead plan an indirect response to Earth's existence across multiple dimensions. Arthur then discovers that Fenchurch does not touch the ground. She teaches him to fly, and they use their shared ability as they pursue answers about her revelation and the missing dolphins. Their search takes them to California and Wonko the Sane, a dolphin researcher who lives in a house arranged as an asylum with the world outside it. He recognizes their engraved glass bowls as gifts left by the dolphins. When struck, a bowl plays a farewell announcing that the dolphins undertook a campaign to save humanity before leaving. The precise link between that effort and Earth's restoration remains unknown. Arthur and Fenchurch continue investigating together, Earth remains under threat from the standing Vogon order, and Ford Prefect is still on his way to the planet.",
+            "through": {
+              "chapter": 2
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B002V1AGC8",
+            "type": "community"
+          }
+        ],
+        "work": "so-long-and-thanks-for-all-the-fish"
       }
     }
   }
