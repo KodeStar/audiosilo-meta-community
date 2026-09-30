@@ -2705,6 +2705,279 @@
         ],
         "work": "childhoods-end-arthur-c-clarke"
       }
+    },
+    "children-of-angels": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Hansel Minnick"
+            ],
+            "description": "A Perseus Union Marine corporal who enters occupied Tenerife with Tomiko under a civilian identity. He is responsible for helping San Cristobal's population escape before the coming assault, with Punch providing implanted tactical support.",
+            "id": "rev",
+            "name": "Rev",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Tomiko",
+              "Leona Galdos"
+            ],
+            "description": "Rev's Marine partner on the covert Tenerife mission. Working under the identity Leona Galdos, she shares responsibility for organizing civilians while keeping the impending Perseus Union assault secret.",
+            "id": "tomiko-reiser",
+            "name": "Tomiko Reiser",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Rev's implanted battle buddy AI, able to monitor him and supply tactical information during the infiltration of Tenerife.",
+            "id": "punch",
+            "name": "Punch",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The officer directing the Marine teams covertly inserted on Tenerife.",
+            "id": "lieutenant-omastori",
+            "name": "Lieutenant Omastori",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning Marine from Rev's raider circle and a comrade from the earlier campaign.",
+            "id": "bundy",
+            "name": "Bundy",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning raider who belongs to Rev's established Marine circle.",
+            "id": "nix",
+            "name": "Nix",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning Marine known to Rev from the prior campaign.",
+            "id": "sergeant-mason",
+            "name": "Sergeant Mason",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A San Cristobal civilian who prevents collaborator Kyle from exposing Rev and Tomiko, then guides the infiltrators into the city's tunnel network.",
+            "id": "lima",
+            "name": "Lima",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Children of Angels collaborator who challenges Rev and Tomiko's assumed identities and attempts to alert others before Lima intervenes.",
+            "id": "kyle",
+            "name": "Kyle",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Captain of the 31st cordon and one of the San Cristobal civilians recruited into the small group planning the evacuation.",
+            "id": "fidor-lemaire",
+            "name": "Fidor Lemaire",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A distribution manager who joins the civilian evacuation planners while voicing concern about the approaching assault.",
+            "id": "amicia-lynn",
+            "name": "Amicia Lynn",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A city ballet dancer who joins the evacuation group and argues that San Cristobal's civilians must begin organizing before the attack.",
+            "id": "elizabeth-riths-lorraine",
+            "name": "Elizabeth Rith's Lorraine",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A restaurant owner brought into the small circle of civilians helping the Marines prepare San Cristobal's evacuation.",
+            "id": "nick",
+            "name": "Nick",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A retired Perseus Union staff sergeant who joins Rev at the forced-labor site. Armed with a Moray launcher, he helps destroy the guards and free the workers.",
+            "id": "tanton-mccough",
+            "name": "Tanton McCough",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A civilian evacuee who supports the injured Craig after a Centaur courser attacks the column at Silver Bridge.",
+            "id": "vivian",
+            "name": "Vivian",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An injured civilian in the evacuation column, aided by Vivian after the attack at Silver Bridge.",
+            "id": "craig",
+            "name": "Craig",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A civilian evacuee who suffers fatal cardiac distress while the column tries to escape the fighting.",
+            "id": "fint",
+            "name": "Fint",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A staff sergeant who trains Rev's team for combat against the Children of Angels. His former personnel assignment required him to draft many death notifications, one concerning his own brother, and that experience drove him to seek combat duty.",
+            "id": "staff-sergeant",
+            "name": "Staff sergeant",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Frisian Host commando attached to the raiders. The Marines use this nickname because they find the Host's names difficult to pronounce.",
+            "id": "ting-ling",
+            "name": "Ting Ling",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A frightened child whom Rev finds holding the dead-man switch for a backpack bomb. She says Mr. Mark ordered her to wait for Marines and detonate, although she does not want to die.",
+            "id": "kat",
+            "name": "Kat",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Children of Angels adult whom Kat identifies as the person who left her with a bomb and instructed her to kill Marines.",
+            "id": "mr-mark",
+            "name": "Mr. Mark",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The civilian leader of an experimental prosthesis project. She offers Rev a weapon-integrated arm as an alternative to years of regeneration and makes clear that the procedure carries unknown risks.",
+            "id": "bionics-research-lead",
+            "name": "Bionics research lead",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A project technician who conducts Rev's painful neural-interface baseline test and explains that no previous human has received this degree of biosynthetic connection.",
+            "id": "prosthetics-technician",
+            "name": "Prosthetics technician",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The staff sergeant leading Tomiko's team when it returns from patrol and cleanup duty on Alafia.",
+            "id": "tomikos-team-leader",
+            "name": "Tomiko's team leader",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Rev's experimental weapon prosthesis, built around a short-range energy cannon and supplemented by a heavy projectile weapon, missiles, sensors, and a functional hand.",
+            "id": "poshu",
+            "name": "Poshu",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An unnamed Omega Division investigator who disables Punch, extracts information from Rev's implant, clears him of leaking a classified secret, and declines to report an unrelated false statement revealed by the extraction.",
+            "id": "omega-division-agent",
+            "name": "Omega Division agent",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior commander who is introduced to Poshu when the secret project is disclosed to 1st Raider Platoon ahead of a planned combat trial.",
+            "id": "colonel-destefny",
+            "name": "Colonel Destefny",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A raider deployed with Rev's platoon on TRT-36 for Poshu's proof-of-concept mission against an isolated Centaur group.",
+            "id": "yazzie",
+            "name": "Yazzie",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B098FGQ9Q8",
+            "type": "community"
+          }
+        ],
+        "work": "children-of-angels"
+      }
     }
   }
 }
