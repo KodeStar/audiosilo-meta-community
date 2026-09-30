@@ -3070,6 +3070,130 @@
         "work": "the-hitchhikers-guide-to-the-galaxy-secondary-phase"
       }
     },
+    "the-hitchhikers-guide-to-the-galaxy-tertiary-phase": {
+      "characters": {
+        "characters": [
+          {
+            "description": "An Earthman who has spent four years stranded on prehistoric Earth. When Ford Prefect returns, Arthur joins him in using a space-time disturbance to escape their long isolation.",
+            "id": "arthur-dent",
+            "name": "Arthur Dent",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A Guide researcher and Arthur Dent's off-world companion. After four years apart on prehistoric Earth, he finds Arthur again and leads him into an unstable route away from the planet.",
+            "id": "ford-prefect",
+            "name": "Ford Prefect",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The former captain of the Heart of Gold, now travelling aboard it with Trillian. His earlier pursuit of Zarniwoop and encounter with the Total Perspective Vortex continue to trouble him.",
+            "id": "zaphod-beeblebrox",
+            "name": "Zaphod Beeblebrox",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A traveller aboard the Heart of Gold alongside Zaphod Beeblebrox. At this point she is sharing his journey while he remains preoccupied with events from his earlier search.",
+            "id": "trillian",
+            "name": "Trillian",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A depressed robot marooned among sentient mattresses after earlier damage left him with a crude artificial leg. White cricket robots seize him and take the replacement limb.",
+            "id": "marvin",
+            "name": "Marvin",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "cricket robots"
+            ],
+            "description": "White robotic agents that seize Marvin and his artificial leg. Their arrival establishes them as an immediate danger, although their larger purpose is not yet known.",
+            "id": "white-cricket-robots",
+            "name": "White cricket robots",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An accidentally immortal being engaged in a personal project to insult every being individually and in alphabetical order.",
+            "id": "wowbagger",
+            "name": "Wowbagger",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An investigator for the Campaign for Real Time. After the Ashes are stolen, he recruits Arthur and Ford and explains that the theft is connected to the dangerous Wicket Gate.",
+            "id": "slartibartfast",
+            "name": "Slartibartfast",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A repeatedly reincarnated figure who accuses Arthur of causing his death across many lives and intends revenge.",
+            "id": "reincarnating-adversary",
+            "name": "Reincarnating adversary",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A thunder god accompanying Trillian at a party that has remained airborne for a very long time.",
+            "id": "thor",
+            "name": "Thor",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A vast intelligence that designed a universe-destroying supernova bomb for a warlike species. It deliberately placed a defect in the weapon and was destroyed by its creators.",
+            "id": "vast-computer",
+            "name": "Vast computer",
+            "reveal": {
+              "chapter": 5
+            }
+          },
+          {
+            "description": "A witness given an excessive dose of truth drug. He claims that the Ultimate Question and the Answer cannot exist together in one universe, but then loses access to most of what he knew.",
+            "id": "prack",
+            "name": "Prack",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:uk:B004EM0RN0",
+            "type": "community"
+          }
+        ],
+        "work": "the-hitchhikers-guide-to-the-galaxy-tertiary-phase"
+      }
+    },
     "the-hobbit": {
       "characters": {
         "characters": [
