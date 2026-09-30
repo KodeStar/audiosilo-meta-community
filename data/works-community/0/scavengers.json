@@ -2187,6 +2187,179 @@
         "work": "secret-of-the-phoenix"
       }
     },
+    "secrets-of-the-sword-1": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Val"
+            ],
+            "description": "A half-elven investigator, mother, and co-owner of the Sable Dragon. While examining a deadly device in a cranberry bog, she breaks it with Chopper. The contact leaves her hand afflicted by hostile magic and turns the sword into a signal that draws dangerous creatures.",
+            "id": "val-thorvald",
+            "name": "Val Thorvald",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Zavryd",
+              "Zav"
+            ],
+            "description": "A dragon lord, son of a dragon queen, and Val's mate under dragon custom. He comes to Earth to guard Val when Chopper begins broadcasting its location, but he cannot remove the added Fae magic without also risking the sword's older enchantments.",
+            "id": "zavryd-nokquetal",
+            "name": "Zavryd'nokquetal",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's telepathic magical tiger companion. He tracks traces near the cranberry bog, travels with her when Chopper attracts attackers, and fights at her side against the creatures pursuing the sword, while also warning her when danger approaches.",
+            "id": "sindari",
+            "name": "Sindari",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's ancient enchanted dwarven sword. Striking the bog device entangles it with Fae magic, making it a long-range beacon coveted by magical beings. Removing that new magic without destroying the weapon's original abilities becomes a central problem.",
+            "id": "chopper",
+            "name": "Chopper",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val and Thad's fifteen-year-old daughter and one of Val's sword students. Her relationship with Val is strained, and she worries that Thad's growing relationship with Nin will cost her time and closeness with her father.",
+            "id": "amber",
+            "name": "Amber",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A gnomish weapons craftsperson, Val's friend, and a co-owner of the Sable Dragon. She has begun dating Thad, which concerns Amber.",
+            "id": "nin",
+            "name": "Nin",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's quarter-dwarf housemate, an enchanter, and the principal owner of the Sable Dragon. He helps defend their home when magical enemies attack.",
+            "id": "dimitri",
+            "name": "Dimitri",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A vampire alchemist who lives with Val and shares ownership of the Sable Dragon. He studies Chopper with specialized equipment and contributes an expensive formula capable of destroying the fire magic used against Val's home.",
+            "id": "zoltan",
+            "name": "Zoltan",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's superior and the official sponsor of her magical investigations. She arranges the cranberry-bog assignment, mobilizes personnel to investigate the device and possible Fae access, and offers additional protection as the threat around Chopper grows.",
+            "id": "willard",
+            "name": "Willard",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Dr. Walker"
+            ],
+            "description": "A lion shifter physician called to treat Val after an attack at her home. He repairs her burns and bite wounds, but determines that the older injury to her hand is magical poisoning and takes samples in search of a treatment.",
+            "id": "dr-daku-walker",
+            "name": "Dr. Daku Walker",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Zav's sister"
+            ],
+            "description": "Zav's younger sister and a dragon healer in training. Zav considers consulting her when neither Val's natural recovery nor his own healing magic can close the wound left by the bog artifact, making her a possible specialist in the search for a cure.",
+            "id": "zandaya-kadashi",
+            "name": "Zandaya Kadashi",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's unnamed younger half-sister, an elf who studies engineering and magical research. She identifies the effect on Chopper as far-reaching imbuing magic, suspects the bog device was a deliberate trap, and begins teaching Val to control roots.",
+            "id": "vals-younger-elf-half-sister",
+            "name": "Val's younger elf half-sister",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "The elven king"
+            ],
+            "description": "Val's elven father and the ruler of an elven city. His unexpected illness draws Val's younger half-sister away from Earth while Val is still trying to understand the magic afflicting Chopper and her wounded hand.",
+            "id": "vals-father",
+            "name": "Val's father",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's former husband and Amber's father. He is dating Nin and considering a costly gift for her, a development that makes Amber fear losing his attention.",
+            "id": "thad",
+            "name": "Thad",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An unidentified elf whose recent magical residue is detected around Val's protected home. The evidence establishes that an elven visitor has been watching or entering the area, but provides no reliable identity or motive.",
+            "id": "elven-watcher",
+            "name": "The elven watcher",
+            "reveal": {
+              "chapter": 9
+            }
+          },
+          {
+            "description": "A half-troll enchanter who trains Dimitri. Her instruction supports his effort to spend more time developing magical craft and metal art while the Sable Dragon's owners consider how to reduce his routine shop workload.",
+            "id": "inga",
+            "name": "Inga",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B08WCG6GK2",
+            "type": "community"
+          }
+        ],
+        "work": "secrets-of-the-sword-1"
+      }
+    },
     "secrets-of-the-sword-2": {
       "recaps": {
         "ending": "Val stops the dragon lich's poison from reaching the arriving Stormforge dragons while the relic hunter holds back the undead and dies in the effort. Zav and his clan kill the lich, its skeletal army collapses, and Zav destroys the remaining poison device. Sindari survives his injuries. A dwarven envoy verifies that Chopper was forged by the hunter's ancestor and allows Val to wield it against oppressive dragons, provided it eventually returns to the dwarven people. The envoy will supply records and teach her about the blade. On Earth, Val's mother is safe with help from her werewolf neighbor. Police try to arrest Dimitri, but Nin's investigation points them toward Maggie Kohler, and Zav forces them to release Dimitri and pursue that lead. The murder inquiry remains open. Dimitri accepts the role of Zav's best man, Willard continues arranging the celebrations, and Val and Zav move ahead with a wedding that now includes more dragon guests. Elven scrutiny of Val's mother also remains unexplained.",
