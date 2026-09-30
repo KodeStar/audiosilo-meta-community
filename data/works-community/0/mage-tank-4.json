@@ -1331,6 +1331,296 @@
       }
     },
     "magic-heist": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A goat shifter who is turning a rented warehouse into a base for her artifact-retrieval crew. Riley can perceive magic but cannot cast ordinary spells, and she begins the new Enclave assignment while still trying to understand that contradiction.",
+            "id": "riley-cruz",
+            "name": "Riley Cruz",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A wolf-shifter pack leader, tribunal authority, and Riley's romantic partner. He helps the crew establish its warehouse headquarters and is serious about pursuing a relationship with Riley while balancing his wider responsibilities.",
+            "id": "max-volkov",
+            "name": "Max Volkov",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A former Green Beret who serves as the crew's security specialist. Nash helps prepare the warehouse and joins Riley's Enclave operation, bringing practical field experience to a group that expects both magical and conventional threats.",
+            "id": "nash-mitchell",
+            "name": "Nash Mitchell",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A vampire who provides technical and intelligence support to Riley's crew. Dez joins the work of equipping their shared headquarters and brings skills suited to research, surveillance, and creating the infrastructure behind an operation.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A necromancer and one of Riley's trusted co-operators. Callie helps establish the warehouse base, works directly alongside Riley, and is protective when Riley's developing relationship with Max Volkov enters the crew's shared life.",
+            "id": "callie",
+            "name": "Callie",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "B",
+              "Bee"
+            ],
+            "description": "A witch allied with Riley who helps give the new headquarters a working magical library. Bea contributes books and supplies from the closed Old World Occult and Curiosities before leaving for a coven-related meeting.",
+            "id": "bea",
+            "name": "Bea",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Riley's witch mentor and a trusted source of magical analysis. Helen belongs to the close circle helping with coven affairs and is positioned to investigate why Riley can see magic even though she cannot use it in the usual way.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A witch in Helen's trusted circle. Alice joins Helen, Bea, and Janice for a coven-related meeting as Riley's crew settles into its new headquarters, placing her among the allies involved in the group's magical concerns.",
+            "id": "alice",
+            "name": "Alice",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A witch allied with Riley and part of Helen's close circle. Janice attends the coven-related meeting with Helen, Bea, and Alice while Riley's artifact crew prepares its warehouse for future operations.",
+            "id": "janice",
+            "name": "Janice",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Craig",
+              "Ward"
+            ],
+            "description": "A tribunal enforcer and Enclave shadow who helps Riley's group equip its warehouse. Craig is accustomed to official supernatural enforcement, giving the newly assembled crew a direct connection to the institutions behind its assignments.",
+            "id": "craig-ward",
+            "name": "Craig Ward",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Sato"
+            ],
+            "description": "Riley's Enclave handler. Sato contacts her after the warehouse gathering to arrange a video call about a new assignment, serving as the official channel through which the crew receives supernatural retrieval work.",
+            "id": "cage-sato",
+            "name": "Cage Sato",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A rooster brought to the warehouse by Nash while the crew establishes its headquarters. Garth is an unusual but accepted presence among the assembled operatives, though nothing at his introduction explains whether he has any role beyond accompanying the group.",
+            "id": "garth",
+            "name": "Garth",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Bellarose"
+            ],
+            "description": "A recently released artifact conspirator who still has access to a stolen blood-tracing spell. The Enclave cannot hold her because Isaac and Luca Cardelli are unavailable as witnesses, leaving her free and dangerous as Riley begins a new recovery job.",
+            "id": "zara-bellarose",
+            "name": "Zara Bellarose",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Cardelli"
+            ],
+            "description": "A former Enclave retrieval specialist identified as the operative who betrayed the organization and delivered demon cuffs to Zara Bellarose. His absence also helps prevent the Enclave from making its case against her.",
+            "id": "luca-cardelli",
+            "name": "Luca Cardelli",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Corville"
+            ],
+            "description": "A stuntman who appeared in Hollywood six months earlier and now displays a demon spellbook in his home. His conspicuous parties give Riley's team a possible route to the artifact, but the Enclave does not yet know whether he is human or supernatural.",
+            "id": "monty-corville",
+            "name": "Monty Corville",
+            "reveal": {
+              "chapter": 2
+            }
+          },
+          {
+            "aliases": [
+              "Amelia Cruz"
+            ],
+            "description": "The woman who raised Riley and whom Riley regards as her mother. Records identify her as Amelia Hunt and reveal a concealed history involving elite schooling, varied technical training, stolen property, and an unresolved East Coast art-heist arrest before she vanished from official records.",
+            "id": "amelia-hunt",
+            "name": "Amelia Hunt",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Max Volkov's pack leadership who handles administrative problems in his absence. Tegan contacts him about a bar disturbance during his first official date with Riley, showing how readily pack business intrudes on his private time.",
+            "id": "tegan",
+            "name": "Tegan",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Irina"
+            ],
+            "description": "Max Volkov's mother, whose unexpected arrival at his Kansas City home interrupts the aftermath of his date with Riley. Her presence immediately raises questions about Volkov's family and what her visit may mean for his developing relationship.",
+            "id": "irina-volkov",
+            "name": "Irina Volkov",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Kansas City coven’s high priestess, who leaves Riley a message demanding a supposedly friendly meeting. Riley interprets the demand as pressure to submit to a formal magical evaluation.",
+            "id": "martha",
+            "name": "Martha",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Martha"
+            ],
+            "description": "The Kansas City coven leader’s full identity. Her organization receives a public-nuisance citation tied to a vending-machine prank outside its headquarters.",
+            "id": "martha-matthews",
+            "name": "Martha Matthews",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A subordinate in Martha Matthews's coven who helps enforce the high priestess's claim over Riley. Alona fastens magic-canceling cuffs on Riley during the forced transfer to coven headquarters for evaluation.",
+            "id": "alona",
+            "name": "Alona",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A witch member of the supernatural tribunal who convenes an emergency hearing after the coven complains about Riley, placing her in a position to consider the competing claims of coven and shifter authority.",
+            "id": "celeste",
+            "name": "Celeste",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The vampire representative on the supernatural tribunal. Norman supports the coven's request to compel Riley's evaluation during the emergency hearing.",
+            "id": "norman",
+            "name": "Norman",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Max Volkov's deceased sister, remembered through his piano playing and her desire to become a Bolshoi prima ballerina. Her love of ballet remains a private source of grief that Riley encounters while seeking refuge at Volkov's home.",
+            "id": "anya",
+            "name": "Anya",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Robert",
+              "Thompson"
+            ],
+            "description": "A set designer on Monty Corville's film and the leading match for the pool worker seen before Corville's death. A purchase trail for pool chemicals connects Robert to the investigation, though the team has not yet confirmed whether he was the masked thief or an accomplice.",
+            "id": "robert-thompson",
+            "name": "Robert Thompson",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Phoebe"
+            ],
+            "description": "Robert Thompson's wife and the air-magic practitioner identified as Riley's attacker during the spellbook theft. Property records connect the couple to a Nebraska ranch and an old missile silo, making Phoebe central to the crew's new lead.",
+            "id": "phoebe-thompson",
+            "name": "Phoebe Thompson",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A fire elemental from Omaha who arrives as backup through Bea's discreet Witch's Council contact. Erica says she has Council support and proposes involving local law enforcement, but Riley has not approved her presence or confirmed the extent of her authority.",
+            "id": "erica",
+            "name": "Erica",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0DKGFDWF9",
+            "type": "community"
+          }
+        ],
+        "work": "magic-heist"
+      },
       "recaps": {
         "ending": "Riley's team interrupts Robert and Phoebe Thompson's ritual at the Nebraska missile silo. Bea contains Robert, Phoebe is knocked unconscious, and Erica is left unconscious after joining the fight. The crew escapes with both the demon spellbook and the ritual map, but their final custody and the later fate of the three people at the silo are not established. Riley's ability to absorb and release Phoebe's air magic proves that her power is more than simple nullification. One week later, the crew formally names its warehouse GOAT, short for Grabbing Overpriced Artifacts and Titles. Riley and Max Volkov attend the opening of his children's Nutcracker production, and he includes her in his remembrance of Anya. The immediate ritual has failed, but the child who commands water and air remains unidentified. Zara Bellarose and Luca Cardelli are still free, the apartment bombing and the coven's claimed containment order remain unresolved, and Riley still does not know the source or limits of her abilities or the truth of her parentage. Riley and Bea have eased their immediate conflict without fully repairing it.",
         "in_short": "Riley Cruz establishes a warehouse for her artifact-retrieval crew while learning that her apparent inability to cast magic may instead be a rare null power. An Enclave assignment sends the crew after a demon spellbook displayed by Hollywood stuntman Monty Corville, but Corville is killed and Robert and Phoebe Thompson take the book. At the same time, Martha Matthews's coven tries to force Riley into evaluation, Riley's apartment is bombed, and Max Volkov's mother challenges their relationship. The trail leads to a Nebraska missile silo, where the Thompsons use the spellbook to trace a child with both water and air powers for a veil-breaking sacrifice. Riley's crew stops the ritual, recovers the book and its map, and contains Robert. During the fight, Riley absorbs and releases Phoebe's air magic, showing she is not merely a null. The crew later names its base GOAT, and Riley joins Volkov at the Nutcracker memorial he created for his sister Anya, while the elemental child, the bombing, Riley's origins, and several enemies remain unresolved.",
