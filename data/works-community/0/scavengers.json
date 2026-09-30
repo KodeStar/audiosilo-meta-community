@@ -4231,6 +4231,78 @@
         "work": "sense-sensibility"
       }
     },
+    "sentenced-to-war": {
+      "recaps": {
+        "ending": "After two months of restricted Omega Division debriefing, Rev and Tomiko return to their unit but must conceal the organic operator found inside a Centaur Reaver. They infer that a mechanical failure prevented the Reaver from destroying itself and that its occupant later suffocated, but these conclusions are not officially confirmed. Their proposed citations are cancelled to protect the secret. Fatima's survival remains unknown, while Chrissy, Staff Sergeant Montez, and Dean Ballister are dead. Bundy plans to reenlist, Yancey appears likely to do the same, and Cricket and Udu have grown close. Rev and Tomiko still intend to leave for civilian life until the Union extends expiring enlistments by one year. On the day once reserved for their discharge gathering, the surviving friends meet and honor the fallen. Rev gives his battle buddy the name Punch, accepts continued service beside his friends despite resenting the extension, and turns toward another expected fight with the Centaurs.",
+        "in_short": "Rev expects to become a crystal technician, but a manual-driving conviction instead sends him into the Marines. Choosing a short direct-combat term over decades of labor service, he accepts compulsory augmentation and becomes a raider beside Tomiko Reiser. Their first campaign at Preacher Rolls ends in catastrophic defeat, although Rev destroys a Centaur Paladin. A later assault captures an alien emitter at the cost of Staff Sergeant Montez, Dean Ballister, and other Marines. Rev and Tomiko then discover that a Centaur Reaver contains a small organic operator. Omega Division confiscates the evidence, detains them, and suppresses their citations. As Rev's three-year term expires, a Union-wide extension adds another year to his service. With Chrissy also dead but Bundy, Yancey, Cricket, Udu, Orpheus, and Tomiko still beside him, Rev names his AI Punch and prepares for the next campaign.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "book",
+            "text": "Rev is nearing graduation and expects a crystal-technician apprenticeship arranged through his stepfather, Max Thronson. At Gray Creek Park, a dispute involving his girlfriend Mia ends with Rev knocking a gamer unconscious and fleeing. Authorities charge him only for manually driving in an autonomous zone, but a recent change has made that offense eligible for conscription. The court sentences him to report to the Marines after his eighteenth birthday. At Camp Alyssa Nguyen, Rev meets fellow conscripts Tomiko Reiser, Yancey, Cricket, and Ten. Placement testing leaves him with grim choices: decades as a laborer, a longer support term, or three years in direct combat with a stated 78 percent mortality rate. Rev chooses direct combat. During Hell Week he learns to accept Bundy's help and qualifies for the next phase. He then discovers that direct-combat service requires compulsory, otherwise illegal augmentation. An implanted interface gives him uploaded military knowledge, while further compulsory enhancements and an implanted battle buddy are still ahead. Rev's attempt to choose the shortest path has placed his body and survival under military control.",
+            "through": {
+              "chapter": 7
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The recruit command admits that the war is going badly and that normal restrictions on human enhancement have been suspended. Rev and Tomiko enter a secluded medical program where Rev learns he will become an 023 raider, operating in small teams behind enemy lines. His tailored suite combines mechanical support, biosynthetic systems, animal-derived changes, and a battle buddy AI. Refusal is not a meaningful option, and another recruit dies after rejecting the procedure. Rev's circle responds to the danger by promising to reunite on the final day of their three-year terms. As the modifications develop, volunteer Udu openly rejects contempt for conscripts and affirms that the recruits now share one Marine identity. Rev struggles to use his new strength and initially resists his AI's guidance, but training gradually teaches him to combine its calculations with his own judgment. In a solo field test at Safe Harbor, he avoids an unnecessary encounter with a Centaur, survives a concealed training trap, plants a mine on the objective, and finishes before the deadline. He passes raider training and is ready to graduate as Private Reverend Pelletier.",
+            "through": {
+              "chapter": 14
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Rev and Tomiko join Charlie Company's depleted raider platoon and are assigned together to Third Team. Their arrival makes the war's cost immediate: Cricket reports that Chrissy died when Centaurs destroyed her transport, leaving no survivors. A simulated raid tests the new team under communications failure. Rev leads an element against a Centaur Paladin while Tomiko supports the attack, but the exercise ends before its result is known. The reason is an approaching real deployment, with only forty-three hours left before embarkation. Rev receives a brief, monitored visit home. He withholds operational details and finds that he no longer feels fully at ease while his Marine companions prepare to leave. He returns privately to Max, admits both his fear and his desire to prove himself, and calls his stepfather Dad while acknowledging that he may not come back. Third and Fourth Teams then board a cramped Navy skiff with their equipment. The Marines do not know where they are going and can only speculate until notice arrives for the long-awaited mission briefing.",
+            "through": {
+              "chapter": 18
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The raiders deploy ahead of a larger assault to retake Preacher Rolls, where the Centaurs previously killed more than two billion people. Rev survives a dangerous solo insertion and reaches his team, which follows the guide Fatima toward a ground cannon threatening Marine landing craft. A Centaur drone kills Fatima, but the team carries her preserved body in hope of later treatment. Staff Sergeant Montez destroys the cannon. While observing the main landing area, Rev discovers a Paladin close to his concealed position. Jamming prevents a warning, and the machine prepares to engage incoming craft, so Rev attacks it with a grenade. Tomiko reaches him before the damaged Centaur explodes. Rev survives with a burned foot and a ruined boot, and Lieutenant Omastori recommends him for a Platinum Nova. When the wider battle collapses, his teammates carry and support him to emergency extraction. Back at Camp Nguyen, the survivors learn the scale of the disaster: only 540 of the 2,406 Griffins personnel who landed were recovered. Yancey requires nerve reconstruction, Udu has lost half her mech squad, and the division is no longer fit for combat.",
+            "through": {
+              "chapter": 25
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The shattered units are reorganized, and Rev and Tomiko become private first class. Lieutenant Smith takes command of their company while Lieutenant Omastori leads the raider platoon. Allied Frisian Host commandos arrive to reinforce it despite the long distrust between their people and the Union, and they integrate successfully during the following months. Rev then learns that his Platinum Nova recommendation was denied even after high-level approval. Omastori believes public recognition for the Paladin kill would expose the suppressed scale of the Preacher Rolls defeat. Rev declines an offer to seek political help for a lesser decoration. A newly assigned raider, Mordecai Gantz, turns out to be the gamer Rev assaulted before enlistment. Rev apologizes, and Gantz accepts, adding that the unreported fight did not cause his own conscription. Rev offers to help him establish the nickname Strap. At the first annual examination of their augmentations, Rev, Tomiko, and other survivors are screened for genetic drift and Wiseland syndrome, known as the rot. Rev remains cleared for duty and continues taking Cryosoul, though the doctor offers no guarantee about his future health.",
+            "through": {
+              "chapter": 29
+            }
+          },
+          {
+            "scope": "book",
+            "text": "After months of training, a domestic group briefly breaches Camp Nguyen before Marines subdue its armed members. The regiment soon deploys to an uninhabited terraforming world occupied by Centaurs. The thin atmosphere makes oxygen deprivation an additional threat, and raiders and sappers undergo severe acclimation work before landing. The force advances on a vital emitter complex that must be captured intact. A Centaur EMP disables communications and drones, but hardened equipment and Rev's crystal-housed AI continue functioning. Inside the complex, a Paladin kills one Marine and critically wounds the team gunny. At a tunnel entrance, another Paladin ambushes the raiders. Staff Sergeant Montez destroys it with a missile and dies in its return fire, saving the nearby survivors. Rev falls into the tunnel with a concussion and dislocated shoulder. Sergeant Nix sends Tomiko and the remaining mobile Marines onward while Rev stays behind, and Udu later helps extract him after the emitter is secured.",
+            "through": {
+              "chapter": 36
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Two days after the emitter assault, Rev and Tomiko patrol for Centaur survivors and find a crashed Reaver that gives off almost no carbon dioxide. It neither reacts to their drone nor destroys itself. Inspection reveals a small dead organic being inside the machine, overturning their assumptions about the enemy. Rev records the evidence and reports it through military channels. Omega Division immediately takes control of the Reaver and its occupant, confiscates Rev's drone data, and removes Rev, Tomiko, and Lieutenant Omastori for an off-site debriefing without allowing normal communication with their command. The other team members are segregated, and Tomiko's battle buddy is taken as well. Rev and Tomiko spend two months in comfortable but restricted custody, separated from their units and AIs while questioning continues. From the questions they hear, they infer that a mechanical fault prevented the Reaver from self-destructing and that the organic operator survived the crash but later died from lack of oxygen. Those conclusions remain inference rather than an official explanation. Omega Division finally releases the witnesses to rejoin their units, but the Centaur discovery remains classified.",
+            "through": {
+              "chapter": 40
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Rev and Tomiko return under a cover story that most Marines accept, although Bundy seems doubtful. Their battle buddies are restored, but Rev suspects Omega Division may have altered or monitored his AI. The unit tests a long-range launcher designed to resist Centaur jamming. With eighty-one days left, Rev and Tomiko still plan to leave the Corps, while Bundy has filed to reenlist and Rev expects Yancey to follow. Cricket and Udu have become close. Lieutenant Omastori confirms that proposed citations for Rev and Tomiko were cancelled because any public account would expose the classified Reaver discovery. Rev again rejects reenlistment and expects to begin his postponed guild job immediately after discharge. Regimental officials instead halt discharge processing, and Omastori learns that the Union will extend expiring military terms by one year. The extension cancels the freedom promised by Rev's original sentence. On the intended discharge date, Tomiko, Bundy, Orpheus, Yancey, Cricket, Udu, and other friends gather with Rev and honor Chrissy and the other dead. Rev raises his AI's personality setting and names it Punch. Though angry about the forced extension, he accepts remaining beside his surviving friends and prepares for another Centaur campaign.",
+            "through": {
+              "chapter": 43
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B091J42ZBH",
+            "type": "community"
+          }
+        ],
+        "work": "sentenced-to-war"
+      }
+    },
     "sentimental-education": {
       "characters": {
         "characters": [
