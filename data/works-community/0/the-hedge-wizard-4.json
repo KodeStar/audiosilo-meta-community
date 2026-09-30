@@ -2901,7 +2901,7 @@
             "role": "protagonist"
           },
           {
-            "description": "A robot travelling with Zaphod and the Heart of Gold party. He is beside Zaphod at the Guide offices when Frogstar forces seize the building, and he enters Zarniwoop's office with Zaphod and a fellow researcher.",
+            "description": "A robot travelling with Zaphod and the Heart of Gold party. He is beside Zaphod at the Guide offices when Frogstar forces seize the building.",
             "id": "marvin",
             "name": "Marvin",
             "reveal": {
@@ -2910,7 +2910,7 @@
             "role": "supporting"
           },
           {
-            "description": "An unseen Guide figure whom a message inside Zaphod's mind compels him to seek. Staff at the Guide offices say Zarniwoop is away on an intergalactic cruise, although the cruise is somehow contained within his office.",
+            "description": "An unseen Guide figure whom a message inside Zaphod's mind compels him to seek. Staff at the Guide offices say Zarniwoop is away on an intergalactic cruise.",
             "id": "zarniwoop",
             "name": "Zarniwoop",
             "reveal": {
@@ -2928,7 +2928,7 @@
             "role": "supporting"
           },
           {
-            "description": "A fellow Guide researcher travelling with Zaphod during the assault on the Guide offices. The researcher helps Zaphod and Marvin reach Zarniwoop's office, where a contained alternate universe is presented as a possible escape route.",
+            "description": "A fellow Guide researcher travelling with Zaphod during the assault on the Guide offices.",
             "id": "guide-researcher",
             "name": "Guide researcher",
             "reveal": {
