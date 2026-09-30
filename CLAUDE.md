@@ -129,6 +129,19 @@ on that pull request could touch. Every finding and note begins `<work-slug>
 outside the pull request (audiosilo-meta-sync `scope.go`). This render and
 aggregation are the community's own; core's script has no `existing` list.
 
+**A rebase that leaves the judged context unchanged reuses the verdict**
+(`.github/scripts/ai-verify-reuse.sh`, core's byte for byte; the `reuse` step).
+The key is the SHA-256 of context.txt and the scripts and workflow that judge it;
+a fresh verdict appends `<!-- ai-verify-key: <sha> verdict: pass|flag -->` as
+its comment's LAST line, and a later run with the same key re-applies that label
+with no model call and no new comment. Only github-actions[bot]'s newest verdict
+comment counts and only its last line is read; a skip is never reused; a
+workflow_dispatch, a re-run (`run_attempt > 1`) or the opt-in label always
+judges afresh. Every merge makes the intake sweep rebase every open intake pull
+request, and each rebase re-ran the model on content it had already judged: N
+ready pull requests cost about N*(N+1)/2 model runs (14, about 100, on
+2026-09-30), and a verdict on unchanged content could flip between rebases.
+
 ## Conventions
 
 - **No AI attribution anywhere.** No `Co-Authored-By` trailers, no "Generated
