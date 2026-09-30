@@ -267,6 +267,300 @@
         "work": "fifteen-dogs-tenth-anniversary-edition"
       }
     },
+    "fifth-formers-of-st-clares": {
+      "characters": {
+        "characters": [
+          {
+            "description": "An independent Fifth Former, Antoinette's elder sister and Mam'zelle's niece. She intends to continue resisting school conventions.",
+            "id": "claudine",
+            "name": "Claudine",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Claudine's younger sister, newly arrived in the Second Form from France. She is also Mam'zelle's niece.",
+            "id": "antoinette",
+            "name": "Antoinette",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Fifth Form's only new pupil. She presents herself as a poet and claims a literary family background.",
+            "id": "anne-marie-longden",
+            "name": "Anne-Marie Longden",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A musically gifted pupil newly moved into the Fifth Form from the Fourth Form.",
+            "id": "felicity-ray",
+            "name": "Felicity Ray",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A pupil reassigned from the Sixth Form to the Fifth Form.",
+            "id": "alma-pudden",
+            "name": "Alma Pudden",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Fifth Former who hopes to succeed Annie Thomas as sports captain.",
+            "id": "mirabel",
+            "name": "Mirabel",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Fifth Form's head girl.",
+            "id": "hilary",
+            "name": "Hilary",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning Fifth Former and Isabel's twin.",
+            "id": "pat",
+            "name": "Pat",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Tante Mathilde"
+            ],
+            "description": "The school's French teacher and aunt of Claudine and Antoinette. She supervises French work and has a direct family connection to the two sisters newly reunited at St Clare's.",
+            "id": "mamzelle",
+            "name": "Mam'zelle",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Fifth Former who expects younger pupils to perform personal tasks for her.",
+            "id": "angela",
+            "name": "Angela",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Angela's close companion, who joins her in using younger pupils as personal helpers.",
+            "id": "alison",
+            "name": "Alison",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Pauline"
+            ],
+            "description": "A Fifth Former without a close friend in the form. Matron assigns her to share a study with Alma, an arrangement she accepts reluctantly.",
+            "id": "pauline-bingham-jones",
+            "name": "Pauline Bingham-Jones",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Claudine's study partner. Matron expects the pair may be troublesome together.",
+            "id": "carlotta",
+            "name": "Carlotta",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The headmistress of St Clare's. She has already cautioned Felicity's parents that relentless music preparation is placing too much pressure on a pupil who must also manage her regular studies.",
+            "id": "miss-theobald",
+            "name": "Miss Theobald",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of the school staff who allocates the Fifth Form's shared studies. Her pairings leave Anne-Marie with Felicity and the reluctant Pauline with Alma.",
+            "id": "matron",
+            "name": "Matron",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Doris"
+            ],
+            "description": "Pam's Fifth Form study partner.",
+            "id": "doris-elward",
+            "name": "Doris Elward",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Doris Elward's friend and Fifth Form study partner.",
+            "id": "pam",
+            "name": "Pam",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Mirabel's newly appointed vice-captain, helping her lead school games.",
+            "id": "gladys",
+            "name": "Gladys",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The new English teacher, a published poet whose unconventional but knowledgeable lessons engage the Fifth Form. Alison and Anne-Marie are especially eager for her attention.",
+            "id": "miss-willcox",
+            "name": "Miss Willcox",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning Fifth Former who is sceptical of Alison and Anne-Marie's literary enthusiasm for the new English teacher.",
+            "id": "bobby",
+            "name": "Bobby",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A First Former caught between two loyalties. She is devoted to Angela and performs personal jobs for her, but she also cares about lacrosse and faces Mirabel's demand that games take priority.",
+            "id": "jane-teal",
+            "name": "Jane Teal",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Jane Teal's First Form friend and adviser. She supports Jane as the younger pupil struggles to reconcile Angela's demands with her commitment to lacrosse.",
+            "id": "sally",
+            "name": "Sally",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A First Former eager to gain Angela's approval. She readily takes Jane's place as Angela's personal helper when the older pupil withdraws her favour from Jane.",
+            "id": "violet-hill",
+            "name": "Violet Hill",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Miss Willcox"
+            ],
+            "description": "The name Alison and Anne-Marie use for Miss Willcox. Their shared admiration for the English teacher also becomes a rivalry for her attention.",
+            "id": "deirdre",
+            "name": "Deirdre",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Antoinette"
+            ],
+            "description": "Angela's new name for Antoinette. Under this name, the younger girl appears eager to help while privately resisting Angela's attempt to turn her into a servant.",
+            "id": "tony",
+            "name": "Tony",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Pat's twin and a returning Fifth Former. During the fire alarm she helps organise an orderly evacuation of the school alongside other senior pupils.",
+            "id": "isabel",
+            "name": "Isabel",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A teacher who objects when Alison and Anne-Marie copy Miss Willcox's appearance and manner, and firmly rebukes them for the imitation.",
+            "id": "miss-cornwallis",
+            "name": "Miss Cornwallis",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The Second Form's head girl. She receives Mirabel's command to postpone the form's midnight feast, but the younger pupils intend to go ahead and delay giving their answer.",
+            "id": "katie",
+            "name": "Katie",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Deirdre",
+              "Miss Willcox"
+            ],
+            "description": "Miss Willcox's actual given name, disclosed when Anne-Marie challenges the English teacher's judgment. The girls' earlier use of Deirdre was another name associated with their imitation and devotion.",
+            "id": "doris-willcox",
+            "name": "Doris",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B071FCH122",
+            "type": "community"
+          }
+        ],
+        "work": "fifth-formers-of-st-clares"
+      }
+    },
     "finale-stephanie-garber-3": {
       "characters": {
         "characters": [
