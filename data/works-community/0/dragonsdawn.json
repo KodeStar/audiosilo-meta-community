@@ -3754,6 +3754,32 @@
           }
         ],
         "work": "dungeon-madness-dramatized-adaptation"
+      },
+      "recaps": {
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Cal is the concealed intelligence of the dungeon beneath the Silverwood Tree, aided by his wisp, Dani. Dale is an adventurer and landowner whose party includes the cleric Adam and the experienced adviser Hans.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Dale leaves the dungeon alive after the confrontation with the distortion cat, even though the creature had apparently killed him. His health presents a puzzle: he is severely underweight, his eyes have changed from brown to blue, and he cannot remember anything between his death and return. Chandra, Richard, Frank, and Amber meet the survivors and investigate. Rose answers Chandra's criticism of Hans by explaining that, despite grave injuries, he poisoned the cat so the others could escape. Hans now requires flesh-mage surgery and at least a week of recovery. Adam also pays a permanent price, falling to D-rank IV after fueling a powerful combat prayer with his cultivation.\n\nCal identifies himself to Dale through their mental link and warns him to keep the dungeon's identity hidden from the powerful people outside. The connection ends once Dale passes beyond the dungeon, and Cal receives no answer when he tries again. Within the sealed complex, Cal and Dani confront a dwindling population and the loss of outside essence. They plan an overhaul of the mines, garden, first two monster floors, and bosses, plus a new third floor containing distortion cats and advanced bashers. Renewable treasure and exits after boss fights are also part of the design. Cal means to finish the reconstruction before the entrance barrier is lifted.",
+            "through": {
+              "chapter": 1
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B0764H7Y83",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-madness-dramatized-adaptation"
       }
     },
     "dust": {
