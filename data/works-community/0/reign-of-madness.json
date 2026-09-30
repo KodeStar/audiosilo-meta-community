@@ -357,6 +357,57 @@
         "work": "reign-of-madness"
       }
     },
+    "relic-hunter": {
+      "recaps": {
+        "ending": "Riley, Dez, and Volkov escape Damien Creed's Flagstaff auction with the war scythe after Riley steals it and the group frees Volkov from Creed's guards. Callie and Craig recover the dagger, and the scythe is used to defeat the demon posing as Fred Parker. The Enclave sends Cage Sato to take charge of the weapons, but Riley negotiates a new career recovering other demon-made artifacts for a fixed fee, expenses, independence, and a team of her choice. Sato becomes her handler, and she retains the dagger as a loaned tool. Dez, Callie, Craig, Helen, and the witches remain allies, while Nash is a possible recruit for protective work. Volkov stays outside Riley's team because his need to control danger still conflicts with her autonomy. Carl and Creed remain alive and hostile, with Creed's financing of Carl now exposed. Dez also discovers that the records of Santiago and Amelia Cruz were fabricated, leaving Riley's true family history unresolved.",
+        "in_short": "Former thief and goat shifter Riley Cruz steals a demon-killing dagger with help from her vampire friend Dez, hoping its sale will fund her freedom from Carl, the abusive alpha who raised and trained her. The theft draws pursuit from demon hunter Nash Mitchell, while Carl threatens Riley's witch family and uses a false sale to ambush her. Riley kills Carl's subordinate Mateo, but the apparent buyer Fred Parker proves to be a demon and takes the blade. Riley, Dez, and Max Volkov then steal Damien Creed's war scythe, the only other known demon-killing weapon. The demon is defeated, the dagger is recovered, and Riley accepts independent, well-paid Enclave work retrieving more infernal artifacts. Carl and Creed remain threats, Riley and Volkov remain allies despite their conflict over control, and evidence that Riley's parents used false identities opens a deeper mystery about her past.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "book",
+            "text": "Riley Cruz is a goat shifter and former thief living quietly in Kansas City, where she works at the Sundowner and avoids joining local alpha Max Volkov's pack. After losing her job, she pursues an online auction for a valuable magical dagger as a possible escape fund. Her vampire friend Dez discovers that his former cybersecurity company protects the auction and helps trace the seller to a small museum in Stull. Meanwhile, Riley learns that Volkov has a private investigator in Santa Fe, raising fears that he may be connected to Carl, the alpha she fled years ago. With a disguise from her necromancer friend Callie, Riley confirms the dagger's location. She and Dez use a herd of goats as a diversion, enter the museum, overpower its armed human guard, and escape with the weapon. The guard identifies it as a demon blade. Riley hides it and contacts Santa Fe broker Levin under an old underworld identity, asking him to find a buyer.",
+            "through": {
+              "chapter": 10
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Riley joins Callie and Mira in banishing Zepar, the demon Callie summoned. She recognizes Zepar as the hooded stranger who steered her toward the dagger auction, confirming that he manipulated her into taking the blade. After the ritual succeeds, Volkov explains that Carl contacted him while searching for a runaway who matched Riley's former appearance. Volkov refused Carl access to Kansas City and hired Raul Garcia to investigate him, easing Riley's suspicion that Volkov had betrayed her. New ritual murders of witches begin in Kansas City and Chicago, while Levin reports interest from a possible dagger buyer. Riley continues to conceal the weapon and her history from most of her friends. The museum's former guard then finds and ransacks her apartment, escaping after shooting at Volkov. Although the dagger remains hidden, Riley now knows its prior owner is tracking her. She moves with the blade into Volkov's home for protection without telling him what she possesses.",
+            "through": {
+              "chapter": 15
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Riley and Volkov begin a brief sexual relationship, but their conflict over protection and control persists. A private investigator's report ties Carl to violence and suspicious money, reveals that the fire record for Riley's parents lists no survivor, and finds no official record that Riley exists. Riley rejects Volkov's renewed demand that she join his pack, ending their intimacy. She finally tells Callie how Carl raised her and trained her for increasingly dangerous thefts. When Callie and Craig plan a trip to Romania to investigate the witch murders, Riley secretly joins them and carries the dagger abroad. In Bucharest, Riley breaks into a private vault so Callie can retrieve her grandmother's box, which contains photographs that create a new lead. At the Compound, Volkov's brother Aleksei receives the group after armed personnel seize them. Volkov explains that his father sent him there for a ten-year term and that he escaped after four years, helping Riley understand the roots of his controlling protectiveness. The visit produces no confirmed answer to the murder investigation.",
+            "through": {
+              "chapter": 22
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Back in Kansas City, Dez identifies the dagger's former owner as Nash Mitchell, a former Green Beret whose tinnitus appears to block vampire compulsion. Nash has planted surveillance in Riley's apartment, so she feeds him false information. Carl then sends his werewolf subordinate Mateo to threaten Helen and the other witches unless Riley returns the Alatyr Stone. Riley tells her witch family about the danger, and they choose to prepare defenses. Levin secures a half-million-dollar buyer and moves the exchange to rural Oklahoma. Before Riley can leave, Nash kidnaps her and explains that he used the dagger auction to attract demons, but she escapes. Riley retrieves the blade and travels with Dez to the sale while hiding Carl's involvement from Volkov. Carl and Mateo arrive instead, exposing Levin's betrayal. During the fight, Mateo badly injures Dez, and Riley kills Mateo with the dagger. Carl escapes when a bystander approaches. The weapon absorbs Mateo's blood and its gem flares, revealing a disturbing new property.",
+            "through": {
+              "chapter": 27
+            }
+          },
+          {
+            "scope": "book",
+            "text": "After Carl's ambush, Riley and Dez confront Levin, who admits he sold her out. Dez identifies the auction's highest bidder, Fred Parker, and Riley arranges a direct exchange in Oklahoma City. She separates from Dez to misdirect Carl, but Parker is a full demon rather than a human buyer. He overpowers Riley and takes the dagger without paying. Volkov retrieves Riley and brings her home, where the tribunal learns that the stolen blade is one of only two weapons known to kill demons. The other is a war scythe scheduled for sale by Damien Creed. Riley, Dez, and Volkov prepare to take it from Creed's Flagstaff auction. Dez also traces the money behind Carl's rise as Santa Fe alpha to Creed, linking Riley's enemies. By the close of the numbered story, the trio has reached Flagstaff, studied the abandoned factory used for the auction, obtained uniforms and plans, and planted communications equipment. Their remaining obstacles include armed supernatural guards, a warded vault, and a magical oath controlling access to the scythe.",
+            "through": {
+              "chapter": 31
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B0D6H783HC",
+            "type": "community"
+          }
+        ],
+        "work": "relic-hunter"
+      }
+    },
     "remembrance": {
       "characters": {
         "characters": [
