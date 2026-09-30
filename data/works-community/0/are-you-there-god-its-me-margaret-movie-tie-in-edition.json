@@ -3067,6 +3067,76 @@
           }
         ],
         "work": "ascend-online"
+      },
+      "recaps": {
+        "ending": "Lyrian's rescue force destroys the goblin settlement, enters the underground Annulment Spire, and finds three surviving members of the missing research expedition. Graves and a goblin shaman complete a ritual that manifests Slave King Abdiel. Amaranth kills the shaman but dies to Abdiel, temporarily weakening Lyrian until the familiar can respawn. Lyrian uses the annulment sphere to absorb Abdiel's essence, then kills Graves. The sphere is reduced to ordinary iron, and Graves's half-orc enforcer escapes. Back in Aldford, the rescued survivors join Donovan and the settlement is safe for the moment. Lyrian's ether-altered condition has worsened into mana void: he cannot regenerate mana naturally and must treat it as a survival resource, though he gains the ability to drain mana through touch. He founds Virtus to protect Aldford and the surrounding region. Aldwin remains the settlement's leader, Lyrian's core party survives, and the ruptured ley system, unusual oak, valuable ruins, noble sponsor, and missing enforcer remain unresolved. Graves respawns and is sentenced to prolonged imprisonment, but a mind-reading woman removes him after recruiting him as an agent, preserving his path to revenge.",
+        "in_short": "Marcus and five friends enter Ascend Online, where his avatar, Lyrian Rastler, is diverted to the besieged village of Aldford. Lyrian helps save and rebuild the settlement, reunites with his companions, and leads them against magically altered spiders. He frees his puma nemesis from Destruction's control, names the transformed familiar Amaranth, and claims stewardship over a ruin above a ruptured ley line. Aldford then defeats Graves, an adventurer seeking kingship through coerced followers, and welcomes many of his former captives. Pursuing kidnappers into a goblin stronghold, Lyrian's force interrupts a ritual that restores Slave King Abdiel. Amaranth dies killing the goblin shaman, while Lyrian absorbs Abdiel's essence and kills Graves. Lyrian returns severely altered, founds Virtus to defend Aldford, and awaits Amaranth's return. Graves respawns into imprisonment but escapes by accepting an unknown woman's offer to become her agent.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "book",
+            "text": "Marcus and his five longtime gaming friends prepare for the launch of Ascend Online, a full-immersion game whose mechanics are largely concealed. They enter long-term hibernation pods, expecting to begin together. During character creation, Marcus creates Lyrian Rastler, a human novice intended to combine swordplay and magic. He chooses the Open-minded trait, Power Attack, a rusty sword, and an empty spellbook.\n\nA locked capital prevents Lyrian from reaching the planned starting point. The game instead sends him to Aldford during a goblin raid. He learns basic combat and stealth skills while helping the villagers defend their town hall. Bann Aldwin equips him, and a Dawnfather priest reports that an unknown fire-user destroyed the settlement's gate. Lyrian rescues the village smith and merchant, then helps free captives from a goblin wagon. The raid ends with the surviving captives recovered, although five villagers have died. Lyrian reaches level four, completes his tutorial, and binds his resurrection point to Aldford. He can now contact other players, but he remains separated from his friends in a damaged and vulnerable settlement.",
+            "through": {
+              "chapter": 4
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Aldwin asks Lyrian to help rebuild Aldford within thirty days, warning that failure could cost him his position. Lyrian learns that his friends are traveling from their intended start and should reach him soon. The village merchant gives him basic crafting instruction and sells him the Flare spell on credit. Lyrian begins gathering food, hides, and ore while training combat and magic.\n\nA puma nearly kills him, and a stronger one drives him over a cliff into Crater Lake. Lyrian survives, mines copper and tin, and falls into an ancient underground ruin. There he defeats a rare undead commander with an improvised weapon, reaches level six, and recovers a damaged relic sword. He escapes the ruin near Aldford, leaving its deeper sections unexplored. Back in the village, the half-orc cook teaches him recipes and Herbalism. Lyrian refines his materials, makes a full set of light armor, and experiments successfully with a copper frying pan. With the smith's guidance, he reforges the relic into a superior bronze sword named Razor and gains a new reforging trait. Better equipped and able to support several village trades, he returns to the wild to gather more supplies for Aldford.",
+            "through": {
+              "chapter": 8
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Lyrian settles his debt to Aldford's merchant, maps Crater Lake, and locates another entrance to the underground ruins. In the Webwood he finds rapidly increasing numbers of venomous spiders. A trail of cocoons leads him to a giant spider and an unconscious huntress named Natasha, whom he rescues and carries back to Aldford. Natasha later explains that goblins attacked her Mages Guild research expedition while it searched for ruins. Aldford responds to the wider spider danger with a large extermination quest.\n\nLyrian chooses the path toward becoming a Spellsword and receives a second spell from Aldwin. His five friends finally arrive with damaged equipment after a difficult journey. Lyrian supplies them with armor and weapons, while the group combines its trade skills and binds its resurrection points to Aldford. They form a six-person party under Lyrian's leadership and enter the Webwood to train and complete the spider quest. During an overlarge engagement, the party faces spiderlings, giant spiders, and a magical aberration. Misha saves Lyrian from one giant spider, but the aberration leaves him critically wounded. The puma from his earlier escape then attacks and kills him, and the game identifies the animal as his strengthened personal nemesis.",
+            "through": {
+              "chapter": 15
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Lyrian returns from his first death with permanent facial scars. Aldwin reveals himself as Sir Frederick Aldwin, an experienced knight, and trains Lyrian in swordsmanship and protecting others. Lyrian's friends survive the Webwood battle and commit themselves to Aldford. Together with the residents, they dig a defensive ditch and prepare obstacles while gathering ore, herbs, and food. Several party members reach level ten and choose their classes.\n\nA night attack brings spiderlings into Aldford and a rare Webwood Horror against the party. Two companions die but resurrect, and the defenders destroy the creature. Lyrian reaches level ten, then chooses Spellsword and gains Arcane Sight, Shocking Touch, and Blink Step. Aldwin turns the spider mission into a unique assignment to find and destroy the source of the creatures' magical changes.\n\nLyrian uses the Horror's mana-infused remains to improve the party's equipment. An acorn planted above discarded ichor grows into a magically active blue oak. With Natasha retained as Aldford's scout, Lyrian and his five companions head toward Crater Lake. Halcyon helps Lyrian cast Blink Step successfully, and the friends compare their new class abilities. At the lake they see webbing spreading beyond the Webwood, confirming that the threat is expanding.",
+            "through": {
+              "chapter": 24
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The party discovers that Webwood spiders are fleeing stronger ether-altered predators. Following the disturbance, they find Natasha's ruined expedition camp and are attacked. Lyrian's puma nemesis enters the battle, fights both Lyrian and the predators, and then races toward the suspected ley line. The pursuit leads into a buried ruin whose defenses release creatures and people from temporal suspension. A human expedition mage, Donovan Cain, joins the party while they survive the automated purge.\n\nDeeper inside, an ether-warped spider queen occupies the ruptured ley line. The puma is driven by visible black strands of control, and Lyrian tackles it into the magical flow. He tears away the controlling strands and frees it. Creativity subsequently confronts Destruction, identifying that opposing power as the source of the puma's compulsion and magical sight.\n\nEther exposure transforms both Lyrian and the animal. Lyrian names his newly intelligent, blue-furred familiar Amaranth, and their bond permits mental communication and mutual awareness. Donovan reveals that an unnamed noble house funded his expedition to secure the ley line. Lyrian refuses to surrender the ruin, which may be a dormant translocation hub. Returning to Aldford, the group reports that goblins may have abducted the missing expedition members. Aldwin reveals that his settlement is a political exile financed by the same noble house and advises Lyrian to form a guild before claiming the ruin.",
+            "through": {
+              "chapter": 34
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Aldford displays the slain Webwood Queen's skull, rewards Lyrian's party, and completes its perimeter defenses. Donovan studies the ether-warped oak while patrols search for the missing expedition and goblin captives. About 130 adventurers then approach in sharply divided groups, including an abused and hungry contingent. Lyrian puts Aldford on a war footing.\n\nTheir leader, Graves, demands the settlement and explains that his quest to become an independent king requires followers who have been broken into obedience. He expects to profit from the achievement and its recordings. Aldwin declares his force outlawed. Lyrian badly wounds Graves, Aldford breaks the main charge, and the captives revolt during the retreat. Graves escapes east, surrounded by a crowned crimson spirit that Lyrian can perceive.\n\nThe liberated adventurers camp outside Aldford while their spokesperson explains how Graves recruited and then coerced them. She and two allies organized resistance by hiding food. Captured enemies support her account. Aldford's leaders decide to offer the refugees citizenship in exchange for material contributions, obedience to local law, and defense of the settlement. Aldwin produces a charter capable of binding citizens to those terms and asks Lyrian's group to become the first adventurers formally joined to Aldford. Graves remains at large, and his equipment or the crowned spirit may be influencing him.",
+            "through": {
+              "chapter": 39
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Graves's diminished force is captured by goblins after he yields control to the spirit of Slave King Abdiel. Aldford admits many former captives as citizens, gaining labor, defenders, and new building plans. When goblins seize another hunting party, an imprisoned scout offers to guide Lyrian's rescue force to Graves. Amaranth locates the goblin den at a fallen watchtower.\n\nLyrian's force breaches the settlement, burns its defenses, and discovers the true operation underground. Graves's half-orc enforcer leaves murdered prisoners as bait for ether-warped ghouls, including transformed expedition members, then escapes. Beneath the tower, Graves and a goblin shaman use an annulment sphere and an ether column to release Abdiel. Three expedition members remain alive nearby. The ritual manifests the king at great strength. Amaranth kills the shaman but dies to Abdiel, weakening Lyrian until the familiar returns. Lyrian uses the sphere to absorb Abdiel's essence, leaving himself severely wasted, and then kills Graves.\n\nThe survivors return to Aldford with the rescued expedition members and valuable relics. Lyrian's condition becomes mana void: his mana no longer regenerates naturally, and reaching zero harms him, though he can now drain mana through physical contact. With Aldford safe for the moment, he announces the creation of Virtus, a guild dedicated to protecting the settlement and surrounding region. The half-orc enforcer remains free, and Amaranth is awaiting respawn.",
+            "through": {
+              "chapter": 46
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Three days after the battle, Graves has respawned and is serving a one-hundred-day sentence in the Tower of Atonement. He has lost his equipment, and former followers imprisoned with him repeatedly hunt and kill him. With ninety-seven days remaining, he appears trapped in a cycle of punishment.\n\nA pale-skinned, white-eyed woman arranges a private meeting with him inside the prison. She can read at least part of his thoughts and offers him a renewed opportunity for revenge. In exchange, Graves must serve as her independent agent in the city. As hostile inmates close in and threaten to discover the meeting, he accepts her hand. She transports him away, allowing him to escape his immediate confinement under an unexplained bargain.\n\nAldford therefore ends the main conflict secure for now under its charter and the protection of the newly founded Virtus, while Lyrian survives in his altered mana-dependent state and awaits Amaranth's respawn. Slave King Abdiel is destroyed, but Graves remains alive with a new patron. His half-orc enforcer is also still at large, and the damaged ley system, political interests around the ruin, and the unknown woman's plans remain open threats.",
+            "through": {
+              "chapter": 47
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B073PG4DX8",
+            "type": "community"
+          }
+        ],
+        "work": "ascend-online"
       }
     },
     "ashes-in-the-snow-movie-tie-in": {
