@@ -2871,6 +2871,162 @@
       }
     },
     "the-hitchhikers-guide-to-the-galaxy-secondary-phase": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A surviving Earthman marooned with Ford Prefect in Earth's remote past. After two years without rescue, he joins Ford in examining a ship whose appearance seems linked to whether they seriously confront their predicament.",
+            "id": "arthur-dent",
+            "name": "Arthur Dent",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A Guide researcher stranded beside Arthur Dent on prehistoric Earth. Ford recognizes that the intermittently visible ship presents a causal paradox, giving the two companions their first plausible route away from the planet's distant past.",
+            "id": "ford-prefect",
+            "name": "Ford Prefect",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A fugitive former Galactic President and patient of Gag Halfrunt. He escapes a reported death when the creature that swallowed him becomes a capsule, then follows a message planted in his own mind directing him to find Zarniwoop.",
+            "id": "zaphod-beeblebrox",
+            "name": "Zaphod Beeblebrox",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A robot travelling with Zaphod and the Heart of Gold party. He is beside Zaphod at the Guide offices when Frogstar forces seize the building.",
+            "id": "marvin",
+            "name": "Marvin",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An unseen Guide figure whom a message inside Zaphod's mind compels him to seek. Staff at the Guide offices say Zarniwoop is away on an intergalactic cruise.",
+            "id": "zarniwoop",
+            "name": "Zarniwoop",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Zaphod's brain-care specialist. When reports announce that his patient has died after being swallowed by a rapidly evolving creature, he treats the conclusion as premature and continues to regard Zaphod's condition as uncertain.",
+            "id": "gag-halfrunt",
+            "name": "Gag Halfrunt",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A fellow Guide researcher travelling with Zaphod during the assault on the Guide offices.",
+            "id": "guide-researcher",
+            "name": "Guide researcher",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The upbeat computer aboard the Heart of Gold. Eddie operates the ship when it reaches prehistoric Earth and retrieves Arthur and Ford, following the Improbability Drive's discovery of Ford's fossilized towel.",
+            "id": "eddie",
+            "name": "Eddie",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The official responsible for administering the Total Perspective Vortex on the Frogstar. The custodian places Zaphod into the one-second psychic ordeal, which is intended to expose its subject to the scale of the universe and their place within it.",
+            "id": "frogstar-vortex-custodian",
+            "name": "Frogstar Vortex custodian",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Commander of the Vogon fleet pursuing the Heart of Gold. He orders his forces to destroy the ship and eliminate Arthur, Ford and Zaphod, acting to ensure that no surviving Earthman escapes the Vogons' earlier work.",
+            "id": "prostetnic-vogon-jeltz",
+            "name": "Prostetnic Vogon Jeltz",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Zaphod's deceased ancestor, contacted during a séance as the Vogon fleet prepares to attack. He tells Zaphod that the Galactic Presidency distracts attention from real authority and charges him with finding who actually exercises power.",
+            "id": "zaphods-great-grandfather",
+            "name": "Zaphod's great-grandfather",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An archaeologist investigating the history of the planet beneath the airborne cave. She shelters Arthur from armed corporate soldiers and studies the unexplained injuries that cause those soldiers to limp.",
+            "id": "lintilla",
+            "name": "Lintilla",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Winged inhabitants of the planet who catch Arthur after his fall. They explain why their ancestors commissioned a vast statue of him, avoid setting foot on the surface because of an unexplained earlier disaster, and direct him through the statue.",
+            "id": "bird-people",
+            "name": "Bird people",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A corporate official who captures Arthur and Lintilla after their excavation reaches a layer of compressed footwear. He defends the company's development programme and presents the history of a shoe-driven economy that ended in famine and social collapse.",
+            "id": "shoe-corporation-executive",
+            "name": "Shoe-corporation executive",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Legal representatives of the company responsible for the cloning machine. They pursue Arthur, Marvin and three Lintillas, then attempt to bind the clones through arranged marriages.",
+            "id": "cloning-company-representatives",
+            "name": "Cloning-company representatives",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The isolated resident of a remote shack, apparently consulted by visitors about choices with consequences far beyond his home. When Ford and Zaphod question him, he rejects the idea that he rules others and accepts only what he can perceive directly.",
+            "id": "occupant-of-the-remote-shack",
+            "name": "Occupant of the remote shack",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:uk:B004EVNUMQ",
+            "type": "community"
+          }
+        ],
+        "work": "the-hitchhikers-guide-to-the-galaxy-secondary-phase"
+      },
       "recaps": {
         "ending": "Zarniwoop reveals that the planet, the overdue liner and the surrounding world belong to an artificial universe housed in his office. He has used Ford, Zaphod and the Heart of Gold to reach the concealed authority behind the Galactic Presidency. The search ends at a remote shack, but its occupant denies that he governs anyone and refuses to claim knowledge beyond his direct experience. Ford and Zaphod therefore obtain no confirmed answer about how the galaxy's major decisions are made. Arthur separates from them and departs the artificial world aboard the Heart of Gold with Marvin, Lintilla, Eddie, the ship's doors and the Guide. Their destination is not established. The fate of the Guide researcher separated from Zaphod remains unknown, and the threat to Lintilla's wider clone population remains unresolved. The final chapter is an interview and does not alter the story state.",
         "in_short": "Arthur Dent and Ford Prefect begin stranded on prehistoric Earth, while Zaphod Beeblebrox escapes death and follows a hidden instruction to seek Zarniwoop. After surviving the Total Perspective Vortex, Zaphod reunites with Arthur and Ford aboard the Heart of Gold and learns that his former presidency concealed a mission to investigate real galactic power. Their escape from a Vogon attack takes them to a world ruined by a shoe corporation, where Arthur meets the clone Lintilla and Marvin helps free them. The setting proves to be an artificial universe created in Zarniwoop's office. Zarniwoop guides Ford and Zaphod to an isolated man whom others consult on universal decisions, but the man denies ruling or understanding the wider universe. Arthur leaves separately in the Heart of Gold with Marvin and Lintilla, while Ford and Zaphod are left without a clear answer about who holds power.",
