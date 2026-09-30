@@ -1966,6 +1966,48 @@
           }
         ],
         "work": "the-messenger"
+      },
+      "recaps": {
+        "ending": "Dash turns Nathis's lens into a gravitational trap that kills Nathis and destroys the Prelate's battlecruiser along with much of the pursuing Clan Shirna force. He then finds the disabled Slipwing sinking through a gas giant and uses the archetype to lift Leira, Viktor, and Conover to safety, severely straining the ancient machine. The three survivors choose to remain with him in the campaign against the Golden. At Passage, Leira's cousin Amy Anson repairs the Slipwing under an off-books IOU while Viktor and Conover help with the continuing work. Sentinel supplies a route to the archetype's remaining power cores. Dash and Leira recover the next core at Visent's Star and survive an attack by native pack hunters. The crew remains united, the Slipwing is spaceworthy, and the core search continues. The Golden are still active, Sentinel will not disclose why Dash qualified as Messenger, more cores remain missing, and both the ship and archetype require further repair.",
+        "in_short": "Debt-ridden courier Dash rescues Leira and Viktor, whose alien lens can destroy stars, and gains the gifted young analyst Conover as another passenger. Pursued by Clan Shirna, the group enters an immense unseen construct called the pasture. Dash is separated from the Slipwing and discovers an ancient mech whose AI, Sentinel, recognizes him as the Messenger. He learns that the vanished unseen prepared the machine to oppose the Golden, artificial beings that periodically eradicate advanced civilizations. After recovering power cores, Dash uncovers Nathis's alliance with the Golden and returns to save his friends. He defeats Nathis, uses Nathis's lens to destroy the pursuing fleet, and pulls the crippled Slipwing from a gas giant. Leira, Viktor, and Conover join his wider mission. Amy Anson repairs the ship on credit, and Dash and Leira recover another core at Visent's Star. The reunited crew continues the search while the Golden threat remains unresolved.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "book",
+            "text": "Courier Dash begins with unpaid jobs, almost no fuel, suspended bonded status, and debts waiting on the only nearby habitable world. An urgent bid instead leads him to a battle in deep space, where he rescues Leira and Viktor from a pursued ship. They bring fuel and an alien lens they believe can collapse a star. At Penumbra, creditor Pinetti clears Dash's debt and fuels the Slipwing on the condition that he take her nephew Conover on an open-ended journey. Conover proves to be a gifted analyst with implanted eye lenses. Contact with the alien device floods those implants with data and helps establish that the pasture, a remote formation beyond the Shadow Nebula, is a vast unseen construct. Clan Shirna claims sacred authority over it and seeks the fugitives and their device. Its representative Nathis demands their surrender and marks Dash as another desecrator when he refuses. The group commits to returning to the pasture in search of answers and useful technology. After crossing the nebula, Dash evades three Clan Shirna attack ships, destroys two through hazardous maneuvers near a star and comet, and takes the damaged Slipwing inside the forbidden structure.",
+            "through": {
+              "chapter": 8
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Inside the pasture, the crew confirms that its bodies form a maintained artificial pattern. A signal activates the lens, and a ribbon recovered from an old human wreck becomes a projector. Its record shows the unseen building the region and confirms that a lens can destroy a star. It also indicates other such devices, including one in Clan Shirna territory. A flotilla blocks the exit, so Dash draws Nathis away in the halfwing while the Slipwing escapes. Two attackers cripple the pod, and Dash crashes into a pasture comet. With his suit losing air, he enters an alien chamber where an intelligence calls him Messenger. The intelligence is Sentinel, the AI of a huge unseen mech called the archetype. Dash accepts control and follows the legacy prepared for him. After fighting off attackers, he installs a power core that strengthens the machine. Sentinel then reveals the purpose of the archetype: the unseen built it for war against the Golden, artificial destroyers that return on a vast cycle to eliminate advanced civilizations. Most of the unseen died in the previous conflict, and the archetype remains incomplete. Dash chooses to recover its scattered power cores while the timing of the Golden's return remains uncertain.",
+            "through": {
+              "chapter": 15
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Dash retrieves a second power core from an unseen outpost, bringing the archetype to roughly one-third of its intended strength and unlocking new defenses and weapons. He follows a departing Clan Shirna ship beyond the galaxy and finds a Golden dark-matter minefield. Data taken from the ship proves that Nathis knowingly allied his faction with the Golden for promised power, though he misunderstands their exterminating purpose. A distress call then sends Dash back toward the Slipwing. He delays briefly to deny Clan Shirna another core, then reaches his friends near a gas giant. After reactivating their concealed ship, he fights through Nathis's flotilla, rams the flagship, and defeats Nathis aboard its damaged bridge. The Prelate arrives in a battlecruiser and demands the lens. Dash retrieves Nathis's copy, programs it as a delayed trap, and barely returns to the archetype. The resulting gravitational event destroys the lens, Nathis, the battlecruiser, and much of the surrounding force. Dash discovers that the Slipwing has fallen deep into the gas giant with failed engines. Sentinel draws dangerous power from the archetype's singularity while Dash physically carries the ship upward. The Slipwing and all three crewmates survive, but the archetype is badly strained.",
+            "through": {
+              "chapter": 21
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Safely above the gas giant, Dash reunites with Leira, Viktor, and Conover and explains how he became the Messenger. All three elect to stay with him and help prepare for the Golden rather than leave after the Clan Shirna pursuit. The group first needs to restore both the Slipwing and the damaged archetype. At Passage, Leira introduces her cousin Amy Anson, a mechanic who finds failures throughout the ship. Because the crew lacks sufficient credits, Amy makes the Slipwing spaceworthy through an off-books IOU and continues working with Viktor and Conover. With the crew's consent, Sentinel supplies navigation data for the remaining power cores, beginning with Visent's Star. Dash and Leira travel to an unseen facility on its habitable but uninhabited world and secure another core. Intelligent pack-hunting animals herd and attack them during their escape, damaging their exosuits, but the archetype intervenes and allows them to return alive. The book closes with the core recovered, the Slipwing flying again, and the crew committed to the larger search. Their debts and repair needs remain open, as do the purpose of the unseen network, the reason Dash was selected, and the approaching danger from the Golden.",
+            "through": {
+              "chapter": 23
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:1774241757",
+            "type": "community"
+          }
+        ],
+        "work": "the-messenger"
       }
     },
     "the-metamorphoses": {
