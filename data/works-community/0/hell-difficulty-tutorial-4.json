@@ -905,6 +905,230 @@
         "work": "hell-difficulty-tutorial-6"
       }
     },
+    "hell-to-pay-ascend-online-book-3": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A half-giant, half-elf criminal adventurer who awakens bound in an Undertaker torture chamber. A dangerous Sigil of Rage has been burned into him, his memories of a recent heist are gone, and his three companions are missing.",
+            "id": "lazarus",
+            "name": "Lazarus",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "One of the three companions missing when Lazarus wakes after the failed heist. She belongs to his disbanded party alongside Ransom and Edith, and finding her safely is one of his immediate objectives as he escapes captivity.",
+            "id": "molly",
+            "name": "Molly",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Lazarus's three missing companions from the heist. At the time he awakens in captivity, he cannot contact her, does not know what happened inside the target building, and has no memory of how the party came apart.",
+            "id": "edith",
+            "name": "Edith",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Lazarus's missing heist party. With party communication blocked and the group formally disbanded, his location and fate are unknown when Lazarus begins trying to reconstruct the events that led to his capture.",
+            "id": "ransom",
+            "name": "Ransom",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Lazarus's mentor, leader of the Grim Shadows, and one of the five thief lords in Iberia. Lazarus finds him murdered in the Undertakers' base, creating both a personal demand for justice and a dangerous vacancy in the criminal order.",
+            "id": "fairfax",
+            "name": "Fairfax",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The necromancer who commands the Undertaker gang from its funeral-home base. Lazarus seeks him out after finding Fairfax's body below the premises, believing that the controlling gang leader may know why both men were held there.",
+            "id": "caden",
+            "name": "Caden",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A concealed figure who delivered Lazarus to the Undertakers so they could remove his sigil, then brought Fairfax's body to the same gang. She overpowered one of Caden's undead servants and arranged a later collection at Stone Sailor's Pier.",
+            "id": "unidentified-female-adventurer",
+            "name": "Unidentified female adventurer",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Fairfax's senior administrator in the Grim Shadows. After his death, she orders the guild's members to withdraw from public activity, taking immediate steps to protect its people while Iberia's criminal leadership faces a sudden power vacuum.",
+            "id": "isabella",
+            "name": "Isabella",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A junior member of the Grim Shadows who meets Lazarus after his respawn and escorts him through the locked-down guild territory to Isabella. His assignment places him near the guild's leaders as they absorb the news of Fairfax's death.",
+            "id": "young-grim-shadows-member",
+            "name": "Young Grim Shadows member",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An older Grim Shadows thief who takes a practical interest in the guild's newer members. During Fairfax's wake and the leadership transition, he offers Lazarus and Molly further instruction in surviving the dangers of the streets.",
+            "id": "bart",
+            "name": "Bart",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An independent mage with contacts in the Mages Guild who is recruited into the Grim Shadows. Isabella brings him into the investigation so that his scholarly connections can help explain Edith's physical transformation and Lazarus's sigil.",
+            "id": "quinn",
+            "name": "Quinn",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An exceptionally old half-elf scholar and former head librarian who keeps a book-filled home in Iberia's old district. He preserves knowledge from before the continent's fall and explains the expertise required to force a devil into a physical host.",
+            "id": "william",
+            "name": "William",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A recurring rival who leads four associates in an ambush meant to keep Lazarus inactive for two days. After his group is defeated, he yields and accepts a narrow truce, agreeing to steer other hunters toward the larger reward offered for Edith.",
+            "id": "red-armored-bounty-hunter",
+            "name": "Red-armored bounty hunter",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A thief lord whose street gang controlled the base where Lazarus awoke and Fairfax's body was found. At the Council of Thieves, he disputes Isabella's claim to Fairfax's seat and reacts violently when the council connects him to Edith.",
+            "id": "leader-of-the-damned",
+            "name": "Leader of the Damned",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The masked thief lord representing the Faceless Ones on Iberia's criminal council. She appears with identically dressed figures who may be doubles or retainers, obscuring which masked participant is the guild's actual leader.",
+            "id": "faceless-ones-leader",
+            "name": "Faceless Ones leader",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A feline thief lord who represents the Crimson Rats at the Council of Thieves. The leader joins the other underworld figures for Isabella's report on Fairfax, Edith, and the threat surrounding the recent devil attacks.",
+            "id": "crimson-rats-leader",
+            "name": "Crimson Rats leader",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A half-giant thief lord who represents the Dead Eyes at the Council of Thieves. The leader is among the underworld authorities asked to judge Isabella's succession claim and respond to evidence of a threat crossing guild boundaries.",
+            "id": "dead-eyes-leader",
+            "name": "Dead Eyes leader",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hunter pursuing Edith with two remaining associates. He warns that lucrative bounties arising from the armed noble-house standoff may draw his companions away, weakening the search just as the Grim Shadows prepare their purge.",
+            "id": "sawyer",
+            "name": "Sawyer",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A half-orc bruiser who leads the volunteer team assigned to Lazarus, Molly, and Quinn. The team is ordered to attack six major Damned hideouts in sequence while gathering intelligence that may help prevent civil war.",
+            "id": "half-orc-strike-team-leader",
+            "name": "Half-orc strike-team leader",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Damned craftsman captured during a hideout raid. He says the Damned leader gave shard blueprints to at least nine carvers and explains that roughly one hundred to two hundred shards have been produced for collection through drop points.",
+            "id": "captured-bone-carver",
+            "name": "Captured bone carver",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Fontaine"
+            ],
+            "description": "The leader of the Iberian Guard, who maintains a working arrangement with the thief lords while holding them responsible for containing the escalating crisis. He threatens to dismantle their district if they cannot stop the danger.",
+            "id": "captain-fontaine",
+            "name": "Captain Fontaine",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An unidentified male presence overheard inside the blighted estate. He claims to control the renegade thief lord and his guild through magical compulsion, says Edith was lent to the operation, and takes credit for another thief lord's death.",
+            "id": "unseen-master",
+            "name": "Unseen master",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An authority before whom Captain Fontaine brings the surviving prisoners after the portal closes. Holding the dormant artifact, she demands an account of the violence across Iberia, the destruction of the estate, and the attempted invasion.",
+            "id": "iberian-matriarch",
+            "name": "Iberian matriarch",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B075NG21VQ",
+            "type": "community"
+          }
+        ],
+        "work": "hell-to-pay-ascend-online-book-3"
+      }
+    },
     "hells-wardens": {
       "characters": {
         "characters": [
