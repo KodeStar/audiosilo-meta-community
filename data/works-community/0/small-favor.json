@@ -4398,7 +4398,7 @@
       "characters": {
         "characters": [
           {
-            "description": "An Earthman returning from exile across the galaxy. He reaches an Earth that appears intact despite his knowledge of its destruction, finds Fenchurch, and starts a relationship with her while confronting the mystery of the planet's return.",
+            "description": "An Earthman returning from exile across the galaxy. He reaches an Earth that appears intact despite his knowledge of its destruction.",
             "id": "arthur-dent",
             "name": "Arthur Dent",
             "reveal": {
@@ -4419,7 +4419,7 @@
             "aliases": [
               "Fenny"
             ],
-            "description": "A woman who remains convinced that the vision of yellow spacecraft and Earth's destruction was real. Her unusual brain activity and a revelation she can no longer recall trouble her, and she begins a relationship with Arthur after his return.",
+            "description": "A woman who remains convinced that the vision of yellow spacecraft and Earth's destruction was real. Her unusual brain activity and a revelation she can no longer recall trouble her.",
             "id": "fenchurch",
             "name": "Fenchurch",
             "reveal": {
