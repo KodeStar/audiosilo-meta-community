@@ -1441,6 +1441,242 @@
       }
     },
     "claudine-at-st-clares": {
+      "characters": {
+        "characters": [
+          {
+            "description": "Mam'zelle's French niece and a new Fourth Form pupil. Claudine is clever, sociable and entertaining, and she readily shares food with her classmates. Her easy acceptance of copying and keeping borrowed possessions, however, brings her into conflict with St Clare's standards from her arrival.",
+            "id": "claudine",
+            "name": "Claudine",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A new Fourth Former and the temporary Matron's daughter. Eileen has already spent a week at St Clare's and knows the school unusually well. She is defensive among the other girls, but speaks with devotion of her older brother Edgar, whose need to work followed the family's loss of money.",
+            "id": "eileen-paterson",
+            "name": "Eileen Paterson",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Eddie"
+            ],
+            "description": "Eileen's beloved older brother, familiarly called Eddie. Eileen says that he works because the family lost money, and her account makes clear that he is the family member to whom she feels closest.",
+            "id": "edgar",
+            "name": "Edgar",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The temporary replacement for St Clare's regular Matron, who is ill at the start of term. The Fourth Form immediately distrusts the newcomer and regards her presence as an unwelcome change in school life.",
+            "id": "matron",
+            "name": "Matron",
+            "reveal": {
+              "chapter": 1
+            }
+          },
+          {
+            "description": "A former St Clare's pupil who has left the school after receiving a scholarship to attend art school.",
+            "id": "lucy-oriell",
+            "name": "Lucy Oriell",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Pauline"
+            ],
+            "description": "A new Fourth Form pupil who adopts an affected manner and presents herself as socially important. Alongside Angela Favorleigh, she brings conspicuous claims of status into the form at the beginning of the summer term.",
+            "id": "pauline-bingham-jones",
+            "name": "Pauline Bingham-Jones",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Angela"
+            ],
+            "description": "A wealthy new Fourth Form pupil whose arrival immediately attracts Alison's admiration. Angela is socially prominent and quickly becomes the centre of Alison's attention, one of two conspicuous newcomers at the start of term.",
+            "id": "angela-favorleigh",
+            "name": "Angela Favorleigh",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning Fourth Former who is immediately captivated by the wealthy Angela Favorleigh. Alison quickly becomes the newcomer's devoted companion, making their new friendship a prominent part of the form's social life.",
+            "id": "alison",
+            "name": "Alison",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A French teacher at St Clare's and Claudine's aunt. She announces that her niece will join the Fourth Form after recovering from measles. Her evident affection for Claudine helps the new pupil enter school life.",
+            "id": "mamzelle",
+            "name": "Mam'zelle",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The headmistress of St Clare's, responsible for the school as the Fourth Form begins a new summer term. She oversees a form facing two conspicuous new pupils, a new form mistress and the temporary replacement of the regular Matron.",
+            "id": "miss-theobald",
+            "name": "Miss Theobald",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Fourth Form's calm new form mistress for the summer term. Miss Ellis takes responsibility for the class at the start of term.",
+            "id": "miss-ellis",
+            "name": "Miss Ellis",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Susan"
+            ],
+            "description": "The responsible head girl of the Fourth Form. When Claudine treats copied work as harmless, Susan explains that St Clare's considers it cheating and presses the newcomer to follow the school's standards rather than those of her previous school.",
+            "id": "susan-howes",
+            "name": "Susan Howes",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning Fourth Form pupil with a circus background. Angela uses that background as an excuse for contempt, placing Carlotta among the first targets of the newcomer's social snobbery while the form weighs the character of its new pupils.",
+            "id": "carlotta",
+            "name": "Carlotta",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning Fourth Form pupil who joins Pat in challenging Angela's claim that Eileen and Claudine are at St Clare's through charity. Bobby insists that Eileen's place is earned through her mother's work at the school.",
+            "id": "bobby",
+            "name": "Bobby",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning Fourth Former who responds sympathetically when Eileen explains Edgar's need to work instead of attending college. Hilary also respects Eileen's direct admission that she cannot afford a birthday present, seeing more than the defensive manner that has made her unpopular.",
+            "id": "hilary",
+            "name": "Hilary",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning Fourth Form pupil and Isabel's twin. Pat comes back to St Clare's with Isabel for the summer term as the form adjusts to a calm new mistress, two socially conspicuous pupils and a temporary Matron whom the girls distrust.",
+            "id": "pat",
+            "name": "Pat",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning Fourth Form pupil and Pat's twin. Isabel begins the summer term beside Pat while the form welcomes two socially conspicuous newcomers, meets its new form mistress and learns that the regular Matron is absent through illness.",
+            "id": "isabel",
+            "name": "Isabel",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning Fourth Form pupil who joins Bobby in bringing stinkballs to a French lesson. Their prank drives the class out of the room, and suspicion soon falls on Janet when Mam'zelle seeks an explanation for the unexplained smell.",
+            "id": "janet",
+            "name": "Janet",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A returning Fourth Former and capable swimmer. When Claudine falls from the gallery into the pool despite being unable to swim, Mirabel helps Bobby bring her to safety as the resulting splash soaks Angela's mother below.",
+            "id": "mirabel",
+            "name": "Mirabel",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Angela Favorleigh's glamorous mother, who shares her daughter's concern with appearances. On arriving for the half-term visit, she immediately criticizes the St Clare's uniform.",
+            "id": "angelas-mother",
+            "name": "Angela's mother",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Angela Favorleigh's affectionate and practical father. He arrives with his wife for the half-term visit and shows a more measured manner than hers.",
+            "id": "angelas-father",
+            "name": "Angela's father",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Pauline's mother"
+            ],
+            "description": "Pauline Bingham-Jones's plainly dressed and financially strained mother. She tells Alison and Angela that Pauline's father is an invalid, that the family is poor, and that Pauline invented an outbreak of scarlet fever to prevent her parents from visiting at half-term.",
+            "id": "mrs-jones",
+            "name": "Mrs. Jones",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Regular Matron"
+            ],
+            "description": "The regular Matron of St Clare's, whose illness required a temporary replacement at the start of term. She returns after that replacement and Eileen have left, restoring the school's usual arrangement as she resumes her former duties.",
+            "id": "former-matron",
+            "name": "Former Matron",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B071LJXQFS",
+            "type": "community"
+          }
+        ],
+        "work": "claudine-at-st-clares"
+      },
       "recaps": {
         "ending": "Eileen prevents Pauline from being falsely accused by confessing that she took money, food, stamps and stationery from Matron to support Edgar during his unemployment. Edgar had believed the help came from Eileen's own funds and has since found another job. When Eileen and Edgar explain their fear of their mother, Miss Theobald decides that the temporary Matron must leave St Clare's. Eileen also leaves to study shorthand and typing, intending to work near Edgar, while the regular Matron resumes her post. Pauline is cleared of theft, but Miss Theobald takes charge of her savings book after learning that Pauline funded her pretence of wealth through withdrawals made without permission. Pauline remains at school with reconciliation and honesty still required of her. Claudine has accepted the school's standard of honour and completed her punishment for confining Matron. Alison and Angela stay friends, but Alison will no longer flatter her, and Angela intends to challenge her mother's contempt for St Clare's and continue changing her own conduct.",
         "in_short": "During a summer term in the Fourth Form, Claudine's resistance to rules gradually gives way to an understanding of St Clare's code of honour. Angela's snobbery costs her Alison's unquestioning support, while Pauline's claims of wealth collapse when her family's poverty is exposed. A secret midnight picnic leads Claudine to lock Matron in a cupboard, but she confesses and accepts punishment. Suspicion over repeated thefts falls first on Claudine and then Pauline. Eileen finally admits that she stole to help Edgar after he lost his job, and Miss Theobald decides that the temporary Matron's harshness drove both children into secrecy. Matron and Eileen leave, Edgar finds work, and the regular Matron returns. Pauline is cleared of theft but must make peace with her mother and stop using her savings without permission. Angela begins to reform, with Alison remaining her friend on more honest terms.",
