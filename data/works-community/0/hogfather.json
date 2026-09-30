@@ -1027,6 +1027,288 @@
       }
     },
     "homebound-j-l-mullins": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A powerful Defender, keeper of Kit, and Rain's soul-bonded wife. Tala begins the book grieving Gert, facing responsibility for Mia Lane's fate, and struggling with the personal and leadership consequences of recent losses.",
+            "id": "tala",
+            "name": "Tala",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Tala's husband and soul-bonded partner, and a fellow Defender. He supports Tala as they grieve Gert and mark their first wedding anniversary after the loss.",
+            "id": "rain",
+            "name": "Rain",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Tala's alternate interface and an independent mind within their shared body. Alat provides observations and helps Tala with personal plans.",
+            "id": "alat",
+            "name": "Alat",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Tala's soul-bound terror-bird companion and a protective member of her household.",
+            "id": "terry",
+            "name": "Terry",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Tala's dimensional home and sanctuary, shared with Rain, Terry, and a growing community.",
+            "id": "kit",
+            "name": "Kit",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A former House of Blood judgment agent held apart while her disposition is negotiated. Her actions contributed to several deaths, including Gert's, and Tala is expected to decide what meaningful restitution can require.",
+            "id": "mia-lane",
+            "name": "Mia Lane",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Rain's former mentor and an experienced Paragon adviser who remains connected to Tala and Rain.",
+            "id": "grediv",
+            "name": "Grediv",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A deceased Defender mentor and close family friend whose sacrifice saved Rain. His recent death shapes Tala and Rain's grief.",
+            "id": "gert",
+            "name": "Gert",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A counselor who supports Tala and Rain individually and together as they process Gert's death and their shared grief.",
+            "id": "nadro",
+            "name": "Nadro",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior liaison and inscription specialist who supplies the preserved likeness and aura record used for the memorial to Gert and his wife. Her access to these records helps Rain create a tribute that represents the couple together.",
+            "id": "ingrit",
+            "name": "Ingrit",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An experienced, exceptionally old figure with ties to the forest in the south. Whether he has advanced again remains unconfirmed, and Tala and Rain hope his perspective can aid their reforging plans.",
+            "id": "jevin",
+            "name": "Jevin",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A craft specialist whom Rain consulted while developing his four-dimensional kinetic sculpture.",
+            "id": "lisa",
+            "name": "Lisa",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The practical administrator of Tala's growing hold and her trusted representative in trade and settlement matters. Lynn handles Mia Lane's arrival, coordinates the community's everyday needs, and translates Tala's larger decisions into workable arrangements.",
+            "id": "lynn",
+            "name": "Lynn",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Talons' field leader, tasked with bringing Mia Lane to the force when Tala assigns her to oversee its training.",
+            "id": "talon-leader",
+            "name": "Talon leader",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Archon associated with the tree city and a former student of Jevin. Trent has made little progress for years, and Jevin deliberately places him beside Tala and Rain in hopes that their example will return him to active work.",
+            "id": "trent",
+            "name": "Trent",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Rain's separate alternate interface, which concentrates on archival advancement research and automated work. Its partnership with Rain is less conversational than Tala and Alat's relationship but remains independently useful.",
+            "id": "rains-alternate-interface",
+            "name": "Rain's alternate interface",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Tala's brother and a participant in the family reunion at the tree city.",
+            "id": "nalac",
+            "name": "Nalac",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A newly manifested girl with a human soul in a former hostile automaton body. Alat and Rain's alternate interface create a provisional soul housing for her, and Tala and Rain meet her when she asks whether they are her parents.",
+            "id": "newly-manifested-girl",
+            "name": "Newly manifested girl",
+            "reveal": {
+              "chapter": 42
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A newly manifested girl whose human, gated soul inhabits a provisional construct body. Tala and Rain recognize her as their daughter, but her improvised soul housing requires expert assessment before she can safely enter wider society.",
+            "id": "leah",
+            "name": "Leah",
+            "reveal": {
+              "chapter": 43
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A high-level construction specialist assigned to perform a thorough examination of Leah.",
+            "id": "boma",
+            "name": "Boma",
+            "reveal": {
+              "chapter": 46
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The city's prime defender. In a private meeting with Tala, Jenna proposes destroying Leah's automaton body.",
+            "id": "jenna",
+            "name": "Jenna",
+            "reveal": {
+              "chapter": 47
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An inscription specialist who develops a demanding theoretical schema for Tala's intended reforge. Holly's design offers a foundation, but its danger means Tala must understand and reshape it rather than simply copy it.",
+            "id": "holly",
+            "name": "Holly",
+            "reveal": {
+              "chapter": 50
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The stoneholder of Banfast, who meets Leah with civility and listens to the girl's account of her unusual physical form. Elnia joins Jenna in warning Tala that an endlessly expanding reforge plan may become impossible to complete.",
+            "id": "elnia",
+            "name": "Elnia",
+            "reveal": {
+              "chapter": 53
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Archon connected to caravan life. Renix helps guide Trent's former apprentice toward advancement while receiving advancement guidance from Trent.",
+            "id": "renix",
+            "name": "Renix",
+            "reveal": {
+              "chapter": 58
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A caravan defender remembered for holding back a creature wave so the caravan could survive. Tai died four years before Tala learns his fate and was the defense's only casualty. His final action preserved the people traveling under his protection.",
+            "id": "tai",
+            "name": "Tai",
+            "reveal": {
+              "chapter": 58
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The Talons' captain and field leader. Ron restores sparring to their training, arranges countermagic instruction, and emphasizes tactics that preserve the unit and accomplish its mission. He works with Mia Lane while retaining responsibility for the force.",
+            "id": "captain-ron",
+            "name": "Captain Ron",
+            "reveal": {
+              "chapter": 63
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A weapon craftsperson who assesses the unusual capabilities of Tala's soul-bound blade. Aram accepts the commission for a resilient sparring sheath, provided Tala keeps the weapon's ending power dormant while it is enclosed.",
+            "id": "aram",
+            "name": "Aram",
+            "reveal": {
+              "chapter": 69
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hostile black construct that attacks a Defender patrol while trying to reach Leah. It repairs itself, resists Tala's direct control, and proves dangerous enough to gravely injure a Defender. Its purpose and the scale of the threat behind it are initially unknown.",
+            "id": "black-automaton",
+            "name": "Black automaton",
+            "reveal": {
+              "chapter": 70
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The black automaton is identified after its defeat as a scout-class member of the Black Legion. It sought to reclaim Leah, then destroyed itself when escape failed, turning a local attack into evidence of a potentially wider threat.",
+            "id": "black-legion-scout",
+            "name": "Black Legion scout",
+            "reveal": {
+              "chapter": 71
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A concealed commander who receives the dead scout's report. The commander treats the encounter near Leah as a useful lead and directs a force committed to eliminating magic from existence. The transmitted path offers that force a distant route toward the dome.",
+            "id": "black-legion-prime-commander",
+            "name": "Black Legion prime commander",
+            "reveal": {
+              "chapter": 72
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:au:B0HG9D7Q5R",
+            "type": "community"
+          }
+        ],
+        "work": "homebound-j-l-mullins"
+      },
       "recaps": {
         "ending": "Tala, Rain, Leah, Terry, and their allies survive the Black Legion scout's attack. The injured Defender receives treatment, and the scout's remains are retained for study, but its self-destruction sent both a report and a beacon. The concealed Legion now knows of Leah and Tala's existence-altering power and has a route toward the dome, though the journey may take two or three centuries and could be delayed. Leah remains securely part of her family and community, with a stable soul medium, magical potential, and continuing work to control her linked berserker and construct combat responses. Tala and Rain continue raising her while advancing cautiously toward their own reforges. Kit's human and foxkin population is growing, the Talons are developing under Mia Lane and Captain Ron, and Mia Lane's restitution remains unfinished. Separate warnings also remain open: moon beasts have changed their behavior, and Lisa has sent foxkin to investigate a major existential disturbance whose source is not yet known.",
         "in_short": "Tala and Rain begin in grief, preserve Gert's legacy, and place Mia Lane under a demanding sentence of restitution. While Mia Lane trains the Talons, Tala studies reforging through reality iron, the plant-bodied collective, Jevin, and other experts, learning that advancement requires a self-directed balance of reality, magic, void, and identity. A mine disaster kills Tala's sister and nearly breaks Tala's sense of purpose. Soon afterward, a human soul awakens in a former hostile construct body. Tala and Rain name the girl Leah and accept her as their daughter. They secure her soul with Boma's replacement medium, introduce her to family and society, and begin her magical and combat education. Leah's berserker boon and construct responses create continuing risks, but her place in the family is firm. After her first birthday, a Black Legion scout attacks to reclaim her. The family defeats it, yet its final beacon gives the hidden Legion a distant route toward their world.",
