@@ -2767,6 +2767,269 @@
       }
     },
     "secrets-of-the-sword-3": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Val"
+            ],
+            "description": "A half-elven investigator, co-owner of the Coffee Dragon, and wielder of the ancient sword Storm. With her wedding to Zav days away, she faces a ruined venue, a bombed business, and the imminent arrival of both families.",
+            "id": "val-thorvald",
+            "name": "Val Thorvald",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Zavryd",
+              "Zav"
+            ],
+            "description": "A dragon and Val's fiance. He is preparing for their mixed-species wedding, expects his queen mother to attend, and agrees to import prey after his local hunting creates an expensive problem. His family commitments make postponing the ceremony difficult.",
+            "id": "lord-zavryd-nokquetal",
+            "name": "Lord Zavryd'nokquetal",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Willard"
+            ],
+            "description": "Val's official sponsor, intelligence contact, and determined wedding organizer. When the original site floods, she takes charge of finding an alternative.",
+            "id": "colonel-willard",
+            "name": "Colonel Willard",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An enchanter and co-owner of the Coffee Dragon. He alerts Val that someone has bombed the shop.",
+            "id": "dimitri",
+            "name": "Dimitri",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Zav's mother"
+            ],
+            "description": "Zav's mother and a dragon queen expected at the wedding. Her presence makes postponing the ceremony impractical because she has rearranged important commitments to attend with other members of Zav's family.",
+            "id": "dragon-queen",
+            "name": "Dragon queen",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A goblin work leader who offers the hidden goblin sanctuary as a replacement wedding venue. Willard accepts the offer.",
+            "id": "nogna",
+            "name": "Nogna",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's telepathic magical tiger companion and an experienced field ally. He helps examine the wreckage at the Coffee Dragon and searches the crowded, magic-heavy scene for the attacker's trail, finding a fragment that may have come from a grenade.",
+            "id": "sindari",
+            "name": "Sindari",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Walker"
+            ],
+            "description": "A healer, member of the magical community, and regular patron of the Coffee Dragon. He responds at the damaged shop and provides emergency care to the people hurt in the explosion, helping stabilize a scene with several injuries but no deaths.",
+            "id": "dr-daku-walker",
+            "name": "Dr. Daku Walker",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's vampire alchemist roommate, who maintains a refuge in her basement. He urgently summons Val after armed elves arrive at her home and appear ready to attack his refuge.",
+            "id": "zoltan",
+            "name": "Zoltan",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "the elven king"
+            ],
+            "description": "Val's father and an elven ruler. He arrives early for the wedding with guards and numerous relatives, creating a housing problem and a direct threat to the vampire living in Val's basement.",
+            "id": "vals-elven-father",
+            "name": "Val's elven father",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's half-sister, who arrives with the elven delegation and explains why a disgraced assassin might hold a grievance against Val.",
+            "id": "vals-elven-half-sister",
+            "name": "Val's elven half-sister",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Val's human mother, whose past connects her to Val's elven father. Her cabin becomes overflow lodging for some of the large elven delegation that arrives before the wedding, easing the pressure on Val's crowded home.",
+            "id": "vals-mother",
+            "name": "Val's mother",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "dwarven envoy",
+              "master smith and enchanter"
+            ],
+            "description": "A master smith and enchanter brought to Earth to teach Val how to use Storm.",
+            "id": "dwarven-mentor",
+            "name": "Dwarven mentor",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Val's ancient sword",
+              "Chopper"
+            ],
+            "description": "The ancient enchanted dwarven blade carried by Val. A visiting master smith intends to teach her the command words needed to use more of its powers.",
+            "id": "storm",
+            "name": "Storm",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elven contract killer whom Val defeated before this book. After the Fae Queen publicly damages his reputation, Val considers it possible that he may retaliate against her, but she has no confirmation.",
+            "id": "elven-assassin",
+            "name": "Elven assassin",
+            "reveal": {
+              "chapter": 4
+            }
+          },
+          {
+            "description": "Val's teenage daughter and sword student. She continues training with Val despite her mother's exhaustion and meets her elven grandfather amid the crowded pre-wedding household, extending her first contact with Val's elven family.",
+            "id": "amber",
+            "name": "Amber",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A half-troll Coffee Dragon employee and Reb's foster mother. She asks Val to investigate after the boy disappears without taking his possessions and fears he was abducted.",
+            "id": "inga",
+            "name": "Inga",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young troll fostered by Inga who also helps at the Coffee Dragon. His unexplained disappearance soon after the bombing gives Val another urgent mystery to investigate.",
+            "id": "reb",
+            "name": "Reb",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A food-truck operator who secretly manufactures magical weapons and keeps records of her sales. She recognizes the Coffee Dragon shrapnel as consistent with one of her grenades and discovers that fifteen are missing.",
+            "id": "nin",
+            "name": "Nin",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dragon who arrives early with Zav's sister to examine the wedding site on behalf of their leaders.",
+            "id": "starsinger-dragon",
+            "name": "Starsinger dragon",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A troll shaman who approaches Willard's apartment and appears to threaten her, prompting Val to confront him.",
+            "id": "troll-shaman-near-willards-apartment",
+            "name": "Troll shaman near Willard's apartment",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Val's mother's werewolf neighbor. Protective elves trap him at home after believing Val's mother is in danger, and Val asks Zav to help mediate.",
+            "id": "liam",
+            "name": "Liam",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The patriarch of a rival dragon clan and the dragon queen's prospective negotiating counterpart. She invites him to the wedding site in the hope that the gathering can support talks toward ending the long feud between their clans.",
+            "id": "rival-clan-patriarch",
+            "name": "Rival-clan patriarch",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Nin's partner. By the day before Val and Zav's wedding, their relationship appears serious.",
+            "id": "thad",
+            "name": "Thad",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hostile troll shaman who threatens Val with death before the next full moon. He seeks revenge for two shaman brothers killed by Val's allies.",
+            "id": "avenging-troll-shaman",
+            "name": "Avenging troll shaman",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B095KRY7RR",
+            "type": "community"
+          }
+        ],
+        "work": "secrets-of-the-sword-3"
+      },
       "recaps": {
         "ending": "The grenade-armed trolls attack the goblin sanctuary immediately before the ceremony. Val, Sindari, Willard, Walker, Dimitri, the dwarven mentor, friendly magical guests, and the dragons defend the site. Dimitri's repaired deamplifier weakens troll magic, and Zav kills the final shaman before his suicide attack can harm the gathering. The survivors flee, and no wedding guests are reported killed. Val and Zav then marry in human, goblin, and elven rites. The dragon queen accepts Val as her son's mate and continues productive talks with the rival-clan patriarch, though no peace treaty is confirmed. In the epilogue, the expanded Coffee Dragon reopens. Reb is safe with Inga and begins sword practice with Val and Amber. Nin leaves the magical-weapons trade except for making Val's ammunition, Dimitri continues developing as an enchanter, and Willard and Walker are together. Val and Zav plan a honeymoon, while Val still owes Willard three jobs. Trouble at a lavender farm on the Olympic Peninsula becomes the next assignment. The book closes by returning to the previous Christmas Eve, when Zav brings Amber back from Whistler to join Val's crowded household celebration.",
         "in_short": "Days before Val and Zav's wedding, a grenade damages the Coffee Dragon and a young troll named Reb disappears. Val traces stolen weapons and Reb to hostile trolls who regard her business as a threat, while intensive lessons expand her command of Storm and may explain her worsening exhaustion. Reb is rescued, but the surviving shaman faction attacks the ceremony at the goblin sanctuary. Val's allies, magical-community guests, and the dragons defeat them, and Zav kills the last shaman before his suicide blast can reach the guests. Val and Zav marry after the battle, while dragon peace talks begin without producing a confirmed treaty. The renovated Coffee Dragon reopens, Reb starts training with Val and Amber, and Willard sends Val toward her next unpaid assignment at an Olympic Peninsula lavender farm.",
