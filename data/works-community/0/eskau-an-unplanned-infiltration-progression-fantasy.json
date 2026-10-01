@@ -3471,6 +3471,208 @@
         "work": "evil-under-the-sun"
       }
     },
+    "exes-and-enchantments-a-cozy-witch-mystery-set-in-the-uk-with-slow-burn-romance": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Fiona Blair"
+            ],
+            "description": "Omensford's MLO agent, an electrical witch, and Nell's daughter. Fi is accompanied by Cressida and worries that her formidable magic makes her dangerous, even though she has also used it to protect others.",
+            "id": "fi",
+            "name": "Fi",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Fi's small, dragon-like familiar, who speaks directly into Fi's mind. Cressida is a close companion with a taste for fire whiskey, which causes her to scorch Mort's ceiling accidentally.",
+            "id": "cressida",
+            "name": "Cressida",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Mortimer"
+            ],
+            "description": "Fi's doctor friend and prospective partner. He lives with his gravely ill father, Hades, and is anxious about telling Fi the truth concerning a responsibility inherited through his family.",
+            "id": "mort",
+            "name": "Mort",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Mort's father, a former doctor with a terminal illness. Although he requires IV treatment, Hades remains mobile, mentally alert, and direct in his dealings with Fi and Cressida.",
+            "id": "hades",
+            "name": "Hades",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Lee",
+              "Mr Yeo"
+            ],
+            "description": "Fi's former partner, whose unexpected message announces his return to Omensford. His reappearance immediately unsettles Fi just as she and Mort agree to explore a relationship.",
+            "id": "lee-yeo",
+            "name": "Lee Yeo",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A police detective who summons Fi to the town hall after magical dancing shoes cause an emergency.",
+            "id": "police-detective",
+            "name": "Police detective",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A trusted older friend of Fi who currently inhabits a younger body and publicly presents herself as a relative of her former identity. She leaves the concert early with an elf performer.",
+            "id": "effie",
+            "name": "Effie",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fi's mother and an experienced witch. When a cursed pair of shoes forces a woman to dance, Nell assesses the enchantment and devises a practical way to remove the shoes without using harmful magic.",
+            "id": "nell",
+            "name": "Nell",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young magical trainee seen among the onlookers during the red-shoes emergency. She is rebuilding her life after a controlling relationship.",
+            "id": "diane",
+            "name": "Diane",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An MLO agent who contacts Fi to report that a formal complaint has been lodged against her.",
+            "id": "agent-jones",
+            "name": "Agent Jones",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Ursula",
+              "Fortescue"
+            ],
+            "description": "An MLO agent assigned to supervise Fi while a complaint about threats and excessive force is investigated.",
+            "id": "ursula-fortescue",
+            "name": "Ursula Fortescue",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hostile demon essence confined in donkey form at Fi's home. It remains dangerous enough that Ursula's attempt to approach it nearly ends in a bite, forcing Fi to intervene with electrical magic.",
+            "id": "demon-donkey",
+            "name": "Demon donkey",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A werewolf, Glenn's husband, and a worker at the local cafe. Steve gives the displaced vampire Valentine temporary shelter and alerts Fi to the suspicion that Valentine's house fire was an anti-magic attack.",
+            "id": "steve",
+            "name": "Steve",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fi's sister and the mother of a young daughter. Agatha arrives at the cafe eager for information about Lee's return and about Ursula's history with their mother, Nell.",
+            "id": "agatha",
+            "name": "Agatha",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A vampire staying at the cafe after a fire destroyed his home. Valentine believes the blaze may have been deliberate and motivated by hostility toward magical beings, leaving Fi with an unexamined arson report.",
+            "id": "valentine",
+            "name": "Valentine",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Lee's fiancee and a model. She and Lee may move to Omensford.",
+            "id": "ria",
+            "name": "Ria",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "O'Reilly"
+            ],
+            "description": "A possible suspect in the fire at Valentine's home. Fi finds a recent image of him wearing a red hat resembling the item recovered from the burned property and submits the information through official channels.",
+            "id": "finn-oreilly",
+            "name": "Finn O'Reilly",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A teenager who survives a necklace enchantment after the chain tightens dangerously around her throat. The spell was meant to make her beautiful for a school dance, but its inexperienced caster lost control of it.",
+            "id": "jill",
+            "name": "Jill",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A magical inventor in Fi's circle who is developing a battery intended to hold magical power. He invites Fi to help test it, but she postpones the experiment because she has plans with Mort.",
+            "id": "maxie",
+            "name": "Maxie",
+            "reveal": {
+              "chapter": 34
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0GF35RCK1",
+            "type": "community"
+          }
+        ],
+        "work": "exes-and-enchantments-a-cozy-witch-mystery-set-in-the-uk-with-slow-burn-romance"
+      }
+    },
     "exile-legend-of-drizzt-dark-elf-trilogy-book-2": {
       "characters": {
         "characters": [
