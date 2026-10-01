@@ -3804,6 +3804,71 @@
         "work": "staked"
       }
     },
+    "star-forged": {
+      "recaps": {
+        "ending": "Amy survives the Golden treatment, although dark metal remains embedded in her healed wound and its long-term effect is unknown. Dash breaks free of the wreck's manipulative simulations, and Sentinel regains enough control to help the party reach an armory. Armed with Golden pulse weapons, the survivors fight their way out, though Ragsdale is severely wounded. He recovers in the colony infirmary after Dash and Sentinel eliminate every remaining Dreadfoot.\n\nThe Gulch governor commits food, agricultural support, knowledge, and personnel to an alliance with the forge. Freya relocates there to establish food production, while Ragsdale accompanies her as the governor's representative. Dash's crew returns with valuable dark metal, an intact Golden body, and other components. Custodian directs the salvage into repairs, defensive improvements, and Mark II Swift, a smaller and faster construct designed for Leira. Dash, Leira, Viktor, Conover, Amy, Sentinel, and Custodian remain at the forge. The wider Golden danger, Dash's vulnerable connection to Golden systems, Amy's altered condition, and the forge's shortage of resources all remain unresolved.",
+        "in_short": "Dash and his companions strengthen the ancient forge, then trace a Golden signal to a buried wreck on Gulch. After surviving local predators, they enter the active ship with security chief Ragsdale, who learns the truth about the Golden-unseen war. The wreck's systems pursue them with robots and Dreadfoot capture machines. They rescue Freya, but Amy is gravely wounded, forcing Dash and Sentinel to use a Golden life-enhancement chamber. Amy survives with dark metal left in her body, while Dash withstands simulations intended to compromise him. The group escapes with Golden weapons and salvage, and Dash and Sentinel destroy the remaining Dreadfoot. Gulch becomes an ally of the forge, sending Ragsdale and Freya to help. The salvage supports repairs and a new construct, Mark II Swift, intended for Leira, though more dark metal and construction time are still required.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Dash, formally Newton Sawyer, worked as a courier and Slipwing pilot while carrying substantial debts. His travels brought Leira, Viktor, and Conover into his crew and drew him into the legacy of the unseen. Conover came aboard under Pinetti's open-ended arrangement requiring Dash to provide passage and care. Amy, a mechanic and Leira's cousin, also became connected to the crew through an informal repair debt.\n\nDash was identified as the Messenger by Sentinel, an unseen AI linked to an alien construct called the archetype. The archetype and Sentinel are distinct, but Dash can pilot the machine with Sentinel's help. The group also reached the forge, an ancient facility overseen by another AI, Custodian. Built for the construction and repair of archetypes, the forge gave the crew a base from which to confront the old conflict between the unseen and the Golden. Their personal debts remain unsettled as they assume responsibility for alien technology and a mission much larger than their former lives.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Dash, Leira, and Conover retrieve power cores from an unseen outpost, allowing the forge to activate stronger defenses. Custodian then detects a weak signal moving through the dark between. Repairs to a compromised scanning array trace it to the site of an ancient unseen-Golden battle, where the source appears large enough to be a Golden ship. A separate Golden probe soon enters the forge system.\n\nDash intercepts the probe in the archetype. He destroys it and most of its submunitions, while the forge's new defenses stop the final strike. Salvaged dark metal from the probe is especially valuable because the forge cannot currently manufacture the material. Custodian explains that major weapons, advanced systems, and new archetype components all depend on it. The distant signal lies near Gulch, a populated settlement whose inhabitants could be endangered by active Golden technology. Dash's group therefore commits to investigating the old battlefield and protecting the settlement while searching for enough salvage to expand the forge's capabilities.",
+            "through": {
+              "chapter": 5
+            }
+          },
+          {
+            "scope": "book",
+            "text": "At Gulch, the crew learns that the signal comes from the planet's northern surface rather than the orbital debris. Gardener Freya has collected unusually vigorous plants near that region. Dash conceals the Golden threat behind a story about a crashed ship owned by a secretive consortium, and the skeptical governor permits an expedition under the supervision of security chief Ragsdale.\n\nDuring the difficult overland journey, burrowing predators attack in a ravine. The buggy driver is killed, another security specialist disappears, and Dash and Leira are injured, but the remaining party continues. They reach a sinkhole exposing the stern of an immense and ancient wreck. Ragsdale deduces that Sentinel is an AI and obtains Dash's promise to disclose anything that threatens the settlement. Alec remains outside with the vehicle while the others descend. Inside, Conover detects residual power and dark metal. Oversized footprints show that another large figure has entered before them, and local flying creatures attack in a hangar. As the party advances, lights and alarms activate, confirming that the buried Golden ship is beginning to respond.",
+            "through": {
+              "chapter": 10
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Evidence inside the wreck shows that a human has visited recently. The explorers also find probable liquid dark metal and surviving Golden machinery. They disable one security robot and destroy several others, while Ragsdale demands an end to Dash's evasions. After reaching engineering and the bridge, Dash tells him about the Golden-unseen war, the archetype, the forge, and the need for salvage. Ragsdale accepts the account and becomes an informed ally.\n\nContact with Golden systems causes Dash to lose time and receive bursts of information. Sentinel concludes that his Messenger augmentation can connect through dark metal, but the link works in both directions. Dash grants Sentinel deeper access to defend his mind. When the ship summons Dreadfoot, Ragsdale takes a more protective tactical role and the group retreats deeper into the wreck. At a sealed door, Dash enters a guarded meld and forces power into the mechanism. He learns that the Golden began as organic beings engineered by the Makers for conquest, then rebelled and destroyed their creators. Dreadfoot is a specialized system intended to capture intruders as well as kill them. The party remains trapped while Sentinel moves the archetype toward the crash site.",
+            "through": {
+              "chapter": 14
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Dash closes a damaged bulkhead through the meld, but the ship increasingly detects his presence. The party takes an unusually well-preserved Golden corpse for study, then survives a utility bot attack that injures Conover and Leira. Amy hears a woman calling for help, leading the group to Freya. During her rescue, Amy suffers a wound to her shoulder and upper chest that cannot be stabilized for long.\n\nFreya admits that she has secretly entered the wreck for months to collect the altered plants she grows at the settlement. Her knowledge makes her the party's pathfinder, but Dreadfoot block the quickest route out. A further meld reveals that the machines are herding the humans for capture and technological conversion. Freya leads them through a damaged conduit, where they pass Golden weapons and preserved specimens from alien experiments. Amy deteriorates before they can reach safety. The group returns to a chamber containing life-enhancement cylinders, and Sentinel proposes using one as the only immediate chance to save her. Dash begins another dangerous meld so Sentinel can operate the treatment and attempt to shut down the wreck, while liquid dark metal fills the cylinder around Amy.",
+            "through": {
+              "chapter": 18
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Golden security routines trap Dash in simulations designed around his fear for Amy. False versions of his companions demand Sentinel's shutdown plan, but Dash recognizes that they cannot know information Sentinel withheld from him. He breaks the first illusion and later dismantles another by deliberately testing and reshaping the false reality. Amy wakes after the treatment, alive but weakened, with dark metal remaining in her healed wound.\n\nThe real party is now under attack by Dreadfoot, heavily armored capture machines also called Harvesters because they convert living beings. Conventional weapons barely slow them, and Sentinel temporarily stops responding after struggling against the ship's security routines. Trapped in a dead end, Dash locates an armory and leads the group through a conduit. He uses a plasma pistol as an explosive to clear their route. Sentinel returns, opens the armory, and releases its security locks, allowing the group to take Golden pulse weapons effective against Dreadfoot. They fight toward the surface, but Ragsdale suffers a severe abdominal wound. The survivors escape, and Sentinel uses the archetype to seal the pursuing machines inside the wreck.",
+            "through": {
+              "chapter": 22
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Dash and Sentinel destroy every Dreadfoot left in the wreck, ending its immediate threat while salvage teams recover useful material. Ragsdale survives his wound and recovers in the colony infirmary. Dash warns that other dormant Golden wrecks may pose similar dangers to settled worlds. In response to the rescue and the evidence of the wider threat, the Gulch governor agrees to an alliance with the forge, offering food, agricultural capability, knowledge, and practical support. She assigns Freya to establish gardens and food production at the forge, with Ragsdale accompanying her as the governor's representative.\n\nBack at the forge, Custodian processes recovered dark metal into components for Mark II Swift, a smaller and faster counterpart to the archetype based on Leira's body scan and intended for her to pilot. A basic hull may be ready in about a month, but avionics and weapons require more dark metal and roughly six weeks of station time. Slipwing and the archetype also undergo improvements. Amy remains alive with dark metal inside her, and Dash's contact with Golden systems remains useful but dangerous. The crew rests and rebuilds while preparing for a conflict that the neutralized wreck has not ended.",
+            "through": {
+              "chapter": 24
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:1774243431",
+            "type": "community"
+          }
+        ],
+        "work": "star-forged"
+      }
+    },
     "star-wars-dark-force-rising-the-thrawn-trilogy-book-2": {
       "characters": {
         "characters": [
