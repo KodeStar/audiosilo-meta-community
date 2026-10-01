@@ -1626,6 +1626,252 @@
         "work": "americanah"
       }
     },
+    "an-alliance-reforged": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Reverend Pelletier"
+            ],
+            "description": "Third Platoon's new platoon sergeant and the Union's most experienced IBHU Marine. Rev leads a successful flanking attack on a Freedom Confederation gun emplacement, balancing aggressive tactics with responsibility for the Marines under his command.",
+            "id": "rev",
+            "name": "Rev",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Rev's implanted AI companion, providing tactical advice and steady support during Third Platoon's assault on the gun emplacement. Punch works alongside Rev's IBHU systems but remains a distinct partner with an advisory role.",
+            "id": "punch",
+            "name": "Punch",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Rev's IBHU weapons companion and the source of his augmented firepower. Poshu supports him during the opening assault, including the platoon's advance against the emplacement's defenses and its drone spotters.",
+            "id": "poshu",
+            "name": "Poshu",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A fellow Marine who survives the opening operation. Her brief exchange with Rev after the fighting shows that each is deeply concerned for the other's safety, although both return quickly to their military duties.",
+            "id": "tomiko",
+            "name": "Tomiko",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Third Squad's experienced staff sergeant and one of Rev's former associates. He helps lead Third Platoon after its successful assault on the Freedom Confederation gun emplacement.",
+            "id": "orpheus",
+            "name": "Orpheus",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Third Platoon sergeant who once opposed Rev as a civilian and later served beside him as a Raider. Strap takes part in the platoon's opening assault against the Freedom Confederation position and its power station.",
+            "id": "strap",
+            "name": "Strap",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Rev's platoon commander, a newly qualified IBHU Marine undertaking her first combat mission. Despite limited field experience and the earlier loss of her right arm, she retains the objective and approves Rev's proposed flanking maneuver.",
+            "id": "third-platoon-lieutenant",
+            "name": "Third Platoon lieutenant",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Third Platoon Marine associated with Rev and Tomiko. Yancey carries an M103 configuration, combining an M49 with a grenade launcher, while the company patrols and holds its captured position on Armadillo.",
+            "id": "yancey",
+            "name": "Yancey",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A politically significant enemy army officer placed in Rev's custody for transfer to division. His staff role includes company coordination rather than direct troop command, making him valuable to Union intelligence.",
+            "id": "freedom-confederation-staff-captain",
+            "name": "Freedom Confederation staff captain",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An IBHU sergeant assigned to company headquarters after a previous defeat and another sergeant's death left command concerned about her readiness to lead a platoon. Rev encounters her while collecting the high-value prisoner.",
+            "id": "ibhu-headquarters-sergeant",
+            "name": "IBHU headquarters sergeant",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A detainee-rights representative from Bracewell Station who visits Rev in MDS custody. She explains the legal dispute over his AI and weapons system, agrees to notify his family, and undertakes to protest questionable treatment.",
+            "id": "red-cross-liaison",
+            "name": "Red Cross liaison",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An investigator who questions Rev after his return to Union control. The agent interprets Rev's repeated decisions to spare or aid enemies as possible disloyalty and warns that Omega Division will continue watching him.",
+            "id": "omega-division-agent",
+            "name": "Omega Division agent",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Tomiko",
+              "Miko"
+            ],
+            "description": "The Marine previously known as Tomiko and the woman Rev's family calls Miko. During a short stand-down, she and Rev tell his family that they have begun a relationship, and she becomes a member of his veterans' post.",
+            "id": "tomiko-reiser",
+            "name": "Tomiko Reiser",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The opposing commander in an Arctic training exercise. After Rev anticipates his planned rear attack, he acknowledges the tactical insight and asks for a properly cleared discussion about Rev's reasoning.",
+            "id": "battalion-commander",
+            "name": "Battalion commander",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A specialist attached to Third Platoon during the covert Tahiti raid. He is responsible for requesting naval support and guiding the extraction craft as the platoon attacks the MDS research installation.",
+            "id": "hegemony-naval-fire-observer",
+            "name": "Hegemony naval-fire observer",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The officer commanding First Heavy Infantry Company during its covert deployment to Tahiti. The captain directs the company's raid on an MDS research installation while the platoons divide the assault and blocking duties.",
+            "id": "first-heavy-infantry-company-captain",
+            "name": "First Heavy Infantry Company captain",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A First Heavy Infantry Company Marine and highly skilled skier who serves with Rev during the retreat across Tahiti. The lance corporal spots an MDS flanking move and helps conduct delaying actions for the withdrawing wounded.",
+            "id": "tahiti-lance-corporal",
+            "name": "Tahiti lance corporal",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An MDS field sergeant who accepts Rev's temporary ceasefire terms on Tahiti and directs the recovery of MDS dead and wounded during the pause in fighting.",
+            "id": "mds-field-sergeant",
+            "name": "MDS field sergeant",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Union Marine lieutenant junior grade and Shrike pilot who attacks the MDS pursuit, then returns after the primary extraction craft has departed. She lands under pressure and carries Rev, Yancey, and Tomiko's body to a Union ship.",
+            "id": "union-marine-fighter-pilot",
+            "name": "Union Marine fighter pilot",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A fellow Heavy Infantry Marine and survivor of the Tahiti operation. Hussein visits the naval hospital's Revival Ward with Yancey and relieves Rev at Tomiko's bedside while her uncertain recovery continues.",
+            "id": "hussein",
+            "name": "Hussein",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Kinshasa militia forward observer who keeps artillery fire close to Third Platoon's advance and destroys a bunker blocking it. After the position falls, the observer exchanges challenge coins with Rev.",
+            "id": "militia-forward-observer",
+            "name": "Militia forward observer",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Third Platoon Marine who climbs an occupied ridge with Rev during the effort to rescue a trapped force near Camp McTavish. Pearson fights with exceptional intensity, requiring close direction from Rev as they strike the Karnan flank.",
+            "id": "pearson",
+            "name": "Pearson",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The officer who requests a truce while Karnans surround the Marines near Camp McTavish. Acknowledging that Kinshasa is lost, he proposes single combat to satisfy demands for an MDS victory while limiting further casualties.",
+            "id": "mds-major",
+            "name": "MDS major",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An augmented MDS trooper whom Rev recognizes from earlier encounters. He is selected as the Karnan champion in a proposed unarmed duel intended to decide whether the encircling force will withdraw and permit casualty care.",
+            "id": "karnan-sergeant",
+            "name": "Karnan sergeant",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A first-time captain nearing the end of a tourist voyage near a remote gas giant. When an unidentified craft approaches without answering, she quietly arms her staff, accelerates shuttle recovery, alerts security, and orders the passengers to shelter.",
+            "id": "tourist-ship-captain",
+            "name": "Tourist-ship captain",
+            "reveal": {
+              "chapter": 34
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B09MZM4CL2",
+            "type": "community"
+          }
+        ],
+        "work": "an-alliance-reforged"
+      }
+    },
     "an-american-marriage-oprahs-book-club": {
       "characters": {
         "characters": [
