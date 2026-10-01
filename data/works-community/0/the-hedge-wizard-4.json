@@ -3334,6 +3334,41 @@
           }
         ],
         "work": "the-hitchhikers-guide-to-the-galaxy-the-quintessential-phase-dramatized"
+      },
+      "recaps": {
+        "ending": "Arthur, Ford, Random, Trillian, and Tricia converge at a London club while the new Guide's movement across realities helps the Vogon operation and the Grebulons aim their disruptors at Earth. The club's name links it to the danger Arthur was warned would await him at Stavromula Beta. During a struggle over Random's gun, Arthur ducks, Earth's plural zone collapses, and the Babel fish carries nearby life across dimensions. Trillian merges with McMillan. The immediate conditions and locations of Arthur, Ford, Random, and Tricia are not established after the collapse, and Zaphod's later fate is also unknown. The new Guide remains uncontrolled, the Vogon and Grebulon operations have no confirmed resolution, and Arthur is still separated from Fenchurch. The wider danger associated with Stavromula Beta also remains unresolved.",
+        "in_short": "A meteorite erases the Grebulons' identities and mission while Arthur searches alternate realities for Fenchurch and Ford uncovers a Vogon-controlled takeover of the Guide. Trillian leaves their daughter Random with Arthur on Lamuella, but Random steals a bird-like new Guide and flies to Earth. Ford explains that the device can perceive and affect many universes, making it central to the Vogons' plan. Arthur and Ford follow her, while Tricia McMillan assists the Grebulons and is drawn into the same convergence. At a London club connected to the foretold danger at Stavromula Beta, Arthur, Ford, Random, Trillian, and Tricia meet as the Grebulons target Earth. A struggle over Random's gun precedes the collapse of Earth's plural zone. The Babel fish transfers nearby life across dimensions, and Trillian merges with McMillan. The others' immediate status, the device's fate, the Vogon scheme, and Arthur's search for Fenchurch remain unresolved.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Arthur Dent became separated from Fenchurch and continued to face a predicted confrontation associated with Stavromula Beta. That threat remained unsettled, as did a warning connected to the Ultimate Question and its Answer. An earlier adversary capable of returning in new lives also left Arthur with an unresolved obligation. These dangers carry forward as Arthur resumes his search for Fenchurch. Zaphod Beeblebrox, meanwhile, has earlier experiences of his own to investigate.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "A meteorite strike destroys the Grebulons' stored identities and mission records. Their surviving systems take them to a remote world, where they monitor Earth without knowing why. Arthur, still looking for Fenchurch, reaches a version of Earth at the expected coordinates and learns that travelers from plural zones can cross into alternate realities. He is also warned of danger at Stavromula Beta. The parallel histories distinguish Trillian, now the intergalactic reporter Trillian Astra, from the Earthbound reporter Tricia McMillan.\n\nFord infiltrates the Guide's headquarters and finds it under corporate control. The corporation that has taken over the Guide intends to market one edition across multiple realities. Zaphod connects the takeover to the Vogons, who are using the Total Perspective Vortex to bridge dimensions and manage the return of plural-zone planets that had been demolished. Zarniwoop directs the operation. After Ford reprograms a flying security robot to help him penetrate the building, the organization dismisses him and threatens him with a rocket launcher. He escapes through a window with his towel and charge card, but the Vogons retain control and their dimensional plan remains active.",
+            "through": {
+              "chapter": 1
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Arthur has settled on Lamuella as a sandwich maker when Trillian arrives with Random, their daughter, whose conception resulted from Arthur's earlier sperm-bank donations. Trillian leaves Random with him, but Random opens a delivery meant for Ford, takes the bird-like new Guide inside it, and escapes in an RW-6 spacecraft. Ford reunites with Arthur and explains that this Guide perceives every possible universe and can act across time and dimensions, giving the Vogons a means to influence realities.\n\nTricia is taken to the Grebulons' base on Rupert to assist with astronomical calculations, but their lost records still conceal their origin and purpose. Arthur and Ford pursue Random through the migration point of the perfectly normal beasts, reach a restaurant, and obtain transport to Earth. Random arrives there seeking McMillan. The Guide's activity advances the Vogon plan, and Prostetnic Vogon Jeltz has the Grebulons aim their disruptors at Earth.\n\nArthur, Ford, Random, Trillian, and Tricia converge at a London club whose name links it to Stavromula Beta. During a struggle over Random's gun, Arthur ducks and Earth's plural zone collapses. The Babel fish transfers nearby life across dimensions, and Trillian merges with McMillan. The post-collapse status of Arthur, Ford, Random, and Tricia is not confirmed. The new Guide, the Vogon and Grebulon operations, Arthur's separation from Fenchurch, and the broader danger remain unresolved.",
+            "through": {
+              "chapter": 2
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B002V8MJWQ",
+            "type": "community"
+          }
+        ],
+        "work": "the-hitchhikers-guide-to-the-galaxy-the-quintessential-phase-dramatized"
       }
     },
     "the-hobbit": {
