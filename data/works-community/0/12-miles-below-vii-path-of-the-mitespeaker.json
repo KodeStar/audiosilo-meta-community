@@ -3231,6 +3231,76 @@
           }
         ],
         "work": "a-broken-alliance"
+      },
+      "recaps": {
+        "ending": "Congress forces recover Rasper Mountain after the MDS abandons Sleeping Bear, but the wider conflict continues. The weapon shutdown has shaken confidence in the IBHU program. A patch is provided, yet Punch suspects the cutoff capability may have been installed during manufacture, and neither that theory nor the extent of surveillance is resolved. The Perseus Union removes all of its IBHU Marines from Home Guard service. Rev and Tomiko return home together after recognizing their mutual romantic interest, while Bob and Bundy remain with Fox Company. A month later, the Union groups its augmented Marines and selected specialists into First Heavy Infantry Company at Camp Nguyen. Rev becomes platoon sergeant of Third Platoon and must help a newly augmented lieutenant prepare an incompletely integrated unit for likely combat against the MDS. The rot danger raised by Callie's death, the implied threat to Rev's family, and the future of Rev and Tomiko remain open.",
+        "in_short": "Rev's Home Guard service moves from politically constrained peacekeeping to open war. After surviving a sabotaged deployment, he is decorated for rescuing a wounded Marine, then faces the theft and possible compromise of Union IBHUs. A corporate intervention tests his loyalty, while Callie's rapid death from the rot makes augmentation risks personal. The MDS leaves the Congress of Humanity and invades disputed systems. At Rasper Mountain, Rev helps take the Tooth, but a low-frequency beam disables the IBHU weapons during the assault on Sleeping Bear and causes a costly defeat. Congress later retakes the mountain, while Punch privately suspects the vulnerability may have been built into the systems. The Union recalls its IBHU Marines, and Rev and Tomiko leave together after acknowledging their mutual interest. One month later, Rev becomes Third Platoon's platoon sergeant in a newly formed heavy infantry company preparing for the widening war.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Rev entered this volume as a Perseus Union IBHU Marine serving in Fox Company of the Home Guard. His augmentation links him to Poshu, the mounted weapons companion that supplies much of his battlefield power, while Punch serves as his battle-buddy AI. His closest established relationships in the unit include Bundy, a longtime friend who commands First Platoon, and Tomiko, a trusted Marine serving in Second Platoon. Rev's continuing service places those personal bonds inside a multinational force whose members remain answerable both to the Home Guard and to their home governments.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far: Rev's platoon is shot down while deploying to a disputed planet, loses its pilot, and escapes with limited equipment. After Rev detects concealed attackers, the survivors repel an ambush and take prisoners. Evidence shows that one mining faction staged the attack while trying to blame its rival. The Home Guard destroys that faction's extraction complex, but a complaint and hostile coverage halt further operations. While the battalion is confined to camp, Punch teaches Rev a covert neural method of exchanging messages because their normal communications may be monitored. A mortar and automated-gun attack then hits the camp. Rev leaves cover to rescue his badly wounded platoon sergeant and destroys the gun position, but command denies the battalion permission to retaliate. A ceasefire forces the unit to depart. Home Guard leadership presents the restraint as a successful peacekeeping outcome, and Rev receives a Medal of Valor for the rescue, even though he remains wary of the political account of the mission.",
+            "through": {
+              "chapter": 8
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far: Fox Company rebuilds cohesion through demanding exercises, and Rev proves that he can use Poshu's unusual capabilities within a broader infantry plan. A promised operation is cancelled amid apparent political interference, deepening the battalion's frustration. The security problem then reaches the Union's own facilities: five IBHUs, including Poshu, are stolen from the Enceladus armory after the cameras are jammed and a technician is assaulted. The systems are recovered on the moon, but Rev believes the thieves may already have completed a technical examination. The incident also exposes the Union's monitoring arrangement for its augmented Marines, damaging the relationship between Tomiko and the Genesian IBHU Marine she was assigned to observe. Technicians find a small device in every recovered unit. A brigade-wide calibration shows no immediate malfunction, but the possibility of a subtler compromise remains unresolved.",
+            "through": {
+              "chapter": 13
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far: Second Battalion deploys to January Hold to contain a corporate dispute without favoring either side. General Platt orders the Union Marines to enforce lawful Home Guard decisions even against a Union-linked business, and Lieutenant Colonel Sims frames the operation as a test of whether Congress can prevent a larger conflict. After a riot leaves a civilian dead and many people injured, planetary authorities authorize arrests on both sides. Rev, temporarily leading his squad, captures a Dillinger executive who calls him a traitor and implies that his family can be harmed. Rev disobeys a recall order to recapture the man after an escape and is reprimanded for leaving his unit, though his conduct during the arrest itself is accepted. Tomiko and Bob help him understand that enforcing valid warrants was not a betrayal of the Union. The executive later repeats the implied family threat. After 72 days, the court rules for Green Systems, Dillinger sells its local rights, and the battalion returns to Insulatus. Soon afterward, Tomiko learns that Callie, a friend from their augmentation cohort, has died unusually quickly from the rot, creating new concern for Rev, Tomiko, and Bundy.",
+            "through": {
+              "chapter": 22
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far: Rev helps a newly arrived corporal overcome severe difficulty with zero-G training, while political attention shifts to Temperate Fallow. A Karnan MDS trooper privately asks him about reports of early rot among augmented personnel, including an IBHU Marine. Their shared concern produces limited respect, but neither side's leadership provides clear answers. Congress rejects an MDS-backed attempt to prevent a troop deployment to the disputed world. Three days later, the MDS formally withdraws from the Congress of Humanity, followed by smaller states and worlds. The Home Guard releases personnel whose governments have left and grants them safe passage. Before departing, the Karnan trooper tells Rev that they may have to kill each other if they meet in battle, and Rev hopes such a meeting never occurs. Twenty-five days after the withdrawal, the MDS invades fourteen disputed systems and lands forces on ten of them. The institutional split has become an armed territorial challenge, forcing Congress to decide whether it will fight for worlds outside the major power blocs.",
+            "through": {
+              "chapter": 27
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far: Congress answers the MDS invasions by landing a task force on Olivera. The local MDS division initially remains distant, but both sides prepare for combat, and the Home Guard considers concentrating its IBHU Marines into a frontline shock force. After weeks of waiting strain discipline, the MDS moves to occupy Rasper Mountain and Congress orders an interception. The MDS reaches the position first, turning the operation into an assault on prepared defenses. Tegan troops stall below the Tooth bunker complex, so Captain Chakra's ad hoc IBHU-heavy company is sent to force an opening. A mine-and-mortar trap wounds Rev and damages his helmet, but he and Corporal Akiki continue forward, breach Objective Magpie, and clear the way into the bunker system. Rev is then removed from combat because his damaged protection makes another hit potentially fatal. The MDS withdraws from the Tooth after inflicting heavy losses and leaves traps behind. Congress holds the captured position, but the enemy's main force remains at large and Sleeping Bear becomes the next objective.",
+            "through": {
+              "chapter": 30
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far: With a replacement helmet, Rev returns to duty for the final Rasper Mountain assault. Task Force Chakra advances from the Tooth toward Sleeping Bear, with the IBHU Marines central to a planned breach. Rev fears that the chosen approach is a kill zone, and the MDS funnels the attackers together before using a low-frequency beam to disable the IBHU weapon systems, including Poshu. The ambush is designed to exploit the helpless augmented troops and capture them. The Genesian IBHU Marine is briefly taken and then recovered, while Rev kills a Karnan attacker in hand-to-hand combat and Akiki kills the attacker's covering partner. Captain Chakra and an experienced IBHU sergeant are among the dead, and the Home Guard withdraws with severe losses. Technicians believe the earlier theft exposed the vulnerability. The Union recalls every IBHU Marine to Enceladus, where a manufacturer team supplies a patch and explains the shutdown as a crystal-code flaw. Punch privately doubts that account and suspects a cutoff capability may have been installed during manufacture, though its estimate is uncertain. Internal restrictions initially prevent Punch from stating the suspicion directly, leading Rev and the AI to conceal their concern.",
+            "through": {
+              "chapter": 35
+            }
+          },
+          {
+            "scope": "book",
+            "text": "In the end: A reinforced Tegan division retakes Rasper Mountain after the MDS abandons Sleeping Bear rather than face another costly assault. The campaign closes with Congress in possession of the mountain, but the losses and the IBHU failure remain consequential. The Perseus Union withdraws all of its augmented Marines from the Home Guard, officially citing political controversy and the need to protect both the troops and their technology. Bob and Bundy stay with Fox Company, while Rev completes the departing contingent's accountability as its senior enlisted Marine. Tomiko obtains an early reassignment because her monitoring duty gave her sensitive IBHU knowledge. She explains that she is leaving to remain with Rev, and they acknowledge mutual romantic interest without defining a relationship. One month later, the Union forms First Heavy Infantry Company from IBHU Marines and selected specialists. Rev becomes platoon sergeant of Third Platoon at Camp Nguyen and is assigned to guide a newly augmented lieutenant. The mixed company has only three weeks to integrate before likely combat in the expanding war. Rev invites Tomiko to join his family during liberty, and she accepts.",
+            "through": {
+              "chapter": 38
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B09KNYCNDJ",
+            "type": "community"
+          }
+        ],
+        "work": "a-broken-alliance"
       }
     },
     "a-builder-of-dreams": {
