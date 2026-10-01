@@ -3805,6 +3805,159 @@
       }
     },
     "star-forged": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Newton Sawyer"
+            ],
+            "description": "A courier and pilot known formally as Newton, Dash carries heavy debts and the responsibility of an alien-linked mission. He travels aboard Slipwing with Leira, Viktor, and Conover, serving as the reluctant leader of a group drawn into an ancient conflict.",
+            "id": "dash",
+            "name": "Dash",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A courier, Dash's field partner, and Viktor's longtime partner. She was rescued alongside Viktor while carrying an alien lens whose purpose was not disclosed, and she now shares the risks of Dash's expanding mission aboard Slipwing.",
+            "id": "leira",
+            "name": "Leira",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A capable engineer and Leira's longtime partner. After being rescued with her, he helped provide the fuel Dash needed to escape. His practical technical knowledge makes him an important member of the crew gathered aboard Slipwing.",
+            "id": "viktor",
+            "name": "Viktor",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Pinetti's nephew and a gifted scientific observer with implanted eye lenses. Pinetti placed him aboard Slipwing through an open-ended bargain requiring Dash to provide passage, food, and care, leaving that obligation unresolved.",
+            "id": "conover",
+            "name": "Conover",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Amy Anson"
+            ],
+            "description": "A mechanic, Leira's cousin, and Viktor's partly trained technical partner. She assessed Slipwing after it was damaged and offered repairs through an informal IOU, linking her skills and an unsettled obligation to Dash's crew.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "AI Sentinel"
+            ],
+            "description": "An unseen AI associated with the archetype but possessing an identity distinct from the machine. Sentinel recognizes Dash as the awaited Messenger and assists him in operating the alien construct and understanding the mission attached to it.",
+            "id": "sentinel",
+            "name": "Sentinel",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The AI overseer of the forge, separate from Sentinel. Custodian recognizes Dash as the Messenger and identifies the immense installation as a facility built to construct and repair archetypes for the unseen war effort.",
+            "id": "custodian",
+            "name": "Custodian",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The proprietor of Penumbra's Eternal Grind, Dash's creditor, and Conover's uncle. Pinetti exchanged part of Dash's debt for an open-ended commitment to carry, feed, and look after Conover aboard Slipwing.",
+            "id": "pinetti",
+            "name": "Pinetti",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The Gulch settlement's security chief and an adviser to its governor. Wary of Dash's explanation for his arrival, Ragsdale is assigned as liaison to the expedition investigating a mysterious signal and places the settlement's safety first.",
+            "id": "ragsdale",
+            "name": "Ragsdale",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Freya Dixon"
+            ],
+            "description": "A gardener on Gulch who cultivates unusually vigorous and nutritious native plants collected near the desert boundary. Their proximity to the unexplained northern signal makes her work relevant to Dash's investigation.",
+            "id": "freya",
+            "name": "Freya",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The leader of the Gulch settlement. She doubts Dash's account of a secretive consortium seeking a crashed ship, but authorizes a northern expedition and assigns Ragsdale to accompany it as her adviser and security representative.",
+            "id": "gulch-governor",
+            "name": "Gulch governor",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "One of Ragsdale's local security specialists assigned to the expedition toward the signal. During an attack by burrowing predators in a ravine, Alec supports the stranded party with covering fire from an autogun.",
+            "id": "alec",
+            "name": "Alec",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A named Golden defensive threat summoned after intruders activate systems inside the buried wreck. Its approaching metallic shriek forces the expedition to choose between advancing and fighting its way back while ammunition becomes increasingly limited.",
+            "id": "dreadfoot",
+            "name": "Dreadfoot",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Dreadfoot"
+            ],
+            "description": "The capture machines previously known as Dreadfoot. These armored Golden constructs are designed to seize living beings for conversion, resist ordinary ammunition, and continue operating independently even when other ship systems are shut down.",
+            "id": "harvesters",
+            "name": "Harvesters",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:1774243431",
+            "type": "community"
+          }
+        ],
+        "work": "star-forged"
+      },
       "recaps": {
         "ending": "Amy survives the Golden treatment, although dark metal remains embedded in her healed wound and its long-term effect is unknown. Dash breaks free of the wreck's manipulative simulations, and Sentinel regains enough control to help the party reach an armory. Armed with Golden pulse weapons, the survivors fight their way out, though Ragsdale is severely wounded. He recovers in the colony infirmary after Dash and Sentinel eliminate every remaining Dreadfoot.\n\nThe Gulch governor commits food, agricultural support, knowledge, and personnel to an alliance with the forge. Freya relocates there to establish food production, while Ragsdale accompanies her as the governor's representative. Dash's crew returns with valuable dark metal, an intact Golden body, and other components. Custodian directs the salvage into repairs, defensive improvements, and Mark II Swift, a smaller and faster construct designed for Leira. Dash, Leira, Viktor, Conover, Amy, Sentinel, and Custodian remain at the forge. The wider Golden danger, Dash's vulnerable connection to Golden systems, Amy's altered condition, and the forge's shortage of resources all remain unresolved.",
         "in_short": "Dash and his companions strengthen the ancient forge, then trace a Golden signal to a buried wreck on Gulch. After surviving local predators, they enter the active ship with security chief Ragsdale, who learns the truth about the Golden-unseen war. The wreck's systems pursue them with robots and Dreadfoot capture machines. They rescue Freya, but Amy is gravely wounded, forcing Dash and Sentinel to use a Golden life-enhancement chamber. Amy survives with dark metal left in her body, while Dash withstands simulations intended to compromise him. The group escapes with Golden weapons and salvage, and Dash and Sentinel destroy the remaining Dreadfoot. Gulch becomes an ally of the forge, sending Ragsdale and Freya to help. The salvage supports repairs and a new construct, Mark II Swift, intended for Leira, though more dark metal and construction time are still required.",
