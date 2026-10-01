@@ -3229,6 +3229,113 @@
         "work": "the-hitchhikers-guide-to-the-galaxy-tertiary-phase"
       }
     },
+    "the-hitchhikers-guide-to-the-galaxy-the-quintessential-phase-dramatized": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A displaced Earthman searching for Fenchurch. On reaching a world at Earth's coordinates, he learns that travel across plural zones can lead into alternate realities and that an unexplained danger awaits him at Stavromula Beta.",
+            "id": "arthur-dent",
+            "name": "Arthur Dent",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A Guide researcher who breaks into its headquarters and finds corporate management replacing the former editorial operation. After altering a security robot's behavior to aid his entry, he escapes the building when the new regime turns against him.",
+            "id": "ford-prefect",
+            "name": "Ford Prefect",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Trillian Astra"
+            ],
+            "description": "An intergalactic reporter and the version of Trillian who left Earth with Zaphod Beeblebrox. Her history distinguishes her from Tricia McMillan, an Earthbound counterpart whose life followed a different course.",
+            "id": "trillian",
+            "name": "Trillian",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Earthbound reporter whose history diverged from Trillian's when Trillian left the planet with Zaphod Beeblebrox. She is presented as a separate counterpart, not as another name for the off-world reporter.",
+            "id": "tricia-mcmillan",
+            "name": "Tricia McMillan",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Earth identity Random seeks after arriving with the bird-like new Guide. Random identifies her by name while trying to find Trillian, but no connection between Trisha and the similarly named Tricia McMillan is established at this point.",
+            "id": "trisha-mcmillan",
+            "name": "Trisha McMillan",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Arthur Dent and Trillian's daughter, conceived through Arthur's earlier sperm-bank donations. Feeling abandoned by both parents, she rejects Lamuella as a home when Trillian leaves her in Arthur's care.",
+            "id": "random",
+            "name": "Random",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An investigator examining both the takeover of the Guide and his own earlier experiences. He links the operation to the Vogons and to the use of the Total Perspective Vortex as a way to connect realities.",
+            "id": "zaphod-beeblebrox",
+            "name": "Zaphod Beeblebrox",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Vogon executive directing the corporate takeover of the Guide. The operation under his control replaces the old editorial culture and is tied to the Total Perspective Vortex, technology capable of bridging realities.",
+            "id": "zarniwoop",
+            "name": "Zarniwoop",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The Vogon directing the reality-manipulation operation. As the new Guide acts across dimensions and advances the plan, he orders the Grebulons' disruptors trained on Earth, making the planet the operation's immediate target.",
+            "id": "prostetnic-vogon-jeltz",
+            "name": "Prostetnic Vogon Jeltz",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A group assigned to monitor Earth whose ship is struck by a meteorite. With their stored identities and mission records erased, they settle on a remote world without knowing their names, origin, or full purpose.",
+            "id": "grebulons",
+            "name": "Grebulons",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B002V8MJWQ",
+            "type": "community"
+          }
+        ],
+        "work": "the-hitchhikers-guide-to-the-galaxy-the-quintessential-phase-dramatized"
+      }
+    },
     "the-hobbit": {
       "characters": {
         "characters": [
