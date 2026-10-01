@@ -2977,6 +2977,297 @@
         "work": "glitches"
       }
     },
+    "glory-to-the-brave": {
+      "characters": {
+        "characters": [
+          {
+            "description": "An ether-warped spellsword and battlefield leader. He fights the Dread Crew beside his familiar, Amaranth, and can disrupt enemy spellcasters by draining nearby mana.",
+            "id": "lyrian",
+            "name": "Lyrian",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Lyrian's telepathically linked azure puma familiar and battlefield partner.",
+            "id": "amaranth",
+            "name": "Amaranth",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Carver's organized raiding force and the town's principal enemy at the opening of the war.",
+            "id": "dread-crew",
+            "name": "Dread Crew",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A member of the town's core group who leads allied reinforcements into the opening battle against the Dread Crew.",
+            "id": "halcyon",
+            "name": "Halcyon",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A scout commander who joins Lyrian and Amaranth in a concealed strike against the Dread Crew's battle line.",
+            "id": "sierra",
+            "name": "Sierra",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A frontline commander in Lyrian's core group who helps defend the settlement against Carver's raiders.",
+            "id": "freya",
+            "name": "Freya",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Justicar"
+            ],
+            "description": "The town's magical judicial authority. Dyer establishes lawful terms for prisoners of war, can impose binding restrictions, and offers captured enemies structured choices between punishment and cooperation.",
+            "id": "dyer",
+            "name": "Dyer",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A guildmaster and military leader whose people lost their settlement to the enemy. He advises Lyrian, leads operations in the field, and remains determined to deny Carver the strategic advantages gained from that conquest.",
+            "id": "caius",
+            "name": "Caius",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A veteran commander and senior settlement leader. Aldwin helps plan the defense and warns that Carver's earlier connection to the orcs may represent a threat beyond the immediate fighting on the plains.",
+            "id": "aldwin",
+            "name": "Aldwin",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A town smith supporting the settlement's construction effort. Jenkins works on the iron components needed for the palisade while war demands and limited raw materials strain the local workshops.",
+            "id": "jenkins",
+            "name": "Jenkins",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An elf scout serving Lyrian's allied forces. He carries reports from forward operations and helps determine that Carver's fighters have abandoned and burned their camps rather than simply being defeated.",
+            "id": "kilgore",
+            "name": "Kilgore",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Lyrian's central team who supports scouting and combat operations while the town tries to discover where Carver's force has gone and what danger it is preparing next.",
+            "id": "constantine",
+            "name": "Constantine",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The leader of Legion, one of the established guilds considered as a possible ally for Lyrian's settlement. His group could provide badly needed numbers if it can be persuaded to relocate.",
+            "id": "janus",
+            "name": "Janus",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The guild's production specialist, responsible for editing its public feeds, analyzing their audience, and evaluating outside guilds as potential allies.",
+            "id": "paul",
+            "name": "Paul",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A temporary ally whose public feed helps Lyrian's group assess the crisis in Iberia. The group considers asking him, Sawyer, and Ransom to return there, seek help, and warn others about the regional danger.",
+            "id": "lazarus",
+            "name": "Lazarus",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Lazarus's companions and a prospective member of the return mission to Iberia. The group may recruit help and warn Iberian leaders about the regional danger.",
+            "id": "sawyer",
+            "name": "Sawyer",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A companion of Lazarus and Sawyer who is preparing to travel back toward Iberia. His group offers the settlement a possible channel for recruiting adventurers and carrying warnings to Iberian leaders.",
+            "id": "ransom",
+            "name": "Ransom",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A settlement member who assists Halcyon with moving material recovered from the ancient ruins.",
+            "id": "donovan",
+            "name": "Donovan",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The leader behind the hostile raiders fighting Lyrian's settlement.",
+            "id": "carver",
+            "name": "Carver",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An adviser pledged to serve the settlement for several months. He approves the return mission to Iberia, offers strategic reports, and gives Lyrian practical guidance for questioning prisoners.",
+            "id": "stanton",
+            "name": "Stanton",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A healer and investigator who helps examine the corrupted constructs and determine how their captives, life energy, and skull bindings sustain them.",
+            "id": "thea",
+            "name": "Thea",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The town's chief architect and production leader. He directs emergency manufacturing and works with Lyrian on practical weapons that can overcome the defenses of the newly encountered corrupted constructs.",
+            "id": "master-craftsman",
+            "name": "Master craftsman",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Alyssa",
+              "Elliot"
+            ],
+            "description": "Siblings who jointly lead Lionheart. They hear Lyrian's case for relocating their guild, including the scale of the orc alliance, the missing settlers, and the freedom they would retain as partners in the defense.",
+            "id": "lionheart-co-leaders",
+            "name": "Lionheart co-leaders",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A white-haired, dual-blade fighter serving with Carver's force. He refuses Lyrian's offer to surrender and claims that remaining with his present group is the safest choice in light of what he expects to come.",
+            "id": "former-dread-crew-elf",
+            "name": "Former Dread Crew elf",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An immense behir raid boss guarding a clutch in the forest. Lyrian's raiding party recognizes that it is far beyond their strength and withdraws without attracting its attention.",
+            "id": "broodmother",
+            "name": "Broodmother",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A golden-furred beastkin druid enslaved by the orcs. His earth magic is essential to their vast gardens, making him valuable enough to preserve but also placing those around him at risk when his captors want to punish him.",
+            "id": "earthspeaker-leader",
+            "name": "Earthspeaker leader",
+            "reveal": {
+              "chapter": 37
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A former Iberian royal knight who leads a covert resistance among the orcs' slaves. Though her people have little equipment, she has organized contacts and accepts cooperation with Lyrian's raiding party.",
+            "id": "ariana-blackwater",
+            "name": "Ariana Blackwater",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An enslaved human and cautious resistance contact. After testing Lyrian's intentions, he reveals a concealed wooden spike passed through the work crews and guides the newcomers to Ariana's meeting place.",
+            "id": "klein",
+            "name": "Klein",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An enslaved lizard-person mystic who helps coordinate the resistance. His ability to project his presence over great distances makes him a crucial link between scattered allies, but he goes missing after a violent confrontation.",
+            "id": "astral-walking-resistance-leader",
+            "name": "Astral-walking resistance leader",
+            "reveal": {
+              "chapter": 41
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The level-30 orc warlord commanding the horde outside the town. At the parley he offers only permanent enslavement or destruction, confirming that his campaign leaves the defenders no acceptable negotiated settlement.",
+            "id": "shadow-eater",
+            "name": "Shadow Eater",
+            "reveal": {
+              "chapter": 62
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:1774245000",
+            "type": "community"
+          }
+        ],
+        "work": "glory-to-the-brave"
+      }
+    },
     "go-set-a-watchman": {
       "characters": {
         "characters": [
