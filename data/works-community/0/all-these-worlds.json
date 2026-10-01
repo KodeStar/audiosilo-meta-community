@@ -1870,6 +1870,69 @@
           }
         ],
         "work": "an-alliance-reforged"
+      },
+      "recaps": {
+        "ending": "Kinshasa remains outside MDS control after its defenders repel the invasion. The MDS signs a non-aggression pact, accepts a 75 percent military reduction, and agrees to a route back into the Congress of Humanity. Many Marines are dead, although 42 casualties have progressed far enough in resurrection treatment to have credible recovery prospects. The unit assembled for the campaign is disbanded on return.\n\nRev survives with Punch, while Poshu's damaged beamer remains unsafe pending technical inspection. Tomiko is alive after resurrection and recuperating at Rev's parents' home, where she is protected from her estranged father's effort to gain control of her survivor benefits. Her physical healing and intermittent cognitive problems continue, but she accepts Rev's marriage proposal. Omega Division's suspicion of Rev, the uncertain durability of the political settlement, and the IBHU program's technical limitations remain unresolved. In the epilogue, armored centaurs board a tourist vessel using unfamiliar technology, incapacitate its captain, and leave the ship under active attack with one shuttle still outside.",
+        "in_short": "Veteran IBHU Marine Rev begins the campaign by helping seize a Freedom Confederation gun emplacement, then survives a crash, captivity, and an Omega Division inquiry after saving an injured enemy officer. On Tahiti, a successful raid becomes a disastrous struggle for escape. Rev carries the apparently dead Tomiko off the frozen world, and the cold preserves her long enough for resurrection. While she recovers, the MDS attacks Kinshasa. Rev helps break an encircled brigade and later wins a single-combat truce against a Karnan champion, sparing him and securing a withdrawal. Kinshasa holds, the MDS accepts military restrictions and a path back into the Congress of Humanity, and Rev becomes engaged to the still-recovering Tomiko. The settlement remains uncertain, Omega Division still distrusts Rev, Poshu needs repair, and a Centaur boarding attack reveals a renewed threat to human space.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Rev is a veteran Union Marine and the most experienced member of the IBHU augmented program. His implanted AI, Punch, serves as his trusted adviser, while the weapons companion Poshu supplies his specialized combat power. Rev has a history with several Marines now serving around him, including former associate Orpheus and former civilian adversary Strap, both of whom later became fellow Raiders. He also shares a close bond with IBHU Marine Tomiko.\n\nRev's record includes protecting wounded enemies under the laws of war, a principle that can place him at odds with authorities who judge loyalty through political outcomes. The human political order is divided between the Congress of Humanity and the MDS, and military tensions between them continue.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Third Platoon seizes the power station supporting a Freedom Confederation gun emplacement, but the victory costs several Marines and exposes continuing faults in IBHU equipment. Rev is then ordered to escort a politically important Freedom Confederation staff captain. Their aircraft is shot down, leaving the officer critically injured and Rev's communications disabled. Rev carries the prisoner toward friendly territory until his armor overheats and must be abandoned. Rather than leave the officer to die, Rev alerts an enemy patrol to his location and escapes alone.\n\nMDS troops capture Rev after a later ambush. He wakes wounded in an MDS medical facility with Punch electronically silenced and Poshu withheld. A Red Cross liaison helps defend his detainee rights and notify his family. Unexpectedly, the MDS releases him without requiring parole because the officer he saved intervened on his behalf. Rev painfully refits Poshu, receives the code needed to restore Punch, and crosses back to Union control in a prisoner exchange. Tomiko meets him there and confirms that the Union won the battle on Armadillo.",
+            "through": {
+              "chapter": 8
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Punch is restored after Rev's return, but an Omega Division agent treats Rev's aid to the wounded enemy captain as evidence of possible disloyalty. Rev maintains that the Torrent Accords required his decision. The agent lets him go while warning that the investigation will continue. During a short stand-down, Rev and Tomiko tell his family that they have begun a relationship, and Tomiko joins his veterans' post.\n\nArctic training then exposes serious shortcomings in IBHU cold-weather mobility. Rev correctly predicts an opposing commander's rear attack and redirects Third Squad into an ambush, although asserting his authority strains his friendship with Orpheus. The opposing commander recognizes Rev's tactical judgment and later discusses the MDS's strategic motives with him. Tests show that Poshu's sluggish cold-weather response comes from thickened lubricant and may be repairable, but the wider problem of moving heavily augmented Marines through deep snow remains unsolved. Rev, Tomiko, and Yancey suspect an imminent cold-world deployment, though its destination has not yet been confirmed.",
+            "through": {
+              "chapter": 13
+            }
+          },
+          {
+            "scope": "book",
+            "text": "First Heavy Infantry covertly raids an MDS research installation on the frozen world Tahiti. Third Platoon destroys accessible equipment, but MDS fire eliminates the extraction craft and drives away the supporting ship. Stranded survivors retreat toward rocky ground while Rev helps cover the wounded. A temporary ceasefire buys time, but an MDS soldier later destroys a wounded Marine's chance of resurrection despite the protections expected under the Torrent Accords. Rev preserves evidence of the killing.\n\nThe company spends days evading pursuit with shrinking supplies and power. A false communications array kills Orpheus, leaving Rev grieving and Third Squad without its leader. Continued attacks wound Rev and force the survivors into an increasingly desperate hill defense. When multiple S-DAWs assault the position, the traumatized IBHU headquarters sergeant destroys one at the cost of her life. The remaining defenses cannot hold, so the captain orders the company to scatter through the forest in small evasion groups. Only seven IBHU Marines remain, all with depleted power and ammunition, and no rescue is assured.",
+            "through": {
+              "chapter": 20
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Rev and the platoon lieutenant cover the company's flight from the hills. She stays behind as rear guard, and her fate remains unknown. Rev joins Tomiko, Yancey, and another Marine, but a patrol fight leaves Tomiko with three severe gunshot wounds. They shelter in a snow cave, where she dies. Rev preserves her body for resurrection even after the normal treatment window expires, drawing power from her equipment so he can carry her through the pursuit. A Hegemony controller finally arranges an extraction, and a Union Marine fighter pilot returns under fire to rescue Rev, Yancey, and Tomiko's body.\n\nThe company's final roll call confirms catastrophic losses. Rev believes Tomiko is permanently dead until he learns that extreme cold preserved her well enough for resurrection protocols. He stays beside her through treatment as other survivors and his family help ensure she is not alone. The MDS announces prosecutions over the earlier execution, though Rev doubts its motives. Tomiko awakens sooner than expected and recognizes Rev. She remains medically fragile, but her identity and core memories have survived.",
+            "through": {
+              "chapter": 25
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Tomiko begins a difficult recovery marked by intermittent confusion and trouble finding words. Before she and Rev can define their relationship, an emergency recall sends him toward Kinshasa. The MDS uses a distant naval engagement as a diversion, then launches coordinated attacks on seven planets and lands more than 100,000 soldiers on Kinshasa. With orbital and air support largely absent, militia artillery helps prevent a rapid MDS victory.\n\nFirst Heavy Infantry breaches an encircled MDS brigade that has destroyed a militia artillery unit. Rev's platoon clears fortified positions, allowing thousands of militia troops into the perimeter and leading to the brigade's destruction or capture. The battalion is then sent toward Camp McTavish, where Karnans ambush another Marine force. Rev and Pearson climb a ridge and inflict heavy losses from the flank, but Rev is wounded and Pearson's condition becomes unknown. With the Marines surrounded, an MDS major proposes an unarmed duel: an IBHU Marine against a Karnan champion, followed by MDS withdrawal and care for casualties. Rev volunteers and recognizes the opposing sergeant from earlier encounters.",
+            "through": {
+              "chapter": 30
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Rev's damaged equipment nearly costs him the duel, but he turns a loose Poshu strut against the Karnan sergeant and incapacitates him. Rev refuses to execute the defeated man because the agreement requires defeat, not death. The MDS major honors the result and orders the Karnans to withdraw, ending the immediate crisis near Camp McTavish. Evacuation resumes after the jamming stops, but only 104 of the 313 Marines and corpsmen who landed on Kinshasa return to camp. The planet's MDS forces surrender, and former MDS partners begin seeking renewed ties with the Congress of Humanity.\n\nThe MDS later accepts a non-aggression pact, a 75 percent military reduction, and a path back into the Congress. Rev returns home and finds the resurrected Tomiko recovering at his parents' house after her estranged father tried to obtain her benefits. She remains medically fragile but accepts Rev's marriage proposal. Punch stays with Rev, while Poshu's damaged beamer awaits repair. In the epilogue, an unidentified vessel attacks a tourist ship near a remote gas giant. Armored centaurs board the ship, incapacitate its captain, and reveal that the supposedly ended Centaur threat has returned with unfamiliar technology.",
+            "through": {
+              "chapter": 34
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B09MZM4CL2",
+            "type": "community"
+          }
+        ],
+        "work": "an-alliance-reforged"
       }
     },
     "an-american-marriage-oprahs-book-club": {
