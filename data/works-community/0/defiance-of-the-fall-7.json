@@ -3107,6 +3107,48 @@
           }
         ],
         "work": "demon-lords"
+      },
+      "recaps": {
+        "ending": "Xan destroys the foundry core, ending Isaac's restoration regime but obliterating Riseguard. Noah, Crow-Foot Jim, and other possessed players are freed, and Archie binds Isaac to permanent service constructing a lower-world jump-gate network. The victory immediately gives way to a new crisis when Isrid enforces Vincent's secret bargain, possesses him, kills Xan, and escapes. Xan later respawns. Noah reunites with Amelia, and together they spend another forty-five in-game years pursuing reports of the possessed Vincent. On Myroth, Noah defeats and kills Vincent's controlled avatar, ending Isrid's possession and the linked devil threat. Vincent is free to respawn, though his later location is not established. Noah and Amelia repeatedly die until the update forcibly releases them into reality, where they remain together and Amelia is still pregnant. Isaac publicly claims responsibility for trapping the players, apparently shielding ARKUS, and Vincent is reported as a hero. The angel barrier, the larger climb, ARKUS's motives, Riseguard's recovery, and Zhang's final condition remain open.",
+        "in_short": "Vincent reunites the World Knights and turns a dangerous climb into an effort to free Crow-Foot Jim, while Noah's determination to escape the accelerated game helps create a manufactured war at Riseguard. Isaac escalates that war into mass confinement and forced restoration, prompting Vincent, Xan, and their allies to build a resistance. After decades of training, they invade Riseguard, free several possessed players, and destroy the foundry controlling the restoration system, though the blast also destroys the city. Isrid then claims Vincent's body under a secret bargain and kills Xan. Noah and Amelia pursue the possessed Vincent for forty-five years. Noah finally kills Vincent's avatar, ending Isrid's control and freeing Vincent to respawn. Noah and Amelia then leave the game together, with Amelia still pregnant. Isaac is bound to Archie's service in the game and publicly accepts blame for the disaster in reality, while the angels, ARKUS's true intent, Riseguard's future, and Zhang's condition remain unresolved.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Vincent, once known as Vincent the Eldritch, has adopted the masked identity of Vincent the Wanderer and travels under the restrictions of Debuff Chains. The World Knights have separated, but he remains connected to Xan, Quinn, Crow-Foot Jim, and other former allies. After saving Arlen from the world boss Cryark, Vincent dies and respawns far back on Aramar. There he learns that his companions have continued training. Xan has left Zhang's party and agrees to meet Vincent so they can restore the World Knights, recover their scattered friends, and resume the climb. In the real world, Noah and his chronically ill wife Amelia accept an Ark Foundation test involving ARKUS's medical nanomachines and a full-sensory game. The treatment may rebuild Amelia's body, while the game offers the couple income and a shared adventure. Isaac Bell, the project's head developer, explains its immersive technology and accelerated virtual time. Noah and Amelia enter the arrangement hoping it will give them both a future.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Noah, Zhang, and Ezra defeat the powerful boss Yin Vale, and Noah learns that Amelia is pregnant. Their victory is immediately overshadowed by a system update that restores full pain, prevents logout, and accelerates time to roughly one in-game year for every five real-world seconds. Noah cannot leave to join Amelia, and the players may face centuries inside the game. Two S-class angels, Ezekiel and Atara, block Cryosal's onward gates and kill the Great Vanguard team when it attempts to advance. Noah now sees the climb as a possible route to answers and escape, but the angels are beyond the group's present ability.",
+            "through": {
+              "chapter": 2
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Vincent defeats Theros for access to the forgotten Grand Kai gate, reunites with Xan, and restores the World Knights name. They take the rare Chiron route while wearing Debuff Chains that increase the value of their progress at the cost of magic and defense. After escaping a giant mimic, they reach No-Kai, hunt giants, recover Skyglass, and develop new abilities, including Vincent's TrueScan. Meanwhile, Noah learns Isaac's theory that ARKUS imposed the update after detecting real-world deaths among critically ill players, though the explanation remains unconfirmed. Ezra dissolves the Great Vanguard to challenge the angels alone, Zhang seeks allies, and Noah returns with Amelia to a dead world to develop negative-energy powers. Amelia shares his training despite the dangers of restored pain and her pregnancy.",
+            "through": {
+              "chapter": 5
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Vincent and Xan scale No-Kai's Isolation Mountains with Xan's new teleportation spell. Their shortcut awakens Joran of the Infinite Freeze, but Vincent identifies the ice dragon's weakness and Xan creates the opening needed to defeat it. On Kylan, they learn that debt to Igen Industries confines Crow-Foot Jim in the Inner Sanctum. A devil then deceives them into killing surviving NPCs disguised as enemies. Vincent kills the deceiver, and the pair escape the resulting pursuit only after Vincent accepts a revenge quest from Isrid, the dead first king of the devils. Elsewhere, Noah develops the negative-energy spell Flatten while helping Isaac investigate the game. Isaac believes access to a hidden skybox may allow him to end the update, but presents ARKUS's life-preserving motive as an explanation rather than a certainty. Noah later finds an unexpected seventh route created by a world-shaping ant. Amelia, exhausted by their prolonged ordeal, asks to step away from the climb. Noah convinces her not to leave before the lock-in is over, leaving them together on the maze world but divided over whether his relentless pursuit is still worth its cost.",
+            "through": {
+              "chapter": 9
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B086VVG8Q2",
+            "type": "community"
+          }
+        ],
+        "work": "demon-lords"
       }
     },
     "demons-fyodor-dostoyevsky": {
