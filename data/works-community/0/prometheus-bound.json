@@ -1166,6 +1166,238 @@
         "work": "puddnhead-wilson"
       }
     },
+    "pumpkins-and-popstars": {
+      "characters": {
+        "characters": [
+          {
+            "description": "An anxious electrical magician working as Omensford's Magical Liaison Office community agent. Nell's daughter and Cressida's companion, she is sent to examine Harris's vanished pumpkin crop and the discovery of Nigel's headless body.",
+            "id": "fi",
+            "name": "Fi",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Fi's dragon-like familiar and investigative companion. She follows scent trails at Harris's farm and leads Fi to the body in the drainage ditch, helping establish the strange circumstances around the missing crop.",
+            "id": "cressida",
+            "name": "Cressida",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elderly warlock who grows pumpkins outside Omensford. He calls for help after his entire crop disappears overnight, then identifies the headless man found nearby as Nigel, his trusted foreman.",
+            "id": "harris",
+            "name": "Harris",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Harris's trusted foreman, found dead in a drainage ditch beside the emptied pumpkin field. His missing head and the unusual tracks at the scene make his death central to Fi's new investigation.",
+            "id": "nigel",
+            "name": "Nigel",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Nigel"
+            ],
+            "description": "Harris's foreman and the victim found headless beside the emptied pumpkin field. The coroner supplies his full name while presenting the initial autopsy findings.",
+            "id": "nigel-burns",
+            "name": "Nigel Burns",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The medical examiner assisting Fi and the detective with Nigel's death. The coroner identifies the victim and reports evidence of strangulation, forcible head removal, and restraint by immense hands.",
+            "id": "coroner",
+            "name": "Coroner",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The police investigator leading the inquiry into Nigel's death. The detective secures the farm scene, coordinates with Fi on its possible magical elements, and awaits medical evidence about the violent decapitation.",
+            "id": "detective",
+            "name": "Detective",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A psychic cafe owner travelling in Europe while Steve prepares her Omensford business to reopen. She sends Fi an enigmatic warning that the present case can be solved by looking to Fi's past.",
+            "id": "effie",
+            "name": "Effie",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Glenn's husband and the person managing the practical work for Effie's cafe reopening. Overwhelmed by the remaining preparations, he accepts help from Glenn and Fi as the Halloween deadline approaches.",
+            "id": "steve",
+            "name": "Steve",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Steve's husband and a steady source of food and practical support during the cafe renovation. He joins Fi in helping Steve finish the work while sharing responsibility for their daughter.",
+            "id": "glenn",
+            "name": "Glenn",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A doctor dating Fi who is also skilled with a sword and possesses an unexplained connection to death. He and Fi arrange a visit to a haunted-house attraction while their relationship is still developing.",
+            "id": "mort",
+            "name": "Mort",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fi's mother and a member of Fi's household.",
+            "id": "nell",
+            "name": "Nell",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fi's sister and Bea's mother within Fi's household circle. She is among the family members dealing with Effie's return and the unusual guests and threats surrounding their home.",
+            "id": "agatha",
+            "name": "Agatha",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Effie's elven guest, newly arrived from Europe. He is an old acquaintance and former fashion client of hers.",
+            "id": "elf-pop-star",
+            "name": "Elf pop star",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hostile demon trapped in donkey form and confined at Fi's home after previously creating a passage into its own realm. Its continued presence leaves Fi living beside an unresolved danger.",
+            "id": "demon-donkey",
+            "name": "Demon donkey",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The owner of a magically warded florist shop targeted during the pumpkin thefts. The wizard returns while Fi is confronting the shop's defensive owlbear, calls the creature off, and explains that only pumpkins and decorative squashes were taken.",
+            "id": "florist-wizard",
+            "name": "Florist wizard",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The florist wizard's protective owlbear. Fluffy attacks Fi while defending the shop, then stops when the owner calls the creature off.",
+            "id": "fluffy",
+            "name": "Fluffy",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Fi's conscious and protective home. It reacts when Mort kisses Fi by slamming its shutters before they leave for their date.",
+            "id": "fis-house",
+            "name": "Fi's house",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A demonstrator outside the haunted-house attraction who opposes magic and supernatural beings.",
+            "id": "anti-supernatural-protester",
+            "name": "Anti-supernatural protester",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The performer scheduled to play the Pumpkin King at the haunted-house attraction. Police provisionally identify him as the second headless victim, found beside the venue's pumpkin patch after Fi and Mort's interrupted date.",
+            "id": "pumpkin-king-actor",
+            "name": "Pumpkin King actor",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Jones"
+            ],
+            "description": "Fi's boss at the Magical Liaison Office. Agent Jones contacts her after the second suspicious death and demands the overdue report connecting the potentially supernatural murders.",
+            "id": "agent-jones",
+            "name": "Agent Jones",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Valentine"
+            ],
+            "description": "A vampire actor at the haunted-house attraction who failed to sign out and was not interviewed after the second killing. His unexplained absence makes him Fi's leading suspect when she traces his registration details.",
+            "id": "valentine-lapel",
+            "name": "Valentine Lapel",
+            "reveal": {
+              "chapter": 25
+            }
+          },
+          {
+            "aliases": [
+              "Fi and Agatha's living pumpkin"
+            ],
+            "description": "An enormous animated pumpkin with powerful vines, apparently created when Fi's electricity combined with Agatha's nature magic the previous Halloween. It occupies the murderer's lair, holds the missing performer captive, and calls Fi its mother.",
+            "id": "animated-pumpkin",
+            "name": "Animated pumpkin",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0FWNF8BVV",
+            "type": "community"
+          }
+        ],
+        "work": "pumpkins-and-popstars"
+      }
+    },
     "purgatorio": {
       "characters": {
         "characters": [
