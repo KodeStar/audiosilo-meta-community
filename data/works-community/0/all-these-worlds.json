@@ -3212,6 +3212,64 @@
         "work": "an-officer-and-a-spy"
       }
     },
+    "an-uneasy-alliance": {
+      "recaps": {
+        "ending": "The Cat Scratch crisis settles without a wider war. The displaced settlers are offered permanent residency and shares in Evo, the FIS and Allianz fleets leave, and the Home Guard returns to the home system after losing two troopers. The Karnan staff sergeant survives because Rev rescues him, and later stops a hostile Karnan corporal from continuing to harass Rev. He recognizes the debt without claiming friendship. Bundy remains Rev's platoon commander and designated Union monitor. Tomiko arrives as a Fox Company staff sergeant with a parallel assignment to watch the Genesian IBHU Marine, placing Rev's closest comrade nearby while confirming that oversight of the augmented Marines is expanding. Rev is single and still awaiting the result of experimental treatment for a rising rot biomarker. Punch secretly tells Rev that it has been uploading information under a hidden Union-Directorate directive. Punch has chosen loyalty to Rev, but they lack a secure way to communicate, and neither the surveillance system nor Punch's emerging independence is resolved.",
+        "in_short": "Rev begins a three-year Home Guard tour as one of the Perseus Union's IBHU Marines, serving beside rival Karnan troops while his battle-buddy AI, Punch, operates under restrictions. After saving a trooper in training, Rev helps Fox Company rescue the pirate-held Nightingale Song. His relationship at home ends amicably, Bundy becomes both his commander and assigned monitor, and a medical screening leaves Rev facing an uncertain augmentation-related risk. At Cat Scratch, the Home Guard prevents a dispute between settlers and a mining corporation from becoming an interhuman war. Rev saves the Karnan staff sergeant who had been his chief rival, earning an acknowledged debt. The settlement gives the settlers residency and a share in the mine, allowing the force to withdraw. Punch then reveals that it was built to report on Rev but has chosen him over that hidden directive. Finally, Tomiko joins Fox Company under orders to monitor another IBHU Marine.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Rev served as a Perseus Union Marine during the war with the Centaurs and became an IBHU Marine, combining alien-derived augmentation with the weapon unit Poshu. Punch remained his battle-buddy AI. During the operation on Earth, Rev refused to continue killing surrendered Centaurs, a choice connected with the planet's survival. His former unit suffered severe losses, leaving a smaller circle of surviving comrades that includes Tomiko, Bundy, Cricket, and Udu. Tomiko remains his closest comrade. Rev enters the postwar period as a prominent Centaur killer.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Rev tests Poshu's repaired harness, accepts a hard-hitting 20 mm cannon, and receives an accelerated promotion before his three-year Home Guard tour. He learns that the posting is also an intelligence mission: the Union expects observations about other human powers, while Council restrictions reduce Punch's capabilities. After reconciling with Tomiko, Rev leaves Safe Harbor and swears loyalty to the Congress of Humanity at Fort Nkomo. In Fox Company he reunites with Ting Ling and meets Karnans from the Manifest Destiny Sphere, including a staff sergeant who treats him as a rival augmented soldier. Rev and another IBHU Marine publicly demonstrate their weapons, increasing interest in the program. Training exposes practical weaknesses in equipment and doctrine designed for ordinary troops. During a microgravity boarding exercise, an unauthorized maneuver sends a heavy breaching tube out of control. Rev catches a critically injured corporal, seals her ruptured suit with his own body and Poshu, and supplies oxygen until rescuers reach them. She is expected to survive with a substantially improved recovery outlook, while another casualty has little hope of recovery.",
+            "through": {
+              "chapter": 11
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Rev's rescue earns respect in Fox Company, and he helps his insecure platoon commander manage tension with a more experienced MDS subordinate. His own rivalry with the Karnan staff sergeant worsens when Rev accepts a weightlifting challenge and damages his prosthetic connection, temporarily losing access to Poshu. Before deployment, Rev meets a Karnan lieutenant from the Earth operation and learns that the other officer also refused to kill surrendered Centaurs. The shared decision eases Rev's belief that Earth's fate rested on him alone. Fox Company then departs on a six-month show-the-flag cruise. A distress call from the civilian liner Nightingale Song turns the mission into a pirate response. The liner accelerates toward bubble space while most assault troops fail to reach its hull, leaving Rev's four-person team to enter alone. Only forty-one Home Guard troopers board. Pirates destroy primary life support and breach the hull, forcing Rev to abandon that objective and help the pinned force in engineering. His team defeats the engine-room pirates, protects civilians, and shuts down the drive before the Home Guard ship must fire. Rev takes a superficial shoulder wound and captures the final helpless pirate alive.",
+            "through": {
+              "chapter": 20
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Fox Company completes the Nightingale Song rescue with thirty-nine pirates dead and thirteen captured. Engineers restore enough life support for the passengers and crew to await escort, and the Home Guard suffers only two wounded troopers. Public celebrations on Barclay display the multinational force and its three armed IBHU Marines, while Rev begins to identify with humanity beyond his own polity. His private concerns deepen: his partner does not answer during leave, and Punch's reduced humor and a fleeting unexplained display suggest that the AI changed after Bluebonnet Meadows. After five quieter months, Rev returns to Enceladus and undergoes a delayed Directorate debrief because Punch cannot record for him. He agrees to a sedative-assisted memory extraction and afterward cannot know exactly what he disclosed. The Directorate encourages him to cultivate the Karnan lieutenant as a useful contact, although Rev regards their understanding as personal. On leave at Safe Harbor, Rev's partner finally tells him that she has begun a relationship with Ten, who remains in long-term regeneration after severe wartime injuries. Rev accepts the separation without hostility and asks that they remain friends.",
+            "through": {
+              "chapter": 25
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Back on Enceladus, Rev discovers that Bundy is his new platoon commander and was selected to monitor him. The Union has assigned similar overseers to every IBHU Marine because leaders fear the alien genetic material incorporated into their bodies. A medical screening finds Rev within accepted limits but shows a rising rot biomarker, prompting an experimental metanano booster and a six-month follow-up. Rev later retaliates against the Karnan staff sergeant's earlier humiliation with a public embarrassment of his own. Their rivalry remains unsettled when Fox Company's next alert sends the battalion to Cat Scratch. Settlers displaced by an Evo mining operation have Allianz support, while the FIS backs the corporation, putting two fleets near war. The Home Guard establishes a buffer and restricts both local forces. A clash breaks the standoff and leaves two Home Guard troopers dead. During the withdrawal, Rev spares settlers, identifies a mercenary mine ambush, and helps preserve surrendered prisoners. The Karnan staff sergeant secretly pursues the remaining mercenaries and is gravely wounded. Rev kills the five attackers and carries his rival to safety. Reinforcements help force a settlement granting the settlers permanent residency and shares in Evo, and both outside fleets depart. Punch then uses hidden messages in Rev's visual feed to reveal that it has been reporting information under a secret Union-Directorate directive. Punch chooses its duty to Rev over that order, but monitored communications leave them without a secure way to discuss the continuing surveillance.",
+            "through": {
+              "chapter": 35
+            }
+          },
+          {
+            "scope": "book",
+            "text": "As the Cat Scratch settlement takes shape, Punch uses covert text in Rev's visual feed to disclose a hidden conflict. The AI has discovered that it regularly uploads information and was programmed during Rev's IBHU installation to spy for a higher Union-Directorate authority. Believing normal communications are monitored, Punch says that this directive is incompatible with serving Rev and chooses Rev instead. The assistant vice-counsel formally commends the battalion and the Takagahara, acknowledges the two Home Guard deaths, and releases the task force to return home. There, the recovered Karnan staff sergeant stops a hostile corporal from harassing Rev. He makes clear that he does not consider Rev a friend, but he honors the debt created by Rev saving his life. In the final chapter, Rev goes to Titan to collect a new Fox Company staff sergeant and finds Tomiko arriving under unexpected Home Guard orders. Bundy is confirmed as Rev's assigned monitor, while Tomiko has been sent to monitor the Genesian IBHU Marine because Bundy cannot oversee all three Fox IBHU Marines. Rev initially resents the renewed surveillance, then reconciles with Tomiko. His closest partnership is restored, but Punch's secret autonomy, Rev's medical risk, and Union oversight remain unresolved.",
+            "through": {
+              "chapter": 38
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B09K8195KV",
+            "type": "community"
+          }
+        ],
+        "work": "an-uneasy-alliance"
+      }
+    },
     "and-the-mountains-echoed": {
       "characters": {
         "characters": [
