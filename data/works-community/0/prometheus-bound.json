@@ -3914,6 +3914,281 @@
         "work": "rage-of-a-demon-king"
       }
     },
+    "rage-of-night": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A figure from earlier events to whom Conover still owes an unresolved obligation as this book begins. The nature and settlement of that obligation remain open.",
+            "id": "pinetti",
+            "name": "Pinetti",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Newton Sawyer"
+            ],
+            "description": "The Messenger, commander of the Cygnus Realm, and pilot of the archetype. He diverts from his return journey when the Granite sends a broken distress call, then leads the effort to identify the vessel that destroyed it.",
+            "id": "dash",
+            "name": "Dash",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Dash's deputy and the pilot of Swift. She helps assess the destruction of the Granite and identifies the unknown attacker's weapons as probably Verity in origin.",
+            "id": "leira",
+            "name": "Leira",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "AI Sentinel"
+            ],
+            "description": "The archetype's AI and Dash's closest operational partner. Sentinel receives the Granite's fragmented distress signal, helps Dash investigate, and analyzes evidence from the attack.",
+            "id": "sentinel",
+            "name": "Sentinel",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior Cygnus officer who examines the recovered imagery of the Granite's attacker. Wei Ping agrees that the unfamiliar warship appears to carry Verity weapons.",
+            "id": "wei-ping",
+            "name": "Wei Ping",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Cygnus AI analyst who contributes to the assessment of the Granite attack and the suspected use of Verity weaponry.",
+            "id": "tybalt",
+            "name": "Tybalt",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Captain of the cargo hauler Granite. His undisclosed cargo pickup and the pursuit that followed become central evidence after his ship and crew are destroyed.",
+            "id": "captain-roscoe",
+            "name": "Captain Roscoe",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The prospective pilot of Talon, a light mech designed for scouting and fast combat. She begins training with her assigned AI while the forge completes the mech.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The prospective pilot of Pulsar, a support mech able to produce brief gravity effects. He begins AI training as the forge prepares the mech for service.",
+            "id": "conover",
+            "name": "Conover",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Amy's assigned AI, with a serious manner and a strong focus on instruction. Hathaway begins preparing Amy to operate Talon.",
+            "id": "hathaway",
+            "name": "Hathaway",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Conover's assigned AI, whose persistent optimism contrasts with Hathaway's severity. Kristen starts training Conover for his eventual meld with Pulsar.",
+            "id": "kristen",
+            "name": "Kristen",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The acting lead for operational security. Ragsdale urges Cygnus to treat trust as conditional while the organization faces unfamiliar enemies and uncertain loyalties.",
+            "id": "ragsdale",
+            "name": "Ragsdale",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An adviser with deep reverence for the unseen. He reacts strongly when their conduct is questioned during the senior group's strategic discussion.",
+            "id": "kai",
+            "name": "Kai",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Pilot of the salvage vessel Rockhound during the expedition to recover dark metal from a moon near a brown dwarf.",
+            "id": "jacoby",
+            "name": "Jacoby",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The forge AI, archive keeper, and strategic fabricator. Custodian opens a restricted Messenger archive for Dash and explains that the next war phase requires a network of independent bases and commanders.",
+            "id": "custodian",
+            "name": "Custodian",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Director Powell"
+            ],
+            "description": "The pragmatic director of a floating settlement on Gale and an experienced atmospheric pilot. After seeing the mechs, he provisionally accepts Dash's account of the Golden and discusses exchanging helium-3 for food support.",
+            "id": "powell",
+            "name": "Powell",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Cygnus fleet officer and former privateer with useful contacts on Kapok. He volunteers to help obtain the vast length of mining cable needed for a recovery operation.",
+            "id": "benzel",
+            "name": "Benzel",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A former Gentle Friends wreck crawler who examines the damaged skyhook recovered from the brown-dwarf moon. She uses a grav belt to work comfortably under the forge's gravity.",
+            "id": "dana",
+            "name": "Dana",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A cable-factory operator and criminal-syndicate leader with a grievance against Benzel over two stolen ships. She accepts a ten-percent share of the proposed recovery in return for her factory's cable stock.",
+            "id": "kapok-factory-operator",
+            "name": "Kapok factory operator",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The indoctrinated adopted human daughter of the Clan Shirna leader and a former Cygnus prisoner. Cygnus transferred her to STA custody instead of executing or holding her indefinitely.",
+            "id": "nathis",
+            "name": "Nathis",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of the two sisters commanding the Spiral Collectors. Cygnus captures her after the privateers attack, but she warns that her sister will continue resisting.",
+            "id": "captured-spiral-collector-sister",
+            "name": "Captured Spiral Collector sister",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The second commander of the Spiral Collectors. She remains in control of the withdrawing privateer force after her sister is captured.",
+            "id": "remaining-spiral-collector-sister",
+            "name": "Remaining Spiral Collector sister",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A former refugee and the forge's most capable doctor. Sadiq is assigned to examine the Golden body recovered from a disabled vessel.",
+            "id": "sadiq",
+            "name": "Sadiq",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Nathis's adoptive daughter and the commander of the fortified force at Jabberwock. She controls a captive Golden through a cranial cable and directs the attack on Cygnus.",
+            "id": "clan-shirna-commander",
+            "name": "Clan Shirna commander",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A forge engineer and pilot of Slipwing. During the Jabberwock battle, he takes the ship through defensive fire to protect a ship-killer platform.",
+            "id": "viktor",
+            "name": "Viktor",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young refugee serving aboard Ravager. She survives the ship's destruction after being thrown clear in a vac suit and is recovered by Retribution.",
+            "id": "shara",
+            "name": "Shara",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A captive aboard the Clan Shirna commander's carrier. When the control cable is torn free, the wounded prisoner acts against the commander and helps Dash survive their confrontation.",
+            "id": "wounded-golden",
+            "name": "Wounded Golden",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The AI partnered with Leira in Swift, supporting her operations as one of Cygnus's frontline mech pilots.",
+            "id": "swift-ai",
+            "name": "Swift AI",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:1774245515",
+            "type": "community"
+          }
+        ],
+        "work": "rage-of-night"
+      }
+    },
     "ragged-dick": {
       "characters": {
         "characters": [
