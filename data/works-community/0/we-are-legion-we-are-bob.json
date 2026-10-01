@@ -1390,6 +1390,257 @@
         "work": "what-katy-did"
       }
     },
+    "what-lies-behind": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A Union Marine staff sergeant and senior NCO in Third Platoon, formerly known as Hansel Minnick. Rev works with the IBHU Poshu and the crystal AI Punch. After witnessing the MDS violate a limited-combat agreement, he expects the enemy to retaliate.",
+            "id": "rev",
+            "name": "Rev",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Rev's crystal AI companion, linked to his combat systems through Poshu. Punch supplies information and tactical support while serving as a constant partner in Rev's decisions.",
+            "id": "punch",
+            "name": "Punch",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Rev's IBHU, providing the integrated augmented capability that makes him a heavy-combat Marine. Poshu connects Rev with Punch and gives him capabilities beyond those of ordinary infantry.",
+            "id": "poshu",
+            "name": "Poshu",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Rev's trusted captain and platoon commander. Bundy supports removing the Union personnel from the planet after the MDS command violates the agreed limits of its battle with the alien force.",
+            "id": "bundy",
+            "name": "Bundy",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Navy officer advising the MDS task force about limited engagements. Commander Hun openly condemns the MDS command's breach of its agreement with the alien force and moves to get the Union Marines off the planet.",
+            "id": "commander-hun",
+            "name": "Commander Hun",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Third Platoon Marine serving as second-squad leader during the emergency withdrawal. Sergeant Rice helps lead the platoon toward its hurried extraction while the MDS position collapses.",
+            "id": "sergeant-rice",
+            "name": "Sergeant Rice",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Third Platoon Marine shot by an alien sniper during the escape from the overrun MDS operation. Her comrades carry her body onward in the hope that preservation and later medical care may still help her.",
+            "id": "lance-corporal-pang",
+            "name": "Lance Corporal Pang",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An MDS liaison to Third Platoon during the collapse of the limited-combat operation. After initially dismissing Rev's warning, the over-sergeant arranges an emergency extraction, secures 40 harnesses, and directs the platoon toward its pickup point.",
+            "id": "mds-over-sergeant",
+            "name": "MDS over-sergeant",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An MDS marshal who publicly assigns responsibility for the disastrous operation to its ground command and the dead mid-marshal after the survivors reach Safe Harbor.",
+            "id": "marshal-volk",
+            "name": "Marshal Volk",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A fellow staff sergeant who serves as platoon sergeant while Rev undergoes repeated debriefings. Winnie Urquhart helps maintain the platoon after its escape from the failed MDS operation.",
+            "id": "winnie-urquhart",
+            "name": "Winnie Urquhart",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Rev's fiancee and a fellow Marine senior NCO. Tomiko is angered by the MDS breach that placed Rev and his platoon in danger, and she is recalled with him after the retaliation expands.",
+            "id": "tomiko",
+            "name": "Tomiko",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Marine colleague in Rev's recalled company. Yancey returns to duty with the others as the destruction of an MDS world pushes their unit toward another dangerous mission.",
+            "id": "yancey",
+            "name": "Yancey",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The executive officer of First Heavy Infantry Company, acting as its Marine commander after the company commander cannot be found among the survivors of the landing.",
+            "id": "heavy-infantry-company-commander",
+            "name": "Heavy-infantry company commander",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The senior allied naval infantry officer among the survivors of the failed landing. He assumes command of the mixed force and orders it to continue toward the alien position rather than search the swamp for other scattered units.",
+            "id": "allied-naval-infantry-commander",
+            "name": "Allied naval infantry commander",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The alien representative who meets Rev during the parley on Siron III. The negotiator recognizes Rev as individually honorable but rejects renewed limited combat because it condemns humanity as a whole, then grants the stranded force 73 minutes to prepare for battle.",
+            "id": "alien-negotiator",
+            "name": "Alien negotiator",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A human attached to a Centaur Reaver. When the stranded troops disperse into swamp cover, she elects to accompany the vehicle during its rear-guard defense.",
+            "id": "centaur-liaison",
+            "name": "Centaur liaison",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Marine who works with another IBHU operator as an observation-post pair in the swamp. Bochik Mizaki helps watch for enemy movement while the stranded force's armor power steadily declines.",
+            "id": "bochik-mizaki",
+            "name": "Bochik Mizaki",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Marine recovered after the swamp battle with wounds of uncertain origin, possibly from a 20 mm round. Corpsmen preserve Lance Corporal Wen for possible resurrection, though he is unlikely to survive without rapid access to advanced treatment.",
+            "id": "lance-corporal-wen",
+            "name": "Lance Corporal Wen",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Rosalie Romero"
+            ],
+            "description": "The human liaison to a Centaur Reaver concealed near the lake. Called Rose, she joins Rev's isolated survivors after the Reaver intervenes to destroy the enemy force pinning them down.",
+            "id": "rose",
+            "name": "Rose",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The full name of Rev's fiancee, previously introduced as Tomiko. A senior Marine NCO, she acknowledges a dangerous procedural mistake during their evasion on Siron III, and the two resolve the resulting tension.",
+            "id": "tomiko-reiser",
+            "name": "Tomiko Reiser",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Omega Division interrogator who visits Rev during recovery, when Punch has been shut down for surgery. Zach Wolf questions Rev about a suspicious conversation that may have been captured through covert monitoring.",
+            "id": "zach-wolf",
+            "name": "Zach Wolf",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An IBHU officer who takes command of Alpha Company in Second Assault. Captain Adair considers augmented Marines essential to the battalion and challenges Rev's habit of relying on intuition instead of standard procedure.",
+            "id": "captain-adair",
+            "name": "Captain Adair",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Karnan officer assigned to command Rev's platoon in Alpha Company. He appears capable, though his arrival also reflects the political and service tensions inside the newly assembled multinational battalion.",
+            "id": "karnan-lieutenant",
+            "name": "Karnan lieutenant",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An MDS officer in Second Assault who favors entering combat personally when he sees an opening. Lieutenant Kiel defends that approach after Captain Adair criticizes him for fighting instead of concentrating on command.",
+            "id": "lieutenant-kiel",
+            "name": "Lieutenant Kiel",
+            "reveal": {
+              "chapter": 33
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A former Confederation Army and Legion soldier who leads a contract-killing operation. KK Jack arranged the seven-person team that tried to murder Rev, and he faces the employer after the attempt fails.",
+            "id": "kk-jack",
+            "name": "KK Jack",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The unidentified sponsor who hired KK Jack's team to kill Rev. The masked employer moves with exceptional speed, carries a hidden blade, and demands that the unfinished contract continue.",
+            "id": "masked-employer",
+            "name": "Masked employer",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0BCL4C1DQ",
+            "type": "community"
+          }
+        ],
+        "work": "what-lies-behind"
+      }
+    },
     "what-men-live-by": {
       "characters": {
         "characters": [
