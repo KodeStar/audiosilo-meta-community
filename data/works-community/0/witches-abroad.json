@@ -2541,7 +2541,7 @@
             "role": "protagonist"
           },
           {
-            "description": "Vincent's late wife. His grief remains profound, and an old dungeon once exploited it by generating an avatar simulation of her. Vincent understands that the simulation is not the woman he lost, even though the encounter keeps drawing him back.",
+            "description": "Vincent's late wife.",
             "id": "monica",
             "name": "Monica",
             "reveal": {
