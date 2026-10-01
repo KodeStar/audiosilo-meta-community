@@ -5037,6 +5037,64 @@
         "work": "david-copperfield-adaptation"
       }
     },
+    "dawn-of-empire": {
+      "recaps": {
+        "ending": "Dash's force wins the blue-dwarf-system battle by closing with a larger Verity fleet, sacrificing its drones in reactor-overload attacks, and destroying the defenses and habitation domes on two planets. Cygnus loses another Silent Fleet ship and other assets. Dash uses the archetype's blast cannon to pull an armored escape craft from translation, and six Verity prisoners are captured. They call the Golden the Apotheists and provide incomplete intelligence after Custodian accesses their technology-linked brains. Refugees then kill them. Ragsdale survives wounds received while stopping the refugee spokesperson, a Verity spy, from transmitting the offensive plan. Conover remains temporarily blind after the earlier defense of the forge, while Amy survives her injuries. The archetype and Swift operate at sharply reduced capacity, and the blast cannon requires rebuilding. Enemy forces are concentrating along three broad vectors for an unknown purpose. Custodian reveals that the forge can relocate, so Dash orders it moved to a system on the edge of former Verity territory and makes that destination the next base for the war.",
+        "in_short": "Dash turns the forge into the capital of the Realm of Cygnus and gains the Aquarian Collective as an autonomous ally. His search for abducted travelers exposes the Verity, former adherents of an Unseen order who now serve the Bright and sustain their war machines with harvested human neural tissue. Cygnus develops unspace scramblers and a neural disruptor, captures a major missile platform at Siren, and survives a direct Verity assault on the forge. Dash then attacks an installation near Verity territory, winning at heavy cost and taking prisoners who identify the Golden as the Apotheists. The prisoners yield only partial intelligence before refugees kill them. The archetype and Swift remain badly damaged, Conover is temporarily blind after piloting an experimental fighter, and Ragsdale is wounded after exposing a Verity spy among the refugees. With enemy forces gathering along three unexplained routes, Dash orders the mobile forge moved to the edge of former Verity space as Cygnus's next offensive base.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Dash became the Messenger and formed a meld with Sentinel to pilot the archetype. Leira serves as his closest partner and pilots the Swift with Tybalt, while Custodian runs the ancient forge that anchors their growing power. Freya manages its agricultural systems, and engineers including Amy, Conover, and Viktor help turn its technology into a defense against the Golden. The Silent Fleet provides experienced commanders and crews, including Benzel and Wei Ping. Dash's exposure to Golden influence remains unresolved. Amy has undergone dark-metal treatment that still carries risk and an outstanding repair obligation, while Conover retains a separate promise to provide someone passage. These personal debts accompany a larger struggle in which the forge's people must expand their limited forces, understand technology inherited from the unseen, and resist an enemy whose resources and long-term purpose remain uncertain.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Dash and Leira recover dark metal from a concealed Golden cache after surviving its hidden laser defenses. Back at the forge, abundant food, unused space, stronger point defenses, and new material for construction convince Dash that the station can support something larger. He declares it the capital of the Realm of Cygnus, intended to unite free systems against the Golden, with Leira as his second in command. Conover, Viktor, Amy, and Custodian build a long-range dark-metal detector, although its first results deepen the mystery of Golden supplies. During another recovery mission, a small device escapes from a destroyed Golden drone. Its path points toward an Aquarian distress call near Rayet Karina. Dash takes Leira and a Silent Fleet detachment to the Aquarian ring world, where Governor Albaje presents evidence connecting the Golden to the lost colony ship Wind of Heaven. The Aquarian Collective joins Cygnus as an autonomous ally, receiving a promise of defensive ships. Dash and Leira then leave to trace the missing ship's route and determine what happened to its passengers.",
+            "through": {
+              "chapter": 5
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Dash and Leira find an abandoned Golden station whose records show that ships have been dragged from unspace near a massive star for more than two centuries. The missing travelers appear to have been taken rather than destroyed. On the Aquarian ring, Albaje reveals Golden machinery hidden inside Mount Primus, suggesting another source of dark metal. Following the Wind of Heaven's route, Dash and Leira encounter hostile Bright vessels. The battle ends with the enemy destroying its own damaged ship, but Dash retrieves a body. Examination at the forge shows a centuries-old artificial form built around much younger human nervous tissue. Dash's group concludes that the Bright repeatedly harvest neural material, preserving memories as well as biological continuity. Dash and Leira shift from containment to destroying the enemy responsible. Data supplied by the Aquarian Collective narrows the disappearances to a region near the galactic core. Kai connects that region to the Verity, a breakaway order that rejected individual identity in favor of absolute logic. With this specific system as a lead, Dash prepares an investigation and begins work on technology that can disrupt travel through unspace.",
+            "through": {
+              "chapter": 10
+            }
+          },
+          {
+            "scope": "book",
+            "text": "At the Verity system, Cygnus meets human-built ships enhanced with Golden technology and two Harbingers. Experimental gravity bombs break the attack but briefly damage spacetime. Dash captures one enemy vessel, and Wei Ping leads the boarding operation that brings a living Verity officer and valuable technology back to the forge. Under interrogation, the prisoner confirms that the Verity replace their nervous systems with tissue taken from abducted humans and act as the Bright's vanguard against biological life. He also confirms Golden assistance with unspace interdiction. Custodian turns the copied principle into scrambler mines, while Aquarian survey data and missing-ship patterns lead Benzel and Wei Ping to Siren. Dash launches a two-wave assault there. The archetype and Swift evade a mass missile strike by using a gas giant, then join the delayed fleet against a huge Verity platform and its frigates. Amy destroys the platform's principal laser with the Slipwing. Dash breaches the hull and fills it with an incapacitating agent, allowing Cygnus to seize the installation largely intact, though several ships and both mechs take serious damage. Inside, Dash and Leira discover that the main data cores were removed. One escape pod gets away, another is stopped by a scrambler mine, and an approaching Verity patrol answers the alarm.",
+            "through": {
+              "chapter": 16
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The incoming Verity patrol nearly destroys the archetype and Swift with coordinated tactics that appear impossible for ordinary uncrewed ships. Wei Ping breaks from the withdrawal plan and arrives in time to save both pilots, although the Visible is lost. Samples recovered from the Siren escape craft reveal altered living human nerve cells joined into a dense network, offering an explanation for the enemy's linked combat ability. Dash commits Cygnus to destroying the Verity war system and everyone supporting its use of human beings as material. The forge obtains badly needed resources through hazardous salvage, then Dash and Leira recover part of a crashed Golden atmospheric craft from inside a comet. Custodian identifies its cannon as a powerful weapon suitable for planetary operations if enough dark metal can be supplied. Elsewhere, Benzel and Wei Ping rescue 112 people fleeing a Verity attack on a settlement, proving that the enemy has escalated beyond seizing ships. Custodian builds an atmospheric fighter, and Conover volunteers to pilot its thought-controlled interface. Evidence places the Verity home region beyond a starless rift. A refugee spokesperson points Dash toward a large installation near that region, and Dash selects it for the realm's next offensive.",
+            "through": {
+              "chapter": 21
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Before Cygnus can depart, a Verity fleet attacks the forge after using the refugee ships to penetrate its defenses. A neural disruptor breaks the coordination of linked corvettes. Conover survives his first sortie in the atmospheric fighter but is left temporarily blind by feedback, and Amy retrieves him under fire. The forge wins with six deaths and significant damage. Reinforcements from Port Hanna and the Aquarian Collective allow Dash to proceed against the blue-dwarf installation. Ragsdale exposes the refugee spokesperson as a Verity spy before he can transmit the plan, but the spy's prosthetic-arm blast wounds Ragsdale and kills a monk and a refugee. The target fleet is nearly twice the expected size. Dash's force nevertheless breaks it at close range after sacrificing every drone and losing another Silent Fleet ship. Dash and Leira destroy the planetary defenses and habitation domes. Six prisoners are captured from an armored escape craft and identify the Golden as the Apotheists, but refugees kill them after Custodian extracts only partial intelligence. The archetype and Swift finish at 46 and 33 percent capability, and the blast cannon needs reconstruction. Enemy forces are massing along three broad routes for an unknown objective. Custodian reveals that the forge itself can move, and Dash orders it relocated to the edge of former Verity space as the next offensive base.",
+            "through": {
+              "chapter": 25
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:1774244942",
+            "type": "community"
+          }
+        ],
+        "work": "dawn-of-empire"
+      }
+    },
     "dawn-of-the-density-god": {
       "characters": {
         "characters": [
