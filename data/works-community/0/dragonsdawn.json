@@ -4477,6 +4477,291 @@
       }
     },
     "dungeon-eternium": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A newly ascended B-rank mage whose shared soul with Cal ties his survival to the dungeon. His unusual advancement gives him greatly increased speed, strength, and senses as moonfall and the collapse of the world's essence approach.",
+            "id": "dale",
+            "name": "Dale",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Dungeon Core"
+            ],
+            "description": "The sentient dungeon operating Mountaindale and the other half of Dale's shared soul. His ley-line work is connected to the growing essence crisis, placing his survival and the defense of his dungeon under an urgent moonfall deadline.",
+            "id": "cal",
+            "name": "Cal",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Cal's dungeon wisp and close partner. She understands that wisps depend on empowered partners and warns that an extinction threat may compel her kind to return to their mysterious place of origin, despite a taboo surrounding that journey.",
+            "id": "dani",
+            "name": "Dani",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The young wisp regarded as the child of Cal and Dani. She is part of their close dungeon family while Cal experiments with stronger creatures and prepares defenses against dangers beyond Mountaindale.",
+            "id": "grace",
+            "name": "Grace",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A decisive council voice who refuses to let the academy headmaster abandon the survival effort. She supports renewed talks with Cal and helps press the divided coalition toward a workable refuge agreement.",
+            "id": "chandra",
+            "name": "Chandra",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dark-elf representative who takes Dale's warning about diverted essence seriously when much of the council dismisses it. Her people have detected concentrated essence being abruptly redirected into new channels, and she seeks more information from Dale.",
+            "id": "brianna",
+            "name": "Brianna",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An allied ruler and council participant who backs another attempt to negotiate with Cal. He joins the coalition seeking enforceable terms that can preserve its peoples from the approaching global destruction.",
+            "id": "henry",
+            "name": "Henry",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An allied queen who participates in the survival council and supports reopening negotiations with Cal. She is among the recognized leaders willing to pursue mass shelter within his soul space before moonfall.",
+            "id": "marie",
+            "name": "Marie",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A mage teacher who identifies Dale and Cal as two beings sharing one soul. He connects Dale's early ascension to Cal's bond with a law and understands that the first moon fragments will arrive within weeks.",
+            "id": "academy-headmaster",
+            "name": "Academy headmaster",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Northman exile determined to save his people. Before he can advocate for their evacuation, he must survive the law surrounding his blood-fire berserker exile, regain legal standing, and possibly challenge his own brother's authority.",
+            "id": "tom",
+            "name": "Tom",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Cal's recruiter, who independently secures powerful mages to propel Mountaindale north. She promises prospective allies land and opportunity after entry into the refuge, showing initiative beyond the task Cal originally assigned her.",
+            "id": "minya",
+            "name": "Minya",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Mountaindale's pilot and route-finder. When the Northmen's ward pulls the flying landmass toward danger, he obeys Cal's emergency order to reverse course.",
+            "id": "navigation-bob",
+            "name": "Navigation Bob",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Cal's manticore guardian, equipped with poisonous and acidic blood and rapid wind-driven movement. He is a lethal dungeon defender whose kills also give Cal opportunities to study the magic of fallen challengers.",
+            "id": "manny",
+            "name": "Manny",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Dale's companion and a member of the outside support group backing Tom's return. He accompanies Tom into the Northmen's protected capital while Tom remains an exile without restored rank or legal standing.",
+            "id": "hans",
+            "name": "Hans",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An archer in Dale's party who accompanies Tom into the Northmen's protected capital. She accepts the danger of acting as part of his external support group while his legal status as an exile remains unresolved.",
+            "id": "rose",
+            "name": "Rose",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Tom's brother and a Northmen general. He remains personally concerned for Tom but follows the law that denies an exile the standing of blood family.",
+            "id": "northmen-warlord",
+            "name": "Northmen warlord",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The intelligent infernal dungeon beneath the Northmen's protected crater. It possesses an extensive system of wards and agrees to exchange that knowledge with Cal under binding terms of good faith and nonaggression.",
+            "id": "infernal-dungeon",
+            "name": "Infernal dungeon",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A wounded high-rank authority overseeing the untested escape portal. He imposes a strict deadline on the divided factions, warning that only rapid completion of the project can preserve their peoples.",
+            "id": "the-master",
+            "name": "The Master",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Dale's moon-elf instructor, who resumes intensive training once Dale reaches B-rank. He makes clear that Dale's advancement has ended the restraint applied during their earlier sessions.",
+            "id": "moon-elf-trainer",
+            "name": "Moon-elf trainer",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Northman commander leading a personal campaign against trapped Amazonians. He and his squad ambush and execute them, dedicating the resulting dungeon power to Cal.",
+            "id": "former-northman-general",
+            "name": "Northman general",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A portable dungeon carried by an armored ogre and recognized as Dani's former training companion. Although Dani demands its destruction, Cal keeps it alive long enough to hear what it has to say.",
+            "id": "backpack-dungeon",
+            "name": "Backpack dungeon",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A former dungeon boss who now acts freely while carrying a portable dungeon core. Her sentient living-metal companion can become armor, and she arrives seeking Dani on instructions connected to an earlier invasion.",
+            "id": "free-ogre",
+            "name": "Free ogre",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A returning Guild authority who builds political support while the Master weakens. His growing faction threatens an abrupt transfer of power at the same time the escape portal and evacuation remain unfinished.",
+            "id": "guild-leader",
+            "name": "Guild leader",
+            "reveal": {
+              "chapter": 31
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "He alerts Cal to approaching B-rank beasts deprived of essence. Threats from both sky and ocean are closing on Mountaindale, apparently attracted by its emitted power.",
+            "id": "bob",
+            "name": "Bob",
+            "reveal": {
+              "chapter": 34
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A transformed survivor and formidable lightning wielder who believes Cal destroyed his people. Guided by ravens that track essence, he attacks Dale in pursuit of vengeance until the Master intervenes.",
+            "id": "odin",
+            "name": "Odin",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A vastly stronger dungeon beneath the icy northern land. It knows the enemy behind the moonfall, offers to teach Cal how to resist hostile S-rankers, and asks for rescue through a connection between their Silverwood Trees.",
+            "id": "ancient-northern-dungeon",
+            "name": "Ancient northern dungeon",
+            "reveal": {
+              "chapter": 39
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An S-rank enforcer who collars the necromancers, seizes their portal key, and assumes control of the completed migration route. He presents obedience as the price of survival and uses overwhelming power to suppress resistance.",
+            "id": "guild-commander",
+            "name": "Guild commander",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The weakened leader of the enslaved necromancers. After centuries spent fighting for his people's freedom, he yields to the Guild commander because resisting would bring immediate death to followers trapped in control collars.",
+            "id": "necromancer-leader",
+            "name": "Necromancer leader",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A powerful conspirator whose planted madness helped drive Dani toward her homeland and shape the wider migration crisis. His alliance with the Guild commander places him behind the calamity now closing around Cal's refuge.",
+            "id": "mad-s-ranker",
+            "name": "Mad S-ranker",
+            "reveal": {
+              "chapter": 48
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The mad S-ranker's son, who turns against his father during the attempt to exploit Dale's new core form. Though severely injured in the confrontation, he intervenes directly and creates Dale's only immediate path of escape.",
+            "id": "mad-s-rankers-son",
+            "name": "Mad S-ranker's son",
+            "reveal": {
+              "chapter": 53
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:uk:1977349684",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-eternium"
+      },
       "recaps": {
         "ending": "The Soul Gate carries at least 374,473 people into the refuge before the Guild commander consumes Cal's dungeon and crushes his core. Cal reunites with Dale, who reaches a duplicate core, expels the commander with the Infernal Cannons, and chooses to remain one integrated being. Dale's human body disintegrates as he becomes core-based. The mad S-ranker captures him and tries to use him to enter an empty triple-S-ranked core, but the S-ranker's injured son sends Dale through an escape portal. Dale remains bound by chaos at a distant sphere of liquid essence. Inside his sealed soul space, Dani, Grace, the ancient dungeon, the wolfmen, the saved necromancers, and the evacuated peoples survive. The academy headmaster offers help with governance, Chandra offers to improve the soul space, and the former necromancer leader becomes an adviser. Dale is named the Divine Dungeon, but his residents are cut off from the Tower of Ascension and cannot restore their mana, leaving him to build a sustainable society and power system.",
         "in_short": "With moonfall approaching, Cal turns his soul space into a refuge while Dale, Tom, Minya, and their allies secure cooperation and prepare the evacuation. A Soul Gate eventually admits at least 374,473 people, but the Guild commander reveals that the migration was designed to concentrate their souls and mana inside Cal. He consumes the dungeon and crushes Cal's core, reunifying Cal with Dale. Dale reaches a duplicate core, drives the commander away with the Infernal Cannons, and chooses permanent integration, losing his human body. The mad S-ranker then captures core-based Dale, but the S-ranker's son enables an escape. Still bound by chaos, Dale governs the surviving peoples within his sealed soul world and is named the Divine Dungeon. The refugees live, but they cannot replenish mana, old political conflicts persist, and Dale must make the enclosed world sustainable.",
