@@ -1911,6 +1911,188 @@
         "work": "fade-out"
       }
     },
+    "fae-and-familiars": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Fiona Blair"
+            ],
+            "description": "An electrical witch and Magical Liaison Office agent preparing for a Cornwall holiday with Mort and Cressida. Fi wants greater independence, but anxiety about her driving test and difficulty trusting her feelings for Mort leave her unsettled.",
+            "id": "fi",
+            "name": "Fi",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Mortimer"
+            ],
+            "description": "Fi's supportive partner and Cornwall travelling companion. A doctor with practical medical skills, Mort understands Fi's interests and helps care for Cressida.",
+            "id": "mort",
+            "name": "Mort",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fi's golden, dragon-like worm familiar. Cressida can communicate mentally with Fi, shares her heightened emotions and can breathe fire. She accompanies Fi and Mort on their Cornwall holiday.",
+            "id": "cressida",
+            "name": "Cressida",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Aggie"
+            ],
+            "description": "Fi's sister and a source of practical family support. Agatha lends Fi her large pickup for the driving test and stays close enough to help her through the anxious start of the attempt.",
+            "id": "agatha",
+            "name": "Agatha",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fi and Agatha's mother, who runs the bed and breakfast where Fi lives. As Fi leaves for Cornwall, she asks their responsive, semi-sentient house to look after Nell in her absence.",
+            "id": "nell",
+            "name": "Nell",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The aware house where Fi and Nell live. It reacts physically to Fi, objects to mistreatment and accepts Fi's request to watch over Nell during the Cornwall trip.",
+            "id": "responsive-house",
+            "name": "Responsive house",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The daughter of the family running Fi and Mort's holiday property. Tamsin explains that unusually troublesome piskies are harming bookings and shares local knowledge about the custom of leaving them milk.",
+            "id": "tamsin",
+            "name": "Tamsin",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The elderly owner of Fi and Mort's holiday property and Tamsin's father. He catches a pisky near the cottage and follows a local custom of leaving milk for the small Fae creatures.",
+            "id": "tamsins-father",
+            "name": "Tamsin's father",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Jones"
+            ],
+            "description": "Fi's brusque superior at the Magical Liaison Office. Agent Jones asks her to investigate lethal pisky violence in Cornwall before continued attacks cost the creatures their protected status.",
+            "id": "agent-jones",
+            "name": "Agent Jones",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A local authority on piskies who writes about them and sells magical goods. The proprietor diagnoses Cressida's scale rot and provides treatment.",
+            "id": "magic-shop-proprietor",
+            "name": "Magic-shop proprietor",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A tourist confirmed by the coroner as the victim of the fatal pisky swarm at Tintagel Castle. Brian Russell's death is the first pisky-related fatality the coroner has encountered in more than twenty years.",
+            "id": "brian-russell",
+            "name": "Brian Russell",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A coastal mermaid who emerges after Fi sends controlled electrical magic into the sea.",
+            "id": "mermaid",
+            "name": "Mermaid",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Fae ruler of the piskies and the apparent force behind enchanted stones that drive them to attack. She is said to be seeking a renewed foothold in Cornwall from a realm reached through an unknown portal.",
+            "id": "pisky-queen",
+            "name": "Pisky Queen",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A gray-haired member of the Pisky Queen's court. The adviser counsels negotiation when Fi demands an end to the attacks, placing a cautious voice beside the queen's uncompromising rule.",
+            "id": "gray-haired-royal-adviser",
+            "name": "Gray-haired royal adviser",
+            "reveal": {
+              "chapter": 31
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Ophelia Harrington"
+            ],
+            "description": "An older friend of Fi from earlier events. Effie sends congratulations after Fi's driving test, together with a warning that another gift is coming and is likely to bring trouble.",
+            "id": "effie",
+            "name": "Effie",
+            "reveal": {
+              "chapter": 41
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Mort's father and the previous holder of the death-guardian duty that Mort inherited. Hades has no direct part in the Cornwall case, but the responsibility passed down from him remains active.",
+            "id": "hades",
+            "name": "Hades",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hostile demonic essence confined at Fi's home after earlier events. It takes no direct part in the Cornwall investigation, but its captivity and harmful intent remain unresolved.",
+            "id": "confined-demon",
+            "name": "Confined demon",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0GS6KTL3J",
+            "type": "community"
+          }
+        ],
+        "work": "fae-and-familiars"
+      }
+    },
     "fae-and-fare": {
       "characters": {
         "characters": [
