@@ -3424,6 +3424,197 @@
         "work": "worlds-apart"
       }
     },
+    "worlds-apart-j-n-chaney": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Newton Sawyer"
+            ],
+            "description": "The Messenger, commander of the Cygnus Realm, and pilot of the archetype. Working in a meld with Sentinel, he fights Golden Harbingers near an icy world and turns aside from a simple pursuit when an artificial signal suggests a larger mystery.",
+            "id": "dash",
+            "name": "Dash",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "AI Sentinel"
+            ],
+            "description": "The archetype AI joined to Dash through the meld. Sentinel improves the mech's weapon control, evaluates changing Harbinger tactics, and detects artificial emissions from the icy planet. A dry attempt at humor also hints at a personality extending beyond tactical analysis.",
+            "id": "sentinel",
+            "name": "Sentinel",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Dash's deputy commander and the pilot of the Swift. She joins the expedition to recover the fallen Harbinger and investigate Burrow.",
+            "id": "leira",
+            "name": "Leira",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A former privateer and experienced tactical commander assigned to the Burrow recovery force.",
+            "id": "benzel",
+            "name": "Benzel",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A former privateer with tactical command experience who joins the Burrow expedition.",
+            "id": "wei-ping",
+            "name": "Wei Ping",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An engineer and Mako pilot whom Dash assigns to develop selective unspace-disruption devices for capturing enemy craft intact.",
+            "id": "conover",
+            "name": "Conover",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The forge's security authority. As Dash prepares to shelter more displaced people, Ragsdale is empowered to establish safeguards against spying and sabotage, balancing the need to protect refugees with the danger that hostile agents may enter among them.",
+            "id": "ragsdale",
+            "name": "Ragsdale",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The unnamed AI partnered with Leira aboard the Swift, supporting her in the mech's operations.",
+            "id": "swift-ai",
+            "name": "Swift AI",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Cygnus's civilian-affairs and external-relations specialist. Her mining background makes her the proposed representative for approaching Burrow's isolated inhabitants after Dash learns their worsening planetary winter may leave them only years from disaster.",
+            "id": "haralyn",
+            "name": "Haralyn",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of the Cygnus command staff responsible for operational readiness. Dash assigns her a defined place in the newly formalized command structure as the force changes from improvised resistance to a sustained offensive organization.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The forge AI responsible for fabrication, analysis, and parts of station security. Custodian works with Conover and Viktor to produce Surge mines, combining unspace disruption with a controlled electronic impulse intended to disable hostile systems without destroying the prize.",
+            "id": "custodian",
+            "name": "Custodian",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A forge engineer who works with Conover and Custodian on the first batch of Surge mines. His technical duties support Cygnus's effort to replace purely destructive attacks with controlled disabling strikes and recoverable enemy technology.",
+            "id": "viktor",
+            "name": "Viktor",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The specialist overseeing agriculture and living conditions aboard the forge. When the captured Greenbelt arrives, Freya approves familiar food crops but isolates unknown plants until they can be tested, treating the vessel as both an opportunity and a biological risk.",
+            "id": "freya",
+            "name": "Freya",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Burrow survivor who aids the assault on a Verity-held excavation. Drawing on practical experience with heavy machinery, the operator drives an excavator through hostile fire and gives the Gentle Friends moving cover for their advance into the tunnel.",
+            "id": "former-excavation-operator",
+            "name": "Former excavation operator",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A captured Clan Shirna officer who identifies herself as the adopted heir of the faction's deceased leader. She is taken aboard a disabled cruiser that may hold another recovered power core, but refuses to explain the technology or its intended purpose.",
+            "id": "clan-shirna-commander",
+            "name": "Clan Shirna commander",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The leader of the Aquarian Collective and a new military ally of Dash. The alliance places Aquarian forces under his nominal direction for agreed objectives, while preserving their right to reject missions that conflict with their own judgment or interests.",
+            "id": "aquarian-leader",
+            "name": "Aquarian leader",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A doctor among the rescued refugees who restores Conover's heartbeat after his attempt to connect with a captured Harbinger causes cardiac arrest.",
+            "id": "refugee-doctor",
+            "name": "Refugee doctor",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A teenage survivor of Verity captivity who reports an isolated holding system outside the known line of enemy activity. She believes her imprisoned brother remains there and asks Cygnus to act, offering intelligence that Dash recognizes could also lead into a trap.",
+            "id": "teen-refugee-informant",
+            "name": "Teen refugee informant",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A liberated prisoner with militia experience who guides Dash's boarding force through a Verity detention station. The veteran's knowledge of the facility and demonstrated skill under fire make the guide a valuable participant in reaching the captives.",
+            "id": "former-captive-militia-veteran",
+            "name": "Former captive militia veteran",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:1774244519",
+            "type": "community"
+          }
+        ],
+        "work": "worlds-apart-j-n-chaney"
+      }
+    },
     "worth-dying-for": {
       "characters": {
         "characters": [
