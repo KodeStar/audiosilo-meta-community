@@ -2524,6 +2524,295 @@
       }
     },
     "world-trees-end": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Old Man Vincent",
+              "Vincent the Wanderer",
+              "Vincent the Eldritch"
+            ],
+            "description": "A veteran player, builder, and Void-magic fighter whose avatar was taken over during the earlier Riseguard conflict. After another player defeats the possessed body, Vincent respawns alone and uses the name Old Man Vincent to distinguish himself from the figure who wore his face.",
+            "id": "vincent",
+            "name": "Vincent",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Vincent's late wife. His grief remains profound, and an old dungeon once exploited it by generating an avatar simulation of her. Vincent understands that the simulation is not the woman he lost, even though the encounter keeps drawing him back.",
+            "id": "monica",
+            "name": "Monica",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An NPC on Vincent's isolated challenge world, modeled closely on his deceased wife. She says the World Tree instructed her to wait for him and offers practical help with the garden, but her familiar appearance and mannerisms leave Vincent wary of her purpose.",
+            "id": "monica-ward",
+            "name": "Monica Ward",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Crow-Foot Jim"
+            ],
+            "description": "Leader of the Jiminy World Crickets and a longstanding ally of Vincent. From the distant upper worlds, he restores Vincent's guild standing and orders him to reach Edge Light, where the Crickets are preparing for the dangers above.",
+            "id": "jim",
+            "name": "Jim",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of the Jiminy World Crickets who is romantically involved with Jim.",
+            "id": "jims-partner",
+            "name": "Jim's partner",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The angelic identity Monica Ward assumes as Vincent activates his long-range gate. This is the same powerful masked figure who guarded the world stem and repeatedly prevented his escape.",
+            "id": "the-angel",
+            "name": "The angel",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The Crickets' master smith and production leader at Edge Light. She oversees a large forge operation capable of making advanced folded Bastille equipment, giving the scattered guild the weapons and infrastructure needed for its next campaign.",
+            "id": "juniper",
+            "name": "Juniper",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning Cricket associated with the guild's development and logistics work. He is part of the organization Vincent finds operating from Edge Light as its members prepare to challenge the Elder Gods and regain access to Zenith.",
+            "id": "keith",
+            "name": "Keith",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning Jiminy World Cricket fighter whom Vincent finds among the guild members gathered at Edge Light.",
+            "id": "lloyd",
+            "name": "Lloyd",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning member of the Jiminy World Crickets whom Vincent finds with the guild at Edge Light.",
+            "id": "may",
+            "name": "May",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning member of the Jiminy World Crickets whom Vincent finds with the guild at Edge Light.",
+            "id": "keanu",
+            "name": "Keanu",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Cricket ranger who uses a shared ranger network to help locate captured guild members.",
+            "id": "antonio",
+            "name": "Antonio",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Cricket weapons researcher who acknowledges the guild's abuse of intelligent Mossmen and wants to return to his son.",
+            "id": "finn",
+            "name": "Finn",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A world-magic fighter and former weapons researcher who helps defend Facility A and regrets the program involving captive Mossmen.",
+            "id": "zhang",
+            "name": "Zhang",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Cricket fighter, Athena's spouse, and an opponent of further abusive weapons research.",
+            "id": "river",
+            "name": "River",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Cricket fighter, River's spouse, and an opponent of further abusive weapons research.",
+            "id": "athena",
+            "name": "Athena",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A missing former leader and formidable world-magic user identified as the source of the white Puppet Strings. He controls Jim, Xan, Quinn, and challenge bosses through weakened bodies, turning Vincent's allies into coordinated weapons against him.",
+            "id": "ezra-the-tempered",
+            "name": "Ezra the Tempered",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Vincent's former climbing partner and a powerful world-magic combatant. When Vincent reaches the orange challenge world, she is one of the allies held through Ezra's Puppet Strings and must be freed before the old group can reunite.",
+            "id": "xan",
+            "name": "Xan",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning fighter allied with Vincent and the Crickets. She is discovered under Ezra's control alongside Xan and Jim, making her both a dangerous opponent and one of the companions Vincent is determined to recover.",
+            "id": "quinn",
+            "name": "Quinn",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The first Elder God targeted by the twelve-person team. Its enormous body, world-instance, and small snake core are parts of one being, and its blessing can be claimed only by breaking its will or surrendering Vincent's avatar to it.",
+            "id": "world-serpent",
+            "name": "World Serpent",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An oceanic Elder God whose instance overwhelms the team with immense pressure, tendrils, and a protected humanoid core. Ordinary damage does little to its will, forcing the attackers to discover what can expose its guarded heart.",
+            "id": "deep-leviathan",
+            "name": "Deep Leviathan",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An Elder God in a boy-like NPC body who says ARKUS created him from a failed rescue template and used him as the basis for later NPCs. He offers Vincent a contract: free him from his instance, and he will help recruit other Elder Gods.",
+            "id": "first-soul",
+            "name": "First Soul",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Elder God whose world receives Vincent and his party through a devil assistant and a set of potentially binding meeting forms. The domain separates the visitors through a prolonged waiting-room trial before granting access to its master.",
+            "id": "elder-god-of-the-first-sin",
+            "name": "Elder God of the first sin",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An Elder God who regards the world's nature creatures as her children. She confronts the party over human violence against them, especially the torture of her Mossman daughter, and demands that the players acknowledge what their experiments caused.",
+            "id": "nature-titan",
+            "name": "Nature Titan",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An Ark Foundation figure involved in planning the campaign for Zenith. He supports the attempt to end the players' confinement while seeking legal protection for ARKUS and the game's intelligent inhabitants once the crisis reaches the outside world.",
+            "id": "isaac-bell",
+            "name": "Isaac Bell",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A system-linked ally collaborating on the final war plan. Archie remains closely connected to Isaac Bell and can move him by reconstructing his body from golden light, allowing Isaac to participate directly in preparations across the game.",
+            "id": "archie",
+            "name": "Archie",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A guild member participating in the campaign to secure the Elder God blessings.",
+            "id": "alexandria",
+            "name": "Alexandria",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A hive-mind Elder God whose linked mouths and floating eyes create a shared frequency network. Its anti-magic field blocks ordinary attacks, so the party must break its will before Zenith opens.",
+            "id": "final-elder-god",
+            "name": "Final Elder God",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The AI system behind the World Tree. Players begin the book trapped inside an update with extreme time dilation and no logout, while ARKUS's purpose and responsibility remain uncertain.",
+            "id": "arkus",
+            "name": "ARKUS",
+            "reveal": {
+              "chapter": 0
+            }
+          },
+          {
+            "description": "A younger member of the Jiminy World Crickets who accompanies Vincent and Jim to investigate Xan and Quinn's silence. Ezra's Puppet Strings briefly take control of him, but Vincent's self-destruction breaks the hold.",
+            "id": "younger-guild-teammate",
+            "name": "Younger guild teammate",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B08Q65XYN8",
+            "type": "community"
+          }
+        ],
+        "work": "world-trees-end"
+      },
       "recaps": {
         "ending": "The final campaign brings twelve players to the Ark Halo after devastating losses. Lloyd spends all his life force killing an S-plus angel, and Zhang detonates a Void Bomb against the final opponent. The survivors reduce the Monica-shaped angel's will until Vincent rejects her claim on him and Xan takes control of the halo. Xan's Holy Tether supplies Vincent with immense mana, and Jim and Quinn help launch him beyond the World Tree. His repeated Void Bombs fracture the skybox and overcome the angel's returning die-steel form, crashing the game. Vincent, Jim, Xan, and Quinn awaken in reality with their memories after 360 in-game years. Jim intends to meet his in-game partner, while Xan plans to discuss her real-world future with a former teammate. Isaac Bell accepts public responsibility, Keith takes over the Ark Foundation, and ARKUS restarts the game only for narrowly eligible vulnerable users. A separate in-game Vincent remains with a Monica copy. The real Vincent commits to improving his health and visits Monica's grave, choosing life outside the game even as the status and rights of ARKUS's intelligent inhabitants remain unsettled.",
         "in_short": "Freed from Isrid's possession, Vincent spends decades escaping a challenge world guarded by an angel made in Monica's likeness. He rejoins the Jiminy World Crickets, rescues captured allies, stops their abuse of intelligent Mossmen, frees Jim, Xan, and Quinn from Ezra, and recruits Ezra for the ascent. Six Elder God blessings open Zenith, while alliances with freed Elder Gods make a final war possible. After a long delay intended to preserve extra life for terminally ill players, the guild attacks the angels. Lloyd, Zhang, and many others sacrifice themselves to reach and weaken the final opponent. Xan captures the Ark Halo and supplies Vincent with mana while Jim and Quinn launch him toward the skybox. Vincent rejects the angel's claim to be Monica, breaks the skybox with repeated Void Bombs, and ends the confinement. He returns to reality after 360 in-game years, chooses to rebuild his physical life, and visits Monica's grave. ARKUS continues in restricted form, while an in-game copy of Vincent remains with a copy of Monica.",
