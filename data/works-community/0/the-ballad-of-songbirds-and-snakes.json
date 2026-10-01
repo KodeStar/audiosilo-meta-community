@@ -2950,6 +2950,216 @@
       }
     },
     "the-black-gate": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The Cygnus Realm leader and pilot of the archetype. He investigates the disturbance threatening a manufactured world with Leira and treats the hostile vessel beyond it as a danger requiring immediate preparation.",
+            "id": "dash",
+            "name": "Dash",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Dash's partner and pilot of the Swift. She joins the first reconnaissance of the anomaly and works with him to determine whether the phenomenon is natural or hostile.",
+            "id": "leira",
+            "name": "Leira",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The intelligence paired with Dash in the archetype. Sentinel analyzes the gravitational disturbance, helps guide probes through its narrow safe region, and assesses the unknown craft found beyond it.",
+            "id": "sentinel",
+            "name": "Sentinel",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The intelligence responsible for the forge. Custodian contributes to the first analysis of the recurring gravitational phenomenon.",
+            "id": "custodian",
+            "name": "Custodian",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Swift's intelligence and Leira's operational partner. Tybalt supports the probe mission at the anomaly and helps assess the danger on the other side.",
+            "id": "tybalt",
+            "name": "Tybalt",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The survey leader whose team detects a repeated disturbance in the orbit of a manufactured world. Her report alerts Dash and Leira that the world's long-term habitability may be at risk.",
+            "id": "haralyn",
+            "name": "Haralyn",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Realm fleet commander who brings a quick reaction force through the Black Gate. His arrival reinforces Dash and Leira against the self-repairing ships waiting on the far side.",
+            "id": "benzel",
+            "name": "Benzel",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Rimworld League commander who becomes Dash's main political and military contact. She receives the Realm delegation at Edge with caution and considers its offer of help against the Deepers.",
+            "id": "rimworld-league-leader",
+            "name": "Rimworld League leader",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A skeptical officer serving beside the Rimworld League leader. The adjutant questions Dash's account of the Realm and warns against relying on his unfamiliar force in a war with the Deepers.",
+            "id": "league-adjutant",
+            "name": "League adjutant",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A League analyst who directs the first joint examination of recovered Deeper remains. Eloise helps establish that their armor is a grown symbiosis of organic and inorganic material.",
+            "id": "eloise",
+            "name": "Eloise",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A representative of the Order of the Unseen. Kai commits the order's researchers and weapons to Dash's campaign when the Realm prepares for war beyond the Black Gate.",
+            "id": "kai",
+            "name": "Kai",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior Realm officer who takes part in Dash's war briefing as the Realm commits its forces to the campaign against the Deepers.",
+            "id": "ragsdale",
+            "name": "Ragsdale",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The commander of Red Wing and pilot of the Pulsar. Conover uses electronic-warfare tactics during the seizure of the Scrapyard and is being prepared for greater command responsibility.",
+            "id": "conover",
+            "name": "Conover",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The commander of Blue Wing. Wei Ping leads the formation in the fleet operation to capture the Scrapyard and its strategically important reserve of Dark Metal.",
+            "id": "wei-ping",
+            "name": "Wei Ping",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An ally from a people rescued by the Realm. Jameson helps bring personnel from allied communities into Black Watch as its defenses take shape.",
+            "id": "jameson",
+            "name": "Jameson",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A mech pilot in the force defending the Realm's passage through the Black Gate. Amy joins Dash, Leira, Jameson, and Conover in splitting the Deeper ambush so the fleet can recover.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Pulsar's intelligence and Conover's partner in electronic warfare. During the gate ambush, Kristen searches for a way to interfere with Deeper systems, though their first efforts produce no answer.",
+            "id": "kristen",
+            "name": "Kristen",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Realm operations officer assigned to support the coalition's expansion beyond the Black Gate. Dash sends Viktor to obtain shipyard expertise and begin building ships locally.",
+            "id": "viktor",
+            "name": "Viktor",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An aide accompanying the Rimworld League leader during alliance discussions at the forge. The aide is present as the League considers exchanging its personnel and resources for Realm technology.",
+            "id": "league-aide",
+            "name": "League aide",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A League specialist who leads the genetic assessment of Deeper remains and compares their unfamiliar DNA and RNA with species found aboard the ancient ark-incubator.",
+            "id": "league-xenogenetics-specialist",
+            "name": "League xenogenetics specialist",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A forge duty officer who responds to a Deeper attack on League orbital facilities. Corey uses surveillance drones to imitate approaching archetypes, prompting the attackers to withdraw.",
+            "id": "lieutenant-corey",
+            "name": "Lieutenant Corey",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A participant in the analysis after the battle at the Deeper base. Hathaway proposes reviewing combat footage to determine where the constructs' embedded Dark Metal meshes were directed.",
+            "id": "hathaway",
+            "name": "Hathaway",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:1774247941",
+            "type": "community"
+          }
+        ],
+        "work": "the-black-gate"
+      },
       "recaps": {
         "ending": "The coalition destroys the local Deeper base by infecting it with the stinger virus. Dash and Leira survive, but the archetype and Swift suffer severe damage. Most of the enemy fleet is also destroyed, ending the immediate operation. The result does not settle the larger conflict: the Deepers have already adapted their deployment to the stinger and appear able to pass warnings between systems. Examination of the fallen combat constructs reveals Dark Metal listening meshes aimed along more than a dozen paths beyond the galaxy. Sentinel's analysis indicates that the network may be tracking returning vessels carrying biological material. Dash concludes that such ships must use gates to cross extragalactic distances and commits the fleet to finding those passages. The Rimworld League remains allied with the Realm after losing its original fleet, while its internal coup network still requires removal. Black Watch continues to guard the home passage, and the coalition enters the next phase with damaged mechs, an expanding local industrial base, and no final answer about the Deepers' creators or purpose.",
         "in_short": "A recurring anomaly opens into the Black Gate, exposing the Cygnus Realm to the Rimworld League and the hostile, self-repairing Deepers. After an attack destroys Assembly Prime, Dash leads the Realm through the passage, forms an alliance with the devastated League, secures Dark Metal for new construction, and investigates evidence that the enemy came from beyond the galaxy. The coalition discovers an ancient ark-incubator, survives Deeper ambushes and boarding attacks, and learns that the enemy's bodies, weapons, ships, and stations share one organosynthetic design. Conover, Kristen, Eloise, and their collaborators exploit its organic-machine interface to create the stinger virus. The weapon destroys a Deeper base, though the enemy has begun adapting. Analysis of the wreckage reveals listening meshes directed toward multiple extragalactic routes, leading Dash to conclude that returning ships use additional gates. He commits the surviving fleet to finding them, carrying the war beyond its first local victory.",
