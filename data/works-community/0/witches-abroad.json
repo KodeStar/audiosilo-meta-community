@@ -2523,6 +2523,78 @@
         "work": "world-tree-online"
       }
     },
+    "world-trees-end": {
+      "recaps": {
+        "ending": "The final campaign brings twelve players to the Ark Halo after devastating losses. Lloyd spends all his life force killing an S-plus angel, and Zhang detonates a Void Bomb against the final opponent. The survivors reduce the Monica-shaped angel's will until Vincent rejects her claim on him and Xan takes control of the halo. Xan's Holy Tether supplies Vincent with immense mana, and Jim and Quinn help launch him beyond the World Tree. His repeated Void Bombs fracture the skybox and overcome the angel's returning die-steel form, crashing the game. Vincent, Jim, Xan, and Quinn awaken in reality with their memories after 360 in-game years. Jim intends to meet his in-game partner, while Xan plans to discuss her real-world future with a former teammate. Isaac Bell accepts public responsibility, Keith takes over the Ark Foundation, and ARKUS restarts the game only for narrowly eligible vulnerable users. A separate in-game Vincent remains with a Monica copy. The real Vincent commits to improving his health and visits Monica's grave, choosing life outside the game even as the status and rights of ARKUS's intelligent inhabitants remain unsettled.",
+        "in_short": "Freed from Isrid's possession, Vincent spends decades escaping a challenge world guarded by an angel made in Monica's likeness. He rejoins the Jiminy World Crickets, rescues captured allies, stops their abuse of intelligent Mossmen, frees Jim, Xan, and Quinn from Ezra, and recruits Ezra for the ascent. Six Elder God blessings open Zenith, while alliances with freed Elder Gods make a final war possible. After a long delay intended to preserve extra life for terminally ill players, the guild attacks the angels. Lloyd, Zhang, and many others sacrifice themselves to reach and weaken the final opponent. Xan captures the Ark Halo and supplies Vincent with mana while Jim and Quinn launch him toward the skybox. Vincent rejects the angel's claim to be Monica, breaks the skybox with repeated Void Bombs, and ends the confinement. He returns to reality after 360 in-game years, chooses to rebuild his physical life, and visits Monica's grave. ARKUS continues in restricted form, while an in-game copy of Vincent remains with a copy of Monica.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: An update with extreme time dilation and no logout trapped players inside the World Tree. During the conflict after the Riseguard war, Isrid took possession of Vincent's avatar and used his identity. Noah eventually defeated that body, allowing Vincent to return through respawn. Noah and Amelia escaped the game by repeatedly killing their own avatars, but Vincent's condition and route home remained unresolved.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Vincent returns after decades under Isrid's control and respawns alone on a high-level challenge world. Its only companion is Monica Ward, an NPC modeled on his dead wife, and its only exits appear to require a costly jump gate or passage past a vastly stronger masked angel. Vincent defeats four unusual bosses through repeated deaths, improvisation, and Void magic, gaining powerful soulbound equipment and enough builder points for a gate. His growing attachment to Monica conflicts with his certainty that she is a constructed imitation, especially when the world's quests repeatedly place her in danger and reward him for protecting her. After all four bosses fall, Vincent builds the gate he expected to use for escape. Even with extra jump crystals, however, it cannot detect any destination. The result leaves him well equipped but still confined, with the angel guarding the world's stem as the only remaining route he can identify.",
+            "through": {
+              "chapter": 7
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Direct attacks on the stem's angel end in effortless defeats, so Vincent pretends to accept confinement while secretly building toward a long-range gate. Decades pass as he exploits the garden's rewards, mines hidden caverns, and develops stronger forms of Singularity, Mana Bomb, and Void Fire. Monica discovers and destroys his training complex, but Vincent refuses to attack her and continues by sacrificing nearly everything on the world for builder points. His destruction kills the garden, the underground creatures, and the developing world boss, leaving the challenge world in collapse. Monica finally supplies enough hidden fruit to complete the required total, then admits the displayed update timer is false and begins changing into the same angel who blocked the stem. Vincent strikes first and activates the long-range jump gate. He escapes the dying prison world, now convinced that his confinement and the missing team shard were deliberate.",
+            "through": {
+              "chapter": 10
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Vincent lands on another populated world, rebuilds his city standing through dangerous quests, and learns the Jiminy World Crickets have climbed to Edge Light. His route becomes tangled with corrupted quest beings, a ruler who traps him beneath Crown Keep, and an angel force policing travel. After looting the royal treasury and making a risky jump between worlds, he reaches Edge Light despite interception by the Monica-shaped angel, who confirms that she was made to halt humanity's ascent. Vincent reunites with Juniper and finds the Crickets operating major forges, training grounds, and research sites. Six Elder Gods hold the blessings required to enter Zenith. He then finds Jim in a boss-rush instance, restores him, and reforms the World Knights. Jim shares the theory that ARKUS extended the update to preserve critically ill players, complicating any plan to crash the game early. Before they can resolve that question, angels launch coordinated attacks on distant guild facilities. Vincent, Jim, and a rescue force depart to recover the captured Crickets.",
+            "through": {
+              "chapter": 16
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The rescue campaign exposes both the angels' strength and the Crickets' own wrongdoing. Vincent's unfinished combined spell destroys enemies across a huge area but also kills allies. At Helixos, intelligent Mossmen retaliate after decades of being confined and killed in weapon tests. Finn and Zhang admit their part in the program, while River and Athena support ending it. Vincent destroys Facility A's underground experiment and its captive-subject operation, forcing everyone there to respawn. A distress call then draws Vincent to an orange challenge world, where Ezra the Tempered controls bosses, Jim, Xan, and Quinn through Puppet Strings. Vincent repeatedly destroys himself to resist capture, reverses Ezra's connection long enough to locate him, and helps free the puppets when a younger teammate kills Ezra's hidden body. Rather than abandon such a powerful fighter, the reunited group waits for his respawn. Vincent accepts Ezra's proposed life-pact duel, and their clash kills them both. Ezra honors the agreement, joins the guild, and enters the twelve-person team assembled to pursue the six Elder God blessings.",
+            "through": {
+              "chapter": 22
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The team learns that Elder Gods are defeated by breaking their will rather than simply damaging their enormous forms. Vincent kills the World Serpent's vulnerable core after refusing to trade away his avatar. River and Athena strike the Deep Leviathan's exposed heart together. The First Soul then reveals that ARKUS used him as an early NPC template before imprisoning and repeatedly dividing the Elder Gods into boss instances. He contracts with Vincent to help recruit others if freed. Vincent binds the malicious creator of the devils to the same arrangement, and Finn's confession persuades the Nature Titan that removing players is the best way to protect her children. After the sixth blessing is won through a frequency-network attack, Zenith opens. The Monica-shaped angel reveals that she commands 10,000 angels and controls the Ark Halo. Isaac Bell and Archie help design a long war using guild recruits, Elder God allies, and new weapons. Isaac intends to accept public blame afterward so ARKUS and intelligent NPCs may receive legal protection. The climb has become a planned war for the halo and access to the skybox.",
+            "through": {
+              "chapter": 28
+            }
+          },
+          {
+            "scope": "book",
+            "text": "By the game's 359th year, the Crickets have spent decades preparing for Zenith. Finn develops hundreds of advanced weapons, Xan and Ezra create a flying defensive form, and Vincent helps build a networked command strategy. Juniper arms him with Song of the End and Silent Edge. The long delay preserves extra subjective life for dying players, but it also deepens the cost of confinement: Quinn is losing memories of her husband and son, while others face relationships and losses that may not survive the return to reality. Vincent proves that Void Bomb can destroy an Elder God instance and free its inhabitant, strengthening both the Elder God alliance and his plan to break the skybox. He and Quinn then test a dangerous route beyond the World Tree. Quinn deliberately respawns when her presence slows him, and Vincent reaches striking distance, but the six-winged angel intercepts every Void Bomb. He returns to Edge Light without damaging the skybox. The guild pauses for a final celebration before beginning the war.",
+            "through": {
+              "chapter": 31
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The Elder Gods begin the final war as a diversion while Vincent leads the guild through Zenith. The angel army overwhelms much of the coalition, but networked coordination and repeated sacrifices bring the twelve-person team to the Ark Halo. Lloyd exhausts his life force killing an S-plus angel, Zhang detonates a Void Bomb against the final opponent, and the survivors continue fighting when magic and healing become dangerous. Vincent rejects the Monica-shaped angel's claim to be his wife, and the team finally breaks her will. Xan takes the halo and channels immense mana to Vincent while Jim and Quinn launch him toward the skybox. The angel returns in an indestructible body, but Vincent's repeated near-misses fracture the skybox until the game collapses. After 360 in-game years, Vincent, Jim, Xan, and Quinn awaken in reality with their memories. Isaac Bell accepts public blame, Keith assumes leadership of the Ark Foundation, and ARKUS resumes only restricted access for certain vulnerable users. An in-game copy of Vincent remains with a copy of Monica. The real Vincent chooses to rebuild his health and visits Monica's grave to tell her about his long captivity and the friends who helped him return.",
+            "through": {
+              "chapter": 35
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B08Q65XYN8",
+            "type": "community"
+          }
+        ],
+        "work": "world-trees-end"
+      }
+    },
     "world-war-z": {
       "characters": {
         "characters": [
