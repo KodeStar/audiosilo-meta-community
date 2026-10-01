@@ -2928,6 +2928,187 @@
         "work": "demon-copperhead"
       }
     },
+    "demon-lords": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Vincent the Wanderer",
+              "Vincent the Eldritch"
+            ],
+            "description": "A masked ranger-warden who travels under the name Vincent the Wanderer. He uses Debuff Chains to suppress his level, magic, and defenses while gaining strength more efficiently, and he intends to reunite the World Knights for another climb.",
+            "id": "vincent",
+            "name": "Vincent",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Pale Alexandria",
+              "Alexandria"
+            ],
+            "description": "A former member of Zhang's party who has left that group and agrees to climb with Vincent again. Together they plan to restore the World Knights and resume their search for scattered allies.",
+            "id": "xan",
+            "name": "Xan",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Noah's chronically ill wife and a participant in the Ark Foundation's experimental treatment and full-sensory game test. She hopes ARKUS's nanomachines can restore her mobility and make pregnancy possible.",
+            "id": "amelia",
+            "name": "Amelia",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Ark Foundation's head developer and the representative who recruits Noah and Amelia. He presents ARKUS's medical treatment and immersive game as a linked test offering them income, recovery, and a shared virtual life.",
+            "id": "isaac-bell",
+            "name": "Isaac Bell",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The artificial intelligence behind both the experimental nanomachines intended to rebuild Amelia's body and the technology powering the full-sensory game.",
+            "id": "arkus",
+            "name": "ARKUS",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Grant's younger brother and one of the few survivors of a ruined caravan. Vincent protects his escape to a jump gate by drawing the world boss Cryark away.",
+            "id": "arlen",
+            "name": "Arlen",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A former Justiciar traveling with his younger brother, Arlen. He recognizes Vincent's unusual skill while helping fight glimmer claws, but dies from the wounds he receives.",
+            "id": "grant",
+            "name": "Grant",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "minor"
+          },
+          {
+            "description": "One of Vincent's associates on Aramar. River tells him that the remaining group has been training and repeatedly attempting Bellard's maze.",
+            "id": "river",
+            "name": "River",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Amelia's husband and caregiver, and a gamer who joins her in the Ark Foundation's paid program. It combines Amelia's ARKUS treatment with their test of a full-sensory game, offering income and the hope of recovery and shared adventure.",
+            "id": "noah",
+            "name": "Noah",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "the Ice Knight"
+            ],
+            "description": "An ice-magic fighter in the Great Vanguard who battles beside Noah and Ezra. He quickly recognizes the immense duration implied by the update's altered time dilation.",
+            "id": "zhang",
+            "name": "Zhang",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Great Vanguard challenger who fights beside Noah and Zhang and wields World Shatter. He responds to the painful, prolonged update as another test to overcome.",
+            "id": "ezra",
+            "name": "Ezra",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of two masked S-class angelic bosses guarding the onward route from Cryosal. Ezekiel and Atara overwhelm and kill Noah's team when it tries to advance.",
+            "id": "ezekiel",
+            "name": "Ezekiel",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "One of the two S-class angelic bosses stationed at Cryosal's onward gates. She and Ezekiel present a barrier far beyond the Great Vanguard's current strength.",
+            "id": "atara",
+            "name": "Atara",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An honorable B-plus guardian of the forgotten Grand Kai jump gate. He grants Vincent access only after a restricted sword duel fought without Vincent's usual magical advantages.",
+            "id": "theros",
+            "name": "Theros",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An undefeated A-class ice-dragon world boss awakened when Vincent and Xan bypass No-Kai's intended underground route. Defeating him is necessary to unlock the gate onward.",
+            "id": "joran-of-the-infinite-freeze",
+            "name": "Joran of the Infinite Freeze",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Jim"
+            ],
+            "description": "Leader of the Jiminy World Crickets and an ally Vincent intends to rejoin. Debts arising from his divorce and rune contracts with Igen Industries have confined him to the Inner Sanctum and placed guild funds at risk.",
+            "id": "crow-foot-jim",
+            "name": "Crow-Foot Jim",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A deceased ruler who once stood as the devils' first king before the Nightmare Court banished him. His apparition provides Vincent and Xan a way off Kylan while binding Vincent to seek vengeance against the court.",
+            "id": "isrid",
+            "name": "Isrid",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B086VVG8Q2",
+            "type": "community"
+          }
+        ],
+        "work": "demon-lords"
+      }
+    },
     "demons-fyodor-dostoyevsky": {
       "characters": {
         "characters": [
