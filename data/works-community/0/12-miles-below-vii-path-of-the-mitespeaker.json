@@ -3010,6 +3010,229 @@
         "work": "a-breath-of-snow-and-ashes"
       }
     },
+    "a-broken-alliance": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Reverend Pelletier",
+              "Hansel Minnick"
+            ],
+            "description": "A Perseus Union IBHU Marine serving with Fox Company in the Home Guard. After his platoon's shuttle is shot down, he uses Poshu to clear an escape and helps defeat an ambush, combining an augmented soldier's firepower with a strong concern for the people beside him.",
+            "id": "rev",
+            "name": "Rev",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Rev's battle-buddy AI, carried with him into the opening deployment. Punch assists him during the crash and its aftermath, providing an embedded partner whose access to information and ability to communicate help Rev interpret danger as well as respond to it.",
+            "id": "punch",
+            "name": "Punch",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Rev's mounted IBHU weapons companion and the source of much of his heavy combat power. Poshu's 20 mm cannon lets Rev open a route out of the wrecked shuttle and engage concealed attackers during the platoon's first battle.",
+            "id": "poshu",
+            "name": "Poshu",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Rev's longtime friend and the officer commanding First Platoon. Bundy leads the platoon through its shot-down landing and the hazardous movement that follows.",
+            "id": "bundy",
+            "name": "Bundy",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The incumbent senior enlisted Marine in First Platoon when its shuttle is brought down. A hidden explosive leaves her badly hurt during the ensuing attack, and she needs evacuation once the unit reaches safety.",
+            "id": "wounded-first-platoon-sergeant",
+            "name": "Wounded First Platoon Sergeant",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Tomiko Reiser",
+              "Leona Galdos"
+            ],
+            "description": "A Fox Company Marine serving in Second Platoon and one of Rev's closest friends. She seeks him out after the opening ambush, showing the personal loyalty that connects them even while their platoon assignments keep them in different parts of the company.",
+            "id": "tomiko",
+            "name": "Tomiko",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Ting Ling"
+            ],
+            "description": "An experienced Marine appointed to lead Rev's squad after the platoon sergeant is wounded. His assignment keeps Rev and the IBHU's firepower near the front while giving the squad a seasoned leader who can also watch over Rev.",
+            "id": "bob",
+            "name": "Bob",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Rev's former squad leader, appointed to replace First Platoon's injured platoon sergeant before the next operation.",
+            "id": "replacement-first-platoon-sergeant",
+            "name": "Replacement First Platoon Sergeant",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The director of the extraction complex targeted for demolition. He confronts Rev, invokes connections to the MDS, and attempts to obstruct the operation by placing himself in the demolition area before being restrained.",
+            "id": "installation-director",
+            "name": "Installation Director",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A First Platoon Marine paired with Rev for repeated gate duty while the company is confined to camp.",
+            "id": "corporal-akiki",
+            "name": "Corporal Akiki",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A First Platoon Marine who moves into the second-squad leader position after a mortar barrage seriously wounds the platoon sergeant. The promotion is part of the company's immediate effort to restore its chain of command under continuing pressure.",
+            "id": "sergeant-rice",
+            "name": "Sergeant Rice",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The Perseus Union general responsible for Union Marines serving with the Home Guard. He takes control of access at the site where five stolen IBHUs are recovered, excluding unauthorized personnel while the compromised systems are secured for examination.",
+            "id": "general-platt",
+            "name": "General Platt",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Fox Company's augmented Marines and one of the personnel affected by the theft of five IBHUs. She reacts with resentment when she learns that Tomiko has been assigned to monitor her, straining their relationship.",
+            "id": "genesian-ibhu-marine",
+            "name": "Genesian IBHU Marine",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Rev's friend across the political division between the Perseus Union and Mesume interests. As the Home Guard prepares to intervene in a dispute involving corporations tied to their respective states, both agree to preserve their friendship and act professionally.",
+            "id": "toshi",
+            "name": "Toshi",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The officer commanding Second Battalion during the January Hold intervention. Sims presents the mission as restrained peacekeeping, but makes clear that the troops remain authorized to use lethal force in self-defense and that their safe return is a priority.",
+            "id": "lieutenant-colonel-sims",
+            "name": "Lieutenant Colonel Sims",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A personnel executive for Dillinger arrested after violence on January Hold. He calls Rev a traitor, escapes the initial custody operation, and threatens consequences for Rev's family before Rev recaptures him.",
+            "id": "dillinger-personnel-executive",
+            "name": "Dillinger Personnel Executive",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Tomiko's former Marine friend and a member of the same augmentation cohort as Tomiko, Rev, and Bundy. News that Callie has died from the rot only four years after diagnosis turns a familiar long-term medical risk into an immediate concern for the survivors.",
+            "id": "callie",
+            "name": "Callie",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An augmented MDS Marine who approaches Rev as an uneasy counterpart. He asks whether Union forces are also seeing unusually early cases of the rot, opening a limited exchange of concern between soldiers aligned with increasingly opposed political blocs.",
+            "id": "karnan-mds-trooper",
+            "name": "Karnan MDS Trooper",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A new Sirocco corporal and former elite bodyguard who struggles with zero-G training because of anxiety and agoraphobia. Rev's coaching helps her improve enough to remain in the Home Guard with psychological support.",
+            "id": "sirocco-corporal",
+            "name": "Sirocco Corporal",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The officer placed in command of an ad hoc, IBHU-heavy assault company during the battle for Rasper Mountain. Chakra leads the force committed to break into the Tooth bunker complex after the first troops attacking the position are stalled.",
+            "id": "captain-chakra",
+            "name": "Captain Chakra",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An experienced augmented Marine in the Rasper Mountain assault force. Rev regards the sergeant as a reliable combat professional while the remaining IBHU troops prepare for the advance from the captured Tooth toward the fortified Sleeping Bear position.",
+            "id": "ibhu-sergeant",
+            "name": "IBHU Sergeant",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The officer assigned to command Third Platoon in the newly formed First Heavy Infantry Company. Recently augmented and still adapting to an IBHU, she is paired with Rev, her platoon sergeant, so that his experience can help guide her transition.",
+            "id": "newly-augmented-lieutenant",
+            "name": "Newly Augmented Lieutenant",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B09KNYCNDJ",
+            "type": "community"
+          }
+        ],
+        "work": "a-broken-alliance"
+      }
+    },
     "a-builder-of-dreams": {
       "characters": {
         "characters": [
