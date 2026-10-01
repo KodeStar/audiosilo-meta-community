@@ -1611,6 +1611,278 @@
         "work": "inferno-from-the-divine-comedy"
       }
     },
+    "infinite-crown": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "the Messenger"
+            ],
+            "description": "Leader of the Cygnus Realm and pilot of the Archetype. Dash directs concealed defenses against renewed Deeper raids on Rimworld League systems, winning the opening engagements while recognizing that the enemy's larger plan remains unknown.",
+            "id": "dash",
+            "name": "Dash",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Designer of Coast Watcher, a warning network built around civilian astronomers and passive satellites. Her system detects hostile movement without advertising the advanced capabilities behind the Rimworld League's defenses.",
+            "id": "haralyn",
+            "name": "Haralyn",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Commander of the concealed response force guarding a Rimworld League system. She coordinates heavy cruisers and Orion and Polaris mechs against a five-ship Deeper incursion before it can summon a larger raid.",
+            "id": "lori",
+            "name": "Lori",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Dash's experienced combat partner and pilot of the Swift. She fights beside him to clear a Deeper force from a fortified archive site and recover its surviving monitoring records.",
+            "id": "leira",
+            "name": "Leira",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Realm combat pilot who provides aerial cover while Dash and Leira attack a bunker complex occupied by the Deepers. His support helps isolate the ground force and protect the recovery of a valuable monitoring archive.",
+            "id": "conover",
+            "name": "Conover",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Polaris pilot and Realm combat leader. The destruction found on a raided Rimworld League planet deepens her hostility toward the Deepers as she joins the response to the attack and its hidden objective.",
+            "id": "jameson",
+            "name": "Jameson",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Commander of the Stalwart and a senior Realm fleet officer. Wei Ping joins the expedition formed to trace the Corrupter's transmission and investigate the ancient conflict associated with the Wanderer.",
+            "id": "wei-ping",
+            "name": "Wei Ping",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A biological and technical researcher who transfers her operation to the Kingsport Science Dome. She helps examine a recovered Deeper archive while the team isolates its old storage systems against possible malicious code.",
+            "id": "eloise",
+            "name": "Eloise",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A technical recovery specialist familiar with obsolete communications and storage equipment. That experience allows the Realm team to inspect a captured archive without connecting potentially compromised hardware to modern systems.",
+            "id": "ragsdale",
+            "name": "Ragsdale",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Deeper-aligned figure heard speaking in a recovered human voice. He reports a failure at the Wanderer's Battle and appeals to an unidentified superior for mercy, making both the ancient battlefield and his master urgent leads.",
+            "id": "corrupter",
+            "name": "Corrupter",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The Archetype's AI and one of Dash's principal analysts. Sentinel evaluates the strange technology found beyond the galactic rim and helps distinguish useful evidence from the hazards posed by failing Deeper systems.",
+            "id": "sentinel",
+            "name": "Sentinel",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The AI assigned to Jameson's Polaris. Newton Sawyer was modeled on Dash, a resemblance that Dash finds disquieting when the AI accompanies the expedition searching for the Wanderer beyond the galactic rim.",
+            "id": "newton-sawyer",
+            "name": "Newton Sawyer",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Realm technical analyst who examines the behavior of a malfunctioning Deeper fleet. Tybalt considers whether a contagion could explain its failures and supports recovering samples for controlled study.",
+            "id": "tybalt",
+            "name": "Tybalt",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of three human survivors rescued from the lost freighter Kansas and accepted into the hidden Kithri Protectorate. The liaison helps the Realm expedition navigate its peaceful first contact with the Kithri.",
+            "id": "kithri-human-liaison",
+            "name": "Kithri human liaison",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Realm fleet commander overseeing forces near the Backwater gate. Benzel helps contain the main Deeper fleet while Dash's mechs confront a tightly synchronized swarm and new Kithri allies enter the engagement.",
+            "id": "benzel",
+            "name": "Benzel",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Realm industrial and research AI entrusted with a dangerous strategic secret. Custodian equips the Archetype with the Answer and explains that each use consumes scarce material, disables key systems, and scars both real space and unspace.",
+            "id": "custodian",
+            "name": "Custodian",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Realm researcher and advocate for preserving life. Kai helps propose the Song of Life, an interactive scientific monument that will catalog known organisms and express Kingsport's purpose as a refuge.",
+            "id": "kai",
+            "name": "Kai",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A gate researcher working with Conover on selectable destinations and rapid fleet movement. Their first attempt to send two ships through a variable gate in parallel produces separate arrival times and fails its main objective.",
+            "id": "viktor",
+            "name": "Viktor",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A human member of the Protectorate with extensive vacuum-salvage experience. She efficiently directs recovery work at an ancient battlefield and declines Benzel's invitation to take a bridge position, preferring her life among the Kithri.",
+            "id": "kithri-human-salvage-specialist",
+            "name": "Kithri human salvage specialist",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The feared power whom the Corrupter says the Deepers serve. According to him, she came from Andromeda, brought gate technology into the Milky Way, and overcame repeated resistance from the Unseen during earlier wars.",
+            "id": "queen-of-night",
+            "name": "Queen of Night",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Kithri representative who helps disclose the Protectorate's preserved specimen of an uncorrupted Deeper. Yonduda confirms its genetic identity and shares the limited findings from the Protectorate's long study of the body.",
+            "id": "yonduda",
+            "name": "Yonduda",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A human woman recovered from a life capsule and revived from extreme metabolic suspension under quarantine. Newly awake and physically weakened, she immediately asks after the expedition ship from which she was separated.",
+            "id": "recovered-human-woman",
+            "name": "Recovered human woman",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Realm mech pilot who joins Dash, Leira, and Jameson on Briseus. She helps force a route through Deeper excavation tunnels toward an active gate while allied experimental battle suits suffer heavy losses above.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Commander of an Enteal unit equipped with experimental Starbeam battle suits. The force enters its first major ground action on Briseus, where conventional armor proves poorly suited to close combat with Deeper mining constructs.",
+            "id": "enteal-expeditionary-commander",
+            "name": "Enteal expeditionary commander",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A named Realm AI formally recognized as a living citizen when Dash extends equal civic rights and responsibilities to the Realm's personality-bearing artificial intelligences, making civic status match acknowledged sentience.",
+            "id": "hathaway",
+            "name": "Hathaway",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Leader of the Enteal force participating in the Battle of the Triple Suns. She commits fighters and capital ships to Dash's decisive assault on the defended planetoid believed to contain the Queen of Night.",
+            "id": "enteal-cloud-leader",
+            "name": "Enteal cloud leader",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Commander of a Realm missile cruiser during the gate-defense battle. When a second Deeper gate opens on the coalition's flank, the captain fires an Answer that destroys the attacking force and collapses its route.",
+            "id": "former-taffy-captain",
+            "name": "Former Taffy captain",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Conover"
+            ],
+            "description": "The office and title Conover receives when Dash retires from leadership. As the new Messenger, Conover takes responsibility for the Cygnus Realm while Dash keeps the Archetype and turns toward exploration.",
+            "id": "messenger-conover",
+            "name": "Messenger",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B09VRZWGZ5",
+            "type": "community"
+          }
+        ],
+        "work": "infinite-crown"
+      }
+    },
     "infinite-warship": {
       "characters": {
         "characters": [
