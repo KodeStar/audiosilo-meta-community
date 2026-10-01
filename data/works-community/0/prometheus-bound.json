@@ -3703,6 +3703,231 @@
         "work": "rabbit-redux"
       }
     },
+    "radical-dreamer": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Newton Sawyer",
+              "the Messenger"
+            ],
+            "description": "Leader of the Cygnus Realm and pilot of the archetype. After disabling an ancient Golden drone, Dash treats its surviving technology as both an intelligence prize and a warning, and begins shifting the realm from mobile victories toward taking and holding enemy territory.",
+            "id": "dash",
+            "name": "Dash",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "The forge's security chief, responsible for protecting Cygnus personnel and facilities. Ragsdale approaches recovered Golden technology cautiously and presents the realm's new magnetic infantry weapons as it prepares for planetary operations.",
+            "id": "ragsdale",
+            "name": "Ragsdale",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Aquarian liaison whose people support the forge's expanding logistics and exchange resources with Cygnus. Albaje helps establish reliable food production by arranging water from a relocated comet fragment.",
+            "id": "albaje",
+            "name": "Albaje",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A perceptive Cygnus negotiator and administrator. Haralyn notices an ally's unease during a strategic discussion and draws out intelligence about a Far-Flung missile project that may have Golden support.",
+            "id": "haralyn",
+            "name": "Haralyn",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Cygnus electronic-warfare specialist and pilot of the Pulsar. Conover coordinates the intrusion into Far-Flung defense networks, giving the opening assault a temporary advantage over the planet's orbital systems.",
+            "id": "conover",
+            "name": "Conover",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Barnett"
+            ],
+            "description": "A professional mercenary selected to command the new Cygnus Brigade. Colonel Marsha Barnett directs the realm's first planned planetary ground assault, taking a thousand soldiers toward the main Far-Flung spaceport.",
+            "id": "colonel-marsha-barnett",
+            "name": "Colonel Marsha Barnett",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young soldier in the newly organized Cygnus Brigade. Denson is visibly anxious before the force deploys in vulnerable transports to seize the Far-Flung spaceport, and Dash offers him encouragement before embarkation.",
+            "id": "denson",
+            "name": "Denson",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Dash's combat partner and pilot of the Swift. Leira joins the coordinated mech attack that breaks the outer defenses of the Far-Flung spaceport while the Cygnus Brigade advances on the ground below.",
+            "id": "leira",
+            "name": "Leira",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Pilot of the Talon and an experienced trainer. Amy helps Dash and Leira breach the Far-Flung spaceport's outer defenses, providing heavy support for the realm's first planned planetary ground campaign.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Golden pilot discovered inside a concealed craft during the Far-Flung campaign. Captured alive after Cygnus forces prevent his launch, he becomes an unprecedented prisoner who may provide intelligence about Golden aims.",
+            "id": "golden-prisoner",
+            "name": "Golden prisoner",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The identity claimed by the Golden pilot captured from the concealed craft. Emissary Prime says he served as the Golden representative to the Far-Flung and presents his people as entitled to use allied species as expendable forces.",
+            "id": "emissary-prime",
+            "name": "Emissary Prime",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The artificial intelligence responsible for the forge's industrial systems and strategic support. Custodian survives a Golden intrusion in protected memory and restores the facility from secure backups after compromised machinery turns lethal.",
+            "id": "custodian",
+            "name": "Custodian",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "archetype AI"
+            ],
+            "description": "The artificial intelligence partnered with Dash in the archetype. Sentinel helps recover critical systems during the Golden virus attack and supports Dash as the compromised forge machinery is brought under control.",
+            "id": "sentinel",
+            "name": "Sentinel",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A cryptographer with experience gathering intelligence from prisoners. Petrovsky assists Dash during the first interrogation of a living Golden, then survives the prisoner's destructive signal and its immediate effects.",
+            "id": "petrovsky",
+            "name": "Petrovsky",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The only living captive found in a Far-Flung prison and processing facility. Jameson asks Dash to contact her people after explaining that the Far-Flung enslaved them, and she recognizes Cygnus as an enemy of both the Far-Flung and the Golden.",
+            "id": "jameson",
+            "name": "Jameson",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Pilot of the Slipwing and a coordinator for Cygnus operations. Viktor is assigned to connect the realm's large reconnaissance-drone program with allied factories and fuel suppliers, helping turn the plan into a shared industrial effort.",
+            "id": "viktor",
+            "name": "Viktor",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Cygnus fleet commander who directs the capital ships and Makos during the large Golden assault on the forge. Benzel holds the main battle line under severe pressure while Dash coordinates the realm's mechs.",
+            "id": "benzel",
+            "name": "Benzel",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Captain of the deuterium carrier Halo and a highly capable pilot. Emily Nelson reveals her civilian-looking ship's concealed particle cannons to stop a damaged enemy cruiser from escaping a Cygnus ambush.",
+            "id": "emily-nelson",
+            "name": "Emily Nelson",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Leader of a Gentle Friends boarding squad. Mira accompanies Dash's expedition to the Desert, where her team is tasked with entering unknown sites and recovering evidence of the civilization that once resisted the Golden.",
+            "id": "mira",
+            "name": "Mira",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Leader of four displaced human survivors recovered from a hidden station. Armagost is cautious and observant on waking, but provides a DNA-encoded key that can open his people's recovered archive and begin cooperation with Cygnus.",
+            "id": "armagost",
+            "name": "Armagost",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Anchor Alpha AI"
+            ],
+            "description": "Anchor Alpha's tactical artificial intelligence. Eve works with Wei Ping to draw an attacking Golden force into the mobile station's prepared field of fire during its first deployment deep in contested space.",
+            "id": "eve",
+            "name": "Eve",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Commander of the flotilla attached to Anchor Alpha. Wei Ping coordinates with Eve during the station's first battle, using a controlled withdrawal to bring most of the Golden attackers into a prepared kill zone.",
+            "id": "wei-ping",
+            "name": "Wei Ping",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:1774245590",
+            "type": "community"
+          }
+        ],
+        "work": "radical-dreamer"
+      }
+    },
     "rage-of-a-demon-king": {
       "characters": {
         "characters": [
