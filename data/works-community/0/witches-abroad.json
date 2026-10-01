@@ -2562,7 +2562,7 @@
             "aliases": [
               "Crow-Foot Jim"
             ],
-            "description": "Leader of the Jiminy World Crickets and a longstanding ally of Vincent. From the distant upper worlds, he restores Vincent's guild standing and orders him to reach Edge Light, where the Crickets are preparing for the dangers above.",
+            "description": "Leader of the Jiminy World Crickets and a longstanding ally of Vincent.",
             "id": "jim",
             "name": "Jim",
             "reveal": {
@@ -2634,7 +2634,7 @@
             "role": "supporting"
           },
           {
-            "description": "A Cricket ranger who uses a shared ranger network to help locate captured guild members.",
+            "description": "A Cricket ranger.",
             "id": "antonio",
             "name": "Antonio",
             "reveal": {
@@ -2643,7 +2643,7 @@
             "role": "supporting"
           },
           {
-            "description": "A Cricket weapons researcher who acknowledges the guild's abuse of intelligent Mossmen and wants to return to his son.",
+            "description": "A Cricket weapons researcher.",
             "id": "finn",
             "name": "Finn",
             "reveal": {
@@ -2652,7 +2652,7 @@
             "role": "supporting"
           },
           {
-            "description": "A world-magic fighter and former weapons researcher who helps defend Facility A and regrets the program involving captive Mossmen.",
+            "description": "A world-magic fighter and former weapons researcher.",
             "id": "zhang",
             "name": "Zhang",
             "reveal": {
@@ -2661,7 +2661,7 @@
             "role": "supporting"
           },
           {
-            "description": "A Cricket fighter, Athena's spouse, and an opponent of further abusive weapons research.",
+            "description": "A Cricket fighter, Athena's spouse.",
             "id": "river",
             "name": "River",
             "reveal": {
@@ -2670,7 +2670,7 @@
             "role": "supporting"
           },
           {
-            "description": "A Cricket fighter, River's spouse, and an opponent of further abusive weapons research.",
+            "description": "A Cricket fighter, River's spouse.",
             "id": "athena",
             "name": "Athena",
             "reveal": {
