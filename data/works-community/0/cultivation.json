@@ -452,6 +452,254 @@
       }
     },
     "cursed-vault": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A goat shifter and artifact retriever who opens a renovated warehouse as her team's headquarters and her new home. She faces possible coven supervision while investigating unexplained dark marks on her silver-and-copper ring. Her touch can interfere with magic.",
+            "id": "riley-cruz",
+            "name": "Riley Cruz",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Volkov"
+            ],
+            "description": "The Kansas City wolf-pack alpha and Riley's partner. He supports her effort to make the warehouse a secure base while preparing to host a major shifter summit. He is attentive to the dangers Riley faces from both witch and shifter authorities.",
+            "id": "max-volkov",
+            "name": "Max Volkov",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Martha"
+            ],
+            "description": "A coven leader who arrives uninvited at the opening of Riley's headquarters. Her presence brings Riley's existing dispute with coven authority into the new base.",
+            "id": "martha-matthews",
+            "name": "Martha Matthews",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Sato"
+            ],
+            "description": "An Enclave representative and Riley's established contact. He summons her to an imminent meeting about the decision on her coven status.",
+            "id": "cage-sato",
+            "name": "Cage Sato",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A witch allied with Riley who studies the altered ring and searches for an explanation for its dark markings. She resists the pressure being placed on Riley by established coven authorities and contributes magical expertise to the team.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Max Volkov's pack beta, present for the opening of Riley's headquarters.",
+            "id": "tegan",
+            "name": "Tegan",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Riley's artifact-retrieval team who takes charge of the technical-surveillance station in the new warehouse headquarters.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Nash"
+            ],
+            "description": "One of Riley's trusted allies and the owner of Garth, an unusual rooster associated with a powerful vengeance demon. Nash helps establish the warehouse headquarters while remaining wary of the supernatural force his companion may contain.",
+            "id": "nash-mitchell",
+            "name": "Nash Mitchell",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Nash Mitchell's protective rooster and the known host of a high-ranking vengeance demon. His presence at the new headquarters is useful but unsettling, especially to Nash, who understands that Garth is far more dangerous than an ordinary animal.",
+            "id": "garth",
+            "name": "Garth",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A witch in Helen's circle who teaches quilting as part of community service ordered by the Witch's Council. She turns the class into a coordinated act of resistance while working alongside Helen, Janice, and Bea.",
+            "id": "alice",
+            "name": "Alice",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A witch in Helen's circle who takes part in community service ordered by the Witch's Council.",
+            "id": "janice",
+            "name": "Janice",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A witch in Helen's circle who takes part in community service ordered by the Witch's Council.",
+            "id": "bea",
+            "name": "Bea",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An authority within the Witch's Council who is assigned to arrange Riley's evaluation and training under a registered coven. Her decisions carry formal weight over Riley's status and initially give Martha Matthews considerable leverage.",
+            "id": "celeste",
+            "name": "Celeste",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A subordinate who accompanies Martha Matthews to Riley's headquarters and handles Cersei during the visit. Riley remembers her as the person who previously fitted her with magic-canceling cuffs, making her presence a reminder of Martha's coercive authority.",
+            "id": "alona",
+            "name": "Alona",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A cat brought to the warehouse by Martha Matthews and handled by Alona during the visit. Martha is trying to establish Cersei as a familiar, although the animal's actual magical status and attachment are not yet settled.",
+            "id": "cersei",
+            "name": "Cersei",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Hughes"
+            ],
+            "description": "The warehouse owner, a former Kansas City Pack beta, and an old rival of Max Volkov. He previously tried to manipulate Volkov's contest for leadership and is unlikely to sell the building to him, placing Riley's new home at risk.",
+            "id": "owen-hughes",
+            "name": "Owen Hughes",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Zane"
+            ],
+            "description": "A wolf shifter in Max Volkov's leadership team who serves as the pack's finance officer. His position reflects Volkov's preference for assigning responsibility by ability rather than traditional rank.",
+            "id": "zane-michaels",
+            "name": "Zane Michaels",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Craig"
+            ],
+            "description": "An investigator working with Max Volkov's pack. He examines an apparent robbery that leaves an older pack member with a serious head injury as the shifter summit approaches, giving Volkov a trusted person to pursue the unexplained attack.",
+            "id": "craig-ward",
+            "name": "Craig Ward",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The woman who raised Riley and whom Riley regarded as her mother. Cage Sato identifies her as an Enclave retrieval specialist who vanished while carrying a hell-forged chalice, tying her disappearance to Riley's new assignment.",
+            "id": "amelia-hunt",
+            "name": "Amelia Hunt",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Phoebe"
+            ],
+            "description": "An escaped witch with dangerous knowledge of Riley's ability to disrupt and redirect magic. Her disappearance during an attack on an Enclave convoy creates a serious risk that Riley's secret may reach hostile or official hands.",
+            "id": "phoebe-thompson",
+            "name": "Phoebe Thompson",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Robert"
+            ],
+            "description": "Phoebe Thompson's associate in the use of a stolen blood-tracing spell whose trail led to Kansas City. The target and Robert's present role are not yet established.",
+            "id": "robert-thompson",
+            "name": "Robert Thompson",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Bellarose"
+            ],
+            "description": "An unresolved adversary carried forward from Riley's earlier experiences. At the start of this book, no current activity or connection to Riley's new troubles has been established, leaving her relevance to the present conflict unknown.",
+            "id": "zara-bellarose",
+            "name": "Zara Bellarose",
+            "reveal": {
+              "chapter": 0
+            }
+          },
+          {
+            "description": "An unidentified member of Martha Matthews's security detail who accompanies her to Riley's headquarters. Tegan reacts to the woman with visible pain, suggesting a difficult shared history, but the nature of that connection is not yet explained.",
+            "id": "marthas-bodyguard",
+            "name": "Martha's bodyguard",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0F8JVL1JW",
+            "type": "community"
+          }
+        ],
+        "work": "cursed-vault"
+      },
       "recaps": {
         "ending": "Volkov kills Owen Hughes in the alpha challenge and remains leader of the Kansas City pack after Riley intercepts a silver blade meant for him. Hughes's enhanced shifting, concealed injury, and other advantages came from externally supplied blood and elemental magic, leaving the more capable practitioner unidentified. Riley and her allies prove that Martha Matthews sold concealed rune devices to Hughes and connect the operation to three bombings. Martha's own bodyguard restrains her, and Celeste takes her into custody. Stitch Witch Bitches preserves its independence and receives more time to finish its required evaluation and training procedures, with Riley remaining an apprentice. The warehouse's ownership and unknown lienholder are still unresolved. Riley's next priority is decoding the stories Amelia Hunt used to conceal the route to a vault and its hell-forged chalice. The prophecy's water-and-air child is still unidentified, and Riley's ring, origins, and magic-disrupting ability remain unexplained. Her partnership with Volkov is openly affirmed but remains a choice she makes for herself.",
         "in_short": "Riley Cruz turns a renovated warehouse into a home and headquarters, only to face forced coven supervision, a hostile sale of the building, and violence surrounding Max Volkov's shifter summit. Sato sends her after a hell-forged chalice once carried by Amelia Hunt, the woman who raised her, while Helen creates an independent coven to protect Riley from Martha Matthews. Evidence eventually links Owen Hughes and Martha to blood-rune attacks. Riley accepts her relationship with Volkov on her own terms and is wounded protecting him before he defeats and kills Hughes. Riley, Helen, Nash, and Tegan then expose Martha's distribution of concealed rune devices, leading Martha's bodyguard to restrain her and turn her over to Celeste. The new coven remains independent, but a stronger elemental-magic user is still at large. Riley must now decode Amelia's stories to find the chalice, while the identity of a child sought in a demon prophecy and the nature of Riley's magic remain unresolved.",
