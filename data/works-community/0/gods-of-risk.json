@@ -2703,6 +2703,309 @@
       }
     },
     "graveside-gambler": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A goat shifter, artifact retriever, and leader of GOAT. Riley can disrupt magic and carries a rune-marked ring left by her late mother, Amelia Hunt. She begins this search by following Amelia's encoded childhood stories toward a demon vessel.",
+            "id": "riley-cruz",
+            "name": "Riley Cruz",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Riley's trusted field partner and security support. Nash joins the search for the hidden vessel, carries a protective talisman, and supplies practical caution when Riley's clues lead them into uncertain territory.",
+            "id": "nash-mitchell",
+            "name": "Nash Mitchell",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Riley's deceased adoptive mother and the source of the current search. Amelia concealed a route to the demon vessel inside stories from Riley's childhood, leaving Riley to interpret the places, images, and objects embedded in them.",
+            "id": "amelia-hunt",
+            "name": "Amelia Hunt",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A witch and established ally of Riley's circle. Helen takes responsibility for Garth while Riley and Nash search New Mexico, including managing the protective rooster's disruptive behavior at a supernatural pet daycare.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A technical and financial investigator who supports Riley from a distance. Dez tracks suspicious transactions and movements connected to Zara Bellarose, helping the search team assess whether its rival is following them.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Nash's rooster and the host of a vengeance demon. Garth is protective of the people around him but disruptive enough to cause trouble even at a supernatural-owned pet daycare while Riley and Nash travel.",
+            "id": "garth",
+            "name": "Garth",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A powerful illusion user and rival artifact hunter whose financial trail appears to shadow Riley's search. Riley suspects her of directing an earlier blood-rune operation, but no proof yet establishes that connection.",
+            "id": "zara-bellarose",
+            "name": "Zara Bellarose",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Riley's partner and the alpha of a Kansas City wolf pack. Their relationship continues while Riley searches New Mexico, although she limits what she shares with him because her phone or vehicle may be under surveillance.",
+            "id": "max-volkov",
+            "name": "Max Volkov",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Amelia's former studio landlord and the person entrusted to pass Amelia's ring to Riley. A painting by Maria provides the link between the Santa Fe museum and the next stop in Amelia's carefully hidden clue trail.",
+            "id": "maria-baca",
+            "name": "Maria Baca",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A technically capable associate of Max Volkov's pack. Arlo is trusted to retrieve Nash's truck from New Mexico, allowing Riley and Nash to keep their rental vehicle and continue the search without delay.",
+            "id": "arlo",
+            "name": "Arlo",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Max Volkov's mother. She arrives at his home with Nadia and presents the visitor as Max's fiancée.",
+            "id": "irina-volkov",
+            "name": "Irina Volkov",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A visitor who arrives at Max Volkov's home with Irina Volkov, who introduces her as Max's fiancée.",
+            "id": "nadia",
+            "name": "Nadia",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A witch in Helen's circle and one of Riley's established allies. Alice joins the effort to identify the unexplained markings on Riley's ring when the magical library at Max Volkov's home yields no answer.",
+            "id": "alice",
+            "name": "Alice",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Enclave representative supervising Riley's artifact assignment. Cage Sato pushes for faster results after a protected elemental child disappears, though Riley cannot determine whether he is connected to the information leak around the mission.",
+            "id": "cage-sato",
+            "name": "Cage Sato",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A belligerent resident of the secluded goat-shifter community. He assaults Riley soon after her arrival, but she overpowers him and the other residents denounce his behavior.",
+            "id": "jacob",
+            "name": "Jacob",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A member of the hidden goat-shifter settlement and Riley's biological father. The settlement elder identifies the connection after recognizing Henrik's features in Riley, opening questions about the family history she never knew.",
+            "id": "henrik",
+            "name": "Henrik",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The elder of the secluded goat-shifter community and Henrik's father. He confirms Riley's origins, explains the herd's resistance to magic, and gives her a map to the mountain vault prepared by Amelia and Santiago.",
+            "id": "rileys-grandfather",
+            "name": "Riley's grandfather",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The name given for Riley's biological mother in her grandfather's account. Rosa met Henrik in Oslo, later killed him during conflict over their child, and repeatedly tried to recover Riley after leaving the island.",
+            "id": "rosa",
+            "name": "Rosa",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Riley's deceased adoptive father. Riley learns that Santiago returned to the hidden settlement with Amelia and helped conceal materials for her in a mountain vault reached by a map from her grandfather.",
+            "id": "santiago-cruz",
+            "name": "Santiago Cruz",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Enclave staff member seen in one of Santiago's stored memories. Steve communicates directly with Santiago during the earlier chalice operation and gives orders on behalf of a concealed faction called Cerberus.",
+            "id": "steve",
+            "name": "Steve",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Max Volkov's estranged brother and a leader among the Enclave's Shadows. When Max asks about Cerberus, Aleksei knows it only as an old rumor and cannot say whether the secretive faction still operates.",
+            "id": "aleksei",
+            "name": "Aleksei",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Zara Bellarose's father, a gifted seer who advised the Witches' Council. He vanished when Zara was nineteen, and what happened to him remains unknown.",
+            "id": "rupert-bellarose",
+            "name": "Rupert Bellarose",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A missing young elemental held under heavy guard in Zara Bellarose's Toronto penthouse. She can command water and air, and the approaching blood moon makes keeping her from hostile forces an urgent priority.",
+            "id": "elemental-child",
+            "name": "the elemental child",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A master vampire pursuing the captive elemental child. One of his underlings watches Zara Bellarose's building, signaling Wallace's interest in taking possession of the child.",
+            "id": "wallace-ratcliffe",
+            "name": "Wallace Ratcliffe",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A fire elemental, former Shadow, and Janice's niece. Liv trains Riley to redirect, contain, shape, and throw borrowed fire, giving her practical and demanding instruction in controlling siphoned magic safely.",
+            "id": "liv-monroe",
+            "name": "Liv Monroe",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The West Texas pack alpha and head of the North American Shifter Council. After Riley confronts him about the system that failed to protect her from Carl's abuse, he accepts responsibility and pledges help for the elemental child.",
+            "id": "nate-irons",
+            "name": "Nate Irons",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Liv Monroe's aunt and a witch within Helen's circle. Janice belongs to the broader network of magical allies in Kansas City as Riley prepares an operation to rescue and protect the captive elemental child.",
+            "id": "janice",
+            "name": "Janice",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A traumatized twelve-year-old elemental rescued from Zara Bellarose's planned auction. Sierra wields water and air, does not know her parents, and offers to surrender when Enclave forces threaten her rescuers.",
+            "id": "sierra",
+            "name": "Sierra",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Bee"
+            ],
+            "description": "A witch allied with Riley's group. Bea joins Riley and Sierra in a safer, playful exercise after Sierra loses control of her water magic, helping turn a frightening accident into a chance to practice.",
+            "id": "bea",
+            "name": "Bea",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An ally assigned to help guard the fortified headquarters from the air. Craig shares aerial watch duties with Nate Irons while shifters, witches, and other defenders maintain protection around Sierra.",
+            "id": "craig-ward",
+            "name": "Craig Ward",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A necromancer ally bound by an Enclave blood oath. She cannot reveal the missing prophecy without dying, but she agrees to risk summoning the demon within her so the group can seek the information another way.",
+            "id": "callie",
+            "name": "Callie",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The demon residing within Callie. Rom possesses knowledge of the Enclave prophecy and is not subject to Callie's blood oath, making him a possible source despite the danger that he may resist surrendering control.",
+            "id": "rom",
+            "name": "Rom",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0FS2WTDRK",
+            "type": "community"
+          }
+        ],
+        "work": "graveside-gambler"
+      },
       "recaps": {
         "ending": "During the blood moon at Stull Cemetery, Zara Bellarose reveals that Sierra is her daughter and therefore Riley's sister. Demons open the veil from Hell, overturning the defenders' expectation of a vampire ritual on Earth. Riley collects the needed elemental powers, and Callie's spirit magic completes the Seal of Solomon. The seal must cross to the side that opened the breach. Liv's attempt fails, and Nate Irons loses a hand while rescuing her. Garth then enters in his full demon form and seals the veil from Hell, leaving himself stranded there. Six months later, Irons uses a magical prosthetic, while Garth has claimed the High Crown and communicates with Helen each week. The Enclave allows Sierra to remain with Riley and Helen after the group threatens to expose its actions. Riley and Max Volkov remain together, and Riley converts GOAT headquarters into the Guild of Adventurous Teens, with Sierra helping shape the new center. Bellarose's location and suspected Enclave ties remain unknown, as do the whereabouts of demons that escaped before the breach closed.",
         "in_short": "Riley Cruz follows clues left by Amelia Hunt to recover Zogon's chalice, only to discover a hidden goat-shifter family and learn that Zara Bellarose is her biological mother. Stored memories show that Amelia and Santiago rescued and raised Riley after uncovering a covert plan to seize her as a prophetic vessel. Riley's allies rescue a young elemental named Sierra and reject the Enclave's attempt to claim her. At Stull Cemetery, Bellarose reveals that Sierra is Riley's sister before demons tear open the veil from Hell. Riley and the assembled defenders empower the Seal of Solomon, and Garth carries it through the breach, sealing the veil but becoming trapped in Hell. Six months later, Garth rules Hell and speaks with Helen weekly, Sierra lives safely with Riley and Helen, and Riley turns GOAT headquarters into a center for supernatural teenagers. Bellarose and the demons that escaped before the seal remain at large.",
