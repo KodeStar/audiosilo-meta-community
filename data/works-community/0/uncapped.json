@@ -3579,6 +3579,247 @@
       }
     },
     "unintended-cultivator-volume-9": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The founder of an academy and a powerful cultivator devoted to protecting his household and nearby mortals. He begins this volume by completing an unprecedented body transformation whose risks and ultimate effects remain uncertain.",
+            "id": "sen",
+            "name": "Sen",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A Nascent Soul cultivator and alchemical adviser whose guidance helped Sen decide how to modify the last pill in his body-transformation sequence. Her expertise makes her one of the powerful allies he consults about unusual cultivation problems.",
+            "id": "fu-ru-lan",
+            "name": "Fu Ru Lan",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A trusted member of Sen's household and an alchemical adviser who counseled him about changes to the last pill in his body-transformation sequence. Her expertise places her among the senior allies he consults about unusual cultivation problems.",
+            "id": "caihong",
+            "name": "Caihong",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Sen's young adopted daughter, whose immediate acceptance reassures him after his transformation changes his appearance. Her safety is central to the household he has built and to the choices he makes as danger approaches.",
+            "id": "liu-ai",
+            "name": "Liu Ai",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "ghost panther"
+            ],
+            "description": "A ghost panther and close member of Sen's household. She fears his rapid progress may carry him beyond her reach, and his dangerous advancement prompts her to demand that he take her future seriously.",
+            "id": "falling-leaf",
+            "name": "Falling Leaf",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A former sect cultivator serving as Sen's trusted academy enforcer and investigator. He deals firmly with applicants who abuse mortals and helps maintain order while the academy's competing factions strain its unity.",
+            "id": "long-jia-wei",
+            "name": "Long Jia Wei",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Master Feng"
+            ],
+            "description": "Sen's mentor and an exceptionally powerful cultivator. He confirms that a continent-wide spirit-beast war is approaching and urges Sen to consider humanity's survival alongside the defense of his own territory.",
+            "id": "feng",
+            "name": "Feng",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A royal ally who is among the few political leaders acting on warnings of a coming spirit-beast conflict. His preparations stand out because most other rulers have not responded with comparable urgency.",
+            "id": "jiang",
+            "name": "Jiang",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An adviser at Sen's academy who cautions that disclosing an undefined threat too early would cause panic and displacement. Her counsel supports a strategy of quiet fortification while knowledge of the coming danger remains restricted.",
+            "id": "lai-dongmei",
+            "name": "Lai Dongmei",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Sen's spear teacher and a trusted senior ally who assists with defensive formations around the academy and town. His experience and strength make him part of the small circle preparing for the expected war.",
+            "id": "kho",
+            "name": "Kho",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A visiting academy instructor whom Sen considers unusually effective at teaching. He trusts her work in the classroom but keeps sensitive cultivation information from her because her continuing sect loyalties remain relevant.",
+            "id": "wu-meng-yao",
+            "name": "Wu Meng Yao",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A temporary associate of Sen's academy who remains under his protection until he can return her safely to her sect. Her situation becomes part of his effort to end a damaged inter-sect relationship without exposing her to needless danger.",
+            "id": "shen-mingxia",
+            "name": "Shen Mingxia",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Sen",
+              "Judgment's Gale"
+            ],
+            "description": "The fuller identity of Sen, whose reputation extends beyond his academy under the epithet Judgment's Gale. Spirit beasts and cultivators recognize the name, linking the protector of the academy to a feared figure from earlier conflicts.",
+            "id": "lu-sen",
+            "name": "Lu Sen",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "An ice-wolf envoy speaking for packs and other spirit-beast groups that resisted the Beast King and were nearly destroyed. The representative explores an intelligence arrangement with humanity on behalf of those purged survivors.",
+            "id": "ice-wolf-representative",
+            "name": "Ice-Wolf Representative",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A long-serving Vermillion Blade Sect elder and Li Yi Nuo's master. He comes to the academy on personal initiative rather than as an official envoy, hoping to meet Sen without turning earlier tensions into open conflict.",
+            "id": "ban-hui-zhang",
+            "name": "Ban Hui Zhang",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ban Hui Zhang's disciple, who arrives at Sen's academy after his earlier directions fail to lead her to Kho Jaw-Long. She confronts Sen over the mistake and seeks the spear instruction that originally motivated her journey.",
+            "id": "li-yi-nuo",
+            "name": "Li Yi Nuo",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Core Formation member who has become a de facto senior figure at the academy. She is ambitious, and Sen finds her difficult to trust or like.",
+            "id": "ambitious-core-cultivator",
+            "name": "Ambitious Core Cultivator",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Nascent Soul elder who leads a Shattering Earth Sect delegation to challenge Sen at his academy.",
+            "id": "shattering-earth-elder",
+            "name": "Shattering Earth Elder",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An academy official whom Sen assigns to coordinate emergency relief and repairs after the town raid.",
+            "id": "academy-administrator",
+            "name": "Academy Administrator",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "spider spirit beast"
+            ],
+            "description": "A spider spirit beast in Sen's household with unusual skill in webs and shadow qi. He works with Sen to create paired communication cores whose capabilities are strategically valuable and deliberately kept secret.",
+            "id": "glimmer-of-night",
+            "name": "Glimmer of Night",
+            "reveal": {
+              "chapter": 31
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A reluctant member of the Twisted Blade Sect whose gathering expeditions secretly support her impoverished home village. When Sen attacks her camp, she asks him to protect that community, leaving him with an obligation that survives her.",
+            "id": "twisted-blade-gatherer",
+            "name": "Twisted Blade Gatherer",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The Nascent Soul leader of the Twisted Blade Sect. He regards outer disciples as expendable and prepares his sect for conflict with Sen while pursuing his own advancement amid reports of a wider spirit-beast war.",
+            "id": "twisted-blade-patriarch",
+            "name": "Twisted Blade Patriarch",
+            "reveal": {
+              "chapter": 46
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A wounded Core Formation survivor who asks Sen to spare an unconscious companion. He stakes her life on a sworn claim that she opposed the sect's conduct and wanted to leave, placing both survivors under Sen's judgment.",
+            "id": "wounded-twisted-blade-survivor",
+            "name": "Wounded Twisted Blade Survivor",
+            "reveal": {
+              "chapter": 55
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An unconscious Core Formation cultivator who tended the Twisted Blade Sect's plants. Her companion claims she opposed the sect's actions and had urged him to leave, and a heavenly sign supports his plea that Sen spare her.",
+            "id": "twisted-blade-plant-tender",
+            "name": "Twisted Blade Plant-Tender",
+            "reveal": {
+              "chapter": 55
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0GVGGP2DL",
+            "type": "community"
+          }
+        ],
+        "work": "unintended-cultivator-volume-9"
+      },
       "recaps": {
         "ending": "The Twisted Blade Sect is completely destroyed. Kho kills its patriarch, the remaining elders die, and Sen burns and levels the compound after recovering selected resources. The two Core Formation cultivators spared after a heavenly sign accept new identities and binding oaths against revenge, then leave as wandering cultivators. Sen allows the name Judgment's Gale to carry public credit for the destruction so that other sects will hesitate to threaten his people, though the killing leaves him grieving rather than triumphant. He returns north to Liu Ai and Caihong, fulfills his promise to protect the dead gatherer's village by offering its people land near his defended town, and continues preparations for the approaching spirit-beast war. Kho, Feng, Falling Leaf, Glimmer of Night, Long Jia Wei, and the academy remain part of that effort. The Beast King's campaign is still imminent, the rogue spirit-beast alliance is unsettled, Falling Leaf still lacks a safe advancement path, and Liu Ai's command of birds remains unexplained.",
         "in_short": "Sen survives an unprecedented sixth body transformation and turns his growing academy and town toward quiet preparation for a continent-wide spirit-beast war. He explores a tense intelligence arrangement with enemies of the Beast King, resolves challenges from established sects, and delegates more of his expanding responsibilities. When Twisted Blade cultivators raid his town and abduct a child, Sen decides that deterrence requires destroying their sect. With Kho, Falling Leaf, and Glimmer of Night supporting him, he infiltrates the compound, builds a poison formation, and breaks its defenders. Kho kills the patriarch, the elders die, and Sen erases the site, while a heavenly sign leads him to spare two oath-bound Core Formation members. The massacre leaves him burdened by guilt, but its reputation shields his territory. He returns home, offers refuge to a vulnerable village, and continues preparing his household, academy, and growing community for the Beast King's approaching war.",
