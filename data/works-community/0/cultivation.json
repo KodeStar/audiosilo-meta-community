@@ -3206,6 +3206,232 @@
       }
     },
     "dark-origins": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Newton Sawyer",
+              "the Messenger"
+            ],
+            "description": "The leader of the Cygnus Realm and pilot of the Archetype. Formerly known as Newton Sawyer and also called the Messenger, Dash is an established defender of the Realm.",
+            "id": "dash",
+            "name": "Dash",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Dash's experienced combat partner and one of the Realm's senior mech pilots. She accompanies him into fast-moving battles and dangerous investigations, providing both tactical support and a trusted second perspective.",
+            "id": "leira",
+            "name": "Leira",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Polaris pilot and Realm combat leader who serves as military liaison to the Enteal. Her position places her between allied forces and the Realm's command structure during the expanding conflict with the Deepers.",
+            "id": "jameson",
+            "name": "Jameson",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Pulsar pilot, an electronic-warfare specialist, and an experienced Realm field commander.",
+            "id": "conover",
+            "name": "Conover",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Archetype's AI and Dash's strategic partner. Sentinel evaluates threats, interprets captured systems, and often supports bold operations when their potential strategic value justifies the risk.",
+            "id": "sentinel",
+            "name": "Sentinel",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Realm AI responsible for major research, fabrication, and infrastructure decisions.",
+            "id": "custodian",
+            "name": "Custodian",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A major-mech pilot and technical collaborator in the Realm's defense.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A biological and technical analyst entrusted with the Realm's unusual research material.",
+            "id": "eloise",
+            "name": "Eloise",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Marine lieutenant who leads troops into a defended Deeper complex. Denson maintains effective command during close fighting and survives severe injuries long enough to be evacuated for extensive treatment.",
+            "id": "denson",
+            "name": "Denson",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Realm planner and commander who helps convert uncertain intelligence into practical strategy. He weighs military objectives against longer-term needs and contributes to the inner circle's major operational decisions.",
+            "id": "ragsdale",
+            "name": "Ragsdale",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A monk of the Order of the Unseen who advises Dash on ancient history and the legacy of vanished powers. He approaches the Realm's discoveries as both a researcher and a guide to their wider meaning.",
+            "id": "kai",
+            "name": "Kai",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A veteran Realm fleet commander and long-standing associate of Dash and Leira. He leads conventional forces while the mech pilots undertake more specialized missions and keeps larger battle zones under control.",
+            "id": "benzel",
+            "name": "Benzel",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An established Realm technical officer involved in evaluating combat systems.",
+            "id": "viktor",
+            "name": "Viktor",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An electronic-warfare operator who works alongside Conover in Realm combat operations. Her specialty is concealing friendly movement and degrading an enemy's ability to understand the battlespace.",
+            "id": "kristen",
+            "name": "Kristen",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Commander of the Realm's auxiliary Orion and Perseid mech force.",
+            "id": "lori",
+            "name": "Lori",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Commander of the Stalwart, a Realm vessel trusted with strategically important equipment. Wei Ping supports salvage and transport operations whose success directly affects the station's expansion.",
+            "id": "wei-ping",
+            "name": "Wei Ping",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Realm specialist in gate technology. He recognizes that the Deepers possess methods of directing gates that the Realm's known radiant-point network does not explain, making his expertise central to assessing the new threat.",
+            "id": "tybalt",
+            "name": "Tybalt",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Amy's mech AI"
+            ],
+            "description": "Amy's mech AI and a systems designer. Hathaway proposes testing hazardous Deeper-derived coordination code in remotely operated mechs equipped with safeguards, allowing the Realm to gather evidence without risking pilots.",
+            "id": "hathaway",
+            "name": "Hathaway",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The commander of the light cruiser Taffy. She commits her outmatched task force to delay an assault on Realm research ships, buying time for relief forces at severe cost to her vessel and crew.",
+            "id": "taffy-commander",
+            "name": "Taffy commander",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A human from a lost early-Earth expedition whose remains were found far beyond the expected reach of her mission. Evidence shows that she escaped her original ship, but her extraordinary displacement remains unexplained.",
+            "id": "recovered-russian-astronaut",
+            "name": "Recovered Russian astronaut",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A newly created Polaris intelligence based on Dash's mental profile, paired with Jameson because their compatibility is exceptionally high. It generally communicates only over mech channels, allowing others to tell it apart from Dash.",
+            "id": "newton-sawyer-ai",
+            "name": "Newton Sawyer",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An enemy entity that announces itself through an infected Realm salvage tug just before the vessel destroys itself. Its organic-machine agent can seize equipment, while the speaker's identity and precise connection to the Deepers remain unknown.",
+            "id": "corrupter",
+            "name": "Corrupter",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A specialist in biological weapons who explains the mixed organic and nanoscale nature of the Deeper infection agent. His analysis identifies how it attacks ordinary dark-metal systems and why Dark Metal 2 can resist it.",
+            "id": "grun",
+            "name": "Grun",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B09MXNKW4V",
+            "type": "community"
+          }
+        ],
+        "work": "dark-origins"
+      },
       "recaps": {
         "ending": "The Cygnus Realm finishes the numbered story with a stronger intergalactic hub, three guarded gates, and sixteen intact biome vessels awaiting integration. Its major defenders survive, Jameson remains paired with the Newton Sawyer AI, and Eloise leads the biological work. Sentinel concludes that the Corrupter is probably the assimilated commander of the lost Russian expedition, giving the enemy's recent tactics a human origin. Afterward, the Realm uses a supposed Dark Metal 2 shipment to lure him into battle. Conover commands the bait force and releases concealed reinforcements through a gate deployed by the restored Taffy. Dash emerges from the empty cargo hold, wounds the Corrupter, and breaks the belief that he is untouchable. The Corrupter nevertheless escapes and invokes an unidentified Queen, leaving both enemies as open threats. Ordinary allied systems remain vulnerable to infection despite the protection offered by Dark Metal 2. Custodian also finds a neural mesh in the recovered Russian astronaut, and Dash approves a secret attempt to place its possible mind-copy in a grown body.",
         "in_short": "Renewed Deeper activity draws Dash and the Cygnus Realm into battles over gate technology, captured constructs, and a new organic-machine infection. Jameson survives capture and torture, then begins recovering with a Polaris AI patterned on Dash. An encoded ancient memory raises questions about a signal and the Second Dreaming, while a failed peace attempt ends with the destruction of a suspected Deeper nursery. The Realm learns that Dark Metal 2 resists the infection and turns its growing intergalactic station into a refuge for alien ecosystems. Sentinel identifies the Corrupter as probably derived from the commander of a lost Russian expedition. In the final operation, a false Dark Metal 2 shipment draws him into an ambush. Dash wounds him, but he escapes under the protection of an unidentified Queen. The Realm survives with sixteen recovered biome vessels, and Dash secretly authorizes an attempt to restore a possible neural copy of the recovered Russian astronaut.",
