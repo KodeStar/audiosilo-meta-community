@@ -3460,6 +3460,424 @@
       }
     },
     "dungeon-calamity-dramatized-adaptation": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A sentient Dungeon Core beneath the Silverwood Tree. With his recent memories fragmented and his dungeon damaged, Cal rebuilds his defenses, searches for his missing wisp Dani, and pursues enough power to survive enemies far beyond his current reach.",
+            "id": "cal",
+            "name": "Cal",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "An unidentified man of at least spiritual rank who enters Cal's core chamber, promises to return if Cal becomes interesting, and tears a tunnel through the dungeon as he leaves the mountain.",
+            "id": "unidentified-spiritual-rank-intruder",
+            "name": "Unidentified spiritual-rank intruder",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The newly appointed baron of Mountaindale and leader of an adventuring party. Dale is linked to Cal through a beast core, knows the dungeon is sentient, and is advancing rapidly while trying to protect his companions and territory.",
+            "id": "dale",
+            "name": "Dale",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Cal's wisp"
+            ],
+            "description": "Cal's missing wisp and co-creator. Her absence has left Cal unstable and determined to recover her.",
+            "id": "dani",
+            "name": "Dani",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The dark-robed figure holding Dani captive in sewer tunnels. He keeps her restrained by a mana tether and inflicts pain when she refuses his demanded form of address.",
+            "id": "danis-captor",
+            "name": "Dani's captor",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A senior member of Dale's party who serves as a practical adviser and combat instructor.",
+            "id": "hans",
+            "name": "Hans",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A half-elf archer in Dale's party who provides the group with ranged support.",
+            "id": "rose",
+            "name": "Rose",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The healing cleric in Dale's party. Exposure to concentrated celestial essence has visibly changed Adam and given him unusual insight, though his companions still rely on his practical skill when dungeon expeditions turn costly.",
+            "id": "adam",
+            "name": "Adam",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A resilient barbarian in Dale's party whose lost arm is nearly restored. Tom brings close-combat strength to the group while recovering from severe injuries.",
+            "id": "tom",
+            "name": "Tom",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Cal's bound outside agent and purchaser. Minya supplies rare materials, warns him that the council considers an unstable dungeon a catastrophic threat, and confronts him with evidence of the deaths caused during his impaired period.",
+            "id": "minya",
+            "name": "Minya",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A goblin practitioner attuned to wind and infernal essence. Cal gives Bob an opal-cored aspen staff and begins making the goblins' home more habitable at their request.",
+            "id": "bob",
+            "name": "Bob",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Bob"
+            ],
+            "description": "The recurring goblin shaman encountered by adventurers at multiple half-hex forts. He uses infernal rituals, an opal-and-aspen staff, and phantom armor defenses against attackers.",
+            "id": "wandering-boss",
+            "name": "Wandering Boss",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An unnamed moon elf assassin who secretly trains Dale and considers his progress inadequate.",
+            "id": "dales-moon-elf-instructor",
+            "name": "Dale's moon elf instructor",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Dale's teacher in earth essence and cultivation, providing instruction alongside Dale's separate combat training.",
+            "id": "craig",
+            "name": "Craig",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A merchant expanding into exotic weapons and dungeon materials. Tyler commissions Dale's party to gather a wide selection of dungeon specimens.",
+            "id": "tyler",
+            "name": "Tyler",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An armored basher boss on the dungeon's second floor. Dale's party prolongs the fight to gather rare variants before killing Rail and taking his core.",
+            "id": "rail",
+            "name": "Rail",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Guildmaster Frank"
+            ],
+            "description": "Mountaindale's local guildmaster, caught between Dale's authority and pressure from the wider Adventurers Guild. Frank wants greater control over the dungeon but is reassured that Dale will not accept an imposed replacement for him.",
+            "id": "frank",
+            "name": "Frank",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dark elf princess and Dale's partner in a binding mana contract. Brianna controls the dark elves' agreement concerning access to the Silverwood Tree and supports Dale when foreign delegations challenge his authority.",
+            "id": "brianna",
+            "name": "Brianna",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dwarf whose rescinded exile restores his standing as crown prince by his own account. Beor uses that status to take part in treaty discussions and agrees to return with signed documents for the proposed arrangements.",
+            "id": "beor",
+            "name": "Beor",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dwarf representative who recognizes Beor's restored royal standing and negotiates over trade and access to the dungeon.",
+            "id": "thaddeus",
+            "name": "Thaddeus",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A newly created sentient dungeon fed with sacrifices and valuables while Dani is held nearby. It expands rapidly and reproduces artifacts supplied by its creators.",
+            "id": "infernal-dungeon",
+            "name": "Infernal dungeon",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Crown Prince Henry"
+            ],
+            "description": "Crown prince of the Lion Kingdom and an allied ruler involved in planning Mountaindale's future. Henry supports an international academy and helps shape arrangements that would permit students and teachers to cross trade barriers.",
+            "id": "henry",
+            "name": "Henry",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Crown Princess Marie"
+            ],
+            "description": "Crown princess of the Phoenix Kingdom and an allied ruler participating in negotiations over Mountaindale. Marie supports the proposed academy and its international access arrangements alongside Henry.",
+            "id": "marie",
+            "name": "Marie",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A recurring boss on the dungeon's fourth floor. Dale's party farms Snowball while testing the floor's revised hazards, placing the creature at the center of the group's effort to gather stronger materials and rewards.",
+            "id": "snowball",
+            "name": "Snowball",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An older man who recognizes that a concealed A-ranked summoner entering Mountaindale is a necromancer.",
+            "id": "dirty-old-man",
+            "name": "Dirty old man",
+            "reveal": {
+              "chapter": 23
+            }
+          },
+          {
+            "description": "A golden-haired swordsman who enters Mountaindale while following an older man he is trying to find.",
+            "id": "golden-haired-swordsman",
+            "name": "Golden-haired swordsman",
+            "reveal": {
+              "chapter": 23
+            }
+          },
+          {
+            "description": "An A-ranked summoner who arrives with the hostile force entering Mountaindale. Although he conceals his nature, an observer identifies him as a necromancer.",
+            "id": "hostile-a-ranked-summoner",
+            "name": "Hostile A-ranked summoner",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An unnamed poisonous flying manticore created as the fifth floor's boss from preserved blood samples. It occupies a circular arena filled with fog.",
+            "id": "fifth-floor-manticore",
+            "name": "Fifth-floor manticore",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Father Richard"
+            ],
+            "description": "An A-rank cleric and senior defender of Mountaindale. Richard wields large-scale celestial magic against the undead assault and directs Dale to move civilians and lower-ranked fighters into the dungeon for safety.",
+            "id": "richard",
+            "name": "Richard",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "High Magus Amber"
+            ],
+            "description": "A senior magical authority counted among Mountaindale's defenders during the undead invasion. Amber is one of the powerful local figures expected to respond while Dale organizes the evacuation of less capable residents.",
+            "id": "amber",
+            "name": "Amber",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Slayer of Shades"
+            ],
+            "description": "A powerful church judge whose presence makes Adam flee rather than risk scrutiny. The High Inquisitor can drain color from his surroundings, expose visible marks of wrongdoing, and destroy those his power declares guilty.",
+            "id": "high-inquisitor",
+            "name": "High Inquisitor",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The High Inquisitor's father, accused of murder even though his son's judgment registers him as innocent. The contradiction prevents an attack and remains unresolved.",
+            "id": "high-inquisitors-father",
+            "name": "High Inquisitor's father",
+            "reveal": {
+              "chapter": 29
+            }
+          },
+          {
+            "aliases": [
+              "Fifth-floor manticore"
+            ],
+            "description": "The revived fifth-floor manticore after Cal gives him a name. Manny can speak, remains eager for prey, and survives as a stabilized dungeon predator after the assault that nearly killed him, with Cal supplying the power needed for his recovery.",
+            "id": "manny",
+            "name": "Manny",
+            "reveal": {
+              "chapter": 31
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The designated spokesperson for the Bobs, carrying selected memories pooled from several of them while remaining mentally stable. Bob Prime helps Cal operate major dungeon rituals.",
+            "id": "bob-prime",
+            "name": "Bob Prime",
+            "reveal": {
+              "chapter": 31
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An influential plant mage and politically connected defender of Mountaindale. Chandra confronts hostile lightning scouts approaching the flying settlement and has enough standing with their leaders to halt the escalation.",
+            "id": "chandra",
+            "name": "Chandra",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A lightning-affinity authority who recognizes Chandra and halts the scouts' confrontation with Mountaindale. Perun then takes responsibility for the scouts.",
+            "id": "perun",
+            "name": "Perun",
+            "reveal": {
+              "chapter": 35
+            }
+          },
+          {
+            "description": "A B-rank lightning mage of clan Asgardia who leads two brothers into Cal's dungeon. Jasper dismisses Dale's warnings after his group overwhelms the early encounters and presses toward the unfamiliar dangers below.",
+            "id": "jasper",
+            "name": "Jasper",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Jasper"
+            ],
+            "description": "The former lightning mage Jasper after the destruction of his home city transforms him and his surviving brothers into crow-like forms. Renaming himself Odin, he vows to locate other survivors and hunt whoever caused the catastrophe.",
+            "id": "odin",
+            "name": "Odin",
+            "reveal": {
+              "chapter": 36
+            }
+          },
+          {
+            "description": "A high-rank necromantic enemy blamed in reports for the deaths of rulers and the collapse of kingdoms. The Master appears to be directing a broad campaign of political destruction, and Chandra reacts as though he has returned from death.",
+            "id": "master",
+            "name": "Master",
+            "reveal": {
+              "chapter": 37
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Marie"
+            ],
+            "description": "Marie after Cal remakes her body and equipment following her binding oath. As Battle Tyrant Marie, she commands the forces of Cal with enhanced physical abilities, mithril armor, and essence-absorbing cores.",
+            "id": "battle-tyrant-marie",
+            "name": "Battle Tyrant Marie",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Cal's B-rank death mage lieutenant, responsible for commanding the goblin units deployed in the campaign.",
+            "id": "cals-goblin-lieutenant",
+            "name": "Cal's goblin lieutenant",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The newly created female wisp daughter of Cal and Dani. Grace comes into being through Silverwood pollen and her parents' renewed mana bond after their reunion, marking a new addition to the dungeon's restored family.",
+            "id": "grace",
+            "name": "Grace",
+            "reveal": {
+              "chapter": 43
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0799RFCCK",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-calamity-dramatized-adaptation"
+      },
       "recaps": {
         "ending": "Cal's intervention breaks the necromancers' control of the ruined Amazon capital, but the Master is absent and remains the central enemy. Frank dies in the fighting, while Richard, Chandra, Brianna, Henry, Marie, Dale's companions, and Cal's dungeon forces survive the recorded campaign. Dale follows the fleeing necromancers through their portal despite fatal damage, destroys the infernal core meant to restore Dani, and dies on their altar. Cal discovers that the portal crosses time and that Dale's death and transformed core created Cal himself. After Dani escapes, Cal absorbs Dale's discarded body, reconstructs Dale as an independent person, and renews his bond with Dani. Their reunion creates a daughter, Grace. Dale returns to leadership but cannot leave Cal's city until he can generate mana independently. Mountaindale remains a flying island with a severe fuel burden. Minya is still missing, Odin is hunting the unknown destroyer of his city, the apparent innocence of the High Inquisitor's father is unexplained, and Cal prepares to pursue the Master.",
         "in_short": "Cal rebuilds his unstable dungeon and seeks enough power to rescue his missing wisp, Dani, while Dale strengthens himself and turns Mountaindale into the center of a new international academy. Necromancers attack, steal Cal's core, and expose a wider campaign led by the Master. Cal and Dale formalize their alliance, then Cal lifts the entire settlement into a flying island and carries it toward Dani's prison, accidentally destroying a lightning city while gathering power. The coalition assaults the ruined Amazon capital, but Frank dies and the fleeing enemy recaptures Dani. Mortally injured, Dale follows and sacrifices himself to destroy an infernal core, enabling her escape. Cal discovers that Dale's death created him through a time loop. He reunites with Dani, restores Dale as a separate person, and becomes father to the new wisp Grace. The Master remains free, Minya remains missing, and Odin seeks vengeance for the city Cal unknowingly destroyed.",
