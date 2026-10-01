@@ -1088,6 +1088,207 @@
       }
     },
     "song-of-redemption": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A Raider sergeant whose lost left arm has been replaced by Poshu, an integrated anti-Centaur weapon. During a canyon relief mission, he directs an approach from above and uses the system to destroy two entrenched enemies.",
+            "id": "rev",
+            "name": "Rev",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A Raider sergeant and Rev's closest comrade. She commands the element Rev formerly led while his new status as a protected weapon keeps him outside its normal chain of command. She deploys with him during the contested landing-zone operation.",
+            "id": "tomiko",
+            "name": "Tomiko",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Rev's implanted AI battle companion, which supports him during combat. Punch works alongside the separate Poshu weapon system while Rev directs the relief of Marines trapped in a canyon.",
+            "id": "punch",
+            "name": "Punch",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The integrated bionic weapon replacing Rev's left arm. Its exceptional firepower destroys a Reaver and a Paladin, although its bulk makes climbing and crawling difficult. The system makes Rev a decisive asset but also changes how his platoon deploys him.",
+            "id": "poshu",
+            "name": "Poshu",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The officer commanding First Raider Platoon during its diverted landing-zone mission. Captain Omastori directs the unit as it abandons its original objective to rescue Marines trapped in a canyon after their supporting tank is destroyed.",
+            "id": "captain-omastori",
+            "name": "Captain Omastori",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning Raider who supports Rev's attempt to reach an entrenched Centaur position from the canyon rim. Nix is part of the force covering the dangerous approach while Rev uses a rope to bring Poshu into firing position.",
+            "id": "nix",
+            "name": "Nix",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Raider serving in the force that supports Rev's dangerous climb above an entrenched Centaur position. Strap helps the unit maneuver along the canyon rim while Rev prepares to use Poshu against the defenders below.",
+            "id": "strap",
+            "name": "Strap",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of the Raiders assisting Rev's canyon maneuver during the platoon's first deployment with Poshu. Mordecai Gantz supports the attempt to approach an entrenched Reaver from above and free the pinned Marines below.",
+            "id": "mordecai-gantz",
+            "name": "Mordecai Gantz",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Raider who remains on active duty after a fire left her extensively scarred and cost her several limbs. Prosthetic legs aid her mobility, and an integrated weapon system equips her as an IBHU combatant.",
+            "id": "recovering-ibhu-marine",
+            "name": "Recovering IBHU Marine",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A fellow Marine who meets Rev at a base shooting range. She proves the better marksman while they test his new handgun, and he invites her to join his friends at a club afterward.",
+            "id": "fellow-marine",
+            "name": "Fellow Marine",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior New Hope officer who supports the IBHU program and accompanies a recovering augmented Marine during the classified Operation Klondike briefing. Colonel Destefny presents a protective and encouraging presence as command unveils the urgent asteroid mission.",
+            "id": "colonel-destefny",
+            "name": "Colonel Destefny",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Marine associated with a vacuum-capable company, the kind of specialist force needed for the planned assault on a suspected Centaur asteroid installation. Cricket represents a capability New Hope must assemble quickly after years focused on planetary warfare.",
+            "id": "cricket",
+            "name": "Cricket",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The officer who takes charge while Captain Omastori is isolated by illness. She publicly authorizes Rev's agreement to cooperate with Phrygian troops during the asteroid recovery, making the arrangement binding under the Torrent Accords.",
+            "id": "second-lieutenant",
+            "name": "Second Lieutenant",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An inexperienced IBHU Marine trained by Rev during the brief interval before deployment. He improves under the compressed program and begins coordinating more effectively with the unit, showing greater promise than the other new trainee.",
+            "id": "wang",
+            "name": "Wang",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A new IBHU Marine whose poor readiness and disengagement concern Rev during the shortened preparation period. Rev is ordered to train him for deployment despite asking that he be held back.",
+            "id": "other-ibhu-trainee",
+            "name": "Other IBHU Trainee",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A returning tanker and established member of Rev's circle, already known as an ally before this campaign begins. Bundy's place among Rev's continuing comrades connects the Raider's military life with friends serving in New Hope's armored forces.",
+            "id": "bundy",
+            "name": "Bundy",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A tanker in Rev's circle who is evacuated alive after armored forces delay more than a hundred Centaurs near Swansea. Ten survives the destruction around her unit but suffers severe wounds and requires evacuation from the battlefield.",
+            "id": "ten",
+            "name": "Ten",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Recon Marine and returning ally who meets Rev during the uncertain aftermath of New Hope's invasion. Orpheus confirms that Tomiko and another Recon Marine survived, while sharing Rev's doubts about whether the biological weapon caused the Centaur withdrawal.",
+            "id": "orpheus",
+            "name": "Orpheus",
+            "reveal": {
+              "chapter": 31
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A public broadcaster reporting on the sudden Centaur attack in the human home system. Talmadge tracks the fleet battle, the enemy ships entering Earth's exosphere, and the first known Centaur landing on humanity's home planet.",
+            "id": "talmadge",
+            "name": "Talmadge",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A returning Frisian ally assigned to Rev's multinational assault team for the Machu Picchu operation. The commando joins as a full combatant rather than an observer, adding another human polity's representative to the mission against the Centaur position.",
+            "id": "frisian-commando",
+            "name": "Frisian Commando",
+            "reveal": {
+              "chapter": 41
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Three unarmored Centaurs who seek contact during the Machu Picchu assault. They call themselves threes and claim their survival is linked to a planet breaker capable of destroying Earth, turning the attack into an unprecedented negotiation.",
+            "id": "centaur-threes",
+            "name": "Centaur Threes",
+            "reveal": {
+              "chapter": 43
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B098FH7CY1",
+            "type": "community"
+          }
+        ],
+        "work": "song-of-redemption"
+      },
       "recaps": {
         "ending": "Rev's agreement with the Centaur threes prevents Earth's immediate destruction and opens negotiations, but the peace remains conditional. An antidote has been released, four threes now maintain the planet-breaker arrangement, and the public does not know that Earth is still in danger. New Hope survives, and the expected release of involuntary enlistees offers many veterans a civilian future. Bundy is considering a commission, while Ten begins a lengthy experimental regeneration treatment. Rev's sergeant rank is restored and he is selected for staff sergeant. Despite the chance to leave, he accepts orders to the Home Guard. Tomiko survives but is hurt that he concealed this decision, leaving their close relationship unsettled. Poshu remains operational with an improved support harness, Punch remains with Rev, and possible Weisland syndrome creates a long-term health concern for augmented Marines.",
         "in_short": "Rev enters the campaign as a Raider sergeant equipped with Poshu, an integrated anti-Centaur weapon, but an asteroid mission changes his course. His decision to cooperate with Phrygian troops averts a human clash and secures Centaur technology, yet leads to imprisonment and demotion. Released when the Centaurs launch a vast offensive, he fights through the failed relief of Beacon and the invasion of New Hope, where the Union deploys an uncertain biological weapon and the Raiders suffer heavy losses. After the Centaurs withdraw, Rev's rank is restored. A later attack brings Centaurs to Earth, where threes threaten to destroy the planet unless humanity ends the plague and helps their species survive. Rev makes another unauthorized agreement, creating a fragile peace. With Earth secretly still under threat, he accepts promotion and Home Guard service rather than leaving the Marines, straining his bond with Tomiko.",
