@@ -4117,6 +4117,281 @@
         "work": "dungeon-crawler-carl"
       }
     },
+    "dungeon-desolation": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Dungeon Core"
+            ],
+            "description": "A sentient Dungeon Core who is expanding his domain while carrying a community aboard a flying mountain. He lives with Dani and their infant wisp, experiments freely with dungeon creatures and devices, and follows ley lines toward an obstruction that is limiting the flow of essence.",
+            "id": "cal",
+            "name": "Cal",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Cal's wisp, partner, and fellow dungeon manager. She cares for Grace and challenges Cal when his experiments endanger visitors or distract him from essential work, giving the young wisp firmer guidance than Cal's permissive approach provides.",
+            "id": "dani",
+            "name": "Dani",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The tiny, nonverbal wisp child of Cal and Dani. Her curiosity and playfulness are already dangerous within a lethal dungeon, as shown when she draws cats toward adventuring parties without understanding the consequences.",
+            "id": "grace",
+            "name": "Grace",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Goblin shaman"
+            ],
+            "description": "Cal's goblin shaman and the leading worker among the many goblins called Bob. He directs inscription projects and keeps the dungeon's ley-line map current, making him a central organizer for Cal's technical plans.",
+            "id": "bob",
+            "name": "Bob",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A cultivator rebuilding meridians damaged by extreme exertion and a recent death. He and Cal are divided forms of one original person, and their reunited souls left each with some of the other's fading memories. Dale trains while helping Cal pursue blocked ley lines.",
+            "id": "dale",
+            "name": "Dale",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Dale's instructor"
+            ],
+            "description": "Dale's exacting combat and cultivation teacher. He uses painful, survival-focused exercises to make Dale control essence without gestures, beginning with the precise movement of enclosing stone rather than its destruction.",
+            "id": "moon-elf-instructor",
+            "name": "Moon-elf instructor",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The leader behind an expanding undead and demonic campaign. His forces offer besieged communities submission, then kill and reanimate those who resist, making his advance the central military threat facing the allied peoples.",
+            "id": "master",
+            "name": "Master",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Madame Chandra"
+            ],
+            "description": "A powerful council member who questions whether the flying mountain should devote its people and resources to Cal's ley-line objective. She presses the council to distinguish known dangers from assumptions while it debates war, peace, and covert action.",
+            "id": "chandra",
+            "name": "Chandra",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Princess Brianna"
+            ],
+            "description": "Dale's dark-elf political ally and a strategic voice on the council. Rather than attack the enemy leader directly at an impossible price, she proposes weakening the campaign through targeted strikes against its generals.",
+            "id": "brianna",
+            "name": "Brianna",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "King Henry"
+            ],
+            "description": "An allied king serving on the flying mountain's council. Faced with reports of conquered cities and possible mass sacrifice, he argues for immediate war while Dale urges the council to consider whether negotiation might preserve more lives.",
+            "id": "henry",
+            "name": "Henry",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A C-rank philosopher and administrator selected to lead the academy on a three-month probation. He developed his own cultivation technique relatively late in life, and the council considers that achievement alongside his unconventional background.",
+            "id": "academy-headmaster",
+            "name": "Academy headmaster",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The senior member and practical combat mentor in Dale's raid party. During the descent into an underwater dungeon, he interprets Dale's unusually pure essence as the reason for slow aura growth and the basis for greater strength after advancement.",
+            "id": "hans",
+            "name": "Hans",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Lady Rose"
+            ],
+            "description": "A bow user with chaotic essence who joins Dale's five-person raid into an underwater dungeon. She is an experienced, decisive fighter, killing an attacking octopus as the party crosses the dungeon's flooded environment.",
+            "id": "rose",
+            "name": "Rose",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A northern barbarian and powerful close-range fighter in Dale's dungeon party. He brings direct physical force to a group entering an unscouted aquatic environment where predators and dense water essence create unfamiliar dangers.",
+            "id": "tom",
+            "name": "Tom",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A celestial cultivator and healer in Dale's party, recently advanced to D-rank 6. He removes the underwater dungeon's blue core, forcing the group into a desperate escape as water rises through the now-unregulated structure.",
+            "id": "adam",
+            "name": "Adam",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Cal's manticore boss"
+            ],
+            "description": "Cal's B-rank man-eating manticore and a dungeon floor boss built for traps and ambushes. Five B-rank mages lose two companions before defeating him, but Cal can restore Manny after a successful challenge.",
+            "id": "manny",
+            "name": "Manny",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Dale's monk instructor for aura work and an associate of Hans. He replaces hazardous whole-body experimentation with disciplined practice in the palms, teaching exact affinity ratios and practical shields before specialized combinations.",
+            "id": "craig",
+            "name": "Craig",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dungeon affiliate who recruits prospective servants for Cal. She asks him to shelter them in his protected mage settlement and accepts that entry will require binding oaths, placing her between Cal's needs and the people she has organized.",
+            "id": "minya",
+            "name": "Minya",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The goblin who pilots the flying mountain through its first landing. Cal credits him with bringing it down successfully.",
+            "id": "navigation-bob",
+            "name": "Navigation Bob",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A lethal dungeon enforcer present when Minya's recruits swear service to Cal. Snowball kills a recruit who tries to flee the binding oath, helping impose Cal's strict authority over the new attendants.",
+            "id": "snowball",
+            "name": "Snowball",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "High-elf Devourer"
+            ],
+            "description": "A Guild enforcer whose soul-infused attack converts targets into essence or mana. He erases Cal's control over an entire dungeon floor and threatens the whole settlement, forcing the flying dungeon into Guild military service.",
+            "id": "guild-s-rank-commander",
+            "name": "Guild S-rank commander",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A newly ascended heavenly-rank ritual-maker who destroys the colossal undead construct and seizes control of the battlefield's remains. He presents universal destruction as a solution to suffering while raising the dead into an immense ritual.",
+            "id": "high-inquisitors-father",
+            "name": "High Inquisitor's father",
+            "reveal": {
+              "chapter": 48
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A senior necromancer who halts a destructive subordinate during a dispute over battlefield remains. He demands coexistence between former enemies, agrees to meet Dale's council, and recognizes that Dale and Cal share one soul.",
+            "id": "necromancer-leader",
+            "name": "Necromancer leader",
+            "reveal": {
+              "chapter": 52
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A volatile mage who attempts to gas a crowd during a dispute over battlefield remains. The necromancer leader interrupts the attack and forces the opposing groups to stand down.",
+            "id": "destructive-mage",
+            "name": "Destructive mage",
+            "reveal": {
+              "chapter": 52
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A High Magus and rune specialist directing the coalition's technical assessment. She judges that relocating the moon-binding runes may be possible, but only with weeks of work, extensive materials, and large-scale rune production.",
+            "id": "amber",
+            "name": "Amber",
+            "reveal": {
+              "chapter": 53
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An overwhelmingly powerful being Dale encounters during ascension. It claims a bond to his soul, shows him a projected future of mana collapse followed by restoration, and says survival depends on Cal and an undisclosed hard choice.",
+            "id": "cosmic-entity",
+            "name": "Cosmic entity",
+            "reveal": {
+              "chapter": 62
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:uk:1977385885",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-desolation"
+      }
+    },
     "dungeon-madness-dramatized-adaptation": {
       "characters": {
         "characters": [
