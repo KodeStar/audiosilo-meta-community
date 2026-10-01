@@ -2076,6 +2076,239 @@
         "work": "conversations-with-friends"
       }
     },
+    "cosmic-ride": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The leader of the Cygnus Realm and pilot of the archetype. Dash directs the opening attack on a Golden force, supports Jameson when her pursuit becomes dangerous, and oversees the capture of an enemy battlecruiser.",
+            "id": "dash",
+            "name": "Dash",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Dash's partner, second in command, and pilot of Swift. Leira fights beside him in the opening engagement and orders Jameson to break away when Polaris takes heavy damage, helping turn the action into a successful capture.",
+            "id": "leira",
+            "name": "Leira",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A skilled Polaris pilot whose hatred of the Golden drives an aggressive pursuit in the opening battle. Jameson obeys Leira's withdrawal order and helps Cygnus seize a battlecruiser.",
+            "id": "jameson",
+            "name": "Jameson",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Realm fleet commander who argues for leading a rapid reconnaissance mission into an apparently empty gap in the Golden defenses. Benzel regards command in battle as his proper vocation and is willing to fly with the probing force.",
+            "id": "benzel",
+            "name": "Benzel",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The forge AI and an industrial and operational adviser to the Realm. Custodian evaluates the proposed probe into the void, recommends spare carrier capacity, and manages an expanding production network as new anchors become operational.",
+            "id": "custodian",
+            "name": "Custodian",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A patrol commander whose force discovers a matter-free opening in the Golden defensive line. Wei Ping reports severe losses from an ambush but also brings back dark metal and a largely intact Harbinger.",
+            "id": "wei-ping",
+            "name": "Wei Ping",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The AI partnered with Dash in the archetype. Sentinel independently confirms that the Golden use a fixed spacetime reference buoy to translate into a gravity well, establishing the limits of their surprising maneuver.",
+            "id": "sentinel",
+            "name": "Sentinel",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The AI aboard Swift and Leira's analytical partner. Tybalt identifies the stationary dark-metal signal in the void as a purpose-built reference buoy that permits Golden ships to translate inside a gravity well.",
+            "id": "tybalt",
+            "name": "Tybalt",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The senior authority among Jameson's displaced people on Shatter. Her judgment will guide her people's response to the Cygnus Realm's proposed alliance.",
+            "id": "senior-elder",
+            "name": "Senior elder",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Realm negotiator and administrator who accompanies Dash to meet the leaders of Jameson's displaced people. Haralyn helps present an offer of immediate aid, military partnership, and eventual resettlement without imposing a debt.",
+            "id": "haralyn",
+            "name": "Haralyn",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The senior elder's son and a skeptical delegate for Jameson's displaced people. He is charged with inspecting the forge and the war before deciding whether his people will ally with Cygnus, and his distrust shifts toward a conditional willingness to fight together.",
+            "id": "senior-elders-son",
+            "name": "Senior elder's son",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The pilot of Pulsar and a specialist in electronic warfare. During the attack on a Golden Shroud, Conover disrupts planetary targeting long enough for Dash to disable the installation and prevent its destruction.",
+            "id": "conover",
+            "name": "Conover",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An intelligence analyst and policy adviser who studies the customs of a wary birdlike people. Kai proposes offering them a living Golden captive as a symbol of defeated opposition, seeking stronger cooperation against their common enemy.",
+            "id": "kai",
+            "name": "Kai",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An electronic-warfare co-operator aboard Pulsar. Kristen works with Conover to project false mech tracks during the shuttle ambush, drawing hostile missiles away from the real attackers and helping secure living prisoners.",
+            "id": "kristen",
+            "name": "Kristen",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A displaced human officer and military adviser allied with the Realm. Armagost counsels Dash to search the Golden defensive line for a weakness that can be bypassed instead of committing the fleet to its strongest point.",
+            "id": "armagost",
+            "name": "Armagost",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Aquarian fleet ally and liaison. Albaje commits the Aquarian ships to finish the concealed Golden force after the forge and its mobile shipyard break the attackers during a two-part assault on Realm infrastructure.",
+            "id": "albaje",
+            "name": "Albaje",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Commander of the Cygnus Brigade. Barnett leads the prolonged underground operation that takes the final fortified bunker on Belt after Realm forces defeat the planet's external defenses.",
+            "id": "barnett",
+            "name": "Barnett",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The representative of a displaced human corvette that unexpectedly emerges from a captured Golden gate. Neelam accepts contact with the Realm after Armagost establishes their shared human origin and displacement.",
+            "id": "neelam",
+            "name": "Neelam",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Slipwing pilot and operations specialist. Viktor is assigned to observe the newly arrived displaced humans under combat conditions and assess whether any of them may be suitable for future mech-pilot roles.",
+            "id": "viktor",
+            "name": "Viktor",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The pilot of Talon. Amy is caught in the first major use of the Golden's reusable grazer weapons when a strike cripples her mech. She survives the attack but is left seriously injured as the Realm regroups around a newly found gate.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The AI aboard Talon and Amy's combat partner. Hathaway survives the grazer strike that disables the mech by continuing to operate on protected emergency processors while Amy is recovered with serious injuries.",
+            "id": "hathaway",
+            "name": "Hathaway",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An unusually powerful Golden combat unit encountered at an extragalactic base. The Super Harbinger uses advanced short-range translation and a trident to inflict severe damage on Dash's archetype before escaping toward the galaxy.",
+            "id": "super-harbinger",
+            "name": "Super Harbinger",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Denson"
+            ],
+            "description": "A Cygnus assault soldier who has advanced from an inexperienced recruit to a seasoned squad leader. Sergeant Denson appears during the final preparations as troops and fleets ready themselves for the attack on the Golden stronghold.",
+            "id": "sergeant-denson",
+            "name": "Sergeant Denson",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The final survivor of the species responsible for humanity and several allied peoples. The last creator explains its people's attempt to fashion a defense against the Golden and entrusts their remaining gates, knowledge, and technology to Dash and the Realm's AIs.",
+            "id": "last-creator",
+            "name": "Last creator",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:1774246996",
+            "type": "community"
+          }
+        ],
+        "work": "cosmic-ride"
+      }
+    },
     "cosmopolis": {
       "characters": {
         "characters": [
