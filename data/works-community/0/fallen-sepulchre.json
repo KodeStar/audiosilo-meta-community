@@ -3403,6 +3403,55 @@
           }
         ],
         "work": "farthest-shore"
+      },
+      "recaps": {
+        "ending": "Dash returns from establishing a gate near the Large Magellanic Cloud and helps repel a coordinated Deeper attack. The raid on the forge is a diversion intended to leave Backwater and its gate exposed. Realm forces suffer severe losses but preserve the route after Viktor and Ragsdale redirect the radiant-point network and bring decisive reinforcements into the battle. Dash pursues and destroys a fleeing battle prince, leaving the archetype badly damaged, and recovers a device that allows deliberate changes of gate destination. The enemy's escape route also reveals an enormous dark-metal planetoid beneath a rocky shell. Afterward, the Realm controls a flexible gate network spanning roughly two hundred thousand light years and continues building its intergalactic station. The recovered astronaut remains frozen, the refugee settlement is unresolved, and the origin of the radiant points and dark-metal world is unknown. Evidence suggests the Deepers are ancient and declining, but their objectives remain unclear, and Dash expects them to become more dangerous as the Realm restricts their options.",
+        "in_short": "Dash leads the Cygnus Realm against new Deeper weapons while pursuing the infrastructure needed for survival beyond the galaxy. Research into dark metal transforms the archetype and other mechs, captured Deeper devices expose instantaneous communication and genetic transfer, and a pair of radiant points becomes a scalable gate. The Realm allies with the Enteal, seeks a home for refugees, finds a dormant Deeper nursery, and recovers an inexplicably displaced early-Earth astronaut. Dash carries a radiant point to the region of the Large Magellanic Cloud and opens a permanent intergalactic route. The Deepers then use a forge raid to conceal a massive assault on Backwater. Realm forces save the gate through heavy losses, and Dash kills a fleeing battle prince, recovers a device for controlling gate destinations, and discovers a vast dark-metal planetoid. The Realm ends with an expanding gate network and new resources, but with a damaged archetype and an increasingly cornered enemy.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Dash serves as the Messenger and pilots the archetype with Sentinel, leading the Cygnus Realm against the Deepers. Leira is his deputy and intended successor, while pilots including Amy, Jameson, and Conover operate other advanced mechs. Custodian supports the Realm's scientific and industrial work from the forge. The conflict has expanded beyond ordinary fleet warfare as the Realm confronts ancient dark-metal constructs, battle princes, and technology whose origins are poorly understood. The Rimworld League remains part of the wider political setting, and the Black Gate links the Realm to distant regions. Dash's allies include Benzel, Wei Ping, Ragsdale, Viktor, Eloise, Kai, and the AIs partnered with the mech pilots. At the opening of this volume, a Deeper beam weapon proves capable of piercing conventional shields and armor. The Realm also aids the Enteal against a Deeper occupation, begins an alliance with them, recovers battle-prince neural material, and commits to a vast refuge beyond the galaxy. Reaching that goal will require controlled gate technology and far greater supplies of dark metal.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Dash has the archetype rebuilt around a powerful hexacore and dark-metal components. Its speed and weapons improve dramatically, although the altered performance forces him to relearn its handling. The Enteal begin training as Realm fighter pilots, even as Dash quietly retains a safeguard against their supplied technology. A Deeper attack on Eastern Anchor causes heavy casualties and demonstrates a shield-piercing tandem warhead. After destroying concealed platforms in a remote system, Dash recovers a small Deeper broadcaster. Sentinel discovers that the device maps enemy assets, communicates instantly across intergalactic distances, and functions as a portable gate. A second recovered unit can transmit genetic information and may be able to rebuild an organism, though its purpose remains unknown. The Realm makes this technology a research priority at Backwater. During another attack on the Enteal homeworld, Dash destroys a beam platform despite damage to the archetype and secures the second device. The Realm also concentrates its mobile fleet and pairs defensive anchors while research continues.",
+            "through": {
+              "chapter": 11
+            }
+          },
+          {
+            "scope": "book",
+            "text": "A Realm ambush near a bright star destroys a Deeper vessel carrying three beam systems. Kristen conceals the attacking force through linked electronic warfare, and newly trained Enteal pilots enter combat. The victory proves that the beam platforms can be defeated, but half the Enteal fighters and several Realm craft are lost. The Realm then confronts a humanitarian crisis as nearly one hundred thousand refugees arrive at Eastern and Western Anchors after their people are devastated by the Deepers. Dash moves them temporarily to Backwater and seeks a durable settlement. An allied engineering leader estimates that a purpose-built habitat would take well over a year, so Dash proposes converting a huge, nearly stationary alien hull. The survey team finds the vessel intact, empty, and potentially suitable for habitation. It also contains thousands of kilograms of dark metal, offering the material needed for further mech upgrades and other Realm construction.",
+            "through": {
+              "chapter": 13
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Dark-metal upgrades are extended to four Realm mechs, but hidden manufacturing fractures and Conover's loss of control during Pulsar's first powered test expose the risks. After destroying a cargo shuttle, Conover accepts Kai's lesson about restraint. An expedition beyond the galaxy then discovers a frozen pod containing a living astronaut from an early human mission, impossibly displaced far beyond her era's reach. At an ancient white dwarf, the team finds dormant immature Deepers within primordial, dark-metal-bearing material. Backwater's gate is moved into orbit, easing travel and construction, while work begins on a major intergalactic Realm station. Research on two recovered radiant points stalls until Amy realizes they should be treated as parts of one system. Custodian merges their controls, creating an instantaneous gate that works first across a ship and then across a light year. Eloise determines that greater power can enlarge it for vessels, giving Dash the means to establish a remote endpoint across intergalactic space.",
+            "through": {
+              "chapter": 16
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Dash appoints Conover acting Messenger, with Leira as deputy, and carries a radiant point alone on a seven-week stasis flight. He wakes 160,700 light years from the forge near the Large Magellanic Cloud, deploys the point, and opens a gate for Herald and a defensive force. The Realm establishes a defensive perimeter around this new intergalactic route, and Dash returns to active command. Eloise and Kai date material from the dormant Deeper nursery to roughly twelve to fourteen billion years ago. Its mixture of machine residue and biological matter suggests that the Deepers are an ancient species in decline. A force of 26 Deeper ships then enters the forge system, destroys a freighter, and draws Realm defenders into an evasive engagement. Suspicious of the attackers' movements, Dash realizes that the forge raid is a diversion when an urgent report arrives from Backwater. He leaves Wei Ping to defend the forge and its radiant point, then races with Leira and Conover toward Backwater, whose strategically vital gate is under direct attack.",
+            "through": {
+              "chapter": 19
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B09CZHM5KN",
+            "type": "community"
+          }
+        ],
+        "work": "farthest-shore"
       }
     },
     "fatelessness": {
