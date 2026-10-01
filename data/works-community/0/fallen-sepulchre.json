@@ -3211,6 +3211,200 @@
         "work": "farmer-giles-of-ham"
       }
     },
+    "farthest-shore": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The Messenger and pilot of the archetype, Dash directs the Cygnus Realm's war against the Deepers. He balances immediate defense with plans for a refuge beyond the galaxy and seeks gate technology capable of supporting that effort.",
+            "id": "dash",
+            "name": "Dash",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Dash's deputy and the pilot of Swift, Leira is an experienced commander who fights beside him and is his chosen successor if he can no longer serve as Messenger.",
+            "id": "leira",
+            "name": "Leira",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The AI partnered with Dash aboard the archetype, Sentinel serves as analyst, adviser, and protector. It evaluates hostile technology and helps Dash judge risks that could endanger both him and the Realm.",
+            "id": "sentinel",
+            "name": "Sentinel",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The forge's industrial and scientific AI, Custodian supports Realm research and construction. It identifies an ancient contingency for an intergalactic refuge and helps develop upgrades based on dark metal.",
+            "id": "custodian",
+            "name": "Custodian",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Commander of Stalwart and a senior fleet officer, Wei Ping leads the ship on its first intergalactic trial. Faced with a Deeper beam that defeats normal defenses, she breaks contact to preserve the surviving crew and their combat data.",
+            "id": "wei-ping",
+            "name": "Wei Ping",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A veteran Perseid flight commander serving under Wei Ping, Lori leads her wing during Stalwart's first encounter with the Deepers' shield-piercing beam weapon.",
+            "id": "lori",
+            "name": "Lori",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Commander of Herald and a leader of the Realm's capital-ship forces, Benzel directs fleet operations against the Deepers while Dash's mechs and troops conduct planetary attacks.",
+            "id": "benzel",
+            "name": "Benzel",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The pilot of Talon and one of Dash's trusted planners, Amy contributes to both field expeditions and technical discussions as the Realm searches for ways to counter Deeper technology.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Polaris's pilot and an experienced combat leader, Jameson operates alongside Dash and Leira in the Realm's combined operations against Deeper forces.",
+            "id": "jameson",
+            "name": "Jameson",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Pulsar's pilot, an electronic-warfare operator, and the Realm's specialist in dark-metal systems, Conover takes direct responsibility for recovering and studying dangerous battle-prince technology.",
+            "id": "conover",
+            "name": "Conover",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Pulsar's AI and Conover's electronic-warfare partner, Kristen assists him during the hazardous effort to recover a battle prince's neural material before the damaged construct destroys itself.",
+            "id": "kristen",
+            "name": "Kristen",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A biological and technical analyst, Eloise studies battle-prince remains and other unfamiliar materials for evidence that can clarify the nature and history of the Deepers.",
+            "id": "eloise",
+            "name": "Eloise",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A representative of the Order of the Unseen, Kai holds technical knowledge absent from Custodian's records. He guides Dash to an abandoned Order archive and advises the Realm's research effort.",
+            "id": "kai",
+            "name": "Kai",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The commander of Eastern Anchor, Ragsdale uses secure remote links and established defensive procedures to direct the station when a major Deeper attack begins during his absence.",
+            "id": "ragsdale",
+            "name": "Ragsdale",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning operative of the Cygnus Realm, Viktor remains part of the Realm's wider effort against the Deepers.",
+            "id": "viktor",
+            "name": "Viktor",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The leader of the Enteal, an arboreal people resisting a Deeper occupation, she commits atmospheric support to the joint campaign and offers a formal alliance with the Cygnus Realm.",
+            "id": "enteal-cloud-leader",
+            "name": "Enteal cloud leader",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The officer commanding a detachment of 88 Enteal personnel sent to train as Realm fighter pilots.",
+            "id": "enteal-fighter-detachment-commander",
+            "name": "Enteal fighter detachment commander",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A long-standing ally of Dash and an engineering leader from the Aquarian Collective, this official assesses whether a vast empty alien hull can become a permanent home for refugees displaced by the Deepers.",
+            "id": "aquarian-collective-leader",
+            "name": "Aquarian Collective leader",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A living astronaut from a presumed-lost early human mission beyond Jupiter, she is discovered in deep suspension inside a frozen pod far beyond any distance her era's technology could have reached.",
+            "id": "recovered-early-earth-astronaut",
+            "name": "Recovered early-Earth astronaut",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The head of a local shipbuilding consortium and manager of the Realm's new intergalactic station project, this leader is committed to opposing the Deepers after losing a shipyard and almost three hundred people.",
+            "id": "new-station-shipbuilding-consortium-leader",
+            "name": "New-station shipbuilding-consortium leader",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B09CZHM5KN",
+            "type": "community"
+          }
+        ],
+        "work": "farthest-shore"
+      }
+    },
     "fatelessness": {
       "characters": {
         "characters": [
