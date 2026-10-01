@@ -4027,6 +4027,306 @@
         ],
         "work": "fugitive-telemetry"
       }
+    },
+    "furious-gulf": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Newton Sawyer",
+              "the Messenger"
+            ],
+            "description": "Leader of the Cygnus Realm and pilot of the archetype. He takes command of a dangerous rescue near the Maw, determined to oppose the Deepers and protect the Rimworld League force under pursuit.",
+            "id": "dash",
+            "name": "Dash",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Dash's second in command and the pilot of Swift. She is an established member of the Realm's leadership as its forces enter open war with the Deepers.",
+            "id": "leira",
+            "name": "Leira",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "archetype AI"
+            ],
+            "description": "The intelligence partnered with Dash aboard the archetype. She calculates the narrow translation route near the Maw and manages the mech's systems through the hazardous passage.",
+            "id": "sentinel",
+            "name": "Sentinel",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A League political leader and ship commander whose Corsair and Ravagers are pursued from the galactic margin. She coordinates her flotilla with Dash when the force turns to fight.",
+            "id": "rimworld-league-consul",
+            "name": "Rimworld League consul",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A rookie Orion pilot whose translation drive fluctuates during the hazardous passage near the Maw. The Orion drops into real space in the lethal corridor, killing the pilot.",
+            "id": "lost-rookie-orion-pilot",
+            "name": "Lost rookie Orion pilot",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A new mech pilot who survives the lethal approach near the Maw after another rookie is lost. She remains on Dash's wing and helps the League flotilla defeat its pursuers.",
+            "id": "surviving-rookie-orion-pilot",
+            "name": "Surviving rookie Orion pilot",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Realm fleet commander who supervises the salvage of Deeper wreckage. He arranges for dangerous recovered devices to be carried home aboard an uncrewed ship.",
+            "id": "benzel",
+            "name": "Benzel",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "forge AI"
+            ],
+            "description": "The forge's industrial and scientific intelligence. Custodian evaluates the newly discovered dark-metal variant and explains why the Realm lacks the parameters needed to manufacture it.",
+            "id": "custodian",
+            "name": "Custodian",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An electronic-warfare specialist and Pulsar pilot. He recognizes an embedded mesh as an antenna and devises an experiment to restore its ability to transmit through unspace.",
+            "id": "conover",
+            "name": "Conover",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A League biological analyst leading the examination of a captured Deeper torpedo. Her team identifies nerve-like matter, an antimatter charge, and a dark-metal communications mesh within it.",
+            "id": "eloise",
+            "name": "Eloise",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A powerful Hansic mining magnate seeking control over the League's war preparations. His political influence concerns the League consul, and he flees with a sizable ship force after Dash finds evidence of a Deeper-linked operation.",
+            "id": "adan-kitzbuell",
+            "name": "Adan Kitzbuell",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Kosan who pilots Polaris for the Realm. She joins Dash and Leira at Pyrewells, identifies a likely ambush site, and investigates an organic structure connected to Deeper activity.",
+            "id": "jameson",
+            "name": "Jameson",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Pilot of Talon and a member of the Realm's mech force. She joins the quick-reaction formation sent to reinforce Dash during the crisis at Harlequin.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An engineer organizing survivors inside a bombarded Harlequin research station. Sten helps direct evacuation efforts and reports an unusual object detected beyond the system's Oort cloud.",
+            "id": "major-sten",
+            "name": "Major Sten",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An anchor commander who remains involved in security matters. He helps manage the containment of the captured Adan Kitzbuell and the risk posed by Kitzbuell's dark-metal implant.",
+            "id": "ragsdale",
+            "name": "Ragsdale",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Slipwing pilot and engineering specialist. He assists in recovering usable information from Adan Kitzbuell's damaged and partly erased flight log.",
+            "id": "viktor",
+            "name": "Viktor",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Orion pilot who brings three trainees into the emergency defense of Edge. Her control of the inexperienced group earns her command of the Orion flight during the battle.",
+            "id": "new-orion-flight-commander",
+            "name": "New Orion-flight commander",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The sole human among Backwater's refugee representatives. A head scar and large gaps in her memory leave her unable to explain her origins, prompting Dash to keep her away from sensitive Realm facilities.",
+            "id": "bettman",
+            "name": "Bettman",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A displaced engineer who has personally crossed Backwater's gate. The journey reached a near-vacuum world outside the galaxy, making the refugee a crucial witness to the route's destination.",
+            "id": "backwater-bio-optical-engineer",
+            "name": "Backwater bio-optical engineer",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A representative of an amphibious refugee people whose water-covered homeworld was invaded only weeks earlier. The testimony makes Awakaz the Realm's first planned liberation target.",
+            "id": "awakaz-spokesperson",
+            "name": "Awakaz spokesperson",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Bettman's armed Backwater associate. The accomplice attacks other refugees and tries to escape aboard a concealed ship before Dash captures both collaborators.",
+            "id": "unnamed-scavenger-accomplice",
+            "name": "Unnamed scavenger accomplice",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Realm ground-force commander whose battalion defends the Backwater gate against a Deeper incursion. His troops endure heavy fire while holding the line beside the damaged mech force.",
+            "id": "colonel-willis",
+            "name": "Colonel Willis",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A captured collaborator and former ally of a Realm official. Communications show that he knows Bettman and her armed accomplice, connecting the prisoners to a wider network.",
+            "id": "enver-tane",
+            "name": "Enver Tane",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A former collaborator who offers intelligence for the liberation of Tanther. Interrogation convinces Realm leaders that the representative had sought escape from a losing war and is now speaking truthfully.",
+            "id": "tanther-representative",
+            "name": "Tanther representative",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A junior officer leading Orion and Perseid units in the Tanther task force. The commander serves under Benzel during the operation against the occupied mining platform.",
+            "id": "junior-mech-commander",
+            "name": "Junior mech commander",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An alien intercessor authorized to explore an alliance with the Cygnus Realm. The arbiter also accepts custody of a former rogue leader for trial by that leader's own people.",
+            "id": "first-arbiter",
+            "name": "First arbiter",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An alien detainee transferred into the custody of the first arbiter. The leader is returned to their own people to face trial as broader contact with the Realm begins.",
+            "id": "former-rogue-alien-leader",
+            "name": "Former rogue alien leader",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An Orion pilot who intercepts a torpedo aimed at Iron Gate. The pilot and mech are destroyed while protecting the quarantined battle-prince remains.",
+            "id": "iron-gate-defender",
+            "name": "Iron Gate defender",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Pulsar AI"
+            ],
+            "description": "Conover's electronic-warfare intelligence aboard Pulsar. Working with Conover, Kristen identifies the pattern behind the Deeper fleet's false sensor returns during an attack on the forge.",
+            "id": "kristen",
+            "name": "Kristen",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "former Rimworld League collaborator"
+            ],
+            "description": "A once-human pilot found embedded within a fallen battle prince at the remote base. Dash recognizes the transformed figure as a former League collaborator, revealing that the machines contain altered human operators.",
+            "id": "battle-prince-pilot",
+            "name": "Battle-prince pilot",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:1039402879",
+            "type": "community"
+          }
+        ],
+        "work": "furious-gulf"
+      }
     }
   }
 }
