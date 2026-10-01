@@ -5038,6 +5038,198 @@
       }
     },
     "dawn-of-empire": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The Messenger and pilot of the archetype, linked to Sentinel through the meld. He leads Leira on a mission to recover hidden dark metal, taking responsibility for the tactical choices when concealed Golden weapons turn the cache into an ambush.",
+            "id": "dash",
+            "name": "Dash",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Dash's second in command and the pilot of the Swift. She joins the opening dark-metal recovery operation and fights beside Dash when the Golden cache activates its concealed defenses, establishing her as his close partner in mech combat.",
+            "id": "leira",
+            "name": "Leira",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The AI connected to Dash through the meld. Sentinel assists with the archetype's systems and analyzes the devastated system where Dash and Leira search for dark metal, providing technical and combat support throughout the cache mission.",
+            "id": "sentinel",
+            "name": "Sentinel",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The AI responsible for the Swift's systems. Tybalt works with Leira during the search for a concealed Golden cache and supports her mech through the sudden engagement with the defensive laser platforms hidden around it.",
+            "id": "tybalt",
+            "name": "Tybalt",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The forge AI who oversees fabrication, capacity, and defense. Custodian reports that the station has ample room to grow, explains how recovered dark metal can expand its forces, and demonstrates a new point-defense network.",
+            "id": "custodian",
+            "name": "Custodian",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The manager of the forge's agricultural levels. Freya has developed a food system able to support several times the present population and has safeguards in place for useful plants that are hazardous before processing.",
+            "id": "freya",
+            "name": "Freya",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A commander of the Silent Fleet who wants its ships and the Gentle Friends put to purposeful use. He approaches Dash with Wei Ping as the forge's growing resources and defenses leave their experienced personnel ready for a larger mission.",
+            "id": "benzel",
+            "name": "Benzel",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Silent Fleet officer who joins Benzel in asking for a more active assignment. She represents personnel whose ships and combat experience are available to the new realm as Dash considers how to turn the forge into a functioning power.",
+            "id": "wei-ping",
+            "name": "Wei Ping",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An analyst and engineer who proposes using the forge with a distant station to create an interferometric detector. His design promises a much broader and more precise way to locate dark metal than the realm's existing searches.",
+            "id": "conover",
+            "name": "Conover",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A forge engineer who helps turn Conover's long-range dark-metal detector concept into working equipment. He contributes to the technical effort that links a remote detector station with the forge for greater sensitivity and reach.",
+            "id": "viktor",
+            "name": "Viktor",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An engineer and Slipwing pilot who helps implement Conover's detector and travels with Dash to deploy it on an asteroid. She combines technical work with field operations as the realm expands its search for dark metal.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An intelligence and analysis adviser who researches the Aquarian Collective for Dash. Kai identifies its people as insular specialists in comet resources and supplies the background needed before Cygnus approaches their ring world.",
+            "id": "kai",
+            "name": "Kai",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The leader of the Aquarian Collective and builder of its ring world. Albaje receives Dash at the Oasis station when Cygnus arrives with a warning about a likely Golden attack on an Aquarian outpost.",
+            "id": "albaje",
+            "name": "Albaje",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Albaje's personal assistant at the Aquarian ring. She supports the governor during the first formal meeting with Dash, when the Cygnus delegation presents evidence of danger to the Collective and seeks cooperation.",
+            "id": "aliyah",
+            "name": "Aliyah",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A specialist in mining and smelting whom Dash assigns to the Mount Primus investigation. Haralyn's expertise is needed to examine the Golden machine and unusual material concealed inside the depleted comet core.",
+            "id": "haralyn",
+            "name": "Haralyn",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The first living Bright prisoner taken by Cygnus. The boarding party captures the officer after defeating the defenders aboard a disabled enemy vessel.",
+            "id": "captured-bright-officer",
+            "name": "Captured Bright officer",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The captured Bright officer identified as a member of the Verity. His repaired body and resistance to questioning give Cygnus its first direct opportunity to investigate the enemy's use of abducted human nervous tissue.",
+            "id": "verity-officer",
+            "name": "Verity officer",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A technical adviser from Port Hanna who studies the new Verity combat data. The engineer draws attention to the almost nonexistent delay between the enemy ships' actions, suggesting that their coordination matters as much as their intelligence.",
+            "id": "port-hanna-astronautical-engineer",
+            "name": "Port Hanna astronautical engineer",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The forge's security authority. Ragsdale warns that admitting a large group of people rescued from a Verity attack creates a serious security problem, adding internal protection to the demands already placed on the expanding realm.",
+            "id": "ragsdale",
+            "name": "Ragsdale",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A former corporate-security assault marine with a prosthetic arm who speaks for refugees rescued from a Verity attack. The spokesperson reports a large enemy installation near the suspected Verity home region and offers Cygnus a concrete target.",
+            "id": "refugee-spokesperson",
+            "name": "Refugee spokesperson",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:1774244942",
+            "type": "community"
+          }
+        ],
+        "work": "dawn-of-empire"
+      },
       "recaps": {
         "ending": "Dash's force wins the blue-dwarf-system battle by closing with a larger Verity fleet, sacrificing its drones in reactor-overload attacks, and destroying the defenses and habitation domes on two planets. Cygnus loses another Silent Fleet ship and other assets. Dash uses the archetype's blast cannon to pull an armored escape craft from translation, and six Verity prisoners are captured. They call the Golden the Apotheists and provide incomplete intelligence after Custodian accesses their technology-linked brains. Refugees then kill them. Ragsdale survives wounds received while stopping the refugee spokesperson, a Verity spy, from transmitting the offensive plan. Conover remains temporarily blind after the earlier defense of the forge, while Amy survives her injuries. The archetype and Swift operate at sharply reduced capacity, and the blast cannon requires rebuilding. Enemy forces are concentrating along three broad vectors for an unknown purpose. Custodian reveals that the forge can relocate, so Dash orders it moved to a system on the edge of former Verity territory and makes that destination the next base for the war.",
         "in_short": "Dash turns the forge into the capital of the Realm of Cygnus and gains the Aquarian Collective as an autonomous ally. His search for abducted travelers exposes the Verity, former adherents of an Unseen order who now serve the Bright and sustain their war machines with harvested human neural tissue. Cygnus develops unspace scramblers and a neural disruptor, captures a major missile platform at Siren, and survives a direct Verity assault on the forge. Dash then attacks an installation near Verity territory, winning at heavy cost and taking prisoners who identify the Golden as the Apotheists. The prisoners yield only partial intelligence before refugees kill them. The archetype and Swift remain badly damaged, Conover is temporarily blind after piloting an experimental fighter, and Ragsdale is wounded after exposing a Verity spy among the refugees. With enemy forces gathering along three unexplained routes, Dash orders the mobile forge moved to the edge of former Verity space as Cygnus's next offensive base.",
