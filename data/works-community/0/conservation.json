@@ -2307,6 +2307,55 @@
           }
         ],
         "work": "cosmic-ride"
+      },
+      "recaps": {
+        "ending": "Benzel commands the Cygnus Realm's five fleets, forge, and four anchors through the final Golden defenses. Armagost's displaced contingent captures and hacks the gate, while Dash and Leira penetrate the inner system to stop the Golden from using a star-destroying lens. Dash takes the lens, destroys the returning Super Harbinger by translating it into the star, and learns that Leira and Tybalt survived their apparent fatal strike. He then uses the Ghost to eliminate the last fleeing Golden ship. The Realm loses 22 ships, and nearly every survivor is damaged, but the Golden are believed extinct. The last creator reveals that humanity and allied peoples were shaped to oppose the Golden. Before dying, the creator gives Dash and the AIs five gates, a vast library, advanced technology, and access to a system containing 16 habitable worlds. One of those systems can fulfill Dash's promise of a homeland to Jameson's people. The surviving allies face extensive repairs, resettlement, stronger security, and stewardship of the creators' legacy.",
+        "in_short": "Dash leads the Cygnus Realm through the Golden defensive lines while expanding its alliances, recovering displaced humans, and capturing enemy technology. The campaign captures Belt, assaults a Golden ringworld, secures a gate and a reactionless engine design, and finds evidence pointing to a final homeworld in a trinary system. Amy survives a grazer strike but loses a leg, Conover takes command of Eastern, and Armagost's contingent develops a gate-based route into the last battle. In the final assault, Dash seizes a star-destroying lens, kills the Super Harbinger, and uses the Ghost against the last escaping Golden ship. The Golden are believed eradicated, though the Realm loses 22 ships and suffers severe casualties. A dying creator then explains that humanity and allied species were developed as weapons against the Golden and gives Dash five gates, a knowledge library, advanced technology, and access to 16 habitable worlds, opening a postwar era of rebuilding and resettlement.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Dash leads the Cygnus Realm in its war against the Golden, piloting the archetype with Sentinel while Leira serves as his partner and second in command. Their coalition operates from the forge, fields specialized mechs and fleets, and includes human, Aquarian, and displaced allies. The Golden remain an existential enemy protected by layered defenses and advanced dark-metal technology. Jameson, a pilot from another displaced people, has joined the Realm while her population still lacks a secure homeland. Armagost and other displaced humans have also become military partners. As the campaign resumes, the Realm is expanding its forces and industrial capacity for a deeper offensive into Golden territory.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Cygnus opens by defeating a Golden fleet and capturing a battlecruiser, although Jameson's aggressive pursuit leaves Polaris badly damaged. A patrol under Wei Ping then finds an apparently empty gap in the enemy line. Benzel leads a probe into it, only to be trapped by Golden ships using a planted reference buoy to translate inside a gravity well. Victory's fighters force the enemy away, and Dash rescues the badly injured Benzel. With Benzel recovering, attention turns to Jameson's people, who survive on two failing moons. Dash and Haralyn offer food, partnership, and help finding a future home, prompting their leaders to consider an alliance. Cygnus next captures a defended Golden Shroud, and Dash's bond with Sentinel deepens when the AI briefly takes control of the archetype. A wary birdlike people then offers passage through its territory without accepting a full alliance. Kai proposes earning greater cooperation by presenting a living Golden captive, and the five mechs seize a shuttle for that purpose.",
+            "through": {
+              "chapter": 7
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The birdlike people accept two Golden prisoners and allow Cygnus to campaign through their territory, though they still avoid a full alliance. A Denkiller railgun test nearly destroys part of the forge, but Dash flies the damaged craft clear and Conover identifies the feed-system fault. The Golden launch a concealed two-part attack on the forge, which Dash defeats by holding the mechs in reserve until the hidden force appears. A fleeing cruiser points to an unknown enemy asset beyond the galaxy. Intelligence then maps the second Golden line and a final defended sphere. Kai also finds evidence that humans and Jameson's people share related progenitors. Cygnus forces a passage through the Hole and locates a Golden homeworld. The assault captures the planet, later named Belt, despite ship losses and a temporary munitions shortage. A seized escape craft carries DNA from humans and several other species. Conover discovers a concealed drive schematic inside it, and an isolated dark-metal prototype activates with an important but still unexplained result.",
+            "through": {
+              "chapter": 14
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The captured schematic proves to be an Eternity engine, a reactionless drive whose dark-metal core may be made replaceable and recyclable. Cygnus also seizes a Golden gate, through which Neelam and other displaced humans unexpectedly arrive. Their engineers contribute the powerful but self-damaging Helion weapon, while an automated rally signal may bring more survivors. During a fleet battle, Golden grazer cruisers cripple Talon. Amy survives but loses her right leg, and Conover remains near her during recovery. The forge gains a second fabrication plant and a production-mech design. Dash imposes an irreversible ban on using Unseen technology for extermination or wanton subjugation, which unlocks a single Ghost system-killer weapon. The Realm then attacks a Golden ringworld with allied filament ships and Barnett's assault division. Troops establish lodgements and discover creches where Golden receive cybernetic implants during development. Dash orders the captured tanks disabled, while estimates suggest fewer than one million Golden remain. On the return journey, concealed missiles strike the fleet at a predicted translation point, damaging several major ships and leaving the attackers unidentified.",
+            "through": {
+              "chapter": 22
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The missile ambush kills or leaves missing 129 personnel. Dash institutes forward waypoint security, then destroys the extragalactic base responsible, though a Super Harbinger escapes after severely damaging the archetype. Custodian and Kai identify a trinary system as the true final Golden homeworld, while the busier candidate proves to be a decoy. Conover takes command of Eastern and its fifth fleet, and Amy returns with a prosthetic leg. A Golden infiltrator nearly sabotages an anchor, followed by a coordinated assault on Eastern. The station survives, but intelligence confirms a star-destroying lens at the homeworld. Dash and Leira recover the cultural archive of Jameson's people from their ruined former world, and Armagost's contingent completes a secret gate-based assault plan. Benzel then leads more than 300 Realm ships into the final battle. Armagost's forces seize the gate while Dash captures the lens, translates the returning Super Harbinger into the star, and uses the Ghost to destroy the last fleeing Golden ship. The Realm loses 22 ships, but the Golden are believed eradicated. The last creator reveals that humans and allied peoples were developed to oppose the Golden, then leaves Dash five gates, advanced knowledge, and access to 16 habitable worlds before dying.",
+            "through": {
+              "chapter": 30
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:1774246996",
+            "type": "community"
+          }
+        ],
+        "work": "cosmic-ride"
       }
     },
     "cosmopolis": {
