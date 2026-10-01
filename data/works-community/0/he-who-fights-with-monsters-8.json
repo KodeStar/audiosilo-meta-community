@@ -2507,6 +2507,252 @@
         ],
         "work": "heartsong"
       }
+    },
+    "heavens-door": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Newton Sawyer",
+              "the Messenger"
+            ],
+            "description": "The commander of the Cygnus Realm and pilot of the archetype. Dash leads a field team into a jungle cave to recover a recently crashed Golden probe, opening a new investigation into enemy activity.",
+            "id": "dash",
+            "name": "Dash",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Dash's frontline partner and the pilot of Swift. She joins the expedition that retrieves a damaged Golden probe from a jungle cave.",
+            "id": "leira",
+            "name": "Leira",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A specialist in recovering Golden technology. During the cave operation, he removes vital modules from the probe while its damaged drive begins to activate.",
+            "id": "wei-ping",
+            "name": "Wei Ping",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Cygnus operator with security responsibilities. He accompanies the team recovering the Golden probe and helps contain the danger when its drive activates.",
+            "id": "ragsdale",
+            "name": "Ragsdale",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The forge AI responsible for fabrication and strategic production. Custodian analyzes the recovered probe and allocates its dark metal to new Q-cores, expanded manufacturing, and a fighter program.",
+            "id": "custodian",
+            "name": "Custodian",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young Cygnus officer entrusted with independent leadership of the captured carrier refit and Mako fighter project. Dash considers him ready for the assignment despite concern about his limited experience.",
+            "id": "conover",
+            "name": "Conover",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Aquarian Collective contact who supplies intelligence about Beacon. Albaje explains that the system hosts a private consortium capable of building both commercial vessels and warships.",
+            "id": "albaje",
+            "name": "Albaje",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The overseer of Beacon's shipyard. He initially mistakes Cygnus's dark-metal mechs for Golden forces, then halts the fighting and agrees to meet Dash.",
+            "id": "beacon-shipyard-overseer",
+            "name": "Beacon shipyard overseer",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The pilot of Talon. Amy remains near Beacon with Conover while Dash and Leira pursue two Harbingers, guarding the shipyard against a possible diversion.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Cygnus operator and pilot of Slipwing. Viktor volunteers to join Dash, Leira, and Ragsdale in the dangerous manual removal of Golden micromines from the mechs.",
+            "id": "viktor",
+            "name": "Viktor",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Cygnus negotiator who works with Wei Ping during trade and military-assistance discussions with the Local Group at Beacon.",
+            "id": "haralyn",
+            "name": "Haralyn",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "archetype AI"
+            ],
+            "description": "Dash's archetype AI. Sentinel detects two Harbingers approaching Beacon, allowing Dash and Leira to intercept them while other defenders remain near the shipyard.",
+            "id": "sentinel",
+            "name": "Sentinel",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The AI partnered with Conover aboard Pulsar. Kristen joins Sentinel and Tybalt in analyzing the Golden transfer network after Cygnus repairs a captured station.",
+            "id": "kristen",
+            "name": "Kristen",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Cygnus AI analyst who works with Sentinel and Kristen to interpret the operation and reach of a Golden transfer station.",
+            "id": "tybalt",
+            "name": "Tybalt",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The commander of a captured frigate crewed by small mustelid-like beings. After offering dialogue, the commander is released from prisoner status and becomes a provisional contact between Cygnus and an unknown people.",
+            "id": "mustelid-commander",
+            "name": "Mustelid commander",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The captured commander's sibling and deputy. Released alongside the commander, this officer helps arrange further dialogue between Cygnus and their people.",
+            "id": "mustelid-sibling-deputy",
+            "name": "Mustelid sibling-deputy",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The senior diplomatic voice of the mustelid-like delegation at Mark Deep. She subjects Cygnus to deliberate tests and accepts Dash's refusal to let disabled enemies be executed.",
+            "id": "mustelid-elder-seer",
+            "name": "Mustelid elder seer",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Cygnus fleet commander who leads the diversionary formation during the counterstrike against the feathered reptiloid border base.",
+            "id": "benzel",
+            "name": "Benzel",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The commander of a feathered reptiloid border fleet base. After Cygnus breaks the moon's defenses, the commander orders an evacuation while confronting Dash's demand for peace.",
+            "id": "feathered-reptiloid-commander",
+            "name": "Feathered reptiloid commander",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Cygnus provisioning planner who investigates how to feed the mustelid-like guests. Freya proposes combining aquaculture with unused hydroponic capacity.",
+            "id": "freya",
+            "name": "Freya",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An active AI found in the memory core of a hybrid mechanical arm recovered from the Cradle. It is kept isolated because its origin and allegiance remain unknown.",
+            "id": "cradle-arm-ai",
+            "name": "Cradle arm AI",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The former fleet captain who leads Almost's gravel-guild government. She identifies the Far-Flung as Golden collaborators and directs Dash toward a dangerous dark-metal installation.",
+            "id": "almost-gravel-guild-leader",
+            "name": "Almost gravel-guild leader",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The human adviser to Almost's gravel-guild leader. The adviser provides coordinates for the nearby dark-metal installation and argues that the Unseen remain necessary to protect life.",
+            "id": "almost-human-adviser",
+            "name": "Almost human adviser",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Two siblings representing a friendly alien burrow. Acting for their parents, the burrow's leaders, they commit nine warships to the Cygnus alliance and accept an offer of technical upgrades.",
+            "id": "friendly-burrow-sibling-delegates",
+            "name": "Friendly-burrow sibling delegates",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Cygnus fighter pilot serving with the Mako force assembled to defend Almost from an approaching Golden-backed attack.",
+            "id": "mako-pilot",
+            "name": "Mako pilot",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:1774245574",
+            "type": "community"
+          }
+        ],
+        "work": "heavens-door"
+      }
     }
   }
 }
