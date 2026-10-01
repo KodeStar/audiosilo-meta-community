@@ -2949,6 +2949,57 @@
         "work": "the-black-echo"
       }
     },
+    "the-black-gate": {
+      "recaps": {
+        "ending": "The coalition destroys the local Deeper base by infecting it with the stinger virus. Dash and Leira survive, but the archetype and Swift suffer severe damage. Most of the enemy fleet is also destroyed, ending the immediate operation. The result does not settle the larger conflict: the Deepers have already adapted their deployment to the stinger and appear able to pass warnings between systems. Examination of the fallen combat constructs reveals Dark Metal listening meshes aimed along more than a dozen paths beyond the galaxy. Sentinel's analysis indicates that the network may be tracking returning vessels carrying biological material. Dash concludes that such ships must use gates to cross extragalactic distances and commits the fleet to finding those passages. The Rimworld League remains allied with the Realm after losing its original fleet, while its internal coup network still requires removal. Black Watch continues to guard the home passage, and the coalition enters the next phase with damaged mechs, an expanding local industrial base, and no final answer about the Deepers' creators or purpose.",
+        "in_short": "A recurring anomaly opens into the Black Gate, exposing the Cygnus Realm to the Rimworld League and the hostile, self-repairing Deepers. After an attack destroys Assembly Prime, Dash leads the Realm through the passage, forms an alliance with the devastated League, secures Dark Metal for new construction, and investigates evidence that the enemy came from beyond the galaxy. The coalition discovers an ancient ark-incubator, survives Deeper ambushes and boarding attacks, and learns that the enemy's bodies, weapons, ships, and stations share one organosynthetic design. Conover, Kristen, Eloise, and their collaborators exploit its organic-machine interface to create the stinger virus. The weapon destroys a Deeper base, though the enemy has begun adapting. Analysis of the wreckage reveals listening meshes directed toward multiple extragalactic routes, leading Dash to conclude that returning ships use additional gates. He commits the surviving fleet to finding them, carrying the war beyond its first local victory.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Dash serves as the Messenger and leads the Cygnus Realm while piloting the archetype with Sentinel. Leira, his partner, pilots the Swift with Tybalt. Custodian oversees the forge, the Realm's central facility and industrial intelligence. Together they form an established team responsible for using technology inherited from the Unseen and protecting their society after the war with the Golden. Their experience with mechs, artificial intelligences, Dark Metal, and large-scale conflict leaves them as the Realm's principal responders when an unfamiliar danger appears.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "A survey led by Haralyn discovers a repeating gravitational disturbance that is slowly altering the orbit of a manufactured world. Dash, Leira, Sentinel, and Tybalt investigate and determine that the phenomenon acts like an exacting passage to a distant region. An unknown vessel destroys their probe, and two stealth craft later emerge. One escapes to Assembly Prime and destroys the shipyard, killing 275 people. Dash and Leira cross the newly named Black Gate, defeat regenerative alien ships, and meet representatives of the Rimworld League, a human confederation in the Sagittarius Arm. The League identifies the attackers as Deepers. Dash joins League forces to destroy a large Deeper vessel and prevent an attack on a populated world. Study of the remains shows that Deeper bodies, armor, ships, and missiles combine living and manufactured material. A component within a corpse is Dark Metal, linking the new threat to a resource previously associated with the Golden without proving the two enemies are the same. Following Dark Metal emissions, Dash and Leira board an ancient ring fragment whose interior bears extensive battle damage. An unknown guardian then attacks Dash.",
+            "through": {
+              "chapter": 6
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Dash and Leira destroy the guardian and recover evidence that the ring fragment maps both the Milky Way and a region beyond it. A local privateer network attacks them, then agrees to share its observations after Dash disables its ships without destroying them. The combined records suggest that the Deepers originate outside the galaxy and field a force too large for the current expedition. Dash returns home and commits the Cygnus Realm to an offensive campaign beyond the Black Gate. The fleet captures the Scrapyard's Dark Metal despite costly automated defenses, giving the Realm material for expansion. Black Watch is established under Ragsdale to guard the passage, and analysis suggests the gate is a natural wormhole enhanced by an unknown power rather than something the Deepers can create freely. When the Realm fleet and forge transit, they enter a prepared Deeper ambush. Five mechs split the enemy formation while Benzel and the forge regain control of the battle. The arriving Rimworld League fleet is almost annihilated, with only about one hundred survivors from more than two thousand personnel. The Deepers deliberately attack escape craft. Dash offers the survivors protection and a place in a rebuilt joint force, while scans reveal more Dark Metal signals beyond the galactic edge.",
+            "through": {
+              "chapter": 12
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The coalition begins rebuilding in League space. Deeper wreckage proves dangerous even when cut apart, so salvage must be fed directly into smelters. A modular shipyard called Shadow Works offers a way to construct replacement vessels. Beyond the galaxy, Dash, Leira, and Jameson find a vessel roughly 38 million years old. Inside are controlled habitats holding hundreds of species from outside the Milky Way. Conover and Kristen breach its systems and identify it as an ark-incubator that grows, studies, recycles, and reports on captive life. Dash leaves it intact and follows its transmitted data as a new lead. The Deepers then attack a vital League system. The coalition saves its shipyards, and Conover and Kristen discover that the interface between Deeper organic guidance and machinery can be hacked. An intact projectile later releases boarding creatures aboard the Eclipse, wounding Wei Ping and others before the defenders kill them. Study shows that Deeper bodies regenerate unless their implanted neural nets or much of their tissue is destroyed. A search of the League's old archive turns into an ambush when the League leader's aide reveals a coup plot and shoots both her and Dash. Kai helps subdue the traitor and recovers records containing two important clues: Awakening and the path.",
+            "through": {
+              "chapter": 19
+            }
+          },
+          {
+            "scope": "book",
+            "text": "New Deeper designs attack League facilities, but a deceptive drone maneuver by Lieutenant Corey drives them off. Kai's archival work directs the fleet to a binary-neutron-star system, where the coalition destroys two large missile ships and captures a damaged escort. The salvage confirms that Deeper bodies, missiles, ships, and stations are specialized forms of one organosynthetic continuum. Dash orders researchers to exploit the vulnerable connection between its living and manufactured parts. Conover, Eloise, and their collaborators produce a nonmutating virus delivered by a close-range harpoon called the stinger. A field test destroys a Deeper ship and exposes the short-range electrical signaling used to coordinate nearby units. The coalition locates a base that grows enemy vessels and launches a full assault. Although the Deepers have already changed tactics to counter the limited stinger supply, Conover's jamming disrupts their coordination. Dash infects the base, which disintegrates along with its unfinished ship, while most of its fleet is destroyed. Dash and Leira survive with badly damaged mechs. Afterward, Dark Metal meshes within fallen constructs reveal multiple listening paths leading beyond the galaxy. The pattern points to vessels traveling through further gates, and Dash commits the fleet to finding those passages before the returning ships deliver their biological cargo.",
+            "through": {
+              "chapter": 25
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:1774247941",
+            "type": "community"
+          }
+        ],
+        "work": "the-black-gate"
+      }
+    },
     "the-black-ice": {
       "characters": {
         "characters": [
