@@ -4119,15 +4119,6 @@
             "role": "supporting"
           },
           {
-            "description": "The commanding general of the Talons at Nellis and the apparent architect of a plan to destroy an alien-held city with a nuclear strike.",
-            "id": "talons-general",
-            "name": "Talons' general",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "antagonist"
-          },
-          {
             "aliases": [
               "General Myers"
             ],
@@ -4140,9 +4131,6 @@
             "role": "antagonist"
           },
           {
-            "aliases": [
-              "Vex"
-            ],
             "description": "A local historian who approaches Colt's group and offers information about an immortal wizard who operates outside the system.",
             "id": "local-historian",
             "name": "Local historian",
