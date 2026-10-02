@@ -4014,6 +4014,195 @@
       }
     },
     "apocalypse-generic-system": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Jeb",
+              "M&M-Lord"
+            ],
+            "description": "A former soldier carrying trauma from an earlier explosion. After choosing the Impossible tutorial, Jeb loses a foot to a Krusker and survives by recruiting local fairies with candy.",
+            "id": "jebediah-trapper",
+            "name": "Jebediah Trapper",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A fairy community able to perceive and shape Mist. Its members exchange local knowledge and practical help for Jeb's candy, naming him their M&M-Lord and becoming his first support network in the Death Wilds.",
+            "id": "mossy-oak-in-the-clearing-clan",
+            "name": "Mossy-oak-in-the-clearing clan",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Acorn heads the local fairy community and serves as Jeb's principal guide to the Death Wilds. Acorn explains the local threats, helps establish the candy bargain, and begins teaching him how to use Mist.",
+            "id": "acorn",
+            "name": "Acorn",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The enormous boss assigned as the Impossible tutorial's victory condition. Its shell carries a vast population of dangerous symbiotic creatures, making a direct attack far beyond Jeb's initial ability.",
+            "id": "world-tortoise",
+            "name": "World Tortoise",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The surviving assassin from the group that robbed Jeb. She accepts a partnership after her leader dies in one of Jeb's pits. Her exceptional speed and ability to reduce her effective mass complement his traps and emerging telekinesis.",
+            "id": "jessica",
+            "name": "Jessica",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A fairy assigned to coordinate the competing workers in Jeb's expanding Krusker-trapping operation. Smartass acts as an intermediary while he turns candy payments and fairy labor into a reliable hunting system.",
+            "id": "smartass",
+            "name": "Smartass",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A powerful Krusker miniboss selected as Jeb and Jessica's first mapped objective. It leads a herd and withstands Jeb's concealed spears until the pair's combined tactics, repeated ambushes, and an extended pursuit wear it down.",
+            "id": "krusker-lord",
+            "name": "Krusker Lord",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A necromancer traveling with four reanimated humans. He keeps his undead away from Jeb's safe zone and begins negotiating for equipment and a strong corpse, presenting a potentially valuable but uncertain alliance.",
+            "id": "ron",
+            "name": "Ron",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The huge aquatic ruler of the Southern Lakes dungeon. Its water attacks flatten the nearby forest, trap Jeb beneath fallen timber, and flood the shore as it tries to force him from cover. The encounter leaves him pinned and at risk of drowning.",
+            "id": "siren-mother",
+            "name": "Siren Mother",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Leader of a group of roughly fifteen survivors. David is recruiting capable fighters for a coordinated assault on the World Tortoise before the safe zones expire, and he introduces Jeb and Jessica to the larger camp's planned command structure.",
+            "id": "david",
+            "name": "David",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Amanda's husband and a Soldier. He can repair damaged equipment by transferring its damage into his own body, relying on Amanda's healing to restore him afterward. Together they offer survivors an unusual but effective repair service.",
+            "id": "brett",
+            "name": "Brett",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Brett's wife and a healer who works with him as a repair team. Brett takes damage out of broken gear, and Amanda heals the injuries that result. Their complementary abilities let them restore valuable equipment without conventional tools.",
+            "id": "amanda",
+            "name": "Amanda",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A level-42 Phantom Brawler identified as the intended leader of the survivors' World Tortoise raid. He is regarded as the strongest fighter in the larger camp, making him the central figure in its attempt to complete the tutorial objective.",
+            "id": "freeman",
+            "name": "Freeman",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An aggressive power-holder in the survivor camp. He objects to Ron's presence and shows an immediate interest in Jeb's equipment, placing him at odds with the newcomers despite the planned joint raid.",
+            "id": "eddie",
+            "name": "Eddie",
+            "reveal": {
+              "chapter": 10
+            }
+          },
+          {
+            "description": "A wounded pregnant teenager Jeb finds during the attack on the fairy clearing. After he treats her injury, she goes into rapid labor while the clearing remains under assault, leaving her dependent on Jeb and the fairies for immediate protection.",
+            "id": "casey",
+            "name": "Casey",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Casey Jr."
+            ],
+            "description": "Casey's newborn daughter, delivered during the attack on the fairy clearing and carried to safety with her mother. She depends on the group for shelter and protection as they establish a temporary refuge on the fire mountain.",
+            "id": "casey-thompson-iii",
+            "name": "Casey Thompson III",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A tiny winged, sword-bearing guardian summoned when Casey activates her Mist core. He calls himself her guardian angel and appears ready to protect her, although his true origin and the limits of his connection to Casey are not yet established.",
+            "id": "mike",
+            "name": "Mike",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The leader of the copper-skinned hunters who attack Jeb's group near the fire mountain. He survives Jeb's defensive marble traps and retreats wounded after much of his force is destroyed.",
+            "id": "copper-skinned-war-leader",
+            "name": "Copper-skinned war leader",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The fire Titan revealed when the mountain awakens. She emerges from beneath the party's former shelter and directs her immense strength against the World Tortoise, repeatedly crushing it as the humans flee the destruction around her.",
+            "id": "felicia",
+            "name": "Felicia",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:uk:1039404472",
+            "type": "community"
+          }
+        ],
+        "work": "apocalypse-generic-system"
+      },
       "recaps": {
         "ending": "Jeb's party escapes the sealed tutorial through a reward-delivery portal and reaches its shipping facility. After learning that Earth has been fragmented and relocated, they use the facility to return to an earlier point in the tutorial with 53 ability potions. Jeb evacuates the copper-skinned inhabitants from the Titan, cures Felicia, and enables her to kill the World Tortoise while the others reinforce Freeman's survivors. The victory creates a paradox, but a tribunal preserves this outcome as the prime branch. As the price, Jeb loses his accumulated fate, his System connection, and nearly all of his power. He returns alone to his former motel on a desert-transformed Earth, still missing a foot, while a broadcast credits Freeman with the victory and suppresses Jeb's identity. Jessica, Ron, Brett, and Amanda survive the intervention, but their later locations are unknown. Smartass remains with Jeb and guides him toward rebuilding a Mist core, beginning with a minute telekinetic effort. Smartass survived the burning of the clan's oak, but Acorn and most other members of the fairy clan remain unaccounted for. Casey and her infant daughter have established a tavern in an alien city with Mike and the mannequins protecting them, but coercive interest in Impossible-tutorial survivors brings an immediate new danger to the child.",
         "in_short": "When Earth is incorporated into the System, former soldier Jebediah Trapper chooses an Impossible tutorial and loses a foot almost immediately. He survives through fairy alliances, Mist-based telekinesis, traps, and a growing partnership with Jessica, Ron, Brett, and Amanda. Their World Tortoise raid fails, but they endure the end of the safe zones, rescue Casey and her newborn, and clear a dungeon inside the fire Titan Felicia. Learning that the tutorial is a sealed loop awaiting a fatal wipe, Jeb breaks into its treasure-shipping network and sends the group back in time with ability potions. He cures Felicia, who kills the Tortoise. Higher powers preserve the resulting timeline but remove Jeb's accumulated fate, System access, and practical power. He returns to a transformed Earth, publicly denied credit while Freeman is named the winner. Smartass helps him kindle a tiny new telekinetic core. Elsewhere, Casey runs a protected tavern in an alien city, where a new threat reaches her daughter.",
