@@ -4936,6 +4936,209 @@
       }
     },
     "apocalypse-quest-system": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Jeb"
+            ],
+            "description": "A powerful Mist user carrying a nuclear threat within his fifth-dimensional form. As his health deteriorates, he leaves the orphanage for the Imperial capital in search of someone capable of removing it.",
+            "id": "jebediah-trapper",
+            "name": "Jebediah Trapper",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Jeb's fairy familiar and traveling companion. She accompanies him to the capital while undergoing unexplained physical growth and developing stronger, more persistent emotions.",
+            "id": "smartass",
+            "name": "Smartass",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Jeb's technically skilled ally. He sends his conscious zombot along on the journey so it can provide protection and maintain long-range communication with the orphanage.",
+            "id": "eddie",
+            "name": "Eddie",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A conscious, combat-capable cyborg sent by Eddie to accompany Jeb. It serves as both additional protection and a communications link during the trip to the Imperial capital.",
+            "id": "eddies-zombot",
+            "name": "Eddie's zombot",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A powerful fifth-dimensional figure connected to the weapon threatening Jeb. He declines to remove it, choosing to observe the outcome, although he suggests Jeb might be worth employing if he survives.",
+            "id": "vex",
+            "name": "Vex",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Imperial noble who invites Jeb to a family retreat outside the capital. The circumstances behind her invitation are not yet known.",
+            "id": "vresh",
+            "name": "Vresh",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Fae ruler who offers to remove the dangerous spiritual mass inside Jeb without payment. The careful wording of her proposal leaves Jeb uncertain about her intentions and unwilling to accept immediately.",
+            "id": "fairy-queen",
+            "name": "Fairy Queen",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A birdlike rebel representative who offers to remove Jeb's weapon in exchange for help overthrowing Pikaku. He gives Smartass a spell device meant to open restraints and doors in the palace's east wing.",
+            "id": "palace-rebel-agent",
+            "name": "Palace rebel agent",
+            "reveal": {
+              "chapter": 4
+            }
+          },
+          {
+            "description": "A relative trying to gain control of Vresh's family position. He uses her invitation to embarrass her and pressures her to marry into his branch during their succession dispute.",
+            "id": "vreshs-uncle",
+            "name": "Vresh's uncle",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The reigning Emperor. After a valet dies in a politically dangerous incident at Jeb's hotel, Pikaku keeps Jeb's scheduled audience and assigns a young relative to replace the victim.",
+            "id": "pikaku",
+            "name": "Pikaku",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young member of Pikaku's family assigned to attend Jeb after the previous valet's death. He accompanies Jeb shortly before the Imperial audience.",
+            "id": "imperial-valet",
+            "name": "Imperial valet",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A servant whose sincere oath makes him an extension of Jeb for the blue scroll's purposes. This unusual bond allows him to carry the lethal artifact safely and assist with Jeb's fifth-dimensional experiments.",
+            "id": "jebs-sworn-servant",
+            "name": "Jeb's sworn servant",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A toddler under Pikaku's protection. During the palace crisis, the Emperor has Casey secured in a vault while he responds to the escape of a dangerous prisoner.",
+            "id": "casey-thompson-iii",
+            "name": "Casey Thompson III",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Pikaku's undead father, secretly confined beneath the palace for five years. After escaping, he attacks the Imperial harem, kills or corrupts its defenders, and takes Smartass captive.",
+            "id": "former-emperor",
+            "name": "Former Emperor",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A member of Jeb's emergency party who leaves Elsewhere with him when word arrives of an undead outbreak and Casey Thompson III's disappearance.",
+            "id": "jebs-healer-ally",
+            "name": "Jeb's healer ally",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An associate of Jeb's healer ally who joins the group after learning that the healer survived Elsewhere. He adds another capable participant to the effort against the undead.",
+            "id": "jebs-driver-ally",
+            "name": "Jeb's driver ally",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A school friend who joins Jeb's undead hunt despite objections from the group's healer. The student enters the operation as an inexperienced but willing combatant.",
+            "id": "jebs-student-fighter-ally",
+            "name": "Jeb's student fighter ally",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A decorated Imperial rescue hero whose courier class can track Casey Thompson III from a written address. Pikaku assigns him to guide Jeb's pursuit after the child is taken hostage.",
+            "id": "imperial-courier",
+            "name": "Imperial courier",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An undead technical specialist held in Imperial custody. Jeb breaks him out nonlethally and recruits him for a plan to locate the undead threat using satellite equipment.",
+            "id": "undead-scientist",
+            "name": "Undead scientist",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A technical ally whom Jeb recruits with Eddie to develop a satellite-based method for locating undead miasma after the trail to Casey Thompson III is lost.",
+            "id": "ron",
+            "name": "Ron",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An extra-reality entity imprisoned by the pantheon for five millennia and forbidden as an object of worship. She offers Jeb a blank contract that would bind him as her mortal agent forever.",
+            "id": "the-destroyer",
+            "name": "The Destroyer",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B09ZBKDMLD",
+            "type": "community"
+          }
+        ],
+        "work": "apocalypse-quest-system"
+      },
       "recaps": {
         "ending": "Jeb's contract ends the immediate crises without requiring him to kill the Fairy Queen. Its conditions force her to cancel Casey Thompson III's bargain and return the child to her mother, end humanity's mist tithe, and purge the corruption afflicting her people. The undead siege also ends. The Destroyer is bound into the pantheon as a Destroyer of Evil, barred from ending reality, and subjected to recurring powerless mortal lives. Jeb owes future service only after the contract's many conditions are satisfied. Pikaku has restrained his undead father, but his alliance with Jeb is damaged because Jeb concealed Casey's location and escaped arrest. Vex reveals that the fifth-dimensional weapon has already detonated and that Jeb's contract is its real-world counterpart. Jeb agrees to become Vex's apprentice. Vresh, newly involved with Jeb, leaves upset because Vex killed her father, leaving their relationship uncertain.",
         "in_short": "A failing fifth-dimensional weapon drives Jeb to seek Imperial aid, drawing him into Vresh's succession dispute, the Fairy Queen's ancient bargain, and a coup by Pikaku's undead father. Casey Thompson III is abducted as rival powers pursue her. Jeb helps Pikaku defeat the former Emperor, but learns the Fairy Queen has used Casey to claim humanity's mist. He signs the Destroyer's contract only after filling it with safeguards: Casey is freed, the mist tithe ends, the corrupted fae are cleansed, and the Destroyer becomes a constrained Destroyer of Evil. The weapon has already detonated through fifth-dimensional mechanics, with the contract as its consequential counterpart. Jeb accepts Vex's apprenticeship, straining his new relationship with Vresh because Vex killed her father.",
