@@ -4013,6 +4013,312 @@
         "work": "anxious-people"
       }
     },
+    "apocalypse-fairy-system": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Jeb"
+            ],
+            "description": "A human survivor living outside in Kalfath with Smartass. He cannot use the system and survives by begging until a wealthy local takes his money and has him arrested for objecting.",
+            "id": "jebediah-trapper",
+            "name": "Jebediah Trapper",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Jeb's fairy familiar and companion in Kalfath. She enforces a rule that keeps him from speaking falsely and helps him endure life without system access.",
+            "id": "smartass",
+            "name": "Smartass",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A horned Milas officer tasked with hunting reapers under the Sakras Accord. She publicly executes a human who murdered civilians for advancement, demonstrating both overwhelming power and the Empire's determination to deter such crimes.",
+            "id": "imperial-enforcer",
+            "name": "The Imperial Enforcer",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An influential Keegan who owns much of Kalfath. He distracts Jeb with a gold coin, takes his silver, and uses his standing to turn Jeb's protest into an arrest.",
+            "id": "wealthy-kalfath-businessman",
+            "name": "The Wealthy Kalfath Businessman",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Keegan law officer who arrests Jeb after the wealthy businessman's accusation. He looks down on Jeb but follows the city's legal process while taking him into custody.",
+            "id": "kalfath-sheriff",
+            "name": "The Kalfath Sheriff",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The young Keegan daughter of a powerful Kalfath businessman. She is present when her father uses his standing to have Jeb arrested after taking his silver.",
+            "id": "businessmans-daughter",
+            "name": "The Businessman's Daughter",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A divinity who approaches Jeb in disguise at a human bar, evaluates the conduct Jeb intends to reward, and leaves him an unidentified ring.",
+            "id": "god-of-reward",
+            "name": "The God of Reward",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A powerful Milas pirate leader, believed to be above level 30, who commands at least a dozen crew members in the Split Mountains. He is holding the Kalfath businessman's daughter and is wanted on a substantial rescue bounty.",
+            "id": "sand-pirate-captain",
+            "name": "The Sand-Pirate Captain",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A level-57 courier who also works as an assassin. A hostile client pays him to kill Jeb, and his Unerring Delivery ability lets him follow the supernatural direction supplied by a letter addressed to his intended target.",
+            "id": "cole",
+            "name": "Cole",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A roboticist and artificial-intelligence specialist whom Jeb recruits for the mansion's new laboratory. The chance to study a lens that converts mist into jet fuel wins his interest, and he begins planning the equipment and power his work will require.",
+            "id": "eddie",
+            "name": "Eddie",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning ally of Jeb and a necromancer who now runs a human-owned business outside the city. His customized undead can farm and perform construction.",
+            "id": "ron",
+            "name": "Ron",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An armed teenager who leads a group of unhoused children based in an improvised bookstore. He can shape green mist into high-pressure slime, distrusts unfamiliar adults, and puts the survival of the children under his protection first.",
+            "id": "colt",
+            "name": "Colt",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young member of Colt's bookstore group. She opens the door after a voice in the darkness imitates Colt, and a pale hand pulls her away. Her disappearance brings the danger facing the city's unhoused children directly into Jeb's investigation.",
+            "id": "nancy",
+            "name": "Nancy",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Keegan judge among the wealthy investors in the operation that prepares abducted children for sale as prospective immortals.",
+            "id": "corrupt-judge",
+            "name": "The Corrupt Judge",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The Keegan organizer of a scheme that trains abducted children to kill captive creatures and gain impact before selling them as prospective immortals. When Jeb's orphanage removes children from the streets, he decides to strike it directly.",
+            "id": "child-trafficker",
+            "name": "The Child Trafficker",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "One of the children held with Nancy and subjected to repeated tests of supernatural healing. His captors declare him ready to advance to what they call an academy, making him the first of Nancy's friends chosen for that supposed next stage.",
+            "id": "jake",
+            "name": "Jake",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A frightened new captive brought into the same program as Nancy and the other children. Nancy quietly directs her through the required killing of a captive creature while concealing her growing resistance from their attendants.",
+            "id": "marcy-evans",
+            "name": "Marcy Evans",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A captive child whose ability can create an opening in a floor. His exploration has uncovered a concealed route between levels of the captors' building and onward to the roof, giving the imprisoned children a possible escape path.",
+            "id": "thomas",
+            "name": "Thomas",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Eddie's unfinished drone project for the orphanage. He plans to give it artificial intelligence by combining salvaged smartphone processors, but its intended weapons still require a military-grade mist engine that he does not yet possess.",
+            "id": "legolas",
+            "name": "Legolas",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Eddie's mist-powered robot, rebuilt from a bomb-disposal machine for rapid combat response. Its autonomous targeting and fireball wand remain dangerous because its friendly-fire safeguards are unfinished.",
+            "id": "buddy",
+            "name": "Buddy",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A large stag construct summoned by a staff that combines control, animal, and synthetic annihilation lenses. Its destructive antlers can bore through brick, and Jeb gives it a standing order to guard the children at the orphanage.",
+            "id": "buck",
+            "name": "Buck",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The level-327 ruler of the capital. His command of coincidence can bring named people before him, and he summons Brett and Amanda Corvar after receiving Jeb's message, asking them to execute those implicated by the evidence.",
+            "id": "the-emperor",
+            "name": "The Emperor",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Brett"
+            ],
+            "description": "A returning survivor of the Impossible Tutorial. Ron reports that Brett accepted an imperial title and land after the tutorial.",
+            "id": "brett-corvar",
+            "name": "Brett Corvar",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Amanda"
+            ],
+            "description": "A returning survivor of the Impossible Tutorial. Ron reports that Amanda accepted an imperial title and land after the tutorial.",
+            "id": "amanda-corvar",
+            "name": "Amanda Corvar",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning survivor of the Impossible Tutorial. Ron reports that Jessica entered imperial service as an enforcer after the tutorial.",
+            "id": "jessica",
+            "name": "Jessica",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Jessica",
+              "Jess"
+            ],
+            "description": "An imperial knight in black armor whose identity as Jessica becomes known when she begins carrying out the emperor's order against the assembled conspirators.",
+            "id": "black-armored-imperial-knight",
+            "name": "The Black-Armored Imperial Knight",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A returning survivor of the Impossible Tutorial. Ron reports that Casey and Mike opened a living restaurant after leaving the tutorial.",
+            "id": "casey",
+            "name": "Casey",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Casey"
+            ],
+            "description": "The former tutorial survivor Casey, now identified as Casey Thompson and serving as an Imperial Enforcer. A public broadcast shows her executing a reaper, and Jeb's group connects her service to protecting her child.",
+            "id": "casey-thompson",
+            "name": "Casey Thompson",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Casey III"
+            ],
+            "description": "Casey Thompson's young child. The child's vulnerability appears to explain why Casey accepted service as an Imperial Enforcer, and the emperor's personal attention places Casey III at the center of both protection and potential leverage.",
+            "id": "casey-thompson-iii",
+            "name": "Casey Thompson III",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "The Sindio"
+            ],
+            "description": "A feared Keegan wizard whom Cole recognizes as the Sindio. He can impose trust and partial bodily compliance, using that power to force the courier-assassin into temporary cooperation as a tracker and possible killer.",
+            "id": "zen",
+            "name": "Zen",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:uk:1039404634",
+            "type": "community"
+          }
+        ],
+        "work": "apocalypse-fairy-system"
+      }
+    },
     "apocalypse-generic-system": {
       "characters": {
         "characters": [
