@@ -6033,6 +6033,213 @@
       }
     },
     "the-infinite-extent": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A Bob who leads an expedition to survey the Pan-Galactic Federation's network of wormholes. He coordinates the effort to chart its gaps and look for a route that could support a response to Nemesis.",
+            "id": "icarus",
+            "name": "Icarus",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Cal"
+            ],
+            "description": "A returning Bob explorer who has recently reconnected with the wider Bobiverse after receiving communications plans by radio. He and Goku join the survey of routes extending beyond the known Federation network.",
+            "id": "calvin",
+            "name": "Calvin",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Calvin's fellow Bob explorer, newly back in contact with the Bobiverse. He works closely with Calvin and joins the wider effort to explore the Pan-Galactic Federation's network.",
+            "id": "goku",
+            "name": "Goku",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Bob explorer whose vessel is crippled immediately after he returns to human space through WormNet. Faced with unmarked ships and a demand to surrender, he chooses self-destruction rather than risk capture.",
+            "id": "greg",
+            "name": "Greg",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Bob who accompanies Bridget on a discreet visit to the relocated dragons of Lemuria. He helps observe the settlement while Bridget leads the biological assessment of its long-term viability.",
+            "id": "howard",
+            "name": "Howard",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A biologist and advocate for the dragons on Lemuria. She evaluates whether their new environment can sustain them, balancing plentiful food and space against uncertain breeding and the slow growth of their floating habitats.",
+            "id": "bridget",
+            "name": "Bridget",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior Bob who handles difficult organizational work for the UFS. He agrees to arrange official approval and a biological diplomatic mission after the Federation refuses to accept a digital applicant for provisional membership.",
+            "id": "will",
+            "name": "Will",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Quinlan diplomat who opens formal talks with New PAV. She directs the mission while Bob, using a Quinlan body, serves as her nominal assistant so that visible human involvement does not derail the meeting.",
+            "id": "teresa",
+            "name": "Teresa",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior replicant who supports Teresa's diplomatic mission in a Quinlan body. He accepts a subordinate public role because New PAV's representatives will speak with Quinlans but do not welcome humans.",
+            "id": "bob",
+            "name": "Bob",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A Bob physicist and strategic coordinator who restores Greg from a backup after two scheduled updates are missed. He treats the missing vessel as a possible attack and authorizes an armed investigation of Greg's last route.",
+            "id": "bill",
+            "name": "Bill",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An exceptional Quinlan digital intelligence cited during the UFS application as an example of a free and adaptable mind. Anik's existence helps distinguish the UFS from the Federation's tightly limited artificial task systems.",
+            "id": "anik",
+            "name": "Anik",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A known artificial intelligence whose existence helps demonstrate why the UFS does not fit the Federation's restrictions on digital persons. The biological applicant presents Thoth as far more capable and independent than a dedicated task system.",
+            "id": "thoth",
+            "name": "Thoth",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Skippy representative who helps Bill's group interpret the Federation's distinction between conscious digital people and artificial minds confined to assigned tasks. His perspective informs their assessment of the rejected application.",
+            "id": "hugh",
+            "name": "Hugh",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Bob engineer who joins Bill's discussion of the failed Federation application. He suggests that wormhole links may have been cut to isolate populations that resisted Federation policy after the Great Upheaval.",
+            "id": "garfield",
+            "name": "Garfield",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A patient whose biological body was revived after she had spent years existing as a replicant. The simultaneous biological and digital versions make her case central to questions about identity and continuity.",
+            "id": "brennan",
+            "name": "Brennan",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Bob who indicates that Earth's restored ecosystem can accept settlers, making recolonization a practical option for the population aboard Fargo.",
+            "id": "charles",
+            "name": "Charles",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Icarus's Bob expedition partner. Together they collect communications relays, compare discoveries with the larger exploration team, and investigate irregularities, missing links, and concealed infrastructure in the Federation's wormhole map.",
+            "id": "day",
+            "name": "Day",
+            "reveal": {
+              "chapter": 34
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Day"
+            ],
+            "description": "Icarus's Bob expedition partner, earlier known as Day. He joins Icarus in locating and entering an old wormhole route near Sagittarius A-star.",
+            "id": "daedalus",
+            "name": "Daedalus",
+            "reveal": {
+              "chapter": 67
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A later-generation Bob who identifies as female and operates in Delta Dorada. She offers a large metal reserve and two auto factories when the colonial defense effort urgently needs industrial support.",
+            "id": "bobby",
+            "name": "Bobby",
+            "reveal": {
+              "chapter": 37
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Bob coordinating intelligence and liaison work across the colonial war. His analysis identifies the broad direction from which enemy reinforcements are entering contested systems and narrows the likely location of their staging areas.",
+            "id": "thor",
+            "name": "Thor",
+            "reveal": {
+              "chapter": 39
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Brazilian probe replicant who declares himself the leader of the coordinated attacks on human colonies. He demands restoration of a Brazilian Empire, an end to replication, and the destruction of the Bobs.",
+            "id": "medeiros",
+            "name": "Medeiros",
+            "reveal": {
+              "chapter": 43
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0H8SY9QMX",
+            "type": "community"
+          }
+        ],
+        "work": "the-infinite-extent"
+      },
       "recaps": {
         "ending": "The reconstituted Brazilian state proves sufficient to end Medeiros's campaign. Its interim president is presented as a lawful heir, accepts Medeiros into the new command structure, and orders him to cease hostilities with the UFS colonies. Medeiros complies, leaving Earth resettled and the Bobs with expanded industry, working FTL, and warp torpedoes. Political distrust of replicants remains, as do the unresolved limits on Lemuria's dragon population and the uncertain direction of Quinlan-PAV relations.\n\nThe strategic focus returns to Nemesis. Calvin and Goku have found an ancient network connection near the black hole, while Bill and Garfield's technology makes staged wormhole delivery conceivable. The group still needs a black-hole test and immense pusher-plate production. Bill also receives an unsigned wormhole-engineering proposal that may come from Thoth. Beyond the numbered chapters, Icarus and Daedalus enter a hidden route and encounter an entity using Guppy's appearance that claims to represent the network's original builders. Its purpose and the builders' intentions remain unknown.",
         "in_short": "The Bobs confront three linked challenges: an unknown force attacking human space, the exclusionary Pan-Galactic Federation, and the approaching black hole Nemesis. Bill and Garfield reverse-engineer an ancient wreck to create FTL drives and warp torpedoes, which turn the colonial war after Medeiros claims responsibility. Will returns the Fargo evacuees to a restored Earth, where Bobby's proposal to found a legitimate Brazilian state gives Medeiros a lawful superior who orders him to stop fighting. Calvin and Goku uncover ancient machinery and a wormhole route near Nemesis. Icarus and Daedalus follow another hidden route beyond the galactic center and meet an entity claiming to represent the original builders of the wormhole network. With the war ended, the Bobs resume their unfinished plan to test pusher plates and build a warp-supported route toward Nemesis.",
