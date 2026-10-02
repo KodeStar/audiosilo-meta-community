@@ -1256,6 +1256,580 @@
         "work": "the-penultimate-peril"
       }
     },
+    "the-perfect-run": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Quicksave"
+            ],
+            "description": "A courier entering New Rome in search of his missing friend Len. His violet ability halts time for a short interval, and death returns his consciousness to a save point he established outside the city. He uses repeated attempts to learn from failures and pursue a better outcome.",
+            "id": "ryan",
+            "name": "Ryan",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Ryan's missing childhood friend and the reason he has come to New Rome.",
+            "id": "len",
+            "name": "Len",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The unseen figure who sends Ghoul to attack Ryan in New Rome. Ghoul's allegiance identifies Adam as a directing force behind the Meta Gang's hostility, although Ryan initially knows little else about him or his objectives.",
+            "id": "adam",
+            "name": "Adam",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A dead tyrant from the Genome Wars whose machines and weapons remain in circulation. His surviving technology is dangerous enough to shape New Rome's balance of power long after his own apparent defeat.",
+            "id": "mechron",
+            "name": "Mechron",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The New Rome pub proprietor who receives Ryan's delivery. He points Ryan toward Rust Town as a market for independent genius technology and becomes caught in Ghoul's attack on the establishment.",
+            "id": "renesco",
+            "name": "Renesco",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An ice-powered Meta Gang attacker sent after Ryan. He attacks with weapons formed from ice.",
+            "id": "ghoul",
+            "name": "Ghoul",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An Augusti representative who contacts Ryan with an offer of resources and work. She belongs to the criminal organization competing for power in New Rome and presents cooperation with it as a possible route toward Ryan's goals.",
+            "id": "vulcan",
+            "name": "Vulcan",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A flying heroine on Dynamis's Il Migliore team. Her wings support quiet flight at extreme speed. Grateful for Ghoul's capture, she invites Ryan to consider joining the corporate heroes and offers to search their records for Len.",
+            "id": "wyvern",
+            "name": "Wyvern",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The leader of the Augusti, a criminal organization that holds power in New Rome and across much of Italy.",
+            "id": "augustus",
+            "name": "Augustus",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An Augusti operative in samurai-styled armor who meets Ryan at the Bakuto casino. He offers help locating Len in exchange for assistance against the Meta Gang and serves as Ryan's guide into the organization's hierarchy and operations.",
+            "id": "zanbato",
+            "name": "Zanbato",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Meta Gang combatant in a sealed hazardous-material suit. She attacks an Augusti harbor shipment alongside Ghoul, using compressed-air blasts. Damage to her suit releases corrosive gas, making close combat dangerous to everyone nearby.",
+            "id": "sarin",
+            "name": "Sarin",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An Augusti supply operative whose ability forces people speaking with him to answer truthfully. He objects when Ryan is chosen for harbor work over established members.",
+            "id": "truth-compelling-operative",
+            "name": "Truth-compelling operative",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Len"
+            ],
+            "description": "The identity Len used in Rust Town, where she maintained diving armor and sold inventions to the Augusti. Her work includes the bathysphere design Ryan has been tracing.",
+            "id": "underdiver",
+            "name": "Underdiver",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A mosquito-like Meta attacker who destroys Ryan's car in Rust Town. Ryan uses a nuclear device against the attacker, forcing another reset.",
+            "id": "mosquito-like-attacker",
+            "name": "Mosquito-like attacker",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Len's unstable father in Ryan's memories of 2016. Multiple elixirs have left him with a mutable form of blood and bone and a compulsion to obtain more elixirs. He mistakes Ryan for Len's dead brother and controls both teenagers through fear.",
+            "id": "lens-father",
+            "name": "Len's father",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Zanbato's partner and a member of his Augusti household. Her green power lets her communicate with rats and strengthen them.",
+            "id": "ki-jung",
+            "name": "Ki-jung",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Augusti member who shares Zanbato's home and helps welcome Ryan into the household.",
+            "id": "lanka",
+            "name": "Lanka",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Augustus's sister, an Augusti underboss, and leader of an elite hit squad. She arrives to investigate a series of killings within the organization. Her reputedly lethal power is not yet fully explained, and even other Augusti members treat her cautiously.",
+            "id": "pluto",
+            "name": "Pluto",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An independent vigilante who can transform into a panda. Lanka incapacitates him during an Augusti visit to the weapons foundry.",
+            "id": "panda-vigilante",
+            "name": "Panda vigilante",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An Il Migliore affiliate with close family ties to the Augusti. Direct contact with his bare skin turns objects into explosives. Though estranged from his criminal relatives, his position between the two organizations complicates any operation involving him.",
+            "id": "atom-cat",
+            "name": "Atom Cat",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Dynamis defender whose costumes grant weaker, temporary versions of the abilities associated with them.",
+            "id": "costume-copying-defender",
+            "name": "Costume-copying defender",
+            "reveal": {
+              "chapter": 11
+            }
+          },
+          {
+            "aliases": [
+              "Blackthorn"
+            ],
+            "description": "Dynamis's chief brand officer and the manager of Il Migliore. He recruits Ryan under a restrictive corporate contract, promising access to Len in return for hero work, publicity duties, biological testing, and obedience to company rules.",
+            "id": "enrique-manada",
+            "name": "Enrique Manada",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Len's father, identified by name through Dynamis records.",
+            "id": "freddy-sabino",
+            "name": "Freddy Sabino",
+            "reveal": {
+              "chapter": 12
+            }
+          },
+          {
+            "aliases": [
+              "Atom Cat"
+            ],
+            "description": "The young man behind Atom Cat and the child of two Augusti capos. He left the organization because he rejects its drug trade and other crimes. While working with Dynamis, he agrees to investigate the Meta threat in Rust Town alongside Ryan.",
+            "id": "felix",
+            "name": "Felix",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The founder and chief executive of Dynamis. He controls the corporation whose private security and superhero operation dominate New Rome, while Enrique handles the public presentation of Il Migliore.",
+            "id": "hector-manada",
+            "name": "Hector Manada",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Meta Gang lieutenant who uses wire-like extensions to seize control of a victim's nervous system through physical contact. Dynamis identifies him as one of the gang's principal figures as Ryan and Atom Cat prepare to investigate Rust Town.",
+            "id": "psyshock",
+            "name": "Psyshock",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A named lieutenant in the Meta Gang.",
+            "id": "frank",
+            "name": "Frank",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A woman connected to Atom Cat and his Augusti family. He refuses her calls during his investigation with Ryan, while others treat involvement with her as potentially dangerous. Her exact position and abilities are not yet clear.",
+            "id": "livia",
+            "name": "Livia",
+            "reveal": {
+              "chapter": 14
+            }
+          },
+          {
+            "description": "Atom Cat's sister and a member of the Augusti family circle. She is named while Ryan and Atom Cat enter Meta territory, before her own place in the organization's combat forces is established.",
+            "id": "fortuna",
+            "name": "Fortuna",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Atom Cat's younger sister within the Augusti family. She is first known through his account of the relatives he left behind, before Ryan learns the nature of her power or her work for the organization.",
+            "id": "narcinia",
+            "name": "Narcinia",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An armed child living at the Rust Town shelter under the care of an unseen figure the children call Mama.",
+            "id": "sarah",
+            "name": "Sarah",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Vulcan"
+            ],
+            "description": "The engineer behind Vulcan's armored identity and the Augusti weapons division. Her ties to Len make her important to Ryan's search.",
+            "id": "jasmine",
+            "name": "Jasmine",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Wyvern"
+            ],
+            "description": "The woman behind Wyvern's public identity. She remains a leading Il Migliore field operative and intervenes at the Rust Town shelter to defeat the remaining Meta attackers and take her former partner Jasmine into custody.",
+            "id": "laura",
+            "name": "Laura",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An armored Carnival investigator who bends light to become invisible and manipulates glass with great precision. He targets the Augusti and Meta while covertly removing hostile infiltrators from Dynamis, and he claims to know where Len is.",
+            "id": "shroud",
+            "name": "Shroud",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An unidentified Meta operative who creates acid rain, teleports through raindrops, and can respond during Ryan's stopped-time interval.",
+            "id": "acid-rain-controller",
+            "name": "Acid-rain controller",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Freddy Sabino"
+            ],
+            "description": "The identity used by Freddy Sabino, Len's multi-elixir father, whose past control of Len and Ryan continues to shape their relationship.",
+            "id": "bloodstream",
+            "name": "Bloodstream",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The Augusti truth-teller previously encountered during recruitment. His questions compel truthful answers according to their exact wording, so Ryan hospitalizes him in another iteration to keep him away from the harbor meeting.",
+            "id": "luigi",
+            "name": "Luigi",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A white-powered Augusti operative whose active field suppresses nearby genome abilities. Her presence prevents Ryan from stopping time and may also block his return to a save point, turning any confrontation near her into an exceptional risk.",
+            "id": "cancel",
+            "name": "Cancel",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Pluto's bodyguard and an Augusti operative. She helps inspect Ryan and his equipment during Pluto's interrogation, serving as part of the organization responsible for monitoring threats and enforcing its leadership's decisions.",
+            "id": "sparrow",
+            "name": "Sparrow",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Andreas Tork",
+              "Father Tork"
+            ],
+            "description": "An excommunicated priest and blue genome who runs the Augusti drug operation from its protected laboratory. His ability induces madness through visions and hallucinations, making him a dangerous obstacle in Ryan's agreement to destroy the Bliss facility.",
+            "id": "bacchus",
+            "name": "Bacchus",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A masked, armed member of the Augusti's Killer Seven who joins the force assembled to drive the Meta Gang from Rust Town.",
+            "id": "mortimer",
+            "name": "Mortimer",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Living Sun",
+              "Leo"
+            ],
+            "description": "The leader of the Carnival in a memory from 2008. His red power transforms him into solar plasma and lets him control his own gravity. He leaves a protected farm community to confront wider threats, including Mechron.",
+            "id": "leonard-hargraves",
+            "name": "Leonard Hargraves",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A laser-equipped plushie Ryan deploys against the Meta Gang. It acts independently, responds to an alien presence, and is no longer reliably under his control.",
+            "id": "ryans-rabbit-plushie",
+            "name": "Ryan's rabbit plushie",
+            "reveal": {
+              "chapter": 29
+            }
+          },
+          {
+            "aliases": [
+              "Braindead"
+            ],
+            "description": "A neural-technology genius who helps Ryan test a chrono-radio probe and created the artificial woman Dahl. The entity drawn into the probe kills him during the experiment.",
+            "id": "alchimo",
+            "name": "Alchimo",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A white Persian cat that Ryan takes in from Len's orphanage.",
+            "id": "eugene-henri-von-schrodinger",
+            "name": "Eugène-Henri von Schrödinger",
+            "reveal": {
+              "chapter": 33
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Cancel"
+            ],
+            "description": "The Augusti hitwoman known as Cancel. Her nullification field prevents Psyshock from escaping through another body while she kills his disabled form. She is disciplined and direct, with little hesitation about killing incapacitated enemies.",
+            "id": "greta",
+            "name": "Greta",
+            "reveal": {
+              "chapter": 34
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The mosquito-like Meta attacker previously encountered in Rust Town. Mosquito joins Psyshock and Mongrel in the orphanage raid, where Len and Ryan mortally wound the attacker.",
+            "id": "mosquito",
+            "name": "Mosquito",
+            "reveal": {
+              "chapter": 34
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Shroud"
+            ],
+            "description": "The identity Shroud uses while attending an Augusti gathering as Fortuna's guest. He can perceive through nearby spaces at short range. His covert purpose is tied to Narcinia, whom he confirms is the person his investigation has been seeking.",
+            "id": "mathias-martel",
+            "name": "Mathias Martel",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Ceres"
+            ],
+            "description": "Fortuna and Felix's adopted younger sister, now introduced in person. Her green ability creates plants, animals, and small chimeras from her blood. Shroud privately recognizes her as the focus of his search.",
+            "id": "narcinia-varan",
+            "name": "Narcinia Varan",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Minerva"
+            ],
+            "description": "Augustus's daughter and an influential member of the Augusti. She perceives alternate realities, yet Ryan is entirely absent from that perception. Her interest in this anomaly leads her to approve his proposed operation against Dynamis.",
+            "id": "livia-augusti",
+            "name": "Livia Augusti",
+            "reveal": {
+              "chapter": 37
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Augusti leader and Livia's uncle. His large-scale water control becomes stronger with larger bodies of water, and he argues against provocations that could ignite war with Dynamis.",
+            "id": "neptune",
+            "name": "Neptune",
+            "reveal": {
+              "chapter": 39
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Augusti capo preparing to retire. A necromancer who acts through a preserved head and reanimated bodies, he oversees gambling, casinos, logistics, security, and money laundering.",
+            "id": "mercury",
+            "name": "Mercury",
+            "reveal": {
+              "chapter": 39
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Zanbato"
+            ],
+            "description": "The Augusti operative previously known as Zanbato. When the old Mercury retires, Augustus accepts his nomination of Jamie as successor, placing Jamie over the organization's gambling, casino, logistics, security, and laundering interests.",
+            "id": "jamie-cutter",
+            "name": "Jamie Cutter",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A seer coordinating the coalition assault on Mechron's Sarajevo fortress in 2014. She links allies telepathically without taking away their choices, and the size of her network strengthens the foresight she uses to guide the attacking force.",
+            "id": "pythia",
+            "name": "Pythia",
+            "reveal": {
+              "chapter": 41
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A yellow-powered ghost on Ischia whose name is Francois. His ectoplasmic form is bound to the island by his scattered remains and is largely beyond ordinary physical harm.",
+            "id": "geist",
+            "name": "Geist",
+            "reveal": {
+              "chapter": 44
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Big Fat Adam",
+              "Adam"
+            ],
+            "description": "The failing Meta Gang leader previously known as Adam. His carbon-hard body resists external attacks, but accumulated elixir damage is eroding his powers. Facing death, he uses partial control of Bahamut to devastate New Rome rather than allow others to survive him.",
+            "id": "hannifat-lecter",
+            "name": "Hannifat Lecter",
+            "reveal": {
+              "chapter": 48
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The Manada who takes practical control of what remains of Dynamis after the catastrophe. His succession leaves renewed conflict with the Augusti likely.",
+            "id": "alphonse-manada",
+            "name": "Alphonse Manada",
+            "reveal": {
+              "chapter": 49
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B09HSRRT1T",
+            "type": "community"
+          }
+        ],
+        "work": "the-perfect-run"
+      }
+    },
     "the-phantom-of-the-opera": {
       "characters": {
         "characters": [
