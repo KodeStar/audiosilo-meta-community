@@ -4014,6 +4014,254 @@
       }
     },
     "apocalypse-dungeon-system": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Jeb"
+            ],
+            "description": "A blacklisted level-39 Mystic Trapsmith who protects an orphanage and oversees its young core hunters. He lets Colt's team learn from a costly mistake while secretly keeping watch, then accepts a meeting about a new assignment from a former Imperial Enforcer.",
+            "id": "jebediah-trapper",
+            "name": "Jebediah Trapper",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Jeb's fairy familiar and an established companion from his earlier adventures.",
+            "id": "smartass",
+            "name": "Smartass",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The orphanage administrator and an experienced field ally of Jeb. During the children's mountain expedition, the former sheriff helps Jeb supervise from concealment and intervenes with him after thieves force Colt into a hostage exchange.",
+            "id": "former-sheriff",
+            "name": "Former sheriff",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The armed leader of Jeb's young core-hunting team. When thieves seize Toby and demand the team's first core, Colt trades the core for his teammate but refuses to hand over the group's weapons, showing caution and resolve under pressure.",
+            "id": "colt",
+            "name": "Colt",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of the armored children on Colt's mountain expedition. She carries a flare gun and joins the team's search for dungeon cores and possible prism claims while Jeb and the former sheriff watch their progress from a distance.",
+            "id": "nancy",
+            "name": "Nancy",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A local fairy who uses carefully bounded promises to lure treasure seekers into deadly places. She steals a prospective dungeon hunter's lightning wand and leaves him to a guardian.",
+            "id": "ari",
+            "name": "Ari",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Jeb's engineer and Ron's collaborator on machinery joined with undead bodies. Eddie adopts the metal-eating creature released from one of Jeb's accolades, treating it as a laboratory pet after it turns scrap into useful electronic parts.",
+            "id": "eddie",
+            "name": "Eddie",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A necromancer who works with Eddie on equipment that combines machinery with reanimated bodies. One of their experimental cyborg corpses escapes during a basement accident and attacks Jeb, revealing both the promise and danger of their work.",
+            "id": "ron",
+            "name": "Ron",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A small creature released when Jeb extracts an accolade from his hand. Scrappy eats metal, prefers available scrap, and produces useful electronic components afterward, prompting Eddie to adopt the creature as an unusual laboratory pet.",
+            "id": "scrappy",
+            "name": "Scrappy",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An Imperial operative with an established connection to Jeb. She approaches him while he is supervising the orphan expedition and asks him to take another assignment, postponing the details until his immediate responsibility to the children is complete.",
+            "id": "former-enforcer",
+            "name": "Former Enforcer",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Eddie's armed aerial drone, sustained by a prism array that gathers ambient mist. Jeb takes Legolas as airborne support when he drives toward Nellis to investigate and neutralize the nuclear danger posed by the human military force there.",
+            "id": "legolas",
+            "name": "Legolas",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "General Myers"
+            ],
+            "description": "The commander at Nellis who has claimed the ranks of Air Force general and acting United States president. Myers keeps Jeb under watch and intends to use a surviving bomber and nuclear weapon against a city controlled by aliens.",
+            "id": "myers",
+            "name": "Myers",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A local historian who approaches Colt's group and offers information about an immortal wizard who operates outside the system.",
+            "id": "local-historian",
+            "name": "Local historian",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An ancient and powerful wizard who rejects the system and operates beyond its rules.",
+            "id": "zen",
+            "name": "Zen",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Zen's household servant, who holds off an Imperial investigator while Zen and the courier withdraw into the dungeon workshop.",
+            "id": "zens-butler",
+            "name": "Zen's butler",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An alien operative who uses the dungeon outbreak at Nellis as cover to steal two shrunken nuclear weapons, then escapes the base with both devices.",
+            "id": "courier-assassin",
+            "name": "Courier-assassin",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Nellis soldier whose class strengthens his machine-gun fire. He descends into the insect dungeon with Jeb and another soldier, gaining several levels during the assault.",
+            "id": "heavy-gunner",
+            "name": "Heavy gunner",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A talkative Nellis soldier assigned to watch and question Jeb after the central dungeon core is contained and two nuclear weapons disappear.",
+            "id": "assigned-watcher",
+            "name": "Assigned watcher",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An Imperial spy embedded in Myers' command structure behind a human male disguise. Initially presented as the general's secretary, the Enforcer reveals her allegiance when she helps Jeb break free after Myers turns his detention into an armed confrontation.",
+            "id": "undercover-alien-enforcer",
+            "name": "Undercover alien Enforcer",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Casey"
+            ],
+            "description": "An Imperial Enforcer whose S-ranked Giver of Life class can animate objects. The Emperor safeguards her child in return for her continued service.",
+            "id": "casey-thompson",
+            "name": "Casey Thompson",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Casey Thompson's child, protected by the Emperor as part of the arrangement binding Casey to Imperial service.",
+            "id": "casey-thompson-iii",
+            "name": "Casey Thompson III",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Zen"
+            ],
+            "description": "The later identity of Zen, the ancient wizard operating outside the system. Vex is linked to the missing weapons from Nellis and is pursuing a method involving nuclear force and the Fate dimension, making him the target of an Imperial intervention.",
+            "id": "vex",
+            "name": "Vex",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An unseen feminine presence able to enter or manipulate Jeb's dreams. She calls him her grandson and a scion, making an unknown family connection an active concern.",
+            "id": "unseen-fairy-benefactor",
+            "name": "Unseen fairy benefactor",
+            "reveal": {
+              "chapter": 15
+            }
+          },
+          {
+            "description": "An autonomous undead cyborg created jointly by Ron and Eddie from a dead warrior's body. It can learn and modify itself, operates under restrictions intended to limit lethal behavior, and is sent into a prism mine to support its upkeep.",
+            "id": "autonomous-undead-cyborg",
+            "name": "Autonomous undead cyborg",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An Imperial raid participant assigned with Jebediah Trapper, Casey Thompson, and a stone-shaping Enforcer to disable Vex's mist engine. She enters the dungeon with the assault force before Jeb leaves to defend the orphanage.",
+            "id": "fellow-enforcer",
+            "name": "Fellow Enforcer",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B09PSMGJSP",
+            "type": "community"
+          }
+        ],
+        "work": "apocalypse-dungeon-system"
+      },
       "recaps": {
         "ending": "After leaving the Imperial raid, Jeb reaches the orphanage evacuation too late to save Colt from Myers. He later rescues Nancy, defeats Myers, and removes her ability. Jeb, Ron, and the former sheriff enter Vex's complex through the collision of two dungeons. Vex sends a nuclear weapon into the fifth dimension, where a punitive being intervenes and Jeb is dragged through the gate with the weapon and two others. Jeb returns with his system rebooted but much of the experience missing from his memory. The weapon has vanished and may be lodged within him. Casey organizes a jailbreak, and the surviving captives escape after Vex kills Enforcers whose families did not pay. The Emperor's settlement prevents Vex from spreading the nuclear method but conceals the ransom deaths. A surviving Enforcer leaves for the east with new power and an inherited family obligation. Nancy lives with serious injuries, while Eddie and the evacuated civilians remain away from Jeb. Jeb stays responsible for the orphanage, suffers signs of a fatal flaw in Vex's accolade, and faces a system quest to kill Mab. The courier remains at large as an independent assassin.",
         "in_short": "Jebediah Trapper accepts a contract to remove the nuclear threat at Nellis, only to find that an engineered dungeon attack has covered the theft of two warheads for the ancient wizard Zen, later identified as Vex. Jeb survives Myers' command, a reality storm, and a stronger systemless foe, then helps recover Casey Thompson and prepares for an Imperial assault on Vex. When Myers unleashes another weaponized dungeon against the city, Jeb abandons the raid to save the orphanage. Myers kills Colt and takes Nancy hostage, but Jeb defeats her. Driven into Vex's complex, Jeb becomes entangled in a nuclear experiment in the fifth dimension. Casey frees the surviving captives, although Vex kills those whose ransoms were unpaid. Jeb escapes with his system restored, missing memories, and reason to fear that the vanished weapon is inside him. Nancy survives, the Emperor restrains Vex through a concealed settlement, and Jeb receives a new quest to kill Mab, Queen of the Fae. The courier later resumes independent contract killing.",
