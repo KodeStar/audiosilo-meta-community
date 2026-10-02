@@ -2760,15 +2760,6 @@
       "characters": {
         "characters": [
           {
-            "description": "An isolated man who avoids contact on his birthday and watches the Earthblood Online reveal with House. Seeking an early advantage, he directs her to purchase all fifty lifetime memberships so that he can enter the game alone during the three-day head start.",
-            "id": "unnamed-narrator",
-            "name": "Unnamed narrator",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
             "description": "The narrator's inherited home AI and closest companion. She handles the membership purchase while questioning his refusal to speak with anyone on his birthday, showing both practical competence and concern about the isolation he has chosen.",
             "id": "house",
             "name": "House",
