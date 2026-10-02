@@ -2898,15 +2898,6 @@
             "role": "supporting"
           },
           {
-            "description": "The captain of the Withered Vale guard. He disperses a mob blaming Ned for the attack on the settlement, identifies an alliance between the Woodbone Fae and barbarian raiders, and gives Ned the choice of surrendering or completing Room to Breathe within thirty-six hours.",
-            "id": "withered-vale-guard-captain",
-            "name": "Withered Vale guard captain",
-            "reveal": {
-              "chapter": 26
-            },
-            "role": "supporting"
-          },
-          {
             "description": "A blood brawler who arrives with Darling to help intercept the enemy caravan. He sustains himself through drain-based melee abilities as the undermanned party prepares to pursue the shipment without a healer or dedicated tank.",
             "id": "rock",
             "name": "Rock",
