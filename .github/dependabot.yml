@@ -1,0 +1,22 @@
+version: 2
+
+# This repository has no Go module and no packages of its own - its tooling is
+# audiosilo-meta's, checked out at a pinned sha by the workflows - so the one
+# dependency surface it has is the workflows' actions. Minor and patch updates
+# are GROUPED into one pull request per week; a major update still arrives on
+# its own, because that is the one that needs reading.
+updates:
+  # Most actions are referenced by major tag (actions/checkout@v4), so for them
+  # the only update is the next major. ai-verify.yml pins its checkout to a
+  # commit sha with the version in a trailing comment (it holds the OAuth secret
+  # and a write token); dependabot understands that form and rewrites both
+  # together.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions-minor-and-patch:
+        update-types:
+          - minor
+          - patch
