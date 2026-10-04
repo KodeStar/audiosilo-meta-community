@@ -602,6 +602,218 @@
         "work": "the-land-of-the-undying-lord"
       }
     },
+    "the-last-battle": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The Lion of Narnia, known to the reader from the earlier books: the country's maker and true king, the son of the Emperor beyond the sea. He comes and goes as he chooses and has not been seen in Narnia for generations, so that most of what is said about him now is hearsay and story.",
+            "id": "aslan",
+            "name": "Aslan",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A clever, elderly ape living beside a pool at the western end of Narnia, who considers himself far too old and wise to do any work. He has spent years telling his one friend what to think, and he is quick to see what a thing lying in the water might be worth to him.",
+            "id": "shift",
+            "name": "Shift",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Talking Donkey, patient, humble and easily talked into anything. He has been convinced that he is stupid and that his friend the ape knows best about everything, and he does the fetching and carrying for both of them while worrying about whether what he is doing is right.",
+            "id": "puzzle",
+            "name": "Puzzle",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The King of Narnia, a young man of about twenty-five or so, brave, straightforward and quick-tempered. He rules a country at peace and longs to have lived in the great days he has only heard of in stories, and he is ready to believe good news about Aslan before he has checked it.",
+            "id": "tirian",
+            "name": "King Tirian",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A Unicorn and the king's dearest friend, snow-white with a blue horn, who fights beside him and speaks to him as an equal. He is courteous, fierce in battle, and entirely loyal.",
+            "id": "jewel",
+            "name": "Jewel",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A centaur, a reader of the stars and one of the king's counsellors. Grave and unflattering, he reports that the heavens say nothing at all about Aslan's return and a great deal about disaster.",
+            "id": "roonwit",
+            "name": "Roonwit",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The god of Calormen, worshipped in Tashbaan and named in the oaths of Calormene soldiers, and by tradition the opposite of everything Aslan is. The ape now proclaims that Tash and Aslan are two names for one being.",
+            "id": "tash",
+            "name": "Tash",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A boy from England who has been in Narnia twice before, on the eastern voyage and in the search for the lost prince. He is level-headed and practical, and arrives with no idea of how much time has passed here since he last came.",
+            "id": "eustace-scrubb",
+            "name": "Eustace Scrubb",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A girl from England who came to Narnia once before with Eustace to find the lost prince. She is the better woodsman of the two, quiet on her feet, a good shot and a good scout, and she has learned since her last visit to be careful about signs and instructions.",
+            "id": "jill-pole",
+            "name": "Jill Pole",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A Red Dwarf who breaks away from his fellows to join the king, and is thereafter the most cheerful and useful member of a very small company. He is practical about food, weapons and what the enemy is likely to do next.",
+            "id": "poggin",
+            "name": "Poggin",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Talking Eagle who ranges far over the country and brings the king word of what is happening beyond his own valley. Precise and unsentimental in his reports, he sees more of the war than anyone else alive.",
+            "id": "farsight",
+            "name": "Farsight",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A large, sleek Talking Cat in the ape's confidence, smooth-voiced, unhurried and entirely unfrightened by anything he has helped to arrange. He has private understandings with the Calormene commander that the other beasts know nothing about.",
+            "id": "ginger",
+            "name": "Ginger",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The Calormene officer commanding the troops that have come into Narnia, careful, polite and effective. He works with the ape while treating him with contempt, and manages the beasts by way of proclamations he does not believe himself.",
+            "id": "rishda-tarkaan",
+            "name": "Rishda Tarkaan",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A young Calormene officer, devout and serious, who has served Tash all his life and dislikes what his commanders are doing with the god's name. When the stable is opened he asks, against orders and at the risk of his life, to be allowed to go in and look on Tash face to face.",
+            "id": "emeth",
+            "name": "Emeth",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge",
+            "type": "community"
+          }
+        ],
+        "work": "the-last-battle"
+      },
+      "recaps": {
+        "ending": "The last stand outside the stable ends with almost all of Tirian's company killed and Tirian himself dragging the Calormene commander through the stable door. Inside is not a stable but a bright country in daylight, where the god the Calormenes had invoked carries Rishda away, and where seven kings and queens of Narnia are waiting: Peter, Edmund and Lucy, Digory Kirke and Polly Plummer, Eustace and Jill. Susan is not among them, having put Narnia away as a childish game. The dwarfs who would be taken in by nobody sit in the same sunlight convinced they are in a dark, filthy stable, and not even Aslan can reach them. Aslan calls Father Time to end the world: the stars fall, the creatures of Narnia come to the door and either look at him with love and pass in or turn aside into his shadow, the sea rises, the sun is put out, and Peter shuts and locks the door. The company then goes further up and further in, and finds that this country is Narnia after all, the real one of which the old was a copy, opening outward for ever and joined at its far end to England. Everyone they have loved is there, including Reepicheep, Caspian, and the young Calormene Emeth, whose lifelong honest service to Tash is counted by Aslan as service to himself. Aslan then tells the children the plain fact they had not guessed: there was a railway accident, and they and their parents are dead. The term is over; the holidays have begun.",
+        "in_short": "In the last days of Narnia, an ape called Shift dresses his simple friend Puzzle the donkey in a lion's skin and passes him off as Aslan returned. Using the fraud he sells Narnian beasts into Calormene slavery, has the sacred trees felled, and proclaims that Aslan and the Calormene god Tash are one. King Tirian, the last king of Narnia, is captured trying to resist and calls for help across the worlds; Eustace Scrubb and Jill Pole are pulled out of England to join him. They free Puzzle and expose the trick, but the beasts, dwarfs and even the Calormenes are past being convinced by anything, and a real and terrible Tash comes north in answer to being called. At the last battle outside the stable on Stable Hill, Tirian's tiny company is destroyed, and the survivors pass through the stable door into a bright country where the friends of Narnia from every earlier book are waiting. Aslan brings Narnia itself to an end, closing the door on the dead world, and leads everyone further up and further in to the real Narnia beyond it. The children learn that they died in a railway accident in England, and that this is the beginning rather than the end.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Narnia is another world, entered from ours only when Aslan the Lion calls someone across. Its history has been shaped by visitors from England: Digory Kirke and Polly Plummer were present at its making and at the arrival of the witch Jadis; the four Pevensie children came through a wardrobe, ended her hundred-year winter with Aslan's help, and reigned at Cair Paravel; later Peter, Susan, Edmund and Lucy returned to put Prince Caspian on his throne. Edmund and Lucy then sailed east with Caspian and their cousin Eustace Scrubb to the world's end, and afterwards Eustace and his schoolfellow Jill Pole were sent to rescue Caspian's lost son Rilian from an enchantment underground. Aslan has told the older children one by one that they are too old to return. Time there runs at its own rate: this story takes place centuries after the last of those visits, in the reign of a king who knows all of it only as history.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Near a waterfall at the western end of Narnia, a clever old ape named Shift bullies his simple friend Puzzle the donkey into fishing a lion's skin out of the pool, and then into wearing it. Puzzle is deeply uneasy about pretending to be Aslan, but does as he is told. Not long after, King Tirian and his friend Jewel the Unicorn hear reports that Aslan has come back to Narnia, and are overjoyed until the news that follows: sacred trees are being felled, and Calormene work parties are on the Narnian rivers. The two ride out to see, find a Talking Horse killed by its drivers, kill two Calormenes in a rage, and then, ashamed of striking without a challenge, give themselves up. They are tied to a tree at the ape's camp and made to watch as a small figure in a lion skin is shown briefly by firelight to the assembled beasts. Shift, speaking as Aslan's mouthpiece, tells them that the felling and the slave gangs are Aslan's own orders, that Narnians will now work for the Tisroc of Calormen, and that Aslan and the Calormene god Tash have always been one and the same.",
+            "through": {
+              "chapter": 3
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Tied to the tree and left without food, Tirian calls out for Aslan, then for the children out of the old stories who helped Narnia in its need. He is granted a brief, silent glimpse of seven people at a meal in England; a moment later Eustace Scrubb and Jill Pole appear beside him in the wood and cut him free. They capture and strip two Calormene sentries for disguises, and Jill, moving quietly by night, gets into the stable where the false Aslan is kept and leads Puzzle out. The whole fraud stands revealed: the beasts have been taken in by a donkey in a skin. The three, with Puzzle and Jewel, whom they rescue on the way, get clear with a plan to show Puzzle to the Narnians and break the ape's hold.",
+            "through": {
+              "chapter": 6
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The company ambushes a Calormene escort and frees a party of dwarfs being marched to the mines, then shows them Puzzle and explains the deception. The dwarfs draw the opposite conclusion from the one intended: having been fooled once, they refuse to be taken in by anybody again, want neither Aslan nor Tash nor kings, and march off declaring that the dwarfs are for the dwarfs. Only one, Poggin, comes over to the king. Farsight the Eagle then brings worse news: Cair Paravel has been stormed by Calormene troops landed from ships, and Roonwit the Centaur has been killed carrying a message, sending back word that noble deaths are a treasure no one is too poor to buy. The little company also learns that the ape's masters have called on Tash in earnest, and they watch something vast and dreadful pass north over the treetops.",
+            "through": {
+              "chapter": 8
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The Calormene commander Rishda Tarkaan and the cat Ginger, who between them have been running the fraud from behind the ape, arrange a night meeting at the stable on Stable Hill: the beasts are told that anyone who wants to see the god may go in and meet him. Ginger, who believes in nothing, volunteers to go first as a demonstration, and comes out of the door insane and dumb, a beast that has lost the power of speech. A Calormene officer sent in after him is killed at once. Emeth, a young Calormene who has served Tash sincerely all his life, insists on going in to look on the god face to face, and does. Tirian and his company then step out of the crowd and reveal the whole deception, and the fighting begins in front of the stable door.",
+            "through": {
+              "chapter": 10
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The last battle is short and hopeless: a handful of Narnians against Calormene soldiers, with the dwarfs shooting at both sides and killing the horses coming to the king's aid. Jewel, Poggin, the boar and the bear are killed; Eustace and Jill are thrown into the stable; Shift himself is flung in and does not come out. At the end Tirian takes Rishda Tarkaan by the belt and drags him through the door with him. Inside is not a stable at all but a wide, sunlit country. The god Rishda had been invoking as a convenience is there in earnest, and carries him away at a word from one of the kings. Tirian finds himself among seven friends of Narnia in bright clothes: Peter, Edmund and Lucy, Digory Kirke and Polly Plummer, and Eustace and Jill. Susan is not with them; she has decided Narnia was a game they played as children and thinks of nothing now but growing up.",
+            "through": {
+              "chapter": 12
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The dwarfs are sitting in the same sunlight in a tight little circle, convinced that they are in a pitch-dark stable; food and flowers put into their hands are tasted as stable litter, and even Aslan cannot help people who have chosen not to be helped. Aslan then ends Narnia. Father Time is woken and blows his horn; the stars fall out of the sky; every creature of Narnia comes racing to the door and looks at the Lion, and those who look with love and fear pass through into the country beyond while the rest turn aside into his shadow and are seen no more. Dragons and giant lizards strip the country bare and die, the sea rises and covers everything, the sun is squeezed out by Father Time's hand, and Peter shuts the door on a dead world and locks it.",
+            "through": {
+              "chapter": 14
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Aslan calls the company further up and further in, and they discover they can run without tiring. The country they are in is Narnia itself, the real one of which the old land was only a copy, and every good thing in it is here, larger and more solid, opening outward for ever. They race up a waterfall, through the gates of a garden which is itself a whole world, and find everyone they have loved: Caspian, Rilian, Reepicheep, Puddleglum, Tumnus, the kings and queens of every age. Emeth tells them what happened to him inside the stable door: Aslan received him and counted his lifelong honest service to Tash as service rendered to himself, since no genuinely good service can be done to a cruel god and no cruel service can be done to a good one. Far off across the joined countries they see England, and their own parents waving. Aslan then tells the children what they had not worked out: the railway accident was real, and they are dead. For them the term is over and the holidays have begun, and everything that has happened so far was only the cover and the title page of the story.",
+            "through": {
+              "chapter": 16
+            }
+          }
+        ],
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge",
+            "type": "community"
+          }
+        ],
+        "work": "the-last-battle"
+      }
+    },
     "the-last-continent": {
       "characters": {
         "characters": [
