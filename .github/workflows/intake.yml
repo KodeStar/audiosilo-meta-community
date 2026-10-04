@@ -106,12 +106,12 @@ jobs:
       ))
     steps:
       - name: Checkout main
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: main
 
       - name: Checkout the core tooling
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: ${{ env.CORE_REPO }}
           ref: ${{ env.CORE_REF }}
@@ -289,7 +289,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           # The rebase needs real history, and the PAT (when present) is what
           # makes the force-push re-trigger the required checks - the same
@@ -298,7 +298,7 @@ jobs:
           token: ${{ secrets.INTAKE_PAT || github.token }}
 
       - name: Checkout the core tooling
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: ${{ env.CORE_REPO }}
           ref: ${{ env.CORE_REF }}
