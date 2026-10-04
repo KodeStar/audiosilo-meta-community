@@ -3353,6 +3353,187 @@
         "work": "the-magicians-elephant"
       }
     },
+    "the-magicians-nephew": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A boy of about twelve who has recently been brought to London and is thoroughly miserable there. His father is away in India, his mother is seriously ill and not expected to recover, and he has been taken into a house in a long terrace belonging to his aunt and uncle. He is quick-tempered and easily stung, but honest, stubborn and adventurous, and it is his idea to explore the tunnel that runs behind the attics of the whole row of houses.",
+            "id": "digory-kirke",
+            "name": "Digory Kirke",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "The girl who lives next door to Digory. She has made a private cave for herself in the empty roof space behind her attic, where she keeps her treasures and a story she is writing. Sensible and cautious where Digory is impulsive, she is still willing to go exploring along the rafters, and the tunnel behind her house is what begins the whole adventure.",
+            "id": "polly-plummer",
+            "name": "Polly Plummer",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Digory's aunt, a brisk and practical woman who keeps the household running, nurses Digory's mother, and has no patience at all with her brother Andrew's idleness or his airs.",
+            "id": "aunt-letty",
+            "name": "Aunt Letty",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Digory's mother, lying ill in an upstairs room of the house where he now lives, and not expected to live long. Her illness is the grief behind everything Digory does.",
+            "id": "mabel-kirke",
+            "name": "Mabel Kirke",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Digory's uncle, a tall thin man who keeps a study at the top of the house that nobody is allowed to enter. Vain, self-important and thoroughly cowardly, he holds that the ordinary rules do not apply to a man of his gifts, and he has spent years on secret experiments he calls magic. He is entirely willing to send children where he will not go himself.",
+            "id": "uncle-andrew",
+            "name": "Uncle Andrew Ketterley",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Uncle Andrew's godmother, dead long before the story begins. She was said to be not entirely human, and was shut away for a time; on her deathbed she left Andrew a sealed box, brought long ago out of a lost country, which he was told to burn unopened. It is the source of everything he calls his magic.",
+            "id": "mrs-lefay",
+            "name": "Mrs Lefay",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "The Queen of Charn",
+              "the Witch"
+            ],
+            "description": "The last ruler of Charn, a worn-out world under a swollen red sun, woken from an enchanted sleep when the bell in her hall is struck. She is far taller and stronger than anyone of our world, of a line that claims descent from giants, and is magnificent to look at and entirely without pity. She holds that a queen is bound by none of the promises or scruples that bind common people, and she speaks of the destruction of her own city and everyone in it as simply the price of not being beaten.",
+            "id": "jadis",
+            "name": "Jadis",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "the Cabby"
+            ],
+            "description": "A London hansom-cab driver whose cab and horse are seized in the street by the Queen. Plain-spoken, patient and steady, he keeps his temper in circumstances that terrify everyone around him, is kind to his horse, and sings when he is frightened.",
+            "id": "frank",
+            "name": "Frank",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The horse who pulls Frank's cab: elderly, used to London traffic, and badly startled when the Queen commandeers him and drives him through the streets at a gallop.",
+            "id": "strawberry",
+            "name": "Strawberry",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An enormous Lion, found singing in an empty darkness where there is as yet no world at all. His song calls out stars, a sunrise, land, rivers, growing things and finally living creatures. Grave and joyful at once, he is plainly the maker and the authority of the new country; he cannot be commanded or deceived, and the Queen's power fails completely against him.",
+            "id": "aslan",
+            "name": "Aslan",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Nellie"
+            ],
+            "description": "Frank's wife, called out of a London kitchen into the new world at Aslan's summons, arriving in her apron with her hands still wet. Sensible and unfrightened, she takes what has happened far more calmly than anyone expects.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge",
+            "type": "community"
+          }
+        ],
+        "work": "the-magicians-nephew"
+      },
+      "recaps": {
+        "ending": "Digory brings the apple back from the walled garden without eating it and without stealing a second one for his mother, though Jadis, who has eaten one and won an endless life she already hates, urges him to do both. Aslan tells him plainly that a stolen apple would have healed his mother and made them both wretched afterwards. The apple Digory carried honestly is planted by the river and grows at once into a tall tree whose smell the Witch cannot endure, so she flees far to the north and will not trouble Narnia for centuries. Frank and Helen are crowned as the country's first King and Queen, and Strawberry, now the winged horse Fledge, stays with them. Aslan then gives Digory an apple from the new tree for his mother, and sends the children and Uncle Andrew home. Digory's mother recovers. Uncle Andrew, badly shaken by everything he has seen, gives up magic for good, though he never stops telling people about the magnificent woman he once entertained. The children bury the apple core and the rings in the back garden so that nobody can use them again. A tree grows from the core; years later a storm blows it down, and Digory, by then a professor, has its timber made into a wardrobe.",
+        "in_short": "In London at the turn of the century, Digory Kirke and his neighbour Polly Plummer blunder into the study of Digory's Uncle Andrew, an amateur magician who tricks them into testing rings that carry the wearer between worlds. By way of a quiet wood full of pools they reach Charn, a dead city, where Digory strikes an enchanted bell and wakes its last queen, Jadis, who destroyed every living thing in her own world rather than lose a war. She follows them back to London, terrorises the city, and is dragged with them, along with a cabman named Frank and his horse, into an empty darkness where a Lion is singing a new world into being. Aslan makes Frank and his wife the first King and Queen of Narnia, and sends Digory west to fetch an apple that will guard the country against the witch he has let in. Digory resists the temptation to steal a second apple for his dying mother; the planted apple becomes a guardian tree, and Aslan gives him one for her freely. She recovers, the rings are buried, and the tree that grows from the buried core is eventually made into a wardrobe.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "book",
+            "text": "Digory Kirke has been brought to London while his father is abroad and his mother lies dangerously ill, and is living in his aunt and uncle's house in a long terrace. He makes friends with Polly Plummer next door, and they set out to explore the tunnel that runs behind all the attics of the row. They miscount the doors and come out, not in an empty house, but in the forbidden study at the top of Digory's own home, where Uncle Andrew is waiting. Andrew tricks Polly into touching a yellow ring and she vanishes on the spot. He then explains himself: his godmother, Mrs Lefay, left him a sealed box of dust from a lost world, and from it he has made rings, yellow ones that take you out of our world and green ones that bring you back. Too cowardly to test them himself, he has used the children instead, and he sends Digory after Polly with the green rings. Digory arrives in a still, drowsy wood full of small pools, where it is hard to stay curious about anything. Finding Polly, he works out that each pool is a doorway to a different world. They mark their own pool carefully so they can get home, and agree to look into one other world before returning.",
+            "through": {
+              "chapter": 3
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The children jump into another pool and come out in Charn: a vast, silent, ruined city under a huge red sun that is plainly dying. Inside a great hall they find rows of seated figures in rich clothes, kings and queens whose faces grow crueller the further along the line they go, ending with a woman more beautiful and more terrible than the rest. In the middle of the room stands a small pillar with a golden bell and hammer and an inscription daring whoever finds it either to strike the bell or to wonder for ever what would have happened. Polly is firmly against it. Digory strikes it anyway. The last figure wakes: Jadis, the Queen of Charn. She marches the children through her dead city and tells them, without shame, that she lost a civil war against her sister and spoke a word she had paid a terrible price to learn, killing every living thing in the world in an instant so that no one else could have it. When she seizes the children to keep them, Digory's ring carries all three of them out through the wood and on into London.",
+            "through": {
+              "chapter": 5
+            }
+          },
+          {
+            "scope": "book",
+            "text": "In London most of Jadis's magic fails her, but her strength and her nerve do not. She takes Uncle Andrew as a servant, orders him to fetch her jewels and a carriage, and spends the day making herself notorious across the city. Uncle Andrew, sobered and terrified, discovers that hosting a queen is far less enjoyable than it sounded. When Jadis is brought back to the house she throws Aunt Letty across the room, then drives off in a stolen hansom cab with its driver, Frank, and his horse, Strawberry. Digory and Polly follow the uproar and find her at a lamp-post, having wrenched an iron crossbar loose to fight off the police and the crowd. Digory catches hold of her heel with a ring on his hand, and the whole knot of people is dragged along with him: Polly, Jadis, Uncle Andrew, Frank and Strawberry. They pass through the wood between the worlds and fall out into an empty, lightless nowhere with no ground worth the name.",
+            "through": {
+              "chapter": 8
+            }
+          },
+          {
+            "scope": "book",
+            "text": "In the darkness a voice begins to sing. Stars answer it, a sun rises, and a young country grows visibly out of bare earth: grass, then trees, then rivers, then animals humping themselves up out of the soil. The singer is an enormous Lion. Jadis, who hates the singing, hurls the iron bar at him; it bounces off harmlessly and takes root as a lamp-post standing alone in the new grass, and she flees north. The Lion, whose name is Aslan, chooses pairs of animals, breathes on them and gives them speech, naming them the Talking Beasts of Narnia and warning them not to go back to the ways of dumb beasts. Uncle Andrew, who has persuaded himself that the singing is only roaring and the speech only barking, hides in terror; the beasts catch him, take him for a kind of tree, and plant him in the ground until they realise their mistake. Aslan sets Digory apart from the rest, because the evil that has already entered his new world came in through Digory, and it will be Digory's business to help set it right.",
+            "through": {
+              "chapter": 10
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Aslan crowns Frank and his wife Helen, who is called out of London to join him, as the first King and Queen of Narnia, and tells them their children will people the country. He then hears Digory's account of the bell and the Witch, and gives him his task: to ride far to the west, to a green hill with a walled garden on top, and bring back an apple from the tree there. Aslan gives Strawberry wings and a new name, Fledge, and the horse carries Digory and Polly over rivers, forests and mountains for a day and a night. Digory, who has been carrying the hope that Aslan might save his dying mother and has not yet dared to ask, has to leave it unsaid; Polly, more practical, is the one who thinks to bring food. They come down at last beside the hill of the garden.",
+            "through": {
+              "chapter": 12
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The gates of the garden warn that the fruit is for others and that anyone who steals it will find their heart's desire and despair. Digory picks the apple he was sent for and finds Jadis inside the walls, her mouth stained with juice: she has eaten one and gained a life that will not end. She urges him to eat one himself, or better, to take it home and heal his mother, and to leave Polly behind. He refuses and flies back. Aslan tells him that a stolen apple would indeed have healed his mother, and would have made them both wish she had died instead, and that the Witch has bought endless days at the price of hating them. The apple Digory brought is planted and grows at once into a great tree that will keep the Witch far from Narnia for centuries. Then Aslan gives Digory an apple from that tree to take to his mother, and sends the whole party home. His mother recovers; Uncle Andrew gives up magic; the children bury the apple core with the rings in the garden. The tree that grows there is blown down many years later, and Digory, by then Professor Kirke, has the wood made into a wardrobe.",
+            "through": {
+              "chapter": 15
+            }
+          }
+        ],
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge",
+            "type": "community"
+          }
+        ],
+        "work": "the-magicians-nephew"
+      }
+    },
     "the-magnificent-ambersons": {
       "characters": {
         "characters": [
