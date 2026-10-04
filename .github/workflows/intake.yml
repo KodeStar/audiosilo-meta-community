@@ -106,12 +106,12 @@ jobs:
       ))
     steps:
       - name: Checkout main
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: main
 
       - name: Checkout the core tooling
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: ${{ env.CORE_REPO }}
           ref: ${{ env.CORE_REF }}
@@ -129,7 +129,7 @@ jobs:
           sparse-checkout-cone-mode: false
 
       - name: Set up Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v7
         with:
           go-version-file: core/go.mod
 
@@ -219,7 +219,7 @@ jobs:
 
       - name: Open the pull request
         if: steps.run.outputs.status == 'ok'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           # A PR created with the default GITHUB_TOKEN triggers NO pull_request
           # workflows (GitHub's recursion guard), so the "check" gate never runs
@@ -289,7 +289,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           # The rebase needs real history, and the PAT (when present) is what
           # makes the force-push re-trigger the required checks - the same
@@ -298,7 +298,7 @@ jobs:
           token: ${{ secrets.INTAKE_PAT || github.token }}
 
       - name: Checkout the core tooling
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: ${{ env.CORE_REPO }}
           ref: ${{ env.CORE_REF }}
@@ -314,7 +314,7 @@ jobs:
           sparse-checkout-cone-mode: false
 
       - name: Set up Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v7
         with:
           go-version-file: core/go.mod
 
