@@ -1383,6 +1383,20 @@
         "work": "the-call-of-cthulhu"
       }
     },
+    "the-call-of-the-wild": {
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-10-09",
+            "ref": "gutenberg:215",
+            "type": "community"
+          }
+        ],
+        "text": "Buck is four years old, a heavy dog of St. Bernard and Scotch shepherd blood, and the undisputed lord of Judge Miller's estate in the sunny Santa Clara Valley of California. He knows nothing of the gold strike in the Klondike that has sent men rushing into the frozen North, nor of the demand it has created for strong dogs with warm coats, nor that one of the gardener's helpers, Manuel, has gambling debts. One evening Manuel leads him away and sells him. Shut in a crate and shipped north, Buck learns from a man in a red sweater armed with a club that he can no longer have his own way, and on the beach at Dyea he is put into harness with a team hauling Canadian government despatches, among dogs who live by a hard law of their own. Jack London's novel follows Buck's life on the trail.",
+        "work": "the-call-of-the-wild"
+      }
+    },
     "the-call-of-the-wild-adaptation": {
       "characters": {
         "characters": [

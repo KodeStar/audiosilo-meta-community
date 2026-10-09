@@ -1042,6 +1042,20 @@
         "work": "running-blind"
       }
     },
+    "rupert-of-hentzau": {
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-10-09",
+            "ref": "gutenberg:1145",
+            "type": "community"
+          }
+        ],
+        "text": "Three years have passed in Ruritania. Queen Flavia's royal marriage set the whole country celebrating, but the king is a sick, suspicious man, jealous of the Englishman Rudolf Rassendyll, and the queen's only consolation is a few words sent to Rassendyll in secret once a year, with a few words back. Worn down at last, she writes him a real letter of farewell and gives it to her loyal friend Fritz von Tarlenheim, who narrates this sequel, to carry to a meeting at Wintenberg. Rupert of Hentzau, the charming and unscrupulous young noble now living in exile, has been watching for exactly this kind of chance: a letter that could ruin the queen if it ever reached her husband. Anthony Hope's sequel to The Prisoner of Zenda brings Rassendyll back into the affairs of the kingdom.",
+        "work": "rupert-of-hentzau"
+      }
+    },
     "russian-roulette": {
       "characters": {
         "characters": [

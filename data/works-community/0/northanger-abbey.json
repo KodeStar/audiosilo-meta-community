@@ -125,6 +125,18 @@
         ],
         "work": "northanger-abbey"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-10-09",
+            "ref": "gutenberg:121",
+            "type": "community"
+          }
+        ],
+        "text": "Nothing about Catherine Morland, a country clergyman's daughter from a family of ten children, suggests that she was meant to be the heroine of a novel, and her narrator says so with some amusement. At seventeen she is good-natured, unworldly and devoted to the Gothic romances of the day, and when the Allens, the wealthy neighbours who own most of the land around her Wiltshire village, take her with them to Bath for six weeks, she goes out into society for the first time. There she is introduced to Henry Tilney, a quick-witted young clergyman who teases her about her reading and the journal he assumes she keeps, and is swept into an intense friendship with Isabella Thorpe, whose brother John is a boastful friend of Catherine's own brother. Austen's own note to the reader says the book was completed in 1803 and then sold to a publisher who never brought it out. It is both a comedy of a girl's first season and a parody of the fiction she loves.",
+        "work": "northanger-abbey"
+      },
       "recaps": {
         "ending": "After General Tilney expels Catherine without warning, she travels home alone and concludes that Henry must obey his father and abandon her. Henry instead follows her to Fullerton. He explains that the General had welcomed Catherine because John Thorpe had exaggerated the Allens' wealth and implied that she was their heir; after quarreling with John, the General heard an equally false account of her poverty and ordered her away. Henry rejects his father's conduct and asks Catherine to marry him. Her parents approve in principle but insist that the General must consent. The delay ends when Eleanor marries a man she has long loved, whose unexpected inheritance gives him wealth and a title. This connection, along with a more accurate understanding of the Morlands' comfortable circumstances, softens the General's opposition. Catherine and Henry marry, with their mutual attachment strengthened by the difficulties produced by vanity, presumption, and misinformation.",
         "in_short": "Seventeen-year-old Catherine Morland visits Bath, where she befriends the theatrical Isabella Thorpe and falls for the witty clergyman Henry Tilney. Isabella becomes engaged to Catherine's brother James but abandons him in pursuit of Henry's older brother, while Isabella's boastful brother John wrongly assumes Catherine will marry him. Invited to the Tilneys' home, Northanger Abbey, Catherine lets Gothic fiction shape suspicions about the death of Henry's mother. Henry corrects her, and Catherine learns to judge ordinary selfishness more clearly. General Tilney, who welcomed her after John exaggerated her wealth, abruptly sends her home when John later disparages her prospects. Henry defies his father, follows Catherine, and proposes. The couple must wait for consent, but Eleanor Tilney's advantageous marriage and the truth about the Morlands' finances reconcile the General to the match. Catherine and Henry marry, while Isabella's schemes leave her without either James or Frederick Tilney.",
@@ -3716,6 +3728,69 @@
           }
         ],
         "work": "obsidio"
+      }
+    },
+    "octopussy-and-the-living-daylights-and-other-stories": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A veteran British Secret Service officer with double-0 status. Across these stories he acts as investigator, observer, and armed field agent, applying professional judgment even when an assignment leaves room for mercy.",
+            "id": "james-bond",
+            "name": "James Bond",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "The head of the British Secret Service and Bond's commanding officer. M assigns Bond to sensitive work and expects him to protect the Service's interests without public recognition.",
+            "id": "m",
+            "name": "M",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "M's secretary at Secret Service headquarters and a longstanding colleague of Bond's. She manages access to M and forms part of the familiar office structure behind Bond's field assignments.",
+            "id": "miss-moneypenny",
+            "name": "Miss Moneypenny",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          }
+        ],
+        "work": "octopussy-and-the-living-daylights-and-other-stories"
+      },
+      "recaps": {
+        "in_short": "Four short pieces show different sides of James Bond's work. In “Octopussy,” Bond confronts retired Major Dexter Smythe in Jamaica with evidence that Smythe murdered Bond's former ski instructor, Hannes Oberhauser, for hidden Nazi gold; left briefly at liberty, Smythe dies in the sea beside the octopus he has fed for years. In “The Property of a Lady,” Bond attends a Sotheby's auction where a Fabergé object is being used to reward double agent Maria Freudenstein, and observation of the bidding identifies her Soviet controller. In “The Living Daylights,” Bond covers a British agent's escape across the Berlin border and deliberately wounds, rather than kills, the opposing sniper when he recognizes a young cellist he has watched from afar. “007 in New York” is a brief travel vignette following Bond through Manhattan as he prepares to warn a British colleague that her lover is a Soviet agent.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: James Bond is an experienced double-0 officer of the British Secret Service, serving under M on missions that may require espionage, investigation, or lethal force.",
+            "through": {
+              "chapter": 0
+            }
+          }
+        ],
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          }
+        ],
+        "work": "octopussy-and-the-living-daylights-and-other-stories"
       }
     }
   }
