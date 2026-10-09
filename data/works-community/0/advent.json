@@ -4764,6 +4764,20 @@
         "work": "alice-through-the-looking-glass-dramatized"
       }
     },
+    "alices-adventures-in-wonderland": {
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-10-09",
+            "ref": "gutenberg:11",
+            "type": "community"
+          }
+        ],
+        "text": "On a drowsy summer afternoon, sitting on a riverbank beside her sister with nothing to do, Alice sees a White Rabbit hurry past, check its pocket watch and fret about being late. She runs after it, follows it down a rabbit-hole and falls a very long way into a hall of locked doors, where a tiny golden key, a bottle labelled DRINK ME and a cake marked EAT ME leave her by turns too small and too large to reach the lovely garden she can glimpse through a little door. What follows is a string of encounters with talking creatures who argue, recite and keep rules and manners entirely their own, while Alice tries to keep her temper, her sense and her proper size. This is the first of Lewis Carroll's two Alice books.",
+        "work": "alices-adventures-in-wonderland"
+      }
+    },
     "alices-adventures-in-wonderland-adaptation": {
       "characters": {
         "characters": [

@@ -3820,6 +3820,18 @@
         ],
         "work": "the-adventures-of-sherlock-holmes"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-10-09",
+            "ref": "gutenberg:1661",
+            "type": "community"
+          }
+        ],
+        "text": "Twelve short cases narrated by Dr Watson, each complete in itself. A masked king wants help recovering a compromising photograph from a former lover who threatens to use it; a red-headed pawnbroker is paid handsomely to spend his days copying out an encyclopaedia; a lost hat and a Christmas goose lead to a stolen jewel; a young woman who fears for her life in her stepfather's old country house describes the strange whistle she hears at night. Other stories take Holmes from a London opium den to a bride who vanishes on her wedding day and a governess offered a suspiciously generous post. The collection is the third book of the Sherlock Holmes series.",
+        "work": "the-adventures-of-sherlock-holmes"
+      },
       "recaps": {
         "in_short": "Watson presents twelve independent investigations from his association with Sherlock Holmes. The volume opens with Holmes meeting Irene Adler in \"A Scandal in Bohemia\" and proceeds through problems involving missing people, strange inheritances, threatened households, disputed identities, and objects whose importance is not immediately apparent. Holmes moves between private drawing rooms, London streets, country estates, and Scotland Yard inquiries, using observation and inference while Watson supplies the narrative record and a humane view of clients in distress. Inspector Lestrade and Mrs Hudson recur around the Baker Street partnership, but each adventure brings its own client and mystery. The stories establish the durable pattern of a visitor at 221B Baker Street, an investigation that challenges the first account of events, and an explanation assembled from details others have overlooked, without forming a single continuous plot.",
         "license": "CC-BY-SA-4.0",

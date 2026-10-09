@@ -1614,6 +1614,18 @@
         ],
         "work": "around-the-world-in-eighty-days"
       },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-10-09",
+            "ref": "gutenberg:103",
+            "type": "community"
+          }
+        ],
+        "text": "Phileas Fogg is a wealthy, exact and solitary London gentleman who lives by the clock at the Reform Club and has just taken on a new French manservant, Passepartout, who hopes for a quiet post. That same evening, over whist, the club falls to arguing about a newspaper's claim that new railways and steamer lines mean a traveller can now go round the world in eighty days. Fogg says it can be done and stakes twenty thousand pounds, half his fortune, that he will do it himself, leaving that very night and returning to the club by a quarter to nine on the evening of 21 December. With a carpet-bag of banknotes and a bewildered Passepartout he sets off for the Continent and the Suez Canal. A robbery at the Bank of England a few days earlier has put detectives on the watch at the ports, and the description of the thief fits Fogg rather too well.",
+        "work": "around-the-world-in-eighty-days"
+      },
       "recaps": {
         "ending": "Fogg reaches London believing that delays and Fix's mistaken arrest have cost him the wager. Having spent much of his fortune and withdrawn from public view, he nevertheless offers to marry Aouda after she declares her love for him. When Passepartout visits a clergyman to arrange the ceremony, he discovers that the date is Saturday rather than Sunday. By traveling eastward around the globe, the party crossed the international date line and gained a calendar day without realizing it. Passepartout races back with the news, and Fogg reaches the Reform Club seconds before the agreed deadline, winning the wager. His travel costs leave little financial profit, which he shares with Passepartout and Fix, but the journey has brought Aouda into his life. Fogg and Aouda marry, making their relationship - not the money - the lasting result of the voyage.",
         "in_short": "Phileas Fogg wagers members of London's Reform Club that new transport links make it possible to circle the world in eighty days. He leaves at once with his French servant Passepartout. Detective Fix mistakes him for a bank robber and follows while awaiting a warrant. In India, Fogg sacrifices time to rescue Aouda, who then travels with the party. Missed ships, storms, Passepartout's separation, a railway attack in America, and an improvised Atlantic crossing repeatedly consume their margin. Fix finally arrests Fogg in Liverpool, only to release him when the real robber is identified. Fogg reaches London believing he is late and ruined. After Aouda proposes that they marry, Passepartout learns that eastward travel across the date line has gained them a day. Fogg arrives at the Reform Club just before the deadline and wins. He gains little money after expenses, but marries Aouda.",
@@ -2233,6 +2245,20 @@
           }
         ],
         "work": "arsenic-and-old-lace"
+      }
+    },
+    "art-of-war": {
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-10-09",
+            "ref": "gutenberg:132",
+            "type": "community"
+          }
+        ],
+        "text": "A short treatise on warfare from ancient China, traditionally credited to Sun Tzu, a general said to have served the king of Wu around the end of the sixth century BC. Its thirteen chapters are made up of brief numbered sayings. It opens with the planning that should come before any campaign, weighing a state's prospects against five fundamental factors, among them the qualities of the commander and the discipline of the army, and moves on through the cost of war, attack by stratagem, the use of ground, the conduct of an army on the march, attack by fire and, last, the employment of spies. Throughout, it treats war as a matter of life and death for the state, decided by calculation, deception and timing rather than courage alone, and holds that the best victory is the one won without a battle.",
+        "work": "art-of-war"
       }
     },
     "artificial-condition": {
