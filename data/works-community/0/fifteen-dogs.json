@@ -4,7 +4,7 @@
       "characters": {
         "characters": [
           {
-            "description": "A Greek god who argues that animals would be even more miserable than humans if given human intelligence. He accepts a wager with Hermes and grants consciousness to the dogs staying overnight at a Toronto veterinary clinic.",
+            "description": "The god of poetry and prophecy, encountered drinking with Hermes in a Toronto tavern. He argues that human intelligence would make other animals more miserable rather than happier and accepts a wager to test the claim on a group of dogs.",
             "id": "apollo",
             "name": "Apollo",
             "reveal": {
@@ -13,7 +13,7 @@
             "role": "supporting"
           },
           {
-            "description": "The Greek god who disputes Apollo's bleak judgment of mortals. He wagers that if dogs receive human intelligence, at least one will die happy, and he follows the animals' lives with sympathy while remaining bound by the terms of the bet.",
+            "description": "The quick-minded divine messenger and Apollo's companion in the tavern. He takes the more hopeful side of their argument about consciousness, helping grant fifteen hospitalized dogs human intelligence and observing what follows.",
             "id": "hermes",
             "name": "Hermes",
             "reveal": {
@@ -22,16 +22,16 @@
             "role": "supporting"
           },
           {
-            "description": "A powerful mastiff who emerges as the leader of the escaped dogs. He values the inherited order of canine life and sees the new capacity for abstract thought as a threat to the pack's unity and to his authority.",
+            "description": "A physically imposing dog who becomes the dominant leader after the awakened animals escape. He values the inherited instincts, hierarchy, and social order of dogs, and regards the new humanlike habits of speech and reflection as threats to the pack.",
             "id": "atticus",
             "name": "Atticus",
             "reveal": {
               "chapter": 1
             },
-            "role": "antagonist"
+            "role": "supporting"
           },
           {
-            "description": "A black poodle among the dogs transformed by Apollo and Hermes. Thoughtful and independent, he is less willing than Atticus to suppress the dogs' new intelligence and eventually seeks a way to live in the human city.",
+            "description": "A black poodle whose intelligence makes him curious about cooperation and communication beyond ordinary canine life. He initially shares authority within the escaped group, but his willingness to explore their new capacities puts him at odds with Atticus's vision of the pack.",
             "id": "majnoun",
             "name": "Majnoun",
             "reveal": {
@@ -40,16 +40,7 @@
             "role": "protagonist"
           },
           {
-            "description": "A small, clever dog whose intelligence is joined to a strong instinct for self-preservation. He reads the pack's shifting loyalties quickly and attaches himself to those most likely to protect him.",
-            "id": "benjy",
-            "name": "Benjy",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "One of the transformed dogs and the most devoted to the language the pack invents. He delights in sound, pattern, and metaphor, composing poems that preserve a distinctly canine way of sensing the world.",
+            "description": "One of the fifteen dogs, distinguished by the pleasure he takes in the new language. He invents poems shaped by canine senses and experience, an activity that makes expressive use of the gods' gift but separates him from pack members who distrust it.",
             "id": "prince",
             "name": "Prince",
             "reveal": {
@@ -58,22 +49,31 @@
             "role": "protagonist"
           },
           {
-            "description": "A Toronto woman who takes in Majnoun and treats him as a thinking companion rather than a pet. Patient and curious, she builds a shared vocabulary with him and tries to understand the boundaries between human and canine experience.",
-            "id": "nira",
-            "name": "Nira",
+            "description": "A small, clever member of the transformed group who is especially alert to hierarchy and to shifts in the other dogs' behavior. His quick reading of danger helps him navigate the pack's unsettled first days.",
+            "id": "benjy",
+            "name": "Benjy",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
           {
-            "description": "Nira's husband. He is less comfortable than she is with Majnoun's unusual awareness and with the intense bond that develops between the woman and the dog.",
+            "description": "A Toronto woman who takes Majnoun into her household. Patient, imaginative, and willing to treat him as a mind rather than a possession, she works with him to develop a private system of communication and becomes his closest companion.",
+            "id": "nira",
+            "name": "Nira",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Nira's husband, who shares a home with her and Majnoun. He is less absorbed by the dog's unusual consciousness than Nira is, and the intense bond between them creates an unfamiliar shape within the household.",
             "id": "miguel",
             "name": "Miguel",
             "reveal": {
-              "chapter": 2
+              "chapter": 3
             },
-            "role": "supporting"
+            "role": "minor"
           }
         ],
         "license": "CC-BY-SA-4.0",
