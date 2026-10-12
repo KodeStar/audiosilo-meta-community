@@ -4600,7 +4600,7 @@
             "role": "supporting"
           },
           {
-            "description": "A painter working in St Mary Mead who is restoring a tomb at the church and painting Anne Protheroe's portrait. Lawrence is personable and impulsive, but his open quarrel with Colonel Protheroe and his closeness to Anne make him an immediate figure of interest after the shooting.",
+            "description": "A painter working in St Mary Mead who is restoring a tomb at the church and painting Anne Protheroe's portrait. Lawrence is personable and impulsive.",
             "id": "lawrence-redding",
             "name": "Lawrence Redding",
             "reveal": {
@@ -4621,7 +4621,7 @@
             "role": "supporting"
           },
           {
-            "description": "Leonard's anxious curate. Hawes is troubled by ill health and by the prospect of Colonel Protheroe examining the church accounts. His nervous behavior gives the police reason to scrutinize him closely.",
+            "description": "Leonard's anxious curate. Hawes is troubled by ill health and by the prospect of Colonel Protheroe examining the church accounts.",
             "id": "hawes",
             "name": "Hawes",
             "reveal": {
@@ -4666,7 +4666,7 @@
             "role": "supporting"
           },
           {
-            "description": "A visiting archaeologist directing a dig on Colonel Protheroe's land. His claims about the excavation and the identity of his talkative secretary, Miss Cram, create a separate mystery during the murder inquiry.",
+            "description": "A visiting archaeologist directing a dig on Colonel Protheroe's land. His claims about the excavation and the identity of his talkative secretary, Miss Cram, create a separate mystery.",
             "id": "doctor-stone",
             "name": "Doctor Stone",
             "reveal": {
