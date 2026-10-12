@@ -686,7 +686,7 @@
         "work": "hedda-gabler-henrik-ibsen"
       }
     },
-    "heidi-amazonclassics-edition": {
+    "heidi": {
       "characters": {
         "characters": [
           {
@@ -824,7 +824,7 @@
             "type": "community"
           }
         ],
-        "work": "heidi-amazonclassics-edition"
+        "work": "heidi"
       },
       "recaps": {
         "ending": "Peter, jealous of the time Heidi spends with Clara, pushes Clara's empty wheelchair down the mountain, where it is destroyed. Without it, Clara gradually discovers that she can stand and then walk with Heidi and Grandfather's help. When Mr. Sesemann and his mother arrive, Clara walks toward them, transforming their alarm into astonished joy. Peter's guilt is exposed, but Clara's grandmother calms his fear and forgives him, while making clear that he must not repeat the act. The visitors leave grateful for Clara's recovery and promise that the friendships between Frankfurt and the mountain will continue. Doctor Classen, who has found renewed purpose in Heidi's company after his own loss, offers to take responsibility for her when Grandfather can no longer do so. Grandfather is relieved that Heidi's future will be secure. Heidi remains in the mountain home she loves, surrounded by an enlarged circle of friends and with practical care assured for Peter's grandmother.",
@@ -881,199 +881,7 @@
             "type": "community"
           }
         ],
-        "work": "heidi-amazonclassics-edition"
-      }
-    },
-    "heidi-paperless-edition": {
-      "characters": {
-        "characters": [
-          {
-            "description": "A cheerful five-year-old orphan whose aunt takes her to live with her reclusive grandfather high on a Swiss alp. Heidi is trusting, curious, and immediately delighted by the mountain, the fir trees, and her new home.",
-            "id": "heidi",
-            "name": "Heidi",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
-            "aliases": [
-              "Alm-Uncle"
-            ],
-            "description": "Heidi's paternal grandfather, who lives alone in a hut above the village. The villagers regard him as forbidding and unsociable, but he accepts responsibility for Heidi when Dete leaves her with him.",
-            "id": "grandfather",
-            "name": "Grandfather",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Heidi's aunt and former guardian. Having found employment away from the village, she brings Heidi to Grandfather and insists that he must now care for the child.",
-            "id": "dete",
-            "name": "Dete",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The village boy who takes the local goats to pasture each day. He becomes Heidi's first young companion on the mountain and teaches her the routines and hazards of the herd.",
-            "id": "peter",
-            "name": "Peter",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Peter's mother, who lives with Peter and his blind grandmother in a small, weathered house below the alp.",
-            "id": "brigitte",
-            "name": "Brigitte",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "minor"
-          },
-          {
-            "aliases": [
-              "Grannie"
-            ],
-            "description": "Peter's elderly blind grandmother. She welcomes Heidi warmly and treasures the child's visits, conversation, and concern for the family's uncomfortable home.",
-            "id": "peters-grandmother",
-            "name": "Peter's Grandmother",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "Clara"
-            ],
-            "description": "A girl in Frankfurt who cannot walk and spends much of her time in a wheeled chair. Lonely despite her wealthy household, she is pleased when Heidi arrives to be her companion.",
-            "id": "clara-sesemann",
-            "name": "Clara Sesemann",
-            "reveal": {
-              "chapter": 6
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The strict housekeeper who controls the Sesemann home in Clara's father's absence. Formal and easily unsettled, she expects Heidi to adapt at once to the household's lessons and rules.",
-            "id": "miss-rottenmeier",
-            "name": "Miss Rottenmeier",
-            "reveal": {
-              "chapter": 6
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A good-natured servant in the Sesemann household. He is amused by Heidi's unconventional behavior and often treats her more kindly than the housekeeper does.",
-            "id": "sebastian",
-            "name": "Sebastian",
-            "reveal": {
-              "chapter": 6
-            },
-            "role": "minor"
-          },
-          {
-            "description": "Clara's frequently absent father. When he returns to Frankfurt, he tries to judge fairly between Miss Rottenmeier's complaints and Clara's affection for Heidi.",
-            "id": "mr-sesemann",
-            "name": "Mr. Sesemann",
-            "reveal": {
-              "chapter": 9
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "Grandmamma"
-            ],
-            "description": "Clara's warm, perceptive grandmother. She quickly understands Heidi better than the rest of the Frankfurt household and patiently encourages the child in her reading.",
-            "id": "mrs-sesemann",
-            "name": "Mrs. Sesemann",
-            "reveal": {
-              "chapter": 10
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A trusted physician and friend of the Sesemann family who is asked to investigate the strange nighttime disturbances in their house.",
-            "id": "doctor-classen",
-            "name": "Doctor Classen",
-            "reveal": {
-              "chapter": 12
-            },
-            "role": "supporting"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "heidi-paperless-edition"
-      },
-      "recaps": {
-        "ending": "Clara's father and grandmother reach the alp after hearing that Clara has learned to walk. They see her cross the meadow on her own and recognize how greatly life with Heidi and Grandfather has strengthened her. Peter admits that he destroyed the wheelchair, and Clara's grandmother responds with forgiveness after making clear that the act was wrong. Mr. Sesemann and Grandfather discuss Heidi's future. Grandfather does not want to leave the mountain, but Doctor Classen promises to live nearby and care for Heidi if she ever loses him. Mr. Sesemann undertakes to provide for her as well. Clara returns to Frankfurt with her family, grateful and restored, while Heidi remains in the mountain home she loves, secure in her friendships and her future.",
-        "in_short": "Orphaned Heidi is taken to her solitary grandfather on a Swiss alp and thrives among the mountains, goats, and her new friends Peter and his blind grandmother. After three happy years, Aunt Dete removes her to Frankfurt as a companion for Clara Sesemann, a wealthy girl who cannot walk. Heidi and Clara become devoted friends, but Heidi's longing for home makes her ill and causes her to wander in her sleep. She returns to Grandfather, whose love for her draws him back into village life. Doctor Classen later visits the alp and finds comfort there after a bereavement. Clara eventually joins Heidi for the summer. Fresh air, exercise, and determination make her stronger; after jealous Peter destroys her wheelchair, necessity helps Clara take independent steps. Her family arrives to find her walking. Clara returns home restored, while provisions made by her father and the doctor ensure that Heidi can remain safely with Grandfather on the mountain.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "book",
-            "text": "Aunt Dete leads five-year-old Heidi up a Swiss alp and leaves the orphan with her paternal grandfather, a solitary man mistrusted in the village. Grandfather responds more gently than expected: he gives Heidi a bed in the hayloft, prepares her meals, and makes a sturdy stool for her. Heidi embraces mountain life and soon accompanies Peter, the village goatherd, to the high pasture. She learns to watch the goats and is awed by the peaks at sunset. When Peter roughly disciplines a goat, Heidi persuades him to stop. She later visits his small home and befriends his blind grandmother, who is delighted by Heidi's voice and company. Heidi asks Grandfather to repair the old house, showing how quickly her concern has expanded beyond her own happiness.",
-            "through": {
-              "chapter": 4
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Heidi spends three healthy years with Grandfather before Dete returns with an offer from a rich family in Frankfurt seeking a companion for their daughter. Dete takes Heidi away despite the child's wish to stay. In the Sesemann home, Heidi meets Clara, who cannot walk, and the severe housekeeper Miss Rottenmeier. Heidi's plain speech, lack of schooling, and unfamiliarity with city customs cause repeated conflict, though Clara enjoys her company and the servant Sebastian treats her kindly. Longing to see the mountains, Heidi tries to find a high viewpoint over the city and returns with a street boy and a basket of kittens, throwing the formal household into disorder. She and Clara grow close, but Frankfurt feels increasingly confining to her.",
-            "through": {
-              "chapter": 8
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Mr. Sesemann returns and, after hearing both Miss Rottenmeier and Clara, permits Heidi to remain. Clara's grandmother then visits, recognizes Heidi's homesickness, and helps her discover that learning to read will let her share hymns with Peter's blind grandmother. Heidi makes rapid progress but hides her sorrow because she has been told that leaving would hurt Clara. Her health and spirits decline. At night, a white figure repeatedly appears near the open front door, alarming the servants. Mr. Sesemann and Doctor Classen keep watch and discover that the supposed ghost is Heidi walking in her sleep. The doctor concludes that suppressed homesickness is making her seriously ill and advises that she be sent back to the alp immediately.",
-            "through": {
-              "chapter": 12
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Heidi travels home with gifts and is joyfully reunited with Grandfather, Peter, the goats, and Peter's grandmother. Her health returns quickly. She reads hymns aloud to the blind woman and shares the lessons in faith and patience that Clara's grandmother taught her. Heidi also urges Grandfather to rejoin the village community. He attends church with her, makes peace with the pastor, and arranges to spend the winters in an old house in Dorfli so Heidi can attend school. In Frankfurt, Clara hopes to visit the alp, but Doctor Classen decides that the journey would initially be too demanding for her. Grieving the recent death of his daughter, he goes in her place. Heidi and Grandfather welcome him, and the quiet mountain life begins to ease his sorrow.",
-            "through": {
-              "chapter": 16
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Doctor Classen returns to Frankfurt refreshed and reports warmly on Heidi's life. Grandfather and Heidi move down to Dorfli for the winter, allowing Heidi to attend school. Peter resists learning to read until Heidi warns him, in terms he takes very seriously, about the consequences of continued neglect; he then works hard enough to surprise his teacher and delight his grandmother. When spring returns, Heidi and Grandfather go back to the alp. Letters from Frankfurt renew the plan for Clara to visit once the weather is suitable. Preparations are made carefully for her needs, and Clara's family agrees that she may spend the summer in the mountain air with Heidi.",
-            "through": {
-              "chapter": 20
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Clara arrives on the alp with her grandmother and settles into Grandfather's care after the older woman returns to the village. Nourishing food, open air, and time outdoors with Heidi steadily strengthen her. Peter grows jealous of the attention Heidi gives Clara and pushes Clara's empty wheelchair down the mountain, where it breaks apart. Without it, Clara is encouraged to stand and then discovers that she can take steps with support. Practice turns those first efforts into independent walking. When Mr. Sesemann and Clara's grandmother arrive, Clara surprises them by crossing the meadow on foot. Peter eventually confesses what he did and is forgiven. Mr. Sesemann, Doctor Classen, and Grandfather make arrangements ensuring Heidi will be cared for in the future. Clara returns to Frankfurt restored, and Heidi remains happily with Grandfather on the alp.",
-            "through": {
-              "chapter": 23
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "heidi-paperless-edition"
+        "work": "heidi"
       }
     },
     "heidi-with-ebook": {

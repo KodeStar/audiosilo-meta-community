@@ -2730,7 +2730,7 @@
       "characters": {
         "characters": [
           {
-            "description": "A lanky Connecticut schoolmaster who teaches the children of Sleepy Hollow. Sociable, ambitious, and deeply superstitious, he is drawn to ghost stories, generous meals, and the prospect of marrying the prosperous Katrina Van Tassel.",
+            "description": "A lean Connecticut schoolmaster who teaches the children of Sleepy Hollow and supplements his small income by singing lessons and helping the families who lodge him. Learned, ambitious, and highly credulous, he relishes local supernatural tales even though they leave him easily frightened. He courts Katrina Van Tassel while imagining the comfort of her father's prosperous farm.",
             "id": "ichabod-crane",
             "name": "Ichabod Crane",
             "reveal": {
@@ -2739,7 +2739,7 @@
             "role": "protagonist"
           },
           {
-            "description": "The eighteen-year-old only child of the wealthy farmer Baltus Van Tassel. Katrina's expected inheritance and social charm attract Ichabod, while her attention also sustains a rivalry between him and Brom Bones.",
+            "description": "The only child of wealthy farmer Baltus Van Tassel. Eighteen, attractive, and conscious of the attention she receives, she becomes the focus of Ichabod's hopes as well as the established object of Brom Bones's courtship.",
             "id": "katrina-van-tassel",
             "name": "Katrina Van Tassel",
             "reveal": {
@@ -2749,10 +2749,9 @@
           },
           {
             "aliases": [
-              "Brom Bones",
-              "Brom Van Brunt"
+              "Brom Bones"
             ],
-            "description": "A bold local horseman, athlete, and practical joker who is Ichabod's principal rival for Katrina. Brom prefers direct action but turns to mockery and tricks when the schoolmaster avoids a physical confrontation.",
+            "description": "A powerful, mischievous local horseman whose feats of strength and practical jokes have made him the leader of the neighborhood's young men. He is Katrina's chief suitor and treats the scholarly, awkward Ichabod as a rival to be mocked and discouraged.",
             "id": "abraham-van-brunt",
             "name": "Abraham Van Brunt",
             "reveal": {
@@ -2761,7 +2760,7 @@
             "role": "antagonist"
           },
           {
-            "description": "The prosperous and hospitable owner of the farm Ichabod hopes one day to see Katrina inherit. Baltus presides over a comfortable household whose abundance makes a powerful impression on the schoolmaster.",
+            "description": "Katrina's prosperous, hospitable father, a contented farmer whose fertile land, well-stocked barns, and comfortable household strongly attract Ichabod. He entertains the neighborhood at a harvest gathering attended by both of Katrina's principal suitors.",
             "id": "baltus-van-tassel",
             "name": "Baltus Van Tassel",
             "reveal": {
@@ -2770,7 +2769,10 @@
             "role": "supporting"
           },
           {
-            "description": "A ghostly Hessian soldier said to have been decapitated by a cannonball during the Revolutionary War. Sleepy Hollow tradition claims that he rides after dark searching for his head and must return to the churchyard before daybreak.",
+            "aliases": [
+              "The Galloping Hessian"
+            ],
+            "description": "Sleepy Hollow's most feared apparition, said to be the ghost of a Hessian soldier whose head was carried away by a cannonball during the Revolutionary War. Local tradition holds that the rider races nightly toward the churchyard in search of what he lost.",
             "id": "headless-horseman",
             "name": "The Headless Horseman",
             "reveal": {
@@ -2779,7 +2781,16 @@
             "role": "antagonist"
           },
           {
-            "description": "An easygoing villager of Dutch descent who is liked by his neighbors and children but neglects his own farm. Rip gladly works for others and retreats from household conflict by wandering with his dog and gun into the Catskill Mountains.",
+            "description": "The antiquarian narrator credited with preserving both tales. He presents them through remembered local storytellers and traditions, allowing supernatural explanations to stand beside comic and practical alternatives.",
+            "id": "diedrich-knickerbocker",
+            "name": "Diedrich Knickerbocker",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A good-natured but chronically unproductive resident of a Dutch village below the Catskill Mountains. He willingly helps neighbors and entertains children, yet neglects his own farm and retreats from work or domestic conflict whenever he can.",
             "id": "rip-van-winkle",
             "name": "Rip Van Winkle",
             "reveal": {
@@ -2788,7 +2799,7 @@
             "role": "protagonist"
           },
           {
-            "description": "Rip's forceful wife, who angrily condemns his idleness and the decline of their household. Her criticism drives him to seek peace away from home, though the story also makes clear that he has left her to manage the consequences of his inattention.",
+            "description": "Rip's forceful wife, who angrily confronts him about his idleness, the declining farm, and his habit of spending time at the village inn. Her criticism drives Rip to seek peace outside the house and eventually in the mountains.",
             "id": "dame-van-winkle",
             "name": "Dame Van Winkle",
             "reveal": {
@@ -2797,16 +2808,16 @@
             "role": "supporting"
           },
           {
-            "description": "Rip's loyal dog and companion on his mountain excursions. Wolf is brave away from the house but becomes subdued in the presence of Dame Van Winkle.",
+            "description": "Rip's loyal dog and companion on his solitary expeditions. Wolf is brave away from the house but becomes cowed when Dame Van Winkle directs her anger toward him as part of Rip's disorderly household.",
             "id": "wolf",
             "name": "Wolf",
             "reveal": {
               "chapter": 2
             },
-            "role": "minor"
+            "role": "supporting"
           },
           {
-            "description": "Rip's daughter, grown to adulthood during his absence. She is a young mother when he returns to the village and becomes the family member who recognizes and takes in the bewildered old man.",
+            "description": "Rip's young daughter before his journey into the Catskills. She is one of the children left in the neglected Van Winkle household while her father spends his time helping others or wandering with his dog.",
             "id": "judith-gardenier",
             "name": "Judith Gardenier",
             "reveal": {
@@ -2815,7 +2826,34 @@
             "role": "supporting"
           },
           {
-            "description": "An elderly villager familiar with the old Catskill traditions. His account of Hendrick Hudson's ghostly crew provides the community with an explanation for Rip's extraordinary absence.",
+            "description": "The landlord and presiding figure at the village inn, where Rip and his companions pass idle hours under the sign of King George III. He communicates his opinions largely through deliberate changes in how he smokes his pipe.",
+            "id": "nicholas-vedder",
+            "name": "Nicholas Vedder",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The village schoolmaster and a more articulate member of the inn's small circle. He reads old newspapers aloud and supplies the group with learned commentary on public events.",
+            "id": "derrick-van-bummel",
+            "name": "Derrick Van Bummel",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The Dutch explorer traditionally associated with a strange company in the Catskills. Local lore says that Hudson and the crew of the Half Moon return to the mountains at long intervals to keep watch over the river and the country they explored.",
+            "id": "hendrick-hudson",
+            "name": "Hendrick Hudson",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An elderly villager who preserves local history and recognizes the old traditions attached to the Catskills. His knowledge gives the transformed community a way to understand Rip's seemingly impossible account.",
             "id": "peter-vanderdonk",
             "name": "Peter Vanderdonk",
             "reveal": {
@@ -2835,20 +2873,20 @@
         "work": "legend-of-sleepy-hollow-and-rip-van-winkle"
       },
       "recaps": {
-        "ending": "In “The Legend of Sleepy Hollow,” Ichabod disappears after a nighttime pursuit by an apparently headless rider. His hat and a broken pumpkin are found near the church bridge. Brom Bones later marries Katrina and appears to know more about the pumpkin than he admits, while another report says Ichabod survived and built a career elsewhere. The community nevertheless keeps the supernatural account alive. In “Rip Van Winkle,” Rip returns from the Catskills after sleeping for twenty years. He finds that the American colonies have become an independent republic, his wife has died, and his children are grown. His daughter Judith recognizes him and gives him a home. Peter Vanderdonk links Rip's strange encounter to the legendary crew of Hendrick Hudson. Freed by age and changed circumstances from his old obligations, Rip resumes his place among the villagers and repeatedly tells the story of his long sleep.",
-        "in_short": "The collection pairs two tales of Hudson Valley communities where folklore reshapes ordinary lives. In Sleepy Hollow, superstitious schoolmaster Ichabod Crane courts wealthy Katrina Van Tassel in rivalry with prankster Brom Bones. After a harvest party, a headless rider chases Ichabod and strikes him with a thrown object. Ichabod disappears; a smashed pumpkin and Brom's knowing reaction suggest a trick, though local tradition favors a ghost. Brom marries Katrina, while a later report places Ichabod alive elsewhere. In the second story, idle but kindly Rip Van Winkle escapes domestic conflict by climbing into the Catskills. After drinking with a silent band of old-fashioned bowlers, he sleeps for twenty years. He returns to find his village transformed by the American Revolution, his wife dead, and his children grown. His daughter Judith takes him in, and an old villager connects the mountain company to Hendrick Hudson. Rip becomes a living link to the vanished colonial village.",
+        "ending": "The first tale leaves Ichabod Crane's fate deliberately disputed: Sleepy Hollow's believers say the Headless Horseman took him, while practical evidence points to a pumpkin-throwing prank by Brom Bones, who marries Katrina. A later report says Ichabod actually escaped and made a career elsewhere. In the second tale, Rip returns from the Catskills after sleeping through twenty years and the American Revolution. His grown daughter Judith takes him in, Peter Vanderdonk supports his account of the mountain spirits, and Rip resumes his easygoing life as a village elder. Free from his wife, who died during his absence, he tells his story to later generations, and the village absorbs his impossible experience into its local tradition.",
+        "in_short": "Two tales place comic outsiders amid the legends of old Dutch New York. In Sleepy Hollow, superstitious schoolmaster Ichabod Crane competes with Brom Bones for Katrina Van Tassel, then disappears after a night chase by a headless rider. A shattered pumpkin and Brom's knowing amusement suggest a prank, although local tradition favors the ghost. In the Catskills, idle but kindly Rip Van Winkle drinks with a mysterious old company and wakes after twenty years. He returns to find the American colonies transformed into an independent republic and his family grown or scattered. His daughter Judith welcomes him, an old villager validates the mountain legend, and Rip settles into honored old age as the teller of his extraordinary absence.",
         "license": "CC-BY-SA-4.0",
         "recaps": [
           {
             "scope": "book",
-            "text": "Sleepy Hollow is a secluded Dutch community rich in supernatural lore, especially the legend of a headless Hessian rider. Its schoolmaster, Ichabod Crane, is both fascinated and terrified by such stories. He courts Katrina Van Tassel, imagining a prosperous future on her father's farm, and competes with the athletic practical joker Brom Bones. After a harvest gathering at the Van Tassel home, Ichabod speaks privately with Katrina and leaves in low spirits. Riding home through the dark, he is pursued by a horseman who appears to carry his head before him. Near the church bridge the rider throws the object and knocks Ichabod down. By morning Ichabod is gone. Searchers find his hat beside a shattered pumpkin. Brom later marries Katrina and reacts knowingly to the story, strongly suggesting that he staged the chase. A traveler eventually reports that Ichabod survived and pursued a career elsewhere, but the valley preserves his disappearance as evidence of the Headless Horseman.",
+            "text": "In the secluded Hudson Valley community of Sleepy Hollow, Connecticut schoolmaster Ichabod Crane courts Katrina Van Tassel, the only child of a wealthy farmer, and becomes the rival of the strong local prankster Brom Bones. Ichabod is deeply susceptible to ghost stories, especially the legend of a headless Hessian who rides near the churchyard. After a harvest gathering at the Van Tassel farm, Ichabod leaves disappointed and rides home alone through the haunted valley. A huge mounted figure carrying its head before it pursues him and throws the object at the church bridge. Ichabod disappears. Searchers find his borrowed horse, a damaged saddle, and a shattered pumpkin, but no body. Brom soon marries Katrina and reacts knowingly when the pumpkin is mentioned, suggesting that he frightened Ichabod away in disguise. A later visitor reports that Ichabod survived and established a legal and political career elsewhere, though the neighborhood's believers continue to credit the Headless Horseman.",
             "through": {
               "chapter": 1
             }
           },
           {
             "scope": "book",
-            "text": "Rip Van Winkle is generous to his neighbors and popular with children, but he avoids tending his own farm and quarrels frequently with his wife over his idleness. Seeking quiet, he wanders into the Catskills with his dog Wolf. A strange man leads him to a silent company in old-fashioned dress playing at ninepins. Rip drinks their liquor and falls asleep. When he wakes, his gun is decayed, Wolf is missing, and his beard has grown long. He returns to a village he barely recognizes. Twenty years have passed, the American Revolution has replaced British rule, and political argument has transformed the old gathering place. Rip learns that his wife has died and encounters his grown children, including his daughter Judith, who recognizes him and gives him a home. The elder Peter Vanderdonk explains that Hendrick Hudson and his crew are said to revisit the mountains, supporting Rip's account. Rip settles into old age as a village storyteller, joining the new community while preserving the memory of the colonial one.",
+            "text": "Ichabod Crane's unexplained flight from Sleepy Hollow leaves both a supernatural legend and evidence of a prank by his rival Brom Bones. The second tale follows Rip Van Winkle, a kindly but idle villager who escapes domestic scolding by wandering into the Catskills with his dog, Wolf. There he helps a silent stranger carry a keg to an oddly dressed company playing ninepins. Rip drinks their liquor and falls asleep. He wakes with a long beard, a rusted gun, and no sign of Wolf. Returning home, he finds his village enlarged and politically charged, with unfamiliar residents discussing elections beneath a sign of George Washington rather than King George III. Rip gradually learns that twenty years and the American Revolution have passed. His wife is dead, old friends are gone or transformed, and a young man resembling him is his grown son. His daughter Judith recognizes him and gives him a home. The elder Peter Vanderdonk connects Rip's story to a tradition that Hendrick Hudson's crew periodically appears in the mountains. Accepted once more, Rip spends his remaining years telling his experience and serving as a living link to the vanished colonial village.",
             "through": {
               "chapter": 2
             }

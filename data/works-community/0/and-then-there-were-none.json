@@ -993,142 +993,6 @@
       "characters": {
         "characters": [
           {
-            "description": "A beautiful, intelligent, and charming aristocrat, married to the senior government official Karenin and mother to a young son. Warm and vivid where her husband is cold and formal, she is admired throughout high society. Introduced traveling to Moscow to help reconcile her brother's troubled marriage, she is a woman of strong feeling constrained by a passionless marriage and by the rigid expectations of her class.",
-            "id": "anna-karenina",
-            "name": "Anna Karenina",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
-            "description": "Anna's husband, a high-ranking St. Petersburg statesman many years her senior. Reserved, methodical, and preoccupied with duty, propriety, and his career, he is emotionally remote and uneasy with intimacy. He values the appearance of order in his household and public life above open feeling.",
-            "id": "alexei-karenin",
-            "name": "Alexei Karenin",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A wealthy, handsome cavalry officer, confident and popular in fashionable society. Accustomed to easy conquests and a life of pleasure and ambition, he is drawn into a powerful attraction that unsettles his careless self-assurance. Charming and well-mannered, he pursues what he wants with single-minded intensity.",
-            "id": "count-vronsky",
-            "name": "Alexei Vronsky",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "An earnest, awkward landowner who prefers country life and honest work on his estate to the artificial world of the cities. Thoughtful, idealistic, and often ill at ease in society, he searches restlessly for meaning, purpose, and a life of integrity. He is deeply in love with the young Kitty Shcherbatskaya.",
-            "id": "konstantin-levin",
-            "name": "Konstantin Levin",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
-            "aliases": [
-              "Ekaterina Shcherbatskaya"
-            ],
-            "description": "A pretty, sheltered young woman of good family, on the threshold of adult life and courtship. Sincere and tender-hearted, she is initially dazzled by the glamour of society and its most eligible admirers, and must learn to distinguish real devotion from flattering illusion.",
-            "id": "kitty-shcherbatskaya",
-            "name": "Kitty Shcherbatskaya",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "Stiva"
-            ],
-            "description": "Anna's genial, easygoing brother, a Moscow official who loves comfort, good food, and pleasure. Warm and well-liked but weak-willed and unfaithful, he has strained his marriage through an affair, and his cheerful irresponsibility sets the novel's opening crisis in motion.",
-            "id": "stiva-oblonsky",
-            "name": "Stepan Oblonsky",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "Dolly"
-            ],
-            "description": "Stiva's careworn wife and Kitty's older sister, devoted to her many children and worn down by her husband's carelessness with money and fidelity. Kind, practical, and long-suffering, she embodies the burdens and quiet endurance of married domestic life.",
-            "id": "dolly-oblonskaya",
-            "name": "Darya Oblonskaya",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Levin's older half-brother, a celebrated intellectual and writer absorbed in public questions and abstract ideas. Composed and self-assured, he represents the life of the mind and civic reputation that Levin both respects and finds hollow.",
-            "id": "sergei-koznyshev",
-            "name": "Sergei Koznyshev",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "minor"
-          },
-          {
-            "description": "Levin's estranged older brother, a proud, self-destructive man who has ruined his health and prospects through dissipation and radical enthusiasms. His troubled life weighs on Levin and confronts him with poverty, illness, and mortality.",
-            "id": "nikolai-levin",
-            "name": "Nikolai Levin",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "minor"
-          },
-          {
-            "description": "Anna and Karenin's young son, a sensitive boy deeply attached to his mother. His well-being and the question of who will keep him become a source of anguish as the adults' lives grow entangled.",
-            "id": "seryozha",
-            "name": "Seryozha Karenin",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "minor"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-07-25",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "anna-karenina"
-      },
-      "recaps": {
-        "ending": "Anna's affair with Vronsky, once ecstatic, curdles into suspicion and misery. Ostracized by society for abandoning her marriage, separated from her beloved son, and unable to secure a stable new life, she becomes consumed by jealousy and the conviction that Vronsky no longer loves her as he once did. In a spiral of despair she goes to a railway station and throws herself beneath a passing train, ending her life. Vronsky, shattered by her death, goes off to war seeking his own destruction. In deliberate contrast, Levin and Kitty settle into married life on his estate with their child; after long wrestling with despair and the question of how to live, Levin comes to a simple, hard-won faith that gives his life meaning. The book closes on his private resolve to live for goodness, setting his quiet spiritual renewal against the tragedy of Anna's fall.",
-        "in_short": "Anna Karenina, the graceful wife of the cold St. Petersburg official Karenin, falls into a consuming love affair with the cavalry officer Count Vronsky. She leaves her husband and young son to be with Vronsky and bears his child, defying the moral code of her society, which then shuns and isolates her. Cut off from her son and from respectable company, and increasingly tormented by jealousy, insecurity, and the fear that Vronsky's love is cooling, Anna sinks into despair and finally throws herself under a train. Her story runs in counterpoint to that of the landowner Konstantin Levin, who wins and marries Kitty Shcherbatskaya, works his estate, and struggles with doubts about the meaning of life until he arrives at a quiet religious faith. The novel contrasts Anna's destruction by passion outside the bounds of society with Levin's slow, imperfect discovery of purpose in love, family, work, and belief.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "book",
-            "text": "The novel opens on the disordered Moscow household of Stepan Oblonsky, whose affair has thrown his marriage to Dolly into crisis. His sister, the beautiful and admired Anna Karenina, wife of the austere St. Petersburg statesman Karenin, travels to help reconcile the couple. Running parallel is the world of Konstantin Levin, an earnest country landowner who comes to Moscow hoping to propose to Dolly's young sister Kitty, only to find her attention captured by the glamorous cavalry officer Count Vronsky. From this premise Tolstoy sets two currents in motion: Anna's fateful entry into a society where a magnetic attraction is about to overturn her settled life, and Levin's search for love, honest work, and meaning away from the artificial glitter of the cities.",
-            "through": {
-              "chapter": 1
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-07-25",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "anna-karenina"
-      }
-    },
-    "anna-karenina-amazonclassics-edition": {
-      "characters": {
-        "characters": [
-          {
             "aliases": [
               "Stiva"
             ],
@@ -1281,7 +1145,7 @@
             "type": "community"
           }
         ],
-        "work": "anna-karenina-amazonclassics-edition"
+        "work": "anna-karenina"
       },
       "recaps": {
         "ending": "After Anna's death, Vronsky gives their daughter into Karenin's care and leaves as a volunteer for the war in Serbia, indifferent to whether he survives. Stiva continues seeking advancement, while Koznyshev and others are swept up in public enthusiasm for the Slavic cause. On his estate, Levin remains disturbed by his inability to reason his way into religious certainty. A conversation with a peasant helps him recognize that a meaningful life can be directed toward goodness rather than self-interest. This insight does not make him flawless or remove every doubt, but it gives him a basis for living. During a storm he fears that Kitty and their infant son have been killed by a falling tree; finding them safe sharpens his sense of gratitude. He decides that his new understanding may remain private even from Kitty, and that ordinary family life will continue with quarrels and mistakes, yet can now possess a moral meaning he had been unable to see.",
@@ -1352,7 +1216,7 @@
             "type": "community"
           }
         ],
-        "work": "anna-karenina-amazonclassics-edition"
+        "work": "anna-karenina"
       }
     },
     "anne-of-avonlea": {
@@ -3495,124 +3359,6 @@
           }
         ],
         "work": "antigone"
-      }
-    },
-    "antigone-directors-playbook-edition-annotated": {
-      "characters": {
-        "characters": [
-          {
-            "description": "A daughter of Oedipus and sister of the two princes who have killed each other in the struggle for Thebes. She is determined to give Polynices the burial rites that Creon has forbidden, placing divine obligation and family loyalty above obedience to the new king.",
-            "id": "antigone",
-            "name": "Antigone",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
-            "description": "Antigone's sister and the other surviving daughter of Oedipus. She fears the power of the state and initially refuses to help bury Polynices, although her caution comes from concern for Antigone as well as concern for herself.",
-            "id": "ismene",
-            "name": "Ismene",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The new king of Thebes and uncle of Antigone, Ismene, Polynices, and Eteocles. Intent on restoring civic order after civil war, he honors Eteocles as a defender and prohibits burial of Polynices as a traitor. He treats resistance to the decree as a challenge to royal authority.",
-            "id": "creon",
-            "name": "Creon",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "antagonist"
-          },
-          {
-            "description": "Creon's son and Antigone's intended husband. He approaches his father respectfully, then argues that Theban opinion favors Antigone and that a ruler should be willing to listen and change course.",
-            "id": "haemon",
-            "name": "Haemon",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "An elderly blind prophet whose guidance Creon has trusted before. Led by a young attendant, he reports ominous failures in sacrifice and warns that the gods reject Thebes' treatment of Polynices and Antigone.",
-            "id": "tiresias",
-            "name": "Tiresias",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A nervous sentry assigned to watch the unburied body of Polynices. He brings Creon unwelcome news that someone has performed burial rites, then returns after the guards catch Antigone repeating the act.",
-            "id": "guard",
-            "name": "The Guard",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Creon's wife and Haemon's mother. She appears late, hears the messenger's account of the disaster involving her son, and withdraws into the palace without public display.",
-            "id": "eurydice",
-            "name": "Eurydice",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The representative voice of the group of Theban elders who observe the conflict. He receives reports, questions the principals, and eventually urges Creon to follow Tiresias's warning without delay.",
-            "id": "chorus-leader",
-            "name": "Chorus Leader",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A palace messenger who reports the consequences of Creon's delayed reversal, describing what happened at Polynices' body and at Antigone's sealed tomb.",
-            "id": "messenger",
-            "name": "Messenger",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "minor"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge",
-            "type": "community"
-          }
-        ],
-        "work": "antigone-directors-playbook-edition-annotated"
-      },
-      "recaps": {
-        "ending": "Tiresias warns that the gods hold Creon responsible for leaving Polynices unburied and confining Antigone alive. Shaken at last, Creon arranges the burial and goes to release Antigone, but his reversal comes too late. Antigone has hanged herself in the tomb. Haemon, grieving beside her, attacks his father and then kills himself. When Eurydice hears that her son is dead, she also takes her own life, cursing Creon as responsible. Creon returns carrying Haemon's body and learns of his wife's death. His decree has not secured his family or the city; it has left him alive, stripped of wife and son, and conscious that his own obstinacy caused the ruin. The elders close on the lesson that proud judgment without reverence brings punishment and that wisdom is learned through suffering.",
-        "in_short": "After civil war in Thebes, the new king, Creon, orders that Eteocles be honored but that his brother Polynices be left unburied as a traitor. Their sister Antigone obeys religious and family duty instead, performs burial rites, and openly accepts responsibility when caught. Creon rejects the pleas of Ismene, his son Haemon, and the Theban elders, sentencing Antigone to be sealed alive in a rocky tomb. The prophet Tiresias warns that the gods reject Creon's treatment of the dead and that his own household will pay for it. Creon finally yields, buries Polynices, and goes to free Antigone, but she has already hanged herself. Haemon dies by suicide beside her, and his mother Eurydice kills herself after hearing the news. Creon survives to recognize that his inflexible assertion of authority has destroyed his family.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "book",
-            "text": "The brothers Eteocles and Polynices have killed one another while fighting over Thebes. Creon, the new king, grants Eteocles an honorable burial but decrees that Polynices must remain exposed as an enemy of the city. Antigone tells Ismene that she will defy the order and give their brother the rites owed to the dead. A guard later reports that someone has covered the body, and Antigone is caught when she returns. She admits what she did and argues that Creon's command cannot overrule divine law. Ismene offers to share her fate, but Antigone refuses to let her claim a deed she would not join. Creon condemns Antigone despite her engagement to his son. Haemon warns his father that Thebes sympathizes with her and urges flexibility, but their discussion becomes a bitter rupture. Antigone is sealed in a tomb. The prophet Tiresias then reports signs that the gods reject the city's sacrifices because Polynices is unburied and Antigone has been entombed alive. Creon reluctantly reverses himself, but too late: Antigone has hanged herself; Haemon dies by suicide after confronting his father; and Eurydice, hearing of Haemon's death, also kills herself. Creon remains alive to acknowledge that his pride and refusal to listen brought the catastrophe upon his own house.",
-            "through": {
-              "chapter": 1
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge",
-            "type": "community"
-          }
-        ],
-        "work": "antigone-directors-playbook-edition-annotated"
       }
     },
     "antigone-sophocles": {
