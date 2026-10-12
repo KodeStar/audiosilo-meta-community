@@ -1505,196 +1505,6 @@
       "characters": {
         "characters": [
           {
-            "description": "A wealthy English gentleman whose life in London follows a precise and solitary routine. His calm manner, mathematical habits, and refusal to hurry make his sudden commitment to circle the world in eighty days seem all the more extraordinary.",
-            "id": "phileas-fogg",
-            "name": "Phileas Fogg",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
-            "aliases": [
-              "Jean Passepartout"
-            ],
-            "description": "Fogg's newly hired French servant, a former acrobat and fireman who hoped that his master's strict routine would provide a quiet life. Warm, impulsive, and resourceful, he is dismayed when his first day of service turns into an immediate journey around the globe.",
-            "id": "passepartout",
-            "name": "Passepartout",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A member of Fogg's circle at the Reform Club. His skepticism about the practical speed of modern travel helps turn a discussion of a newspaper timetable into Fogg's twenty-thousand-pound wager.",
-            "id": "andrew-stuart",
-            "name": "Andrew Stuart",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "minor"
-          },
-          {
-            "aliases": [
-              "Detective Fix"
-            ],
-            "description": "A British detective stationed at Suez, watching for the perpetrator of a recent Bank of England robbery. Fogg's abrupt departure and resemblance to the police description convince Fix that he has found his suspect, though he lacks the warrant needed to arrest him abroad.",
-            "id": "fix",
-            "name": "Fix",
-            "reveal": {
-              "chapter": 6
-            },
-            "role": "antagonist"
-          },
-          {
-            "description": "A British army officer traveling across India who shares part of Fogg's route. Familiar with the country and its railway, he becomes an ally when an interruption in the journey requires the travelers to improvise.",
-            "id": "sir-francis-cromarty",
-            "name": "Sir Francis Cromarty",
-            "reveal": {
-              "chapter": 11
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A young Indian widow of Parsi background whom Fogg's party finds in grave danger during the overland journey. Educated in the European manner and without safe family protection nearby, she accepts the travelers' help in leaving India.",
-            "id": "aouda",
-            "name": "Aouda",
-            "reveal": {
-              "chapter": 13
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The skilled master of the small trading vessel Tankadere. Fogg hires him when the regular steamer connection has been missed, and his seamanship gives the travelers another chance to intercept their eastward route.",
-            "id": "john-bunsby",
-            "name": "John Bunsby",
-            "reveal": {
-              "chapter": 22
-            },
-            "role": "minor"
-          },
-          {
-            "aliases": [
-              "Colonel Proctor"
-            ],
-            "description": "A forceful American encountered amid political disorder in San Francisco. A collision with Fogg creates a personal quarrel that neither man considers settled when they later meet again on the transcontinental railway.",
-            "id": "stamp-proctor",
-            "name": "Stamp Proctor",
-            "reveal": {
-              "chapter": 27
-            },
-            "role": "antagonist"
-          },
-          {
-            "description": "An American who owns a wind-driven sledge equipped to cross the frozen plains. He offers Fogg an unconventional way to continue east after the railway journey is interrupted.",
-            "id": "mudge",
-            "name": "Mudge",
-            "reveal": {
-              "chapter": 33
-            },
-            "role": "minor"
-          },
-          {
-            "description": "The stubborn master and owner of the Henrietta. He initially refuses to take Fogg directly to England, forcing a negotiation over passage aboard his Atlantic steamer.",
-            "id": "andrew-speedy",
-            "name": "Andrew Speedy",
-            "reveal": {
-              "chapter": 34
-            },
-            "role": "minor"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge",
-            "type": "community"
-          }
-        ],
-        "work": "around-the-world-in-eighty-days"
-      },
-      "description": {
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-10-09",
-            "ref": "gutenberg:103",
-            "type": "community"
-          }
-        ],
-        "text": "Phileas Fogg is a wealthy, exact and solitary London gentleman who lives by the clock at the Reform Club and has just taken on a new French manservant, Passepartout, who hopes for a quiet post. That same evening, over whist, the club falls to arguing about a newspaper's claim that new railways and steamer lines mean a traveller can now go round the world in eighty days. Fogg says it can be done and stakes twenty thousand pounds, half his fortune, that he will do it himself, leaving that very night and returning to the club by a quarter to nine on the evening of 21 December. With a carpet-bag of banknotes and a bewildered Passepartout he sets off for the Continent and the Suez Canal. A robbery at the Bank of England a few days earlier has put detectives on the watch at the ports, and the description of the thief fits Fogg rather too well.",
-        "work": "around-the-world-in-eighty-days"
-      },
-      "recaps": {
-        "ending": "Fogg reaches London believing that delays and Fix's mistaken arrest have cost him the wager. Having spent much of his fortune and withdrawn from public view, he nevertheless offers to marry Aouda after she declares her love for him. When Passepartout visits a clergyman to arrange the ceremony, he discovers that the date is Saturday rather than Sunday. By traveling eastward around the globe, the party crossed the international date line and gained a calendar day without realizing it. Passepartout races back with the news, and Fogg reaches the Reform Club seconds before the agreed deadline, winning the wager. His travel costs leave little financial profit, which he shares with Passepartout and Fix, but the journey has brought Aouda into his life. Fogg and Aouda marry, making their relationship - not the money - the lasting result of the voyage.",
-        "in_short": "Phileas Fogg wagers members of London's Reform Club that new transport links make it possible to circle the world in eighty days. He leaves at once with his French servant Passepartout. Detective Fix mistakes him for a bank robber and follows while awaiting a warrant. In India, Fogg sacrifices time to rescue Aouda, who then travels with the party. Missed ships, storms, Passepartout's separation, a railway attack in America, and an improvised Atlantic crossing repeatedly consume their margin. Fix finally arrests Fogg in Liverpool, only to release him when the real robber is identified. Fogg reaches London believing he is late and ruined. After Aouda proposes that they marry, Passepartout learns that eastward travel across the date line has gained them a day. Fogg arrives at the Reform Club just before the deadline and wins. He gains little money after expenses, but marries Aouda.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "book",
-            "text": "Phileas Fogg is a wealthy but enigmatic London gentleman who organizes every day with exact precision. He dismisses a servant for a small error and hires Passepartout, a Frenchman pleased by the prospect of a quiet post. That evening at the Reform Club, a discussion about a recent bank robbery turns to a newspaper calculation that the world can now be circled in eighty days. Fogg insists that the timetable is practical and wagers twenty thousand pounds with five club members that he can prove it. He must return to the club by the appointed evening eighty days later. Without making preparations beyond taking a travel bag and half the money in cash, he summons the astonished Passepartout and departs for the Continent that same night.",
-            "through": {
-              "chapter": 5
-            }
-          },
-          {
-            "scope": "book",
-            "text": "News of the wager spreads through Britain, where public opinion follows Fogg's progress and speculates about his chances. At Suez, Detective Fix is waiting for a suspected Bank of England robber. Fogg's appearance, large supply of cash, and hasty departure fit the police description closely enough to convince Fix that he is the fugitive. Passepartout innocently tells the detective about their route and the wager. Fix requests an arrest warrant and boards the same steamer, intending to keep Fogg within reach until legal authority catches up. Fogg remains absorbed in his timetable as the party crosses the Red Sea and Indian Ocean. In Bombay, Passepartout enters a temple without understanding the rules, is driven out by priests, and escapes without telling his master that the incident may have consequences.",
-            "through": {
-              "chapter": 10
-            }
-          },
-          {
-            "scope": "book",
-            "text": "The railway across India proves unfinished. Fogg buys an elephant and hires a guide to cover the missing section, accompanied by Sir Francis Cromarty. In the forest they learn that Aouda, a young widow, is to be killed in a coerced funeral rite. Fogg decides that their schedule allows time for a rescue. After an initial plan fails, Passepartout takes the place of the dead husband on the funeral structure and carries Aouda away when the crowd believes a miracle has occurred. The travelers reach the railway and continue to Calcutta. There, Fogg and Passepartout are arrested over the Bombay temple incident. Fogg pays bail rather than lose the departing steamer. Sir Francis leaves them, while Aouda, unable to find safety with her relatives in India, continues toward Hong Kong under Fogg's protection. Fix follows, still waiting for his warrant.",
-            "through": {
-              "chapter": 16
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Fix tries to delay Fogg before he leaves British territory, but the warrant still does not arrive. At Hong Kong, Aouda learns that the relative she hoped to join has moved away, and Fogg calmly offers to take her onward to Europe. The next steamer's departure is advanced. Fix tells Passepartout that he is a detective and, when the servant refuses to help, leaves him drugged and unable to warn Fogg. Fogg and Aouda miss the ship and believe Passepartout has gone ahead alone. Fogg hires Captain John Bunsby and the Tankadere to catch another connection near Shanghai. Meanwhile Passepartout reaches Yokohama aboard the scheduled steamer without money or companions. He survives by joining an acrobatic troupe. Fogg, Aouda, and Fix arrive in Yokohama by another route, and Fogg recognizes Passepartout during a performance. Reunited, the party boards a steamer for San Francisco, with Fix now intending to help Fogg reach England before making an arrest there.",
-            "through": {
-              "chapter": 24
-            }
-          },
-          {
-            "scope": "book",
-            "text": "In San Francisco, Fogg and Fix are caught in a violent political gathering, where Fogg quarrels with Colonel Stamp Proctor. The travelers then take the transcontinental railway. Their route includes a precarious crossing, an encounter with a Mormon speaker, and the return of Proctor, but a larger danger interrupts the men's planned duel: an attack on the train. Passepartout helps separate the engine from the carriages and is carried away with other captives. Although abandoning him threatens the schedule, Fogg leads soldiers back to rescue him. They succeed, but the train has gone. Fix secures a wind-powered sledge driven by Mudge, enabling Fogg, Aouda, and Passepartout to cross the frozen plains and regain an eastbound connection. They reach New York only after the Liverpool steamer has departed.",
-            "through": {
-              "chapter": 31
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Fogg charters the Henrietta from Captain Speedy on the understanding that it will take the party toward Europe. Once at sea, he redirects the ship toward Liverpool. When fuel runs low, he buys the vessel and burns its wooden fittings to keep the engines running, finally landing in Britain with almost no margin left. Fix immediately arrests him. After a damaging delay, the detective learns that the actual bank robber has already been caught and releases Fogg. Fogg strikes Fix in anger and makes a final dash by special train and hired carriage, but reaches London after the deadline he has calculated. Convinced that the wager is lost, he returns home with Aouda and Passepartout. His remaining funds are committed to his obligations, and he withdraws in apparent ruin.",
-            "through": {
-              "chapter": 36
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Believing himself defeated, Fogg remains composed and offers to provide what little security he can for Aouda. She declares her love and asks him to marry her; he gladly agrees. Passepartout goes to arrange the ceremony and discovers that the party has mistaken the day. Because they traveled eastward and crossed the international date line, they experienced one fewer sunrise than people in London and have gained a full calendar day. Passepartout rushes home, and Fogg races to the Reform Club. He enters only seconds before the original deadline and wins the wager. The journey's expenses leave him with little monetary gain, and he shares what remains with Passepartout and even Fix. Fogg marries Aouda, recognizing that the voyage has given him a happiness that his former regulated life lacked.",
-            "through": {
-              "chapter": 39
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge",
-            "type": "community"
-          }
-        ],
-        "work": "around-the-world-in-eighty-days"
-      }
-    },
-    "around-the-world-in-eighty-days-amazonclassics-edition": {
-      "characters": {
-        "characters": [
-          {
             "description": "A wealthy English gentleman whose life in London follows an exact and unchanging schedule. Reserved, mathematically precise, and almost impossible to rattle, he accepts a Reform Club wager that new rail and steamship links make it possible to circle the globe in eighty days.",
             "id": "phileas-fogg",
             "name": "Phileas Fogg",
@@ -1820,60 +1630,72 @@
             "type": "community"
           }
         ],
-        "work": "around-the-world-in-eighty-days-amazonclassics-edition"
+        "work": "around-the-world-in-eighty-days"
+      },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-10-09",
+            "ref": "gutenberg:103",
+            "type": "community"
+          }
+        ],
+        "text": "Phileas Fogg is a wealthy, exact and solitary London gentleman who lives by the clock at the Reform Club and has just taken on a new French manservant, Passepartout, who hopes for a quiet post. That same evening, over whist, the club falls to arguing about a newspaper's claim that new railways and steamer lines mean a traveller can now go round the world in eighty days. Fogg says it can be done and stakes twenty thousand pounds, half his fortune, that he will do it himself, leaving that very night and returning to the club by a quarter to nine on the evening of 21 December. With a carpet-bag of banknotes and a bewildered Passepartout he sets off for the Continent and the Suez Canal. A robbery at the Bank of England a few days earlier has put detectives on the watch at the ports, and the description of the thief fits Fogg rather too well.",
+        "work": "around-the-world-in-eighty-days"
       },
       "recaps": {
-        "ending": "Fogg reaches London believing he missed the Reform Club deadline by five minutes and has lost both his wager and most of his fortune. Aouda, unwilling to leave him in despair, proposes marriage, and Fogg accepts. When Passepartout visits a clergyman to arrange the ceremony, he discovers that the date is Saturday rather than Sunday. By traveling continuously eastward, the party crossed the International Date Line and gained a calendar day without recognizing it. Passepartout races home, and Fogg reaches the Reform Club with seconds remaining, winning the wager. His expenses leave him little financial profit, which he shares with Passepartout and Fix. His real gain is Aouda: they marry, and the journey ends with companionship replacing the rigid solitude of his former life.",
-        "in_short": "Exacting London gentleman Phileas Fogg wagers his Reform Club companions that he can circle the world in eighty days and leaves at once with his new French servant, Passepartout. Detective Fix follows because he mistakes Fogg for a bank robber and repeatedly tries to delay him. Across India, Fogg interrupts his schedule to rescue Aouda from a forced death, and she joins the journey. Missed ships, storms, an opium den, a circus, a Sioux attack, and broken transport force Fogg to improvise while remaining outwardly calm. He reaches Liverpool only to be wrongly arrested, then arrives in London believing he is five minutes late. After Aouda proposes marriage, Passepartout discovers that eastward travel across the International Date Line has gained them a day. Fogg reaches the Reform Club just before the deadline and wins. He makes little money after expenses, but he and Aouda marry.",
+        "ending": "Fogg reaches London believing that delays and Fix's mistaken arrest have cost him the wager. Having spent much of his fortune and withdrawn from public view, he nevertheless offers to marry Aouda after she declares her love for him. When Passepartout visits a clergyman to arrange the ceremony, he discovers that the date is Saturday rather than Sunday. By traveling eastward around the globe, the party crossed the international date line and gained a calendar day without realizing it. Passepartout races back with the news, and Fogg reaches the Reform Club seconds before the agreed deadline, winning the wager. His travel costs leave little financial profit, which he shares with Passepartout and Fix, but the journey has brought Aouda into his life. Fogg and Aouda marry, making their relationship - not the money - the lasting result of the voyage.",
+        "in_short": "Phileas Fogg wagers members of London's Reform Club that new transport links make it possible to circle the world in eighty days. He leaves at once with his French servant Passepartout. Detective Fix mistakes him for a bank robber and follows while awaiting a warrant. In India, Fogg sacrifices time to rescue Aouda, who then travels with the party. Missed ships, storms, Passepartout's separation, a railway attack in America, and an improvised Atlantic crossing repeatedly consume their margin. Fix finally arrests Fogg in Liverpool, only to release him when the real robber is identified. Fogg reaches London believing he is late and ruined. After Aouda proposes that they marry, Passepartout learns that eastward travel across the date line has gained them a day. Fogg arrives at the Reform Club just before the deadline and wins. He gains little money after expenses, but marries Aouda.",
         "license": "CC-BY-SA-4.0",
         "recaps": [
           {
             "scope": "book",
-            "text": "Phileas Fogg lives alone in London and organizes every day with exact precision. On the day he hires the Frenchman Passepartout as his new servant, a discussion at the Reform Club turns to a recent bank theft and the shrinking travel times made possible by modern railways and steamships. Fogg insists that the globe can now be circled in eighty days. When Andrew Stuart challenges him, Fogg wagers twenty thousand pounds and commits to return to the same room before the deadline. He goes home, tells the astonished Passepartout to pack, and leaves that evening with a large supply of cash. The journey immediately becomes public news, and suspicion also falls on Fogg because his sudden departure and appearance seem to match descriptions of the bank robber.",
+            "text": "Phileas Fogg is a wealthy but enigmatic London gentleman who organizes every day with exact precision. He dismisses a servant for a small error and hires Passepartout, a Frenchman pleased by the prospect of a quiet post. That evening at the Reform Club, a discussion about a recent bank robbery turns to a newspaper calculation that the world can now be circled in eighty days. Fogg insists that the timetable is practical and wagers twenty thousand pounds with five club members that he can prove it. He must return to the club by the appointed evening eighty days later. Without making preparations beyond taking a travel bag and half the money in cash, he summons the astonished Passepartout and departs for the Continent that same night.",
             "through": {
               "chapter": 5
             }
           },
           {
             "scope": "book",
-            "text": "Fogg and Passepartout travel through Europe and reach Suez on schedule. Detective Fix, waiting there for news of the bank robber, becomes convinced that Fogg is the wanted man. Because no warrant has arrived, Fix questions Passepartout, encourages him to talk about the unexpected journey, and secretly follows the travelers aboard the steamer to India. Fogg remains absorbed in cards and timetable calculations, treating delays and early arrivals as entries in a ledger. Passepartout enjoys each new place but repeatedly learns that his employer has no interest in sightseeing. At Bombay, Passepartout enters a Hindu temple without understanding the restrictions and escapes after angering the priests. Fogg, unaware that this incident may follow them, boards the railway for Calcutta with Fix still close behind.",
+            "text": "News of the wager spreads through Britain, where public opinion follows Fogg's progress and speculates about his chances. At Suez, Detective Fix is waiting for a suspected Bank of England robber. Fogg's appearance, large supply of cash, and hasty departure fit the police description closely enough to convince Fix that he is the fugitive. Passepartout innocently tells the detective about their route and the wager. Fix requests an arrest warrant and boards the same steamer, intending to keep Fogg within reach until legal authority catches up. Fogg remains absorbed in his timetable as the party crosses the Red Sea and Indian Ocean. In Bombay, Passepartout enters a temple without understanding the rules, is driven out by priests, and escapes without telling his master that the incident may have consequences.",
             "through": {
               "chapter": 10
             }
           },
           {
             "scope": "book",
-            "text": "The railway across India ends unexpectedly before the advertised connection is complete. Fogg buys an elephant and hires a Parsee guide, traveling through the forest with Passepartout and Sir Francis Cromarty. They encounter a procession taking Aouda, a young widow, to be killed on her husband's funeral pyre. Fogg decides that the schedule allows time for a rescue. After an attempted nighttime approach fails, Passepartout hides near the corpse and, during the ceremony, impersonates the dead rajah rising from the pyre. He carries Aouda away amid the crowd's panic. The party reaches the railway and continues to Calcutta. There Fogg and Passepartout are arrested over Passepartout's temple intrusion, but Fogg pays bail rather than miss the ship. Aouda, now safe from immediate pursuit, joins them on the voyage toward Hong Kong.",
+            "text": "The railway across India proves unfinished. Fogg buys an elephant and hires a guide to cover the missing section, accompanied by Sir Francis Cromarty. In the forest they learn that Aouda, a young widow, is to be killed in a coerced funeral rite. Fogg decides that their schedule allows time for a rescue. After an initial plan fails, Passepartout takes the place of the dead husband on the funeral structure and carries Aouda away when the crowd believes a miracle has occurred. The travelers reach the railway and continue to Calcutta. There, Fogg and Passepartout are arrested over the Bombay temple incident. Fogg pays bail rather than lose the departing steamer. Sir Francis leaves them, while Aouda, unable to find safety with her relatives in India, continues toward Hong Kong under Fogg's protection. Fix follows, still waiting for his warrant.",
             "through": {
-              "chapter": 15
+              "chapter": 16
             }
           },
           {
             "scope": "book",
-            "text": "On the voyage east, Aouda recovers and learns how much Fogg risked to save her. The relative she hoped to join in Hong Kong has moved away, so Fogg offers to take her onward. A delay threatens the connection to Yokohama, while Fix still lacks the warrant that would let him arrest Fogg in British territory. Fix finally tells Passepartout that he is a detective, but the servant assumes he is an agent hired by the Reform Club to monitor the wager. Determined to keep Passepartout from warning Fogg about a ship's changed departure time, Fix gets him intoxicated and drugged in an opium den. Fogg and Aouda miss the ship and Passepartout disappears. Fogg hires pilot John Bunsby and the Tankadere to make a dangerous run toward Shanghai, taking Aouda and Fix aboard while neither man reveals the true nature of their opposition.",
+            "text": "Fix tries to delay Fogg before he leaves British territory, but the warrant still does not arrive. At Hong Kong, Aouda learns that the relative she hoped to join has moved away, and Fogg calmly offers to take her onward to Europe. The next steamer's departure is advanced. Fix tells Passepartout that he is a detective and, when the servant refuses to help, leaves him drugged and unable to warn Fogg. Fogg and Aouda miss the ship and believe Passepartout has gone ahead alone. Fogg hires Captain John Bunsby and the Tankadere to catch another connection near Shanghai. Meanwhile Passepartout reaches Yokohama aboard the scheduled steamer without money or companions. He survives by joining an acrobatic troupe. Fogg, Aouda, and Fix arrive in Yokohama by another route, and Fogg recognizes Passepartout during a performance. Reunited, the party boards a steamer for San Francisco, with Fix now intending to help Fogg reach England before making an arrest there.",
             "through": {
-              "chapter": 20
+              "chapter": 24
             }
           },
           {
             "scope": "book",
-            "text": "The Tankadere survives severe weather and reaches the route to Yokohama in time for Fogg, Aouda, and Fix to catch onward transport. Passepartout, meanwhile, woke aboard the earlier ship and reached Yokohama alone and penniless. He finds work in an acrobatic troupe, only for Fogg to spot him during the performance. Reunited, the party sails across the Pacific to San Francisco. Fix can no longer arrest Fogg outside British territory and decides to help him return quickly, planning to act once they reach England. In San Francisco, Fogg clashes with Colonel Stamp Proctor during a disorderly political meeting. The travelers then board the transcontinental railway. The train crosses difficult western country, and Passepartout attends a Mormon lecture while worrying about the timetable and the possibility of another encounter with Proctor.",
-            "through": {
-              "chapter": 27
-            }
-          },
-          {
-            "scope": "book",
-            "text": "The American rail journey grows increasingly dangerous. The train races over a failing bridge before the structure collapses, and Fogg's planned duel with Colonel Proctor is interrupted by a Sioux attack. Passepartout helps save the train but is captured. Rather than preserve his timetable, Fogg leads soldiers back to rescue him, returning successfully after the train has departed. A wind-powered sledge carries Fogg, Aouda, Passepartout, and Fix across the snowy plains to another railway connection. They hurry through Chicago to New York but arrive after the steamer for Liverpool has sailed. Fogg has sacrificed precious time for Passepartout and now faces the Atlantic without a scheduled passage capable of keeping the wager alive.",
+            "text": "In San Francisco, Fogg and Fix are caught in a violent political gathering, where Fogg quarrels with Colonel Stamp Proctor. The travelers then take the transcontinental railway. Their route includes a precarious crossing, an encounter with a Mormon speaker, and the return of Proctor, but a larger danger interrupts the men's planned duel: an attack on the train. Passepartout helps separate the engine from the carriages and is carried away with other captives. Although abandoning him threatens the schedule, Fogg leads soldiers back to rescue him. They succeed, but the train has gone. Fix secures a wind-powered sledge driven by Mudge, enabling Fogg, Aouda, and Passepartout to cross the frozen plains and regain an eastbound connection. They reach New York only after the Liverpool steamer has departed.",
             "through": {
               "chapter": 31
             }
           },
           {
             "scope": "book",
-            "text": "Fogg hires passage on Captain Speedy's Henrietta, nominally bound for Bordeaux, then takes control of the ship and redirects it toward Liverpool. When coal runs low, he buys the vessel and burns its wooden fittings as fuel, preserving enough speed to reach England. The moment they land at Liverpool, Fix arrests Fogg. The real bank robber has already been caught, but the mistake is corrected only after several crucial hours. Fogg strikes Fix and rushes to London by special train, arriving at the Reform Club five minutes beyond what he believes is the deadline. Convinced he has lost, he withdraws home with Aouda and Passepartout. His fortune is nearly exhausted, but Aouda proposes marriage and he accepts. While arranging the wedding, Passepartout discovers that their eastward circuit gained a calendar day at the International Date Line. Fogg races to the club and enters with seconds to spare, winning the wager. After costs he gains little money, but he marries Aouda and ends the journey happy.",
+            "text": "Fogg charters the Henrietta from Captain Speedy on the understanding that it will take the party toward Europe. Once at sea, he redirects the ship toward Liverpool. When fuel runs low, he buys the vessel and burns its wooden fittings to keep the engines running, finally landing in Britain with almost no margin left. Fix immediately arrests him. After a damaging delay, the detective learns that the actual bank robber has already been caught and releases Fogg. Fogg strikes Fix in anger and makes a final dash by special train and hired carriage, but reaches London after the deadline he has calculated. Convinced that the wager is lost, he returns home with Aouda and Passepartout. His remaining funds are committed to his obligations, and he withdraws in apparent ruin.",
             "through": {
-              "chapter": 38
+              "chapter": 36
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Believing himself defeated, Fogg remains composed and offers to provide what little security he can for Aouda. She declares her love and asks him to marry her; he gladly agrees. Passepartout goes to arrange the ceremony and discovers that the party has mistaken the day. Because they traveled eastward and crossed the international date line, they experienced one fewer sunrise than people in London and have gained a full calendar day. Passepartout rushes home, and Fogg races to the Reform Club. He enters only seconds before the original deadline and wins the wager. The journey's expenses leave him with little monetary gain, and he shares what remains with Passepartout and even Fix. Fogg marries Aouda, recognizing that the voyage has given him a happiness that his former regulated life lacked.",
+            "through": {
+              "chapter": 39
             }
           }
         ],
@@ -1884,7 +1706,7 @@
             "type": "community"
           }
         ],
-        "work": "around-the-world-in-eighty-days-amazonclassics-edition"
+        "work": "around-the-world-in-eighty-days"
       }
     },
     "arrowsmith": {

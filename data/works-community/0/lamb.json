@@ -2730,7 +2730,7 @@
       "characters": {
         "characters": [
           {
-            "description": "A lanky Connecticut schoolmaster who teaches the children of Sleepy Hollow. Sociable, ambitious, and deeply superstitious, he is drawn to ghost stories, generous meals, and the prospect of marrying the prosperous Katrina Van Tassel.",
+            "description": "A lean Connecticut schoolmaster who teaches the children of Sleepy Hollow and supplements his small income by singing lessons and helping the families who lodge him. Learned, ambitious, and highly credulous, he relishes local supernatural tales even though they leave him easily frightened. He courts Katrina Van Tassel while imagining the comfort of her father's prosperous farm.",
             "id": "ichabod-crane",
             "name": "Ichabod Crane",
             "reveal": {
@@ -2739,7 +2739,7 @@
             "role": "protagonist"
           },
           {
-            "description": "The eighteen-year-old only child of the wealthy farmer Baltus Van Tassel. Katrina's expected inheritance and social charm attract Ichabod, while her attention also sustains a rivalry between him and Brom Bones.",
+            "description": "The only child of wealthy farmer Baltus Van Tassel. Eighteen, attractive, and conscious of the attention she receives, she becomes the focus of Ichabod's hopes as well as the established object of Brom Bones's courtship.",
             "id": "katrina-van-tassel",
             "name": "Katrina Van Tassel",
             "reveal": {
@@ -2749,10 +2749,9 @@
           },
           {
             "aliases": [
-              "Brom Bones",
-              "Brom Van Brunt"
+              "Brom Bones"
             ],
-            "description": "A bold local horseman, athlete, and practical joker who is Ichabod's principal rival for Katrina. Brom prefers direct action but turns to mockery and tricks when the schoolmaster avoids a physical confrontation.",
+            "description": "A powerful, mischievous local horseman whose feats of strength and practical jokes have made him the leader of the neighborhood's young men. He is Katrina's chief suitor and treats the scholarly, awkward Ichabod as a rival to be mocked and discouraged.",
             "id": "abraham-van-brunt",
             "name": "Abraham Van Brunt",
             "reveal": {
@@ -2761,7 +2760,7 @@
             "role": "antagonist"
           },
           {
-            "description": "The prosperous and hospitable owner of the farm Ichabod hopes one day to see Katrina inherit. Baltus presides over a comfortable household whose abundance makes a powerful impression on the schoolmaster.",
+            "description": "Katrina's prosperous, hospitable father, a contented farmer whose fertile land, well-stocked barns, and comfortable household strongly attract Ichabod. He entertains the neighborhood at a harvest gathering attended by both of Katrina's principal suitors.",
             "id": "baltus-van-tassel",
             "name": "Baltus Van Tassel",
             "reveal": {
@@ -2770,7 +2769,10 @@
             "role": "supporting"
           },
           {
-            "description": "A ghostly Hessian soldier said to have been decapitated by a cannonball during the Revolutionary War. Sleepy Hollow tradition claims that he rides after dark searching for his head and must return to the churchyard before daybreak.",
+            "aliases": [
+              "The Galloping Hessian"
+            ],
+            "description": "Sleepy Hollow's most feared apparition, said to be the ghost of a Hessian soldier whose head was carried away by a cannonball during the Revolutionary War. Local tradition holds that the rider races nightly toward the churchyard in search of what he lost.",
             "id": "headless-horseman",
             "name": "The Headless Horseman",
             "reveal": {
@@ -2779,7 +2781,16 @@
             "role": "antagonist"
           },
           {
-            "description": "An easygoing villager of Dutch descent who is liked by his neighbors and children but neglects his own farm. Rip gladly works for others and retreats from household conflict by wandering with his dog and gun into the Catskill Mountains.",
+            "description": "The antiquarian narrator credited with preserving both tales. He presents them through remembered local storytellers and traditions, allowing supernatural explanations to stand beside comic and practical alternatives.",
+            "id": "diedrich-knickerbocker",
+            "name": "Diedrich Knickerbocker",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A good-natured but chronically unproductive resident of a Dutch village below the Catskill Mountains. He willingly helps neighbors and entertains children, yet neglects his own farm and retreats from work or domestic conflict whenever he can.",
             "id": "rip-van-winkle",
             "name": "Rip Van Winkle",
             "reveal": {
@@ -2788,7 +2799,7 @@
             "role": "protagonist"
           },
           {
-            "description": "Rip's forceful wife, who angrily condemns his idleness and the decline of their household. Her criticism drives him to seek peace away from home, though the story also makes clear that he has left her to manage the consequences of his inattention.",
+            "description": "Rip's forceful wife, who angrily confronts him about his idleness, the declining farm, and his habit of spending time at the village inn. Her criticism drives Rip to seek peace outside the house and eventually in the mountains.",
             "id": "dame-van-winkle",
             "name": "Dame Van Winkle",
             "reveal": {
@@ -2797,16 +2808,16 @@
             "role": "supporting"
           },
           {
-            "description": "Rip's loyal dog and companion on his mountain excursions. Wolf is brave away from the house but becomes subdued in the presence of Dame Van Winkle.",
+            "description": "Rip's loyal dog and companion on his solitary expeditions. Wolf is brave away from the house but becomes cowed when Dame Van Winkle directs her anger toward him as part of Rip's disorderly household.",
             "id": "wolf",
             "name": "Wolf",
             "reveal": {
               "chapter": 2
             },
-            "role": "minor"
+            "role": "supporting"
           },
           {
-            "description": "Rip's daughter, grown to adulthood during his absence. She is a young mother when he returns to the village and becomes the family member who recognizes and takes in the bewildered old man.",
+            "description": "Rip's young daughter before his journey into the Catskills. She is one of the children left in the neglected Van Winkle household while her father spends his time helping others or wandering with his dog.",
             "id": "judith-gardenier",
             "name": "Judith Gardenier",
             "reveal": {
@@ -2815,7 +2826,34 @@
             "role": "supporting"
           },
           {
-            "description": "An elderly villager familiar with the old Catskill traditions. His account of Hendrick Hudson's ghostly crew provides the community with an explanation for Rip's extraordinary absence.",
+            "description": "The landlord and presiding figure at the village inn, where Rip and his companions pass idle hours under the sign of King George III. He communicates his opinions largely through deliberate changes in how he smokes his pipe.",
+            "id": "nicholas-vedder",
+            "name": "Nicholas Vedder",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The village schoolmaster and a more articulate member of the inn's small circle. He reads old newspapers aloud and supplies the group with learned commentary on public events.",
+            "id": "derrick-van-bummel",
+            "name": "Derrick Van Bummel",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The Dutch explorer traditionally associated with a strange company in the Catskills. Local lore says that Hudson and the crew of the Half Moon return to the mountains at long intervals to keep watch over the river and the country they explored.",
+            "id": "hendrick-hudson",
+            "name": "Hendrick Hudson",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An elderly villager who preserves local history and recognizes the old traditions attached to the Catskills. His knowledge gives the transformed community a way to understand Rip's seemingly impossible account.",
             "id": "peter-vanderdonk",
             "name": "Peter Vanderdonk",
             "reveal": {
