@@ -392,7 +392,7 @@
             "role": "supporting"
           },
           {
-            "description": "A castle servant taken for a simpleton and used for the heaviest, dullest chores, small and unwashed and generally ignored. He is in fact the strongest natural Skill user at Buckkeep, filling the castle with a music no one consciously hears, and he can push sickness, dread and confusion into anyone who annoys him. He decides early that Fitz annoys him.",
+            "description": "A castle servant taken for a simpleton and used for the heaviest, dullest chores, small and unwashed and generally ignored.",
             "id": "thick",
             "name": "Thick",
             "reveal": {
@@ -418,7 +418,7 @@
             "role": "supporting"
           },
           {
-            "description": "Fitz's daughter, raised at Burrich and Molly's holding believing Burrich is her father and knowing nothing of Fitz at all. She is a strong natural Skill user who reaches out in her dreams, where Fitz meets her in the shape of a wolf and refuses to give her a name. Chade has noticed her talent and wants her at Buckkeep.",
+            "description": "Fitz's daughter, raised at Burrich and Molly's holding believing Burrich is her father and knowing nothing of Fitz at all.",
             "id": "nettle",
             "name": "Nettle",
             "reveal": {
