@@ -4953,7 +4953,7 @@
       "characters": {
         "characters": [
           {
-            "description": "A serious, self-reliant boy of about twelve from an Oxford in a world much like our own. For years he has quietly cared for his mentally ill mother while hiding her condition from the authorities, and he carries the mystery of his father, an explorer who vanished in the Arctic when Will was a baby. When men come searching for his father's old letters, a struggle leaves one of them dead, and Will flees, stumbling through a strange window hanging in the air into another world. Guarded and fiercely protective, he becomes at once a fugitive and a traveler between worlds, determined to find out what became of his father.",
+            "description": "A twelve-year-old boy who has spent years protecting his troubled mother and concealing her condition from outsiders. When men break into their Oxford home, he accidentally kills one while escaping and searches for his long-absent father. Watchful, practical, and fiercely responsible, he discovers a window into another world while on the run.",
             "id": "will-parry",
             "name": "Will Parry",
             "reveal": {
@@ -4962,14 +4962,23 @@
             "role": "protagonist"
           },
           {
+            "description": "Will's mother, whose periods of fear and confusion make ordinary life difficult. Will loves her and has learned to care for her, but the strangers searching their home force him to leave her with a trusted former teacher for safety.",
+            "id": "elaine-parry",
+            "name": "Elaine Parry",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
             "aliases": [
               "Lyra Silvertongue"
             ],
-            "description": "The girl from a world parallel to Will's, where each person has an animal daemon, who has crossed a bridge made by her father, Lord Asriel, into a strange, half-deserted city. Bold, cunning, and used to relying on her wits and on the truth-telling alethiometer she carries, she has come out of great dangers in the North. When she meets Will she is at first wary, but the alethiometer tells her that her task now is to help this boy, and she throws herself into his quest as fully as her own. Her shape-shifting daemon Pantalaimon is always at her side.",
+            "description": "A bold girl from a world where every human soul appears externally as a daemon. After crossing the bridge opened above Svalbard, she has reached the apparently deserted city of Cittagazze. She is suspicious of Will at first but soon recognizes that each of them needs an ally.",
             "id": "lyra-belacqua",
             "name": "Lyra Belacqua",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -4977,15 +4986,16 @@
             "aliases": [
               "Pan"
             ],
-            "description": "Lyra's daemon, the visible form of her soul, still able to change shape because she is a child. He stays close to Lyra at all times, since neither can bear to be far from the other, and he serves as her cautious counselor and comfort. Will, who comes from a world where he has never seen a daemon, only slowly comes to understand what Pantalaimon is. That some people carry their souls outside their bodies becomes important to the mysteries the two children face.",
+            "description": "Lyra's daemon and constant companion, able to change animal form because she is still a child. More cautious than Lyra, he often questions her impulses and shares both her thoughts and physical vulnerability.",
             "id": "pantalaimon",
             "name": "Pantalaimon",
             "reveal": {
-              "chapter": 3
-            }
+              "chapter": 1
+            },
+            "role": "supporting"
           },
           {
-            "description": "The queen of a clan of northern witches from Lyra's world, long-lived and able to fly on cloud-pine. Having helped Lyra in the North, she now gathers her witches and follows to protect her, aware that prophecy marks the girl for a great destiny. Serafina and her clan take part in the conflict spreading across the worlds, offering counsel, healing, and force of arms to Lyra and her companions.",
+            "description": "The witch queen of the Lake Enara clan and an ally Lyra made during the journey north. Investigating the strange atmospheric disturbance over Svalbard, she learns that the witches' old prophecies place Lyra at the center of an approaching conflict.",
             "id": "serafina-pekkala",
             "name": "Serafina Pekkala",
             "reveal": {
@@ -4994,78 +5004,103 @@
             "role": "supporting"
           },
           {
-            "description": "A physicist in Will's Oxford, a former nun who now studies dark matter, which she calls Shadows, on a specialized computer she has nicknamed the Cave. When Lyra seeks her out, Mary is astonished to realize that the mysterious particles she studies are conscious and connected to the Dust of Lyra's world. Thoughtful and open-minded, she is drawn out of her ordinary life when the particles themselves, speaking through the machine, urge her onward. Her research becomes central to understanding Dust across the worlds.",
-            "id": "mary-malone",
-            "name": "Mary Malone",
-            "reveal": {
-              "chapter": 5
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "Lord Boreal"
-            ],
-            "description": "A wealthy, cultured older man in Will's Oxford who takes an unsettling interest in Will and Lyra. He is in truth Lord Boreal, a man from Lyra's world who long ago learned to pass secretly between the worlds. Smooth and manipulative, he steals Lyra's alethiometer and offers to return it only if the children bring him a particular knife from a tower in the abandoned city. His scheming pulls Will and Lyra into dangers far beyond a simple theft.",
-            "id": "sir-charles-latrom",
-            "name": "Sir Charles Latrom",
-            "reveal": {
-              "chapter": 7
-            },
-            "role": "antagonist"
-          },
-          {
-            "description": "An old man in the deserted city of Cittagazze who is the current bearer of the subtle knife, a blade of extraordinary power kept in the Tower of the Angels. Wounded and aware that his time is ending, he explains the knife's long history and its terrible responsibilities, and instructs its new bearer in how it must be used and the strict rules that govern it. He belongs to a line of guardians charged with the most dangerous object in the worlds.",
-            "id": "giacomo-paradisi",
-            "name": "Giacomo Paradisi",
-            "reveal": {
-              "chapter": 8
-            },
-            "role": "minor"
-          },
-          {
-            "description": "The Texan aeronaut from Lyra's world, an old friend and protector of the girl, who sets out on a mission of his own to keep her safe. Believing that an explorer known as Stanislaus Grumman holds knowledge that could protect Lyra, Lee travels by balloon to find him, calling on old contacts and his own courage. Loyal and resourceful, he is ready to risk everything for Lyra's sake. His daemon is the hare Hester.",
+            "description": "A Texan aeronaut who helped Lyra in the north and now searches for the missing explorer Stanislaus Grumman. Loyal and resourceful, he hopes Grumman can explain the upheaval among the worlds and help him protect Lyra.",
             "id": "lee-scoresby",
             "name": "Lee Scoresby",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "supporting"
           },
           {
-            "aliases": [
-              "Jopari"
-            ],
-            "description": "A shaman and explorer whom Lee Scoresby sets out to find, renowned for surviving a trepanning and for deep knowledge of Dust, the many worlds, and a knife of great power. Though he took a northern name and became a healer and shaman in Lyra's world, he grasps that a devastating war between great powers is beginning and that the bearer of that knife will be decisive. He means to find and help the bearer, and his true origins and purpose are bound up with secrets that reach back many years.",
-            "id": "stanislaus-grumman",
-            "name": "Stanislaus Grumman",
+            "description": "A formidable Latvian witch queen and ally of Serafina Pekkala. She has heard Lord Asriel's call to arms and intends to learn more about the immense war he is preparing beyond the known world.",
+            "id": "ruta-skadi",
+            "name": "Ruta Skadi",
             "reveal": {
-              "chapter": 10
-            }
-          },
-          {
-            "description": "Lyra's mother, a beautiful and formidable woman from Lyra's world who wields great influence within its powerful Church. Ruthless, intelligent, and expert at charm and deception, she is determined to find her daughter, whom prophecy has made an object of intense interest and fear to the Church. She too has learned to move between worlds, and she pursues Lyra with a mixture of maternal obsession and cold calculation, ready to use anyone in her path. Her daemon is a vicious golden monkey.",
-            "id": "mrs-coulter",
-            "name": "Mrs. Coulter",
-            "reveal": {
-              "chapter": 13
+              "chapter": 2
             },
-            "role": "antagonist"
+            "role": "supporting"
           },
           {
-            "description": "One of the children living wild in the abandoned city of Cittagazze, where grown-ups are preyed upon by soul-devouring Spectres that leave children untouched until they come of age. With her younger brother Paolo and other children, she scavenges and survives among the empty streets. Encounters with these children reveal the strange rules of the haunted city and turn dangerous when their own desires collide with Will and Lyra's quest.",
+            "description": "A physicist in Will's Oxford who studies dark matter with a colleague using a detector called the Cave. Lyra seeks her out after the alethiometer identifies her as someone who can help, and Mary listens seriously to Lyra's claim that the particles she studies are conscious.",
+            "id": "mary-malone",
+            "name": "Mary Malone",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A self-possessed girl living with her younger brother among the children left in Cittagazze. She explains that invisible Spectres prey on adults, which is why the city's grown inhabitants have fled, and helps Will and Lyra understand the dangers of the place.",
             "id": "angelica",
             "name": "Angelica",
             "reveal": {
               "chapter": 3
             },
-            "role": "minor"
+            "role": "supporting"
+          },
+          {
+            "description": "A wealthy, cultivated man whom Lyra meets in Will's Oxford. He knows far more about her world and the alethiometer than an ordinary Englishman should, and his interest in her possessions makes him dangerous despite his polished manner.",
+            "id": "sir-charles-latrom",
+            "name": "Sir Charles Latrom",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Lyra's mother, a brilliant and ruthless agent of the Magisterium. Still hunting Lyra after the events in the north, she seeks information about the witches' prophecy and discovers how to command the Spectres that haunt Cittagazze.",
+            "id": "mrs-coulter",
+            "name": "Mrs Coulter",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The aged guardian of the subtle knife, living inside Cittagazze's Torre degli Angeli. After Will reaches him, he recognizes the signs that Will is the knife's new bearer and teaches him how its two edges cut matter and open passages between worlds.",
+            "id": "giacomo-paradisi",
+            "name": "Giacomo Paradisi",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Stanislaus Grumman"
+            ],
+            "description": "A renowned shaman whom Lee Scoresby finds in Lyra's world. Known to scholars as the explorer Stanislaus Grumman, he possesses unusual knowledge of the worlds and asks Lee to carry him toward the bearer of a powerful knife.",
+            "id": "jopari",
+            "name": "Jopari",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An angel who approaches Will after the disaster in the mountains. He and his companion Baruch have rebelled against the Authority and want Will to bring the subtle knife to Lord Asriel's forces.",
+            "id": "balthamos",
+            "name": "Balthamos",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Balthamos's angelic companion, steadier and more diplomatic than his partner. He joins the appeal for Will to carry the knife to Lord Asriel in the war against the Authority.",
+            "id": "baruch",
+            "name": "Baruch",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
           }
         ],
         "license": "CC-BY-SA-4.0",
         "sources": [
           {
-            "imported_at": "2026-07-25",
+            "imported_at": "2026-08-07",
             "ref": "model-knowledge:best-effort",
             "type": "community"
           }
@@ -5073,41 +5108,48 @@
         "work": "the-subtle-knife"
       },
       "recaps": {
-        "ending": "The book closes with loss layered on loss. Lee Scoresby dies in a rearguard fight to protect the shaman Stanislaus Grumman. Grumman uses the last of his power to heal Will's maimed hand and then reveals the truth Will has sought his whole life: he is John Parry, Will's father, who vanished through a window years before and became a shaman in another world. He tells Will that the subtle knife he now bears is the most important weapon in the war beginning across the worlds, and that he must carry it to Lord Asriel. Almost at once, Parry is shot dead by a witch who once loved him and could not forgive his rejection, so that Will finds and loses his father within minutes. Returning to camp, Will discovers that Lyra has been drugged and carried off by Mrs. Coulter, her own mother, who wants her out of the Church's reach. As Will stands alone and desperate, two rebel angels, Balthamos and Baruch, reveal themselves and promise to lead him to Asriel's fortress. Will refuses to abandon Lyra, insisting that finding her must come first. The knife is his, his father is dead, and the war can no longer be avoided.",
-        "in_short": "Will Parry, a boy from an Oxford like ours who has secretly cared for his ill mother, kills an intruder hunting his missing father's papers and flees through a hidden window into Cittagazze, a city where soul-eating Spectres prey only on adults. There he meets Lyra, arrived from her own world, and the two children join forces, passing between worlds. Lyra befriends Mary Malone, a physicist whose Shadows are the same conscious Dust from Lyra's world. A schemer called Sir Charles Latrom, secretly Lord Boreal, steals Lyra's alethiometer and demands the subtle knife from the Tower of the Angels; Will wins the knife, losing two fingers, and becomes its bearer, able to cut between worlds. As witches and other powers gather for a coming war, the aeronaut Lee Scoresby seeks the shaman Grumman and dies protecting him. Grumman reveals himself as Will's father, John Parry, tells Will the knife is decisive, and is then killed. Will returns to find Lyra abducted by her own mother, and two rebel angels appear, offering to guide him to Lord Asriel.",
+        "ending": "Lee Scoresby dies holding off Magisterium soldiers so that Jopari can continue toward the knife bearer. Jopari finds Will in the mountains, treats the wound that will not heal, and reveals that he is John Parry, Will's missing father. Father and son recognize each other only moments before a witch whom John once rejected kills him; she is then killed in turn. During Will's absence, Mrs Coulter's forces attack the witches guarding Lyra. Will returns to find the camp devastated, Lyra gone, and her alethiometer left behind. Mrs Coulter has abducted Lyra and keeps her drugged inside a travelling chest. The angels Balthamos and Baruch ask Will to take the subtle knife to Lord Asriel, but Will insists that he must rescue Lyra first. He leaves with the knife and the angels, while the coming war now spans multiple worlds.",
+        "in_short": "After accidentally killing an intruder, twelve-year-old Will Parry flees through a hidden window into Cittagazze, where he meets Lyra. They move between the deserted city and Will's Oxford, where physicist Mary Malone discovers that her dark-matter particles are the conscious Dust Lyra knows. Sir Charles Latrom steals Lyra's alethiometer, prompting the children to seek the subtle knife, a blade that can cut windows between worlds. Will wins it but loses two fingers, becoming its bearer, and uses it to recover the instrument. Meanwhile Lee Scoresby finds the shaman Jopari and escorts him toward Will as Magisterium forces pursue them. Lee dies defending him. Jopari reaches Will and is revealed as his missing father, John Parry, but is killed moments after their reunion. Mrs Coulter, now able to control Spectres, attacks Lyra's protectors and abducts her. Two rebel angels ask Will to take the knife to Lord Asriel; Will agrees to travel with them only after they help him rescue Lyra.",
         "license": "CC-BY-SA-4.0",
         "recaps": [
           {
             "scope": "series",
-            "text": "In the first book, Lyra Belacqua, an orphan raised at Jordan College in a world where human souls take the form of animal daemons, was given a truth-telling alethiometer and drawn into a struggle over a mysterious substance called Dust. She exposed the charming Mrs. Coulter as a leader of child-stealers, journeyed north with the gyptians, befriended the armoured bear Iorek Byrnison and the aeronaut Lee Scoresby, and destroyed a station where children were being cut from their daemons. She learned that Lord Asriel and Mrs. Coulter are her father and mother. In the end Asriel killed Lyra's friend Roger to tear open a bridge between worlds, and Lyra, believing the Church wrong about Dust, crossed that bridge into another universe to seek the truth for herself.",
+            "text": "Previously: Lyra Belacqua learned that the mysterious Dust feared by her world's religious authorities is connected to consciousness and that adults can sever children from their daemons in experiments. With her daemon Pantalaimon and allies including the witch Serafina Pekkala and aeronaut Lee Scoresby, she travelled north to rescue captive children. Her father, Lord Asriel, used the death of Lyra's friend Roger to open a bridge into another world. Lyra followed him across, determined to understand Dust, while her mother, Mrs Coulter, remained behind as a powerful agent of the Magisterium.",
             "through": {
               "chapter": 0
             }
           },
           {
             "scope": "book",
-            "text": "In an Oxford much like our own, a boy named Will Parry, long the sole guardian of his troubled mother, kills a man who breaks in searching for his missing father's letters. Fleeing, he passes through a window hidden in the air into Cittagazze, a sunlit but strangely deserted city where invisible Spectres devour the souls of adults but leave children alone. There he meets Lyra, newly arrived from her own world, and her daemon Pantalaimon. Wary at first, the two children team up, moving between Cittagazze and Will's Oxford. Guided by her alethiometer, Lyra seeks out Mary Malone, a physicist studying the dark matter she calls Shadows, and realizes that Mary's particles are the same conscious Dust that has shaped her life. Witches from Lyra's world, led by Serafina Pekkala, gather and follow, while Will begins searching for the truth about his lost father.",
+            "text": "In Oxford, twelve-year-old Will Parry hides his mother's mental distress from officials and searches for letters left by his missing father, the explorer John Parry. Men break into the house looking for the same papers, and Will accidentally kills one while escaping. After placing his mother with a trusted former teacher, he finds a barely visible window in the air and passes through it into Cittagazze, a beautiful city empty of adults. There he meets Lyra and Pantalaimon, who have arrived from their own world. The two wary children decide to help one another. Other children explain that invisible Spectres consume adults but ignore the young. Using a window back to Will's Oxford, Lyra follows the alethiometer's guidance to physicist Mary Malone. Mary's detector studies dark matter, and Lyra realizes that the particles Mary calls Shadows are the same conscious substance her people call Dust. Elsewhere, Serafina Pekkala and Lee Scoresby investigate the rupture between worlds and the prophecy surrounding Lyra.",
             "through": {
-              "chapter": 5
+              "chapter": 4
             }
           },
           {
             "scope": "book",
-            "text": "A wealthy man in Will's Oxford, Sir Charles Latrom, reveals himself as Lord Boreal, a traveler from Lyra's world; he steals Lyra's alethiometer and demands, in exchange, a knife kept in the Tower of the Angels in Cittagazze. In the tower Will fights for the blade and, at the cost of two fingers, becomes the new bearer of the subtle knife, a weapon that can cut windows between worlds and slice through anything. The old guardian Giacomo Paradisi teaches him its powers and its strict rules. Using the knife, Will and Lyra break into Latrom's house and recover the alethiometer. Meanwhile the aeronaut Lee Scoresby, hoping to protect Lyra, sets out to find a knowledgeable shaman called Stanislaus Grumman, as witches and other powers begin to converge, aware that a great war is coming.",
+            "text": "Lyra continues visiting Mary and demonstrates that the alethiometer can answer questions through her intuitive reading of its symbols. She also meets the elegant Sir Charles Latrom, who is secretly Lord Boreal, a man able to move between her world and Will's. Boreal steals the alethiometer and offers to return it only if Lyra and Will obtain a special knife held in Cittagazze. Lee Scoresby seeks the explorer Stanislaus Grumman, believing he can help Lyra, while the witches learn that Lord Asriel is gathering forces for a war against the Authority. Mrs Coulter captures a witch and extracts part of the prophecy: Lyra has a destiny resembling Eve's, though Lyra herself must not know it. Crossing into Cittagazze, Mrs Coulter discovers that the Spectres will obey her, giving her a weapon against adults from every world.",
+            "through": {
+              "chapter": 6
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Will and Lyra try to steal back the alethiometer from Boreal's guarded house but conclude that they first need the knife he demanded. In Cittagazze they climb the Torre degli Angeli and confront Tullio, who is fighting for the weapon. During the struggle, the knife severs two fingers from Will's left hand. Its guardian, Giacomo Paradisi, says the injury marks Will as the new bearer and teaches him to use one edge to cut any material and the other to open windows between worlds. Will uses the knife to enter Boreal's house through a hidden opening while Lyra distracts him, and they recover the alethiometer. Tullio is seized by Spectres, and the younger children who once befriended Will and Lyra blame them for his fate. Will, Lyra, and Pantalaimon leave the city as enemies close in.",
             "through": {
               "chapter": 9
             }
           },
           {
             "scope": "book",
-            "text": "The knife draws every power toward it. Lee Scoresby finds the shaman Grumman, who understands that the blade is an ancient weapon, the key to the coming war between the forces of the Authority and those who would defy it, and that its bearer must be protected and guided. Witches ally themselves with the children's cause, though they do not all agree on what should be done. Will struggles to master the knife and its dangerous responsibilities, and he and Lyra are pulled deeper into events far larger than Will's search for his father. Enemies, including Lyra's mother, press closer, and the shaman turns all his effort toward reaching and aiding the knife's young bearer before the gathering armies collide.",
+            "text": "Lee Scoresby finds the shaman Jopari, whom scholars know as Stanislaus Grumman. Jopari says the subtle knife must be brought to Lord Asriel and asks Lee to carry him toward its bearer. Will wants the alethiometer to guide him to his missing father; its answer sends him and Lyra into the mountains, where Serafina's witches rescue them from vengeful children and take them under protection. In Oxford, Mary learns to communicate directly with the Shadows through her computer and then through an adapted form of divination. They identify themselves as conscious beings, tell her to leave her world, and instruct her to act as the serpent in a future choice. She crosses through a window into Cittagazze and begins travelling onward. Will's hand remains painfully unhealed as the children and witches climb toward the place where his father may be found.",
             "through": {
-              "chapter": 13
+              "chapter": 12
             }
           },
           {
             "scope": "book",
-            "text": "Lee Scoresby makes a desperate last stand to buy the shaman time, and dies defending the pass. The shaman Grumman finally reaches Will and heals his wounded hand, then reveals that he is John Parry, Will's own lost father, and tells his son that the subtle knife makes him a crucial figure in the war to come. Moments later Parry is killed by a witch who had loved him and whom he had spurned. Grief-stricken at finding and losing his father at once, Will returns to camp to find Lyra gone, taken by Mrs. Coulter. Two rebel angels, Balthamos and Baruch, appear to Will and pledge to lead him to Lord Asriel, but Will refuses to go anywhere until he has found and freed Lyra.",
+            "text": "The forces converging on the knife bearer collide in the mountains. Lee Scoresby and Jopari are attacked by Magisterium soldiers; Lee remains behind and dies defending the pass so that Jopari can go on. Jopari reaches Will, uses a healing moss on his wounded hand, and explains the knife bearer's part in the coming war. They then recognize each other as father and son: Jopari is John Parry, the explorer Will has sought for years. Their reunion lasts only moments before a witch kills John in revenge for rejecting her, and she is immediately killed by another witch. While Will is away, Mrs Coulter's forces attack the camp. He returns to find the witches dead or scattered and Lyra missing, though her alethiometer remains. Mrs Coulter has taken Lyra and keeps her unconscious in a chest. The rebel angels Balthamos and Baruch ask Will to carry the knife to Lord Asriel. Will refuses to abandon Lyra and sets out with them only after making her rescue his first purpose.",
             "through": {
               "chapter": 15
             }
@@ -5115,7 +5157,7 @@
         ],
         "sources": [
           {
-            "imported_at": "2026-07-25",
+            "imported_at": "2026-08-07",
             "ref": "model-knowledge:best-effort",
             "type": "community"
           }
