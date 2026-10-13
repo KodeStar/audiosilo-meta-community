@@ -1387,7 +1387,7 @@
       "characters": {
         "characters": [
           {
-            "description": "A large, powerful dog raised in comfort on Judge Miller's California estate. After he is stolen and sold into the northern sled-dog trade, intelligence and adaptability become as important to his survival as strength.",
+            "description": "A powerful, pampered dog raised on Judge Miller's California estate, with a St. Bernard father and a Scotch shepherd mother. After a servant sells him, Buck is carried into the northern gold rush and learns that strength, alertness, and adaptability now matter more than the civilized rules of his old home.",
             "id": "buck",
             "name": "Buck",
             "reveal": {
@@ -1396,34 +1396,25 @@
             "role": "protagonist"
           },
           {
-            "description": "A wealthy California landowner whose spacious estate is Buck's first home. Buck moves confidently among the judge's family, workers, and other dogs before being stolen.",
-            "id": "judge-miller",
-            "name": "Judge Miller",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "minor"
-          },
-          {
-            "description": "A gardener's helper on Judge Miller's estate whose gambling debts lead him to steal Buck and sell him to dog traders.",
+            "description": "A gardener's helper on Judge Miller's estate whose gambling debts lead him to steal Buck and sell him through a chain of dog traders.",
             "id": "manuel",
             "name": "Manuel",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "minor"
-          },
-          {
-            "description": "The club-wielding dog dealer who breaks Buck's first attempts at resistance. He teaches Buck that a human holding a weapon may be obeyed without being accepted as rightful or good.",
-            "id": "man-in-the-red-sweater",
-            "name": "The man in the red sweater",
             "reveal": {
               "chapter": 1
             },
             "role": "antagonist"
           },
           {
-            "description": "A Canadian government courier who buys Buck for a sled team. Experienced, observant, and fair by the standards of the trail, he recognizes Buck's unusual potential.",
+            "description": "An unnamed dog breaker who receives Buck after his abduction. By beating him back whenever he attacks, the man teaches Buck that a human holding a club has overwhelming power, though Buck does not become obedient in spirit.",
+            "id": "man-in-the-red-sweater",
+            "name": "Man in the Red Sweater",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Canadian government courier who buys Buck and Curly for the mail service and travels with François. Practical and experienced, he understands sled dogs and the hazards of the northern trail.",
             "id": "perrault",
             "name": "Perrault",
             "reveal": {
@@ -1432,34 +1423,51 @@
             "role": "supporting"
           },
           {
-            "description": "Perrault's dog driver, skilled at managing a team in the severe conditions of the Klondike routes. He trains Buck for harness work and understands the rivalry developing within the team.",
+            "description": "Perrault's companion and the driver responsible for the dog team. He trains Buck to pull a sled, handles the animals firmly, and recognizes both competence and disorder within the team.",
             "id": "francois",
             "name": "François",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
           {
-            "description": "The white lead dog of François and Perrault's team. Experienced, cunning, and dominant, he treats Buck as a challenger and uses every chance to undermine him.",
+            "description": "A friendly Newfoundland bought alongside Buck for the journey north. Unlike the more guarded dogs around her, she readily makes friendly approaches to both dogs and people.",
+            "id": "curly",
+            "name": "Curly",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A large, white, experienced sled dog traveling north with François. He steals Buck's food during the voyage and shows a readiness to profit from another dog's vulnerability.",
             "id": "spitz",
             "name": "Spitz",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "antagonist"
           },
           {
-            "description": "A solemn, experienced sled dog who cares chiefly about doing his work properly and has little interest in conflict away from the traces.",
+            "description": "A gloomy, seasoned sled dog traveling north with François. He avoids companionship and reacts only when another dog interferes with him, preferring to be left alone.",
             "id": "dave",
             "name": "Dave",
+            "reveal": {
+              "chapter": 1
+            }
+          },
+          {
+            "description": "A scarred, one-eyed sled dog who avoids fights unless approached on his blind side. Like Dave, he is an exacting worker whose example helps Buck master life in harness.",
+            "id": "sol-leks",
+            "name": "Sol-leks",
             "reveal": {
               "chapter": 2
             },
             "role": "supporting"
           },
           {
-            "description": "One of three inexperienced American travelers attempting to reach the Klondike with far too much baggage and too little knowledge. Hal carries a whip and revolver and mistakes force for competent leadership.",
+            "description": "An inexperienced American who buys the exhausted mail team with Charles and Mercedes. Armed with a club and convinced that force can replace knowledge, he overloads and underfeeds the dogs while ignoring warnings about the spring trail.",
             "id": "hal",
             "name": "Hal",
             "reveal": {
@@ -1468,22 +1476,56 @@
             "role": "antagonist"
           },
           {
-            "description": "Hal's sister and Charles's wife, traveling with them toward the Klondike. She resists surrendering comforts even though their overloaded sled cannot carry everything.",
+            "description": "Mercedes's husband and Hal's companion in the disastrous attempt to travel north. He shares Hal's lack of trail experience and proves unable to manage either the overloaded sled or the quarrels within the party.",
+            "id": "charles",
+            "name": "Charles",
+            "reveal": {
+              "chapter": 5
+            }
+          },
+          {
+            "description": "Charles's wife and Hal's sister, traveling with them despite the weight and hardship her presence adds. She clings to unnecessary possessions and insists on riding as the team's condition collapses.",
             "id": "mercedes",
             "name": "Mercedes",
             "reveal": {
               "chapter": 5
-            },
-            "role": "minor"
+            }
           },
           {
-            "description": "A seasoned outdoorsman who intervenes when Hal beats the exhausted Buck. Calm, physically capable, and deeply humane toward animals, he gives Buck the first loving bond of his northern life.",
+            "description": "An experienced outdoorsman camped beside a dangerous stretch of river. He intervenes when Hal beats the exhausted Buck, cuts Buck free, and refuses to let the dog continue onto visibly weakening ice.",
             "id": "john-thornton",
             "name": "John Thornton",
             "reveal": {
               "chapter": 5
             },
             "role": "supporting"
+          },
+          {
+            "description": "A small Irish setter belonging to John Thornton. Gentle and attentive, she helps nurse Buck after his rescue and is one of the dogs with whom he shares Thornton's camp.",
+            "id": "skeet",
+            "name": "Skeet",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A large, good-natured black dog belonging to John Thornton. He welcomes Buck without jealousy and becomes his companion in Thornton's camp.",
+            "id": "nig",
+            "name": "Nig",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A violent man in a frontier saloon who attacks another patron and then turns on John Thornton. Buck responds immediately to the threat against the person he loves.",
+            "id": "black-burton",
+            "name": "Black Burton",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
           }
         ],
         "license": "CC-BY-SA-4.0",
@@ -1509,48 +1551,48 @@
         "work": "the-call-of-the-wild"
       },
       "recaps": {
-        "ending": "John Thornton and his partners locate a rich gold deposit deep in the wilderness while Buck spends increasing amounts of time ranging beyond camp. Buck befriends a wolf and later proves his growing hunting power by bringing down a moose. When he returns from one excursion, he finds that Yeehat raiders have killed Thornton, the other men, and the dogs. Buck attacks the raiders and drives them away, no longer constrained by fear of human beings. Thornton's death severs his final bond to domestic life. Buck answers the wild call he has felt throughout his northern years, joins a wolf pack, and becomes its leader. The Yeehats remember a supernatural Ghost Dog associated with the region, while Buck continues to visit the valley where Thornton died.",
-        "in_short": "Buck, a powerful dog living on a California estate, is stolen and sold into service during the Klondike gold rush. Harsh handlers and the sled trail teach him the laws of force, hunger, and survival. He defeats the lead dog Spitz and becomes an exceptional leader, but exhausting mail work and incompetent owners nearly kill him. John Thornton rescues Buck and earns his complete devotion. Buck saves Thornton's life and wins a celebrated strength wager for him, yet the wilderness exerts an increasing pull. Deep in the country, Buck befriends a wolf and hunts on his own. He returns to find Thornton and his companions killed by Yeehat raiders, attacks the killers, and loses his final reason to remain with humans. Buck joins a wolf pack, rises as its leader, and becomes a lasting legend in the valley.",
+        "ending": "Buck returns from hunting to find that Yeehat warriors have attacked John Thornton's camp. Nig is dead, Skeet is dying, and Thornton's partners have also been killed. Buck charges the attackers, killing several and driving the rest into the forest. He searches until he finds Thornton's body in a pool and understands that his last binding tie to human society is gone. When a wolf pack challenges him, Buck fights until the wolves pause; he then recognizes a lean wolf he has met before and joins the pack. In later years the Yeehats fear a great Ghost Dog that leads the wolves, raids their camps, and hunts across the valley. Buck nevertheless returns alone each summer to the place where Thornton died. He has fully answered the wild call that drew him throughout the story, becoming the dominant leader of the wolves while retaining the memory of the human he loved.",
+        "in_short": "Buck, a strong dog raised in comfort on a California estate, is stolen and sold as a sled dog during the Klondike gold rush. Clubbed into submission by a dog breaker, he learns the violent laws governing people and animals in the North. Under the couriers François and Perrault, he masters the trail, defeats the lead dog Spitz, and takes command of the team. After government mail work wears the dogs down, three incompetent travelers buy them, overload the sled, and drive them toward collapse. John Thornton saves Buck from a beating just before the travelers and the remaining team fall through river ice. Buck's devotion to Thornton leads him to defend and rescue the man and to win a great pulling wager. Farther in the wilderness, Thornton's party finds gold while Buck increasingly follows his hunting instincts. He returns from killing a moose to find Thornton and the camp destroyed by Yeehat attackers. Buck avenges them, joins a wolf pack, and becomes the legendary leader known to the local people as the Ghost Dog.",
         "license": "CC-BY-SA-4.0",
         "recaps": [
           {
             "scope": "book",
-            "text": "Buck lives as the favored large dog on Judge Miller's California estate until Manuel, a worker with gambling debts, secretly sells him. Passed through brutal handlers, Buck learns from a club-wielding dealer that open resistance to an armed human brings pain. He is shipped north during the Klondike gold rush and bought by Canadian government courier Perrault. The journey strips away the security of his former life, but Buck studies every new threat and preserves his pride while learning when obedience is necessary.",
+            "text": "Buck lives as the favored dog on Judge Miller's comfortable California estate, strong enough to rule the other animals and secure in the human household. The discovery of gold in the Klondike creates a market for powerful northern dogs. Manuel, a gardener's helper burdened by gambling debts, secretly takes Buck and sells him. Passed among rough strangers, Buck fights restraint but is beaten and transported north. A man in a red sweater repeatedly knocks him down with a club until Buck understands that he cannot defeat an armed human by direct attack. The lesson changes his conduct without breaking his pride. The Canadian courier Perrault buys Buck for government service, along with a friendly Newfoundland named Curly, and takes them toward the cold country with the dog driver François. By the end of the journey north, Buck has been stripped of the protections of his old life and has begun to understand that survival will require him to learn unfamiliar rules quickly.",
             "through": {
               "chapter": 1
             }
           },
           {
             "scope": "book",
-            "text": "On the snow trail, driver François places Buck in harness with experienced sled dogs. Buck sees the friendly Curly killed by a pack and understands that a fallen animal receives no mercy. He rapidly learns to pull, sleep beneath the snow, steal food, and defend himself. Spitz, the team's white leader, recognizes Buck as a rival and punishes any challenge to his authority. Buck's strength and intelligence help him adapt, but survival now depends on accepting the severe laws of both club and fang.",
+            "text": "Stolen from Judge Miller's California estate and sold into the Klondike dog trade, Buck has learned from a club-wielding dog breaker that human force must be respected. The courier Perrault and dog driver François take him north for government service. At the beach, Curly makes a friendly approach to another dog, is knocked down, and is killed by the surrounding pack. Buck learns that a fallen animal receives no mercy and notices the lead dog Spitz watching with satisfaction. François puts Buck into harness with the experienced Dave and Sol-leks, whose corrections teach him how to work in a sled team. Buck adapts rapidly to cold, hunger, and nightly camps, even learning to bury himself in snow and to steal food without being caught. Old instincts begin to replace the habits of domestic life. Spitz, cunning and dominant, resents Buck's strength; Buck in turn recognizes him as an enemy. The team begins its demanding journey carrying official dispatches toward Dawson, with Buck no longer a sheltered pet but an increasingly capable trail dog.",
             "through": {
               "chapter": 2
             }
           },
           {
             "scope": "book",
-            "text": "Buck grows stronger and more cunning in harness while quietly weakening Spitz's authority. When starving huskies invade a camp, the team is injured and scattered, and Spitz uses the confusion to attack Buck. Their rivalry finally becomes a direct fight during a chaotic rabbit chase. Spitz is the more practiced fighter, but Buck changes his tactics, cripples him, and wins. The other dogs close in on the fallen leader. Buck has survived the decisive contest and is ready to claim the place at the head of the team.",
+            "text": "Buck has been abducted from a California estate, sold north, and trained for Perrault and François's government sled team. Curly's death taught him the danger of falling in a fight, while Dave and Sol-leks taught him trail work. Buck adapts so completely that older predatory instincts awaken, and his growing confidence brings him into conflict with Spitz, the team's ruthless lead dog. Their rivalry spreads disorder as Buck challenges Spitz's authority and protects dogs that Spitz would punish. During a starving husky attack, the camp and supplies are damaged, and later the team must cross treacherous ice. A rabid dog chases Buck until François kills it, but Spitz uses Buck's exhaustion to attack him. The final contest comes during a wild pursuit of a snowshoe rabbit. Buck and Spitz fight away from the other dogs; remembering the consequences of being knocked down, Buck changes tactics, breaks Spitz's legs, and brings him to the ground. The watching pack closes in on the defeated leader. Buck survives as the clear dominant dog, ready to claim the position Spitz held.",
             "through": {
               "chapter": 3
             }
           },
           {
             "scope": "book",
-            "text": "Buck refuses to accept any position except lead dog and proves an exceptional commander, bringing the team into discipline and helping François and Perrault make remarkable time. The dogs are later transferred to exhausting mail work, hauling heavy loads with inadequate rest. Veteran dog Dave becomes gravely ill but insists on remaining in harness until he can no longer travel and is killed out of mercy. The depleted team is sold to Hal, Charles, and Mercedes, inexperienced travelers who overload the sled, mismanage provisions, and drive the animals toward collapse. At a camp beside dangerous spring ice, Buck finally refuses to rise. Hal beats him until John Thornton intervenes, cuts Buck free, and keeps him behind. The travelers continue onto the river, where the ice gives way and swallows them.",
+            "text": "After being stolen and sent to the Klondike, Buck learns the rules of club, fang, hunger, and harness. He becomes a skilled member of François and Perrault's team and defeats Spitz after a long struggle for dominance. When François tries another dog in the lead position, Buck refuses to accept it and evades capture until the driver gives him the place. As leader, Buck restores discipline and draws exceptional effort from the team. The couriers complete a fast run to Skaguay, where orders transfer the dogs to a mail service run by a Scots half-breed. The work becomes repetitive and punishing as the team hauls heavy loads between settlements with little rest. Dave grows mysteriously weak but remains fiercely attached to his place in the harness. Even after the drivers remove him, he struggles beside the sled and insists on working until he can no longer rise. The team moves on after Dave is put out of his suffering. Buck continues to lead, but the exhausting mail route and accumulated miles steadily wear down every dog.",
+            "through": {
+              "chapter": 4
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Buck has risen from kidnapped estate dog to master of a northern sled team, defeating Spitz and leading government couriers on a record run. Heavy mail hauling then exhausts the dogs and costs Dave his life. At Skaguay the worn team is sold to Hal, Charles, and Mercedes, newcomers who bring too much luggage, little food, and no practical understanding of the trail. They quarrel, ignore advice, add more dogs than they can feed, and then reduce rations when their schedule slips. Dogs die from hunger and overwork while Mercedes adds her own weight to the load. Buck endures until the survivors reach John Thornton's camp beside a river whose spring ice is breaking up. Thornton warns the travelers that crossing is unsafe. Hal nevertheless orders the dogs forward and beats Buck when he refuses to rise. Sensing that the trail ahead cannot hold them, Buck accepts the blows rather than move. Thornton intervenes, knocks Hal back, and cuts Buck from the traces. Hal, Charles, and Mercedes continue without him; the ice gives way, and the people, sled, and remaining dogs disappear into the river. Buck stays behind with the man who saved him.",
             "through": {
               "chapter": 5
             }
           },
           {
             "scope": "book",
-            "text": "Buck recovers under John Thornton's care and forms his first deep, freely given bond with a human. His devotion is matched by Thornton's affection and trust. Buck attacks a man who strikes Thornton and later saves Thornton from a dangerous river by carrying a line through the current. In a Dawson wager, Thornton stakes everything on Buck's ability to start and pull a sled loaded with a thousand pounds. Buck succeeds, winning a large sum and making his strength famous. Yet his settled loyalty exists beside a growing attraction to the wilderness. He hears distant calls, wanders farther from camp, and feels instincts that belong to a life older than the human world.",
-            "through": {
-              "chapter": 6
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Thornton and his partners search deep in the wilderness and find a rich gold deposit. Buck ranges far from camp, befriends a wolf, and proves his growing power by bringing down a moose after a prolonged hunt. Returning one day, he finds the camp destroyed and Thornton killed by Yeehat raiders. Buck attacks the group and drives them away, discovering that he no longer fears human weapons at close quarters. Thornton's death removes his final tie to domestic life. Buck answers the call that has drawn him throughout the north, joins a wolf pack, and eventually becomes its leader. People remember a powerful Ghost Dog associated with the valley, which Buck continues to revisit because it is where Thornton died.",
+            "text": "John Thornton rescues Buck from Hal's collapsing team just before the inexperienced travelers and the remaining dogs fall through river ice. Recovering with Thornton's dogs Skeet and Nig, Buck forms a deeper bond with Thornton than he has known with any person. He attacks Black Burton for striking Thornton, saves Thornton when a boat overturns in dangerous rapids, and later vindicates Thornton's boast by pulling a sled loaded with one thousand pounds and winning a large wager. Thornton uses the money to travel with his partners Pete and Hans into unmapped country, where they discover a rich gold deposit. While the men work, Buck ranges farther from camp, meets a lean wolf, and feels the wild call growing stronger. He spends days away hunting and finally brings down a great bull moose after a prolonged pursuit. Returning to camp, Buck discovers a Yeehat attack in progress and finds the dogs and men killed, including Thornton. He kills and scatters the attackers, then finds Thornton's body. With his last human bond gone, Buck confronts an arriving wolf pack, recognizes the wolf he met before, and joins them. He becomes their dominant leader, remembered by the Yeehats as a fearsome Ghost Dog, though he returns each year to the site of Thornton's death.",
             "through": {
               "chapter": 7
             }
@@ -1734,219 +1776,6 @@
           }
         ],
         "work": "the-call-of-the-wild-adaptation"
-      }
-    },
-    "the-call-of-the-wild-amazonclassics-edition": {
-      "characters": {
-        "characters": [
-          {
-            "description": "A powerful, pampered dog raised on Judge Miller's California estate, with a St. Bernard father and a Scotch shepherd mother. After a servant sells him, Buck is carried into the northern gold rush and learns that strength, alertness, and adaptability now matter more than the civilized rules of his old home.",
-            "id": "buck",
-            "name": "Buck",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
-            "description": "A gardener's helper on Judge Miller's estate whose gambling debts lead him to steal Buck and sell him through a chain of dog traders.",
-            "id": "manuel",
-            "name": "Manuel",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "antagonist"
-          },
-          {
-            "description": "An unnamed dog breaker who receives Buck after his abduction. By beating him back whenever he attacks, the man teaches Buck that a human holding a club has overwhelming power, though Buck does not become obedient in spirit.",
-            "id": "man-in-the-red-sweater",
-            "name": "Man in the Red Sweater",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "antagonist"
-          },
-          {
-            "description": "A Canadian government courier who buys Buck and Curly for the mail service and travels with François. Practical and experienced, he understands sled dogs and the hazards of the northern trail.",
-            "id": "perrault",
-            "name": "Perrault",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Perrault's companion and the driver responsible for the dog team. He trains Buck to pull a sled, handles the animals firmly, and recognizes both competence and disorder within the team.",
-            "id": "francois",
-            "name": "François",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A friendly Newfoundland bought alongside Buck for the journey north. Unlike the more guarded dogs around her, she readily makes friendly approaches to both dogs and people.",
-            "id": "curly",
-            "name": "Curly",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "minor"
-          },
-          {
-            "description": "A large, white, experienced sled dog traveling north with François. He steals Buck's food during the voyage and shows a readiness to profit from another dog's vulnerability.",
-            "id": "spitz",
-            "name": "Spitz",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "antagonist"
-          },
-          {
-            "description": "A gloomy, seasoned sled dog traveling north with François. He avoids companionship and reacts only when another dog interferes with him, preferring to be left alone.",
-            "id": "dave",
-            "name": "Dave",
-            "reveal": {
-              "chapter": 1
-            }
-          },
-          {
-            "description": "A scarred, one-eyed sled dog who avoids fights unless approached on his blind side. Like Dave, he is an exacting worker whose example helps Buck master life in harness.",
-            "id": "sol-leks",
-            "name": "Sol-leks",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "An inexperienced American who buys the exhausted mail team with Charles and Mercedes. Armed with a club and convinced that force can replace knowledge, he overloads and underfeeds the dogs while ignoring warnings about the spring trail.",
-            "id": "hal",
-            "name": "Hal",
-            "reveal": {
-              "chapter": 5
-            },
-            "role": "antagonist"
-          },
-          {
-            "description": "Mercedes's husband and Hal's companion in the disastrous attempt to travel north. He shares Hal's lack of trail experience and proves unable to manage either the overloaded sled or the quarrels within the party.",
-            "id": "charles",
-            "name": "Charles",
-            "reveal": {
-              "chapter": 5
-            }
-          },
-          {
-            "description": "Charles's wife and Hal's sister, traveling with them despite the weight and hardship her presence adds. She clings to unnecessary possessions and insists on riding as the team's condition collapses.",
-            "id": "mercedes",
-            "name": "Mercedes",
-            "reveal": {
-              "chapter": 5
-            }
-          },
-          {
-            "description": "An experienced outdoorsman camped beside a dangerous stretch of river. He intervenes when Hal beats the exhausted Buck, cuts Buck free, and refuses to let the dog continue onto visibly weakening ice.",
-            "id": "john-thornton",
-            "name": "John Thornton",
-            "reveal": {
-              "chapter": 5
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A small Irish setter belonging to John Thornton. Gentle and attentive, she helps nurse Buck after his rescue and is one of the dogs with whom he shares Thornton's camp.",
-            "id": "skeet",
-            "name": "Skeet",
-            "reveal": {
-              "chapter": 6
-            },
-            "role": "minor"
-          },
-          {
-            "description": "A large, good-natured black dog belonging to John Thornton. He welcomes Buck without jealousy and becomes his companion in Thornton's camp.",
-            "id": "nig",
-            "name": "Nig",
-            "reveal": {
-              "chapter": 6
-            },
-            "role": "minor"
-          },
-          {
-            "description": "A violent man in a frontier saloon who attacks another patron and then turns on John Thornton. Buck responds immediately to the threat against the person he loves.",
-            "id": "black-burton",
-            "name": "Black Burton",
-            "reveal": {
-              "chapter": 6
-            },
-            "role": "antagonist"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge",
-            "type": "community"
-          }
-        ],
-        "work": "the-call-of-the-wild-amazonclassics-edition"
-      },
-      "recaps": {
-        "ending": "Buck returns from hunting to find that Yeehat warriors have attacked John Thornton's camp. Nig is dead, Skeet is dying, and Thornton's partners have also been killed. Buck charges the attackers, killing several and driving the rest into the forest. He searches until he finds Thornton's body in a pool and understands that his last binding tie to human society is gone. When a wolf pack challenges him, Buck fights until the wolves pause; he then recognizes a lean wolf he has met before and joins the pack. In later years the Yeehats fear a great Ghost Dog that leads the wolves, raids their camps, and hunts across the valley. Buck nevertheless returns alone each summer to the place where Thornton died. He has fully answered the wild call that drew him throughout the story, becoming the dominant leader of the wolves while retaining the memory of the human he loved.",
-        "in_short": "Buck, a strong dog raised in comfort on a California estate, is stolen and sold as a sled dog during the Klondike gold rush. Clubbed into submission by a dog breaker, he learns the violent laws governing people and animals in the North. Under the couriers François and Perrault, he masters the trail, defeats the lead dog Spitz, and takes command of the team. After government mail work wears the dogs down, three incompetent travelers buy them, overload the sled, and drive them toward collapse. John Thornton saves Buck from a beating just before the travelers and the remaining team fall through river ice. Buck's devotion to Thornton leads him to defend and rescue the man and to win a great pulling wager. Farther in the wilderness, Thornton's party finds gold while Buck increasingly follows his hunting instincts. He returns from killing a moose to find Thornton and the camp destroyed by Yeehat attackers. Buck avenges them, joins a wolf pack, and becomes the legendary leader known to the local people as the Ghost Dog.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "book",
-            "text": "Buck lives as the favored dog on Judge Miller's comfortable California estate, strong enough to rule the other animals and secure in the human household. The discovery of gold in the Klondike creates a market for powerful northern dogs. Manuel, a gardener's helper burdened by gambling debts, secretly takes Buck and sells him. Passed among rough strangers, Buck fights restraint but is beaten and transported north. A man in a red sweater repeatedly knocks him down with a club until Buck understands that he cannot defeat an armed human by direct attack. The lesson changes his conduct without breaking his pride. The Canadian courier Perrault buys Buck for government service, along with a friendly Newfoundland named Curly, and takes them toward the cold country with the dog driver François. By the end of the journey north, Buck has been stripped of the protections of his old life and has begun to understand that survival will require him to learn unfamiliar rules quickly.",
-            "through": {
-              "chapter": 1
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Stolen from Judge Miller's California estate and sold into the Klondike dog trade, Buck has learned from a club-wielding dog breaker that human force must be respected. The courier Perrault and dog driver François take him north for government service. At the beach, Curly makes a friendly approach to another dog, is knocked down, and is killed by the surrounding pack. Buck learns that a fallen animal receives no mercy and notices the lead dog Spitz watching with satisfaction. François puts Buck into harness with the experienced Dave and Sol-leks, whose corrections teach him how to work in a sled team. Buck adapts rapidly to cold, hunger, and nightly camps, even learning to bury himself in snow and to steal food without being caught. Old instincts begin to replace the habits of domestic life. Spitz, cunning and dominant, resents Buck's strength; Buck in turn recognizes him as an enemy. The team begins its demanding journey carrying official dispatches toward Dawson, with Buck no longer a sheltered pet but an increasingly capable trail dog.",
-            "through": {
-              "chapter": 2
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Buck has been abducted from a California estate, sold north, and trained for Perrault and François's government sled team. Curly's death taught him the danger of falling in a fight, while Dave and Sol-leks taught him trail work. Buck adapts so completely that older predatory instincts awaken, and his growing confidence brings him into conflict with Spitz, the team's ruthless lead dog. Their rivalry spreads disorder as Buck challenges Spitz's authority and protects dogs that Spitz would punish. During a starving husky attack, the camp and supplies are damaged, and later the team must cross treacherous ice. A rabid dog chases Buck until François kills it, but Spitz uses Buck's exhaustion to attack him. The final contest comes during a wild pursuit of a snowshoe rabbit. Buck and Spitz fight away from the other dogs; remembering the consequences of being knocked down, Buck changes tactics, breaks Spitz's legs, and brings him to the ground. The watching pack closes in on the defeated leader. Buck survives as the clear dominant dog, ready to claim the position Spitz held.",
-            "through": {
-              "chapter": 3
-            }
-          },
-          {
-            "scope": "book",
-            "text": "After being stolen and sent to the Klondike, Buck learns the rules of club, fang, hunger, and harness. He becomes a skilled member of François and Perrault's team and defeats Spitz after a long struggle for dominance. When François tries another dog in the lead position, Buck refuses to accept it and evades capture until the driver gives him the place. As leader, Buck restores discipline and draws exceptional effort from the team. The couriers complete a fast run to Skaguay, where orders transfer the dogs to a mail service run by a Scots half-breed. The work becomes repetitive and punishing as the team hauls heavy loads between settlements with little rest. Dave grows mysteriously weak but remains fiercely attached to his place in the harness. Even after the drivers remove him, he struggles beside the sled and insists on working until he can no longer rise. The team moves on after Dave is put out of his suffering. Buck continues to lead, but the exhausting mail route and accumulated miles steadily wear down every dog.",
-            "through": {
-              "chapter": 4
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Buck has risen from kidnapped estate dog to master of a northern sled team, defeating Spitz and leading government couriers on a record run. Heavy mail hauling then exhausts the dogs and costs Dave his life. At Skaguay the worn team is sold to Hal, Charles, and Mercedes, newcomers who bring too much luggage, little food, and no practical understanding of the trail. They quarrel, ignore advice, add more dogs than they can feed, and then reduce rations when their schedule slips. Dogs die from hunger and overwork while Mercedes adds her own weight to the load. Buck endures until the survivors reach John Thornton's camp beside a river whose spring ice is breaking up. Thornton warns the travelers that crossing is unsafe. Hal nevertheless orders the dogs forward and beats Buck when he refuses to rise. Sensing that the trail ahead cannot hold them, Buck accepts the blows rather than move. Thornton intervenes, knocks Hal back, and cuts Buck from the traces. Hal, Charles, and Mercedes continue without him; the ice gives way, and the people, sled, and remaining dogs disappear into the river. Buck stays behind with the man who saved him.",
-            "through": {
-              "chapter": 5
-            }
-          },
-          {
-            "scope": "book",
-            "text": "John Thornton rescues Buck from Hal's collapsing team just before the inexperienced travelers and the remaining dogs fall through river ice. Recovering with Thornton's dogs Skeet and Nig, Buck forms a deeper bond with Thornton than he has known with any person. He attacks Black Burton for striking Thornton, saves Thornton when a boat overturns in dangerous rapids, and later vindicates Thornton's boast by pulling a sled loaded with one thousand pounds and winning a large wager. Thornton uses the money to travel with his partners Pete and Hans into unmapped country, where they discover a rich gold deposit. While the men work, Buck ranges farther from camp, meets a lean wolf, and feels the wild call growing stronger. He spends days away hunting and finally brings down a great bull moose after a prolonged pursuit. Returning to camp, Buck discovers a Yeehat attack in progress and finds the dogs and men killed, including Thornton. He kills and scatters the attackers, then finds Thornton's body. With his last human bond gone, Buck confronts an arriving wolf pack, recognizes the wolf he met before, and joins them. He becomes their dominant leader, remembered by the Yeehats as a fearsome Ghost Dog, though he returns each year to the site of Thornton's death.",
-            "through": {
-              "chapter": 7
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge",
-            "type": "community"
-          }
-        ],
-        "work": "the-call-of-the-wild-amazonclassics-edition"
       }
     },
     "the-call-of-the-wild-classic-childrens-book": {

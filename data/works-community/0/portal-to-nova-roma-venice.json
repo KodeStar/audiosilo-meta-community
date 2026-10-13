@@ -1905,9 +1905,9 @@
           {
             "aliases": [
               "Lizzy",
-              "Eliza Bennet"
+              "Eliza"
             ],
-            "description": "The second of the five Bennet daughters, quick-witted, lively, and fond of observing the follies of the people around her. Her father's favorite for her cleverness, she trusts her own judgement and forms strong, confident impressions of others. The family estate is entailed away from the female line, so she has little fortune, yet she is determined never to marry without genuine affection and respect.",
+            "description": "The intelligent and lively second Bennet daughter. She takes pleasure in observing character and values a marriage based on respect rather than money alone. Confident in her judgment and quick to laugh at absurdity, she is also vulnerable to forming conclusions before she has complete evidence.",
             "id": "elizabeth-bennet",
             "name": "Elizabeth Bennet",
             "reveal": {
@@ -1916,39 +1916,7 @@
             "role": "protagonist"
           },
           {
-            "aliases": [
-              "Fitzwilliam Darcy"
-            ],
-            "description": "A wealthy young gentleman and close friend of Mr Bingley who appears at the Meryton assembly and is at first admired for his handsome looks and great fortune. His cold, proud manner soon turns local opinion against him: he keeps to his own party and dismisses Elizabeth as not handsome enough to tempt him, giving open offense. He is master of a large estate in Derbyshire called Pemberley.",
-            "id": "fitzwilliam-darcy",
-            "name": "Mr Darcy",
-            "reveal": {
-              "chapter": 3
-            }
-          },
-          {
-            "description": "The eldest and most beautiful of the Bennet daughters, gentle, modest, and inclined to think well of everyone. At the Meryton assembly she draws the marked attention of the amiable Mr Bingley. Reserved by nature, she tends to conceal the true strength of her feelings.",
-            "id": "jane-bennet",
-            "name": "Jane Bennet",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "Charles Bingley"
-            ],
-            "description": "A good-natured, sociable young man of large fortune who leases Netherfield Park near the Bennets. Easy and agreeable, he is instantly popular in the neighborhood and singles out Jane Bennet at the assembly. He is devoted to his prouder friend Mr Darcy and is easily guided by the opinions of those he trusts.",
-            "id": "charles-bingley",
-            "name": "Mr Bingley",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The father of the five Bennet daughters and master of Longbourn, an estate entailed to a male heir. Dry, sardonic, and fond of retreating to his library, he is amused by his wife's nervous excitability and openly prefers his sharp second daughter, Elizabeth. He is careless about the family's finances and its future.",
+            "description": "Elizabeth's father, the owner of Longbourn. Clever and ironic but withdrawn from much of family life, he copes with his wife's nerves and the foolishness around him through private amusement rather than active guidance.",
             "id": "mr-bennet",
             "name": "Mr Bennet",
             "reveal": {
@@ -1957,7 +1925,7 @@
             "role": "supporting"
           },
           {
-            "description": "The mother of the Bennet girls, whose chief occupation is getting her daughters married. Excitable, talkative, and easily agitated, she fastens at once on the arrival of the wealthy bachelor Mr Bingley as a prospect for one of them. Her want of tact frequently embarrasses her elder daughters.",
+            "description": "The mother of five unmarried daughters, preoccupied with finding wealthy husbands for them because the family estate will pass to a male relative. Excitable, indiscreet, and convinced of the seriousness of her nerves, she treats every eligible newcomer as a possible solution.",
             "id": "mrs-bennet",
             "name": "Mrs Bennet",
             "reveal": {
@@ -1966,7 +1934,43 @@
             "role": "supporting"
           },
           {
-            "description": "Elizabeth's close friend and neighbor, the sensible, plain eldest daughter of Sir William Lucas. Practical and unromantic, she holds that happiness in marriage is largely a matter of chance and that a woman with little fortune should secure a comfortable establishment when she can, rather than wait for affection.",
+            "description": "The eldest Bennet daughter, admired for her beauty and gentle temper. She is inclined to see good motives in everyone and is reserved in showing strong emotion, even when she is deeply interested in Charles Bingley.",
+            "id": "jane-bennet",
+            "name": "Jane Bennet",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A wealthy, friendly young man who leases Netherfield Park. Open, sociable, and readily pleased, he is immediately admired in the neighborhood and shows particular attention to Jane Bennet at the first assembly.",
+            "id": "charles-bingley",
+            "name": "Charles Bingley",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Bingley's much wealthier friend and the owner of Pemberley. Reserved and conscious of rank, he appears proud and disagreeable at the local assembly, where Elizabeth overhears him dismiss her as an unsuitable dance partner.",
+            "id": "fitzwilliam-darcy",
+            "name": "Fitzwilliam Darcy",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Bingley's elegant unmarried sister. Accomplished and socially polished, she cultivates Jane's friendship while sharing Darcy's preference for fashionable company and taking a close interest in Darcy himself.",
+            "id": "caroline-bingley",
+            "name": "Caroline Bingley",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Elizabeth's sensible friend and the eldest daughter of Sir William Lucas. At twenty-seven and without much fortune, she views marriage more practically than Elizabeth does and does not expect romance to determine her future.",
             "id": "charlotte-lucas",
             "name": "Charlotte Lucas",
             "reveal": {
@@ -1975,41 +1979,53 @@
             "role": "supporting"
           },
           {
-            "aliases": [
-              "William Collins"
-            ],
-            "description": "A pompous clergyman and distant cousin of Mr Bennet who, under the entail, stands to inherit Longbourn. Solemn, obsequious, and lacking in sense, he is endlessly grateful to his grand patroness, Lady Catherine de Bourgh. He arrives at Longbourn meaning to choose a wife from among the Bennet daughters as a gesture of reconciliation over the estate.",
-            "id": "mr-collins",
-            "name": "Mr Collins",
+            "description": "The youngest Bennet sister, fifteen years old and already out in society. Noisy, impulsive, and eager for attention, she is especially excited by the arrival of militia officers in the nearby town of Meryton.",
+            "id": "lydia-bennet",
+            "name": "Lydia Bennet",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Mr Bennet's cousin and the clergyman who will inherit Longbourn because the estate is entailed away from the Bennet daughters. Formal, self-important, and eager to advertise the favor of his patron Lady Catherine, he visits intending to repair the family connection and choose a wife.",
+            "id": "william-collins",
+            "name": "William Collins",
             "reveal": {
               "chapter": 13
             },
-            "role": "minor"
+            "role": "supporting"
           },
           {
-            "aliases": [
-              "George Wickham"
-            ],
-            "description": "A charming, handsome young officer newly joined to the militia stationed at Meryton, whose pleasant manners win general favor. He strikes up an acquaintance with Elizabeth and tells her that he grew up alongside Mr Darcy as the son of the late Mr Darcy's steward, and that Darcy cruelly denied him a clergyman's living he had been promised. His account deepens Elizabeth's dislike of Darcy.",
+            "description": "A handsome and charming militia officer newly stationed near Meryton. His easy manners immediately impress Elizabeth, but an encounter with Darcy reveals a strong hostility between the two men.",
             "id": "george-wickham",
-            "name": "Mr Wickham",
+            "name": "George Wickham",
             "reveal": {
               "chapter": 15
             },
             "role": "supporting"
           },
           {
-            "description": "The youngest Bennet daughter, only fifteen, high-spirited, flirtatious, and heedless. Her mother's favorite, she is absorbed in balls and above all in the officers of the militia quartered nearby, and pursues her amusements with little regard for propriety.",
-            "id": "lydia-bennet",
-            "name": "Lydia Bennet",
+            "description": "Mr Bennet's intelligent and well-mannered sister-in-law, who lives in London with her husband. She knows society without being ruled by it and becomes a trusted adviser to Elizabeth and Jane.",
+            "id": "mrs-gardiner",
+            "name": "Mrs Gardiner",
             "reveal": {
-              "chapter": 7
+              "chapter": 25
             },
-            "role": "minor"
+            "role": "supporting"
           },
           {
-            "description": "A wealthy, imperious noblewoman, Mr Collins's patroness and mistress of the great estate of Rosings Park in Kent. Accustomed to deference, she dictates to everyone around her and expects her opinions to be treated as law. She is Mr Darcy's aunt and intends her sickly daughter to marry him.",
-            "id": "lady-catherine",
+            "description": "Mrs Bennet's brother, a successful London tradesman. Sensible, generous, and dependable, he welcomes Jane to his home and later travels with his wife and Elizabeth.",
+            "id": "mr-gardiner",
+            "name": "Mr Gardiner",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Darcy's wealthy and commanding aunt, the owner of Rosings Park and Mr Collins's patron. Accustomed to directing the lives of those around her, she questions Elizabeth with little restraint and expects deference to her rank and opinions.",
+            "id": "lady-catherine-de-bourgh",
             "name": "Lady Catherine de Bourgh",
             "reveal": {
               "chapter": 29
@@ -2017,23 +2033,29 @@
             "role": "supporting"
           },
           {
-            "aliases": [
-              "Caroline Bingley"
-            ],
-            "description": "Mr Bingley's elegant, fashionable sister, who keeps house for him at Netherfield. Proud of her family's wealth and contemptuous of the Bennets' humbler connections, she flatters Mr Darcy, whose good opinion and hand she hopes to win, and looks down on the country society around her.",
-            "id": "caroline-bingley",
-            "name": "Miss Bingley",
+            "description": "Darcy's cousin, an army colonel and the younger son of an earl. Friendly and conversational, he visits Rosings with Darcy and treats Elizabeth without his cousin's reserve.",
+            "id": "colonel-fitzwilliam",
+            "name": "Colonel Fitzwilliam",
             "reveal": {
-              "chapter": 4
+              "chapter": 30
             },
-            "role": "minor"
+            "role": "supporting"
+          },
+          {
+            "description": "Darcy's shy sixteen-year-old sister. She is accomplished, gentle, and deeply attached to her brother. Elizabeth meets her near Pemberley and finds her manner very different from the proud figure suggested by local gossip.",
+            "id": "georgiana-darcy",
+            "name": "Georgiana Darcy",
+            "reveal": {
+              "chapter": 44
+            },
+            "role": "supporting"
           }
         ],
         "license": "CC-BY-SA-4.0",
         "sources": [
           {
-            "imported_at": "2026-07-25",
-            "ref": "model-knowledge",
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge:best-effort",
             "type": "community"
           }
         ],
@@ -2052,62 +2074,55 @@
         "work": "pride-and-prejudice"
       },
       "recaps": {
-        "ending": "Both the misunderstandings and the barriers of pride and social difference are overcome. Darcy, having secretly saved the Bennets by finding Lydia, paying Wickham's debts, and forcing their marriage, also withdraws his objection to Jane's match, and Bingley returns to propose to Jane, who accepts. Lady Catherine's attempt to forbid a union between Elizabeth and Darcy backfires by revealing to Darcy that Elizabeth may welcome him, and he proposes a second time. Elizabeth, whose feelings have reversed entirely, accepts. The novel closes with the two eldest sisters married to the men they love: Jane to Bingley, and Elizabeth to Darcy as mistress of Pemberley. Lydia and Wickham remain feckless and perpetually short of money, dependent on their richer relations. Mr Collins and Charlotte continue in their parsonage under Lady Catherine, who is eventually reconciled to the marriage. The Gardiners, who helped bring Elizabeth and Darcy together, stay close to the couple.",
-        "in_short": "When wealthy Mr Bingley leases a nearby estate, Mrs Bennet schemes to marry off her daughters. Bingley falls for the gentle eldest, Jane, while his proud friend Mr Darcy slights the sharp-witted second daughter, Elizabeth, who comes to despise him, especially after a charming officer, Wickham, claims Darcy wronged him. Darcy, drawn to Elizabeth despite himself, proposes and is angrily refused; his explaining letter exposes Wickham as a scoundrel and admits he parted Bingley from Jane. Elizabeth's opinion slowly reverses, above all after she sees Darcy transformed at his estate. When her reckless sister Lydia elopes with Wickham, Darcy secretly rescues the family by arranging the marriage. Bingley returns and weds Jane; Darcy, his pride humbled and Elizabeth's prejudice gone, proposes again and is accepted. The two eldest Bennet sisters marry the men they love.",
+        "ending": "Elizabeth learns that Darcy located Lydia and Wickham, paid Wickham's debts, purchased his commission, and arranged the marriage while trying to conceal his part. Bingley returns to Netherfield and proposes to Jane, who accepts. Lady Catherine confronts Elizabeth over a rumor that she may marry Darcy and demands that she promise never to do so. Elizabeth refuses, and Lady Catherine reports the conversation to Darcy; her account gives him hope that Elizabeth's feelings have changed. Darcy proposes again, and Elizabeth accepts, explaining how her opinion of him changed after his letter and his generous conduct. Darcy admits that Elizabeth's earlier refusal made him recognize and correct his pride. Mr Bennet consents after satisfying himself that Elizabeth truly respects Darcy, and Mrs Bennet is delighted by the wealth of both matches. Jane and Bingley marry, as do Elizabeth and Darcy. Elizabeth becomes close to Georgiana at Pemberley, the Gardiners remain valued relations, and even Lady Catherine eventually resumes contact.",
+        "in_short": "Elizabeth Bennet meets the wealthy Fitzwilliam Darcy and judges him proud after he insults her at a country assembly. Darcy grows attracted to her, while his friend Bingley and her sister Jane fall in love. Charming officer George Wickham persuades Elizabeth that Darcy treated him unjustly, and Darcy later separates Bingley from Jane. When Darcy proposes to Elizabeth while emphasizing her inferior connections, she rejects him and accuses him of harming Jane and Wickham. His explanatory letter exposes Wickham's misconduct and makes Elizabeth reconsider her own prejudice. At Darcy's estate she sees his generosity, but her sister Lydia then elopes with Wickham. Darcy secretly secures their marriage, saving the Bennets from disgrace. Bingley returns and marries Jane. After Elizabeth refuses Lady Catherine's demand that she renounce Darcy, Darcy proposes again; Elizabeth accepts, and they marry with mutual understanding replacing their first mistaken judgments.",
         "license": "CC-BY-SA-4.0",
         "recaps": [
           {
             "scope": "book",
-            "text": "The arrival of a wealthy, unmarried gentleman, Mr Bingley, at Netherfield Park stirs the neighborhood, and Mrs Bennet is eager to match him with one of her five daughters. At the Meryton assembly the good-natured Bingley is instantly liked and dances twice with the beautiful, gentle eldest Bennet daughter, Jane. His friend Mr Darcy, though richer and more distinguished, gives offense with his cold, proud manner and dismisses the second daughter, the clever and lively Elizabeth, as not handsome enough to tempt him. Elizabeth, amused and affronted, resolves to dislike him. As the families mix at further gatherings, Jane and Bingley are drawn together, while Darcy, against his own inclination, begins to find himself attracted to Elizabeth's fine eyes and quick spirit, though she remains wholly unaware of any change in him.",
+            "text": "The Bennets have five unmarried daughters, but their Longbourn estate is entailed to a male cousin, making good marriages economically important. Mrs Bennet is therefore delighted when wealthy bachelor Charles Bingley rents nearby Netherfield Park. At a local assembly Bingley is friendly and openly admires the beautiful eldest daughter, Jane. His richer friend Fitzwilliam Darcy appears proud, refuses to dance with most local women, and dismisses Elizabeth Bennet within her hearing. Elizabeth turns the insult into a joke and forms a strong dislike of him. Bingley's sisters approve of Jane's gentle manners but privately disparage her family connections. Darcy, meanwhile, begins to notice Elizabeth's intelligence and expression despite his first judgment, while she remains entertained by what she sees as his arrogance.",
             "through": {
               "chapter": 6
             }
           },
           {
             "scope": "book",
-            "text": "Jane is invited to Netherfield and, sent there on horseback in the rain by her scheming mother, catches cold and must stay to recover, which brings Elizabeth to nurse her. During the visit Elizabeth spars wittily with Darcy and with Bingley's haughty sister, Caroline, who wants Darcy for herself and looks down on the Bennets' modest connections. Darcy's admiration for Elizabeth grows even as he guards against it, and Caroline's efforts to belittle her only draw his notice more. Once Jane is well, the sisters return home to Longbourn, while Bingley's party stays on at Netherfield and the neighborhood continues to buzz with matches half-made.",
+            "text": "Jane is invited to Netherfield, becomes ill after traveling there in rain, and must stay several days. Elizabeth walks across muddy fields to nurse her, a display of sisterly devotion that Darcy admires and Bingley's sisters ridicule. During Elizabeth's stay, her lively arguments with Darcy increase his attraction, though Caroline Bingley tries to hold his attention and mocks the Bennet family. Mrs Bennet visits and makes her hopes for Jane and Bingley embarrassingly clear. Jane recovers, and the sisters return home. Mr Bennet then announces the arrival of his cousin William Collins, a clergyman who will inherit Longbourn. Collins writes in a grand, self-satisfied style, claiming that his visit is meant to heal the effects of the entail and emphasizing the favor of his noble patron, Lady Catherine de Bourgh.",
             "through": {
-              "chapter": 12
+              "chapter": 13
             }
           },
           {
             "scope": "book",
-            "text": "Mr Collins, the pompous clergyman cousin who will inherit Longbourn under its entail, arrives and, after settling on Elizabeth, proposes to her; she firmly refuses him despite her mother's fury. Meanwhile the militia has come to Meryton, and Elizabeth is charmed by a handsome officer, Mr Wickham, who tells her that Darcy cheated him of a promised inheritance, hardening her poor opinion of Darcy. At a ball at Netherfield, Elizabeth dances with Darcy while her family repeatedly embarrasses her. Soon afterward Bingley abruptly leaves for London, and Caroline writes that the whole party has gone and hints that Bingley will marry Darcy's sister, dashing Jane's hopes. Stung by Elizabeth's refusal, Mr Collins swiftly proposes to her practical friend Charlotte Lucas, who accepts him for the security of a comfortable home.",
+            "text": "Mr Collins decides that marrying a Bennet daughter will compensate the family for his future inheritance. He first chooses Jane, then redirects his attention to Elizabeth when told Jane may soon be engaged. In Meryton, Elizabeth meets the handsome militia officer George Wickham. Wickham claims that Darcy denied him the church career intended for him by Darcy's late father, confirming Elizabeth's worst view of Darcy. At the Netherfield ball, the Bennet family's public behavior embarrasses Elizabeth, and Collins gives her unwelcome attention. Collins proposes soon afterward. Elizabeth refuses despite her mother's anger, and Mr Bennet supports her decision. Charlotte Lucas, seeking security rather than romance, accepts Collins instead. Bingley abruptly leaves Netherfield for London with Darcy and his sisters, and Jane receives no explanation. By the time Charlotte's engagement is settled, Elizabeth suspects that Bingley's friends intend to separate him from Jane.",
             "through": {
               "chapter": 23
             }
           },
           {
             "scope": "book",
-            "text": "Jane travels to London hoping to see Bingley, but Caroline coldly rebuffs her and Bingley never calls. In the spring Elizabeth visits the newly married Charlotte at Mr Collins's parsonage in Kent, beside the grand estate of his patroness, the imperious Lady Catherine de Bourgh. There Elizabeth again meets Darcy, who is visiting his aunt with his cousin Colonel Fitzwilliam. From the colonel she learns that Darcy boasted of separating Bingley from an unsuitable match, and she realizes he broke Jane's happiness. That same evening Darcy astonishes her by declaring his love and proposing, while dwelling on her family's inferiority. Angry over Jane and over Wickham, Elizabeth refuses him with spirit and accuses him of arrogance and injustice.",
+            "text": "Jane visits the Gardiners in London, but Caroline Bingley treats her coldly and Bingley does not call. Elizabeth visits the newly married Charlotte at Hunsford and meets Lady Catherine, whose authority dominates both Rosings and the Collins household. Darcy and Colonel Fitzwilliam arrive to visit Lady Catherine. Darcy repeatedly seeks Elizabeth's company, behavior she does not understand. Colonel Fitzwilliam unintentionally reveals that Darcy recently saved Bingley from an unsuitable marriage, confirming that Darcy separated Bingley from Jane. Darcy then proposes to Elizabeth. He declares his love but dwells on her inferior family and the objections he has tried to overcome. Elizabeth rejects him, condemning both his role in Jane's unhappiness and his supposed mistreatment of Wickham. Darcy is shocked by her accusations and leaves after a bitter exchange.",
             "through": {
               "chapter": 34
             }
           },
           {
             "scope": "book",
-            "text": "The next day Darcy gives Elizabeth a letter answering her charges. He admits parting Bingley from Jane, believing Jane indifferent, but reveals that Wickham is a liar and a fortune-hunter who once tried to elope with Darcy's young sister for her inheritance. Reading and rereading the letter, Elizabeth is mortified to see how badly she misjudged both men, and her feelings toward Darcy begin to soften. She returns to Longbourn, where her heedless youngest sister Lydia is invited to spend the summer at Brighton with the officers. Against her better judgement the family lets her go. Elizabeth then sets out on a tour of Derbyshire with her sensible aunt and uncle, the Gardiners.",
+            "text": "Darcy gives Elizabeth a letter explaining that he believed Jane indifferent to Bingley and was alarmed by her family's conduct. He also reveals that Wickham squandered a cash settlement, later demanded the church living's value in money, and tried to elope with Darcy's fifteen-year-old sister for her fortune. Elizabeth recognizes that vanity made her trust Wickham and prejudice made her misread Darcy. Returning home, she cannot persuade her father that Lydia's unchecked behavior is dangerous, and Lydia goes to Brighton with the militia. Months later Elizabeth tours Derbyshire with the Gardiners. They visit Pemberley after she is assured Darcy is absent. His housekeeper describes him as generous and devoted to his sister. Darcy unexpectedly appears and treats Elizabeth and the Gardiners with striking courtesy. His changed manner and the evidence of his private character deepen Elizabeth's revised understanding of him.",
             "through": {
-              "chapter": 42
+              "chapter": 43
             }
           },
           {
             "scope": "book",
-            "text": "In Derbyshire the Gardiners persuade Elizabeth to visit Pemberley, Darcy's estate, believing him away. The housekeeper praises him warmly, and then Darcy himself appears unexpectedly, now courteous and gracious to Elizabeth and kind to her relations. He introduces his shy sister, Georgiana, and Elizabeth's regard for him deepens. This new happiness is shattered by letters from Jane: Lydia has run away from Brighton with Wickham and is not married. Elizabeth confides the disaster to Darcy and hurries home. Mr Bennet and Mr Gardiner search London in vain, until word comes that the couple has been found and that Wickham has agreed to marry Lydia, apparently for a modest settlement, sparing the family total ruin.",
+            "text": "Darcy introduces Elizabeth to his shy sister Georgiana and continues treating the Gardiners with respect. Elizabeth begins to hope that his affection remains. The visit is shattered by news that Lydia has run away from Brighton with Wickham without marrying him. Elizabeth tells Darcy and returns home, convinced that the scandal makes any connection between them impossible. Mr Bennet and Mr Gardiner search for the couple. Wickham has gambling debts and no intention of marrying Lydia without financial inducement. Mr Gardiner eventually reports that they have been found and that a marriage will occur once Mr Bennet agrees to modest terms. The family assumes Mr Gardiner has paid a far larger amount than he admits. Lydia and Wickham marry and visit Longbourn; Lydia is proud rather than repentant and accidentally hints that Darcy attended the wedding, leaving Elizabeth to wonder why he was involved.",
             "through": {
-              "chapter": 49
+              "chapter": 50
             }
           },
           {
             "scope": "book",
-            "text": "Lydia and Wickham, now married, visit Longbourn shameless and unrepentant, and Lydia lets slip that Mr Darcy was present at the wedding. Elizabeth writes to her aunt and learns the truth: it was Darcy who found the couple, paid Wickham's debts, and bought the marriage, all in secret and for her sake. Soon Bingley returns to Netherfield with Darcy, and Bingley, his objections gone, proposes to Jane, who joyfully accepts. Elizabeth, now deeply in love with Darcy, dares to hope, though she cannot be sure of his feelings after everything that has passed between them.",
-            "through": {
-              "chapter": 55
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Lady Catherine descends on Longbourn, having heard a rumor that Elizabeth is to marry Darcy, and demands that she promise never to accept him; Elizabeth refuses to be bullied. When Lady Catherine reports this defiance to her nephew, it gives Darcy fresh hope. He proposes to Elizabeth a second time, and she gladly accepts; each acknowledges how much they have changed. Jane marries Bingley and Elizabeth marries Darcy, the two eldest sisters settled in happy marriages of real affection. Lydia and Wickham drift on in careless debt, Mr Collins and Charlotte keep their comfortable parsonage, and even Lady Catherine is in time reconciled. Elizabeth takes her place as mistress of Pemberley.",
+            "text": "Mrs Gardiner tells Elizabeth that Darcy found Lydia and Wickham, paid Wickham's debts, bought him a commission, and arranged the marriage, acting from love for Elizabeth while trying to keep his help secret. Bingley returns to Netherfield with Darcy and soon proposes to Jane. Lady Catherine then visits Longbourn after hearing that Darcy may marry Elizabeth. She demands a promise that Elizabeth will reject him, but Elizabeth refuses to surrender her freedom. Lady Catherine repeats the encounter to Darcy, whose hope revives because Elizabeth did not deny the possibility. Darcy and Elizabeth meet while walking, and he proposes again. She accepts, thanks him for helping Lydia, and explains that his letter and later conduct changed her feelings. He acknowledges that her first refusal corrected his pride. Mr Bennet gives thoughtful consent, and Mrs Bennet celebrates two wealthy sons-in-law. Jane marries Bingley, Elizabeth marries Darcy, and Elizabeth's closest relations are welcomed at Pemberley, where her partnership with Darcy rests on affection, respect, and clearer self-knowledge.",
             "through": {
               "chapter": 61
             }
@@ -2115,8 +2130,8 @@
         ],
         "sources": [
           {
-            "imported_at": "2026-07-25",
-            "ref": "model-knowledge",
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge:best-effort",
             "type": "community"
           }
         ],
@@ -2335,878 +2350,6 @@
           }
         ],
         "work": "pride-and-prejudice-adaptation"
-      }
-    },
-    "pride-and-prejudice-amazonclassics-edition": {
-      "characters": {
-        "characters": [
-          {
-            "aliases": [
-              "Lizzy",
-              "Eliza"
-            ],
-            "description": "The intelligent and lively second Bennet daughter. She takes pleasure in observing character and values a marriage based on respect rather than money alone. Confident in her judgment and quick to laugh at absurdity, she is also vulnerable to forming conclusions before she has complete evidence.",
-            "id": "elizabeth-bennet",
-            "name": "Elizabeth Bennet",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
-            "description": "Elizabeth's father, the owner of Longbourn. Clever and ironic but withdrawn from much of family life, he copes with his wife's nerves and the foolishness around him through private amusement rather than active guidance.",
-            "id": "mr-bennet",
-            "name": "Mr Bennet",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The mother of five unmarried daughters, preoccupied with finding wealthy husbands for them because the family estate will pass to a male relative. Excitable, indiscreet, and convinced of the seriousness of her nerves, she treats every eligible newcomer as a possible solution.",
-            "id": "mrs-bennet",
-            "name": "Mrs Bennet",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The eldest Bennet daughter, admired for her beauty and gentle temper. She is inclined to see good motives in everyone and is reserved in showing strong emotion, even when she is deeply interested in Charles Bingley.",
-            "id": "jane-bennet",
-            "name": "Jane Bennet",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A wealthy, friendly young man who leases Netherfield Park. Open, sociable, and readily pleased, he is immediately admired in the neighborhood and shows particular attention to Jane Bennet at the first assembly.",
-            "id": "charles-bingley",
-            "name": "Charles Bingley",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Bingley's much wealthier friend and the owner of Pemberley. Reserved and conscious of rank, he appears proud and disagreeable at the local assembly, where Elizabeth overhears him dismiss her as an unsuitable dance partner.",
-            "id": "fitzwilliam-darcy",
-            "name": "Fitzwilliam Darcy",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Bingley's elegant unmarried sister. Accomplished and socially polished, she cultivates Jane's friendship while sharing Darcy's preference for fashionable company and taking a close interest in Darcy himself.",
-            "id": "caroline-bingley",
-            "name": "Caroline Bingley",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Elizabeth's sensible friend and the eldest daughter of Sir William Lucas. At twenty-seven and without much fortune, she views marriage more practically than Elizabeth does and does not expect romance to determine her future.",
-            "id": "charlotte-lucas",
-            "name": "Charlotte Lucas",
-            "reveal": {
-              "chapter": 5
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The youngest Bennet sister, fifteen years old and already out in society. Noisy, impulsive, and eager for attention, she is especially excited by the arrival of militia officers in the nearby town of Meryton.",
-            "id": "lydia-bennet",
-            "name": "Lydia Bennet",
-            "reveal": {
-              "chapter": 7
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Mr Bennet's cousin and the clergyman who will inherit Longbourn because the estate is entailed away from the Bennet daughters. Formal, self-important, and eager to advertise the favor of his patron Lady Catherine, he visits intending to repair the family connection and choose a wife.",
-            "id": "william-collins",
-            "name": "William Collins",
-            "reveal": {
-              "chapter": 13
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A handsome and charming militia officer newly stationed near Meryton. His easy manners immediately impress Elizabeth, but an encounter with Darcy reveals a strong hostility between the two men.",
-            "id": "george-wickham",
-            "name": "George Wickham",
-            "reveal": {
-              "chapter": 15
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Mr Bennet's intelligent and well-mannered sister-in-law, who lives in London with her husband. She knows society without being ruled by it and becomes a trusted adviser to Elizabeth and Jane.",
-            "id": "mrs-gardiner",
-            "name": "Mrs Gardiner",
-            "reveal": {
-              "chapter": 25
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Mrs Bennet's brother, a successful London tradesman. Sensible, generous, and dependable, he welcomes Jane to his home and later travels with his wife and Elizabeth.",
-            "id": "mr-gardiner",
-            "name": "Mr Gardiner",
-            "reveal": {
-              "chapter": 25
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Darcy's wealthy and commanding aunt, the owner of Rosings Park and Mr Collins's patron. Accustomed to directing the lives of those around her, she questions Elizabeth with little restraint and expects deference to her rank and opinions.",
-            "id": "lady-catherine-de-bourgh",
-            "name": "Lady Catherine de Bourgh",
-            "reveal": {
-              "chapter": 29
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Darcy's cousin, an army colonel and the younger son of an earl. Friendly and conversational, he visits Rosings with Darcy and treats Elizabeth without his cousin's reserve.",
-            "id": "colonel-fitzwilliam",
-            "name": "Colonel Fitzwilliam",
-            "reveal": {
-              "chapter": 30
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Darcy's shy sixteen-year-old sister. She is accomplished, gentle, and deeply attached to her brother. Elizabeth meets her near Pemberley and finds her manner very different from the proud figure suggested by local gossip.",
-            "id": "georgiana-darcy",
-            "name": "Georgiana Darcy",
-            "reveal": {
-              "chapter": 44
-            },
-            "role": "supporting"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "pride-and-prejudice-amazonclassics-edition"
-      },
-      "recaps": {
-        "ending": "Elizabeth learns that Darcy located Lydia and Wickham, paid Wickham's debts, purchased his commission, and arranged the marriage while trying to conceal his part. Bingley returns to Netherfield and proposes to Jane, who accepts. Lady Catherine confronts Elizabeth over a rumor that she may marry Darcy and demands that she promise never to do so. Elizabeth refuses, and Lady Catherine reports the conversation to Darcy; her account gives him hope that Elizabeth's feelings have changed. Darcy proposes again, and Elizabeth accepts, explaining how her opinion of him changed after his letter and his generous conduct. Darcy admits that Elizabeth's earlier refusal made him recognize and correct his pride. Mr Bennet consents after satisfying himself that Elizabeth truly respects Darcy, and Mrs Bennet is delighted by the wealth of both matches. Jane and Bingley marry, as do Elizabeth and Darcy. Elizabeth becomes close to Georgiana at Pemberley, the Gardiners remain valued relations, and even Lady Catherine eventually resumes contact.",
-        "in_short": "Elizabeth Bennet meets the wealthy Fitzwilliam Darcy and judges him proud after he insults her at a country assembly. Darcy grows attracted to her, while his friend Bingley and her sister Jane fall in love. Charming officer George Wickham persuades Elizabeth that Darcy treated him unjustly, and Darcy later separates Bingley from Jane. When Darcy proposes to Elizabeth while emphasizing her inferior connections, she rejects him and accuses him of harming Jane and Wickham. His explanatory letter exposes Wickham's misconduct and makes Elizabeth reconsider her own prejudice. At Darcy's estate she sees his generosity, but her sister Lydia then elopes with Wickham. Darcy secretly secures their marriage, saving the Bennets from disgrace. Bingley returns and marries Jane. After Elizabeth refuses Lady Catherine's demand that she renounce Darcy, Darcy proposes again; Elizabeth accepts, and they marry with mutual understanding replacing their first mistaken judgments.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "book",
-            "text": "The Bennets have five unmarried daughters, but their Longbourn estate is entailed to a male cousin, making good marriages economically important. Mrs Bennet is therefore delighted when wealthy bachelor Charles Bingley rents nearby Netherfield Park. At a local assembly Bingley is friendly and openly admires the beautiful eldest daughter, Jane. His richer friend Fitzwilliam Darcy appears proud, refuses to dance with most local women, and dismisses Elizabeth Bennet within her hearing. Elizabeth turns the insult into a joke and forms a strong dislike of him. Bingley's sisters approve of Jane's gentle manners but privately disparage her family connections. Darcy, meanwhile, begins to notice Elizabeth's intelligence and expression despite his first judgment, while she remains entertained by what she sees as his arrogance.",
-            "through": {
-              "chapter": 6
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Jane is invited to Netherfield, becomes ill after traveling there in rain, and must stay several days. Elizabeth walks across muddy fields to nurse her, a display of sisterly devotion that Darcy admires and Bingley's sisters ridicule. During Elizabeth's stay, her lively arguments with Darcy increase his attraction, though Caroline Bingley tries to hold his attention and mocks the Bennet family. Mrs Bennet visits and makes her hopes for Jane and Bingley embarrassingly clear. Jane recovers, and the sisters return home. Mr Bennet then announces the arrival of his cousin William Collins, a clergyman who will inherit Longbourn. Collins writes in a grand, self-satisfied style, claiming that his visit is meant to heal the effects of the entail and emphasizing the favor of his noble patron, Lady Catherine de Bourgh.",
-            "through": {
-              "chapter": 13
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Mr Collins decides that marrying a Bennet daughter will compensate the family for his future inheritance. He first chooses Jane, then redirects his attention to Elizabeth when told Jane may soon be engaged. In Meryton, Elizabeth meets the handsome militia officer George Wickham. Wickham claims that Darcy denied him the church career intended for him by Darcy's late father, confirming Elizabeth's worst view of Darcy. At the Netherfield ball, the Bennet family's public behavior embarrasses Elizabeth, and Collins gives her unwelcome attention. Collins proposes soon afterward. Elizabeth refuses despite her mother's anger, and Mr Bennet supports her decision. Charlotte Lucas, seeking security rather than romance, accepts Collins instead. Bingley abruptly leaves Netherfield for London with Darcy and his sisters, and Jane receives no explanation. By the time Charlotte's engagement is settled, Elizabeth suspects that Bingley's friends intend to separate him from Jane.",
-            "through": {
-              "chapter": 23
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Jane visits the Gardiners in London, but Caroline Bingley treats her coldly and Bingley does not call. Elizabeth visits the newly married Charlotte at Hunsford and meets Lady Catherine, whose authority dominates both Rosings and the Collins household. Darcy and Colonel Fitzwilliam arrive to visit Lady Catherine. Darcy repeatedly seeks Elizabeth's company, behavior she does not understand. Colonel Fitzwilliam unintentionally reveals that Darcy recently saved Bingley from an unsuitable marriage, confirming that Darcy separated Bingley from Jane. Darcy then proposes to Elizabeth. He declares his love but dwells on her inferior family and the objections he has tried to overcome. Elizabeth rejects him, condemning both his role in Jane's unhappiness and his supposed mistreatment of Wickham. Darcy is shocked by her accusations and leaves after a bitter exchange.",
-            "through": {
-              "chapter": 34
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Darcy gives Elizabeth a letter explaining that he believed Jane indifferent to Bingley and was alarmed by her family's conduct. He also reveals that Wickham squandered a cash settlement, later demanded the church living's value in money, and tried to elope with Darcy's fifteen-year-old sister for her fortune. Elizabeth recognizes that vanity made her trust Wickham and prejudice made her misread Darcy. Returning home, she cannot persuade her father that Lydia's unchecked behavior is dangerous, and Lydia goes to Brighton with the militia. Months later Elizabeth tours Derbyshire with the Gardiners. They visit Pemberley after she is assured Darcy is absent. His housekeeper describes him as generous and devoted to his sister. Darcy unexpectedly appears and treats Elizabeth and the Gardiners with striking courtesy. His changed manner and the evidence of his private character deepen Elizabeth's revised understanding of him.",
-            "through": {
-              "chapter": 43
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Darcy introduces Elizabeth to his shy sister Georgiana and continues treating the Gardiners with respect. Elizabeth begins to hope that his affection remains. The visit is shattered by news that Lydia has run away from Brighton with Wickham without marrying him. Elizabeth tells Darcy and returns home, convinced that the scandal makes any connection between them impossible. Mr Bennet and Mr Gardiner search for the couple. Wickham has gambling debts and no intention of marrying Lydia without financial inducement. Mr Gardiner eventually reports that they have been found and that a marriage will occur once Mr Bennet agrees to modest terms. The family assumes Mr Gardiner has paid a far larger amount than he admits. Lydia and Wickham marry and visit Longbourn; Lydia is proud rather than repentant and accidentally hints that Darcy attended the wedding, leaving Elizabeth to wonder why he was involved.",
-            "through": {
-              "chapter": 50
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Mrs Gardiner tells Elizabeth that Darcy found Lydia and Wickham, paid Wickham's debts, bought him a commission, and arranged the marriage, acting from love for Elizabeth while trying to keep his help secret. Bingley returns to Netherfield with Darcy and soon proposes to Jane. Lady Catherine then visits Longbourn after hearing that Darcy may marry Elizabeth. She demands a promise that Elizabeth will reject him, but Elizabeth refuses to surrender her freedom. Lady Catherine repeats the encounter to Darcy, whose hope revives because Elizabeth did not deny the possibility. Darcy and Elizabeth meet while walking, and he proposes again. She accepts, thanks him for helping Lydia, and explains that his letter and later conduct changed her feelings. He acknowledges that her first refusal corrected his pride. Mr Bennet gives thoughtful consent, and Mrs Bennet celebrates two wealthy sons-in-law. Jane marries Bingley, Elizabeth marries Darcy, and Elizabeth's closest relations are welcomed at Pemberley, where her partnership with Darcy rests on affection, respect, and clearer self-knowledge.",
-            "through": {
-              "chapter": 61
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "pride-and-prejudice-amazonclassics-edition"
-      }
-    },
-    "pride-and-prejudice-audible-studios": {
-      "characters": {
-        "characters": [
-          {
-            "description": "The second Bennet daughter, intelligent, observant, and quick to find humor in other people's behavior. She is close to her elder sister Jane and meets her parents' very different temperaments with affection mixed with impatience.",
-            "id": "elizabeth-bennet",
-            "name": "Elizabeth Bennet",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
-            "description": "Mr Bingley's wealthy friend, first seen at the Meryton assembly. His reserved manner, refusal to dance with unfamiliar women, and dismissive remark about Elizabeth make him appear proud and immediately earn her dislike.",
-            "id": "fitzwilliam-darcy",
-            "name": "Fitzwilliam Darcy",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The eldest Bennet daughter and Elizabeth's closest confidante. Beautiful, gentle, and inclined to think well of everyone, she is her mother's chief hope for a favorable marriage.",
-            "id": "jane-bennet",
-            "name": "Jane Bennet",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The sociable young man who rents Netherfield Park. At his first local assembly he dances readily, treats his new neighbors warmly, and shows particular admiration for Jane Bennet.",
-            "id": "charles-bingley",
-            "name": "Charles Bingley",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The father of five daughters and master of Longbourn. Clever, sarcastic, and fond of withdrawing to his library, he often answers his wife's agitation with teasing rather than practical engagement.",
-            "id": "mr-bennet",
-            "name": "Mr Bennet",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The Bennet sisters' anxious, talkative mother, whose overriding ambition is to see her daughters married securely. News of an eligible bachelor at Netherfield immediately sends her into plans for an introduction.",
-            "id": "mrs-bennet",
-            "name": "Mrs Bennet",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The youngest Bennet sister, lively, confident, and eager for amusement. She and Kitty delight in the militia officers stationed near Meryton and pursue every opportunity to encounter them.",
-            "id": "lydia-bennet",
-            "name": "Lydia Bennet",
-            "reveal": {
-              "chapter": 7
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The most studious Bennet sister. She seeks distinction through reading, moral observations, music, and other accomplishments, though her wish to display them often exceeds her social judgment.",
-            "id": "mary-bennet",
-            "name": "Mary Bennet",
-            "reveal": {
-              "chapter": 6
-            },
-            "role": "minor"
-          },
-          {
-            "description": "Elizabeth's sensible friend and the eldest daughter of the Bennets' neighbors, the Lucases. She joins Elizabeth in observing the newcomers and discussing the behavior displayed at the Meryton assembly.",
-            "id": "charlotte-lucas",
-            "name": "Charlotte Lucas",
-            "reveal": {
-              "chapter": 5
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Mr Bennet's clergyman cousin and the man due to inherit Longbourn. Formal, self-important, and eager to appear conciliatory, he arrives intending to repair relations with the family and speaks constantly of his patroness.",
-            "id": "william-collins",
-            "name": "William Collins",
-            "reveal": {
-              "chapter": 13
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A handsome, engaging newcomer to the militia. His easy manners make a strong impression on Elizabeth, while a tense chance meeting shows that he and Darcy already know one another.",
-            "id": "george-wickham",
-            "name": "George Wickham",
-            "reveal": {
-              "chapter": 15
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Charles Bingley's fashionable unmarried sister and a member of the Netherfield household. She welcomes Jane into her company, though Elizabeth is less persuaded by her polished friendliness.",
-            "id": "caroline-bingley",
-            "name": "Caroline Bingley",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Mr Collins's wealthy and titled patroness at Rosings Park. Before she appears in person, Collins presents her as the source of his position and praises her attention to every part of his household and parish.",
-            "id": "lady-catherine-de-bourgh",
-            "name": "Lady Catherine de Bourgh",
-            "reveal": {
-              "chapter": 14
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Mrs Bennet's intelligent and warm-hearted sister-in-law, visiting Longbourn from London. She is close to Jane and Elizabeth and offers them the measured concern and guidance often missing from their parents.",
-            "id": "mrs-gardiner",
-            "name": "Mrs Gardiner",
-            "reveal": {
-              "chapter": 25
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Mrs Bennet's brother, a London businessman whose good sense and courteous manners make him a trusted relation of the Bennet sisters. He and his wife take an active interest in their nieces' welfare.",
-            "id": "mr-gardiner",
-            "name": "Mr Gardiner",
-            "reveal": {
-              "chapter": 25
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Darcy's much younger sister, whom Elizabeth meets at Pemberley. She is shy, gentle, and eager to please, quite unlike the proud and accomplished figure Elizabeth had been led to imagine.",
-            "id": "georgiana-darcy",
-            "name": "Georgiana Darcy",
-            "reveal": {
-              "chapter": 44
-            },
-            "role": "supporting"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge",
-            "type": "community"
-          }
-        ],
-        "work": "pride-and-prejudice-audible-studios"
-      },
-      "recaps": {
-        "ending": "Darcy's role in finding Lydia and paying the costs needed for her marriage to Wickham is revealed to Elizabeth through Mrs Gardiner. Bingley returns to Netherfield, renews his attentions to Jane, and becomes engaged to her. Lady Catherine visits Elizabeth to forbid a rumored match with Darcy, but Elizabeth refuses to promise that she will never accept him. When Lady Catherine repeats the confrontation to Darcy, Elizabeth's refusal gives him hope. Elizabeth thanks him for helping Lydia, and he tells her his feelings remain unchanged. His second proposal is accepted. They discuss how his pride and her prejudice distorted their first impressions and how both have changed. Mr Bennet consents once convinced that Elizabeth respects Darcy. Jane and Bingley marry and later live near Pemberley; Elizabeth becomes mistress of Pemberley and a loving sister to Georgiana. Kitty benefits from spending more time with her elder sisters, Mary remains at home, and Lydia and Wickham continue to need financial help. The Gardiners retain a close place in Elizabeth and Darcy's life.",
-        "in_short": "Elizabeth Bennet meets the wealthy, reserved Fitzwilliam Darcy after his friend Charles Bingley rents Netherfield and falls in love with Elizabeth's sister Jane. Darcy's pride and a slight at their first assembly make Elizabeth dislike him, while the charming George Wickham gives her a false account of Darcy's cruelty. Darcy separates Bingley from Jane and later proposes to Elizabeth in a manner that emphasizes her inferior connections; she angrily refuses. His explanatory letter exposes Wickham's misconduct and forces her to reconsider her own prejudice. After Darcy behaves generously at Pemberley, Elizabeth begins to love him, but her sister Lydia's flight with Wickham threatens the family. Darcy secretly arranges their marriage. Bingley returns and marries Jane. When Lady Catherine tries to prevent Elizabeth from marrying Darcy, Elizabeth refuses to promise she will reject him. Encouraged, Darcy proposes again and is accepted. Their marriage rests on hard-won self-knowledge, while Jane and Bingley also settle happily nearby.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "book",
-            "text": "The Bennet family of Longbourn has five unmarried daughters, and Mrs Bennet is delighted when the wealthy bachelor Charles Bingley rents nearby Netherfield Park. Mr Bennet quietly makes the required visit despite teasing his wife about it. At the Meryton assembly, Bingley proves friendly and dances twice with the beautiful eldest daughter, Jane. His richer friend Fitzwilliam Darcy appears handsome but aloof; after refusing to dance with Elizabeth Bennet and slighting her within earshot, he becomes an object of her amused dislike. Jane and Bingley continue to admire one another, though Jane's calm manner conceals the strength of her feelings. Bingley's sisters cultivate Jane, while Elizabeth doubts their sincerity. As the neighborhood discusses the newcomers, Darcy begins noticing Elizabeth's intelligence and expression. She remains unaware of his growing interest and refuses him a dance when an opportunity arises at the Lucases' gathering.",
-            "through": {
-              "chapter": 6
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Charles Bingley's arrival at Netherfield has brought the Bennets into close contact with his party. Jane and Bingley are mutually attracted, while Elizabeth dislikes Darcy for his proud behavior even as he becomes increasingly interested in her. When Jane rides to Netherfield in bad weather at her mother's urging, she falls ill and must remain there. Elizabeth walks across muddy fields to nurse her, provoking disdain from Bingley's sisters but admiration from Darcy. Several days in the same house sharpen the contrast between Elizabeth's lively independence and Caroline Bingley's efforts to impress Darcy. Elizabeth and Darcy repeatedly debate manners, vanity, and character, each alert to the other's judgments. Mrs Bennet visits and embarrasses Elizabeth by speaking too openly of Jane's prospects. Once Jane recovers enough to travel, the sisters return to Longbourn. Elizabeth leaves convinced that Darcy is disagreeable, while his attraction has deepened despite his objections to her family's position and conduct.",
-            "through": {
-              "chapter": 12
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Jane and Bingley's attachment has grown, while Darcy's interest in Elizabeth remains hidden behind exchanges she reads as argumentative. Mr Bennet's cousin William Collins arrives at Longbourn: he is a pompous clergyman, heir to the estate, and tireless admirer of his patroness, Lady Catherine de Bourgh. In Meryton, Elizabeth meets the charming militia officer George Wickham. He claims Darcy deprived him of the church career intended for him by Darcy's father, confirming Elizabeth's worst assumptions. At the Netherfield ball, Wickham is absent, Darcy unexpectedly asks Elizabeth to dance, Collins makes himself conspicuous, and Mrs Bennet loudly anticipates Jane's marriage. Soon afterward, Collins proposes to Elizabeth. She refuses firmly despite her mother's pressure. He then turns to Elizabeth's practical friend Charlotte Lucas, who accepts him for the security of a home, shocking Elizabeth. Meanwhile Bingley leaves for London, and Caroline writes that the whole Netherfield party will remain there while hinting that Bingley may marry Darcy's sister. Jane is hurt but still unwilling to suspect deliberate interference.",
-            "through": {
-              "chapter": 23
-            }
-          },
-          {
-            "scope": "book",
-            "text": "After Bingley leaves Netherfield, Jane visits London but receives a cool response from Caroline and no visit from Bingley. Elizabeth concludes that his friends have separated him from Jane. She later travels to Kent to visit Charlotte, now managing marriage to Mr Collins with practical skill. At nearby Rosings, Lady Catherine questions Elizabeth with intrusive authority. Darcy and his cousin Colonel Fitzwilliam arrive to visit their aunt. Darcy frequently calls at the parsonage and meets Elizabeth on her walks, but his intentions remain unclear. Fitzwilliam casually reveals that Darcy recently saved a friend from an unsuitable marriage, and Elizabeth realizes he was responsible for separating Bingley and Jane. Soon afterward Darcy proposes to her. He declares strong feelings but dwells on her inferior connections and on the struggle required to offer marriage. Elizabeth rejects him, accusing him both of ruining Jane's happiness and of cruelly mistreating Wickham. Darcy is astonished and asks whether her answer might have been different without his insulting manner; she tells him his conduct had already fixed her opinion of him.",
-            "through": {
-              "chapter": 34
-            }
-          },
-          {
-            "scope": "book",
-            "text": "After Elizabeth rejects Darcy, he gives her a letter answering her charges. He admits persuading Bingley that Jane was indifferent, but says he acted from honest concern and from objections to the Bennet family's behavior. He also explains that Wickham squandered his inheritance, then tried to elope with Darcy's fifteen-year-old sister Georgiana for her fortune. Elizabeth recognizes how prejudice and wounded pride shaped her judgment. Back home, she tells Jane part of the truth but cannot prevent Lydia from going to Brighton with the militia. Elizabeth later tours Derbyshire with the Gardiners and visits Pemberley only after being assured Darcy is absent. His housekeeper's praise and his estate unsettle her former picture of him. Darcy unexpectedly returns and treats Elizabeth and her relations with striking courtesy. She meets the shy Georgiana, while Caroline Bingley unsuccessfully tries to revive old resentments. The changed relationship is abruptly interrupted by letters from Jane: Lydia has run away with Wickham, apparently without marrying him. Elizabeth tells Darcy and leaves at once, believing her family's disgrace has ended any possibility between them.",
-            "through": {
-              "chapter": 46
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Lydia's flight with Wickham throws the Bennet family into crisis. Mr Bennet and Mr Gardiner search in London while Mrs Bennet collapses into agitation. Mr Gardiner eventually reports that the couple have been found and will marry if Mr Bennet settles modest financial terms. Mr Bennet assumes his brother-in-law must have paid a much larger hidden sum, and Elizabeth regrets that Wickham will now be permanently connected to the family. Lydia returns to Longbourn as a heedless bride, pleased with her status and indifferent to the harm she caused. She accidentally mentions Darcy's presence at her wedding. Elizabeth asks Mrs Gardiner for an explanation and learns that Darcy found Lydia and Wickham, paid Wickham's debts, secured his commission, and arranged the marriage. He acted quietly, accepted Mr Gardiner's public credit, and said he was responsible because he had concealed Wickham's character. Elizabeth now understands the full extent of Darcy's generosity and realizes that her feelings for him have changed, though she has no reason to believe he still wishes to marry her.",
-            "through": {
-              "chapter": 52
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Darcy secretly rescued the Bennets from Lydia and Wickham's scandal, and Elizabeth now loves him, though neither knows the other's present feelings. Bingley and Darcy return to Netherfield. Bingley resumes his courtship of Jane and proposes; she accepts, bringing joy to both families. Lady Catherine then arrives at Longbourn after hearing a rumor that Darcy may marry Elizabeth. She demands a promise that Elizabeth will refuse him, arguing that family inferiority and an intended match with her own daughter make the union impossible. Elizabeth refuses to bind herself. Lady Catherine reports this defiance to Darcy, but it gives him hope that Elizabeth's feelings may have changed. During a walk, Elizabeth thanks him for saving Lydia. Darcy renews his proposal, and she accepts. They acknowledge their earlier errors: his pride and reserve, her quick judgment, and the misunderstandings that followed. Mr Bennet gives consent after Elizabeth assures him she truly respects Darcy. Jane marries Bingley and lives near Pemberley; Elizabeth marries Darcy and forms a close bond with Georgiana. Lydia and Wickham remain improvident, Kitty improves through her sisters' influence, and the Gardiners are warmly welcomed at Pemberley.",
-            "through": {
-              "chapter": 61
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge",
-            "type": "community"
-          }
-        ],
-        "work": "pride-and-prejudice-audible-studios"
-      }
-    },
-    "pride-and-prejudice-blackstone-audio": {
-      "characters": {
-        "characters": [
-          {
-            "description": "The second of the five Bennet daughters, Elizabeth is intelligent, observant, and quick to find humor in the behavior of others. She is close to her elder sister Jane and less impressed than her mother by wealth or rank. Her confidence in her own judgment is one of her defining qualities.",
-            "id": "elizabeth-bennet",
-            "name": "Elizabeth Bennet",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
-            "description": "Elizabeth's elder sister, admired for her beauty and her consistently generous view of other people. Jane rarely assumes bad motives and shares her private feelings most readily with Elizabeth.",
-            "id": "jane-bennet",
-            "name": "Jane Bennet",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The dryly witty owner of Longbourn and father of five daughters. Mr Bennet retreats from family commotion into his library and often responds to his wife's anxieties with teasing rather than practical action.",
-            "id": "mr-bennet",
-            "name": "Mr Bennet",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The mother of the five Bennet daughters. Anxious about the estate passing away from her children and intensely interested in eligible men, she treats marrying off her daughters as the family's most urgent business.",
-            "id": "mrs-bennet",
-            "name": "Mrs Bennet",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The youngest Bennet daughter, lively, impulsive, and eager for amusement. She is especially excited by the arrival of militia officers near Meryton and has little patience for restraint.",
-            "id": "lydia-bennet",
-            "name": "Lydia Bennet",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A wealthy, good-tempered young man who rents Netherfield Park. Sociable and easily pleased, Bingley quickly enjoys the local company and shows marked admiration for Jane Bennet.",
-            "id": "charles-bingley",
-            "name": "Charles Bingley",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Bingley's wealthy friend and the owner of Pemberley in Derbyshire. Handsome but reserved, Darcy refuses to join much of the dancing at the Meryton assembly and strikes the local company, especially Elizabeth, as proud and disagreeable.",
-            "id": "fitzwilliam-darcy",
-            "name": "Fitzwilliam Darcy",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Bingley's unmarried sister, an elegant and socially assured member of the Netherfield party. She is attentive to Darcy and judges the manners and connections of the Bennet family harshly.",
-            "id": "caroline-bingley",
-            "name": "Caroline Bingley",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Elizabeth's sensible friend and the eldest daughter of Sir William Lucas. Charlotte is plain-spoken about the economic realities of marriage and is more pragmatic about courtship than Elizabeth.",
-            "id": "charlotte-lucas",
-            "name": "Charlotte Lucas",
-            "reveal": {
-              "chapter": 5
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Mr Bennet's cousin and the clergyman who will inherit Longbourn because the estate is entailed through the male line. Formal, self-important, and eager to display his humility, Collins depends upon the patronage of Lady Catherine de Bourgh and arrives intending to repair relations with the Bennets.",
-            "id": "william-collins",
-            "name": "Mr Collins",
-            "reveal": {
-              "chapter": 13
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A personable militia officer newly arrived in Meryton. His easy manners immediately attract Elizabeth, while his visible discomfort on encountering Darcy suggests an unexplained history between them.",
-            "id": "george-wickham",
-            "name": "George Wickham",
-            "reveal": {
-              "chapter": 15
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Mrs Bennet's intelligent and warm-hearted sister-in-law, who lives in London with her husband and children. Mrs Gardiner has known Derbyshire and becomes a trusted adult confidante to Elizabeth and Jane.",
-            "id": "mrs-gardiner",
-            "name": "Mrs Gardiner",
-            "reveal": {
-              "chapter": 25
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Darcy's wealthy and imperious aunt, mistress of Rosings Park and patroness of Mr Collins. Lady Catherine expects deference, questions visitors freely about their affairs, and gives advice whether it is wanted or not.",
-            "id": "lady-catherine-de-bourgh",
-            "name": "Lady Catherine de Bourgh",
-            "reveal": {
-              "chapter": 29
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Darcy's younger sister, a shy, accomplished girl living under his guardianship. Elizabeth meets her at Pemberley and finds her reserved manner very different from the pride she had expected.",
-            "id": "georgiana-darcy",
-            "name": "Georgiana Darcy",
-            "reveal": {
-              "chapter": 44
-            },
-            "role": "supporting"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge",
-            "type": "community"
-          }
-        ],
-        "work": "pride-and-prejudice-blackstone-audio"
-      },
-      "recaps": {
-        "ending": "After Lady Catherine tries to make Elizabeth promise never to marry Darcy, Darcy learns that Elizabeth refused and gains hope that her feelings have changed. On a walk, he renews his proposal, and Elizabeth accepts. They acknowledge the mistakes that separated them: she trusted her first impressions and Wickham's account too readily, while his pride and manner gave her good reason to think badly of him. Jane and Bingley are also engaged. Mr Bennet consents after making sure Elizabeth truly respects Darcy, and Mrs Bennet is delighted by the wealth of both matches. Elizabeth marries Darcy and settles at Pemberley; Jane and Bingley later live nearby. Georgiana grows close to Elizabeth, the Gardiners remain welcome friends, and even Lady Catherine eventually resumes contact. Lydia and Wickham remain financially careless and frequently seek help, while Kitty improves through time with her better-settled elder sisters.",
-        "in_short": "Elizabeth Bennet initially dislikes the wealthy Fitzwilliam Darcy for his pride, while he gradually falls in love with her. She trusts the charming officer George Wickham and resents Darcy for separating Jane Bennet from Charles Bingley. Darcy's first proposal is rejected, but his explanatory letter reveals Wickham's misconduct and forces Elizabeth to reconsider her judgments. Meeting Darcy again at Pemberley, she sees his generosity and altered manner. When Lydia Bennet elopes with Wickham, Darcy secretly arranges their marriage and protects the family from disgrace. Bingley returns and becomes engaged to Jane. Lady Catherine's attempt to prevent Elizabeth from marrying Darcy instead gives him reason to hope; he proposes again and is accepted. Elizabeth and Darcy marry with mutual understanding, while Jane and Bingley also begin a happy life together.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "book",
-            "text": "Mrs Bennet is delighted when the wealthy bachelor Charles Bingley rents Netherfield Park, seeing a possible husband for one of her five daughters. At the Meryton assembly, Bingley is sociable and clearly admires the beautiful eldest daughter, Jane. His friend Fitzwilliam Darcy is richer but refuses most introductions and is overheard dismissing Elizabeth Bennet as an unsuitable dance partner. Elizabeth treats the insult as an amusing story, while the neighborhood decides Darcy is proud. Jane and Bingley continue to enjoy one another's company. Elizabeth's friend Charlotte Lucas advises that Jane should show her feelings more plainly. Darcy, meanwhile, begins noticing Elizabeth's intelligence and expression despite his first judgment, though she remains disposed to dislike him.",
-            "through": {
-              "chapter": 6
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Jane falls ill while visiting Netherfield, and Elizabeth walks there to nurse her, earning Bingley's respect and the scorn of his sisters. Darcy's attraction to Elizabeth grows during the visit, but their guarded conversations reinforce her view of his pride. Mr Collins, the pompous cousin who will inherit Longbourn, arrives and soon decides to marry one of the Bennet daughters. In Meryton, Elizabeth meets the charming militia officer George Wickham, who says Darcy denied him the church career intended for him by Darcy's father. The story confirms Elizabeth's prejudice against Darcy. At the Netherfield ball, Darcy asks Elizabeth to dance, but their exchange is strained. Collins embarrasses the family with his behavior, Mrs Bennet openly anticipates Jane's marriage, and Bingley's sisters observe the Bennets with increasing disapproval.",
-            "through": {
-              "chapter": 18
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Mr Collins proposes to Elizabeth, promising security and assuming her refusal is merely conventional. She rejects him firmly despite her mother's anger. He quickly transfers his attention to Charlotte Lucas, who accepts him because the marriage offers her a stable home. Elizabeth is shocked by her friend's practical choice. The Netherfield party leaves for London, and Caroline Bingley indicates that they do not expect to return; Jane is hurt but continues to believe Bingley's sisters mean well. Visiting London with the Gardiners gives Jane no encouragement from Caroline. Wickham's attention shifts toward a young woman who has inherited money, weakening Elizabeth's romantic interest without fully shaking her trust in his story. Elizabeth later travels with Sir William and Maria Lucas to visit Charlotte at the Collinses' parsonage in Hunsford, near Lady Catherine de Bourgh's estate.",
-            "through": {
-              "chapter": 28
-            }
-          },
-          {
-            "scope": "book",
-            "text": "At Hunsford, Elizabeth meets the commanding Lady Catherine and repeatedly encounters Darcy, who is visiting Rosings with his cousin Colonel Fitzwilliam. Fitzwilliam unknowingly reveals that Darcy recently saved a friend from an imprudent marriage, and Elizabeth realizes the friend was Bingley and the woman Jane. Darcy then proposes to Elizabeth, declaring strong love while emphasizing her inferior connections. She rejects him and accuses him of ruining Jane's happiness and mistreating Wickham. The next day Darcy gives her a letter. He explains that Jane seemed indifferent and that the Bennets' public behavior strengthened his objections; he also reveals that Wickham exchanged his intended living for money, squandered it, and later tried to elope with Darcy's fifteen-year-old sister for her fortune. Comparing the account with what she has observed, Elizabeth recognizes that vanity and prejudice made her trust Wickham and misjudge both men.",
-            "through": {
-              "chapter": 36
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Elizabeth returns home with a changed understanding of Darcy but tells Jane only part of what she has learned. Lydia is invited to Brighton with the militia despite Elizabeth's warning that her recklessness may damage the family. Later Elizabeth tours Derbyshire with the Gardiners and visits Pemberley after being assured its owner is absent. Darcy unexpectedly appears and treats Elizabeth and her relatives with striking courtesy. His housekeeper describes him as a generous master, and Elizabeth begins to see him apart from local gossip. She meets his shy sister Georgiana, while Darcy makes clear that he values the Gardiners despite their trade connections. Their renewed acquaintance is interrupted by letters from Jane: Lydia has run away from Brighton with Wickham, apparently without marrying him. Elizabeth tells Darcy and leaves for home, convinced the scandal has ended any possibility between them.",
-            "through": {
-              "chapter": 46
-            }
-          },
-          {
-            "scope": "book",
-            "text": "The Bennets wait in distress while Mr Bennet and Mr Gardiner search for Lydia and Wickham. Mr Gardiner eventually reports that the couple have been found and will marry if Mr Bennet agrees to modest financial terms. Mr Bennet believes his brother-in-law must have paid far more and regrets his own failure to restrain Lydia. The newly married pair visit Longbourn; Lydia is heedlessly proud of her status, while Wickham remains charming and unembarrassed. Lydia accidentally mentions that Darcy attended the wedding. Elizabeth asks Mrs Gardiner for an explanation and learns that Darcy found the pair, paid Wickham's debts, purchased his commission, and arranged the marriage. He acted partly from responsibility for having concealed Wickham's character and insisted on keeping his role quiet. Elizabeth now understands the depth of his generosity and wonders what feelings motivated it.",
-            "through": {
-              "chapter": 52
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Bingley returns to Netherfield with Darcy and soon proposes to Jane, who accepts. Lady Catherine then confronts Elizabeth after hearing a rumor that she may marry Darcy. She demands a promise that Elizabeth will refuse him, arguing that he is intended for her daughter; Elizabeth rejects both the claim and the demand. Lady Catherine reports this defiance to Darcy, who takes it as evidence that Elizabeth may no longer be opposed to him. Darcy and Elizabeth speak openly during a walk. He proposes again, and she accepts, thanking him for secretly rescuing Lydia. They acknowledge how her readiness to believe Wickham and his arrogant first proposal kept them apart, and how each has changed. Jane is astonished but happy for Elizabeth. Mr Bennet gives consent once satisfied that she loves and respects Darcy, while Mrs Bennet celebrates both wealthy marriages. Elizabeth settles with Darcy at Pemberley, near Jane and Bingley, and maintains close ties with Georgiana and the Gardiners.",
-            "through": {
-              "chapter": 61
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge",
-            "type": "community"
-          }
-        ],
-        "work": "pride-and-prejudice-blackstone-audio"
-      }
-    },
-    "pride-and-prejudice-classic-tales-edition": {
-      "characters": {
-        "characters": [
-          {
-            "description": "The second Bennet daughter, lively, observant, and confident in her judgment. She enjoys wit and independence more than social display, and she quickly takes against Mr Darcy after overhearing his dismissive remark about her at the local assembly.",
-            "id": "elizabeth-bennet",
-            "name": "Elizabeth Bennet",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
-            "description": "The eldest Bennet daughter and Elizabeth's closest confidante. Beautiful, gentle, and inclined to interpret other people's conduct generously, she attracts particular attention when the wealthy Mr Bingley comes to the neighbourhood.",
-            "id": "jane-bennet",
-            "name": "Jane Bennet",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The dryly humorous master of Longbourn and father of five daughters. He retreats from domestic commotion into his library and often treats his family's anxieties as material for amusement, even when Mrs Bennet wants him to act on their behalf.",
-            "id": "mr-bennet",
-            "name": "Mr Bennet",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The excitable mother of the five Bennet daughters. With the family estate destined to pass to a male cousin, she regards finding prosperous husbands for her daughters as an urgent practical mission and greets news of an eligible neighbour with immediate enthusiasm.",
-            "id": "mrs-bennet",
-            "name": "Mrs Bennet",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The youngest Bennet sister, self-assured and eager for dances, officers, and any source of amusement. Her high spirits are encouraged by her mother and only lightly checked by her father.",
-            "id": "lydia-bennet",
-            "name": "Lydia Bennet",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "minor"
-          },
-          {
-            "description": "An unmarried young gentleman who rents Netherfield Park. His considerable income, friendly temper, and readiness to join local society make him an immediate object of interest to the Bennet household before they have even met him.",
-            "id": "charles-bingley",
-            "name": "Charles Bingley",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Bingley's wealthy friend and the owner of a large Derbyshire estate. Handsome but reserved, he appears proud to the local company and offends Elizabeth at the first assembly by declining to dance with her within her hearing.",
-            "id": "fitzwilliam-darcy",
-            "name": "Fitzwilliam Darcy",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "Miss Bingley"
-            ],
-            "description": "Charles Bingley's fashionable unmarried sister, who shares the party at Netherfield. Polished and socially assured, she is attentive to Darcy and initially presents herself as friendly toward Jane.",
-            "id": "caroline-bingley",
-            "name": "Caroline Bingley",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "minor"
-          },
-          {
-            "description": "Elizabeth's intimate friend and the eldest daughter of the neighbouring Lucas family. Twenty-seven, sensible, and plain-spoken, she observes the developing attachments around her with a practical understanding of the limited choices open to women without fortunes.",
-            "id": "charlotte-lucas",
-            "name": "Charlotte Lucas",
-            "reveal": {
-              "chapter": 5
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Mr Bennet's cousin and the clergyman who will inherit Longbourn because the estate is entailed in the male line. A ceremonious letter announces his wish to visit and make peace with the family, while also displaying his solemn self-importance and devotion to his noble patroness.",
-            "id": "william-collins",
-            "name": "William Collins",
-            "reveal": {
-              "chapter": 13
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A handsome new officer in the militia stationed near Meryton. His open, engaging manner makes an immediate contrast with Darcy's reserve and quickly wins Elizabeth's interest.",
-            "id": "george-wickham",
-            "name": "George Wickham",
-            "reveal": {
-              "chapter": 15
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A wealthy, titled widow and Mr Collins's patroness, introduced through his reverent account of her favour to him and her authority at Rosings Park. His praise makes clear that her approval governs much of his conduct.",
-            "id": "lady-catherine-de-bourgh",
-            "name": "Lady Catherine de Bourgh",
-            "reveal": {
-              "chapter": 13
-            },
-            "role": "minor"
-          },
-          {
-            "description": "Mrs Bennet's sensible brother, a London businessman who visits Longbourn with his wife. His good manners and sound judgment distinguish him from the social assumptions attached to his commercial address.",
-            "id": "mr-gardiner",
-            "name": "Mr Gardiner",
-            "reveal": {
-              "chapter": 25
-            },
-            "role": "minor"
-          },
-          {
-            "description": "Elizabeth and Jane's intelligent, warm-hearted aunt. Formerly resident near Derbyshire, she is an affectionate adviser to her nieces and takes a clear-eyed interest in Elizabeth's acquaintance with Wickham.",
-            "id": "mrs-gardiner",
-            "name": "Mrs Gardiner",
-            "reveal": {
-              "chapter": 25
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Darcy's shy younger sister, whom Elizabeth meets in Derbyshire. Georgiana is accomplished and eager to please, but her diffidence is far removed from the proud manner Elizabeth had once been led to expect.",
-            "id": "georgiana-darcy",
-            "name": "Georgiana Darcy",
-            "reveal": {
-              "chapter": 44
-            },
-            "role": "minor"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "pride-and-prejudice-classic-tales-edition"
-      },
-      "recaps": {
-        "ending": "Bingley returns to Netherfield and, once assured of Jane's affection, asks her to marry him. Lady Catherine then visits Elizabeth to demand that she promise never to accept Darcy, but Elizabeth refuses. Learning of this refusal gives Darcy hope that Elizabeth's feelings have changed. During a walk he renews his proposal, and she accepts, acknowledging how completely her opinion of him has altered. They explain the misunderstandings that divided them: Darcy believed Jane indifferent to Bingley, while Elizabeth had trusted Wickham's account and judged Darcy through her first resentment. Mr Bennet consents after satisfying himself that Elizabeth truly loves Darcy, and Mrs Bennet is delighted by the match. Jane and Bingley marry, as do Elizabeth and Darcy. The Bingleys later move nearer to Pemberley, Elizabeth grows close to Georgiana, and the Gardiners remain welcome visitors. Lydia and Wickham continue to live beyond their means and seek help from their relations, while Lady Catherine eventually resumes contact with her nephew despite her anger at his marriage.",
-        "in_short": "Elizabeth Bennet meets the wealthy but aloof Fitzwilliam Darcy after his friend Charles Bingley rents Netherfield and falls in love with Elizabeth's sister Jane. Elizabeth's dislike of Darcy deepens when the charming officer George Wickham accuses him of cruelty. Darcy unexpectedly proposes, but she rejects him for his pride, his role in separating Jane and Bingley, and his alleged treatment of Wickham. His explanatory letter exposes Wickham's misconduct and forces Elizabeth to reconsider her judgments. Visiting Darcy's estate, she sees his generosity and meets him again on warmer terms, but her sister Lydia's elopement with Wickham threatens the whole family. Darcy secretly finds the couple and finances their marriage. Bingley returns and becomes engaged to Jane. After Elizabeth refuses Lady Catherine's demand that she reject Darcy, Darcy proposes again and Elizabeth accepts. The two couples marry, while Lydia and Wickham remain improvident and dependent on family assistance.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "book",
-            "text": "The Bennets of Longbourn have five unmarried daughters and an estate that will pass to a male cousin, making their future security uncertain. Mrs Bennet is delighted when the rich bachelor Charles Bingley rents nearby Netherfield Park. At a local assembly Bingley is sociable and clearly admires the eldest daughter, Jane, while his still wealthier friend Fitzwilliam Darcy appears proud and refuses to dance with Elizabeth Bennet. Elizabeth responds to the slight with amused dislike. Jane and Bingley continue to enjoy one another's company, though Jane's reserve makes her feelings easy to underestimate. When Jane becomes ill during a visit to Netherfield, Elizabeth walks there and remains to nurse her. Her independence and intelligence increasingly attract Darcy, even as Caroline Bingley mocks Elizabeth's country connections and tries to secure Darcy's attention for herself. Elizabeth notices his interest but interprets his manner through the poor impression he made at their first meeting.",
-            "through": {
-              "chapter": 10
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Jane recovers and the Bennet sisters return home. Mr Collins, the pompous clergyman who will inherit Longbourn, arrives intending to repair relations with the family and, privately, to choose one of the daughters as a wife. In Meryton the sisters meet George Wickham, a handsome militia officer who shows immediate unease when Darcy appears. Wickham tells Elizabeth that Darcy unjustly denied him the church career intended for him by Darcy's late father. The story confirms Elizabeth's existing prejudice, and Wickham's easy manners make her ready to trust him. At the Netherfield ball, Wickham is absent but Elizabeth must dance with Darcy; their strained conversation reinforces her dislike. Collins embarrasses the Bennets by his obsequious attention to Darcy and his public solemnity, while Mrs Bennet speaks openly of Jane's expected marriage. Jane and Bingley remain attached, but the behaviour of several members of Jane's family gives Darcy and Bingley's sisters reason to oppose the match.",
-            "through": {
-              "chapter": 18
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Mr Collins proposes to Elizabeth, confidently treating her refusal as modest encouragement until Mrs Bennet demands that Mr Bennet force her to accept. Mr Bennet instead supports Elizabeth's decision. Collins soon transfers his attention to Charlotte Lucas, who accepts him for the security of a home despite having no romantic expectations. Elizabeth is shocked by her friend's practical choice. Bingley abruptly leaves Netherfield for London, and Caroline writes as though he will not return and hopes to marry Darcy's sister. Jane is deeply hurt but continues to think well of everyone involved. During a London visit she calls on Caroline, whose cold response reveals that the friendship was insincere. Elizabeth concludes that Bingley's sisters and Darcy have separated the couple. Meanwhile Wickham's attentions shift to a young woman who has recently inherited money, weakening Elizabeth's personal hopes without yet changing her belief in his account. Elizabeth travels with Sir William and Maria Lucas to visit the married Collinses at Hunsford, near Lady Catherine de Bourgh's estate at Rosings.",
-            "through": {
-              "chapter": 28
-            }
-          },
-          {
-            "scope": "book",
-            "text": "At Hunsford, Elizabeth sees that Charlotte manages her marriage by arranging the household to minimize Mr Collins's company. Lady Catherine receives the visitors at Rosings and questions Elizabeth with commanding curiosity. Darcy arrives with his cousin Colonel Fitzwilliam and repeatedly visits the parsonage. Fitzwilliam casually reveals that Darcy recently saved a friend from an unsuitable marriage, confirming to Elizabeth that Darcy separated Bingley from Jane. Darcy then proposes to Elizabeth, declaring his love while dwelling on the inferiority of her family. She rejects him and accuses him both of ruining Jane's happiness and of mistreating Wickham. The next morning Darcy gives her a letter. He explains that he believed Jane did not love Bingley and objected to the impropriety of her relatives. He also states that Wickham rejected a promised church living for money, spent it, and later tried to elope with Darcy's fifteen-year-old sister for her fortune. Reviewing past events, Elizabeth recognizes inconsistencies she ignored and admits that vanity and prejudice distorted her judgment of both men.",
-            "through": {
-              "chapter": 36
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Elizabeth returns to Longbourn with a transformed private opinion of Darcy, though she tells Jane only what is necessary about Wickham. Lydia is invited to Brighton with the colonel's wife and the militia. Elizabeth warns her father that Lydia's unchecked behaviour may bring disgrace, but he allows the trip because it promises temporary quiet at home. Elizabeth later tours Derbyshire with the Gardiners. Believing Darcy absent, they visit Pemberley, where the housekeeper's affectionate account presents him as a generous master and brother. Darcy unexpectedly appears and treats Elizabeth and her relations with striking courtesy. He calls on them, introduces Elizabeth to his shy sister Georgiana, and encourages further meetings between the two parties. Elizabeth begins to understand that she could have respected and loved him, while Darcy's altered manner suggests that her rejection prompted serious self-examination. Their renewed acquaintance is warm but still unsettled, and neither has spoken directly about the proposal or the letter.",
-            "through": {
-              "chapter": 45
-            }
-          },
-          {
-            "scope": "book",
-            "text": "News arrives that Lydia has run away from Brighton with Wickham, apparently without marrying him. Elizabeth tells Darcy and immediately leaves with the Gardiners, convinced that the scandal has ended any possibility between them. Mr Bennet and Mr Gardiner search in London. Wickham's debts and lack of intention to marry become clear, but Mr Gardiner eventually reports that the couple have been found and that Wickham will marry Lydia in exchange for financial arrangements that seem unusually favourable. Mr Bennet assumes his brother-in-law has paid a large sum. Lydia and Wickham visit Longbourn after the wedding. Lydia remains heedless of the harm she caused and accidentally mentions that Darcy attended the ceremony. Mrs Gardiner's answering letter reveals that Darcy located the fugitives, paid Wickham's debts, purchased his military commission, and arranged the marriage, asking that his role remain secret. Elizabeth understands that he acted for her sake as well as for Lydia and the family, deepening both her gratitude and her affection.",
-            "through": {
-              "chapter": 52
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Bingley and Darcy return to Netherfield. Bingley renews his courtship of Jane and proposes, to the joy of both Jane and Mrs Bennet. Lady Catherine then arrives at Longbourn after hearing a rumour that Darcy may marry Elizabeth. She demands that Elizabeth deny any engagement and promise never to accept him, arguing that Darcy is intended for her daughter. Elizabeth refuses to surrender her freedom of choice. Lady Catherine reports the encounter to Darcy, but Elizabeth's refusal to renounce him gives him reason to hope. On a walk, Darcy again declares his love, and Elizabeth accepts him. They discuss the changes since his first proposal: he has tried to correct his arrogance, while she acknowledges the prejudice encouraged by wounded pride and Wickham's deception. Darcy confirms that he separated Bingley and Jane because he misread Jane's reserve, and that he later corrected the mistake. Mr Bennet gives his consent after Elizabeth assures him of her love. Jane marries Bingley and Elizabeth marries Darcy. Elizabeth settles at Pemberley, becomes close to Georgiana, and welcomes the Gardiners, while Lydia and Wickham remain financially unstable and repeatedly seek assistance from their better-established relations.",
-            "through": {
-              "chapter": 61
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "pride-and-prejudice-classic-tales-edition"
       }
     },
     "pride-and-prejudice-dramatized": {

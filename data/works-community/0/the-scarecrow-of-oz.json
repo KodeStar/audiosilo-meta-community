@@ -3251,7 +3251,7 @@
         "work": "the-secret-dreamworld-of-a-shopaholic"
       }
     },
-    "the-secret-garden-amazonclassics-edition": {
+    "the-secret-garden": {
       "characters": {
         "characters": [
           {
@@ -3377,7 +3377,7 @@
             "type": "community"
           }
         ],
-        "work": "the-secret-garden-amazonclassics-edition"
+        "work": "the-secret-garden"
       },
       "recaps": {
         "ending": "Susan Sowerby visits the hidden garden and recognizes that Colin's recovery should be shared with his father. Abroad, Archibald Craven has begun to emerge from his grief; a dream and an urgent feeling draw him home. He enters the secret garden and is astonished to find Colin healthy, standing, and able to run. Father and son are reunited, and Colin proudly explains the work that Mary, Dickon, and the garden have done. They walk back to Misselthwaite together, with Colin refusing his chair. The servants see the master of the house return beside the vigorous son many had expected to die. Mary has changed as profoundly as Colin: outdoor life, friendship, useful work, and affection have replaced the isolation and ill temper with which she arrived. The garden is restored, Colin's existence is no longer hidden, and Archibald returns to his home and child instead of fleeing his grief.",
@@ -3434,193 +3434,7 @@
             "type": "community"
           }
         ],
-        "work": "the-secret-garden-amazonclassics-edition"
-      }
-    },
-    "the-secret-garden-dramatized": {
-      "characters": {
-        "characters": [
-          {
-            "description": "A neglected ten-year-old English girl raised in colonial India by servants while her parents ignored her. Orphaned during a cholera outbreak, Mary is thin, imperious, and unused to affection or independence when she is sent to live at her uncle's Yorkshire estate.",
-            "id": "mary-lennox",
-            "name": "Mary Lennox",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
-            "description": "Mary's beautiful, socially absorbed mother, who keeps her daughter out of sight and leaves her care to an ayah. She and Mary's father die during the cholera outbreak in India.",
-            "id": "mrs-lennox",
-            "name": "Mrs. Lennox",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "minor"
-          },
-          {
-            "description": "The severe housekeeper of Misselthwaite Manor, charged with taking the orphaned Mary from London to Yorkshire. She warns Mary that the immense house is largely shut up and that her uncle will not tolerate being disturbed.",
-            "id": "mrs-medlock",
-            "name": "Mrs. Medlock",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "Mr. Craven"
-            ],
-            "description": "Mary's uncle and the master of Misselthwaite Manor. Widowed and physically stooped, he travels frequently and keeps much of his house closed, avoiding reminders of the wife whose death left him consumed by grief.",
-            "id": "archibald-craven",
-            "name": "Archibald Craven",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A cheerful young housemaid from a large Yorkshire family. Martha speaks frankly to Mary, expects her to dress and occupy herself without constant service, and tells her about the moor, her brother Dickon, and their practical mother.",
-            "id": "martha-sowerby",
-            "name": "Martha Sowerby",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "An elderly gardener at Misselthwaite, weathered, solitary, and blunt. Ben initially finds Mary as disagreeable as himself, but their shared loneliness and his friendship with a robin give them common ground.",
-            "id": "ben-weatherstaff",
-            "name": "Ben Weatherstaff",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A robin living in the manor gardens and friendly with Ben Weatherstaff. Its fearless curiosity draws Mary outdoors and gives her the first sense that another creature might welcome her company.",
-            "id": "the-robin",
-            "name": "The Robin",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "Mrs. Craven"
-            ],
-            "description": "Archibald Craven's late wife and Mary's aunt. She loved a private walled garden, but after an accident there led to her death, her grieving husband locked its door and buried the key.",
-            "id": "lilias-craven",
-            "name": "Lilias Craven",
-            "reveal": {
-              "chapter": 7
-            },
-            "role": "minor"
-          },
-          {
-            "description": "Martha's twelve-year-old brother, a moorland boy with an unusual gentleness toward animals. He brings Mary gardening tools and seeds, and creatures trust him enough to follow or perch near him.",
-            "id": "dickon-sowerby",
-            "name": "Dickon Sowerby",
-            "reveal": {
-              "chapter": 10
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Archibald Craven's sickly son and Mary's cousin, hidden in a remote room at Misselthwaite. Convinced that he will become deformed and die young, Colin commands the servants from bed and erupts when contradicted, yet he is intensely curious about the cousin who discovers him.",
-            "id": "colin-craven",
-            "name": "Colin Craven",
-            "reveal": {
-              "chapter": 13
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Archibald Craven's cousin and Colin's physician. He supervises the sheltered boy's health, though Mary distrusts the gloomy expectations surrounding Colin and notices that the doctor would inherit the estate if Colin died.",
-            "id": "dr-craven",
-            "name": "Dr. Craven",
-            "reveal": {
-              "chapter": 14
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Martha and Dickon's capable, warmhearted mother, known to Mary first through her children's admiration. Her advice, modest gifts, and understanding provide care from a distance to children at Misselthwaite who lack an attentive parent.",
-            "id": "susan-sowerby",
-            "name": "Susan Sowerby",
-            "reveal": {
-              "chapter": 18
-            },
-            "role": "supporting"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "the-secret-garden-dramatized"
-      },
-      "recaps": {
-        "ending": "Susan Sowerby visits the hidden garden and recognizes that Colin's recovery should be shared with his father. Abroad, Archibald Craven has begun to emerge from his grief; a dream and an urgent feeling draw him home. He enters the secret garden and is astonished to find Colin healthy, standing, and able to run. Father and son are reunited, and Colin proudly explains the work that Mary, Dickon, and the garden have done. They walk back to Misselthwaite together, with Colin refusing his chair. The servants see the master of the house return beside the vigorous son many had expected to die. Mary has changed as profoundly as Colin: outdoor life, friendship, useful work, and affection have replaced the isolation and ill temper with which she arrived. The garden is restored, Colin's existence is no longer hidden, and Archibald returns to his home and child instead of fleeing his grief.",
-        "in_short": "Orphaned in India, disagreeable ten-year-old Mary Lennox is sent to her uncle Archibald Craven's lonely Yorkshire manor. Exploring its grounds, she finds the buried key and concealed door to the garden locked since her aunt's fatal accident. With the help of Martha's animal-loving brother Dickon, Mary secretly revives it and grows healthier herself. She also discovers Colin, her hidden, bedridden cousin, who expects to die. Mary challenges his fears and brings him into the garden, where he, Mary, and Dickon treat growing strength and hope as a kind of magic. Colin learns to stand and walk but keeps his recovery secret to surprise his absent father. Susan Sowerby helps draw Archibald home, and he finds his son running in the restored garden. Father and son return openly to the manor together, while Mary too has been transformed by friendship, exercise, purpose, and care.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "book",
-            "text": "Mary Lennox, a neglected ten-year-old English girl in India, is left alone when cholera kills her parents and scatters the household. Having been waited on all her life, she is demanding, sickly, and unable to care for herself. She is sent to England to live with her widowed uncle, Archibald Craven, at Misselthwaite Manor on the Yorkshire moors. The housekeeper, Mrs. Medlock, describes a vast, gloomy house with many locked rooms and an absent master who does not want to see the child. At Misselthwaite, the young maid Martha Sowerby surprises Mary by speaking plainly and expecting her to dress herself. Martha encourages her to go outside and tells her about the moor and her brother Dickon. In the grounds Mary meets the solitary gardener Ben Weatherstaff and a friendly robin. The fresh air, exercise, and novelty of doing things for herself begin to awaken her interest in the world.",
-            "through": {
-              "chapter": 4
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Mary explores the manor and hears unexplained crying in a distant corridor, but Mrs. Medlock denies that anything is wrong and orders her not to wander. Outdoors, Mary learns that her late aunt loved a walled garden. After Mrs. Craven died following an accident there, Archibald locked the garden, buried its key, and allowed no one to enter. A gust of earth exposes the old key, and later the robin draws Mary toward ivy covering a hidden door. She unlocks it and steps into the abandoned garden. Though neglected for ten years, shoots pushing through the soil convince her that many roses may still be alive. The secrecy gives her a purpose of her own. She begins clearing weeds and tending the plants without telling the household, while her appetite, color, and strength improve through daily activity outside.",
-            "through": {
-              "chapter": 8
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Mary asks Martha to help her obtain simple gardening tools and seeds. Martha's brother Dickon brings them, accompanied by animals that trust him, and Mary decides he can be admitted to her secret. Dickon understands the dormant plants and confirms that much of the garden is alive. Together they prune, weed, and plan how to restore it without attracting notice. Mary's friendship with him grows alongside her pleasure in the work. She also meets her uncle before he leaves on another journey. Archibald is surprised by her changed appearance and grants her request for a piece of earth to cultivate, never realizing she has already chosen his locked garden. Inside the manor, the mysterious crying continues. Mary becomes determined to discover its source even as she and Dickon protect the garden from the adults.",
-            "through": {
-              "chapter": 12
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Following the crying at night, Mary finds Colin Craven, her uncle's hidden son and therefore her cousin. Colin has spent years in bed, surrounded by servants who obey him and adults who expect illness. He is terrified that a lump will grow on his back and that he will die young. Mary is neither intimidated nor pitying; she talks to him about the moor, Dickon, and the secret garden, and their equally forceful tempers make them companions. When Colin has a violent nighttime fit, Mary shouts him down and makes him examine his back, where she sees no sign of the deformity he fears. Her refusal to accept his predictions interrupts the household's pattern of indulging him. Colin wants to meet Dickon and go outside. Mary finally tells him the garden is real, and the children begin planning how to take him there without revealing their secret.",
-            "through": {
-              "chapter": 17
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Dickon visits Colin and wins his confidence through stories and animals. With help from a trusted servant, Mary and Dickon take Colin outdoors in his wheelchair and secretly bring him through the ivy-covered door. Spring is transforming the garden, and Colin becomes convinced that the same living force can transform him. When Ben Weatherstaff sees the children over the wall and angrily confronts them, Colin stands to disprove rumors that he is deformed. The effort succeeds, and he resolves to walk and become strong. The children establish a private routine of exercise and positive declarations, calling the power they feel in nature and in themselves magic. Colin's health improves quickly. He orders that his recovery remain hidden so he can surprise his father, while he, Mary, Dickon, and Ben continue restoring the garden and practicing until Colin can move with increasing confidence.",
-            "through": {
-              "chapter": 22
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Colin turns the garden into the center of a hopeful private ceremony, but the practical causes of his recovery are clear as well: food, exercise, sunlight, companionship, and freedom from constant predictions of death. He and Mary gain weight and strength, creating difficulty for the servants who must pretend Colin remains frail. Susan Sowerby visits the garden, treats the children with calm affection, and understands that Archibald must be brought back into his son's life. Far from home, Archibald has begun to recover from years of grief. A dream of his wife and a strong impulse send him back to Misselthwaite. In the secret garden he hears children and finds Colin running. Astonished and joyful, he listens to the story of the hidden recovery. Colin walks beside his father into the manor instead of returning in his chair. The servants witness the supposedly dying boy restored and the long-absent master reunited with him. Mary, once isolated and sour, has likewise become healthy and connected through the garden and her friendships.",
-            "through": {
-              "chapter": 27
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "the-secret-garden-dramatized"
+        "work": "the-secret-garden"
       }
     },
     "the-secret-history": {
