@@ -191,6 +191,147 @@
         "work": "the-scarecrow-of-oz"
       }
     },
+    "the-scarlet-letter": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "the woman with the scarlet letter"
+            ],
+            "description": "A young woman in Puritan Boston condemned for bearing a child outside marriage. She emerges from prison carrying her infant and wearing an elaborately embroidered red A. Although the authorities expose her to public shame, she refuses to name the child's father and meets the crowd with controlled dignity.",
+            "id": "hester-prynne",
+            "name": "Hester Prynne",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Hester Prynne's young daughter, born during her mother's imprisonment and present with her on the scaffold. Hester names her Pearl because she came at great cost. Lively, imaginative, and difficult to govern, she is also the living evidence of the offense for which Hester is punished.",
+            "id": "pearl",
+            "name": "Pearl",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young and widely admired minister asked to persuade Hester to reveal her child's father. His eloquence and apparent spiritual sensitivity give him exceptional authority within the Puritan community.",
+            "id": "arthur-dimmesdale",
+            "name": "Arthur Dimmesdale",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "the stranger"
+            ],
+            "description": "A learned, physically misshapen stranger who arrives in Boston after a long absence and recognizes Hester on the scaffold. He conceals his connection to her while observing the public interrogation with unsettling concentration.",
+            "id": "roger-chillingworth",
+            "name": "Roger Chillingworth",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The senior colonial official who helps direct Hester's public examination. He represents the civil authority enforcing the settlement's religious and social order.",
+            "id": "governor-bellingham",
+            "name": "Governor Bellingham",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An elderly clergyman who joins Governor Bellingham in pressing Hester to disclose her partner. He is a respected representative of the colony's established church.",
+            "id": "john-wilson",
+            "name": "John Wilson",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Governor Bellingham's widowed sister, regarded by the townspeople as a witch. Her bold references to nocturnal meetings in the forest make her a disturbing contrast to the colony's public claims of order and godliness.",
+            "id": "mistress-hibbins",
+            "name": "Mistress Hibbins",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge",
+            "type": "community"
+          }
+        ],
+        "work": "the-scarlet-letter"
+      },
+      "recaps": {
+        "ending": "During the Election Day procession, Dimmesdale leaves his place of honor and calls Hester and Pearl to join him on the scaffold. Before the entire town, he acknowledges Hester and Pearl as his family and exposes the guilt that has consumed him. Pearl kisses him, responding at last to a public recognition that joins truth to affection. Dimmesdale dies after the confession, beyond Chillingworth's power to keep tormenting him. Deprived of his purpose, Chillingworth declines and dies within a year, leaving substantial property to Pearl. Hester and Pearl go abroad; Pearl appears to establish a prosperous life elsewhere. Hester eventually returns alone to her old cottage, resumes the scarlet letter by choice, and becomes a counselor to troubled women. When she dies, she is buried near Dimmesdale, with one shared gravestone marked by the image of a red letter against a dark field.",
+        "in_short": "In seventeenth-century Boston, Hester Prynne is publicly shamed for adultery and required to wear a scarlet A, but she will not identify her daughter's father. Her long-absent husband returns under the name Roger Chillingworth and secretly dedicates himself to finding the man. The father is the revered minister Arthur Dimmesdale, whose concealed guilt destroys his health while Hester's open punishment gradually makes her strong and useful to the community. Chillingworth becomes Dimmesdale's physician and tormentor. Hester finally reveals Chillingworth's identity to Dimmesdale, and she and the minister plan to escape with Pearl. Instead, after delivering an Election Day sermon, Dimmesdale mounts the scaffold with them and publicly confesses before dying. Chillingworth soon dies as well, leaving Pearl an inheritance. Pearl makes a life abroad; Hester eventually returns to Boston, wears the letter voluntarily, and offers counsel to women until her death.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "book",
+            "text": "In the Puritan settlement of Boston, townspeople gather outside the prison to witness the punishment of Hester Prynne. She emerges carrying her infant daughter, Pearl, and wearing a scarlet A that marks her adultery. On the scaffold she refuses demands to identify the child's father, even when the respected young minister Arthur Dimmesdale urges her to speak. A newly arrived stranger in the crowd recognizes Hester and learns the cause of her disgrace. He is her husband, long presumed lost, and he decides to conceal their relationship. Calling himself Roger Chillingworth, he visits Hester in prison, treats her and the child, and makes her promise not to reveal who he is. He declares that he will discover her partner for himself.",
+            "through": {
+              "chapter": 4
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Released from prison, Hester remains near Boston in an isolated cottage and supports herself through skilled needlework. The community rejects her socially while continuing to use her labor. Pearl grows into an imaginative, unruly child fascinated by the embroidered letter. Officials consider removing Pearl from Hester, arguing that the child needs stricter religious care. At Governor Bellingham's mansion, Pearl resists their questioning, but Dimmesdale argues that she has been given to Hester as both consequence and blessing. His intervention allows mother and daughter to remain together. Mistress Hibbins then invites Hester to a gathering in the forest; Hester refuses, saying that without Pearl she might have accepted.",
+            "through": {
+              "chapter": 8
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Chillingworth establishes himself as a physician and becomes closely attached to the increasingly frail Dimmesdale. The townspeople first welcome his care, but his obsessive scrutiny gives him a sinister reputation. Suspecting hidden guilt, he probes the minister's conscience while treating his body. Dimmesdale's public influence grows even as private shame and self-punishment weaken him. One night he stands on the scaffold where Hester was exposed. Hester and Pearl, returning from a deathbed, join him there, and the three hold hands. Dimmesdale will not promise Pearl that they will stand together publicly the next day. A light in the sky appears to trace an A, and Chillingworth arrives to lead the exhausted minister home.",
+            "through": {
+              "chapter": 12
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Seven years of punishment have changed how Boston sees Hester. Her charity and endurance lead many people to read the letter as a sign of ability rather than only adultery, though her isolation has made her severe and detached. She recognizes that Chillingworth has used his access to Dimmesdale to prolong the minister's misery. Meeting her husband, she tells him she will no longer keep his identity secret from Dimmesdale. Chillingworth accepts that revenge has transformed him but refuses to release his purpose. Hester then waits in the forest with Pearl for an opportunity to speak privately with the minister.",
+            "through": {
+              "chapter": 16
+            }
+          },
+          {
+            "scope": "book",
+            "text": "In the forest, Hester tells Dimmesdale that Chillingworth is her husband and has deliberately become his tormentor. Though shocked by her long concealment, Dimmesdale forgives her. They imagine leaving the colony together and plan passage to Europe with Pearl after the coming Election Day. Hester removes the scarlet letter and lets down her hair, briefly recovering hope, but Pearl refuses to approach until her mother puts the emblem back on. The child also resists Dimmesdale's private affection because he still will not acknowledge them in public. Returning to town, Dimmesdale feels radically changed and writes a powerful Election Sermon.",
+            "through": {
+              "chapter": 20
+            }
+          },
+          {
+            "scope": "book",
+            "text": "On Election Day, Dimmesdale delivers a celebrated sermon, but afterward he abandons the procession and calls Hester and Pearl to the scaffold. Supported by Hester and resisting Chillingworth, he publicly acknowledges his connection to them and the guilt he has hidden. Pearl kisses him, and he dies after the confession. With no victim left to control, Chillingworth rapidly declines and dies within a year, leaving Pearl a large inheritance. Hester and Pearl leave Boston, and reports suggest that Pearl later lives comfortably abroad. Hester eventually returns alone to the cottage and resumes wearing the scarlet letter voluntarily. Women seek her counsel about grief and injustice. She remains there until her death and is buried near Dimmesdale beneath a shared marker bearing the image of a red letter on a dark background.",
+            "through": {
+              "chapter": 24
+            }
+          }
+        ],
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge",
+            "type": "community"
+          }
+        ],
+        "work": "the-scarlet-letter"
+      }
+    },
     "the-scarlet-letter-a-timeless-american-classic-of-forbidden-love": {
       "characters": {
         "characters": [
@@ -480,147 +621,6 @@
           }
         ],
         "work": "the-scarlet-letter-adaptation"
-      }
-    },
-    "the-scarlet-letter-annotated": {
-      "characters": {
-        "characters": [
-          {
-            "aliases": [
-              "the woman with the scarlet letter"
-            ],
-            "description": "A young woman in Puritan Boston condemned for bearing a child outside marriage. She emerges from prison carrying her infant and wearing an elaborately embroidered red A. Although the authorities expose her to public shame, she refuses to name the child's father and meets the crowd with controlled dignity.",
-            "id": "hester-prynne",
-            "name": "Hester Prynne",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "protagonist"
-          },
-          {
-            "description": "Hester Prynne's young daughter, born during her mother's imprisonment and present with her on the scaffold. Hester names her Pearl because she came at great cost. Lively, imaginative, and difficult to govern, she is also the living evidence of the offense for which Hester is punished.",
-            "id": "pearl",
-            "name": "Pearl",
-            "reveal": {
-              "chapter": 6
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A young and widely admired minister asked to persuade Hester to reveal her child's father. His eloquence and apparent spiritual sensitivity give him exceptional authority within the Puritan community.",
-            "id": "arthur-dimmesdale",
-            "name": "Arthur Dimmesdale",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "the stranger"
-            ],
-            "description": "A learned, physically misshapen stranger who arrives in Boston after a long absence and recognizes Hester on the scaffold. He conceals his connection to her while observing the public interrogation with unsettling concentration.",
-            "id": "roger-chillingworth",
-            "name": "Roger Chillingworth",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The senior colonial official who helps direct Hester's public examination. He represents the civil authority enforcing the settlement's religious and social order.",
-            "id": "governor-bellingham",
-            "name": "Governor Bellingham",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "minor"
-          },
-          {
-            "description": "An elderly clergyman who joins Governor Bellingham in pressing Hester to disclose her partner. He is a respected representative of the colony's established church.",
-            "id": "john-wilson",
-            "name": "John Wilson",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "minor"
-          },
-          {
-            "description": "Governor Bellingham's widowed sister, regarded by the townspeople as a witch. Her bold references to nocturnal meetings in the forest make her a disturbing contrast to the colony's public claims of order and godliness.",
-            "id": "mistress-hibbins",
-            "name": "Mistress Hibbins",
-            "reveal": {
-              "chapter": 8
-            },
-            "role": "minor"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge",
-            "type": "community"
-          }
-        ],
-        "work": "the-scarlet-letter-annotated"
-      },
-      "recaps": {
-        "ending": "During the Election Day procession, Dimmesdale leaves his place of honor and calls Hester and Pearl to join him on the scaffold. Before the entire town, he acknowledges Hester and Pearl as his family and exposes the guilt that has consumed him. Pearl kisses him, responding at last to a public recognition that joins truth to affection. Dimmesdale dies after the confession, beyond Chillingworth's power to keep tormenting him. Deprived of his purpose, Chillingworth declines and dies within a year, leaving substantial property to Pearl. Hester and Pearl go abroad; Pearl appears to establish a prosperous life elsewhere. Hester eventually returns alone to her old cottage, resumes the scarlet letter by choice, and becomes a counselor to troubled women. When she dies, she is buried near Dimmesdale, with one shared gravestone marked by the image of a red letter against a dark field.",
-        "in_short": "In seventeenth-century Boston, Hester Prynne is publicly shamed for adultery and required to wear a scarlet A, but she will not identify her daughter's father. Her long-absent husband returns under the name Roger Chillingworth and secretly dedicates himself to finding the man. The father is the revered minister Arthur Dimmesdale, whose concealed guilt destroys his health while Hester's open punishment gradually makes her strong and useful to the community. Chillingworth becomes Dimmesdale's physician and tormentor. Hester finally reveals Chillingworth's identity to Dimmesdale, and she and the minister plan to escape with Pearl. Instead, after delivering an Election Day sermon, Dimmesdale mounts the scaffold with them and publicly confesses before dying. Chillingworth soon dies as well, leaving Pearl an inheritance. Pearl makes a life abroad; Hester eventually returns to Boston, wears the letter voluntarily, and offers counsel to women until her death.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "book",
-            "text": "In the Puritan settlement of Boston, townspeople gather outside the prison to witness the punishment of Hester Prynne. She emerges carrying her infant daughter, Pearl, and wearing a scarlet A that marks her adultery. On the scaffold she refuses demands to identify the child's father, even when the respected young minister Arthur Dimmesdale urges her to speak. A newly arrived stranger in the crowd recognizes Hester and learns the cause of her disgrace. He is her husband, long presumed lost, and he decides to conceal their relationship. Calling himself Roger Chillingworth, he visits Hester in prison, treats her and the child, and makes her promise not to reveal who he is. He declares that he will discover her partner for himself.",
-            "through": {
-              "chapter": 4
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Released from prison, Hester remains near Boston in an isolated cottage and supports herself through skilled needlework. The community rejects her socially while continuing to use her labor. Pearl grows into an imaginative, unruly child fascinated by the embroidered letter. Officials consider removing Pearl from Hester, arguing that the child needs stricter religious care. At Governor Bellingham's mansion, Pearl resists their questioning, but Dimmesdale argues that she has been given to Hester as both consequence and blessing. His intervention allows mother and daughter to remain together. Mistress Hibbins then invites Hester to a gathering in the forest; Hester refuses, saying that without Pearl she might have accepted.",
-            "through": {
-              "chapter": 8
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Chillingworth establishes himself as a physician and becomes closely attached to the increasingly frail Dimmesdale. The townspeople first welcome his care, but his obsessive scrutiny gives him a sinister reputation. Suspecting hidden guilt, he probes the minister's conscience while treating his body. Dimmesdale's public influence grows even as private shame and self-punishment weaken him. One night he stands on the scaffold where Hester was exposed. Hester and Pearl, returning from a deathbed, join him there, and the three hold hands. Dimmesdale will not promise Pearl that they will stand together publicly the next day. A light in the sky appears to trace an A, and Chillingworth arrives to lead the exhausted minister home.",
-            "through": {
-              "chapter": 12
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Seven years of punishment have changed how Boston sees Hester. Her charity and endurance lead many people to read the letter as a sign of ability rather than only adultery, though her isolation has made her severe and detached. She recognizes that Chillingworth has used his access to Dimmesdale to prolong the minister's misery. Meeting her husband, she tells him she will no longer keep his identity secret from Dimmesdale. Chillingworth accepts that revenge has transformed him but refuses to release his purpose. Hester then waits in the forest with Pearl for an opportunity to speak privately with the minister.",
-            "through": {
-              "chapter": 16
-            }
-          },
-          {
-            "scope": "book",
-            "text": "In the forest, Hester tells Dimmesdale that Chillingworth is her husband and has deliberately become his tormentor. Though shocked by her long concealment, Dimmesdale forgives her. They imagine leaving the colony together and plan passage to Europe with Pearl after the coming Election Day. Hester removes the scarlet letter and lets down her hair, briefly recovering hope, but Pearl refuses to approach until her mother puts the emblem back on. The child also resists Dimmesdale's private affection because he still will not acknowledge them in public. Returning to town, Dimmesdale feels radically changed and writes a powerful Election Sermon.",
-            "through": {
-              "chapter": 20
-            }
-          },
-          {
-            "scope": "book",
-            "text": "On Election Day, Dimmesdale delivers a celebrated sermon, but afterward he abandons the procession and calls Hester and Pearl to the scaffold. Supported by Hester and resisting Chillingworth, he publicly acknowledges his connection to them and the guilt he has hidden. Pearl kisses him, and he dies after the confession. With no victim left to control, Chillingworth rapidly declines and dies within a year, leaving Pearl a large inheritance. Hester and Pearl leave Boston, and reports suggest that Pearl later lives comfortably abroad. Hester eventually returns alone to the cottage and resumes wearing the scarlet letter voluntarily. Women seek her counsel about grief and injustice. She remains there until her death and is buried near Dimmesdale beneath a shared marker bearing the image of a red letter on a dark background.",
-            "through": {
-              "chapter": 24
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge",
-            "type": "community"
-          }
-        ],
-        "work": "the-scarlet-letter-annotated"
       }
     },
     "the-scarlet-pimpernel": {

@@ -2083,7 +2083,7 @@
         "work": "henrik-ibsens-the-wild-duck"
       }
     },
-    "henry-iv-pt-1": {
+    "henry-iv-part-1": {
       "characters": {
         "characters": [
           {
@@ -2259,7 +2259,7 @@
             "type": "community"
           }
         ],
-        "work": "henry-iv-pt-1"
+        "work": "henry-iv-part-1"
       },
       "recaps": {
         "ending": "At Shrewsbury, Worcester withholds King Henry's offer of pardon because he fears that Hotspur might accept it and later blame him for the rebellion. Battle follows. Prince Hal rescues his father from Douglas and kills Hotspur in single combat, proving the courage that his public reputation had concealed. Falstaff survives an encounter with Douglas by pretending to be dead, then finds Hotspur's body and falsely claims the kill; Hal lets the boast stand. Worcester and Vernon are captured and condemned after the king learns that his peace terms were never delivered honestly. Douglas is released without ransom in recognition of his valor. The royal army wins the field, but the wider rising is not over: Northumberland and the Archbishop of York still threaten the crown. Henry divides his forces, sending John and Westmoreland north while he and Hal turn toward Wales to confront Glendower and Mortimer.",
@@ -2316,10 +2316,10 @@
             "type": "community"
           }
         ],
-        "work": "henry-iv-pt-1"
+        "work": "henry-iv-part-1"
       }
     },
-    "henry-iv-pt-2": {
+    "henry-iv-part-2": {
       "characters": {
         "characters": [
           {
@@ -2497,7 +2497,7 @@
             "type": "community"
           }
         ],
-        "work": "henry-iv-pt-2"
+        "work": "henry-iv-part-2"
       },
       "recaps": {
         "ending": "After Henry IV dies, Prince Henry takes the throne as Henry V. He reassures his brothers and retains the Chief Justice, showing that he intends to govern through law rather than punish the judge who once disciplined him. Falstaff hears of the accession while staying with Shallow and hurries to London, confident that his old companion will now reward him. At the coronation procession, however, the new king publicly rejects Falstaff, forbids him to approach, and grants him a modest allowance conditional on reform. The Chief Justice sends Falstaff and his associates to the Fleet prison, although Prince John suggests their treatment may later be reconsidered. Hostess Quickly and Doll have also been arrested. Falstaff tries to interpret the rebuke as a temporary public performance, but his expected influence is gone. Prince John anticipates that the new reign will soon turn toward war in France, closing the domestic succession story and pointing toward Henry V's campaigns.",
@@ -2561,7 +2561,7 @@
             "type": "community"
           }
         ],
-        "work": "henry-iv-pt-2"
+        "work": "henry-iv-part-2"
       }
     },
     "henry-v": {
@@ -2770,6 +2770,230 @@
           }
         ],
         "work": "henry-v"
+      }
+    },
+    "henry-vi-part-3": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The Lancastrian king, gentle and devout but unable to control the civil war around him. Faced with Yorkist occupation of Parliament, he values an immediate peace even when its terms threaten his own dynasty.",
+            "id": "king-henry-vi",
+            "name": "King Henry VI",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Queen Margaret"
+            ],
+            "description": "Henry's forceful queen and the principal defender of their son's inheritance. She rejects Henry's compromise with York and takes command of the Lancastrian cause herself.",
+            "id": "margaret-of-anjou",
+            "name": "Margaret of Anjou",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Richard Plantagenet"
+            ],
+            "description": "The head of the house of York, whose army has defeated the king's supporters and occupied Parliament. He claims the crown by hereditary right and accepts a settlement making him Henry's heir.",
+            "id": "duke-of-york",
+            "name": "Duke of York",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Edward of York",
+              "Earl of March"
+            ],
+            "description": "York's eldest son and military heir. Confident and ambitious, he supports his father's claim and is ready to turn battlefield success into kingship for his house.",
+            "id": "edward",
+            "name": "Edward",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Richard of Gloucester"
+            ],
+            "description": "York's physically disabled younger son, a fierce soldier whose intelligence and ruthlessness are already apparent. He presses his father to seize the crown outright and treats family advancement as a personal mission.",
+            "id": "richard",
+            "name": "Richard",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Richard Neville"
+            ],
+            "description": "The powerful Yorkist commander whose victories and large following make him central to the struggle for the crown. He backs York's hereditary case and acts as military partner to York's sons.",
+            "id": "earl-of-warwick",
+            "name": "Earl of Warwick",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A committed Lancastrian soldier driven by his father's death at Yorkist hands. He supports Margaret's refusal to accept compromise and seeks vengeance against York and his descendants.",
+            "id": "lord-clifford",
+            "name": "Lord Clifford",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Prince of Wales"
+            ],
+            "description": "The young son of Henry and Margaret, whose right to inherit is displaced by Henry's agreement with York. His mother organizes the Lancastrian resistance in his name.",
+            "id": "prince-edward",
+            "name": "Prince Edward",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "York's youngest son, a child placed under the care of a tutor during the fighting. His family identity makes him a target even though he has no command in the war.",
+            "id": "rutland",
+            "name": "Rutland",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "George Plantagenet",
+              "Duke of Clarence"
+            ],
+            "description": "Edward and Richard's brother. He receives the dukedom of Clarence after the Yorkist victory, gaining rank in a royal family whose alliances will test his loyalty.",
+            "id": "george-of-clarence",
+            "name": "George of Clarence",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A widow seeking the return of lands confiscated after her Lancastrian husband's death. Her petition brings her before Edward, where she resists his attempt to make political favor conditional on becoming his lover.",
+            "id": "lady-elizabeth-grey",
+            "name": "Lady Elizabeth Grey",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Louis XI"
+            ],
+            "description": "The king of France, approached by both Lancastrian and Yorkist envoys. His decision about marriage and military support becomes important to the English struggle.",
+            "id": "king-louis-of-france",
+            "name": "King Louis of France",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A staunch Lancastrian noble who supports Margaret abroad and remains with her cause through military defeat. He values dynastic loyalty above the changing advantages of the war.",
+            "id": "earl-of-oxford",
+            "name": "Earl of Oxford",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A loyal Yorkist who joins Richard in freeing Edward from Warwick's custody. He helps the deposed king escape and regroup before Edward openly renews his claim.",
+            "id": "lord-hastings",
+            "name": "Lord Hastings",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          }
+        ],
+        "work": "henry-vi-part-3"
+      },
+      "recaps": {
+        "ending": "Edward defeats Warwick at Barnet, where Warwick and his brother Montague are killed. Clarence abandons Warwick and returns to his brothers before the Yorkists defeat Margaret's army at Tewkesbury. Prince Edward is captured and stabbed to death after defying the Yorkist brothers. Margaret is taken prisoner. Richard then goes to the Tower and murders the captive Henry VI, treating the last Lancastrian king as an obstacle to his own family's security and to his private ambition. Edward IV ends the play on the throne with Queen Elizabeth and their infant son, believing the civil conflict settled. Yet Richard's closing thoughts make clear that peace within the victorious house of York is unstable: Henry and his son are dead, but Richard is already looking beyond his brother's reign toward the crown for himself.",
+        "in_short": "After York forces Henry VI to name him heir, Queen Margaret rejects the settlement and defeats York at Wakefield, where Clifford kills young Rutland and Margaret helps humiliate York before his death. York's sons Edward and Richard continue the claim. Following the brutal victory at Towton, Edward becomes king and Henry is captured. Edward secretly marries Elizabeth Grey while Warwick is negotiating a French marriage for him. Humiliated, Warwick joins Margaret and brings Clarence with him, briefly restoring Henry. Edward escapes, returns with Burgundian support, regains London, and captures Henry again. Clarence changes sides once more, rejoining his brothers before the decisive battles. Warwick dies at Barnet; Margaret's army loses at Tewkesbury; the Yorkist brothers kill Prince Edward. Richard murders Henry in the Tower. Edward IV appears secure with his wife and infant heir, but Richard's ambition points toward another seizure of the crown.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously, Henry VI's weak government lost most English territory in France while noble factions competed at home. Suffolk arranged Henry's marriage to Margaret of Anjou and gained influence through her, but court enemies destroyed the popular Protector Gloucester and Suffolk himself was later killed. Richard, Duke of York, concealed a hereditary claim stronger than Henry's and encouraged Jack Cade's failed rebellion while serving in Ireland. York then returned with an army, openly claimed the crown, and defeated the royal party at Saint Albans. Somerset and the elder Clifford were killed. Henry and Margaret fled, while York and his allies marched toward London to convert military victory into dynastic power.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "York and his allies occupy Parliament and press his claim to Henry's throne. To prevent immediate bloodshed, Henry agrees to remain king for life while naming York and his descendants as heirs, disinheriting his own son. Margaret refuses the settlement and raises a northern army with Clifford and other Lancastrians. Although York has sworn not to seize the crown during Henry's life, his sons persuade him to resume the struggle after Henry's party breaks the agreement. At Wakefield, the Yorkists are overwhelmed. Clifford kills York's young son Rutland despite the tutor's pleas. Margaret and Clifford capture York, mock him with a paper crown, show him a cloth stained with Rutland's blood, and kill him. His head is sent to the gates of York. The compromise has collapsed, and the war passes to York's surviving sons Edward, George, and Richard.",
+            "through": {
+              "chapter": 1
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Edward and Richard learn of their father and brother's deaths and join Warwick to continue the Yorkist cause. A vision of three suns appearing to merge encourages the brothers to see unity and victory in the heavens. Both sides gather for the battle of Towton. Henry withdraws from command and sits apart, grieving as he watches a father discover that he has killed his son and a son discover that he has killed his father, making the civil war's cost personal and indiscriminate. Clifford is mortally wounded, and the Lancastrian army is defeated. Margaret and Prince Edward escape toward France, while Henry flees toward Scotland. Edward is proclaimed King Edward IV. He makes George Duke of Clarence and Richard Duke of Gloucester, and Warwick accepts the role of chief supporter to the new Yorkist king.",
+            "through": {
+              "chapter": 2
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Living quietly in the north, Henry is recognized by gamekeepers and taken into Yorkist custody. Edward meets Lady Elizabeth Grey, who petitions for restoration of her late husband's lands. He tries to make his help conditional on her yielding to him, but she refuses; impressed and attracted, he decides to marry her despite the political consequences. Richard, watching Edward's rise and marriage, privately acknowledges that his own ambition reaches toward the crown and that he will remove whatever stands in his way. In France, Warwick asks King Louis to bind Yorkist England to France through Edward's marriage to Lady Bona. Margaret pleads for Lancastrian assistance. Letters then reveal that Edward has married Elizabeth instead. Publicly humiliated, Warwick abandons Edward, allies with Margaret, and promises his daughter to Prince Edward. Clarence also joins Warwick. Louis grants support for an invasion intended to depose Edward and restore Henry.",
+            "through": {
+              "chapter": 3
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Edward's marriage to Elizabeth and the advancement of her relatives anger his brothers and allies. Clarence defects to Warwick, who invades while Edward's forces are dispersed. Warwick captures Edward and restores Henry VI, assigning governing power to himself and Clarence. Henry welcomes release from prison, names Warwick and Clarence protectors, and recognizes promise in the young Henry Richmond. Richard and Hastings rescue Edward, who escapes abroad and returns with support from Burgundy. Claiming at first that he seeks only his dukedom, Edward gathers followers, enters London, and takes Henry prisoner again. Queen Elizabeth, who had taken sanctuary while pregnant, presents Edward with an infant son after his return. Warwick summons the Lancastrian forces for battle, while Margaret and Prince Edward sail from France. The brief Lancastrian restoration ends before Margaret can reinforce it, and the rival armies move toward the final campaigns.",
+            "through": {
+              "chapter": 4
+            }
+          },
+          {
+            "scope": "book",
+            "text": "At Coventry, Clarence abandons Warwick and returns to Edward and Richard. The Yorkists defeat Warwick at Barnet; Warwick and his brother Montague die after seeing their political power collapse. Margaret and Prince Edward nevertheless continue the Lancastrian cause, but their army is defeated at Tewkesbury. The captured prince refuses to submit and is stabbed by Edward, Clarence, and Richard. Margaret begs to die with him but is kept alive as a prisoner. Richard goes to the Tower, where Henry predicts the destruction Richard will cause. Richard kills him and admits that the crown, rather than loyalty to Edward, directs his course. Edward IV closes the public action in possession of the throne, Queen Elizabeth beside him and their infant son presented as the Yorkist future. Henry and Prince Edward are dead and Margaret is captive, but Richard's private ambition leaves the victorious dynasty threatened from within.",
+            "through": {
+              "chapter": 5
+            }
+          }
+        ],
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          }
+        ],
+        "work": "henry-vi-part-3"
       }
     },
     "henry-vi-pt-2": {
@@ -2990,230 +3214,6 @@
           }
         ],
         "work": "henry-vi-pt-2"
-      }
-    },
-    "henry-vi-pt-3": {
-      "characters": {
-        "characters": [
-          {
-            "description": "The Lancastrian king, gentle and devout but unable to control the civil war around him. Faced with Yorkist occupation of Parliament, he values an immediate peace even when its terms threaten his own dynasty.",
-            "id": "king-henry-vi",
-            "name": "King Henry VI",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
-            "aliases": [
-              "Queen Margaret"
-            ],
-            "description": "Henry's forceful queen and the principal defender of their son's inheritance. She rejects Henry's compromise with York and takes command of the Lancastrian cause herself.",
-            "id": "margaret-of-anjou",
-            "name": "Margaret of Anjou",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "Richard Plantagenet"
-            ],
-            "description": "The head of the house of York, whose army has defeated the king's supporters and occupied Parliament. He claims the crown by hereditary right and accepts a settlement making him Henry's heir.",
-            "id": "duke-of-york",
-            "name": "Duke of York",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "antagonist"
-          },
-          {
-            "aliases": [
-              "Edward of York",
-              "Earl of March"
-            ],
-            "description": "York's eldest son and military heir. Confident and ambitious, he supports his father's claim and is ready to turn battlefield success into kingship for his house.",
-            "id": "edward",
-            "name": "Edward",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "Richard of Gloucester"
-            ],
-            "description": "York's physically disabled younger son, a fierce soldier whose intelligence and ruthlessness are already apparent. He presses his father to seize the crown outright and treats family advancement as a personal mission.",
-            "id": "richard",
-            "name": "Richard",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "Richard Neville"
-            ],
-            "description": "The powerful Yorkist commander whose victories and large following make him central to the struggle for the crown. He backs York's hereditary case and acts as military partner to York's sons.",
-            "id": "earl-of-warwick",
-            "name": "Earl of Warwick",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A committed Lancastrian soldier driven by his father's death at Yorkist hands. He supports Margaret's refusal to accept compromise and seeks vengeance against York and his descendants.",
-            "id": "lord-clifford",
-            "name": "Lord Clifford",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "antagonist"
-          },
-          {
-            "aliases": [
-              "Prince of Wales"
-            ],
-            "description": "The young son of Henry and Margaret, whose right to inherit is displaced by Henry's agreement with York. His mother organizes the Lancastrian resistance in his name.",
-            "id": "prince-edward",
-            "name": "Prince Edward",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "York's youngest son, a child placed under the care of a tutor during the fighting. His family identity makes him a target even though he has no command in the war.",
-            "id": "rutland",
-            "name": "Rutland",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "minor"
-          },
-          {
-            "aliases": [
-              "George Plantagenet",
-              "Duke of Clarence"
-            ],
-            "description": "Edward and Richard's brother. He receives the dukedom of Clarence after the Yorkist victory, gaining rank in a royal family whose alliances will test his loyalty.",
-            "id": "george-of-clarence",
-            "name": "George of Clarence",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A widow seeking the return of lands confiscated after her Lancastrian husband's death. Her petition brings her before Edward, where she resists his attempt to make political favor conditional on becoming his lover.",
-            "id": "lady-elizabeth-grey",
-            "name": "Lady Elizabeth Grey",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "Louis XI"
-            ],
-            "description": "The king of France, approached by both Lancastrian and Yorkist envoys. His decision about marriage and military support becomes important to the English struggle.",
-            "id": "king-louis-of-france",
-            "name": "King Louis of France",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A staunch Lancastrian noble who supports Margaret abroad and remains with her cause through military defeat. He values dynastic loyalty above the changing advantages of the war.",
-            "id": "earl-of-oxford",
-            "name": "Earl of Oxford",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A loyal Yorkist who joins Richard in freeing Edward from Warwick's custody. He helps the deposed king escape and regroup before Edward openly renews his claim.",
-            "id": "lord-hastings",
-            "name": "Lord Hastings",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "minor"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "henry-vi-pt-3"
-      },
-      "recaps": {
-        "ending": "Edward defeats Warwick at Barnet, where Warwick and his brother Montague are killed. Clarence abandons Warwick and returns to his brothers before the Yorkists defeat Margaret's army at Tewkesbury. Prince Edward is captured and stabbed to death after defying the Yorkist brothers. Margaret is taken prisoner. Richard then goes to the Tower and murders the captive Henry VI, treating the last Lancastrian king as an obstacle to his own family's security and to his private ambition. Edward IV ends the play on the throne with Queen Elizabeth and their infant son, believing the civil conflict settled. Yet Richard's closing thoughts make clear that peace within the victorious house of York is unstable: Henry and his son are dead, but Richard is already looking beyond his brother's reign toward the crown for himself.",
-        "in_short": "After York forces Henry VI to name him heir, Queen Margaret rejects the settlement and defeats York at Wakefield, where Clifford kills young Rutland and Margaret helps humiliate York before his death. York's sons Edward and Richard continue the claim. Following the brutal victory at Towton, Edward becomes king and Henry is captured. Edward secretly marries Elizabeth Grey while Warwick is negotiating a French marriage for him. Humiliated, Warwick joins Margaret and brings Clarence with him, briefly restoring Henry. Edward escapes, returns with Burgundian support, regains London, and captures Henry again. Clarence changes sides once more, rejoining his brothers before the decisive battles. Warwick dies at Barnet; Margaret's army loses at Tewkesbury; the Yorkist brothers kill Prince Edward. Richard murders Henry in the Tower. Edward IV appears secure with his wife and infant heir, but Richard's ambition points toward another seizure of the crown.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "series",
-            "text": "Previously, Henry VI's weak government lost most English territory in France while noble factions competed at home. Suffolk arranged Henry's marriage to Margaret of Anjou and gained influence through her, but court enemies destroyed the popular Protector Gloucester and Suffolk himself was later killed. Richard, Duke of York, concealed a hereditary claim stronger than Henry's and encouraged Jack Cade's failed rebellion while serving in Ireland. York then returned with an army, openly claimed the crown, and defeated the royal party at Saint Albans. Somerset and the elder Clifford were killed. Henry and Margaret fled, while York and his allies marched toward London to convert military victory into dynastic power.",
-            "through": {
-              "chapter": 0
-            }
-          },
-          {
-            "scope": "book",
-            "text": "York and his allies occupy Parliament and press his claim to Henry's throne. To prevent immediate bloodshed, Henry agrees to remain king for life while naming York and his descendants as heirs, disinheriting his own son. Margaret refuses the settlement and raises a northern army with Clifford and other Lancastrians. Although York has sworn not to seize the crown during Henry's life, his sons persuade him to resume the struggle after Henry's party breaks the agreement. At Wakefield, the Yorkists are overwhelmed. Clifford kills York's young son Rutland despite the tutor's pleas. Margaret and Clifford capture York, mock him with a paper crown, show him a cloth stained with Rutland's blood, and kill him. His head is sent to the gates of York. The compromise has collapsed, and the war passes to York's surviving sons Edward, George, and Richard.",
-            "through": {
-              "chapter": 1
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Edward and Richard learn of their father and brother's deaths and join Warwick to continue the Yorkist cause. A vision of three suns appearing to merge encourages the brothers to see unity and victory in the heavens. Both sides gather for the battle of Towton. Henry withdraws from command and sits apart, grieving as he watches a father discover that he has killed his son and a son discover that he has killed his father, making the civil war's cost personal and indiscriminate. Clifford is mortally wounded, and the Lancastrian army is defeated. Margaret and Prince Edward escape toward France, while Henry flees toward Scotland. Edward is proclaimed King Edward IV. He makes George Duke of Clarence and Richard Duke of Gloucester, and Warwick accepts the role of chief supporter to the new Yorkist king.",
-            "through": {
-              "chapter": 2
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Living quietly in the north, Henry is recognized by gamekeepers and taken into Yorkist custody. Edward meets Lady Elizabeth Grey, who petitions for restoration of her late husband's lands. He tries to make his help conditional on her yielding to him, but she refuses; impressed and attracted, he decides to marry her despite the political consequences. Richard, watching Edward's rise and marriage, privately acknowledges that his own ambition reaches toward the crown and that he will remove whatever stands in his way. In France, Warwick asks King Louis to bind Yorkist England to France through Edward's marriage to Lady Bona. Margaret pleads for Lancastrian assistance. Letters then reveal that Edward has married Elizabeth instead. Publicly humiliated, Warwick abandons Edward, allies with Margaret, and promises his daughter to Prince Edward. Clarence also joins Warwick. Louis grants support for an invasion intended to depose Edward and restore Henry.",
-            "through": {
-              "chapter": 3
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Edward's marriage to Elizabeth and the advancement of her relatives anger his brothers and allies. Clarence defects to Warwick, who invades while Edward's forces are dispersed. Warwick captures Edward and restores Henry VI, assigning governing power to himself and Clarence. Henry welcomes release from prison, names Warwick and Clarence protectors, and recognizes promise in the young Henry Richmond. Richard and Hastings rescue Edward, who escapes abroad and returns with support from Burgundy. Claiming at first that he seeks only his dukedom, Edward gathers followers, enters London, and takes Henry prisoner again. Queen Elizabeth, who had taken sanctuary while pregnant, presents Edward with an infant son after his return. Warwick summons the Lancastrian forces for battle, while Margaret and Prince Edward sail from France. The brief Lancastrian restoration ends before Margaret can reinforce it, and the rival armies move toward the final campaigns.",
-            "through": {
-              "chapter": 4
-            }
-          },
-          {
-            "scope": "book",
-            "text": "At Coventry, Clarence abandons Warwick and returns to Edward and Richard. The Yorkists defeat Warwick at Barnet; Warwick and his brother Montague die after seeing their political power collapse. Margaret and Prince Edward nevertheless continue the Lancastrian cause, but their army is defeated at Tewkesbury. The captured prince refuses to submit and is stabbed by Edward, Clarence, and Richard. Margaret begs to die with him but is kept alive as a prisoner. Richard goes to the Tower, where Henry predicts the destruction Richard will cause. Richard kills him and admits that the crown, rather than loyalty to Edward, directs his course. Edward IV closes the public action in possession of the throne, Queen Elizabeth beside him and their infant son presented as the Yorkist future. Henry and Prince Edward are dead and Margaret is captive, but Richard's private ambition leaves the victorious dynasty threatened from within.",
-            "through": {
-              "chapter": 5
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "henry-vi-pt-3"
       }
     },
     "heretics-of-dune": {
@@ -4500,7 +4500,7 @@
         "work": "high-rise"
       }
     },
-    "his-dark-materials-part-2-the-subtle-knife-radio-full-cast-dramatisation": {
+    "his-dark-materials-the-subtle-knife-book-2": {
       "characters": {
         "characters": [
           {
@@ -4659,7 +4659,7 @@
             "type": "community"
           }
         ],
-        "work": "his-dark-materials-part-2-the-subtle-knife-radio-full-cast-dramatisation"
+        "work": "his-dark-materials-the-subtle-knife-book-2"
       },
       "recaps": {
         "ending": "Lee Scoresby dies holding off Magisterium soldiers so that Jopari can continue toward the knife bearer. Jopari finds Will in the mountains, treats the wound that will not heal, and reveals that he is John Parry, Will's missing father. Father and son recognize each other only moments before a witch whom John once rejected kills him; she is then killed in turn. During Will's absence, Mrs Coulter's forces attack the witches guarding Lyra. Will returns to find the camp devastated, Lyra gone, and her alethiometer left behind. Mrs Coulter has abducted Lyra and keeps her drugged inside a travelling chest. The angels Balthamos and Baruch ask Will to take the subtle knife to Lord Asriel, but Will insists that he must rescue Lyra first. He leaves with the knife and the angels, while the coming war now spans multiple worlds.",
@@ -4716,7 +4716,7 @@
             "type": "community"
           }
         ],
-        "work": "his-dark-materials-part-2-the-subtle-knife-radio-full-cast-dramatisation"
+        "work": "his-dark-materials-the-subtle-knife-book-2"
       }
     },
     "his-last-bow": {
