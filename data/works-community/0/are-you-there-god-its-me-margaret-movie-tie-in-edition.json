@@ -3662,7 +3662,7 @@
               "Fitz",
               "Newboy"
             ],
-            "description": "A six-year-old boy delivered to the Six Duchies royal family by his mother's father, who wants nothing more to do with him. He is the acknowledged bastard of Prince Chivalry, the King-in-Waiting, and his existence is a scandal that ends his father's career before the boy has spoken a dozen words at court. Raised in the stables at Buckkeep with no name of his own, he grows up half servant and half unwanted kin, watching a family he cannot claim. He has an unschooled talent for reaching the minds of animals, a thing his guardian treats as a shameful sickness rather than a gift, and he is quick, watchful, and desperate to be of use to somebody.",
+            "description": "A six-year-old boy delivered to the Six Duchies royal family by his mother's father, who wants nothing more to do with him. He is the acknowledged bastard of Prince Chivalry, the King-in-Waiting, and his existence is a scandal that ends his father's career before the boy has spoken a dozen words at court. Raised in the stables at Buckkeep with no name of his own, he grows up half servant and half unwanted kin, watching a family he cannot claim.",
             "id": "fitzchivalry",
             "name": "FitzChivalry Farseer",
             "reveal": {
@@ -3671,7 +3671,7 @@
             "role": "protagonist"
           },
           {
-            "description": "Prince Chivalry's stableman and closest man, a dark, blunt, hard-drinking horseman who is handed the boy and told to raise him. He is scrupulously fair and completely unsentimental, teaching the boy horses, hounds, hawks and discipline while giving him almost no affection. He recognizes the boy's beast-magic at once and sets himself to beating it out of him, insisting it is a filthy thing no Farseer should touch. Whatever it costs him, he keeps the boy fed, whole and out of trouble because Chivalry left him to do it.",
+            "description": "Prince Chivalry's stableman and closest man, a dark, blunt, hard-drinking horseman who is handed the boy and told to raise him. He is scrupulously fair and completely unsentimental, teaching the boy horses, hounds, hawks and discipline while giving him almost no affection. Whatever it costs him, he keeps the boy fed, whole and out of trouble because Chivalry left him to do it.",
             "id": "burrich",
             "name": "Burrich",
             "reveal": {
