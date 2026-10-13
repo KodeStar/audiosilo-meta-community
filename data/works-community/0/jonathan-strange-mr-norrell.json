@@ -1497,213 +1497,6 @@
         "work": "julie-of-the-wolves"
       }
     },
-    "julius-caesar": {
-      "characters": {
-        "characters": [
-          {
-            "description": "A tribune who rebukes Roman workers for celebrating Caesar's victory over fellow Romans. Alarmed by Caesar's popularity, he removes decorations from public statues with Marullus.",
-            "id": "flavius",
-            "name": "Flavius",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "minor"
-          },
-          {
-            "description": "A tribune who joins Flavius in dispersing a holiday crowd and stripping honors from Caesar's statues. He views the public's sudden devotion to Caesar as dangerous and fickle.",
-            "id": "marullus",
-            "name": "Marullus",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "minor"
-          },
-          {
-            "aliases": [
-              "Caesar"
-            ],
-            "description": "Rome's dominant military and political leader, returning in triumph and receiving public celebration. He projects certainty and authority while privately observing omens, illness, and the loyalty of those around him.",
-            "id": "julius-caesar",
-            "name": "Julius Caesar",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "Mark Antony"
-            ],
-            "description": "Caesar's devoted friend and follower, participating in the public festival as an athlete. Caesar trusts him, while Cassius dismisses him as a pleasure-seeker without serious political weight.",
-            "id": "mark-antony",
-            "name": "Mark Antony",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A respected Roman senator troubled by Caesar's rise and by his own divided loyalties. Cassius values his reputation and tries to recruit him into resistance against Caesar.",
-            "id": "marcus-brutus",
-            "name": "Marcus Brutus",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "protagonist"
-          },
-          {
-            "description": "A Roman senator who sees Caesar's growing power as a threat to republican liberty. Perceptive, resentful, and skilled at persuasion, he begins sounding out Brutus about organized opposition.",
-            "id": "caius-cassius",
-            "name": "Caius Cassius",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "protagonist"
-          },
-          {
-            "description": "A senator with a blunt manner who reports how Caesar was offered a crown and refused it three times before the crowd. His observations make him valuable to the emerging conspiracy.",
-            "id": "casca",
-            "name": "Casca",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Caesar's wife. Troubled by ominous dreams and reports of unnatural events, she urges her husband to remain at home rather than attend the Senate.",
-            "id": "calpurnia",
-            "name": "Calpurnia",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A public prophet who warns Caesar to be cautious on the middle day of March. Caesar dismisses the warning amid the festival procession.",
-            "id": "soothsayer",
-            "name": "Soothsayer",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "minor"
-          },
-          {
-            "description": "Brutus's wife and Cato's daughter. Noticing her husband's agitation and secrecy, she asks to share his confidence and argues that she has the courage to bear difficult knowledge.",
-            "id": "portia",
-            "name": "Portia",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A conspirator who visits Caesar on the morning of the Senate meeting. When Calpurnia's warnings persuade Caesar to stay home, Decius reinterprets her dream as favorable and appeals to Caesar's pride.",
-            "id": "decius-brutus",
-            "name": "Decius Brutus",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A teacher and speaker who has learned the conspirators' names and purpose. He writes Caesar a warning and plans to deliver it along the route to the Capitol.",
-            "id": "artemidorus",
-            "name": "Artemidorus",
-            "reveal": {
-              "chapter": 6
-            },
-            "role": "minor"
-          },
-          {
-            "aliases": [
-              "Octavius"
-            ],
-            "description": "Caesar's young relative and designated heir. He comes toward Rome after the assassination and joins Antony in taking political and military control.",
-            "id": "octavius-caesar",
-            "name": "Octavius Caesar",
-            "reveal": {
-              "chapter": 11
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A Roman political figure allied with Antony and Octavius after Caesar's death. The three use his house for their meeting as they decide whom to condemn and how to raise forces.",
-            "id": "lepidus",
-            "name": "Lepidus",
-            "reveal": {
-              "chapter": 11
-            },
-            "role": "supporting"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge",
-            "type": "community"
-          }
-        ],
-        "work": "julius-caesar"
-      },
-      "recaps": {
-        "ending": "At Philippi, Cassius misreads a distant event and believes his ally Titinius has been captured. He orders Pindarus to kill him with the sword used against Caesar. Titinius returns safely with news of victory, finds Cassius dead, and kills himself. Brutus rallies the remaining troops for another engagement, but his cause is lost. Refusing capture, he asks several companions to help him die; Strato finally holds the sword on which Brutus runs. Antony finds the body and judges Brutus the only conspirator who acted from an honest concern for Rome rather than envy. Octavius orders an honorable burial and takes command of the field. Caesar's assassins are dead or defeated, while Antony and Octavius emerge as Rome's rulers and prepare to settle affairs after the civil war.",
-        "in_short": "Roman senators fear that Julius Caesar's popularity will become monarchy. Cassius recruits Brutus, whose public honor gives legitimacy to a conspiracy. Ignoring warnings, Caesar attends the Senate and is stabbed by the conspirators, with Brutus joining the attack. Brutus allows Mark Antony to speak at the funeral after his own defense of the killing. Antony uses Caesar's wounds and will to turn the crowd against the assassins. Brutus and Cassius flee and raise armies, while Antony, Octavius, and Lepidus take control in Rome. The republican leaders quarrel but reconcile before facing their enemies at Philippi. Cassius kills himself after mistakenly believing a battle lost; Brutus follows when defeat becomes certain. Antony honors Brutus's motives, and Octavius assumes command of the victorious forces.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "book",
-            "text": "Rome celebrates Julius Caesar's return after victory over Pompey's sons. Tribunes Flavius and Marullus disperse the crowd and remove decorations from Caesar's statues, fearing that popular enthusiasm will support one-man rule. During the festival, a soothsayer warns Caesar about the middle of March, but Caesar dismisses him. Cassius then probes Brutus's unease about Caesar's power and argues that Romans have surrendered their equality to an ordinary man. Brutus will not commit himself, though he admits a conflict between affection for Caesar and concern for Rome. Casca reports that Antony offered Caesar a crown three times and that Caesar refused while enjoying the crowd's approval. Cassius decides Brutus can be manipulated by forged messages that appear to come from worried citizens.",
-            "through": {
-              "chapter": 2
-            }
-          },
-          {
-            "scope": "book",
-            "text": "A violent storm and strange sights are interpreted by Cassius as signs against Caesar. He recruits Casca and has Cinna place forged appeals where Brutus will find them. Brutus concludes that Caesar must die, not for proven tyranny but to prevent the danger that unlimited power might change him. The conspirators arrive at Brutus's home. Brutus rejects both an oath and Cassius's suggestion that they also kill Antony, insisting their act must look like a restrained sacrifice for Rome rather than a purge. Portia sees her husband's distress and asks to be trusted with his secret. At Caesar's house, Calpurnia's nightmare and ominous reports persuade him to stay away from the Senate. Decius flatters him, gives the dream a favorable meaning, and suggests senators may mock him or withhold a crown. Caesar reverses his decision and leaves with the conspirators.",
-            "through": {
-              "chapter": 5
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Artemidorus prepares a written warning that names the conspirators, while Portia anxiously sends Lucius toward the Capitol. Caesar reaches the Senate and refuses Artemidorus's attempt to make him read the warning first. The conspirators surround him with a request to recall Publius Cimber, then stab him; Brutus participates in the killing. Antony sends a servant to seek safe passage and appears to submit to the new order. He shakes the assassins' bloody hands and secures permission to speak at Caesar's funeral despite Cassius's objections. Alone with the body, he predicts conflict. Brutus tells the citizens that Caesar's ambition required his death and wins their temporary approval. Antony then displays Caesar's wounds, identifies the attackers, and reveals gifts in Caesar's will. The crowd turns violently against the conspirators, who flee Rome, and Antony learns that Octavius is approaching.",
-            "through": {
-              "chapter": 12
-            }
-          },
-          {
-            "scope": "book",
-            "text": "The mob kills the poet Cinna merely because he shares a name with one conspirator. Antony, Octavius, and Lepidus form a ruling alliance and compile lists of people to be executed, even trading the lives of relatives. At their military camp, Brutus and Cassius accuse one another over corruption and money. Their argument becomes personal but ends in reconciliation. Brutus reveals that Portia has died after being overcome by the political disaster and his absence. Despite Cassius's preference to wait for the enemy, Brutus argues that their best chance is to march to Philippi before their support declines. That night Caesar's ghost appears to Brutus and says they will meet again at Philippi. Brutus nevertheless advances toward the decisive battle.",
-            "through": {
-              "chapter": 15
-            }
-          },
-          {
-            "scope": "book",
-            "text": "At Philippi, the opposing leaders exchange accusations before battle. Brutus and Cassius discuss what they will do if defeated and say farewell in case they do not meet again. Brutus's forces initially push back Octavius, but Cassius's troops lose ground to Antony. Unable to see clearly from his position, Cassius sends Titinius to determine whether approaching riders are friendly and asks Pindarus to report what happens. Pindarus sees Titinius surrounded and mistakenly concludes he has been captured. Believing the battle and his cause lost, Cassius has Pindarus kill him with the same sword that struck Caesar. Titinius returns with a victory wreath, discovers the mistake, and kills himself beside Cassius. Brutus finds them and prepares the remaining army for another fight.",
-            "through": {
-              "chapter": 17
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Brutus's remaining forces are defeated in the second engagement at Philippi. With capture approaching, he asks companion after companion to assist his suicide; they refuse until Strato agrees to hold a sword steady. Brutus runs upon it and dies, believing that Caesar can now rest and that he has acted more willingly against himself than he did against Caesar. Antony and Octavius arrive. Antony distinguishes Brutus from the other conspirators, saying that Brutus alone joined the assassination from a sincere belief that it served Rome. Octavius orders that Brutus receive an honorable burial in his own tent. The victors depart to celebrate and reorganize the state, leaving Caesar's opponents dead and the new alliance in command of Rome.",
-            "through": {
-              "chapter": 18
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge",
-            "type": "community"
-          }
-        ],
-        "work": "julius-caesar"
-      }
-    },
     "julius-caesar-the-arkangel-shakespeare": {
       "characters": {
         "characters": [
@@ -2118,6 +1911,213 @@
           }
         ],
         "work": "julius-caesar-william-shakespeare"
+      }
+    },
+    "julius-caesar-william-shakespeare-2": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A tribune who rebukes Roman workers for celebrating Caesar's victory over fellow Romans. Alarmed by Caesar's popularity, he removes decorations from public statues with Marullus.",
+            "id": "flavius",
+            "name": "Flavius",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A tribune who joins Flavius in dispersing a holiday crowd and stripping honors from Caesar's statues. He views the public's sudden devotion to Caesar as dangerous and fickle.",
+            "id": "marullus",
+            "name": "Marullus",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Caesar"
+            ],
+            "description": "Rome's dominant military and political leader, returning in triumph and receiving public celebration. He projects certainty and authority while privately observing omens, illness, and the loyalty of those around him.",
+            "id": "julius-caesar",
+            "name": "Julius Caesar",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Mark Antony"
+            ],
+            "description": "Caesar's devoted friend and follower, participating in the public festival as an athlete. Caesar trusts him, while Cassius dismisses him as a pleasure-seeker without serious political weight.",
+            "id": "mark-antony",
+            "name": "Mark Antony",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A respected Roman senator troubled by Caesar's rise and by his own divided loyalties. Cassius values his reputation and tries to recruit him into resistance against Caesar.",
+            "id": "marcus-brutus",
+            "name": "Marcus Brutus",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A Roman senator who sees Caesar's growing power as a threat to republican liberty. Perceptive, resentful, and skilled at persuasion, he begins sounding out Brutus about organized opposition.",
+            "id": "caius-cassius",
+            "name": "Caius Cassius",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A senator with a blunt manner who reports how Caesar was offered a crown and refused it three times before the crowd. His observations make him valuable to the emerging conspiracy.",
+            "id": "casca",
+            "name": "Casca",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Caesar's wife. Troubled by ominous dreams and reports of unnatural events, she urges her husband to remain at home rather than attend the Senate.",
+            "id": "calpurnia",
+            "name": "Calpurnia",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A public prophet who warns Caesar to be cautious on the middle day of March. Caesar dismisses the warning amid the festival procession.",
+            "id": "soothsayer",
+            "name": "Soothsayer",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Brutus's wife and Cato's daughter. Noticing her husband's agitation and secrecy, she asks to share his confidence and argues that she has the courage to bear difficult knowledge.",
+            "id": "portia",
+            "name": "Portia",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A conspirator who visits Caesar on the morning of the Senate meeting. When Calpurnia's warnings persuade Caesar to stay home, Decius reinterprets her dream as favorable and appeals to Caesar's pride.",
+            "id": "decius-brutus",
+            "name": "Decius Brutus",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A teacher and speaker who has learned the conspirators' names and purpose. He writes Caesar a warning and plans to deliver it along the route to the Capitol.",
+            "id": "artemidorus",
+            "name": "Artemidorus",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Octavius"
+            ],
+            "description": "Caesar's young relative and designated heir. He comes toward Rome after the assassination and joins Antony in taking political and military control.",
+            "id": "octavius-caesar",
+            "name": "Octavius Caesar",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Roman political figure allied with Antony and Octavius after Caesar's death. The three use his house for their meeting as they decide whom to condemn and how to raise forces.",
+            "id": "lepidus",
+            "name": "Lepidus",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge",
+            "type": "community"
+          }
+        ],
+        "work": "julius-caesar-william-shakespeare-2"
+      },
+      "recaps": {
+        "ending": "At Philippi, Cassius misreads a distant event and believes his ally Titinius has been captured. He orders Pindarus to kill him with the sword used against Caesar. Titinius returns safely with news of victory, finds Cassius dead, and kills himself. Brutus rallies the remaining troops for another engagement, but his cause is lost. Refusing capture, he asks several companions to help him die; Strato finally holds the sword on which Brutus runs. Antony finds the body and judges Brutus the only conspirator who acted from an honest concern for Rome rather than envy. Octavius orders an honorable burial and takes command of the field. Caesar's assassins are dead or defeated, while Antony and Octavius emerge as Rome's rulers and prepare to settle affairs after the civil war.",
+        "in_short": "Roman senators fear that Julius Caesar's popularity will become monarchy. Cassius recruits Brutus, whose public honor gives legitimacy to a conspiracy. Ignoring warnings, Caesar attends the Senate and is stabbed by the conspirators, with Brutus joining the attack. Brutus allows Mark Antony to speak at the funeral after his own defense of the killing. Antony uses Caesar's wounds and will to turn the crowd against the assassins. Brutus and Cassius flee and raise armies, while Antony, Octavius, and Lepidus take control in Rome. The republican leaders quarrel but reconcile before facing their enemies at Philippi. Cassius kills himself after mistakenly believing a battle lost; Brutus follows when defeat becomes certain. Antony honors Brutus's motives, and Octavius assumes command of the victorious forces.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "book",
+            "text": "Rome celebrates Julius Caesar's return after victory over Pompey's sons. Tribunes Flavius and Marullus disperse the crowd and remove decorations from Caesar's statues, fearing that popular enthusiasm will support one-man rule. During the festival, a soothsayer warns Caesar about the middle of March, but Caesar dismisses him. Cassius then probes Brutus's unease about Caesar's power and argues that Romans have surrendered their equality to an ordinary man. Brutus will not commit himself, though he admits a conflict between affection for Caesar and concern for Rome. Casca reports that Antony offered Caesar a crown three times and that Caesar refused while enjoying the crowd's approval. Cassius decides Brutus can be manipulated by forged messages that appear to come from worried citizens.",
+            "through": {
+              "chapter": 2
+            }
+          },
+          {
+            "scope": "book",
+            "text": "A violent storm and strange sights are interpreted by Cassius as signs against Caesar. He recruits Casca and has Cinna place forged appeals where Brutus will find them. Brutus concludes that Caesar must die, not for proven tyranny but to prevent the danger that unlimited power might change him. The conspirators arrive at Brutus's home. Brutus rejects both an oath and Cassius's suggestion that they also kill Antony, insisting their act must look like a restrained sacrifice for Rome rather than a purge. Portia sees her husband's distress and asks to be trusted with his secret. At Caesar's house, Calpurnia's nightmare and ominous reports persuade him to stay away from the Senate. Decius flatters him, gives the dream a favorable meaning, and suggests senators may mock him or withhold a crown. Caesar reverses his decision and leaves with the conspirators.",
+            "through": {
+              "chapter": 5
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Artemidorus prepares a written warning that names the conspirators, while Portia anxiously sends Lucius toward the Capitol. Caesar reaches the Senate and refuses Artemidorus's attempt to make him read the warning first. The conspirators surround him with a request to recall Publius Cimber, then stab him; Brutus participates in the killing. Antony sends a servant to seek safe passage and appears to submit to the new order. He shakes the assassins' bloody hands and secures permission to speak at Caesar's funeral despite Cassius's objections. Alone with the body, he predicts conflict. Brutus tells the citizens that Caesar's ambition required his death and wins their temporary approval. Antony then displays Caesar's wounds, identifies the attackers, and reveals gifts in Caesar's will. The crowd turns violently against the conspirators, who flee Rome, and Antony learns that Octavius is approaching.",
+            "through": {
+              "chapter": 12
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The mob kills the poet Cinna merely because he shares a name with one conspirator. Antony, Octavius, and Lepidus form a ruling alliance and compile lists of people to be executed, even trading the lives of relatives. At their military camp, Brutus and Cassius accuse one another over corruption and money. Their argument becomes personal but ends in reconciliation. Brutus reveals that Portia has died after being overcome by the political disaster and his absence. Despite Cassius's preference to wait for the enemy, Brutus argues that their best chance is to march to Philippi before their support declines. That night Caesar's ghost appears to Brutus and says they will meet again at Philippi. Brutus nevertheless advances toward the decisive battle.",
+            "through": {
+              "chapter": 15
+            }
+          },
+          {
+            "scope": "book",
+            "text": "At Philippi, the opposing leaders exchange accusations before battle. Brutus and Cassius discuss what they will do if defeated and say farewell in case they do not meet again. Brutus's forces initially push back Octavius, but Cassius's troops lose ground to Antony. Unable to see clearly from his position, Cassius sends Titinius to determine whether approaching riders are friendly and asks Pindarus to report what happens. Pindarus sees Titinius surrounded and mistakenly concludes he has been captured. Believing the battle and his cause lost, Cassius has Pindarus kill him with the same sword that struck Caesar. Titinius returns with a victory wreath, discovers the mistake, and kills himself beside Cassius. Brutus finds them and prepares the remaining army for another fight.",
+            "through": {
+              "chapter": 17
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Brutus's remaining forces are defeated in the second engagement at Philippi. With capture approaching, he asks companion after companion to assist his suicide; they refuse until Strato agrees to hold a sword steady. Brutus runs upon it and dies, believing that Caesar can now rest and that he has acted more willingly against himself than he did against Caesar. Antony and Octavius arrive. Antony distinguishes Brutus from the other conspirators, saying that Brutus alone joined the assassination from a sincere belief that it served Rome. Octavius orders that Brutus receive an honorable burial in his own tent. The victors depart to celebrate and reorganize the state, leaving Caesar's opponents dead and the new alliance in command of Rome.",
+            "through": {
+              "chapter": 18
+            }
+          }
+        ],
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge",
+            "type": "community"
+          }
+        ],
+        "work": "julius-caesar-william-shakespeare-2"
       }
     },
     "jungle-world": {

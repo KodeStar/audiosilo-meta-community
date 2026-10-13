@@ -3950,7 +3950,7 @@
         "work": "alice-in-wonderland-jabberwocky-by-lewis-carroll"
       }
     },
-    "alice-in-wonderland-through-the-looking-glass-lewis-carroll": {
+    "alice-in-wonderland-through-the-looking-glass": {
       "characters": {
         "characters": [
           {
@@ -4115,7 +4115,7 @@
             "type": "community"
           }
         ],
-        "work": "alice-in-wonderland-through-the-looking-glass-lewis-carroll"
+        "work": "alice-in-wonderland-through-the-looking-glass"
       },
       "recaps": {
         "ending": "Alice's first adventure ends when she rejects the Queen of Hearts's irrational trial court as no more than playing cards and wakes beside her sister. In the second adventure, she passes through a mirror into a land arranged as a chessboard and advances from white pawn to queen. Her coronation banquet becomes as disorderly as Wonderland's trial. Alice grabs and shakes the Red Queen, who changes into Kitty, and again finds herself at home. Although the mirror journey was a dream, its ownership remains uncertain: Tweedledum and Tweedledee had claimed that Alice existed in the sleeping Red King's dream, and Alice cannot decide whether she dreamed him or he dreamed her. She asks the kitten, but receives no answer.",
@@ -4179,7 +4179,7 @@
             "type": "community"
           }
         ],
-        "work": "alice-in-wonderland-through-the-looking-glass-lewis-carroll"
+        "work": "alice-in-wonderland-through-the-looking-glass"
       }
     },
     "alice-through-the-looking-glass-dramatized": {
@@ -4354,157 +4354,6 @@
       }
     },
     "alices-adventures-in-wonderland": {
-      "description": {
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-10-09",
-            "ref": "gutenberg:11",
-            "type": "community"
-          }
-        ],
-        "text": "On a drowsy summer afternoon, sitting on a riverbank beside her sister with nothing to do, Alice sees a White Rabbit hurry past, check its pocket watch and fret about being late. She runs after it, follows it down a rabbit-hole and falls a very long way into a hall of locked doors, where a tiny golden key, a bottle labelled DRINK ME and a cake marked EAT ME leave her by turns too small and too large to reach the lovely garden she can glimpse through a little door. What follows is a string of encounters with talking creatures who argue, recite and keep rules and manners entirely their own, while Alice tries to keep her temper, her sense and her proper size. This is the first of Lewis Carroll's two Alice books.",
-        "work": "alices-adventures-in-wonderland"
-      }
-    },
-    "alices-adventures-in-wonderland-adaptation": {
-      "characters": {
-        "characters": [
-          {
-            "description": "A curious English girl who follows an oddly dressed rabbit and falls into a bewildering underground world. She tries to apply familiar rules and manners to each new situation, even as changes in her size and the behavior of Wonderland's inhabitants make ordinary logic unreliable.",
-            "id": "alice",
-            "name": "Alice",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "protagonist"
-          },
-          {
-            "description": "An anxious, waistcoat-wearing rabbit whom Alice sees hurrying over an appointment. His ability to speak and his disappearance down a rabbit hole prompt her to begin her journey.",
-            "id": "white-rabbit",
-            "name": "The White Rabbit",
-            "reveal": {
-              "chapter": 1
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A blue, hookah-smoking creature whom Alice meets while struggling with repeated changes in her size. He questions her about who she is and directs her to a mushroom whose two sides can make her grow or shrink.",
-            "id": "caterpillar",
-            "name": "The Caterpillar",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A grinning cat able to appear and vanish a little at a time. He treats Wonderland's madness as ordinary and points Alice toward the March Hare and the Hatter.",
-            "id": "cheshire-cat",
-            "name": "The Cheshire Cat",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A sharp-tempered noblewoman in whose chaotic house Alice first encounters the Cheshire Cat. She argues readily and handles a crying baby with little care.",
-            "id": "duchess",
-            "name": "The Duchess",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "minor"
-          },
-          {
-            "description": "One of the hosts of an endless tea party, seated with the March Hare and the Dormouse. He confronts Alice with riddles and rules that shift whenever she tries to understand them.",
-            "id": "mad-hatter",
-            "name": "The Mad Hatter",
-            "reveal": {
-              "chapter": 5
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "The imperious ruler of the playing-card court. She responds to small frustrations with threats of execution and expects everyone at her croquet game to obey immediately.",
-            "id": "queen-of-hearts",
-            "name": "The Queen of Hearts",
-            "reveal": {
-              "chapter": 6
-            },
-            "role": "antagonist"
-          },
-          {
-            "description": "A playing-card courtier accused of stealing the Queen's tarts. His case becomes the subject of the confused trial that Alice attends.",
-            "id": "knave-of-hearts",
-            "name": "The Knave of Hearts",
-            "reveal": {
-              "chapter": 7
-            },
-            "role": "minor"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "alices-adventures-in-wonderland-adaptation"
-      },
-      "recaps": {
-        "ending": "Alice reaches the royal court, where the Knave of Hearts is tried for stealing the Queen's tarts. The proceedings ignore consistent rules: witnesses offer little useful evidence, and the Queen wants punishment before a verdict. Alice, who has begun growing again, finally rejects the court's authority and says that its members are only playing cards. When the pack rises against her, she wakes beside her sister and realizes that the journey through Wonderland was a dream. She tells her sister about it and leaves for tea, returning to the ordinary world while her sister remains behind imagining the strange people and creatures Alice described.",
-        "in_short": "Alice follows a talking White Rabbit down a hole and enters Wonderland, where food and drink repeatedly alter her size. As she searches for a way onward, she meets creatures who turn conversation, manners, and familiar sayings into nonsense: a questioning Caterpillar, the vanishing Cheshire Cat, and the Hatter's tea-party companions. She eventually reaches the Queen of Hearts's court, survives a chaotic croquet game, and attends the Knave of Hearts's trial for stealing some tarts. The trial becomes increasingly arbitrary, and Alice grows large enough to challenge the Queen and dismiss the court as a pack of cards. The cards fly at her, but she wakes beside her sister and understands that Wonderland was a dream.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "book",
-            "text": "Alice is sitting outdoors with her sister when she notices a White Rabbit speaking to himself, wearing a waistcoat, and checking a watch. She follows him into a deep rabbit hole and lands in a long hall filled with locked doors. A tiny door offers a view of a beautiful garden, but Alice is too large to pass through it. A bottle makes her small enough for the doorway, though she has left the key on a high table. A cake then makes her grow far too tall, leaving her trapped and distressed in the hall.",
-            "through": {
-              "chapter": 1
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Alice's tears form a pool, and another change in size leaves her swimming in it with a Mouse and other animals. Once they reach dry ground, the creatures try several strange methods of getting warm. Their talk repeatedly goes wrong because words and stories do not work as Alice expects. The White Rabbit mistakes Alice for his servant and sends her to fetch items from his house. There she grows until she fills the building, then escapes after becoming small again and continues through the unfamiliar landscape.",
-            "through": {
-              "chapter": 2
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Alice meets a Caterpillar who presses her to explain who she is, a difficult question after so many changes. He tells her that different sides of his mushroom alter her height, allowing her to manage her size more deliberately. At the Duchess's disorderly house, a cook fills the air with pepper while the Duchess handles a howling baby. Alice carries the baby away, only to see it become a pig. The Cheshire Cat appears and disappears at will, tells Alice that everyone nearby is mad, and directs her toward the March Hare and the Hatter.",
-            "through": {
-              "chapter": 4
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Alice joins the March Hare, the Hatter, and a sleepy Dormouse at a tea table where places are constantly changed but nothing is settled. The Hatter poses a riddle without an answer, and the guests explain that Time has stopped cooperating with them, leaving the party fixed at tea time. Their stories and rules become increasingly frustrating, so Alice leaves. Using the mushroom to reach the right height, she at last enters the garden she saw from the locked hall and encounters the court of the Queen of Hearts.",
-            "through": {
-              "chapter": 5
-            }
-          },
-          {
-            "scope": "book",
-            "text": "The Queen of Hearts brings Alice into a croquet game played with living equipment and governed mostly by the Queen's temper. Alice later hears the Mock Turtle's melancholy account of his schooling and watches more nonsensical performances before being summoned to court. The Knave of Hearts is on trial for stealing the Queen's tarts, but the witnesses and evidence do not establish a sensible case. As Alice grows, she becomes confident enough to challenge the court's confused procedures. When she dismisses everyone as playing cards, the pack flies at her. Alice wakes beside her sister, realizes that Wonderland was a dream, recounts it, and goes home for tea.",
-            "through": {
-              "chapter": 7
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-08-07",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "alices-adventures-in-wonderland-adaptation"
-      }
-    },
-    "alices-adventures-in-wonderland-dramatized": {
       "characters": {
         "characters": [
           {
@@ -4651,7 +4500,19 @@
             "type": "community"
           }
         ],
-        "work": "alices-adventures-in-wonderland-dramatized"
+        "work": "alices-adventures-in-wonderland"
+      },
+      "description": {
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-10-09",
+            "ref": "gutenberg:11",
+            "type": "community"
+          }
+        ],
+        "text": "On a drowsy summer afternoon, sitting on a riverbank beside her sister with nothing to do, Alice sees a White Rabbit hurry past, check its pocket watch and fret about being late. She runs after it, follows it down a rabbit-hole and falls a very long way into a hall of locked doors, where a tiny golden key, a bottle labelled DRINK ME and a cake marked EAT ME leave her by turns too small and too large to reach the lovely garden she can glimpse through a little door. What follows is a string of encounters with talking creatures who argue, recite and keep rules and manners entirely their own, while Alice tries to keep her temper, her sense and her proper size. This is the first of Lewis Carroll's two Alice books.",
+        "work": "alices-adventures-in-wonderland"
       },
       "recaps": {
         "ending": "At the Knave of Hearts's trial, Alice is called as a witness just as she begins growing again. The King and Queen treat meaningless statements as evidence and try to manipulate the rules, while the Queen demands punishment before a verdict. Now full-sized and no longer intimidated, Alice tells the court that its members are only a pack of cards. The cards fly at her, and she wakes on the riverbank with her head in her sister's lap. She explains her extraordinary dream and runs home for tea. Her sister remains behind, imagines the people and sounds of Wonderland, and pictures Alice growing into an adult who will preserve the sympathy and imagination of childhood.",
@@ -4708,7 +4569,144 @@
             "type": "community"
           }
         ],
-        "work": "alices-adventures-in-wonderland-dramatized"
+        "work": "alices-adventures-in-wonderland"
+      }
+    },
+    "alices-adventures-in-wonderland-adaptation": {
+      "characters": {
+        "characters": [
+          {
+            "description": "A curious English girl who follows an oddly dressed rabbit and falls into a bewildering underground world. She tries to apply familiar rules and manners to each new situation, even as changes in her size and the behavior of Wonderland's inhabitants make ordinary logic unreliable.",
+            "id": "alice",
+            "name": "Alice",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "An anxious, waistcoat-wearing rabbit whom Alice sees hurrying over an appointment. His ability to speak and his disappearance down a rabbit hole prompt her to begin her journey.",
+            "id": "white-rabbit",
+            "name": "The White Rabbit",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A blue, hookah-smoking creature whom Alice meets while struggling with repeated changes in her size. He questions her about who she is and directs her to a mushroom whose two sides can make her grow or shrink.",
+            "id": "caterpillar",
+            "name": "The Caterpillar",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A grinning cat able to appear and vanish a little at a time. He treats Wonderland's madness as ordinary and points Alice toward the March Hare and the Hatter.",
+            "id": "cheshire-cat",
+            "name": "The Cheshire Cat",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A sharp-tempered noblewoman in whose chaotic house Alice first encounters the Cheshire Cat. She argues readily and handles a crying baby with little care.",
+            "id": "duchess",
+            "name": "The Duchess",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "One of the hosts of an endless tea party, seated with the March Hare and the Dormouse. He confronts Alice with riddles and rules that shift whenever she tries to understand them.",
+            "id": "mad-hatter",
+            "name": "The Mad Hatter",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The imperious ruler of the playing-card court. She responds to small frustrations with threats of execution and expects everyone at her croquet game to obey immediately.",
+            "id": "queen-of-hearts",
+            "name": "The Queen of Hearts",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A playing-card courtier accused of stealing the Queen's tarts. His case becomes the subject of the confused trial that Alice attends.",
+            "id": "knave-of-hearts",
+            "name": "The Knave of Hearts",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          }
+        ],
+        "work": "alices-adventures-in-wonderland-adaptation"
+      },
+      "recaps": {
+        "ending": "Alice reaches the royal court, where the Knave of Hearts is tried for stealing the Queen's tarts. The proceedings ignore consistent rules: witnesses offer little useful evidence, and the Queen wants punishment before a verdict. Alice, who has begun growing again, finally rejects the court's authority and says that its members are only playing cards. When the pack rises against her, she wakes beside her sister and realizes that the journey through Wonderland was a dream. She tells her sister about it and leaves for tea, returning to the ordinary world while her sister remains behind imagining the strange people and creatures Alice described.",
+        "in_short": "Alice follows a talking White Rabbit down a hole and enters Wonderland, where food and drink repeatedly alter her size. As she searches for a way onward, she meets creatures who turn conversation, manners, and familiar sayings into nonsense: a questioning Caterpillar, the vanishing Cheshire Cat, and the Hatter's tea-party companions. She eventually reaches the Queen of Hearts's court, survives a chaotic croquet game, and attends the Knave of Hearts's trial for stealing some tarts. The trial becomes increasingly arbitrary, and Alice grows large enough to challenge the Queen and dismiss the court as a pack of cards. The cards fly at her, but she wakes beside her sister and understands that Wonderland was a dream.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "book",
+            "text": "Alice is sitting outdoors with her sister when she notices a White Rabbit speaking to himself, wearing a waistcoat, and checking a watch. She follows him into a deep rabbit hole and lands in a long hall filled with locked doors. A tiny door offers a view of a beautiful garden, but Alice is too large to pass through it. A bottle makes her small enough for the doorway, though she has left the key on a high table. A cake then makes her grow far too tall, leaving her trapped and distressed in the hall.",
+            "through": {
+              "chapter": 1
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Alice's tears form a pool, and another change in size leaves her swimming in it with a Mouse and other animals. Once they reach dry ground, the creatures try several strange methods of getting warm. Their talk repeatedly goes wrong because words and stories do not work as Alice expects. The White Rabbit mistakes Alice for his servant and sends her to fetch items from his house. There she grows until she fills the building, then escapes after becoming small again and continues through the unfamiliar landscape.",
+            "through": {
+              "chapter": 2
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Alice meets a Caterpillar who presses her to explain who she is, a difficult question after so many changes. He tells her that different sides of his mushroom alter her height, allowing her to manage her size more deliberately. At the Duchess's disorderly house, a cook fills the air with pepper while the Duchess handles a howling baby. Alice carries the baby away, only to see it become a pig. The Cheshire Cat appears and disappears at will, tells Alice that everyone nearby is mad, and directs her toward the March Hare and the Hatter.",
+            "through": {
+              "chapter": 4
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Alice joins the March Hare, the Hatter, and a sleepy Dormouse at a tea table where places are constantly changed but nothing is settled. The Hatter poses a riddle without an answer, and the guests explain that Time has stopped cooperating with them, leaving the party fixed at tea time. Their stories and rules become increasingly frustrating, so Alice leaves. Using the mushroom to reach the right height, she at last enters the garden she saw from the locked hall and encounters the court of the Queen of Hearts.",
+            "through": {
+              "chapter": 5
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The Queen of Hearts brings Alice into a croquet game played with living equipment and governed mostly by the Queen's temper. Alice later hears the Mock Turtle's melancholy account of his schooling and watches more nonsensical performances before being summoned to court. The Knave of Hearts is on trial for stealing the Queen's tarts, but the witnesses and evidence do not establish a sensible case. As Alice grows, she becomes confident enough to challenge the court's confused procedures. When she dismisses everyone as playing cards, the pack flies at her. Alice wakes beside her sister, realizes that Wonderland was a dream, recounts it, and goes home for tea.",
+            "through": {
+              "chapter": 7
+            }
+          }
+        ],
+        "sources": [
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          }
+        ],
+        "work": "alices-adventures-in-wonderland-adaptation"
       }
     },
     "alison-larkin-presents-a-christmas-carol-and-the-night-before-christmas": {
