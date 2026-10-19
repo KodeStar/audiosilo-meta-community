@@ -98,7 +98,7 @@ env:
   # validate against. Bump both in one pull request; check.yml's own comment
   # carries the full rationale for pinning by sha and for the sparse checkout.
   CORE_REPO: KodeStar/audiosilo-meta
-  CORE_REF: 3d546828e899ece7bbb5585f3b7623a7e3794929
+  CORE_REF: 72fe667d7b18a620c6d2e2c65a27e242ba24e5f1
 
 jobs:
   intake:
