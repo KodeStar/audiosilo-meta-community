@@ -91,6 +91,14 @@ Two routes, both fine:
   result and opens a pull request for review. A work the catalogue does not hold
   is refused with the slug named rather than composed; a slug a core merge has
   RETIRED is composed under the surviving one, noted on the pull request.
+- **From an AudioSilo Bridge.** A server admin who signs their Bridge in to
+  GitHub (through the AudioSilo GitHub App) can send the characters and recaps
+  it generated as issues under their own account. They arrive without labels
+  (GitHub drops them for non-collaborators), so `.github/workflows/route.yml`
+  reads the title prefix (`[characters] `, `[recaps] `), labels the issue and
+  runs the same intake bot. An account younger than 30 days, one with more than
+  50 open issues filed through the App here, or one on `.github/intake-denylist`
+  is held instead (`intake:held` plus a comment) until a maintainer routes it.
 - **A pull request** against `data/works-community/` directly. Put the entry in
   the pack whose range covers the work slug - or the nearest one - and let
   `metafmt --write` place it correctly (see below). Approximately right is
