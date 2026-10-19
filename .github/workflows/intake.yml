@@ -44,8 +44,9 @@ name: intake
 # Bridge filed through the AudioSilo GitHub App arrives label-less, route.yml
 # labels it with GITHUB_TOKEN (which starts no workflow) and calls this one in
 # the same run with the issue and the routing label it applied. A called run's
-# event is route.yml's (`issues`/`opened`), so the payload is that issue's, but
-# its label set predates the routing label - hence the `template` input.
+# event is route.yml's (`issues`/`opened`), so the payload is that issue's AS
+# OPENED: its label set predates the routing label - hence the `template` input -
+# and its body predates any edit, so a called run reads the body through the API.
 on:
   issues:
     types: [opened, edited, labeled]
@@ -59,6 +60,10 @@ on:
         description: The routing label the caller applied (data:characters or data:recaps).
         type: string
         required: true
+    secrets:
+      INTAKE_PAT:
+        description: The pull-request token (see the create-pull-request step); optional, as on the other doors.
+        required: false
   # A merge to main can leave an already-open intake PR conflicting in a pack
   # file, which only a data change can do - but audiosilo-meta-sync's steward
   # merges a pull request ONLY when its head already contains the tip of main
@@ -180,7 +185,18 @@ jobs:
         env:
           # Untrusted: written verbatim, never interpolated into a command.
           BODY: ${{ github.event.issue.body }}
-        run: printf '%s' "$BODY" > issue-body.md
+          # A called run reads the body as it is NOW, not route.yml's `opened`
+          # payload: an edit made before the routing label landed was skipped (no
+          # data: label yet), and one made since must not be overwritten by the
+          # text it replaced. The payload is the fallback if the read fails.
+          CALLED: ${{ inputs.issue_number }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -n "$CALLED" ] && gh api "repos/${GITHUB_REPOSITORY}/issues/${CALLED}" > "$RUNNER_TEMP/issue.json"; then
+            jq -j '.body // ""' "$RUNNER_TEMP/issue.json" > issue-body.md
+          else
+            printf '%s' "$BODY" > issue-body.md
+          fi
 
       - name: Compose the sidecar (metaissue)
         id: run
