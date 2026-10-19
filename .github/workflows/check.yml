@@ -55,7 +55,7 @@ env:
   # ever publishes tool binaries, or splits the tooling into a module of its
   # own, this becomes a one-line download instead.
   CORE_REPO: KodeStar/audiosilo-meta
-  CORE_REF: 72fe667d7b18a620c6d2e2c65a27e242ba24e5f1
+  CORE_REF: 9e178f7a6af56ea2a6eaa48bc5cb0559c93fb475
 
 jobs:
   # STRUCTURE - everything the community tree can be judged on by itself: schema,
