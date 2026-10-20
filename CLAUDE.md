@@ -82,6 +82,17 @@ is to re-key it, while the bot is choosing the key and simply chooses the live
 one. A bot that wrote the tombstoned key would open a pull request its own CI
 rejects.
 
+## App-filed issues (route.yml)
+
+An AudioSilo Bridge files characters/recaps issues through the AudioSilo GitHub
+App, and they arrive label-less. `route.yml` (core's, with `[characters] ` and
+`[recaps] ` as the title-prefix allowlist and a cap of 50 open App-filed issues
+per account) labels them with GITHUB_TOKEN, which starts no workflow, and calls
+`intake.yml` through its `workflow_call` entry in the same run. The App id is a
+routing hint, not trust; holds (`intake:held`) and the denylist
+(`.github/intake-denylist`) are described in core's GOVERNANCE.md. Keep the two
+route.yml files in step.
+
 ## The tooling checkout (both workflows)
 
 Neither workflow can `go run github.com/kodestar/audiosilo-meta/...`: the core

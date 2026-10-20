@@ -39,9 +39,31 @@ name: intake
 # arrives label-less and the `opened`/`edited` runs skip it. When a maintainer
 # later applies the routing label, that fires neither `opened` nor `edited` -
 # only `labeled`. The job-level `if` narrows `labeled` to genuine routing labels.
+#
+# The fourth door is `workflow_call`, from route.yml: an issue an AudioSilo
+# Bridge filed through the AudioSilo GitHub App arrives label-less, route.yml
+# labels it with GITHUB_TOKEN (which starts no workflow) and calls this one in
+# the same run with the issue and the routing label it applied. A called run's
+# event is route.yml's (`issues`/`opened`), so the payload is that issue's AS
+# OPENED: its label set predates the routing label - hence the `template` input -
+# and its body predates any edit, so a called run reads the body through the API.
 on:
   issues:
     types: [opened, edited, labeled]
+  workflow_call:
+    inputs:
+      issue_number:
+        description: The issue to compose; must be the issue whose `opened` event started the caller.
+        type: number
+        required: true
+      template:
+        description: The routing label the caller applied (data:characters or data:recaps).
+        type: string
+        required: true
+    secrets:
+      INTAKE_PAT:
+        description: The pull-request token (see the create-pull-request step); optional, as on the other doors.
+        required: false
   # A merge to main can leave an already-open intake PR conflicting in a pack
   # file, which only a data change can do - but audiosilo-meta-sync's steward
   # merges a pull request ONLY when its head already contains the tip of main
@@ -76,7 +98,7 @@ env:
   # validate against. Bump both in one pull request; check.yml's own comment
   # carries the full rationale for pinning by sha and for the sparse checkout.
   CORE_REPO: KodeStar/audiosilo-meta
-  CORE_REF: da53f3cf76f0add26554e401c0e6a7d40896cd90
+  CORE_REF: 0d59de02c05a0bcd94885fa546780835344725db
 
 jobs:
   intake:
@@ -91,9 +113,14 @@ jobs:
     # outcome labels this workflow applies at the end (data:invalid /
     # data:needs-human / data:duplicate). Without that exclusion the workflow's
     # own outcome-labeling would re-fire a `labeled` run - a duplicate intake and
-    # a duplicate comment - for every non-ok verdict.
+    # a duplicate comment - for every non-ok verdict. A CALLED run (route.yml) is
+    # admitted for the issue that started its caller and no other: the steps read
+    # that issue from the event payload.
     if: >-
-      github.event_name == 'issues' && (
+      (
+        inputs.issue_number > 0 &&
+        inputs.issue_number == github.event.issue.number
+      ) || github.event_name == 'issues' && (
       (
         github.event.action != 'labeled' &&
         contains(join(github.event.issue.labels.*.name), 'data:')
@@ -158,7 +185,18 @@ jobs:
         env:
           # Untrusted: written verbatim, never interpolated into a command.
           BODY: ${{ github.event.issue.body }}
-        run: printf '%s' "$BODY" > issue-body.md
+          # A called run reads the body as it is NOW, not route.yml's `opened`
+          # payload: an edit made before the routing label landed was skipped (no
+          # data: label yet), and one made since must not be overwritten by the
+          # text it replaced. The payload is the fallback if the read fails.
+          CALLED: ${{ inputs.issue_number }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -n "$CALLED" ] && gh api "repos/${GITHUB_REPOSITORY}/issues/${CALLED}" > "$RUNNER_TEMP/issue.json"; then
+            jq -j '.body // ""' "$RUNNER_TEMP/issue.json" > issue-body.md
+          else
+            printf '%s' "$BODY" > issue-body.md
+          fi
 
       - name: Compose the sidecar (metaissue)
         id: run
@@ -170,9 +208,16 @@ jobs:
         # processed silently. A core form opened here (add-work and friends) is
         # needs-human naming the core repository, which is the profile's own
         # doing rather than a rule this workflow restates.
+        #
+        # A called run (route.yml) routes on the label its caller applied
+        # (CALL_TEMPLATE), since the payload's label set predates it.
         env:
           LABELS: ${{ toJSON(github.event.issue.labels.*.name) }}
+          CALL_TEMPLATE: ${{ inputs.template }}
         run: |
+          if [ -n "$CALL_TEMPLATE" ]; then
+            LABELS="$(jq -cn --arg t "$CALL_TEMPLATE" '[$t]')"
+          fi
           go run ./cmd/metaissue \
             --labels "$LABELS" \
             --body "$GITHUB_WORKSPACE/issue-body.md" \
