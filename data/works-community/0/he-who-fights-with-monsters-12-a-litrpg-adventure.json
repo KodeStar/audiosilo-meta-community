@@ -588,6 +588,574 @@
       }
     },
     "he-who-fights-with-monsters-13-a-litrpg-adventure": {
+      "characters": {
+        "characters": [
+          {
+            "description": "An astral king of gold rank who has come back to Earth in his prime avatar, in person rather than through avatars, to repair his relationships with family. He meets his sister Erika again in Saint Etienne, sees his niece and his late brother's family, and handles diplomacy with the Australian government at the same time. He accepts that Australia will take back the Standing Stones but asks for a public apology over the seizure of Asano Village, and then opens a portal to his own kingdom.",
+            "id": "jason-asano",
+            "name": "Jason Asano",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Jason's older sister, who calls him her little brother. She lives in Saint Etienne with her husband Ian and their daughter Emmy. On a rooftop at her home she and Jason talk through the distance that grew between them after his previous stay on Earth, and he explains why he waited until he could come back in person.",
+            "id": "erika",
+            "name": "Erika",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Erika's husband and the father of Emmy Evans-Asano. He is part of the family in Saint Etienne that Jason comes back to Earth to reconnect with.",
+            "id": "ian-evans-asano",
+            "name": "Ian Evans-Asano",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Jason's niece, the daughter of Erika and her husband Ian. Jason meets her again as part of his return to Earth after years away, during the same visit in which he sees the rest of his family in Saint Etienne.",
+            "id": "emmy-evans-asano",
+            "name": "Emmy Evans-Asano",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A former United Nations and network figure who now works for Jason as his chief political advisor for Earth. She supplies the list of conspirators behind the pirates who tried to kill Jason, a list that is said to include the Australian Prime Minister.",
+            "id": "anna-tilden",
+            "name": "Anna Tilden",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A rabbit-like humanoid who is also a sun, created by accident when Jason rewrote reality. Jason left him alone for about fifteen years and now apologises, promising to be present in his life. Nick is anxious but easy to love, and his powers work best in large groups. Jason's family greets him warmly, and Jason admits to Erika that he made Nick and then abandoned him.",
+            "id": "nick",
+            "name": "Nick",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Jason's father. When Jason admits to Erika that he created Nick and then stayed away from him for about fifteen years, Ken stands by his son.",
+            "id": "ken-asano",
+            "name": "Ken Asano",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Jason's grandmother on his father's side and the matriarch of Clan Asano. She is able to change how old she appears, and she is with the rest of Jason's family when Nick meets them.",
+            "id": "yumi-asano",
+            "name": "Yumi Asano",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A friend of Jason's from the other world who is staying on the cloud ship. He trained Jason's nieces Hannah and Jace in aura control during Jason's absence, and he bakes cakes, some of them magical and some of those prone to exploding.",
+            "id": "rufus-remore",
+            "name": "Rufus Remore",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A researcher from Jason's circle who, together with a colleague, has spent close to twenty years reverse engineering a portal network. Jason wants a small new guild to serve as a testbed for that network once he returns to Palimustus.",
+            "id": "clive",
+            "name": "Clive",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A researcher who has worked alongside Clive for close to twenty years to reverse engineer a portal network. Jason hopes a small new guild can serve as a testbed for that network once he goes back to Palimustus.",
+            "id": "lorelei",
+            "name": "Lorelei",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Jason's circle who is aboard the cloud ship with Rufus Remore and Gary while Jason reconnects with Nick and his family.",
+            "id": "taika-williams",
+            "name": "Taika Williams",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Jason's shadow companion, who works as his personal portal system and assistant. Shade keeps track of events for him and is the one who reports that the disappearance of the Australian officials touring Jason's realm has been noticed.",
+            "id": "shade",
+            "name": "Shade",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Humphrey's mother, part of the group from Palimustus visiting Earth with Jason. She meets Anna Tilden and Erika at the barbecue on the cloud ship, and Jason asks her to explain the politics of Palimustus to Erika so that his sister understands why his relationship with Zara is complicated. She begins the account with a visit from Rufus Remore.",
+            "id": "danielle-geller",
+            "name": "Danielle Geller",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A princess of the Storm Kingdom. Her lady-in-waiting Zerine encourages her to go and see Jason. Jason tells Erika that his relationship with Zara is a complicated political matter, and he asks Danielle Geller to explain the politics of Palimustus to his sister for that reason.",
+            "id": "zara",
+            "name": "Zara",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Jason's teammates from the other world. She comes to the barbecue on the cloud ship together with Estella, where Jason's friends from both worlds mix.",
+            "id": "belinda",
+            "name": "Belinda",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Belinda's wife. She comes with Belinda to the barbecue on the cloud ship, where Jason's friends from the other world and his family from Earth spend time together.",
+            "id": "estella",
+            "name": "Estella",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Jason's teammates from the other world, present at the barbecue on the cloud ship where his friends and his Earth family meet.",
+            "id": "sophie-wexler",
+            "name": "Sophie Wexler",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The wife of Travis, one of Jason's friends from the other world. She comes with her husband to the barbecue in the lounge of the cloud ship, where Jason's teammates and his Earth family mix.",
+            "id": "gabrielle",
+            "name": "Gabrielle",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An old messenger, an angelic type of being, who has lived on Earth for eons and hides at Cabal headquarters in what was the Democratic Republic of Congo. He says a dimensional bridge to Palimustus was put in place long ago and that Earth will have a true passage between worlds within about ten years. He deliberately keeps what is coming from Jason, fearing that Jason's risky solutions would endanger the bridge.",
+            "id": "boris-ket-lundi",
+            "name": "Boris Ket Lundi",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A tall winged messenger whose history with Jason is painful. She talks with Boris Ket Lundi about whether she should go to Australia, where Jason is, and has not made up her mind.",
+            "id": "tera-jun-casta",
+            "name": "Tera Jun Casta",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A diamond-rank admiral in command of an enemy fleet, served by a staffer named Keeley. He notices that the gold-rank agents sent to Earth on his behalf have stopped reporting, suspects that someone is playing him, and orders that all available information on Earth be gathered.",
+            "id": "jakar",
+            "name": "Jakar",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A gold-rank vampire leader. The vampires under her may hold weapons capable of wiping out cities, which is why Jason is delaying decisions. He expects her to bargain and is considering offering her and other vampires exile on a distant planet in his universe.",
+            "id": "elizabeth",
+            "name": "Elizabeth",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A priest travelling on Jason's cloud ship. He is one of the healers on hand after the Melbourne bunker operation, when Jason's team gathers with the rescued mercenaries and other survivors.",
+            "id": "carlos-quilido",
+            "name": "Carlos Quilido",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A servant of Jason's with blood-red eyes, a blood clone made of a swarm of leeches. In the bunker where vampires are loading a nuclear weapon, he introduces himself to the vampire lord Loudon, who attacks him, and he comes apart into leeches and bites back.",
+            "id": "colin",
+            "name": "Colin",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The healer of Jason's team from the other world. After the bunker operation in Melbourne he treats the rescued mercenaries and other survivors.",
+            "id": "neil-devone",
+            "name": "Neil Devone",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Danielle Geller's son and a member of Jason's team. During the hunt for the blood oak in Melbourne he leads in expedition mode and can field up to a hundred gold-rank warriors summoned from dragon teeth.",
+            "id": "humphrey-geller",
+            "name": "Humphrey Geller",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A healer from the other world who leads a team of her own, including a tracker named Callum. She takes part in the Melbourne operation in which four gold teams hunt and kill the blood oak.",
+            "id": "arabelle-remore",
+            "name": "Arabelle Remore",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A friend of Jason's from the other world who came to the barbecue with his wife Gabrielle. After the bunker raid he identifies the recovered device as a nuclear weapon with faded magical enhancements and renders its material inert. Jason then asks him and Clive to study the sealed lab the teams discover.",
+            "id": "travis",
+            "name": "Travis",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Clan Asano who was once a cardinal of the Engineers of Ascension, known as Mrs South, and who came back from the dead as an energy vampire, a different creature from ordinary vampires and unaffected by magical sunlight. Years ago Jason's grandmother removed her from the network. Since then she has carried out hidden research, and no one on Earth knows more about how Magitek interacts with living bodies, which is why she is brought to the Melbourne lab.",
+            "id": "audrey-blaine",
+            "name": "Audrey Blaine",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The head of the multinational body that runs a former village the Australian government has declared a neutral territory, set aside for the refugee handover and for future summits.",
+            "id": "lenora-coleman",
+            "name": "Lenora Coleman",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A silver-rank officer of the Australian intelligence service who is assigned to Jason as a liaison. She was trained in the aura-control methods developed by Jason's friends from the other world.",
+            "id": "natalie-park",
+            "name": "Natalie Park",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Earth's first Leonid to be born naturally, named after an earlier Gary who was a Leonid friend of Jason's party. He is keenly aware of how powerful Jason is and asks why people treat him as special. Jason shows him a scene of the first Gary and promises to give him an answer.",
+            "id": "gary",
+            "name": "Gary",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Celestine and the mother of Sophie Wexler, and the longest-serving resident of Jason's realm. She has recovered after surgery removed a substance that had been controlling her mind. She walks the tree city of Arbor with Jason, who tells her the city has its own soul and avatar and that forests across the planet are growing pods that will one day produce messengers.",
+            "id": "melody-jane",
+            "name": "Melody Jane",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The United States Secretary of State and a friend of Anna Tilden. She and Anna discuss how to share Jason's full explanation of the wider cosmos without political fallout, and they lean toward forming a new secret group of key people.",
+            "id": "claire",
+            "name": "Claire",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A member of Jason's group from Palimustus and an expert on Earth's magical grid. At the manifestation in Pakistan she studies the site and concludes that it is a monster wave that has been artificially accelerated.",
+            "id": "farrah-hurin",
+            "name": "Farrah Hurin",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A network director based in Zermatt at a time when the network is divided into four factions. She approves an intervention on the grid and, when an analyst reports tampering that feeds magic into the Pakistan manifestation, chooses not to warn the group fighting there. She is secretly behind the grid sabotage.",
+            "id": "marie-finnegan",
+            "name": "Marie Finnegan",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A swordsman of the Remore family who fights beside Rufus Remore against the monsters pouring out at the Pakistan manifestation.",
+            "id": "gabriel-remore",
+            "name": "Gabriel Remore",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          },
+          {
+            "description": "One of Jason's familiars. Along with the familiars Stash and Shimmer, he joins the fighting at the gold-rank manifestation in Pakistan while Farrah Hurin works to shut down the points interfering with the grid.",
+            "id": "gordon",
+            "name": "Gordon",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A ritualist from Earth who led the Earth researchers in the original grid work group. He resented Farrah Hurin's authority, argued against shelving dangerous research, and vanished after the network split. He is treated as the leading suspect behind the artificial transformation zones. Anna knew him from the Australian network.",
+            "id": "simon-mckean",
+            "name": "Simon McKean",
+            "reveal": {
+              "chapter": 21
+            }
+          },
+          {
+            "description": "Emmy's boyfriend, a swordsman trained by Rufus Remore who has reached upper silver and is close to gold. He is nervous about meeting Jason, who has watched him grow up from afar. Jason sits down with him and gives him the blessing Vincent has been waiting for before he proposes to Emmy.",
+            "id": "vincent-baudrillard",
+            "name": "Vincent Baudrillard",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A member of Clan Asano from a Japanese family who has travelled with Jason. At the clan's beach outing he is in love with his best friend Akari Asano but has never told her.",
+            "id": "itsuki",
+            "name": "Itsuki",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A member of Clan Asano from its network branch and the best friend of Itsuki, who has quietly been in love with her. She is among the clan members at Jason's beach outing.",
+            "id": "akari-asano",
+            "name": "Akari Asano",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The prime vessel of the Reaper. He has served Clan Asano as an obstetrician, helping reincarnated souls into new lives. Jason thanks him for that work, and Velius tells him he will be leaving Earth before long.",
+            "id": "velius",
+            "name": "Velius",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A soul trapped inside a degraded blood clone, kept as a slave by the vampire Elizabeth, with explosive powers. He was the network agent who broke Jason's ties with the network. He escapes from the network's Reality Core Depository with Elizabeth and Marie Finnegan.",
+            "id": "jack-gerling",
+            "name": "Jack Gerling",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A gold-rank portal user who opens the portal that lets Jack Gerling, Elizabeth and Marie Finnegan get away from the network's Reality Core Depository in the Alps.",
+            "id": "remy",
+            "name": "Remy",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A messenger who looks after the messengers within Clan Asano and is a friend of Tera Jun Casta. According to Boris Ket Lundi, when Tera's faith in the astral kings turned to fury, it was Jali who helped her join the unorthodoxy.",
+            "id": "jali-corrik-fen",
+            "name": "Jali Corrik Fen",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The director of the Geneva branch of the network. Spanish drone footage shows her apparently in command of Geneva and Zurich branch staff at a hidden cave in the Alps, although both branches were believed to be inactive and are suspected of having made a deal with the vampires.",
+            "id": "geneva-andros",
+            "name": "Geneva Andros",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Swiss gold ranker who fights with lightning. She and another Swiss gold ranker, Amstutz, meet the Geneva branch director on a flying bus at the hidden Alpine site as Jason's cloud ship approaches.",
+            "id": "bussinger",
+            "name": "Bussinger",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Shade's brother, a being who hates change and longs for a return to a blank state. He helped Shade's earlier summoner imprison Shade in the astral space where Shade first met Jason. Shade expects Umber to come back and cause trouble.",
+            "id": "umber",
+            "name": "Umber",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A UN Under-Secretary-General and silver anchor who took over the role Anna Tilden once held. She has a cat familiar named Gumboot. Jason's briefing and a tour of his universe convinced her that he is close to a god, and she now treats him like a natural disaster. She sees the collusion between the Swiss network branches and the vampires as her biggest problem. Her nephew Tim works as her assistant.",
+            "id": "holly",
+            "name": "Holly",
+            "reveal": {
+              "chapter": 33
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A vampire leader and an old friend of Jason's, whose vampires depend on the sanctuary city Jason provides. He demands that Elizabeth be handed to the vampires for justice. Jason refuses and keeps her in his custody for life, and Craig agrees to keep his vampires in check, but he leaves coldly and now deals with Jason as a ruler, not a friend.",
+            "id": "craig-vermillion",
+            "name": "Craig Vermillion",
+            "reveal": {
+              "chapter": 37
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A gold-rank team leader allied with Jason's clan. He is hurt by a wounding affliction during a raid on a site Elizabeth supplied, and Neil treats him. He reports that Jack Gerling felt tainted with undeath, and Jason asks him for the whole story.",
+            "id": "nigel-thornton",
+            "name": "Nigel Thornton",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A network defender for a small cathedral city in Wales who has only just reached silver rank, with gun, trap and skirmish essences, and who grew up admiring footage of Jason. A misreported manifestation throws iron lions at her, while vampires attack her team and cut off communications. She fights on until she collapses, and Jason arrives, ends the lions and tells her she did well.",
+            "id": "delia",
+            "name": "Delia",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "minor"
+          },
+          {
+            "description": "She serves as the leading representative of the cosmic entity that rules over time. Once Jason's astral kingdom is complete, she visits him at its space station.",
+            "id": "wraith",
+            "name": "Wraith",
+            "reveal": {
+              "chapter": 41
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A friend of Jason's who was the prime vessel of the world phoenix and has since become a transcendent. Boris believed she went beyond her mandate in her dealings with Jason, and she once talked Wraith out of killing him. She arrives at Jason's kingdom in a new avatar aboard a burning ship shaped like a phoenix, apologises for keeping secrets, and confirms a warning she cannot act on herself. She tells Jason to reach diamond rank before others learn who repaired the cosmic throne.",
+            "id": "dawn",
+            "name": "Dawn",
+            "reveal": {
+              "chapter": 43
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A messenger astral king, regarded as the nearest thing to a single leader of the Council of Kings, though Jason considers him an outlier. Messengers he surrendered are held on a prison planet in Jason's kingdom. He approaches Thalia Mercer wanting to meet her transformed son Thadwick, then sends an avatar to Jason's universe, where he comments on the two messengers Jason freed.",
+            "id": "jamis",
+            "name": "Jamis",
+            "reveal": {
+              "chapter": 50
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A gold ranker with an onslaught essence and the mother of Cassandra and Thadwick. While she watches her daughter from a distance, the messenger king Jamis confronts her, asks to meet her transformed son, and warns her that her broker is betraying her.",
+            "id": "thalia-mercer",
+            "name": "Thalia Mercer",
+            "reveal": {
+              "chapter": 50
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Thalia Mercer's son, who has been transformed. The messenger king Jamis wants to meet him and says that his own people are also hunting Thadwick because of something he holds.",
+            "id": "thadwick",
+            "name": "Thadwick",
+            "reveal": {
+              "chapter": 50
+            }
+          },
+          {
+            "description": "A general who arrives to command the offensive of the EDJI, a coalition of forty-seven nations whose participation was driven by human augmentation and the Quilido procedure. He wants to question Jason about the threat Jason keeps hinting at.",
+            "id": "michael-mills",
+            "name": "Michael Mills",
+            "reveal": {
+              "chapter": 52
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A goddess of Palimustus. Jason names her, together with Purity and Disguise, among the gods he sees getting out of line, and he expects a coming clash between mortals and these gods, who can be pushed against their own rules but cannot be fought head-on.",
+            "id": "knowledge",
+            "name": "Knowledge",
+            "reveal": {
+              "chapter": 55
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "One of the strongest vampire lords still alive, working with Simon McKean. She watches with him from a darkened monitor room as Jason breaks into McKean's castle in France.",
+            "id": "magdalene",
+            "name": "Magdalene",
+            "reveal": {
+              "chapter": 60
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0H4LKXP2C",
+            "type": "community"
+          }
+        ],
+        "work": "he-who-fights-with-monsters-13-a-litrpg-adventure"
+      },
       "recaps": {
         "ending": "Jason has killed Simon McKean and ended the vampires' mass revival, but he cannot stop the invasion Knowledge has spent five hundred years arranging, since an unfinished bridge would destroy both worlds. He leaves Earth to complete it. Nick, Erika, Ken, Emmy and the clan stay on Earth, where Anna Tilden and Michael Mills's EDJI prepare to defend the Outback Australia aperture against an expected magitek nuclear strike, and Clive and Emmy work on delaying measures. Farrah Hurin stays to support Jason's astral kingdom. Boris Ket Lundi leads the Cabal openly as the messengers withdraw. Jason surrenders his team at the island now called Ascension's Gate. Knowledge appears in person and tears the divine essence from her priestess Gabrielle, who is released with the others but needs a replacement essence. Diamond rankers led by Roland Remore and the Mirror King Victor Volare have struck a deal letting Knowledge proceed. Zara departs with the Storm Kingdom party. An envoy of the world phoenix, acting on Dawn's warning, shelters Jason's team in her ship. Shade's brother Umber has made Thadwick a leader in the Order of the Reaper, and Knowledge has set Thadwick to hunt Jason. Jason vows to kill Knowledge and enters the anchor ritual alone, to be bound to his prime avatar and sent somewhere that is not quite a universe. Open threads: his imprisonment, Knowledge's holy war, Jamis and the Council of Kings, the Bahraini leaders, surviving vampires, and the troubled marriages of Itsuki and Akari and of Travis and Gabrielle.",
         "in_short": "Jason Asano returns to Earth in person to mend family ties and deal with its governments, and is drawn into a widening war with vampires and rogue network factions. He kills a blood oak in Melbourne, stops an artificial monster wave in Pakistan, and exposes a reality-core farming scheme run by Marie Finnegan, the vampire queen Elizabeth and the ritualist Simon McKean. McKean abandons Elizabeth and Marie, who are then captured, and turns parasites and coordinated blood oaks against the world. Wraith and Dawn warn Jason of an unwinnable event he must hide even from his prime avatar. Two years later a 47-nation offensive stalls when slain vampires revive through a giant bloodroot vine fed by Jason's own bridge. Jason confronts McKean alone, turns the vine's link against him with his cosmic aura, and kills Jack Gerling and McKean. He then reveals that the goddess Knowledge has planned an invasion of Earth for five centuries and that he must finish the bridge regardless. He surrenders his team at Ascension's Gate, watches Knowledge strip her priestess Gabrielle's essence, and enters a ritual that will imprison him outside any ordinary universe.",
