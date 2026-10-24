@@ -3132,6 +3132,375 @@
       }
     },
     "portal-to-nova-roma-empire": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The narrator, a single mind running five bodies at once: Prime, a warrior and dragon rider; the Mage, an elementalist who works mainly with water and air; the Monk, a stealth fighter whose shadow classes carry a Corruption cost; the Crafter, a gunslinger, rifleman and enchanter; and the Necromancer, a new body still at its first class level. His record includes killing the Egyptian sun god and a titan. He leads a legion with auxiliaries and allied French contingents, and an open upgrade quest promises free swapping of skills between his bodies.",
+            "id": "alexander",
+            "name": "Alexander",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A shadow spirit bound to Alexander, known as the Shadow Queen. In life she was an innkeeper who was betrayed. She heads his group of bound spirits, which also includes a disease-carrying bear guardian, a half-elf, half-spider monarch, a Stormhawk and the ghost Giles.",
+            "id": "isabella",
+            "name": "Isabella",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A ghost among Alexander's bound spirits. In life he was one of the foremost mages of Paris and held the Ascendant Elementalist class, until he broke his oath to the crown. Alexander has promised him free rein to research a way back to life, so that he can avenge his own death.",
+            "id": "giles",
+            "name": "Giles",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Prime's bonded mount, an adult shadow dragon. The bond lets her draw on a share of Prime's attributes slightly larger than his own totals.",
+            "id": "ivy",
+            "name": "Ivy",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An aged, grandfatherly king among the allied rulers who are stranded with Prime after the artifact blast. At the first joint meeting he warns the young Parisian leaders that if the fighting goes on, nobody will be left to carry word home.",
+            "id": "elderly-allied-king",
+            "name": "The elderly allied king",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of the allied kings who are swept away with Prime's army to an unknown grassland. He takes part in the councils where Prime arranges a truce with the Parisian army.",
+            "id": "lothair",
+            "name": "Lothair",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "One of the allied kings stranded with Prime after the artifact blast, present as the two armies agree to a truce under Prime's command.",
+            "id": "francis",
+            "name": "Francis",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Alexander's legion commander. After the artifact blast strands the armies on an unknown grassland, he keeps the legionnaires in order while Prime negotiates with the leaderless Parisian force.",
+            "id": "basil",
+            "name": "Basil",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A friend of the Mage from his student days and the strongest of the amateur mages in the Parisian army. He gained a warlock class at a ball in Paris and also holds Libra Master, and he hopes to make his summon, Queen Marigold, a bonded companion. He has no shield spell and turned down the Mage's offer to teach him one. When the Mage takes over the army's mages, Oliver backs him under his cover name, William.",
+            "id": "oliver",
+            "name": "Oliver",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A scholar of pre-Cataclysm magic who served the Parisian side. After his clash with the Mage he lies unconscious in an aid station. The Mage decides to spare him because the professor acted to protect his family, and asks to be told when he wakes.",
+            "id": "indian-professor",
+            "name": "The Indian professor",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An older earth mage with thirty years of practice, calloused hands and a strong command of earth magic. He challenges the Mage to a duel for leadership of the Parisian army's mages. He fights openly and honorably, loses, and yields.",
+            "id": "earth-mage",
+            "name": "The earth mage",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An ogre commander who raids pirate shipping out of Venice. With the main army gone, she writes to Alexander that the pirates are loading an armada of hundreds of ships, with thousands of soldiers and fused monsters. She believes it is bound for Venice and asks for ships, troops and orders.",
+            "id": "constans",
+            "name": "Constans",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A seasoned sailor who is training Venice's new ship crews. With the first legion gone, the Crafter puts him in charge of the city's naval defense against the coming pirate armada.",
+            "id": "theo",
+            "name": "Theo",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Alexander's friend from college, whose father now rules Normandy. The Crafter considers her as a go-between for Normandy and the queen of Wallen and Artois.",
+            "id": "margot",
+            "name": "Margot",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Margot's father, who now rules Normandy as an ally of Alexander. He is raising an army while the Crafter reorganizes the northern front.",
+            "id": "king-of-normandy",
+            "name": "The King of Normandy",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ruler of Wallen and Artois and the last of the original alliance's monarchs left in the north after the armies vanish. The Crafter coordinates the defense of the northern front through her.",
+            "id": "queen-of-wallen-and-artois",
+            "name": "The Queen of Wallen and Artois",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The ruler of Paris and Alexander's enemy in the war. He keeps the Indian professor's family as hostages to make sure of the professor's service. The Monk, now running the city's Assassin's Guild, has put bounties on him, his commanders and the nobles who back the war.",
+            "id": "king-of-paris",
+            "name": "The King of Paris",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A dark elf who leads Prime's scouts and runs his spies. He goes with Prime to look over a strange city in the grassland, where they decide to steal local clothing rather than seize any of the inhabitants.",
+            "id": "dark-elf-scout-leader",
+            "name": "The dark elf scout leader",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The dagger leader of the Lost Legion, the Paris gang that answers to the Monk. During the king's ball he leads the team that gets into the royal castle and frees the hostages held there.",
+            "id": "julian",
+            "name": "Julian",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A lieutenant of the Lost Legion, the Paris gang that answers to the Monk. While the king's ball is under way, she heads the raid on a villa where political prisoners are being held.",
+            "id": "marie",
+            "name": "Marie",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A talkative fairy who gathers information and who stopped the Monk's rescue team at the royal castle, exposing a royal spy among the freed hostages. Calling herself Miss Featherlight, she explains that an organization in Paris has enslaved her kind and wants the Monk, as head of the Assassin's Guild, to kill the people responsible. He agrees to look into it, though he and Isabella suspect she is not telling them everything.",
+            "id": "featherlight",
+            "name": "Featherlight",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The cheerful king of the dwarves and an ally of Alexander. On a visit to Venice he promises help, including dwarven soldiers for at least a year, and warns about Paris, the Vikings and a titan in the north.",
+            "id": "deepbreaker",
+            "name": "Deepbreaker",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The heavyset ruler of the Mongol city that Prime's stranded army reaches. His forehead bears a glowing black glyph, and threads of magic run from the dull red glyphs branded on his people to his yurt on the hill. Calm and hard to read, he offers the army winter shelter and supplies, tells Prime to bring it south, and leaves his real intentions unclear.",
+            "id": "jochi-iv",
+            "name": "Jochi IV",
+            "reveal": {
+              "chapter": 15
+            }
+          },
+          {
+            "description": "One of the guards at the Khan's yurt. She and her fellow guards tease Prime and are startled by how fluently he speaks Mongolian.",
+            "id": "female-mongol-guard",
+            "name": "The female Mongol guard",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A pirate commander leading the landing at Venice. Her level and attributes come close to the Crafter's, and her war banner heals and speeds her troops. A monster-killer bullet tears off her left arm and shoulder, but she drinks a potion and escapes the field.",
+            "id": "pirate-admiral",
+            "name": "The pirate admiral",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The aged, white-eyed head of the Mongol city's spirit mages, who hosts a spirit and is tolerated by the city's ruler. He agrees to trade magical knowledge with the Mage and to have a benevolent mage examine the unconscious Indian professor. About the brands on the city's people he offers nothing beyond vague warnings that they are the product of terrible black magic.",
+            "id": "shaman-elder",
+            "name": "The shaman elder",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A powerful sea being named by the fairies. They warn the Monk that he is angry with Alexander and is sending Vikings to attack Alexander's shores, and that the attack may already have happened.",
+            "id": "andronicus",
+            "name": "Andronicus",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Ruler of the ogres who serve as auxiliaries in Alexander's army. In the night assault on the Mongol city he rides out with the Mage's group and holds the main gate.",
+            "id": "ogre-king",
+            "name": "The Ogre King",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Founder of the Mongol Empire. During the assault on Jochi's city, the elder of the shaman order tells the Mage that Genghis Khan is still alive and immortal, and that Jochi, a fifth-generation descendant of his, was sent into exile in the city because of his glyph experiments.",
+            "id": "genghis-khan",
+            "name": "Genghis Khan",
+            "reveal": {
+              "chapter": 25
+            }
+          },
+          {
+            "description": "Ruler of the pirates on Sardinia, handsome, powerfully built and magnetic, with the power to sway minds. When the Crafter's fleet shells his largest city, he comes out riding five tentacles to face the Crafter.",
+            "id": "pirate-king",
+            "name": "The pirate king",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The aging supreme leader of the Viking clans, said to have crushed a hundred challengers. After spying in Viking-held River's End, the Monk decides to travel to the Viking homeland, kill him and arrange for a friendlier successor.",
+            "id": "spine-chiller",
+            "name": "Spine-Chiller",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A dwarf who trains and commands the cannon crews of Prime's stranded army as it leaves the Mongol city and marches west.",
+            "id": "dwarven-artillery-commander",
+            "name": "The dwarven artillery commander",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A young skald who serves as jarl of the Wegmunding clan and hosts the Monk at his castle. He opposes the war, and a private speech of his against the supreme leader has spread as rumor, but warriors do not respect him as a fighter. When the Monk proposes to kill the clans' leader and put the skald in power, he tests the Monk's honesty with truth magic.",
+            "id": "young-skald-jarl",
+            "name": "The young skald-Jarl",
+            "reveal": {
+              "chapter": 42
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "King of the Gallo-Angevin region in western France, of House Plantagenet. The Necromancer settles above a dormant monster nest in his lands, planning to bring the creatures under control and turn them into a threat the king will have to face.",
+            "id": "geoffrey-of-anjou",
+            "name": "Geoffrey of Anjou",
+            "reveal": {
+              "chapter": 43
+            }
+          },
+          {
+            "description": "The formidable commander of the fifteen thousand Nubian mercenaries who march north from Venice under the Crafter in the spring campaign.",
+            "id": "lynx",
+            "name": "Lynx",
+            "reveal": {
+              "chapter": 46
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The ancient unifier of China. The Mage finds his body preserved, not turned to clay, deep in his guarded tomb. The Mage wakes him and tells him in old Chinese that millions of his people have become clay.",
+            "id": "first-emperor-of-china",
+            "name": "The First Emperor of China",
+            "reveal": {
+              "chapter": 67
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A very old general of the Legion of Nova Roma, who led a cohort when the Cataclysm struck a century ago and calls himself a descendant of the first emperors. He took full command only a few years ago, has fanatical backing, conquered Sofia, and preaches a return to Roman glory and a purge of the city.",
+            "id": "legion-commander",
+            "name": "The Legion commander",
+            "reveal": {
+              "chapter": 74
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An Ottoman figure Prime knows from his time in Egypt, mentioned as the army's leaders weigh their routes home through the Middle East.",
+            "id": "pasha-yildiz",
+            "name": "Pasha Yildiz",
+            "reveal": {
+              "chapter": 77
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The emperor of Nova Roma, paranoid and protected by heavy magic and many guards, with a fearful court. Papers in his palace show he plans to leave with the nobles and possibly the Legion, which would leave the city exposed to monsters.",
+            "id": "alexios-iii",
+            "name": "Alexios III",
+            "reveal": {
+              "chapter": 92
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A king of Picardy origin, neutral and trusted by the other rulers, sworn in as king of France after the fall of Paris. He signs a binding treaty with Alexander covering banks, free trade, free movement, legal reform, roads and mutual defense, and pledges to help free Nova Roma.",
+            "id": "new-king-of-france",
+            "name": "The new King of France",
+            "reveal": {
+              "chapter": 103
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0HM22BDVD",
+            "type": "community"
+          }
+        ],
+        "work": "portal-to-nova-roma-empire"
+      },
       "recaps": {
         "ending": "Alexander ends the book as emperor of a restored Roman Empire based in Nova Roma, having killed Alexios III and accepted the imperial title along with the Descendant of the Gods evolution. His five bodies are linked again and can trade skills freely. An offered ascension of one body has no stated result. Paris has fallen, its Capetian king is serving a life sentence in a secret prison, and a neutral king of Picardy origin rules France under a binding treaty with Alexander. The Nova Roma Legion has surrendered under contract, the priests are dead, and the Vikings are at peace under the young skald-Jarl. The main Mongol horde is broken and its survivors are paroled, though the remaining Mongol powers may still seek revenge. Genghis Khan's dragon spirit serves Alexander, who has promised to release it after a fair sentence. A century later, Nova Roma is a prosperous city of many species. Alexander's bodies hold separate posts, from the emperor at his desk to an archmage running the Academy and a necromancer under Paris. Constans, his adopted daughter, runs the legion academy. Ivy is an elder dragon, Isabella lives in a homunculus body, and Oliver is head librarian and married to Margot. Giles has a body but has not completed his return to life. Basil and Theo are dead and honored with a statue. Threads left open include the Terracotta Cure, expanding the teleport network, a ceasefire between Egypt and the undead Ottomans, the 42 ancient mysteries, the failing world shield, and the newest body's choice of an expedition to Cahokia, Londinium or Japan.",
         "in_short": "A pre-Cataclysm artifact throws Prime, the Mage and two warring armies onto the Mongolian steppe and cuts Alexander's five bodies off from one another. In the west, the Crafter defends Venice against a pirate armada at the cost of his right hand, then wipes out the pirates. The Monk travels north, has the Viking supreme leader poisoned and killed, and puts a young skald in his place. In the east, Prime takes the city of Khan Jochi IV, breaks through the Great Wall into an empty China whose people have been turned to clay, wakes the First Emperor, and teleports the army west. When the Crafter summons every body to fight the titan Andronicus, the titan dies and nanobots rebuild them all. Killing Genghis Khan, who has become a golden dragon, restores the link between the bodies. Prime's army crosses undead Ottoman Isfahan, destroys a Mongol horde and sails home. Converging allied armies take Paris, the king is convicted, and a new King of France is crowned. The army then takes Sofia, bombards Nova Roma, and storms the palace with all five bodies. Alexander kills Emperor Alexios III and becomes emperor. A century later the empire is thriving, and his newest body is about to choose an expedition.",
