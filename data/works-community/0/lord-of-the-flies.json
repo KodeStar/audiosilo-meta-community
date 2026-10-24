@@ -1774,18 +1774,6 @@
             "role": "supporting"
           },
           {
-            "aliases": [
-              "Diva"
-            ],
-            "description": "Vanessa Blake, whose Hero name is Diva, is the Mythic Guild's Controller advisor and, in practice, its chief organizer. She killed several commanders during the invasion. When she arrives at Sal's workshop she has already dealt with much of his to-do list: the guild's special teams are approved and she has worked out a dungeon schedule with the lecturer Jez. Her aim is for the guild to complete Tier 7 and start on Tier 6 before the year ends.",
-            "id": "vanessa-blake",
-            "name": "Vanessa Blake",
-            "reveal": {
-              "chapter": 20
-            },
-            "role": "supporting"
-          },
-          {
             "description": "Enigma is a senior figure whose master-class training with Barry is still awaiting confirmation. Quest's assistant also reports that Quest and Coach plan to show Athena, the diagnostic training machine, to Enigma and to Eclipse.",
             "id": "enigma",
             "name": "Enigma",
@@ -1809,24 +1797,6 @@
             "name": "Joanne",
             "reveal": {
               "chapter": 20
-            },
-            "role": "minor"
-          },
-          {
-            "description": "Petro Argento is Sal's father and runs the Argento Auction House. He carries a monocle that grants All Sight. Visiting Sal at Quest Academy, he reports that the Arkwright has improved itself and that the treatment Sal's mother underwent has succeeded. When riots erupt over Darwin Cruises shipbuilding, he has Sal promise not to get involved.",
-            "id": "petro-argento",
-            "name": "Petro Argento",
-            "reveal": {
-              "chapter": 36
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "Robert Locke is the leader of the Hunter Bureau and the same Robert who oversees the re-homing of Darwin Cruises refugees. After an exposé on refugee shipbuilding sets off riots, the faction formerly called Bastion, now the Loyalists, demands his removal.",
-            "id": "robert-locke",
-            "name": "Robert Locke",
-            "reveal": {
-              "chapter": 36
             },
             "role": "minor"
           },
@@ -1891,35 +1861,11 @@
             "role": "minor"
           },
           {
-            "aliases": [
-              "Mica"
-            ],
-            "description": "Michaela Egan, who goes by Mica, is one of the Mythic Guild's Offense members. Her ability is Mimicry, and she is ranked lowest among the Saviors.",
-            "id": "michaela-egan",
-            "name": "Michaela Egan",
-            "reveal": {
-              "chapter": 47
-            },
-            "role": "supporting"
-          },
-          {
             "description": "Sophia is Sal's mother and Petro's partner. Her metamorphosis treatment has succeeded, and she now goes after higher-rarity materials.",
             "id": "sophia",
             "name": "Sophia",
             "reveal": {
               "chapter": 55
-            },
-            "role": "minor"
-          },
-          {
-            "aliases": [
-              "Neil"
-            ],
-            "description": "Neuro is a telepath and Erika Clifton's father, and he once taught her as a Controller instructor. After Erika and Divinity locate a sealed Bastion pod aboard the Crusader, he comes with Erika to Quest's office and reads the pod's serial number, 051, from her memory. Enigma calls him Neil. He asks Quest to hold off on informing Marcus and the Harmony Guild.",
-            "id": "neuro-erikas-father",
-            "name": "Neuro",
-            "reveal": {
-              "chapter": 73
             },
             "role": "minor"
           },
