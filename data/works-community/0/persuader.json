@@ -3315,15 +3315,6 @@
             "role": "minor"
           },
           {
-            "description": "A fairy who intercepts the Monk's rescue team at the royal castle during the king's ball. She points out that one of the freed hostages is a royal spy, and asks the Monk, as head of the Assassin's Guild, to take a contract to kill evil people.",
-            "id": "fairy-informant",
-            "name": "The fairy informant",
-            "reveal": {
-              "chapter": 11
-            },
-            "role": "supporting"
-          },
-          {
             "description": "A talkative fairy who gathers information and who stopped the Monk's rescue team at the royal castle, exposing a royal spy among the freed hostages. Calling herself Miss Featherlight, she explains that an organization in Paris has enslaved her kind and wants the Monk, as head of the Assassin's Guild, to kill the people responsible. He agrees to look into it, though he and Isabella suspect she is not telling them everything.",
             "id": "featherlight",
             "name": "Featherlight",
@@ -3400,8 +3391,7 @@
             "name": "Genghis Khan",
             "reveal": {
               "chapter": 25
-            },
-            "role": "antagonist"
+            }
           },
           {
             "description": "Ruler of the pirates on Sardinia, handsome, powerfully built and magnetic, with the power to sway minds. When the Crafter's fleet shells his largest city, he comes out riding five tentacles to face the Crafter.",
