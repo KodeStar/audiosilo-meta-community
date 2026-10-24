@@ -3132,6 +3132,412 @@
       }
     },
     "portal-to-nova-roma-paris": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The narrator: a single mind running several doppelganger bodies, each with its own class and gear. His prime body is a warrior with a bonded shadow-dragon mount, shadow armor and a Spirit Breaker class that captures spirits; a monk body carries psychic and shadow skills and a shape-shifting dagger; a crafter body works as gunsmith, enchanter and blacksmith; and a mage body, an Ascendant Elementalist, is about to enroll at a Paris school. He already governs two territories, has slain a titan, a giant king and a green dragon, and has open quests to claim Emisa and River's End and to defeat the sleeping titan Andronicus.",
+            "id": "alexander",
+            "name": "Alexander",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A spirit bound to Alexander's service. In life he ranked among the best graduates of the Paris magic schools, trained in all four elements and in esoteric magic, and he swore service to the Paris crown in exchange for a powerful class. He broke that oath, unwillingly, to become a spirit companion, on the promise that he would be free to look for a way back to life and to take revenge on the man who killed him.",
+            "id": "giles",
+            "name": "Giles",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of the spirits Alexander has captured: a necromancer queen who is half elf and half spider and wields deathfrost magic. She is cursed, was driven into exile, and is unstable in mind.",
+            "id": "deathfrost-monarch",
+            "name": "The Deathfrost Monarch",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A lightning stormhawk, one of the spirits Alexander has captured through his prime body's Spirit Breaker class.",
+            "id": "stormhawk",
+            "name": "The stormhawk",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A dark spirit and close friend of Alexander. Before his monk body moves into the Paris underworld, she spends time scouting the gangs of the poorer southern bank and picks out the failing gang he approaches with his offer.",
+            "id": "isabella",
+            "name": "Isabella",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Two crossbow-armed women in the small, struggling gang on the southern bank of Paris that Alexander's monk body approaches with an offer to lead.",
+            "id": "crossbow-women",
+            "name": "The crossbow women",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Leader of the small, struggling gang on the southern bank of Paris that Alexander's monk body offers to lead. He fights with daggers, wears a gold tooth, and is doubtful of the stranger's promises while wanting to believe them. Once the gang agrees, his group breaks into the rival smuggler's guardhouse base.",
+            "id": "julian",
+            "name": "Julian",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A large, mace-wielding woman in the southern Paris gang that Alexander takes over, and its clearest-headed and most dependable member. In the move against the rival enforcer, she commands the second team waiting behind his fortified villa.",
+            "id": "marie",
+            "name": "Marie",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Bookkeeper for the rival Paris gang known as the nine men. Alexander's monk body slips into his bedroom using Shadow Jump and stealth and carries him off as a captive as the gang moves against its other leaders.",
+            "id": "bookkeeper",
+            "name": "The bookkeeper",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A stocky orphan who worked in the Chartres library before enrolling as a first-year. He earned a unique mage class, Libra Master, which lets him draw on books to summon things out of stories. Shy and eager, he befriends Alexander's mage body and lodges on the top floor of the residence hall with the low-ranked students.",
+            "id": "oliver",
+            "name": "Oliver",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An older first-year at Chartres, in her twenties, who at first is rude to Oliver and Alexander and mutters insults in class. She comes along on Oliver's library tour after a confrontation and gives her name. Her father was a count who lost his region to a Normandy king allied with Paris, and she studies at Chartres hoping that serving the king will win her family's land back. She begins to warm to the two of them.",
+            "id": "margot",
+            "name": "Margot",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The professor of pre-Cataclysm magic at Chartres. Born in India, he came from a distant college to teach in Paris. His course covers sympathetic magic, in which spells are tied to natural or cultural associations.",
+            "id": "pre-cataclysm-professor",
+            "name": "Pre-Cataclysm magic professor",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Alexander's dragon companion, who shares attributes with him and leads the legion's young dragon wyrmlings. In the spring campaign against the Ogre Kingdom, her wyrmlings strike alongside the cavalry and goblins to help break the ogre charge.",
+            "id": "ivy",
+            "name": "Ivy",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of the leaders of Alexander's legion. He commands legionnaires at the defensive wall during the spring campaign against the raiding Ogre Kingdom.",
+            "id": "basil",
+            "name": "Basil",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A female ogre who serves as one of the leaders of Alexander's legion. In the battle against the Ogre King's army she stands at the barricade and calls the rifle volleys.",
+            "id": "constans",
+            "name": "Constans",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ruler of the Ogre Kingdom to the east of Alexander's Rhine territory, whose people raided the legion's outposts. A huge warrior with a giant club, he leads about three hundred warriors and an Ogre Mage against the legion and is brought down when cannon, rifles, cavalry and dragons break his charge.",
+            "id": "ogre-king",
+            "name": "The Ogre King",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A female ogre spellcaster who marches with the Ogre King against Alexander's legion, fighting with a rune staff and shields.",
+            "id": "ogre-mage",
+            "name": "The Ogre Mage",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A ruler who styles himself king of an eastern Frankish kingdom and writes from Lyon. He is Alexander's newest ally and asks for help because a Parisian army is said to be marching east to punish him.",
+            "id": "francis",
+            "name": "Francis",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A loud noble student at Chartres. When the year-one results put Alexander's student identity first in four classes, he objects in front of the dining hall and leads the resentment against the rankings.",
+            "id": "armand",
+            "name": "Armand",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An elf ally of Alexander who works as his spymaster. He has been keeping watch on Francis's commanders and has sent agents into Wallen and Artois. After Lyon falls, Alexander sends him to look into elves working at a Lyon brothel and offer them help.",
+            "id": "elf-spymaster",
+            "name": "Elf spymaster",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "King of Lorraine, one of the regional rulers Francis writes to, at Alexander's direction, about renewing the eastern alliance. Francis speaks of him as self-important.",
+            "id": "lothair",
+            "name": "Lothair",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A wealthy, charming noble student at Chartres who places first in manners. He invites Alexander to join his dungeon team and is turned down, and he proves more politically decent than Alexander expected.",
+            "id": "philip-count-of-valois",
+            "name": "Philip, Count of Valois",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A young assistant professor at Chartres who escorts Alexander down to the monument beneath the main hall to claim his skill upgrades. He offers himself as a useful connection, and Alexander makes a note of his name and residence.",
+            "id": "michel-de-bellrose",
+            "name": "Michel de Bellrose",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A large bear spirit in Alexander's service whose aura spreads disease. The monk body calls him up with the other spirits to tear apart a base of the Sinholders, the gang that holds the Paris river.",
+            "id": "kermode",
+            "name": "Kermode",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The older of the two leaders of the Sinholders, the gang controlling the Paris river, with a strong stealth skill. During Alexander's raid he wounds Giles, but loses the fight, surrenders under a twenty-four-hour contract and gives up his rare Assassin class. He tells Alexander that the gang's other leader, his former wife, has to be killed.",
+            "id": "older-sinholder-boss",
+            "name": "The older Sinholder boss",
+            "reveal": {
+              "chapter": 22
+            }
+          },
+          {
+            "description": "Co-leader of the Sinholders gang and former wife of the boss Alexander captured. When Julian and Marie raid her hideout she escapes through a hidden tunnel, and anti-scrying magic keeps even Isabella from finding her.",
+            "id": "sinholder-leader",
+            "name": "The Sinholder leader",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "King of Burgundy: blunt, loud and eager for a fight. He arrives at Lyon with about two thousand spearmen and four hundred crossbowmen, backs Alexander after learning of Francis's surrender, and explains that pirates and monsters at home keep him from sending more troops.",
+            "id": "reynold",
+            "name": "Reynold",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ruler of Wallen, who is not at the Lyon feast. The visiting kings describe her as independent, shaped by Celtic tradition and feared for her curses. She dislikes both Paris and Artois, and her husband has recently died.",
+            "id": "queen-of-wallen",
+            "name": "Queen of Wallen",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An older, bald, good-natured captain whose trade ship, belonging to an Egyptian empire said to be ruled by gods, is captured by Alexander's blockade. He explains that trade requires pleading before a god in Alexandria. Alexander lets him go on condition that he comes back to guide him there.",
+            "id": "egyptian-captain",
+            "name": "The Egyptian captain",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A big, loud, bearded knight from Champenois in full plate. An old friend who met Alexander near Nova Roma and first introduced him to King Francis, he is appointed war commander of the Lyon army. Alexander tells him the whole truth, including that Francis is effectively his vassal, and the knight is amused and stays loyal.",
+            "id": "champenois-knight",
+            "name": "The Champenois knight",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Two sisters, both expert shots with enchanted crossbows, who act as bodyguards to Alexander's monk body in the Paris gang. The monk has handed his Assassin class on to them. When assassins struck at the monk and Isabella after dinner, one sister was taken and then freed by the monk, and both came close to dying while defending the pair. Once he recovers, they go on guarding him in good spirits.",
+            "id": "chappelle-sisters",
+            "name": "The Chappelle sisters",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A being with a man's body and a living falcon's head who sits enthroned inside Alexandria's gold-capped pyramid. His crier proclaims him lord of the sky, sun, moon, healing, protection and kings. Alexander is brought before him to ask for trade rights.",
+            "id": "falcon-god-of-alexandria",
+            "name": "Falcon-headed god of Alexandria",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Wife of the Egyptian captain. She recognises the name Constantinople and asks about the Ottomans, with whom Egypt has been at war for about seventy years. While her husband is away she warns Alexander and Constans to leave before they are caught in a war between gods, and hands Alexander a note arranging a meeting the next night.",
+            "id": "zara",
+            "name": "Zara",
+            "reveal": {
+              "chapter": 39
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A cat-headed goddess in a white toga, linked to the sun and to protection, who meets Alexander and Constans in secret at her Alexandria temple. Weak and peaceful, she trades in information. She explains that Egypt's gods chose mortal bodies over sacrificing themselves for the world's shield, which is now fading, and that her faction wants kingship given back to humans with gods as advisers.",
+            "id": "bastet",
+            "name": "Bastet",
+            "reveal": {
+              "chapter": 42
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The old, stubborn and shrewd king of Picardy, proud of his Gaulish descent. He gathers about eight thousand troops at his capital and uses marshland, pikemen and castle artillery to neutralize the allied knights. At the parley he refuses to join the alliance, arguing that Paris would not stop at the south.",
+            "id": "picardy-king",
+            "name": "The Picardy king",
+            "reveal": {
+              "chapter": 45
+            }
+          },
+          {
+            "description": "A falcon-headed sun god who rules Memphis, attended by a floating disc of sunlight and guarded by priests and soldiers. A former pharaoh-god who seized his place, he can turn his guards golden, animate great statues and renew a sun shield through prayer. Alexander's crafter body ambushes him at a morning ceremony at his temple, and after a battle involving all of Alexander's bodies and spirits, kills him.",
+            "id": "sun-god-of-memphis",
+            "name": "Falcon-headed sun god of Memphis",
+            "reveal": {
+              "chapter": 50
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A skeletal mage with a huge turban and a face animated by illusion, who rules the orderly undead town inside a wild dungeon in Egypt's Western Desert and judges its disputes under the title of Pasha. Shocked to meet a living human, he tells Alexander that he built the dungeon himself and had long expected an outsider to find its entrance.",
+            "id": "pasha",
+            "name": "The Pasha",
+            "reveal": {
+              "chapter": 58
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Margot's father, a former count forced off his lands, now living in Paris. He insists on meeting at the king's gala rather than privately. On a palace balcony, Alexander's monk body offers him the throne of Normandy.",
+            "id": "margots-father",
+            "name": "Margot's father",
+            "reveal": {
+              "chapter": 62
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Capetian ruler of Paris, seen for the first time at his own ball: short, thinning curly brown hair, plain clothes and a fit build. He announces that two armies will go against rebellious eastern lords, that a larger new army will be raised in Paris, and that soldiers are being called up. Alexander judges him shrewd and politically able.",
+            "id": "king-of-paris",
+            "name": "The King of Paris",
+            "reveal": {
+              "chapter": 67
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Parisian commander at the head of a large army moving north toward the Picardy king's city, while a separate force of knights and light cavalry heads for Lyon.",
+            "id": "philip-ii",
+            "name": "Philip II",
+            "reveal": {
+              "chapter": 70
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Twenty automaton mages created by Alexander, who arrive at Lyon by caravan with their leaders, guarded by undead Parisian elite fighters that his armor raised. One leader speaks psychically and calls Alexander father, another is female, and a third stays at the mithril mine to build more of them. Alexander tells them to protect one another first and the city second.",
+            "id": "verum",
+            "name": "The Verum",
+            "reveal": {
+              "chapter": 73
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A strict necromancer with glowing blue eyes who works in the tunnels beneath Paris. He takes on Alexander's new necromancer body and the spirit Giles as students, and threatens them when annoyed.",
+            "id": "necromancer-mentor",
+            "name": "The necromancer mentor",
+            "reveal": {
+              "chapter": 77
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A tattooed, scarred ring fighter from the southern Paris slums, conscripted into the amateur mage unit that Alexander's student body is given to lead at the Orleans camp. He threatens Alexander on arrival and is put on the ground with a punch and a throw.",
+            "id": "pit-fighter",
+            "name": "The pit-fighter",
+            "reveal": {
+              "chapter": 81
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Commander of the Parisian army marching north: large, hairy, talkative and overbearing. Alexander's student body dines with him on the march and judges him a second choice, since Philip II is a prisoner at Lakeside.",
+            "id": "parisian-marshal",
+            "name": "The Parisian marshal",
+            "reveal": {
+              "chapter": 85
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0H7SH5DYS",
+            "type": "community"
+          }
+        ],
+        "work": "portal-to-nova-roma-paris"
+      },
       "recaps": {
         "ending": "The last battle never happens as planned. Inside the Parisian camp, the mage body, still posing as the student William, learns that the pre-Cataclysm professor has been ordered by the King of Paris to throw a broken Roman transport orb into the allied army, because the king holds the professor's wife and daughter. The mage kills the Parisian marshal, but the professor launches the orb. Prime and Ivy fail to catch it, and the crafter shatters it from about two miles away with a monster-killer bullet. No portal opens; instead about thirty thousand soldiers from both armies disappear from the field. Prime wakes with Ivy beside both armies, all alive, on an endless golden grassland with no city, walls or camp in sight, and suspects they may no longer be in their own world. He fears a new Parisian leader could restart the fighting. The crafter is left alone on the city walls. What became of the mage, Oliver, the conscript unit and the professor is left unresolved. The monk still runs the Lost Legion in Paris, where the gang war is largely over and the Sinholder leader is dead. The necromancer body and Giles are studying under the Paris necromancers, with Giles's return to life not yet achieved. Constans holds Venice's fleet and plans deeper raids on the pirates, while Philip II is a prisoner at Lakeside and the King of Paris refuses all terms. The alliance of eastern kings, now including Picardy and Margot's father as king of Normandy, still stands. Open threads include the fading world shield and Egypt's warring gods, the Pasha's fate, the Viking worm titan and the sleeping titan Andronicus, the Nova Roma emperor's conquest of Bulgaria, and Isabella's hope of living again.",
         "in_short": "Alexander, one mind spread across several doppelganger bodies, works against Paris on every front at once. His mage body enrolls undercover at Chartres Academy, sets a dungeon record, befriends Oliver and Margot, and learns to cast through Roman runes. His monk body turns a failing southern gang into the Lost Legion and wins a gang war against the Sinholders and the miners' guild. His prime body humbles King Francis at Lyon, forges an alliance of eastern French kings, wins in Artois and Picardy, and puts Margot's father on the throne of Normandy. His crafter body opens trade with Egypt, kills a falcon-headed sun god as the price of cutting off Egypt's aid to the pirates, and survives a long stay in an Ottoman undead dungeon, emerging with monster-killer bullets and metal wings. As Paris fights back, Lyon holds and Philip II is captured, a new necromancer body enters the Paris underground with Giles, and the mage is drafted into the Parisian army. At the decisive battle the mage kills the Parisian marshal, but the professor throws a broken transport orb; when the crafter shoots it apart, about thirty thousand soldiers of both armies vanish, and Prime wakes with them on an unknown golden plain.",
