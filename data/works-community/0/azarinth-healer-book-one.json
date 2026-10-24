@@ -407,6 +407,455 @@
         "work": "azarinth-healer-book-one"
       }
     },
+    "azarinth-healer-book-seven": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Lilith"
+            ],
+            "description": "The protagonist, a battle healer who has just reached level 500 and carries three marks. Her new Monstrous skill conceals her level from anyone far enough below her, she has stopped aging, and she can now teleport long distances between three anchors, which she places at her Ravenhall house, on the Kron Isles and in the Meadow's domain. She fights with ash armor, ash limbs and wings. In Ravenhall she keeps her marks hidden, and the Meadow addresses her as Lilith, a name she uses as a cover identity.",
+            "id": "ilea",
+            "name": "Ilea",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A friendly Fae that answers to the name Violence and comes when Ilea sends it a brief message. She calls it to the cliffs of the Tenth Lair in the Descent, where she has also summoned a young lightning elemental for a sparring match, and it joins her there as a training companion.",
+            "id": "violence",
+            "name": "Violence",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An ancient, sentient crystal tree with its own domain that teaches Ilea space magic. It speaks to her with mock condescension, allows her to set a teleport anchor beside its black grass, and claims to hold a fourth-tier spell for every school of magic, which it is willing to teach her. It can converse with the smith Goliath and offers its own durable stone for his forging work.",
+            "id": "the-meadow",
+            "name": "The Meadow",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An awakened smith from Hallofort who speaks in a formal manner and can communicate with the Meadow. Ilea brings him the eye of a draconic worm along with a supply of its scales. He explains that shaping the scales will require a forge able to survive extreme heat, and the Meadow offers its stone for the purpose.",
+            "id": "goliath",
+            "name": "Goliath",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An enchanter and one of Ilea's close allies. Working with Christopher, she built the locator Ilea uses to track down Talene artifacts. The two of them examine ruined runestones that Ilea recovered from the Kron Isles, whose runes match markings discovered beneath Ravenhall.",
+            "id": "iana",
+            "name": "Iana",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An enchanter who works in partnership with Iana. Together they made the key locator that points Ilea toward ancient Talene artifacts, and he joins Iana in studying broken runestones from the Kron Isles that resemble runes found under Ravenhall.",
+            "id": "christopher",
+            "name": "Christopher",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A friend of Ilea's in Ravenhall who works out of an office in the city. Ilea messages her to ask for dancing lessons, and Claire schedules a session at her office three days later.",
+            "id": "claire",
+            "name": "Claire",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The headmaster of the Sentinels' school in Ravenhall. He favors training students in teams and places a new medic student in a small group for a day of joint exercises. Before Ilea arrives to train them, he warns the students about her and refers to her as Lilith.",
+            "id": "trian",
+            "name": "Trian",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A centurion, one of the war machines built by the Talene, which moves freely through the halls of the Sentinels' headquarters in Ravenhall while the students train.",
+            "id": "aki",
+            "name": "Aki",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A white-haired, unassuming high cleric of the Corinth Order and a pure healer. He is devout but kept away from the order's real decisions. After the order invites the Medic Sentinel founders to Holstein and asks for Lilith by name, he is chosen to receive her, despite his doubts about the plan, and is escorted to a closely guarded temple to wait for her.",
+            "id": "donovan",
+            "name": "Donovan",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The head paladin of the Corinth Order, a divine paladin at level 305 who acts as the personal protector of the high cleric Donovan. While the order prepares to receive Lilith in Holstein, he and a female paladin leave to respond to a report of a break-in.",
+            "id": "the-head-paladin",
+            "name": "The head paladin",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The leader of the Corinth Order, holding a rank that allows him to force decisions on the rest of the order. After Ilea exposes the poisoned, trap-laden meeting arranged for her in Holstein, the high cleric Donovan realizes his own leadership planned it and names the Speaker as the likely author of the plot.",
+            "id": "the-speaker",
+            "name": "The Speaker",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The ruler of Kroll, a fire mage. When he hears that Ilea and the Corinth defectors are in the Kingsguard training dome, he chooses to go and meet them himself and has a feast prepared. His advisors include his queen, a noblewoman of the royal family, and a long-lived druid noblewoman related to the queen.",
+            "id": "king-of-kroll",
+            "name": "The King of Kroll",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A lightning mage of the Kroll Kingsguard at level 280. When the king arrives at the training dome, Joel is in the middle of a duel with Ilea; she lands a heavy blow and he heals himself. He flirts with her openly. His brother also serves in the Kingsguard as a shadow mage.",
+            "id": "joel",
+            "name": "Joel",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A relative of the King of Kroll who attends him as an advisor, a metal mage at level 242. She is the sister of a man named Michael and shows open hostility toward him, while Ilea's reserved reaction hints that she has some history with him herself.",
+            "id": "katerina",
+            "name": "Katerina",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "The head paladin"
+            ],
+            "description": "The head paladin of the Corinth Order, now named as Bryce. A divine paladin who guards the high cleric Donovan, he sided with Donovan once the trap in Holstein came to light and now leads the Corinth strike force against the Speaker's stronghold at Fort Calwart, where his group pushes into the fort as explosives bring much of it down.",
+            "id": "bryce",
+            "name": "Bryce",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A shadow mage of the Kroll Kingsguard who reports to the king and is Joel's brother. When Corinth envoys come to court claiming that Ilea murdered their high cleric, he conceals her behind a shadow illusion, and once their story collapses he chases down an inquisitor who tries to escape. He admires Ilea and would like to train with her.",
+            "id": "asrin",
+            "name": "Asrin",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The minister in charge of the Order of Balance, a barrier mage at level 285 who appears to be around fifty and has battle experience. She receives Ilea at the order's fort outside Virilia, says her order has no wish to clash with the Sentinels, and accepts Ilea's terms that unaffiliated healers not be hunted and that care not be refused. She remains doubtful that the Sentinel approach can be made to pay.",
+            "id": "genesis",
+            "name": "Genesis",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Head of the Redleaf family, still securing her position after the death of her father, Arthur. When Ilea contacts her, Felicia invites her to the family estate. Her brother Edwin helped bring their father down, and the water mage Aliana, who lives at the estate and hosts Ilea there, calls Felicia her sister.",
+            "id": "felicia",
+            "name": "Felicia",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A water mage at level 208 who lives at the Redleaf estate and has been schooled in etiquette. She welcomes Ilea warmly when she lands in the courtyard, makes lunch for her, and explains that Felicia is busy establishing herself as head of the house. She refers to Felicia as her sister.",
+            "id": "aliana",
+            "name": "Aliana",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Felicia's brother, a blood mage with a fondness for drink, who helped bring down their father, Arthur. When Ilea visits the Redleaf estate he is away on an adventuring job with his pupil.",
+            "id": "edwin",
+            "name": "Edwin",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Edwin's pupil, a fire enhancer from the west who once broke into the Redleaf estate and was let go unharmed. He is the performer who showed off wings of fire at the Riverwatch tournament. When Ilea arrives at the estate, he is away with Edwin on an adventuring job.",
+            "id": "jiraiyu",
+            "name": "Jiraiyu",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A metal mage at level 441 who trains with Ilea while working toward killing a four-mark monster. He had been missing for a time, and Ilea reports that he was found and now lives in Ravenhall.",
+            "id": "kyrian",
+            "name": "Kyrian",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A lightning mage at level 318 who calls herself the Dragon Killer and describes herself as an exiled daughter of House Pierce of Nifa. She breaks through the enchantments on Ilea's Ravenhall house and waits inside with Verena Quill. Lively and teasing, she spends the meeting needling Ilea and asking about the creatures she has hunted.",
+            "id": "pierce",
+            "name": "Pierce",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elder of the Shadow's Hand and a Flame Berserker at level 342. She waits for Ilea inside her Ravenhall house together with Pierce. Verena explains that the elders have dwindled: Wallace Urn is dead, Adam Strand betrayed the city and is now in the demon realm, and Lucas is working with the Meadow. She came hoping to fight Ilea but settles down once they talk.",
+            "id": "verena-quill",
+            "name": "Verena Quill",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of the few remaining elders of the Shadow's Hand. Verena Quill says he has been working with the Meadow.",
+            "id": "lucas",
+            "name": "Lucas",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Mindweaver at level 228 that lives inside the Iskolin dungeon and speaks only by telepathy. It was summoned from the demon realm centuries ago and killed the dark spirit that called it, but it has stayed trapped since, regarding itself as a prisoner of the dungeon's guardian even as it holds her in awe. Nervous but helpful, it leads Ilea and her companions toward the key after she promises to help it get out, offering Hallofort as a place where it would be welcome.",
+            "id": "the-mindweaver",
+            "name": "The Mindweaver",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The guardian who rules the Iskolin dungeon and keeps its creatures from ever leaving. As the Mindweaver describes her, she is a dragon: four-legged, winged and horned, with green scales, golden eyes, and command of wood and life magic. From what she observes inside the dungeon, Ilea concludes that the guardian is a four-mark being.",
+            "id": "dragon-guardian-of-iskolin",
+            "name": "The dragon guardian of Iskolin",
+            "reveal": {
+              "chapter": 27
+            }
+          },
+          {
+            "description": "An elf hunter allied with Ilea who can take on a dragon form. Ilea summons Feyre and fellow elf Nefato to help her group move on through a Talene gate from the Kron Isles.",
+            "id": "feyre",
+            "name": "Feyre",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elf and ally of Ilea's. She calls on him together with Feyre after escaping Iskolin, and the two elves accompany her group through the Kron gate.",
+            "id": "nefato",
+            "name": "Nefato",
+            "reveal": {
+              "chapter": 29
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A long-haired space and barrier mage with nearly golden eyes, above level 600, who lives in a hidden steel facility in the far north. Ilea recognizes him from an earlier Shadow's Hand mission as the man who taught a shadow-class girl her magic; he says he rescued that girl after she was stranded from another realm. He studies realm travelers and fissures between realms, shares the facility with a Navoon of Kor, and holds the Copper Key, which was entrusted to him for safekeeping.",
+            "id": "albert",
+            "name": "Albert",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A steel-bodied being with white eyes and a half-ring headpiece, speaking with a female voice and standing just under level 1000. She prefers conversation to combat. She names her people as the Navoon of Kor, says she once belonged to the Great Unity, and refuses to be called Ascended. She explains that her people took the sun from their own sky, which destroyed Kor and turned its people into demons, and later took a sun from Elos, leading to the destruction of Revor. The power drawn from that sun, locked away behind twelve keys, is what drives Talene machinery.",
+            "id": "the-navoon",
+            "name": "The Navoon",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Albert"
+            ],
+            "description": "The space and barrier mage Ilea met under the name Albert, whom she now recognizes as Scipio, a former party member and old friend of Morrow and Alana. He left Ravor long before Morrow became king and once lived in Tremor. Ilea tells him Morrow and Alana are alive. He and the Navoon reveal that they are trying to revive young Navoon kept in stasis in their cellar, and they agree to give Ilea the Copper Key if she keeps their location secret.",
+            "id": "scipio",
+            "name": "Scipio",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A former party member and old friend of Scipio and Morrow. Ilea tells Scipio that she is alive and now sits on the council of the northern Awakened settlement.",
+            "id": "alana",
+            "name": "Alana",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An Ascended whom Ilea encountered before the events of this book. When she names him to the Navoon, she learns that he is searching for the source locked behind the Talene keys and that his strength is around that of a four-mark being.",
+            "id": "vor-elinthir",
+            "name": "Vor Elinthir",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "minor"
+          },
+          {
+            "description": "One of three Frozen Lich Fragments in the City of Glass dungeon, the most self-assured of them, which gives itself the name Death. The fragments carry the strength of four-mark beings. They block the dungeon's exit, separate Ilea from her companions and hold them while Ilea fights her way through the dungeon's undead halls.",
+            "id": "death",
+            "name": "Death",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A four-mark void creature, around level 1100, lurking in a dark cavern beneath the City of Glass dungeon. Thin and one-eyed, with a purple hue, it looks much like the Soul Rippers Ilea knows from Tremor and may share their kind or realm. It is not very intelligent but adapts in a fight. It unmakes matter with spheres of void magic, devours her mantle and turns her beam aside so that it does no harm, leaving Ilea badly wounded and forcing her to withdraw and recover. The lich fragment Death had demanded that she face it, and something Death wants lies deeper in its lair.",
+            "id": "the-void-lord",
+            "name": "The Void Lord",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The smallest and most curious of the three lich fragments from the City of Glass. When Death tried to merge the fragments under its own control, the oldest fragment gave itself up so that Owl would be the one to rise instead. Through the ritual she became a four-mark Greater Lich close to level 1300. Calm and considerate, she remembers that the fragments were once people of a town who turned to death magic against invaders, but not where that home was. Ilea brings her to the Meadow, which invites her to stay.",
+            "id": "owl",
+            "name": "Owl",
+            "reveal": {
+              "chapter": 42
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dwarf war-machine pilot in the Pit who, though unfriendly toward outsiders, agrees to guide Ilea's party for gold. He seems to be about level 200 but is nearer 320, hiding the difference with what he calls a heritage skill. His own forge was wrecked in an earlier fight and he now works out of a smithy. He is surprised by how well made Ilea's living armor is.",
+            "id": "dwarf-guide",
+            "name": "The dwarf guide",
+            "reveal": {
+              "chapter": 45
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Two unnamed shadow beings, shadow mages at roughly level 283, who stay behind after Ilea kills the mind-controlling creature in the Shining Caves. They had come looking for the Soul Forge, and they tell her of an ancient dwarf ruler whose army was subdued rather than destroyed and now lies at rest there. They explain that the dead creature had been keeping the sleeping Soul Wardens calm, so its death clears the way to the forge, and they offer to guide Ilea toward it.",
+            "id": "the-two-shades",
+            "name": "The two shades",
+            "reveal": {
+              "chapter": 53
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dwarf noble in heavy armor who is present at the Pit when the Soul Wardens attack the settlement.",
+            "id": "the-armored-dwarf-noble",
+            "name": "The armored dwarf noble",
+            "reveal": {
+              "chapter": 54
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Fae found in the central laboratory of the Soul Forge, level 112, with a black body, six white wings of energy, strong space magic and little speech. The forge's ruler, a king and soul mage, attempted a soul transfer and became caught in it, so his soul now surfaces from the Fae in short, grandiose outbursts, while the Fae's calm, feminine character keeps control most of the time. It addresses Ilea with titles meaning arbiter and creator and accepts her invitation to ride on her shoulder.",
+            "id": "fae-of-the-soul-forge",
+            "name": "The Fae of the Soul Forge",
+            "reveal": {
+              "chapter": 64
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The name Owl gives the Fae found in the Soul Forge, which it accepts when Ilea asks. Twin entered the forge of its own will, refused to cooperate, and was imprisoned and experimented on there. It still carries the remnant soul of the forge's king, which breaks through in brief outbursts, and Ilea has promised it will not be left alone with that soul and that she will find help. Twin agreed to help move the entire Soul Forge to the Meadow's domain and remains at the forge while Ilea heads for the Forged Dome.",
+            "id": "twin",
+            "name": "Twin",
+            "reveal": {
+              "chapter": 66
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dwarf of the Pit, a steel creator mage at level 330 who fights at champion level. He faces Ilea, fighting as Lilith, in the Forged Dome, opening with a beam of light and a storm of floating steel blades that pierce her armor. He bows to her before the bout and treats her as an opponent worth his full effort, calling himself of the North as she calls herself of the South.",
+            "id": "omdir-stonewirt",
+            "name": "Omdir Stonewirt",
+            "reveal": {
+              "chapter": 68
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Champion of the Forged Dome",
+              "The armored dwarf noble"
+            ],
+            "description": "The champion of the Forged Dome and effective leader of the Pit, the heavily armored dwarf noble seen there during the Soul Warden attack. A level 345 fighter, he arrives with seven war machines and carries a mace set with saw blades. He rules Ilea's bout a win but bans needles, then sets terms for a brawl in which she may use only her fists and healing, with the Talene iron key as her prize if she wins. He welcomes her proposal of an alliance between the Pit, Hallofort and Ravenhall. His great-grandfather was among the long-held captives Ilea had freed.",
+            "id": "helwort-maulstrom",
+            "name": "Helwort Maulstrom",
+            "reveal": {
+              "chapter": 69
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dwarf noble of the Pit who keeps the Talene Iron Key in his vault. An ancestor of his family had warned never to give it away, but after Helwort Maulstrom's defeat he hands the key over to Ilea, and the Pit compensates him for it.",
+            "id": "charon",
+            "name": "Charon",
+            "reveal": {
+              "chapter": 71
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A perceptive, bow-carrying ranger of Ravenhall's Shadows who knew Ilea in earlier days. Her former team leader, now a member of the Ravenhall council, asks her team to escort the council, and Claire leads them to a hidden gate that carries them north into the Meadow's domain. There the ranger is staggered by the powerful presences around her and senses that Ilea now feels far stronger, and less human, than the woman she remembers.",
+            "id": "the-shadow-ranger",
+            "name": "The Shadow ranger",
+            "reveal": {
+              "chapter": 73
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0HLTQQG98",
+            "type": "community"
+          }
+        ],
+        "work": "azarinth-healer-book-seven"
+      }
+    },
     "azarinth-healer-book-six": {
       "characters": {
         "characters": [
