@@ -1861,15 +1861,6 @@
             "role": "minor"
           },
           {
-            "description": "Sophia is Sal's mother and Petro's partner. Her metamorphosis treatment has succeeded, and she now goes after higher-rarity materials.",
-            "id": "sophia",
-            "name": "Sophia",
-            "reveal": {
-              "chapter": 55
-            },
-            "role": "minor"
-          },
-          {
             "description": "Machina is a Paradox officer. After Enigma's briefing for the Harbor District operation, Machina escorts the Mythic Guild team to the armory and to their transport, and hands out their communication earpieces and mission gear.",
             "id": "machina",
             "name": "Machina",
