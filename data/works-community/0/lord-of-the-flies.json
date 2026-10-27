@@ -1396,6 +1396,489 @@
       }
     },
     "loyalists": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Salvatore Argento"
+            ],
+            "description": "Sal is a Quest Academy student, a Mythcrafter from the family behind the Argento Auction House, and guildmaster of the Mythic Guild, which now holds Tier 8. A month in hospital after the recent demon invasion has left him behind in his classes, but his solo kill of a commander demon during that attack, which saved Villa, has been formally credited. He has been quietly developing the Legion System, a reworked version of the Quest System still in testing, along with an improved ability assessment. His first guild priority for the semester is a line of uniforms that can evolve, and he wants to qualify for the Strategic Warfare module.",
+            "id": "sal-argento",
+            "name": "Sal Argento",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Upgrade is the Mythic Guild's Crafting advisor and one of Sal's lecturers, teaching him Ethical Crafting and Essence Programming. As Sal lays out his uniform program, he places her with fellow advisor Vanessa at the front of the line for Mythic-grade equipment.",
+            "id": "upgrade",
+            "name": "Upgrade",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Vanessa is one of the Mythic Guild's advisors. When Sal sets out his plans for evolving uniforms, he ranks her alongside Upgrade as the first people who should receive Mythic-grade gear, ahead of the rest of the guild.",
+            "id": "vanessa",
+            "name": "Vanessa",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Villa is a Mythic Guild advisor who is also connected to the Reavers Guild. Sal saved her life in the invasion by killing a commander demon single-handedly. Because of her Reavers ties, he intends to give her Legendary gear carrying an evolutionary rune instead of a Mythic piece that might end up strengthening the Reavers.",
+            "id": "villa",
+            "name": "Villa",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Petro is someone Sal names as able to help him acquire businesses, after his Guild Mastery lecturer suggests the guild could eventually grow by taking over smaller guilds.",
+            "id": "petro",
+            "name": "Petro",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Quest runs one of the master classes on Sal's schedule. Sal regards its requirement as already satisfied by a confidential joint project, the Legion System, which reworks Quest's own Quest System and is still in its testing phase.",
+            "id": "quest",
+            "name": "Quest",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Coach runs one of the master classes on Sal's schedule. Sal considers its goal already met through an upgraded ability assessment he developed as part of a confidential project, so he puts the Forge master class ahead of it this semester.",
+            "id": "coach",
+            "name": "Coach",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Jez is Sal's Guild Mastery lecturer, a blunt instructor who goes over the guild's invasion report with him one-on-one. Jez credits Sal's solo commander kill, confirms the Mythic Guild sits at Tier 8, and cautions that his plan for evolving uniforms is too ambitious for a guild at that level.",
+            "id": "jez",
+            "name": "Jez",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Chatfield is one of Sal's instructors at Quest Academy and teaches the Dungeon Delving module.",
+            "id": "chatfield",
+            "name": "Chatfield",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Harlan Geist is one of Sal's instructors at Quest Academy and teaches Demonic Behavior and Analysis.",
+            "id": "harlan-geist",
+            "name": "Harlan Geist",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Fabrizia"
+            ],
+            "description": "Fabi is a Crafter and one of Sal's peers within the Mythic Guild.",
+            "id": "fabi",
+            "name": "Fabi",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Barry Francis is a Controller who uses illusions and flight constructs and acts as an informal talent scout for the Mythic Guild, which lacks Defense and Healer members. He has become surprisingly friendly with Erika Clifton, talked her into training as an Offense, and raises the idea of recruiting her once Sakura graduates, though Sal declines to commit.",
+            "id": "barry-francis",
+            "name": "Barry Francis",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Erika Clifton is a mind controller who attacked Sal at an earlier point. She is now cooperative, still wears her restraining locket, and has dropped the Controller class to train as an Offense on Barry's advice. Neuro and Prestige were her former Controller instructors. She weighs in on Barry's scouting, recommending the Healer Elina and refusing to team with Thorsten Valve.",
+            "id": "erika-clifton",
+            "name": "Erika Clifton",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Neuro is one of the two Controller instructors, along with Prestige, who taught Erika Clifton before she left the Controller class.",
+            "id": "neuro",
+            "name": "Neuro",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Hannah is one of the Mythic Guild's current members and fills its Defense role. Since the guild has only thin coverage in Defense and healing, Barry is looking over classmates who could strengthen those positions.",
+            "id": "hannah-unruh",
+            "name": "Hannah",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Rochelle is a current member of the Mythic Guild and serves as its Healer. With too few Healers and Defense players on the roster, Barry is scouting the class for people who could back her up or form a second team.",
+            "id": "rochelle-de-verdon",
+            "name": "Rochelle",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Elina is a Healer whose ability converts sunlight into essence, which leaves her weaker after dark. She wants to help people, and Erika recommends her to Barry as a Healer for a second Mythic Guild team.",
+            "id": "elina-lux",
+            "name": "Elina",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Sakura is the Mythic Guild's current Offense member. She is set to graduate at the end of the semester, which is why Barry has already started thinking about who could take over her role.",
+            "id": "sakura",
+            "name": "Sakura",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "O'Brien is a student who rotates between classes. He comes up while Barry reviews the people around the Mythic Guild and the gaps in its roster.",
+            "id": "john-obrien",
+            "name": "O'Brien",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Divinity is a fellow student who can see the future and is one of Sal's regular sparring partners. The night before his first Dungeon Delving class, Sal beat her six to nothing, an edge he puts down to stats gained through Assimilation while fighting without any equipment.",
+            "id": "divinity-khan",
+            "name": "Divinity",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Chris Spectre is one of the Savior students who call out a declaration as they enter the Dungeon Delving dungeon. According to Erika, his ability is called Adapt.",
+            "id": "chris-spectre",
+            "name": "Chris Spectre",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Derek Norman is a Defense student ranked among the top three in his year. He is one of the Savior students who shout a declaration as they head into the Dungeon Delving dungeon.",
+            "id": "derek-norman",
+            "name": "Derek Norman",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Jackal is a mechanical drone belonging to Sal, which he brings along to his first Dungeon Delving class.",
+            "id": "jackal",
+            "name": "Jackal",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Prime is one of the systems, alongside Athena, Arkwright and Nexus, that support Sal's Legion System.",
+            "id": "prime",
+            "name": "Prime",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Blathnaid is a student whose ability has Architect as its final form. Separately, Architect is also one of the abilities on the table when Sal sketches options for Upgrade's drone sleeve, appearing in a spider design meant for crafting.",
+            "id": "blathnaid-clean",
+            "name": "Blathnaid",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Doc Ameye is a supplier who ships crafting materials to Sal. A delivery from him is on hand as Sal and Upgrade begin designing her drone sleeve in the guild workshop.",
+            "id": "doc-ameye",
+            "name": "Doc Ameye",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Marcus is linked to the Harmony Guild, which gives aid to the refugees living on the Darwin Cruises. When Upgrade describes the refugees' conditions to Sal, she is critical of both Marcus and his guild.",
+            "id": "marcus",
+            "name": "Marcus",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Robert is responsible for re-homing refugees from the Darwin Cruises, moving about five thousand people into new homes each year. Upgrade mentions this work while describing the refugee situation to Sal.",
+            "id": "robert",
+            "name": "Robert",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Mythical void reaper"
+            ],
+            "description": "Slinky is the Mythical void reaper, a Mythic-grade drone sleeve that Sal and Upgrade built around her mechanical arm over roughly 180 steps. A snake-like void seeker core lives inside it; the core shrank away from Sal's Mythcrafter essence and comes across as timid. Its Capacitor already holds twice what Sal's does, and Upgrade gives it the nickname Slinky.",
+            "id": "slinky",
+            "name": "Slinky",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Gallant is one of the figures Erika uses in her strategy-simulator replay of the invasion. Pairing him with Sal and Michaela is part of the approach that lets her set a new low casualty record.",
+            "id": "gallant",
+            "name": "Gallant",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Michaela is one of the fighters from the invasion whom Erika uses in her strategy-simulator replay. Deploying her together with Sal and Gallant helps Erika set a new low casualty record of eleven.",
+            "id": "michaela",
+            "name": "Michaela",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Chronos is a Hero frozen in time while holding back a dragon. Freeing him would set off a countdown that would destroy the surrounding boroughs, so the dragon must stay suspended. His mind is still alive but runs extremely slowly. Erika's father read his thoughts for the first three years and found only apologies to his wife and daughter, not the speech about duty given in the official account.",
+            "id": "chronos",
+            "name": "Chronos",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Alex is a Mythic Guild member connected to the guild's elixir machine, assisted by Anders, whom he calls Royce. He has invited people from the Alchemy guilds to inspect the machine and told them Sal approved the visit, although Sal had not been told about it.",
+            "id": "alex-farrell",
+            "name": "Alex",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Royce"
+            ],
+            "description": "Anders works with Alex, who calls him Royce. He tells Sal that the Mastery elixir is now being marketed as the Maestro Mark and is going through formal accreditation with the Alchemy guilds, a route Quest Academy prefers because the Crafting Department shares profits with the Mythic Guild. He teams up with Sal and Barry for Harlan's scuttler-dungeon manual project.",
+            "id": "anders",
+            "name": "Anders",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Maxine Volta is a student who questions the lecturer Harlan about commander-class demons and is visibly unsettled by his answers. Earlier, in the strategy simulator, Erika had considered putting her in as a stand-in for Chronos during a rescue scenario. Sal suspects Barry will try to recruit her.",
+            "id": "maxine-volta",
+            "name": "Maxine Volta",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Anthony is a student regarded as a savant at essence programming. During Ethical Crafting, Sal lets him have the use of a prized multi-tool workbench, a scarce type of equipment produced only by House of Krauss.",
+            "id": "anthony-mcguinn",
+            "name": "Anthony",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Jack Allen is a rune carver who can produce the runes for high-tier self-replenishing cores. Sal thinks of him when a student's essence-leakage converter turns out to be unworkable at small scale without such cores.",
+            "id": "jack-allen",
+            "name": "Jack Allen",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Doctor North"
+            ],
+            "description": "Chemist, also known as Doctor North, is the highest-ranked Alchemist in Haven. She and her colleague Brewer come to the workshop to examine the Mythic Guild's elixir machine. She knows Alex from the past and doubts his claims, and the visit turns into a tense negotiation over recipes, patents and ingredient sales.",
+            "id": "chemist",
+            "name": "Chemist",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Brewer is a Haven Alchemist who comes to the workshop with Chemist, at Alex's invitation, to look over the Mythic Guild's elixir machine. The pair want to test its base recipes, and the visit becomes a drawn-out negotiation with Sal and Alex.",
+            "id": "brewer",
+            "name": "Brewer",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Mica is one of the Mythic Guild's Offense members, alongside Sakura.",
+            "id": "mica",
+            "name": "Mica",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Enigma is a senior figure whose master-class training with Barry is still awaiting confirmation. Quest's assistant also reports that Quest and Coach plan to show Athena, the diagnostic training machine, to Enigma and to Eclipse.",
+            "id": "enigma",
+            "name": "Enigma",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Grant is a researcher now based at Quest Academy, where he works on weaves in a private room filled with his research. Sal has not yet introduced him to Athena.",
+            "id": "grant",
+            "name": "Grant",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Joanne is Quest's assistant and handles his scheduling. Answering Sal's message about training, she reports that Rochelle has a confirmed master class with Eclipse next semester and that Barry's training with Enigma is still pending. She adds that Quest and Coach will show Athena to Enigma and Eclipse, and that Athena will soon be moved out of Sal's dorm.",
+            "id": "joanne",
+            "name": "Joanne",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Nemesis"
+            ],
+            "description": "Steph Parker, known as Nemesis, is Erika Clifton's mother. She is a Controller and Researcher who was seen at the gala, and she now co-runs a master class with Jack Allen.",
+            "id": "steph-parker",
+            "name": "Steph Parker",
+            "reveal": {
+              "chapter": 39
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Paul Masters"
+            ],
+            "description": "Posty, whose real name is Paul Masters and whose nickname comes from Outpost, leads a Paradox Guild Support team and has the Construct ability. He admires the rock tower Sal raised during an earlier excursion. In Advanced War Zone he takes Sal, Blathnaid and Anna Konijnendijk to build an outpost, and Sal insists on lending him the Architect's Ambition gloves despite his alarm.",
+            "id": "posty",
+            "name": "Posty",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Anna Konijnendijk is a second-year Support student who uses Conjure to summon three familiars: a crow, a snake and a horse. She keeps her blueprints on parchment. In Advanced War Zone she is placed on Posty's outpost team with Sal and Blathnaid.",
+            "id": "anna-konijnendijk",
+            "name": "Anna Konijnendijk",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Seth McDuffee is a student who can create clones of himself, and his name is on Sal's list of people to receive guild sleeves. Enigma picks him as one of five Controllers for the Paradox-supervised clearing exercise in Advanced War Zone, and one of his clones scouts the inside of a building before the group attacks.",
+            "id": "seth-mcduffee",
+            "name": "Seth McDuffee",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Lucia Hernandez is a Body Manipulator student. During the Paradox-run clearing exercise in Advanced War Zone, one of the Paradox members selects her along with Kyndra Scott and Darren Lenihan as the exercise's Body Manipulators.",
+            "id": "lucia-hernandez",
+            "name": "Lucia Hernandez",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Yasmin Darya is a Defense student with a Restrict-type ability. While the outpost is going up, Blathnaid puts her forward as a possible recruit for the Mythic Guild, which still needs Defense members.",
+            "id": "yasmin-darya",
+            "name": "Yasmin Darya",
+            "reveal": {
+              "chapter": 46
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Machina is a Paradox officer. After Enigma's briefing for the Harbor District operation, Machina escorts the Mythic Guild team to the armory and to their transport, and hands out their communication earpieces and mission gear.",
+            "id": "machina",
+            "name": "Machina",
+            "reveal": {
+              "chapter": 76
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:uk:B0H2PHD2HB",
+            "type": "community"
+          }
+        ],
+        "work": "loyalists"
+      },
       "recaps": {
         "ending": "The Mythic Guild completes its first field mission, and its members kill no one. It recovers the stolen barrier-technology shipment, then drops the plan to stay quiet and helps Paradox when the Loyalists blow up the labs on the Crusader. Enigma names the guild a strategic partner and asks for further versions of the Death Net. Marcus of the Harmony Guild is implicated through the Bastion drive and the Loyalists' recovered memories, and he is probably the son of the Bastion infiltrator, who has still not been caught. Paradox intends to charge Marcus with harboring a fugitive at the very least, and Harmony faces investigation. Sal keeps his Skill Paragon a secret. Paradox's Machina linked his visor to Doc Ameye but accepted his explanation. He commits to building a self-sufficient town for Darwin Cruises refugees on warehouse land through a new holding company, Artemis Ventures. The Sovereign drone and work on the Death Net are still unfinished. The guild is very wealthy and owns Daedalus, the Pantheon machines and Dungeon 7B-1. Vanessa and Upgrade stay on as advisors and Petro handles finances. Divinity and Maxine are full members, Barry is a key operator who still cannot use Catalyst, and Erika has worked with the guild, though her formal membership is unclear. Hannah is hurt by Marcus's exposure and appears on the Marcus List with Elina, Rochelle and others. Gallant remains hostile, Chronos is still suspended, and unrest among the Darwin Cruises refugees continues.",
         "in_short": "Mythic Guild leader Sal Argento falls behind on classes while expanding his Tier 8 guild through crafting, recruitment and money. He builds Upgrade's Mythic arm, Slinky, and a Legendary sword for Maxine Volta, Chronos's daughter. He also closes a white-label elixir deal and, working with Fabi, assembles the Daedalus workbench. His Skill Master ability evolves into Skill Paragon, which lets him read and rebuild other people's weaves, and he keeps this secret. During a Paradox exercise he and Blathnaid build the Death Net, a self-growing outpost. That leads to a supplier contract, a guild-owned dungeon, and Divinity Khan joining once her scholarship is secured. Vanessa brings back a dungeon heart, the guild's standing balance reaches about 160 million dollars, and Sal repairs Maxine's broken weave so she can join. Paradox asks the guild to find stolen barrier cargo, and the clues lead to a Bastion pod aboard the Loyalists' ship, the Crusader. On the raid the team recovers the cargo and then helps Paradox after the Loyalists bomb their own labs, subduing them without killing anyone. A decrypted drive and recovered memories point to Marcus of the Harmony Guild as the likely son of the Bastion infiltrator. Enigma makes the guild a strategic partner, and Sal decides to build a self-sufficient town for the refugees.",
