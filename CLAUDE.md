@@ -85,13 +85,18 @@ rejects.
 ## App-filed issues (route.yml)
 
 An AudioSilo Bridge files characters/recaps issues through the AudioSilo GitHub
-App, and they arrive label-less. `route.yml` (core's, with `[characters] ` and
-`[recaps] ` as the title-prefix allowlist and a cap of 50 open App-filed issues
-per account) labels them with GITHUB_TOKEN, which starts no workflow, and calls
-`intake.yml` through its `workflow_call` entry in the same run. The App id is a
-routing hint, not trust; holds (`intake:held`) and the denylist
-(`.github/intake-denylist`) are described in core's GOVERNANCE.md. Keep the two
-route.yml files in step.
+App, and they arrive label-less. `route.yml` is a thin caller of core's
+`route-reusable.yml` (the one copy of the routing, shared with core's own
+route.yml), called at a pinned full commit sha with `[characters] ` and
+`[recaps] ` as the title-prefix allowlist (`routes`) and a cap of 50 open
+App-filed issues per account; it labels the issue with this repository's
+GITHUB_TOKEN, which starts no workflow, and route.yml then calls OUR
+`intake.yml` through its `workflow_call` entry in the same run. A re-run is a
+no-op once the issue carries a `data:` label, `intake:held`, an intake-bot
+comment or an intake pull request. The App id is a routing hint, not trust;
+holds (`intake:held`) and the denylist (`.github/intake-denylist`) are described
+in core's GOVERNANCE.md. When core changes route-reusable.yml, bump the sha in
+route.yml in its own pull request, as with CORE_REF (dependabot ignores it).
 
 ## The tooling checkout (both workflows)
 
