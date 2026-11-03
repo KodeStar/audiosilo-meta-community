@@ -419,7 +419,7 @@
             "id": "lila-bard",
             "name": "Delilah Bard",
             "reveal": {
-              "chapter": 2
+              "chapter": 4
             },
             "role": "protagonist"
           },
@@ -428,7 +428,7 @@
             "id": "rhy-maresh",
             "name": "Rhy Maresh",
             "reveal": {
-              "chapter": 3
+              "chapter": 7
             },
             "role": "supporting"
           },
@@ -437,7 +437,7 @@
             "id": "king-maxim",
             "name": "King Maxim Maresh",
             "reveal": {
-              "chapter": 3
+              "chapter": 7
             },
             "role": "minor"
           },
@@ -446,7 +446,7 @@
             "id": "queen-emira",
             "name": "Queen Emira Maresh",
             "reveal": {
-              "chapter": 3
+              "chapter": 7
             },
             "role": "minor"
           },
@@ -455,7 +455,7 @@
             "id": "holland",
             "name": "Holland",
             "reveal": {
-              "chapter": 4
+              "chapter": 10
             },
             "role": "antagonist"
           },
@@ -464,7 +464,7 @@
             "id": "athos-dane",
             "name": "Athos Dane",
             "reveal": {
-              "chapter": 4
+              "chapter": 10
             },
             "role": "antagonist"
           },
@@ -473,7 +473,7 @@
             "id": "astrid-dane",
             "name": "Astrid Dane",
             "reveal": {
-              "chapter": 4
+              "chapter": 10
             },
             "role": "antagonist"
           },
@@ -482,7 +482,7 @@
             "id": "barron",
             "name": "Barron",
             "reveal": {
-              "chapter": 3
+              "chapter": 7
             },
             "role": "minor"
           },
@@ -491,7 +491,7 @@
             "id": "ned-tuttle",
             "name": "Ned Tuttle",
             "reveal": {
-              "chapter": 2
+              "chapter": 4
             },
             "role": "minor"
           },
@@ -500,7 +500,7 @@
             "id": "tieren-serense",
             "name": "Tieren Serense",
             "reveal": {
-              "chapter": 5
+              "chapter": 15
             },
             "role": "supporting"
           },
@@ -509,7 +509,7 @@
             "id": "george-iii",
             "name": "King George III",
             "reveal": {
-              "chapter": 2
+              "chapter": 4
             },
             "role": "minor"
           }
@@ -533,49 +533,49 @@
             "scope": "book",
             "text": "Four Londons sit stacked on the same spot in different worlds. Grey London has forgotten that magic exists; Red London is rich with it; White London is a hard, cold place where a dying magic must be taken by force; and Black London was consumed by magic and sealed off long ago, so completely that its name is barely spoken. Only Antari, blood magicians marked by a single solid black eye, can pass between them. Kell is one of two living Antari. He was brought into the Red London palace as a small child and raised beside Prince Rhy, and he serves the Maresh crown as its official messenger, carrying letters between the rulers of the three worlds still open. He also breaks the law he is meant to uphold, smuggling small objects across the boundaries for collectors who can never travel themselves. In Grey London, meanwhile, a thief named Delilah Bard robs a carriage at knifepoint. She has grown up on the street, dresses as a boy, and wants a ship of her own more than she wants safety.",
             "through": {
-              "chapter": 2
+              "chapter": 6
             }
           },
           {
             "scope": "book",
             "text": "Kell's rounds take him first to Grey London, where he delivers the crown's letters to an ailing King George, who is the only person in that world who knows what Kell is, and sells a small enchanted stone to Ned Tuttle, an eager young collector. He then crosses to White London, a grey and brutal city ruled by the twins Athos and Astrid Dane, who hold power by fear and keep the world's other Antari, Holland, bound to their service by a spell carved into his skin. Holland tells Kell plainly that the difference between their two lives is luck and nothing else. On his way out of the city, a stranger presses a package on Kell as payment for a delivery. Inside is a black stone marked with an unfamiliar symbol, and the magic in it does not belong to any of the three worlds still standing. It is a piece of Black London, and Kell has just carried it home.",
             "through": {
-              "chapter": 4
+              "chapter": 14
             }
           },
           {
             "scope": "book",
             "text": "Kell realizes what the stone is and finds that he cannot simply be rid of it: it does what its holder asks and takes something in return, and it does not want to be put down. Word of it moves faster than he does. Attacked in Red London and unable to explain himself to the crown without admitting to years of smuggling, he crosses into Grey London to get the stone out of a living world, and there Delilah Bard picks his pocket and takes it. She has no idea what she has stolen, only that it is worth something, and when she tests it the stone answers her. Kell hunts her down through Grey London while the people who want the stone hunt them both.",
             "through": {
-              "chapter": 6
+              "chapter": 23
             }
           },
           {
             "scope": "book",
             "text": "Kell finds Lila and, after a short and hostile negotiation, the two of them end up working together: she will not give the stone back and he cannot leave without it. Holland arrives in Grey London under orders to bring the stone to the Danes, and the hunt turns lethal for anyone standing near either of them. Lila, who has spent her life wanting a bigger world, now has proof that there are three more of them, and she refuses to be left behind. She and Kell escape together with the stone, and Kell brings her across into Red London, which no one from her world has any business seeing.",
             "through": {
-              "chapter": 8
+              "chapter": 29
             }
           },
           {
             "scope": "book",
             "text": "In Red London, Kell and Lila conclude that the stone cannot be destroyed by any magic they have, and that the only place it can safely go is back to Black London, through a door no one has opened in centuries. The stone keeps working on whoever holds it, offering exactly what that person most wants, and the hunt for it has already cost Lila the closest thing she had to a friend in her own world: Barron, the tavern keeper who gave her a room, is dead. Rhy is at the center of the danger without being told why, the crown's guard is closing on Kell, and the Danes are not going to stop. Kell decides to carry the stone to White London himself and end the matter at its source, and Lila, who has no intention of being sent home, goes with him.",
             "through": {
-              "chapter": 10
+              "chapter": 39
             }
           },
           {
             "scope": "book",
             "text": "White London is worse than Kell described it, and the Danes are ready for them. Kell is taken and held by Athos, who is expert at making a bound person obey, and the stone changes hands. Lila, underestimated because she is a Grey Londoner with no magic to speak of, gets close enough to Athos to put a knife in him and kills him. With Athos dead, Kell is able to break the spell that has held Holland in service for years, though Holland has little left to be grateful with. The victory is incomplete: Astrid is not in her city. She has already crossed into Red London, and she went for the one person Kell would trade anything to protect.",
             "through": {
-              "chapter": 12
+              "chapter": 50
             }
           },
           {
             "scope": "book",
             "text": "Kell and Lila return to Red London to find that Astrid Dane has taken Prince Rhy's body as her own, intending to trade a dying world for a living one. Kell has no way to drive her out and no way to spare his brother: to kill her he has to kill Rhy. He does it, and then uses Antari blood magic to bind his own life to Rhy's, dragging him back. Rhy lives, but the two of them now share pain and Rhy cannot die while Kell survives, a bond neither the king nor the queen knows about. With Holland mortally wounded, Kell binds the black stone into him and pushes him through the door into Black London, then seals the passage with his own blood, putting the stone beyond anyone's reach at the cost of the man who carried it. Red London keeps its heir and never learns the price. Kell's travelling is now something the crown means to control, and Lila, offered a place in a world full of magic, chooses instead to leave for a ship and a life of her own.",
             "through": {
-              "chapter": 14
+              "chapter": 60
             }
           }
         ],
@@ -2983,7 +2983,7 @@
             "id": "holland",
             "name": "Holland",
             "reveal": {
-              "chapter": 2
+              "chapter": 6
             }
           },
           {
@@ -2991,7 +2991,7 @@
             "id": "osaron",
             "name": "Osaron",
             "reveal": {
-              "chapter": 3
+              "chapter": 11
             },
             "role": "antagonist"
           },
@@ -3000,7 +3000,7 @@
             "id": "ojka",
             "name": "Ojka",
             "reveal": {
-              "chapter": 3
+              "chapter": 11
             },
             "role": "minor"
           },
@@ -3009,7 +3009,7 @@
             "id": "tieren-serense",
             "name": "Tieren Serense",
             "reveal": {
-              "chapter": 2
+              "chapter": 6
             },
             "role": "supporting"
           },
@@ -3018,7 +3018,7 @@
             "id": "king-maxim",
             "name": "King Maxim Maresh",
             "reveal": {
-              "chapter": 2
+              "chapter": 6
             },
             "role": "minor"
           },
@@ -3027,7 +3027,7 @@
             "id": "queen-emira",
             "name": "Queen Emira Maresh",
             "reveal": {
-              "chapter": 2
+              "chapter": 6
             },
             "role": "minor"
           },
@@ -3036,7 +3036,7 @@
             "id": "hastra",
             "name": "Hastra",
             "reveal": {
-              "chapter": 3
+              "chapter": 11
             },
             "role": "minor"
           },
@@ -3045,7 +3045,7 @@
             "id": "prince-col",
             "name": "Prince Col",
             "reveal": {
-              "chapter": 5
+              "chapter": 22
             },
             "role": "minor"
           },
@@ -3054,7 +3054,7 @@
             "id": "princess-cora",
             "name": "Princess Cora",
             "reveal": {
-              "chapter": 5
+              "chapter": 22
             },
             "role": "minor"
           },
@@ -3063,7 +3063,7 @@
             "id": "kisimyr-vasrin",
             "name": "Kisimyr Vasrin",
             "reveal": {
-              "chapter": 6
+              "chapter": 29
             },
             "role": "minor"
           },
@@ -3072,7 +3072,7 @@
             "id": "jinnar",
             "name": "Jinnar",
             "reveal": {
-              "chapter": 6
+              "chapter": 29
             },
             "role": "minor"
           }
@@ -3103,35 +3103,35 @@
             "scope": "book",
             "text": "Four months on, Lila Bard is at sea. She has talked her way onto the Night Spire, a privateer ship licensed by the Arnesian crown, whose captain, Alucard Emery, is an exiled Red London noble with an eye for magic and for people who are hiding something. She is learning the trade, learning to fight, and quietly teaching herself magic. In Red London, Kell is under a much shorter leash: the king has curtailed his travelling, the court blames him for what nearly happened to the prince, and the bond he made means anything he suffers Rhy suffers too. Rhy, unable to die and unable to say so, is throwing himself into organizing a great international magicians' tournament to be hosted by his city. And in the dead world beyond the sealed door, Holland is not dead. Starving among the ruins of Black London, he is found by something that speaks to him and offers him a bargain.",
             "through": {
-              "chapter": 2
+              "chapter": 10
             }
           },
           {
             "scope": "book",
             "text": "The thing that found Holland is Osaron, the living magic of Black London: a will without a body, ancient and patient, that trades in offers. It makes Holland whole again and gives him what he has wanted his whole life, his own city restored, and in return it means to be carried into a living world. Holland returns to White London, takes its throne, and watches the grey city come back to life around him. He raises up a fighter named Ojka, giving her strength she was never born with, and sends her out to find Kell, because what Osaron needs is Antari blood. Meanwhile the Night Spire makes for Red London: Alucard has business there and the tournament is drawing competitors and royal delegations from Faro and Vesk. Lila, who has never been near a magical contest in her life, decides she is going to enter it.",
             "through": {
-              "chapter": 4
+              "chapter": 21
             }
           },
           {
             "scope": "book",
             "text": "The city fills up for the tournament. Kell, forbidden to compete as himself and desperate for anything that is his own, enters under a false name and a mask, with Rhy's collusion. Lila does the same, buying her way into another competitor's place. Alucard's arrival reopens old ground with Rhy, whom he knew well before he was exiled from the country, and puts him at odds with Kell immediately. Lila and Kell find each other again in the middle of it, both lying about what they are doing there. Alucard, who sees magic as threads of color, has already worked out that Lila is far more than a clever thief with a knife, and presses her about it.",
             "through": {
-              "chapter": 6
+              "chapter": 33
             }
           },
           {
             "scope": "book",
             "text": "The tournament runs through its rounds in front of the visiting courts, with Kell and Lila both advancing behind their disguises and neither able to say so aloud. In the process Lila's secret comes apart: she is Antari, the third living one, self-taught and largely untrained, and Kell and Alucard both learn it. Kell, who has spent the book being told what he is not allowed to be, has to decide what to do about a second unregistered Antari in a city that already fears the one it has. In White London, Holland's preparations are finished and Ojka has found what she was sent for; the attack on Red London is no longer a question of whether but of when, and it will come while the whole city is watching the arena.",
             "through": {
-              "chapter": 8
+              "chapter": 45
             }
           },
           {
             "scope": "book",
             "text": "The tournament ends in disaster rather than a ceremony. Ojka draws Kell away from the crowds and nearly kills him; Lila reaches them and kills her. It is not enough, because Ojka was only the opening move. Holland comes for Kell himself, overpowers him and drags him through to White London, since Osaron needs an Antari and Kell's blood will open a door into a living world. Inside the palace, Rhy is stabbed during the confusion and does not die, because he cannot while Kell lives; the secret of the bond, which the crown has guarded for months, is out. Lila, no longer hiding what she is, makes Alucard turn the Night Spire toward White London. The book closes with Kell a prisoner, Rhy wounded and effectively alone at the head of a frightened court, Holland restored and serving no one but the thing he bargained with, and Osaron ready to cross.",
             "through": {
-              "chapter": 10
+              "chapter": 60
             }
           }
         ],
