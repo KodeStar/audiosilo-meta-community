@@ -2771,7 +2771,7 @@
             "id": "george-paston",
             "name": "George Paston",
             "reveal": {
-              "chapter": 2
+              "chapter": 7
             },
             "role": "supporting"
           },
@@ -2780,7 +2780,7 @@
             "id": "minny-grey",
             "name": "Minny Grey",
             "reveal": {
-              "chapter": 2
+              "chapter": 7
             },
             "role": "minor"
           },
@@ -2789,7 +2789,7 @@
             "id": "doctor-grey",
             "name": "Doctor Grey",
             "reveal": {
-              "chapter": 2
+              "chapter": 7
             },
             "role": "minor"
           }
@@ -2813,28 +2813,28 @@
             "scope": "book",
             "text": "Frederick Clegg, a withdrawn municipal clerk and butterfly collector, has long watched art student Miranda Grey without approaching her. A large lottery win frees him from work and family oversight. He buys an isolated house, converts its cellar into a locked living space, abducts Miranda, and tells himself that once she knows him she will choose to stay. Miranda alternates between negotiation and resistance, demanding release and rejecting the idea that gifts can excuse captivity. She attempts to flee and tries to reach outsiders, but Frederick anticipates or defeats her efforts. His insistence on appearing gentle coexists with complete control over her movement, privacy, and access to help. Miranda eventually becomes dangerously ill. Frederick delays seeking a doctor because disclosure would expose him, and his limited measures fail. When he finally returns to the cellar after trying to obtain medicine, Miranda is dead.",
             "through": {
-              "chapter": 1
+              "chapter": 6
             }
           },
           {
             "scope": "book",
             "text": "Miranda's diary retells the captivity from inside the locked room and exposes the gulf between Frederick's account and her experience. She records practical escape plans, her attempts to understand and influence him, and her growing recognition that his idea of love leaves no room for her independent will. To keep her mind active, she revisits her life before the abduction: her ambitions as an artist, her discomfort with her privileged background, her family, and her intense friendship with the older painter George Paston. She subjects her own tastes and behavior to the same scrutiny she directs at Frederick. Moments when she pities her captor never alter her judgment that he must release her. As her illness worsens, the diary becomes fragmented. She remains hopeful that treatment or rescue will come, but her entries cease before either does.",
             "through": {
-              "chapter": 2
+              "chapter": 53
             }
           },
           {
             "scope": "book",
             "text": "Frederick discovers that Miranda has died. He initially imagines that the event has ended his own life as well and considers suicide, yet his response soon returns to concealment and self-protection. He places her body in a box and buries it in the garden, removing the immediate evidence of his crime. Reading Miranda's diary shows him how clearly she understood and disliked him. Instead of recognizing her account as proof of the harm he caused, he focuses on her private criticism and persuades himself that she was never worthy of the ideal he had created. This interpretation allows him to treat her death as a disappointment inflicted upon him rather than the consequence of abduction and neglected illness.",
             "through": {
-              "chapter": 3
+              "chapter": 54
             }
           },
           {
             "scope": "book",
             "text": "Frederick abandons the idea of suicide. Back in London, he watches a young shop assistant named Marian whose resemblance to Miranda attracts him, while her different social position makes her seem easier to manage. He begins thinking through a second abduction and decides that he can avoid his earlier difficulties by choosing differently and imposing stricter control. Miranda's death has not interrupted the pattern of collecting and possession; he has absorbed it as a practical lesson. The novel ends with Frederick preparing to repeat the crime, now with greater experience and no acceptance of responsibility for the woman buried at his house.",
             "through": {
-              "chapter": 4
+              "chapter": 55
             }
           }
         ],

@@ -2428,7 +2428,7 @@
             "id": "tieren-serense",
             "name": "Tieren Serense",
             "reveal": {
-              "chapter": 2
+              "chapter": 12
             },
             "role": "supporting"
           },
@@ -2437,7 +2437,7 @@
             "id": "hastra",
             "name": "Hastra",
             "reveal": {
-              "chapter": 2
+              "chapter": 12
             },
             "role": "minor"
           },
@@ -2446,7 +2446,7 @@
             "id": "maris-patrol",
             "name": "Maris Patrol",
             "reveal": {
-              "chapter": 8
+              "chapter": 60
             },
             "role": "supporting"
           },
@@ -2455,7 +2455,7 @@
             "id": "jasta",
             "name": "Jasta",
             "reveal": {
-              "chapter": 9
+              "chapter": 69
             },
             "role": "supporting"
           }
@@ -2486,49 +2486,49 @@
             "scope": "book",
             "text": "Osaron gets what it bargained for. Carried across on an Antari's power, it reaches Red London and finds a city rich with the magic it has been starving for, and it does not intend to leave. Black fog rolls up out of the river and through the streets, and the people it touches wake as its creatures, hollow-eyed and obedient. It offers itself to the city as a god arriving with gifts, and it does not understand why anyone refuses. Kell, still held in White London, is no longer of any use to it and escapes back toward home with Lila and Alucard, who came for him. Holland, whose bargain caused all of this and whose own city is alive and green for the first time in his life, is left with the consequences. In Red London the palace raises what defenses it has, the visiting Faroan and Veskan delegations are trapped inside with the royal family, and Rhy holds a court that is beginning to understand the size of what has arrived.",
             "through": {
-              "chapter": 2
+              "chapter": 18
             }
           },
           {
             "scope": "book",
             "text": "The city falls district by district. Osaron's fog spreads faster than anyone can ward against it, and the infected turn on the uninfected; the palace becomes an island behind a shield that costs a great deal of magic to hold. Osaron wants a body worthy of it and has decided that body is Kell's, and it alternates between offers and punishment to get one. Kell refuses, which does not help the people outside. Holland, half-destroyed and no longer of any interest to the thing he served, ends up inside the palace among the people with the best reason of anyone to kill him, and the alliance that forms is one nobody in the room wants: Kell, Lila, Rhy, Alucard and Holland, because Holland knows Osaron better than any of them. Tieren, who understands the balance of magic in a person better than anyone alive, works out what they are actually fighting and what it would take to stop it.",
             "through": {
-              "chapter": 4
+              "chapter": 33
             }
           },
           {
             "scope": "book",
             "text": "Every direct attempt fails. Osaron cannot be killed, because it is not alive in any sense that a weapon can address, and it cannot be starved while a whole city of magic is spread out beneath it. Holding the shield is draining the crown, the Sanctuary and the priests alike, and the losses inside the palace mount. The court's foreign guests turn from allies into a problem of their own. What emerges is that Osaron cannot be destroyed but might be contained: taken out of the air and the water and the people and put into something that can hold it. Nothing in Red London can do that. The only object anyone has heard of that might is not in any of the three worlds' treasuries but in the hands of a trader who answers to no crown at all.",
             "through": {
-              "chapter": 6
+              "chapter": 51
             }
           },
           {
             "scope": "book",
             "text": "The object is the Inheritor, an artifact built to draw magic out of a person or a thing and hold it, and it is aboard the Ferase Stras, a floating market that sails wherever it likes and sells what no one else will keep. Kell, Lila, Alucard and Holland leave the besieged city by sea to buy it, because the market's keeper does not deal in favors and will not come to them. Rhy stays behind, holding a court and a shield that are both failing, and paying the cost of every injury his brother takes on the voyage. At sea the four of them are forced to work as a crew, which means Kell and Alucard tolerating one another and all three of the others deciding, provisionally, what to do about Holland.",
             "through": {
-              "chapter": 8
+              "chapter": 68
             }
           },
           {
             "scope": "book",
             "text": "The market's keeper, Maris Patrol, is very old, entirely unimpressed by an Arnesian prince's authority, and unwilling to hand over an artifact of that kind for money. The Inheritor is bought at a personal price, and the party picks up a Veskan fighter named Jasta along the way. The journey back is not clean: Osaron has been extending its reach beyond the city, the crew is not united, and Holland's presence is a standing question none of them have answered. They return to a Red London in a much worse state than the one they left, with the shield close to collapse, the infected filling the streets, and the royal family's position untenable.",
             "through": {
-              "chapter": 10
+              "chapter": 82
             }
           },
           {
             "scope": "book",
             "text": "The plan requires bait. The Inheritor cannot be aimed at a fog or a river; Osaron has to be persuaded to come out of the city and into a vessel, which means offering it the one thing it has wanted since it arrived, an Antari body willing to take it in, and springing the trap close enough to touch. Working that out costs the defenders more people and more ground, the shield over the palace is failing, and the crown's authority is worth very little to a city that has watched its neighbors turned into something else. Kell and Lila are the only two who can hold the spell, Holland is the only one who knows Osaron from the inside, and none of the three of them is expected to walk away from it. What the plan does not solve is the part nobody says aloud: the Inheritor needs something living to hold what it takes.",
             "through": {
-              "chapter": 12
+              "chapter": 98
             }
           },
           {
             "scope": "book",
             "text": "Holland is the one who offers himself as the vessel. Osaron is drawn into him and destroyed with him, and Holland dies holding the power that ruined both of the worlds he belonged to. Kell and Lila carry his body back to White London, which Osaron's own bargain had already restored, and leave him in a world that is green again. Red London survives, badly damaged and full of its own dead. Rhy is crowned king of Arnes, with Alucard beside him, and takes on a city that watched its neighbors turned against it. Kell comes out of the fight with his magic damaged: crossing between worlds is no longer something he can simply do, and the role he was raised for no longer exists. Lila, openly the third Antari, is given a ship of her own to captain, and Kell leaves the palace to sail with her rather than remain the crown's instrument. The doors between the worlds are quiet, the survivors part without pretending it is forever, and the two of them put out to sea.",
             "through": {
-              "chapter": 15
+              "chapter": 126
             }
           }
         ],

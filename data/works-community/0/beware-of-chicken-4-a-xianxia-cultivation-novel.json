@@ -3160,7 +3160,7 @@
             "id": "jack-firebrace",
             "name": "Jack Firebrace",
             "reveal": {
-              "chapter": 2
+              "chapter": 11
             },
             "role": "protagonist"
           },
@@ -3169,7 +3169,7 @@
             "id": "michael-weir",
             "name": "Michael Weir",
             "reveal": {
-              "chapter": 2
+              "chapter": 11
             },
             "role": "supporting"
           },
@@ -3178,7 +3178,7 @@
             "id": "captain-gray",
             "name": "Captain Gray",
             "reveal": {
-              "chapter": 2
+              "chapter": 11
             },
             "role": "supporting"
           },
@@ -3187,7 +3187,7 @@
             "id": "elizabeth-benson",
             "name": "Elizabeth Benson",
             "reveal": {
-              "chapter": 3
+              "chapter": 23
             },
             "role": "protagonist"
           },
@@ -3196,7 +3196,7 @@
             "id": "francoise",
             "name": "Françoise",
             "reveal": {
-              "chapter": 3
+              "chapter": 23
             },
             "role": "supporting"
           },
@@ -3205,7 +3205,7 @@
             "id": "robert",
             "name": "Robert",
             "reveal": {
-              "chapter": 3
+              "chapter": 23
             },
             "role": "supporting"
           },
@@ -3214,7 +3214,7 @@
             "id": "jeanne-fourmentier",
             "name": "Jeanne Fourmentier",
             "reveal": {
-              "chapter": 4
+              "chapter": 29
             },
             "role": "supporting"
           }
@@ -3238,49 +3238,49 @@
             "scope": "book",
             "text": "In 1910, young Englishman Stephen Wraysford comes to Amiens to study textile production at René Azaire's factory. The Azaire home is respectable but tense: René fears labor unrest and dominates his younger wife, Isabelle, while his daughter Lisette tests Stephen's composure. Stephen discovers that Isabelle has secretly helped striking workers. Their sympathy grows into a passionate affair, and Isabelle leaves her husband to live with Stephen. The intensity cannot give her lasting security. She becomes pregnant but does not tell Stephen, instead leaving him and returning to a life apart from him. Stephen is left with the conviction that their relationship defined him, even as it ends without explanation or closure.",
             "through": {
-              "chapter": 1
+              "chapter": 10
             }
           },
           {
             "scope": "book",
             "text": "By 1916 Stephen is a British infantry officer in France, hardened and isolated by two years of war. He watches men prepare for an assault whose scale bears little relation to their chances of survival. Beneath the same battlefield, former sewer worker Jack Firebrace and other tunnellers dig toward enemy positions, threatened by collapse, explosives, and opposing miners. Jack's emotional life remains tied to his wife Margaret and their sick son John. Stephen forms a close but uneasy friendship with tunnelling officer Michael Weir. When the Somme offensive begins, mass casualties destroy the confident plans made above ground. Stephen is badly wounded but survives, carrying forward both physical injury and a deepening sense of separation from ordinary life.",
             "through": {
-              "chapter": 2
+              "chapter": 22
             }
           },
           {
             "scope": "book",
             "text": "In England in 1978, Stephen's granddaughter Elizabeth Benson realizes that she knows almost nothing about his war. Her mother Françoise offers only fragments, and Stephen's surviving notebooks are written in a private code. Elizabeth begins looking for a way to decipher them and seeks basic knowledge about the First World War, startled by the distance between its enormous losses and the limited place it occupies in her own world. Her investigation runs alongside an uncertain relationship with Robert, a married man whose inability to promise a shared future leaves her thinking about what families conceal and pass on.",
             "through": {
-              "chapter": 3
+              "chapter": 28
             }
           },
           {
             "scope": "book",
             "text": "Back in wartime France, Stephen continues serving while trying to recover a connection to the person he was before the trenches. He encounters Isabelle again and learns that the war and their separation have transformed her life. Their daughter, Françoise, makes the consequence of the old affair real, but Stephen and Isabelle cannot recreate their former passion. Isabelle's sister Jeanne becomes a steadier presence. At the front, Michael Weir's fragile defenses against fear erode, and he is killed, leaving Stephen still more isolated. Jack Firebrace receives the news that his son John has died. Both men continue through the underground war carrying private grief that the army's routines cannot address.",
             "through": {
-              "chapter": 4
+              "chapter": 41
             }
           },
           {
             "scope": "book",
             "text": "Elizabeth's research becomes personal as she makes contact with old soldiers, including Gray, and begins to unlock Stephen's coded account. Their memories help her understand the physical reality of the trenches and the silence many veterans kept afterward. The notebooks reveal the connection among Stephen, Isabelle, Jeanne, and Françoise, giving Elizabeth a family history that had previously seemed blank. At the same time, Elizabeth discovers she is pregnant. Robert's marriage and hesitation mean that the future of their relationship remains uncertain, but the pregnancy changes her inquiry from curiosity about ancestors into a question of what memory she will carry into the next generation.",
             "through": {
-              "chapter": 5
+              "chapter": 46
             }
           },
           {
             "scope": "book",
             "text": "In 1918, with the war nearing its end, Stephen and Jack are caught in a catastrophic underground explosion. Trapped beneath the battlefield, they struggle with injuries, failing air, and the possibility that no one knows they are alive. Jack, already worn down by the death of his son, uses his tunnelling knowledge and remaining strength to keep Stephen alive and help open a path to rescue. Stephen is brought out, but Jack dies after saving him. Stephen survives to the Armistice, when the industrial noise of battle finally ceases and natural sounds return. His survival makes possible the later family Elizabeth is uncovering, while Jack's sacrifice remains almost entirely outside that family's remembered story.",
             "through": {
-              "chapter": 6
+              "chapter": 51
             }
           },
           {
             "scope": "book",
             "text": "In 1979, Elizabeth completes the essential work of tracing Stephen's past. She understands that Isabelle bore Françoise after leaving Stephen and that Jeanne later shared Stephen's life and helped raise his daughter. The testimony of the surviving soldiers and the decoded notebooks connect Elizabeth's family to Jack Firebrace and to countless lives obscured by the scale of the war. Elizabeth goes into labor and gives birth with Robert present. She names her son John, honoring the child whose death Jack endured before he saved Stephen. The new birth does not redeem the losses, but it ends the novel with remembrance moving forward through a family that can finally speak about how it came to exist.",
             "through": {
-              "chapter": 7
+              "chapter": 52
             }
           }
         ],
