@@ -954,7 +954,7 @@
             "id": "lavatch",
             "name": "Lavatch",
             "reveal": {
-              "chapter": 1
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -966,7 +966,7 @@
             "id": "king-of-france",
             "name": "King of France",
             "reveal": {
-              "chapter": 2
+              "chapter": 4
             },
             "role": "supporting"
           },
@@ -978,7 +978,7 @@
             "id": "first-lord-dumaine",
             "name": "First Lord Dumaine",
             "reveal": {
-              "chapter": 2
+              "chapter": 4
             },
             "role": "supporting"
           },
@@ -990,7 +990,7 @@
             "id": "second-lord-dumaine",
             "name": "Second Lord Dumaine",
             "reveal": {
-              "chapter": 2
+              "chapter": 4
             },
             "role": "supporting"
           },
@@ -999,7 +999,7 @@
             "id": "widow",
             "name": "Widow",
             "reveal": {
-              "chapter": 3
+              "chapter": 13
             },
             "role": "supporting"
           },
@@ -1008,7 +1008,7 @@
             "id": "diana",
             "name": "Diana",
             "reveal": {
-              "chapter": 3
+              "chapter": 13
             },
             "role": "supporting"
           }

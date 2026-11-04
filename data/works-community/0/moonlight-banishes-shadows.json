@@ -4297,7 +4297,7 @@
             "id": "antonio",
             "name": "Antonio",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -4306,7 +4306,7 @@
             "id": "don-john",
             "name": "Don John",
             "reveal": {
-              "chapter": 1
+              "chapter": 3
             },
             "role": "antagonist"
           },
@@ -4315,7 +4315,7 @@
             "id": "borachio",
             "name": "Borachio",
             "reveal": {
-              "chapter": 1
+              "chapter": 3
             },
             "role": "antagonist"
           },
@@ -4324,7 +4324,7 @@
             "id": "conrade",
             "name": "Conrade",
             "reveal": {
-              "chapter": 1
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -4333,7 +4333,7 @@
             "id": "margaret",
             "name": "Margaret",
             "reveal": {
-              "chapter": 2
+              "chapter": 4
             },
             "role": "supporting"
           },
@@ -4342,7 +4342,7 @@
             "id": "ursula",
             "name": "Ursula",
             "reveal": {
-              "chapter": 3
+              "chapter": 7
             },
             "role": "minor"
           },
@@ -4351,7 +4351,7 @@
             "id": "dogberry",
             "name": "Dogberry",
             "reveal": {
-              "chapter": 3
+              "chapter": 9
             },
             "role": "supporting"
           },
@@ -4360,7 +4360,7 @@
             "id": "verges",
             "name": "Verges",
             "reveal": {
-              "chapter": 3
+              "chapter": 9
             },
             "role": "minor"
           },
@@ -4369,7 +4369,7 @@
             "id": "friar-francis",
             "name": "Friar Francis",
             "reveal": {
-              "chapter": 4
+              "chapter": 12
             },
             "role": "supporting"
           }

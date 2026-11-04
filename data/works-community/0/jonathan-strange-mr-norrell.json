@@ -1942,7 +1942,7 @@
             "id": "julius-caesar",
             "name": "Julius Caesar",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1954,7 +1954,7 @@
             "id": "mark-antony",
             "name": "Mark Antony",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1963,7 +1963,7 @@
             "id": "marcus-brutus",
             "name": "Marcus Brutus",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "protagonist"
           },
@@ -1972,7 +1972,7 @@
             "id": "caius-cassius",
             "name": "Caius Cassius",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "protagonist"
           },
@@ -1981,7 +1981,7 @@
             "id": "casca",
             "name": "Casca",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1990,7 +1990,7 @@
             "id": "calpurnia",
             "name": "Calpurnia",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1999,7 +1999,7 @@
             "id": "soothsayer",
             "name": "Soothsayer",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -2008,7 +2008,7 @@
             "id": "portia",
             "name": "Portia",
             "reveal": {
-              "chapter": 2
+              "chapter": 4
             },
             "role": "supporting"
           },
@@ -2017,7 +2017,7 @@
             "id": "decius-brutus",
             "name": "Decius Brutus",
             "reveal": {
-              "chapter": 2
+              "chapter": 4
             },
             "role": "supporting"
           },
@@ -2026,7 +2026,7 @@
             "id": "artemidorus",
             "name": "Artemidorus",
             "reveal": {
-              "chapter": 2
+              "chapter": 6
             },
             "role": "minor"
           },
@@ -2038,7 +2038,7 @@
             "id": "octavius-caesar",
             "name": "Octavius Caesar",
             "reveal": {
-              "chapter": 4
+              "chapter": 11
             },
             "role": "supporting"
           },
@@ -2047,7 +2047,7 @@
             "id": "lepidus",
             "name": "Lepidus",
             "reveal": {
-              "chapter": 4
+              "chapter": 11
             },
             "role": "supporting"
           }
