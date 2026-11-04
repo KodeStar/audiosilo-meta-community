@@ -2677,7 +2677,7 @@
             "id": "natasha",
             "name": "Natasha",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2686,7 +2686,7 @@
             "id": "alexander-vershinin",
             "name": "Alexander Vershinin",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2695,7 +2695,7 @@
             "id": "fyodor-kulygin",
             "name": "Fyodor Kulygin",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2740,7 +2740,7 @@
             "id": "alexei-fedotik",
             "name": "Alexei Fedotik",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -2749,7 +2749,7 @@
             "id": "vladimir-rode",
             "name": "Vladimir Rode",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -2758,7 +2758,7 @@
             "id": "ferapont",
             "name": "Ferapont",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "minor"
           }
@@ -2782,28 +2782,28 @@
             "scope": "book",
             "text": "A year after their father's death, the Prozorov sisters mark Irina's name day in the provincial town where his army posting brought the family. Olga is exhausted by teaching, Masha is bored in her marriage to Kulygin, and Irina dreams of returning with them to Moscow and finding happiness through work. Their brother Andrei is expected to become a professor and is courting the socially awkward Natasha. Officers from the local battery fill the house, among them Tuzenbach, who loves Irina, and the difficult Solyony. The new commander, Vershinin, remembers the family from Moscow and quickly finds an intellectual sympathy with Masha. The gathering briefly revives the household's confidence that a richer future remains possible.",
             "through": {
-              "chapter": 3
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Some time later, Andrei and Natasha are married and have a baby son. Natasha increasingly controls the household, using the child's needs to displace Irina from her room and cancelling an evening gathering. Andrei has abandoned his scholarly ambitions for a minor council position, gambles heavily, and feels trapped, yet cannot bring himself to confide honestly in his sisters. Irina works at the telegraph office but finds the routine draining rather than ennobling. Masha and Vershinin acknowledge their mutual attraction despite both being married. Solyony declares his love to Irina; when she rejects him, he warns that no successful rival will have her. The family's dream of Moscow continues, but their choices are fastening them more tightly to the town.",
             "through": {
-              "chapter": 6
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "A great fire spreads through the town, and the Prozorov house becomes a refuge for people displaced by it. Olga organizes aid while Natasha complains about the aged nurse Anfisa and demands that she be dismissed, revealing how completely the balance of power in the household has changed. Chebutykin, drunk and despairing, admits his shame after a patient died under his care. Olga learns that Andrei has mortgaged the family home to cover his debts and that Natasha controls the money. Masha openly tells her sisters that she loves Vershinin. Irina, worn down by work and by the loss of her youthful hopes, despairs of ever reaching Moscow. She finally agrees to marry Tuzenbach, although she cannot love him, and plans to leave with him and begin useful work elsewhere.",
             "through": {
-              "chapter": 9
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "The artillery brigade is ordered away, ending the military society around which the Prozorovs' life has revolved. Natasha openly commands the house and continues her intimacy with the council chairman Protopopov. Vershinin says farewell to Masha; their affair ends because he must leave with his family, and the devastated Masha falls back on Kulygin's patient loyalty. Irina is ready to marry Tuzenbach and depart for a teaching post, still hoping that disciplined work can create meaning. Solyony, jealous of Tuzenbach, has challenged him to a duel. Tuzenbach conceals the danger from Irina, but is shot and killed before their planned departure. Olga, now a headmistress, gives Anfisa a home. As the soldiers march away, Olga, Masha, and Irina cling to one another and resolve to go on living and working, even though Moscow and their other hopes have slipped beyond reach.",
             "through": {
-              "chapter": 11
+              "chapter": 4
             }
           }
         ],
