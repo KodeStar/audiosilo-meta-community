@@ -344,7 +344,9 @@ track count, as a **ruler, not an exemption**: stopping below 0.4 of `length` is
 still reported (unless `partial`), a position past `length` is an error, and an
 entry cannot hold a scale with no sidecar beside it.
 
-Say how you established the length in the pull request; it is not stored.
+Say how you established the length in the pull request; it is not stored. There
+is deliberately **no issue form** for it, as for `description`: a coarse sidecar
+submitted by form gets the census advisory until a pull request states its ruler.
 
 ## Copyright (this is the load-bearing part)
 
