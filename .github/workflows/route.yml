@@ -28,7 +28,7 @@ jobs:
     # TO BUMP: when core changes .github/workflows/route-reusable.yml, put the
     # new full 40-character sha of KodeStar/audiosilo-meta@main here in its own
     # pull request (dependabot is told to leave it alone, .github/dependabot.yml).
-    uses: KodeStar/audiosilo-meta/.github/workflows/route-reusable.yml@1ae04c7a89a559b84979d009a028f64ee23d8aae
+    uses: KodeStar/audiosilo-meta/.github/workflows/route-reusable.yml@b26ec092c315ee10b1e981a47a1a9e9210048524
     with:
       # "[characters] " and "[recaps] " are this repository's two forms.
       routes: |
