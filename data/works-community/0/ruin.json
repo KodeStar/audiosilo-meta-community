@@ -2209,6 +2209,10 @@
         ],
         "work": "saint-joan"
       },
+      "position_scale": {
+        "length": 6,
+        "unit": "scene"
+      },
       "recaps": {
         "ending": "Joan is tried at Rouen by a church court operating under English power. The judges repeatedly press her to submit her private revelations to the Church. Faced with execution, she signs a recantation, but when she discovers that submission means lifelong imprisonment rather than release, she withdraws it and accepts death. She is burned, and the witnesses' later reactions expose the gulf between the legal reasoning of the trial and the human reality of the punishment. In the epilogue, set twenty-five years later, Charles learns that a new inquiry has annulled the conviction. In a dream, Joan and figures from her life return; a later cleric announces that she will eventually be canonized. They all praise her once history has made admiration safe, yet each finds a reason to recoil when she asks whether she should return to life. Left alone, Joan asks when the world will be ready to receive its saints.",
         "in_short": "Joan, a peasant girl convinced that saints have commanded her to save France, persuades Robert de Baudricourt to send her to the Dauphin. She recognizes Charles in disguise, gives him confidence to claim his kingship, and helps transform the defense of Orleans before urging his coronation at Rheims. Her direct appeal to divine authority and to French nationhood alarms both church and feudal leaders. After the coronation, Charles and his commanders prefer compromise, leaving Joan isolated when she continues the war. Captured and handed to the English, she is tried for heresy at Rouen. She briefly recants under threat of death, then rejects perpetual imprisonment and is burned. Twenty-five years later her conviction is annulled. In a dream epilogue, former allies and enemies praise her, and a future visitor reports her canonization; nevertheless, none wants her disruptive presence restored. Joan ends by asking when humanity will be ready for the saints it honors only after killing them.",
@@ -2545,6 +2549,10 @@
           }
         ],
         "work": "salome"
+      },
+      "position_scale": {
+        "length": 1,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Bound by the oath he made before his guests, Herod reluctantly orders Jokanaan's execution after Salome refuses every substitute for the prophet's head. The head is brought from the cistern on a silver shield. Salome addresses it and kisses its mouth, completing the desire that Jokanaan rejected while alive. Herod is appalled by the spectacle. He first orders the palace lights extinguished, but moonlight reveals Salome still absorbed in the severed head. Unable to tolerate what he sees, he commands his soldiers to kill her. They advance together and crush Salome beneath their shields. Jokanaan, Narraboth, and Salome are all dead; Herod and Herodias remain in power, but the banquet has ended in the violence foreshadowed throughout the play.",

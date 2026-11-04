@@ -487,6 +487,10 @@
         ],
         "work": "hedda-gabler"
       },
+      "position_scale": {
+        "length": 4,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "Løvborg dies from a shot fired with one of General Gabler's pistols, but the death does not have the deliberate form Hedda encouraged. Judge Brack reports that the pistol discharged at Diana's rooms and that the circumstances will cause a public scandal. He recognizes the weapon as Hedda's and makes clear that he can expose her connection to the death whenever he chooses. Hedda realizes that avoiding scandal now requires submitting to Brack's private power over her. Meanwhile, Aunt Rina has died, and Tesman and Thea begin reconstructing Løvborg's lost book from Thea's notes. Their absorbed partnership gives Tesman a meaningful task but leaves Hedda outside the work that will preserve Løvborg's ideas. With Brack assuming that he has secured his place in their household, Hedda goes into the adjoining room, plays a final burst on the piano, and shoots herself. Tesman, Thea, and Brack discover her body; Brack responds with disbelief that anyone would act in such a way.",
         "in_short": "Hedda Tesman returns from her honeymoon bored by her marriage and fearful of a life without freedom or influence. Her former admirer Eilert Løvborg has recovered from alcoholism with Thea Elvsted's help and written an important manuscript. Resenting Thea's hold over him, Hedda provokes Løvborg into drinking and attending Judge Brack's party. He loses the manuscript; Tesman finds it and entrusts it to Hedda, who secretly burns it. When the despairing Løvborg says he intends to die, Hedda gives him one of her father's pistols and urges a controlled, beautiful death. Instead, he is fatally wounded in compromising circumstances. Brack recognizes Hedda's pistol and uses the threat of scandal to place her under his power. As Tesman and Thea work together to reconstruct Løvborg's book, Hedda sees no escape from confinement or Brack's control. She retires to another room and shoots herself.",
@@ -641,6 +645,10 @@
           }
         ],
         "work": "hedda-gabler-henrik-ibsen"
+      },
+      "position_scale": {
+        "length": 4,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Løvborg dies from a shot fired with one of General Gabler's pistols, but the death does not have the deliberate form Hedda encouraged. Judge Brack reports that the pistol discharged at Diana's rooms and that the circumstances will cause a public scandal. He recognizes the weapon as Hedda's and makes clear that he can expose her connection to the death whenever he chooses. Hedda realizes that avoiding scandal now requires submitting to Brack's private power over her. Meanwhile, Aunt Rina has died, and Tesman and Thea begin reconstructing Løvborg's lost book from Thea's notes. Their absorbed partnership gives Tesman a meaningful task but leaves Hedda outside the work that will preserve Løvborg's ideas. With Brack assuming that he has secured his place in their household, Hedda goes into the adjoining room, plays a final burst on the piano, and shoots herself. Tesman, Thea, and Brack discover her body; Brack responds with disbelief that anyone would act in such a way.",

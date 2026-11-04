@@ -1646,6 +1646,10 @@
         ],
         "work": "romeo-and-juliet"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "The friar's plan fails because the letter explaining Juliet's feigned death never reaches Romeo in Mantua. Instead his servant brings word that Juliet is dead, and Romeo, in despair, buys poison and hurries to her tomb. There he encounters Paris, who has come to mourn, and kills him in a fight before laying his body in the vault. Believing Juliet truly dead, Romeo drinks the poison and dies at her side. Moments later Juliet wakes from her sleeping draught to find Romeo dead beside her. Friar Laurence, arriving too late, urges her to flee, but she refuses; when she cannot bring herself to take poison, she stabs herself with Romeo's dagger and dies. The night watch rouses the city, and the Prince, the Montagues, and the Capulets gather at the tomb. Friar Laurence explains the secret marriage and all that followed. Confronted with their dead children, the two families are overcome with grief and at last make peace, ending the feud that destroyed them, and they agree to raise golden statues of the lovers in memory. The Prince closes with sorrow over the tragedy their hatred has caused.",
         "in_short": "In Verona, the Montague and Capulet families are locked in a violent feud. Romeo, a young Montague nursing a hopeless love for Rosaline, sneaks into a Capulet feast and meets Juliet, the Capulets' young daughter, and the two fall instantly and deeply in love despite their families' hatred. That night they exchange vows, and with the help of Friar Laurence, who hopes their union will reconcile the houses, and Juliet's nurse, they marry in secret. The feud soon shatters their happiness: Juliet's cousin Tybalt kills Romeo's friend Mercutio, and Romeo kills Tybalt in revenge, for which the Prince banishes him to Mantua. Meanwhile Juliet's father orders her to marry the nobleman Paris. To escape the match, Juliet takes a potion from the friar that makes her appear dead, so she can later flee with Romeo. But the message explaining the plan never reaches Romeo. Believing Juliet truly dead, he buys poison, goes to her tomb, and kills himself beside her. Juliet wakes, finds him dead, and stabs herself. Grief-stricken, the two families finally end their feud.",
@@ -1845,6 +1849,10 @@
           }
         ],
         "work": "romeo-and-juliet-oregon-shakespeare-festival-audio-theater-dramatized"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Because a quarantine prevents Friar Laurence's letter from reaching Mantua, Romeo hears only that Juliet has died. He buys poison and enters the Capulet tomb, where he fights and kills Paris. Romeo drinks the poison beside Juliet and dies before her sleeping draught wears off. Juliet wakes, sees Romeo dead, and refuses to leave with the frightened friar. She kills herself with Romeo's dagger. The watch discovers the bodies and summons both families and the prince. Friar Laurence explains the secret marriage, Tybalt's death, the potion plan, and the failed message; Romeo's letter supplies further evidence. Montague also reports that Romeo's mother has died from grief during his exile. Confronted with the destruction of their children, Capulet and Montague end their feud and promise memorials to Romeo and Juliet. The prince judges that the hatred of both houses has punished the entire city.",
@@ -2168,6 +2176,10 @@
           }
         ],
         "work": "room-a-novel-booktrack-edition"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "chapter"
       },
       "recaps": {
         "ending": "After a period of treatment, public attention, and painful family adjustment, Ma and Jack begin living at Grandma and Steppa's home. Ma survives her suicide attempt and returns from the hospital, but Jack has learned that he can remain safe with other people and no longer needs her every moment. His hair is cut, and he sends the long braid to Ma as a sign of the strength he once believed it held for him. Before settling into their new life, Jack asks to visit Room once more. The police take him and Ma back to the shed. Seen from outside and emptied of many familiar objects, it is smaller and less complete than the universe he remembers. Jack says goodbye to Room and its remaining objects, then leaves with Ma. Their bond endures, but the visit confirms that captivity is now a place they can depart rather than the boundary of Jack's world.",
@@ -2737,6 +2749,10 @@
           }
         ],
         "work": "rosencrantz-and-guildenstern-are-dead"
+      },
+      "position_scale": {
+        "length": 3,
+        "unit": "act"
       },
       "recaps": {
         "ending": "On the ship to England, Rosencrantz and Guildenstern discover that the royal letter orders Hamlet's execution. While they sleep, Hamlet replaces it with a command that they themselves be killed. Pirates attack; Hamlet disappears with them, leaving the courtiers to continue toward England with the altered letter. Guildenstern tries to resist the Player's claim that death is simply another predictable exit and stabs him, only to find that the weapon and death were theatrical effects. The Tragedians perform the deaths awaiting the characters from Hamlet. Rosencrantz then accepts his disappearance, and Guildenstern follows after one last failed attempt to understand when choice became impossible. The action shifts to the end of Hamlet, where an English ambassador reports that Rosencrantz and Guildenstern are dead. Horatio remains to explain the larger tragedy, while the two men whose perspective the play followed have vanished without discovering whether they could ever have changed their assigned end.",

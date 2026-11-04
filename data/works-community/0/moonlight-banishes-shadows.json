@@ -4191,6 +4191,10 @@
         ],
         "work": "mrs-warrens-profession"
       },
+      "position_scale": {
+        "length": 4,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "In her London office, Vivie has committed herself to financial work and a life independent of her mother's money. Frank accepts that their flirtation will not become a conventional marriage and withdraws, while Praed prepares to travel abroad. Mrs Warren arrives seeking reconciliation. Vivie distinguishes between the desperate circumstances that first led her mother into prostitution and the later decision to remain a wealthy proprietor when she could have retired. Because Mrs Warren still participates in the business and has concealed that choice, Vivie refuses both financial support and further intimacy. Mrs Warren argues that she has sacrificed everything for her daughter and is devastated by the rejection, but Vivie does not yield. After her mother leaves, Vivie briefly shows the emotional cost of the break, then returns to her work. The play closes with mother and daughter separated: Mrs Warren retains her wealth and business, while Vivie secures moral and economic independence at the price of their relationship.",
         "in_short": "Cambridge-trained Vivie Warren plans an independent working life and knows little about the fortune that funded her education. Visits from her mother, Mrs Warren, and the wealthy Sir George Crofts force her to investigate. Crofts is Mrs Warren's partner in a profitable chain of brothels and wants to marry Vivie; he also raises the possibility that Vivie and her admirer Frank Gardner share a father. Mrs Warren explains that poverty and the limited work open to women drove her into prostitution, and Vivie respects the courage of that earlier choice. She changes her judgment when she learns that her mother, now financially secure, continues to own the business. Vivie moves to London, dedicates herself to actuarial work, ends the romantic possibility with Frank, and refuses her mother's money. In their final confrontation, Mrs Warren appeals to maternal sacrifice, but Vivie rejects a relationship founded on continuing exploitation and concealment. Mrs Warren leaves in distress, and Vivie returns alone to her work.",
@@ -4383,6 +4387,10 @@
           }
         ],
         "work": "much-ado-about-nothing"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Borachio's confession proves that Don John arranged the false evidence against Hero. Claudio, believing Hero dead because of his public rejection, accepts Leonato's demand that he mourn at her tomb and then marry a veiled cousin without seeing her. At the second wedding the woman is revealed as Hero, alive and innocent, and Claudio receives her with relief. Beatrice and Benedick each try to minimize their love until written evidence from their friends exposes them; they agree to marry and restore their familiar teasing on more equal terms. Don Pedro remains unmarried. News arrives that the fleeing Don John has been captured, but Benedick recommends postponing punishment until after the celebrations. The play closes with dancing and two marriages restored or created through the exposure of deception.",
@@ -4814,6 +4822,10 @@
           }
         ],
         "work": "murder-in-the-cathedral-t-s-eliot"
+      },
+      "position_scale": {
+        "length": 2,
+        "unit": "part"
       },
       "recaps": {
         "ending": "Four knights return to Canterbury Cathedral with swords after accusing Thomas Becket of betraying King Henry II. The priests try to bar the doors, but Becket insists that the church remain open and refuses to flee. The knights kill him near the altar. Afterward they address the audience directly and offer political and legal rationalizations: they claim loyalty to public order, deny selfish motives, portray Becket as a traitor, and even suggest that his deliberate acceptance of death makes him responsible. Their arguments cannot erase what the audience has witnessed. The Chorus, which had wanted only to remain outside history, accepts that the murder implicates the whole community and turns from horror toward prayer and repentance. The priests praise Becket as a martyr whose death becomes a spiritual victory rather than the final success of royal force. The play closes with the community asking mercy and acknowledging both human guilt and divine judgment.",

@@ -319,6 +319,33 @@ Guidance:
   `chapter: 0` series recap for book 2+). Each recap may freely reveal
   everything **up to and including** its `through` chapter, and nothing after.
 
+### Stating the ruler: `position_scale`
+
+An entry may state the ruler its positions are on, beside its `characters` and
+`recaps` members:
+
+```json
+"position_scale": { "length": 5, "unit": "act" }
+```
+
+- `length` is the **book's whole length** in these units, whether or not the
+  sidecar reaches it.
+- `unit` is one of `act`, `chapter`, `entry`, `episode`, `letter`, `part`,
+  `piece`, `poem`, `scene`, `section`, `track`.
+- `partial: true` says the sidecar stops short of `length` on purpose: its
+  positions are sound and the rest of the book is not staged.
+
+State it whenever the book's units differ from what its recordings track: a play
+on a recording tracked by scene, a novel in a file split, a diary, a set of tales.
+It does two jobs. A consumer uses it to place a position on the listener's track,
+rounding up, which is what stops a five-act play's Act 5 recap from showing at
+track 6. And metacheck measures the sidecar against it instead of the recording's
+track count, as a **ruler, not an exemption**: stopping below 0.4 of `length` is
+still reported (unless `partial`), a position past `length` is an error, and an
+entry cannot hold a scale with no sidecar beside it.
+
+Say how you established the length in the pull request; it is not stored.
+
 ## Copyright (this is the load-bearing part)
 
 Publication is the risk surface, so these rules are hard requirements, not
@@ -384,7 +411,7 @@ style:
       and `in_short` (if present) carry the real outcome plainly.
 - [ ] Voice is neutral reference-guide - no jokes, editorializing, or profanity.
 - [ ] Positions use the book's own (logical) chapter numbers, a play's its acts, counted straight through; `0` = prior-book.
-- [ ] If metacheck's `mis-scaled sidecar` advisory names the work and the recording is what is odd (a file split, study tracks, scene tracks), core's `pkg/check/sidecar_lengths.json` records the book's real length, with the reason.
+- [ ] Where the work's numbering is not simply its recordings' tracks, the entry states its `position_scale` (Positions, below the rules); give your evidence in the PR.
 - [ ] Book 2+ has a `chapter: 0` series recap; a series opener does not.
 - [ ] `metafmt --write` and `metacheck` both pass.
 

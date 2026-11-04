@@ -5163,6 +5163,10 @@
         ],
         "work": "the-red-pony"
       },
+      "position_scale": {
+        "length": 4,
+        "unit": "piece"
+      },
       "recaps": {
         "ending": "In the final section, Mrs. Tiflin's father visits the ranch and again tells stories of leading settlers west. Carl, tired of the familiar accounts, complains that the old man lives in the past, not realizing that Grandfather has heard him. Grandfather admits to Jody that the journey mattered because a whole people seemed to be moving toward one purpose; once the ocean ended the westward movement, that purpose disappeared, leaving him with memories that others no longer need. Jody responds with an empathy he has gradually acquired through his earlier encounters with loss. He offers to make Grandfather lemonade and says he would like to hear more, not merely to be polite but because he recognizes the old man's hurt. The book closes on this small act of care. Jody cannot restore Grandfather's defining adventure, just as he could not undo the deaths and departures on the ranch, but he can listen and give the old man's experience a present value.",
         "in_short": "Four connected episodes trace Jody Tiflin's growth on his family's California ranch. His father gives him a red pony, Gabilan, but the animal becomes ill after Billy Buck's confident weather prediction fails and dies despite desperate treatment, confronting Jody with grief and the limits of adult expertise. An aged man named Gitano then returns to the land where he was born and, after being denied a permanent home, rides an old horse into the mountains. Later, Jody anticipates a promised colt, only to watch Billy kill the mare Nellie during a difficult birth so the colt can live. Finally, Jody's visiting grandfather, once the leader of a westward wagon train, is wounded by Carl's impatience with his repeated stories. Jody understands that the journey gave Grandfather's life its central purpose and offers to listen and care for him. Across the episodes, possession and excitement give way to a more compassionate awareness of mortality, disappointment, and memory.",
@@ -6220,6 +6224,10 @@
           }
         ],
         "work": "the-republic-of-thieves"
+      },
+      "position_scale": {
+        "length": 12,
+        "unit": "chapter"
       },
       "recaps": {
         "ending": "The election ends in defeat: Sabetha's Black Iris party takes Karthain on groundwork laid long before the final weeks, and the Bondsmagi treat the whole contest as the entertainment it always was, the result mattering far less to them than the playing. Patience then delivers what she has been holding back - that Locke is not the Camorri orphan he believes himself to be, but the vessel of a dead Karthaini child called Lamor Acanthus, whose mage parents used forbidden work rather than accept his death - and offers no proof he can test in either direction. Sabetha, given the same account, will not build anything on ground that uncertain: she goes without a farewell in person, deliberately out of reach, leaving Locke a letter and no way to follow. Locke and Jean come out of the contract cured, paid, and free, with their trade ahead of them, no crew, and nothing settled about who Locke is. Behind them in Karthain the Falconer, kept alive by his mother's people in the state Locke and Jean left him in, comes back to himself. He is not the mage he was and he is no longer anyone's prisoner, and the one purpose left to him is the two men who ruined him.",

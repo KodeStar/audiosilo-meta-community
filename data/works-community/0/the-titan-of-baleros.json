@@ -224,6 +224,11 @@
         "text": "The eleventh entry in The Wandering Inn follows several threads across Liscor and beyond. In the city, guild receptionist Selys uses her sudden fortune from the Heartflame breastplate and a new class to back a political campaign for representation on the ruling council. Elsewhere, the reformed adventuring team the Horns of Hammerad leaves Liscor to rebuild its reputation abroad, only to run into suspicion and open hostility from local adventurers over their recent history. Meanwhile, in the distant nation of Baleros, the tiny but formidable strategist Niers Astoragon, known as the Titan, puts a new class of student officers through brutal training exercises meant to prepare them for the realities of war.",
         "work": "the-titan-of-baleros"
       },
+      "position_scale": {
+        "length": 25,
+        "partial": true,
+        "unit": "chapter"
+      },
       "recaps": {
         "ending": "Umina is formally recognized as the winner of Niers Astoragon's Dakin game, receiving a prize from his vault and the right to ask him one question. Will also earns a question for the relief force he secretly organized. Marion survives a serious burn and partly reconciles with Umina, while Luan's conduct creates both a possible connection between Geneva and Perorn and a nonlethal threat against his boat. Niers's concealed reason for staging the game remains unresolved. Elsewhere, the Horns stay together but move on under local suspicion, and the United Nations Company gains allies while remaining poor, watched, and internally divided over secret explosives. Ryoka's courier work helps reveal a coordinated campaign against Magnolia Reinhart's circle, which Magnolia answers with economic warfare. In Liscor, Krshia's election and Antinium-backed expansion remain undecided. Olesm supports a rival plan that rejects hive involvement, while Erin's cross-city gathering improves Krshia's position. The event also displays Antinium construction, strengthens the inn's commercial role, and leaves the political vote, the imprisoned Minotaur's condition, and the Free Antinium's future open.",
         "in_short": "Selys and Krshia begin a campaign for elections and expansion in Liscor, while the Horns of Hammerad overcome hostility and Ksmvr proves his value by defeating a bandit camp. On Baleros, the United Nations Company builds alliances, expands Geneva's clinic, and secretly develops explosives. Niers Astoragon then makes his students' Dakin examination a public contest against Tulm and the Iron Vanguard. Luan breaches the blockade, Will brings a hidden relief army, and Umina wins by tunneling into Niers's goal circle during the final assault. Later events connect Geneva to Niers's academy, place Ryoka amid attacks on Magnolia Reinhart's allies, and return attention to Liscor. There, the Free Antinium back Krshia's development plan while Olesm joins a rival anti-Antinium campaign. Erin uses her inn, magic door, prominent visitors, and an Antinium building demonstration to improve Krshia's prospects, but the election remains unresolved.",
@@ -1078,6 +1083,10 @@
         ],
         "work": "the-tragedy-of-hamlet-prince-of-denmark"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "At Ophelia's funeral, Hamlet reveals himself and struggles with Laertes in the grave. Claudius then arranges their fencing match using a sharpened, poisoned blade and a poisoned cup as a second method. Laertes wounds Hamlet with the treated weapon; in the scuffle they exchange swords, and Hamlet wounds Laertes with it. Gertrude unknowingly drinks from the poisoned cup and dies. The dying Laertes admits the plot and blames Claudius. Hamlet stabs Claudius and forces him to drink the remaining poison, killing him, then forgives Laertes before both men die. Hamlet prevents Horatio from taking his own life and charges him to tell the true story. Fortinbras arrives from Poland, claims the Danish throne, and orders Hamlet honored as a soldier. The royal family is dead, and political authority passes to Norway's prince.",
         "in_short": "Prince Hamlet returns to a Danish court transformed by his father's death and his mother Gertrude's marriage to his uncle Claudius. His father's ghost says Claudius murdered him and demands revenge. Hamlet adopts erratic behavior while testing the accusation, alienating Ophelia and alarming the court. A play that mirrors the alleged murder provokes Claudius, confirming his guilt. Hamlet delays killing him, then mistakenly kills Ophelia's father Polonius and is sent toward England under a secret death order, which he redirects against Rosencrantz and Guildenstern. Ophelia loses her sanity and dies; her brother Laertes returns seeking vengeance. Claudius arms Laertes with a poisoned sword and prepares poisoned wine for a fencing match. Gertrude drinks the wine, Laertes and Hamlet wound each other with the poisoned blade, and Laertes exposes the plot. Hamlet kills Claudius before dying. Fortinbras arrives to find the royal house destroyed and assumes rule, while Horatio survives to explain what happened.",
@@ -1278,6 +1287,10 @@
         ],
         "work": "the-tragedy-of-romeo-and-juliet"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "Because a quarantine prevents Friar Laurence's letter from reaching Mantua, Romeo hears only that Juliet has died. He buys poison and enters the Capulet tomb, where he fights and kills Paris. Romeo drinks the poison beside Juliet and dies before her sleeping draught wears off. Juliet wakes, sees Romeo dead, and refuses to leave with the frightened friar. She kills herself with Romeo's dagger. The watch discovers the bodies and summons both families and the prince. Friar Laurence explains the secret marriage, Tybalt's death, the potion plan, and the failed message; Romeo's letter supplies further evidence. Montague also reports that Romeo's mother has died from grief during his exile. Confronted with the destruction of their children, Capulet and Montague end their feud and promise memorials to Romeo and Juliet. The prince judges that the hatred of both houses has punished the entire city.",
         "in_short": "An old feud divides Verona's Montague and Capulet families. Romeo Montague enters a Capulet feast and falls in love with Juliet Capulet; within a day, Friar Laurence secretly marries them, hoping the match will make peace. Instead, Tybalt kills Romeo's friend Mercutio, and Romeo kills Tybalt. The prince banishes Romeo, while Juliet's parents order her to marry Paris. Friar Laurence gives Juliet a draught that will make her appear dead so Romeo can meet her after she wakes. The plan fails when Romeo never receives the explanation. Told that Juliet has died, he returns, kills Paris at the tomb, and takes poison beside her. Juliet wakes to find him dead and stabs herself. The friar reveals their marriage and the failed scheme. Their grieving parents finally abandon the feud and agree to honor the young couple whose deaths exposed its cost.",
@@ -1465,6 +1478,10 @@
           }
         ],
         "work": "the-tragical-history-of-doctor-faustus"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
       },
       "recaps": {
         "ending": "With the twenty-four years almost gone, Faustus entertains fellow scholars by summoning Helen of Troy, then admits that his death is near. The Old Man urges him to repent, but Faustus, terrified by the devils and convinced that he cannot be forgiven, renews his submission to Lucifer and seeks distraction in Helen's image. During his final hour he is left alone to face the consequence of his bargain. He begs time to stop, wishes his soul could cease to exist, and calls for mercy, but he never makes the sustained return he has repeatedly postponed. At midnight devils carry him away. The next morning the scholars find the remains of his body and resolve to give him a proper burial. The Chorus closes by presenting his fall as a warning against knowledge pursued with pride and against crossing moral limits for power.",
@@ -3473,6 +3490,10 @@
           }
         ],
         "work": "the-twits-the-minpins-the-magic-finger"
+      },
+      "position_scale": {
+        "length": 42,
+        "unit": "chapter"
       },
       "recaps": {
         "ending": "In the final story, the Gregg family awaken with wings and are displaced by four large ducks with human arms. Forced to live in a nest and threatened with the guns they once used for sport, the Greggs promise never to hunt again. The ducks accept the promise, and the family eventually regain their ordinary bodies. Mr Gregg destroys the guns and changes the household's behavior toward birds. The Girl then learns that her magical finger has found a new target: another local family associated with hunting now appear to have taken on chicken-like traits. The collection therefore closes with the Greggs reformed but the mysterious power still active. Earlier, the Twits vanished after the escaped animals inverted their house, and Little Billy saved the Minpins from the Gruncher while preserving their existence as a secret.",

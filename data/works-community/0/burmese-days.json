@@ -429,6 +429,10 @@
         ],
         "work": "cabin-fever"
       },
+      "position_scale": {
+        "length": 30,
+        "unit": "entry"
+      },
       "recaps": {
         "ending": "The book ends with the storm over and the panic deflated. The blizzard trapped Greg, his mother, Rodrick, and Manny in a powerless house for days across Christmas, with Greg's father away; the low point turned comic when Manny was found to have flipped the circuit breakers so that only his room had electricity, his revenge for never being taught to tie his shoes. The family made do through the blackout and dug itself out when the weather broke. Back in ordinary life, the school-wall damage that Greg had built up into a police matter comes to far less than his imagination promised, and the fear that drove the whole book dissolves. The Heffleys end the winter intact and unchanged, ready for the next instalment.",
         "in_short": "Broke before the holidays, Greg tries a string of money-making schemes ending in a holiday bazaar he and Rowley promote with a homemade banner - which bleeds ink onto the school wall and leaves Greg convinced the police are after him. Then a massive snowstorm buries the house and knocks out the power, trapping Greg, his mother, and his brothers inside for days over Christmas while his father is away. Supplies dwindle, tempers fray, and the family discovers Manny flipped the breakers so only his own room had power. When the storm clears and life resumes, the school-damage scare Greg dreaded all month amounts to far less than he feared, and the household returns to normal.",
@@ -1778,6 +1782,10 @@
           }
         ],
         "work": "candida"
+      },
+      "position_scale": {
+        "length": 3,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Morell and Marchbanks ask Candida to choose between them. Morell offers his strength, reputation, and ability to protect her; Marchbanks offers his need, imagination, and the life of the poet. Candida rejects the assumption that either man can dispose of her and examines what each has received from her care. She chooses the more dependent man: Morell, whose impressive public identity rests on a domestic security he scarcely recognizes. The answer restores their marriage but strips away his complacent belief that he alone is the strong partner. Marchbanks understands her decision and does not collapse under it. Instead he prepares to leave, carrying a private insight that he will not explain to the others and turning toward an independent artistic life. Candida and Morell remain together with a clearer awareness of the labor and affection on which their home depends, while Marchbanks departs changed rather than defeated.",
@@ -5250,6 +5258,10 @@
           }
         ],
         "work": "cat-on-a-hot-tin-roof"
+      },
+      "position_scale": {
+        "length": 3,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Once the family admits that Big Daddy is dying of cancer, Gooper and Mae present Big Mama with a plan designed to put control of the estate in their hands. Maggie counters by announcing that she is pregnant, though she and Brick have not been sleeping together and the claim is false. Big Daddy, still alert to deception, accepts the news as the birthday gift he wants. Brick does not expose Maggie. After the others leave, she removes Brick's liquor and says she will not return it until they have slept together, intending to make the pregnancy claim true. Brick remains detached and doubts her declaration of love, but he no longer has the drink with which he has been silencing the conflict. Big Daddy faces a painful terminal illness, the inheritance remains unsettled, and Brick and Maggie are left together with a lie that may become either a renewed marriage or another form of family evasion.",

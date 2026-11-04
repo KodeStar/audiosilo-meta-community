@@ -1857,6 +1857,10 @@
         ],
         "work": "master-harold-and-the-boys"
       },
+      "position_scale": {
+        "length": 1,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "After Hally spits at Sam and leaves the tea room, his attempt to impose the title Master Harold has replaced friendship with the racial power apartheid grants him. Sam has answered the humiliation by recalling that, years earlier, he made Hally a kite to comfort him after the boy was ashamed of his drunken father. Sam explains that he left Hally alone on a whites-only bench not from choice but because the law excluded him. He invites Hally to imagine flying another kite together, but Hally cannot accept the offered repair and walks out. Sam then challenges Willie to stop beating Hilda, linking private conduct to the larger hope of learning to live without collisions. Willie agrees. The two men put music on the jukebox and dance together in the empty room, preserving dignity and the possibility of change after Hally's failure.",
         "in_short": "In a Port Elizabeth tea room during apartheid, employees Sam and Willie practice ballroom dancing while waiting out the rain. The owner's teenage son, Hally, joins them and talks easily with Sam, whose patience and ideas have long shaped him. News that Hally's disabled, alcoholic father is coming home from hospital fills the boy with dread and shame. A discussion of ballroom dancing as an image of a world without collisions briefly gives Hally and Sam a shared vision, but Hally turns his anger on the two men. He uses racist authority, insists on being called Master Harold, tells a degrading joke, and spits in Sam's face. Sam recalls making a kite for the younger Hally and reveals that segregation prevented him from sitting beside the boy. He offers a path back to their former trust, but Hally leaves. Sam and Willie remain, reject Willie's violence toward his dance partner, and dance together in the empty tea room.",
@@ -4019,6 +4023,10 @@
         ],
         "work": "measure-for-measure"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "At the city gate, Isabella publicly accuses Angelo of demanding sex in exchange for Claudio's pardon and then ordering Claudio's death. The returned Duke pretends to reject her claim and leaves Angelo to judge it. Mariana confirms the encounter but identifies herself as the woman who shared Angelo's bed. When Lucio exposes Friar Lodowick's disguise, the Duke reveals himself and Angelo confesses. The Duke orders Angelo to marry Mariana and initially sentences him to death after the wedding, matching Claudio's supposed fate. Mariana and Isabella plead for mercy. The Duke then reveals that Claudio is alive and pardons him, Juliet, Angelo, and the other prisoners. Angelo remains married to Mariana rather than being executed. Lucio is compelled to marry Kate Keepdown and punished for slandering the Duke. The Duke proposes marriage to Isabella, but the play gives her no spoken answer, leaving her response unresolved.",
         "in_short": "Duke Vincentio leaves Angelo governing Vienna while secretly remaining as a friar to observe his rule. Angelo revives a neglected law and condemns Claudio to death for making Juliet pregnant before their formal marriage. Claudio's novice sister Isabella pleads for him, but Angelo offers mercy only if she sleeps with him. The disguised Duke arranges for Angelo's former betrothed Mariana to take Isabella's place. Angelo nevertheless orders Claudio's execution. The Provost hides Claudio and sends the head of another dead prisoner. When the Duke returns openly, Isabella and Mariana accuse Angelo. After exposing his disguise, the Duke makes Angelo marry Mariana and threatens him with death, then accepts the women's pleas for mercy and reveals Claudio alive. Claudio can marry Juliet; Lucio is forced to marry the woman he abandoned; and the Duke proposes to Isabella, whose answer is not stated.",
@@ -4168,6 +4176,10 @@
           }
         ],
         "work": "medea-euripides"
+      },
+      "position_scale": {
+        "length": 1,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Medea sends her sons to Jason's new bride with a robe and a crown treated with poison. The gifts kill the princess, and Creon also dies when he embraces his daughter's body. Medea then kills her two sons inside the house, choosing to inflict the deepest possible loss on Jason even though she grieves for the children herself. Jason arrives too late to save them or punish her. Medea appears above the house in a chariot provided by her divine ancestor Helios, holding the children's bodies beyond Jason's reach. She refuses to let him bury them and says she will establish rites in their memory before going to the refuge Aegeus promised her in Athens. Jason condemns her and mourns the destruction of his family, while Medea makes him confront his betrayal as the cause from which her revenge grew. She escapes Corinth, leaving Jason alive but without his bride, his children, or the future he meant the royal marriage to secure.",

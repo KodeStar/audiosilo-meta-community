@@ -967,6 +967,10 @@
         ],
         "work": "a-view-from-the-bridge"
       },
+      "position_scale": {
+        "length": 2,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "After Eddie reports the undocumented immigrants, officers arrest Marco and Rodolpho, as well as two men hidden by another family. Catherine and Beatrice understand who betrayed them, and Marco publicly accuses Eddie, destroying the reputation Eddie hoped to protect. Alfieri arranges bail so Catherine and Rodolpho can marry, but Marco is released only after promising not to attack Eddie. On the wedding day Eddie refuses to attend and demands that Marco withdraw the accusation. Marco comes to the street, where Eddie advances on him with a knife. Marco turns the weapon back during their struggle, and Eddie is fatally wounded. Beatrice holds her dying husband as he calls for her. Catherine and Rodolpho are left to proceed with their marriage, Marco faces deportation, and Alfieri reflects on the destructive force of Eddie's unchecked passion.",
         "in_short": "Brooklyn longshoreman Eddie Carbone and his wife, Beatrice, shelter her undocumented Sicilian cousins Marco and Rodolpho. Eddie's orphaned niece Catherine falls in love with Rodolpho, provoking Eddie's possessiveness. He insists Rodolpho only wants citizenship and tries to discredit him, while lawyer Alfieri warns that there is no lawful basis for interference. Eddie finally reports the brothers to immigration officials. Marco identifies him as the informer, leaving Eddie shunned by the community. Although Catherine and Rodolpho prepare to marry and Marco is released on bail pending deportation, Eddie cannot accept the loss of his reputation. He confronts Marco with a knife outside the apartment. Marco turns the weapon during the struggle, and Eddie dies in Beatrice's arms, destroyed by the betrayal and violence his jealousy set in motion.",
@@ -1533,6 +1537,10 @@
         ],
         "work": "a-woman-of-no-importance"
       },
+      "position_scale": {
+        "length": 4,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "After Gerald learns that Lord Illingworth is his father, he wants to repair his mother's social position by making Illingworth marry her. Mrs Arbuthnot refuses: a marriage without love would only place her again under the power of the man who abandoned her. Hester rejects the house party's double standard and gives Mrs Arbuthnot the acceptance she had earlier denied to women with compromised reputations. She and Gerald declare their love and decide to marry and live in America with his mother. Illingworth arrives expecting to recover influence over Gerald, but Mrs Arbuthnot rejects his claims on their son. When he treats their past and Gerald with renewed arrogance, she strikes him with his own glove and sends him away. Gerald, Hester, and Mrs Arbuthnot leave the old scandal behind as a family, while Illingworth departs isolated and dismissed as insignificant.",
         "in_short": "At a country-house gathering, young Gerald Arbuthnot is delighted when the sophisticated Lord Illingworth offers him a prestigious secretaryship. Gerald's mother urgently opposes the plan because Illingworth, once known as George Harford, seduced and abandoned her years earlier and is Gerald's father. She has concealed the truth while bearing the social shame alone. Illingworth refuses to give up the young man, and Gerald mistakes his mother's fear for narrowness. When Illingworth makes an unwanted advance toward Hester Worsley, Gerald attacks him; Mrs Arbuthnot stops her son by revealing their relationship. Gerald then proposes that his parents marry, but his mother will not bind herself to the man who wronged her. Hester, chastened in her earlier moral severity, embraces Mrs Arbuthnot and agrees to marry Gerald. They plan a life together in America. Mrs Arbuthnot rejects Illingworth's final attempt to assert himself, strikes him with his glove, and dismisses him from their lives.",
@@ -1868,6 +1876,10 @@
           }
         ],
         "work": "a-yankee-at-the-court-of-king-arthur"
+      },
+      "position_scale": {
+        "length": 45,
+        "unit": "chapter"
       },
       "recaps": {
         "ending": "After the exposure of Guinevere and Launcelot's relationship, Arthur's realm collapses into civil war and the Church places Hank's modernized kingdom under an interdict. Arthur and Mordred kill one another, while the surviving forces of chivalry turn against Hank's small technical elite. Hank and Clarence retreat with loyal youths to a fortified cave protected by mines, guns, and electrified fences. At the Battle of the Sand Belt, their machinery annihilates the massed knights, but the victors are trapped behind heaps of bodies that spread disease and make escape impossible. Merlin enters the cave disguised as an old woman and puts Hank into an enchanted sleep meant to last thirteen centuries; while celebrating, Merlin accidentally touches an electric wire and dies. Hank wakes in his own nineteenth century, but Camelot remains more real to him than the present. On his deathbed he calls for Sandy and their child, believes he is back in Arthur's world, and dies reaching for the family and age he lost.",

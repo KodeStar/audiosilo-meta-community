@@ -908,6 +908,10 @@
         ],
         "work": "journeys-end"
       },
+      "position_scale": {
+        "length": 3,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "The German bombardment opens at dawn. Raleigh is carried into the dugout with a severe spinal wound, unable to move his legs. Stanhope places him in Osborne's former bed and, dropping his habitual severity, comforts him and promises to have him taken to hospital. When duty calls Stanhope briefly back to the trench, Raleigh dies alone. Stanhope returns, sees that he is dead, and remains with him for a moment before climbing back to command the company. The shelling intensifies; a shell strikes the dugout, extinguishing the candle and burying the room while the battle continues above. Osborne has already died in the futile raid, and Stanhope's depleted company faces the German attack with its remaining officers and men.",
         "in_short": "In March 1918, young Raleigh joins a British infantry company in the trenches because its commander, Stanhope, was his schoolboy hero. He finds an exhausted officer who has survived three years at the front by drinking heavily, yet still commands with courage and discipline. Osborne, Stanhope's older second-in-command, mediates between them as the company learns that a German offensive is imminent. Brigade nevertheless orders a raid: Osborne is killed, Raleigh helps capture a German soldier, and the intelligence confirms the attack without changing the plan. Stanhope also prevents the terrified Hibbert from leaving, partly by admitting their shared fear. When the offensive begins, Raleigh is mortally wounded. Stanhope comforts him in the dugout, but Raleigh dies while Stanhope returns to duty. A shell then strikes the dugout as the company meets the assault above.",
@@ -1625,6 +1629,10 @@
         ],
         "work": "julius-caesar-the-arkangel-shakespeare"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "At Philippi, Brutus's forces initially push back Octavius, but Cassius's side loses ground. Cassius mistakes allied horsemen celebrating with Titinius for enemy troops capturing him and has Pindarus kill him. Titinius returns, discovers the error, and dies beside Cassius. After the next engagement is lost, Brutus refuses capture and asks Strato to hold a sword so that he can run onto it. Antony finds Brutus dead and judges that, unlike the other conspirators, he acted from an honest concern for Rome rather than envy. Octavius orders an honorable burial and assumes command. Caesar's assassins are defeated, Antony and Octavius control the state, and the attempt to preserve the republic through murder has instead helped place power in the hands of Caesar's political heirs.",
         "in_short": "As Julius Caesar returns to Rome in triumph, Cassius persuades the honorable Brutus that Caesar's growing power threatens republican freedom. Brutus joins a conspiracy and helps assassinate Caesar at the Capitol. He permits Mark Antony to address the funeral crowd, believing that a reasoned defense will justify the killing. Antony instead turns the citizens against the conspirators by challenging their claim that Caesar was ambitious and by displaying his wounds and generous will. Brutus and Cassius flee and raise armies, while Antony joins Octavius and Lepidus in a ruling triumvirate. The two conspirator leaders quarrel, reconcile, and meet their enemies at Philippi. Cassius dies after misreading news from the battle; Brutus takes his own life after defeat. Antony honors Brutus's motives, but Octavius takes command. Caesar's death has not restored the old republic, and the men who killed him are gone.",
@@ -1834,6 +1842,10 @@
         ],
         "work": "julius-caesar-william-shakespeare"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "The battle at Philippi destroys the republican leaders. Cassius, misreading reports from the field and believing his friend Titinius has been captured, orders Pindarus to kill him with the sword used against Caesar. Titinius returns safe, finds Cassius dead, and kills himself. Brutus's forces initially gain ground but are ultimately defeated by Antony and Octavius. With capture imminent, Brutus asks several companions to help him die; Strato finally holds the sword on which Brutus runs. Brutus dies convinced that Caesar's death has been avenged and that suicide preserves his freedom. Antony finds the body and distinguishes Brutus from the other conspirators, judging that Brutus acted from an honest concern for Rome rather than envy. Octavius orders an honorable military burial and takes Brutus's surviving men into his service. Caesar's assassins are dead, their cause is lost, and power passes to Antony and Octavius, whose victory points toward the end of the Roman republic.",
         "in_short": "As Julius Caesar returns to Rome in triumph, Cassius persuades the honorable Brutus that Caesar's popularity threatens the republic. Brutus joins a conspiracy and, despite warnings and omens, the senators assassinate Caesar at the Capitol. Brutus permits Caesar's ally Mark Antony to speak at the funeral. Antony turns the crowd against the killers by displaying Caesar's wounds and invoking his will, forcing Brutus and Cassius to flee Rome. Antony, Octavius, and Lepidus form a new ruling coalition, proscribe enemies, and march against the conspirators. Brutus and Cassius quarrel but reconcile before fighting at Philippi. Caesar's ghost foretells another meeting, and the battle ends disastrously for the republican side. Cassius kills himself after mistakenly believing his forces defeated; Brutus follows when defeat becomes certain. Antony honors Brutus as the one conspirator motivated by public principle, and Octavius assumes command of the settlement after victory.",
@@ -2033,6 +2045,10 @@
           }
         ],
         "work": "julius-caesar-william-shakespeare-2"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
       },
       "recaps": {
         "ending": "At Philippi, Cassius misreads a distant event and believes his ally Titinius has been captured. He orders Pindarus to kill him with the sword used against Caesar. Titinius returns safely with news of victory, finds Cassius dead, and kills himself. Brutus rallies the remaining troops for another engagement, but his cause is lost. Refusing capture, he asks several companions to help him die; Strato finally holds the sword on which Brutus runs. Antony finds the body and judges Brutus the only conspirator who acted from an honest concern for Rome rather than envy. Octavius orders an honorable burial and takes command of the field. Caesar's assassins are dead or defeated, while Antony and Octavius emerge as Rome's rulers and prepare to settle affairs after the civil war.",

@@ -2419,6 +2419,10 @@
         ],
         "work": "lysistrata"
       },
+      "position_scale": {
+        "length": 1,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "The effects of the women's campaign become impossible for either side to ignore. A Spartan herald arrives in Athens, and delegations from Sparta and Athens meet to negotiate. Lysistrata rebukes both cities for fighting fellow Greeks despite shared religious and military obligations. Although the delegates are still tempted to quarrel over territory, their desire to end the strike helps her bring them to terms. The peace is concluded, and the long confrontation between the men's and women's choruses gives way to reconciliation. The Acropolis and its treasury can return to ordinary civic use, while the women are released from their oath and can rejoin their husbands. Athenians and Spartans finish together in a celebration of peace, song, dance, and renewed domestic life. The women's direct political action has succeeded where the male leadership's continuing warfare had failed.",
         "in_short": "With Athens and Sparta trapped in a prolonged war, Lysistrata gathers women from both sides and persuades them to refuse sex until the men negotiate peace. At the same time, older Athenian women occupy the Acropolis and take control of the treasury that finances the war. Male citizens and a magistrate try to remove them, but Lysistrata argues that women who manage households and bear the costs of war have both the skill and the right to intervene. Some participants waver, yet she prevents the alliance from collapsing. Myrrhine then entices her husband Cinesias with the prospect of reunion but leaves him frustrated, proving the strike's power. Sparta suffers the same pressure. Delegates from both cities finally meet, and Lysistrata reminds them of their shared ties before guiding them through territorial disputes. They agree to peace, the divided choruses reconcile, and Athenians and Spartans celebrate together as the women return home with their objective achieved.",
@@ -2659,7 +2663,7 @@
             "id": "macbeth",
             "name": "Macbeth",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "protagonist"
           },
@@ -2668,7 +2672,7 @@
             "id": "lady-macbeth",
             "name": "Lady Macbeth",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2677,7 +2681,7 @@
             "id": "banquo",
             "name": "Banquo",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2686,7 +2690,7 @@
             "id": "duncan",
             "name": "Duncan",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2704,7 +2708,7 @@
             "id": "romeo",
             "name": "Romeo",
             "reveal": {
-              "chapter": 6
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -2713,7 +2717,7 @@
             "id": "juliet",
             "name": "Juliet",
             "reveal": {
-              "chapter": 6
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -2722,7 +2726,7 @@
             "id": "friar-laurence",
             "name": "Friar Laurence",
             "reveal": {
-              "chapter": 7
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2731,7 +2735,7 @@
             "id": "nurse",
             "name": "Nurse",
             "reveal": {
-              "chapter": 6
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2740,7 +2744,7 @@
             "id": "tybalt",
             "name": "Tybalt",
             "reveal": {
-              "chapter": 6
+              "chapter": 1
             },
             "role": "antagonist"
           }
@@ -2755,6 +2759,10 @@
         ],
         "work": "macbeth-and-romeo-juliet"
       },
+      "position_scale": {
+        "length": 2,
+        "unit": "piece"
+      },
       "recaps": {
         "ending": "Macbeth ends after the king's violent rule drives Malcolm and Macduff to lead an army against him. Lady Macbeth dies after being overwhelmed by guilt. Macbeth trusts the witches' assurances until Birnam Wood appears to move toward his castle and Macduff reveals that he was not born in the ordinary manner. Macduff kills Macbeth, and Malcolm takes the Scottish crown. Romeo and Juliet ends when Friar Laurence's message about Juliet's feigned death fails to reach Romeo. Believing her dead, Romeo takes poison in the Capulet tomb. Juliet wakes, finds him dead, and kills herself. Their parents finally recognize the cost of the feud and agree to peace.",
         "in_short": "In Macbeth, three witches predict that Macbeth will be king. Encouraged by Lady Macbeth, he murders Duncan, takes the crown, and orders further killings to protect it. Guilt destroys Lady Macbeth, while opposition gathers around Duncan's son Malcolm and Macduff. The witches' misleading promises give Macbeth false confidence; Macduff kills him and Malcolm becomes king. In Romeo and Juliet, children of the feuding Montague and Capulet families fall in love and marry secretly. Romeo is banished after killing Tybalt. Juliet takes a potion to avoid another marriage, but the plan is not explained to Romeo. He believes she is dead and poisons himself; she wakes and kills herself beside him. Their deaths finally reconcile the families.",
@@ -2762,16 +2770,16 @@
         "recaps": [
           {
             "scope": "book",
-            "text": "After Scotland defeats an invasion and rebellion, three witches tell Macbeth that he will become king and that Banquo's descendants will rule after him. King Duncan soon rewards Macbeth with a title named in the prophecy. Lady Macbeth persuades her husband to murder Duncan while the king is their guest, and they frame his guards. Duncan's sons flee, allowing Macbeth to take the crown. Fearing Banquo's predicted line, Macbeth has his friend killed, though Banquo's son escapes. He returns to the witches, whose warnings make him feel protected by impossible conditions. Macbeth orders the slaughter of Macduff's family, driving Macduff to join Malcolm's invasion. Lady Macbeth, tormented by guilt, dies. Malcolm's soldiers camouflage themselves with branches from Birnam Wood, fulfilling one warning. Macduff reveals that the witches' promise does not protect Macbeth from him, kills the tyrant, and enables Malcolm to become king.",
+            "text": "In Verona, Romeo Montague and Juliet Capulet fall in love despite their families' feud. Friar Laurence marries them secretly. Tybalt kills Romeo's friend Mercutio, and Romeo kills Tybalt, for which he is banished. When Juliet's parents order her to marry Paris, the friar gives her a potion that will make her appear dead until Romeo can take her away. The message explaining the plan never reaches him. Romeo enters the tomb, believes Juliet dead, and takes poison. Juliet wakes and kills herself with his dagger. Faced with the deaths of their children, the Montagues and Capulets end their feud.",
             "through": {
-              "chapter": 5
+              "chapter": 1
             }
           },
           {
             "scope": "book",
-            "text": "Macbeth's murder of Duncan leads to a fearful reign, the destruction of Lady Macbeth, and a revolt led by Malcolm and Macduff. Macduff kills Macbeth and Malcolm restores the royal line. The collection then moves to Verona, where Romeo Montague and Juliet Capulet fall in love despite their families' feud. Friar Laurence marries them secretly. Tybalt kills Romeo's friend Mercutio, and Romeo kills Tybalt, for which he is banished. When Juliet's parents order her to marry Paris, the friar gives her a potion that will make her appear dead until Romeo can take her away. The message explaining the plan never reaches him. Romeo enters the tomb, believes Juliet dead, and takes poison. Juliet wakes and kills herself with his dagger. Faced with the deaths of their children, the Montagues and Capulets end their feud.",
+            "text": "The collection then moves to Scotland. After Scotland defeats an invasion and rebellion, three witches tell Macbeth that he will become king and that Banquo's descendants will rule after him. King Duncan soon rewards Macbeth with a title named in the prophecy. Lady Macbeth persuades her husband to murder Duncan while the king is their guest, and they frame his guards. Duncan's sons flee, allowing Macbeth to take the crown. Fearing Banquo's predicted line, Macbeth has his friend killed, though Banquo's son escapes. He returns to the witches, whose warnings make him feel protected by impossible conditions. Macbeth orders the slaughter of Macduff's family, driving Macduff to join Malcolm's invasion. Lady Macbeth, tormented by guilt, dies. Malcolm's soldiers camouflage themselves with branches from Birnam Wood, fulfilling one warning. Macduff reveals that the witches' promise does not protect Macbeth from him, kills the tyrant, and enables Malcolm to become king.",
             "through": {
-              "chapter": 10
+              "chapter": 2
             }
           }
         ],
@@ -2961,6 +2969,10 @@
         ],
         "work": "macbeth-william-shakespeare"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "Malcolm's army advances on Dunsinane carrying branches cut from Birnam Wood, making the witches' warning appear to come true. Macbeth, already numb after hearing of Lady Macbeth's death, still trusts the prediction that anyone delivered through ordinary childbirth cannot harm him. In battle he kills young Siward, but Macduff finds him and reveals that he was delivered before natural birth. Macbeth refuses surrender and is killed. Macduff brings Macbeth's severed head to Malcolm, who is acclaimed king. Malcolm creates Scotland's first earls, calls home those who fled the tyranny, and promises to punish Macbeth's remaining agents and restore order. Lady Macbeth has died offstage, apparently by suicide, Banquo's descendants have not yet taken the throne, and Fleance's location remains unresolved. The play closes with Malcolm inviting his allies to his coronation at Scone.",
         "in_short": "Victorious Scottish general Macbeth meets witches who predict that he will become king and that Banquo's descendants will rule after him. Spurred by Lady Macbeth, he murders King Duncan and takes the crown after Duncan's sons flee. Fearful of the prophecy, Macbeth has Banquo killed, but Fleance escapes; Banquo's ghost then disrupts a royal feast. Further apparitions make Macbeth feel invulnerable while warning him about Macduff. Macbeth orders the slaughter of Macduff's wife and children, driving Macduff to join Duncan's son Malcolm in England. Lady Macbeth breaks under guilt and dies as Malcolm's forces invade. Camouflaged with branches from Birnam Wood, the army reaches Dunsinane. Macduff, delivered before natural birth, falls outside the witches' reassuring prediction and kills Macbeth. Malcolm becomes king and begins restoring Scotland.",
@@ -3148,6 +3160,10 @@
           }
         ],
         "work": "macbeth-william-shakespeare-2"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
       },
       "recaps": {
         "ending": "As Malcolm's army advances under branches cut from Birnam Wood, the prophecy about the forest moving toward Dunsinane is fulfilled in a practical but unexpected way. Lady Macbeth dies offstage, and Macbeth responds with despair yet continues fighting. He kills Young Siward and clings to the witches' assurance that no man born naturally from a woman can harm him. Macduff then reveals that he was delivered prematurely by surgery, placing him outside the protection Macbeth thought absolute. Macduff kills and beheads Macbeth. Malcolm is acclaimed king, invites the exiled nobles home, and promises to restore order by rewarding his supporters and recalling those driven abroad by the tyranny. Banquo's descendants have not yet taken the throne within the play, so that part of the witches' prediction remains beyond the action, but Macbeth's attempt to defeat fate has destroyed him and Lady Macbeth and ends with Duncan's line restored through Malcolm.",

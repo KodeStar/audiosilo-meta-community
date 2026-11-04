@@ -1134,6 +1134,10 @@
         ],
         "work": "the-school-for-scandal"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "The screen incident destroys Joseph Surface's reputation for virtue: Sir Peter has heard Joseph pursue Lady Teazle, and Lady Teazle has heard her husband speak with genuine affection and generosity. She rejects Joseph and reconciles with Sir Peter. Sir Oliver's disguises then complete the comparison of his nephews. Joseph had refused aid to the supposed poor relation Stanley and tried to manage away the consequences, whereas debt-ridden Charles treated the supposed lender Premium recklessly but preserved Sir Oliver's portrait and sent money to help Stanley. Sir Oliver reveals himself and accepts Charles as his heir. Lady Sneerwell makes a final attempt to stop Charles's marriage to Maria by producing Snake to support a false story, but Snake admits the fabrication. Joseph and Lady Sneerwell are exposed, Charles and Maria are free to marry, and Sir Peter and Lady Teazle resume their marriage with greater mutual understanding. The scandal circle loses this contest even though gossip itself is unlikely to disappear.",
         "in_short": "Lady Sneerwell and the outwardly virtuous Joseph Surface spread a false story to separate Charles Surface from Maria: Sneerwell wants Charles, while Joseph wants Maria and her fortune. At the same time, newly married Sir Peter and Lady Teazle quarrel over money and society, and Lady Teazle flirts with the idea of an affair with Joseph. Sir Oliver Surface returns from abroad and tests his nephews in disguise. Charles, though indebted and reckless, refuses to sell his uncle's portrait and proves generous; Joseph refuses help to a supposed poor relation. In Joseph's library, Lady Teazle hides behind a screen while Sir Peter hides in a closet, and Charles's arrival leads to the screen's fall. Joseph's hypocrisy is exposed, and Lady Teazle repents after hearing Sir Peter's love for her. Sir Oliver reveals himself, Snake confesses that Lady Sneerwell's evidence against Charles was fabricated, Charles is reconciled with Maria and his uncle, and the Teazles restore their marriage.",
@@ -1965,6 +1969,10 @@
           }
         ],
         "work": "the-seagull"
+      },
+      "position_scale": {
+        "length": 4,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Two years after leaving the estate, Nina returns secretly and meets Konstantin. Her affair with Trigorin produced a child who died, Trigorin returned to Arkadina, and Nina's acting career has been difficult and provincial. Although shaken and sometimes identifying herself with the seagull Konstantin once killed, she insists that endurance matters more than fame and says she still loves Trigorin. She leaves to continue working as an actress. Konstantin recognizes that neither his growing literary reputation nor his devotion can bridge the distance between them. He destroys his manuscripts and goes into another room. As Arkadina, Trigorin, and the others play cards, a shot is heard. Dorn investigates, then privately tells Trigorin to take Arkadina away because Konstantin has killed himself. The news is withheld from her as the curtain falls.",
@@ -3543,6 +3551,10 @@
           }
         ],
         "work": "the-secret-history"
+      },
+      "position_scale": {
+        "length": 8,
+        "unit": "chapter"
       },
       "recaps": {
         "ending": "The group destroys itself. After Bunny's murder and the strain of the investigation and funeral, the friends turn on one another. Charles, drinking heavily and estranged, grows violent, and in a final confrontation involving a gun and the threat of everything coming out, the situation collapses; Henry, the group's mastermind, shoots himself and dies, an act that ends the crisis and shields the others. Julian Morrow, having found evidence of what his adored students have done, quietly leaves the college and cuts them off, shattering the ideal that had bound them. In the epilogue, told years later, Richard recounts their fates: Francis, forced by his family toward a marriage he does not want, attempts suicide and survives; Charles disappears, running off with an older married woman; Camilla lives alone caring for her aging grandmother, still emotionally beyond Richard's reach though he never stops loving her. Richard himself completes his studies and drifts into an academic life, permanently marked by his complicity and unable to escape the memory of the killings and the seductive, lost world Julian created around them.",

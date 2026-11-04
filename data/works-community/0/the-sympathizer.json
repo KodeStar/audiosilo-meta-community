@@ -5462,7 +5462,7 @@
             "id": "the-eloi",
             "name": "The Eloi",
             "reveal": {
-              "chapter": 5
+              "chapter": 8
             },
             "role": "supporting"
           },
@@ -5471,7 +5471,7 @@
             "id": "the-morlocks",
             "name": "The Morlocks",
             "reveal": {
-              "chapter": 9
+              "chapter": 8
             },
             "role": "antagonist"
           },
@@ -5506,7 +5506,7 @@
             "id": "mling",
             "name": "M'ling",
             "reveal": {
-              "chapter": 21
+              "chapter": 31
             },
             "role": "supporting"
           },
@@ -5586,6 +5586,10 @@
           }
         ],
         "work": "the-time-machine-the-island-of-dr-moreau-the-invisible-man-unabridged"
+      },
+      "position_scale": {
+        "length": 69,
+        "unit": "chapter"
       },
       "recaps": {
         "ending": "Each novel closes with its central experiment destroyed and its witness left changed. The Time Traveller returns from the remote future, departs again with a camera and supplies, and never comes back; the narrator keeps two strange flowers from Weena as the only physical support for his story. Edward Prendick escapes Moreau's island after Moreau, Montgomery, and the remaining human order are lost. Rescued at sea, he cannot persuade others to believe him and finds ordinary people disturbingly similar to the Beast Folk, so he withdraws into solitude and study. Griffin's effort to impose a reign of terror ends when Kemp draws the pursuing Invisible Man into a crowd. Griffin is beaten to death and slowly becomes visible as a naked albino man. Thomas Marvel uses Griffin's stolen money to open an inn and secretly keeps the scientist's coded notebooks. He cannot understand them, leaving the knowledge of invisibility inaccessible but not destroyed.",

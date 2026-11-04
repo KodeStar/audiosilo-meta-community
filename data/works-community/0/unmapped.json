@@ -3010,6 +3010,10 @@
         ],
         "work": "vengeful"
       },
+      "position_scale": {
+        "length": 96,
+        "unit": "section"
+      },
       "recaps": {
         "license": "CC-BY-SA-4.0",
         "recaps": [

@@ -1145,6 +1145,10 @@
         ],
         "work": "shakespeare-for-kids-hamlet"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "Hamlet returns to Denmark and encounters Ophelia's funeral, where he and Laertes struggle in their grief. Claudius arranges a fencing match using Laertes's poisoned blade and a poisoned drink as a backup. During the bout, Gertrude unknowingly drinks from the poisoned cup. Laertes wounds Hamlet; after the weapons are exchanged, Hamlet wounds Laertes with the same blade. The dying queen warns Hamlet, and Laertes confesses the plot and blames Claudius. Hamlet stabs Claudius and forces him to drink the poison. Claudius, Gertrude, Laertes, and Hamlet all die. Hamlet asks Horatio to tell the true story and gives his support to Fortinbras, who arrives to find the Danish court dead and claims the kingdom. Horatio survives to explain what happened.",
         "in_short": "Prince Hamlet mourns his father while his uncle Claudius rules Denmark and has married Hamlet's mother, Gertrude. The dead king's Ghost tells Hamlet that Claudius murdered him. Hamlet adopts erratic behavior while seeking proof, then uses a play about a royal murder to provoke Claudius. After accidentally killing Polonius, Hamlet is sent toward England under a secret death order but escapes. Ophelia breaks down after her father's death and drowns; her brother Laertes returns seeking revenge. Claudius recruits Laertes for a rigged fencing match using poison. Gertrude drinks the poisoned cup, Hamlet and Laertes wound each other with the poisoned sword, and Laertes exposes the plot. Hamlet kills Claudius before dying. Fortinbras enters the ruined court and succeeds to Denmark, while Horatio remains to tell Hamlet's story.",
@@ -1278,6 +1282,10 @@
           }
         ],
         "work": "shamela"
+      },
+      "position_scale": {
+        "length": 17,
+        "unit": "letter"
       },
       "recaps": {
         "ending": "After marrying Booby, Shamela abandons the restraint that won him. She spends freely, asserts authority over the household, and continues her relationship with Parson Williams under the cover of his religious teaching. Booby eventually discovers enough of their conduct to understand that the celebrated conversion of desire into virtuous marriage was a fraud. Williams is driven out after a violent confrontation, and Shamela's claim to exemplary goodness collapses. The final correspondence returns the papers to the clergymen who framed the narrative: Oliver's evidence has replaced Tickletext's admiration with recognition that the supposed moral lesson rewarded calculation, credulity, and hypocrisy.",

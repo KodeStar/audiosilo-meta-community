@@ -2739,6 +2739,10 @@
         ],
         "work": "billy-summers"
       },
+      "position_scale": {
+        "length": 24,
+        "unit": "chapter"
+      },
       "recaps": {
         "ending": "Billy and Alice uncover the reason for the elaborate contract: Joel Allen possessed information about sexual abuse committed by Patrick Klerke, and Patrick's wealthy father Roger paid to silence Allen and then remove Billy as a witness. Billy and Alice enter the Klerke estate using carefully prepared disguises and turn the predators' assumptions against them. Patrick and Roger are killed, completing Billy's effort to hold the people behind the scheme accountable. As Billy and Alice leave, a household employee named Marge shoots Billy because of her loyalty to the Klerkes. He initially escapes with Alice, but the wound is fatal. Alice later completes the manuscript Billy began while posing as a writer. She first gives him a happier fictional survival, then records the truth: Billy died during their journey back to Bucky and was buried in Colorado. Writing lets her preserve his life without denying its end, and she considers becoming an author herself. Billy's last job therefore closes not with the retirement he wanted, but with Alice alive, protected, and able to tell both his story and her own.",
         "in_short": "Marine veteran Billy Summers is a contract sniper who tells himself he kills only dangerous people. Before retiring, he accepts a large fee to shoot jailed killer Joel Allen and spends months posing as writer David Lockridge in an office overlooking the courthouse. The cover leads Billy to write honestly about his childhood and military service. He completes the shot, but his employers try to eliminate him, so he hides nearby. After rescuing Alice Maxwell, a young woman abandoned after an assault, Billy helps her confront her attackers, and she joins his search for whoever betrayed him. With help from his friend Bucky Hanson, they trace the contract through crime boss Nick Majarian to media magnate Roger Klerke, who wanted Allen silenced for knowing of abuse committed by Klerke's son Patrick. Billy and Alice kill the Klerkes, but their housekeeper shoots Billy as they escape. He dies before reaching safety. Alice finishes Billy's manuscript and finally writes the true ending after briefly imagining that he survived.",
@@ -5827,6 +5831,10 @@
           }
         ],
         "work": "blithe-spirit"
+      },
+      "position_scale": {
+        "length": 3,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Madame Arcati concludes that Edith's unsuspected psychic ability supplied the force that brought Elvira into the house. Using Edith in another attempt, the medium appears to send both dead wives away. Charles, relieved to be free of the household struggle, decides to leave at once and travel alone. Before going, he speaks dismissively to Elvira and Ruth in case they can still hear him. His confidence is misplaced: after he departs, objects move and the room is damaged, showing that both ghosts remain present even though Charles can no longer see or hear them. He has escaped their immediate company, but the supernatural problem has not actually been solved.",

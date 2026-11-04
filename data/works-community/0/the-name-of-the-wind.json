@@ -2598,6 +2598,10 @@
         ],
         "work": "the-oedipus-plays-amazonclassics-edition"
       },
+      "position_scale": {
+        "length": 3,
+        "unit": "piece"
+      },
       "recaps": {
         "ending": "Creon refuses burial to Polynices after the civil war and condemns Antigone when she performs the forbidden rite. Although Haemon and Tiresias warn him that his inflexibility is destroying both family and city, he changes course too late. Antigone hangs herself in the chamber where she has been confined. Haemon finds her, turns a weapon on his father, and then kills himself; Eurydice takes her own life after hearing of her son's death. Creon returns carrying Haemon's body and learns of his wife's suicide. He is left alive, stripped of his family and authority over the consequences of his choices. The trilogy therefore closes with Antigone dead but no longer alone in ruin: Creon's insistence that civic command outrank sacred and familial obligations has destroyed his own household, and he finally recognizes responsibility when the damage cannot be reversed.",
         "in_short": "A plague drives King Oedipus to investigate the unsolved murder of Laius. He discovers that he unknowingly killed Laius, his father, and married Jocasta, his mother; Jocasta dies by suicide and Oedipus blinds himself. Years later the exiled Oedipus reaches Colonus, where Theseus protects him from Creon and Polynices. Oedipus rejects both sons, grants Athens the benefit of his secret grave, and dies under divine guidance. His daughters return toward Thebes, where Eteocles and Polynices kill each other in civil war. Creon becomes king, honors Eteocles, and forbids burial of Polynices. Antigone defies the order and is condemned to confinement in a cave. Creon reverses himself after prophetic warning, but too late: Antigone, Haemon, and Eurydice all take their own lives. Creon survives to understand that his rigid rule has destroyed his family.",
@@ -3463,6 +3467,10 @@
           }
         ],
         "work": "the-oresteia"
+      },
+      "position_scale": {
+        "length": 3,
+        "unit": "piece"
       },
       "recaps": {
         "ending": "At Orestes' trial in Athens, the citizen judges divide evenly over whether he must be punished for killing Clytemnestra. Athena's vote breaks the tie in favor of acquittal, ending the Furies' legal claim against him and allowing him to return to Argos. The Furies react with anger and threaten the land, but Athena does not drive them away. She offers them an honored place beneath Athens and a continuing power to bless fertility, protect justice, and punish destructive conduct. They accept the settlement, becoming the Eumenides, or Kindly Ones. An Athenian procession escorts the transformed goddesses to their new sanctuary. Orestes is freed, Apollo's command is vindicated in the immediate case, and the cycle of private revenge within the house of Atreus gives way to a civic system in which disputed blood guilt is judged by a court and formerly hostile powers are incorporated into the city's order.",

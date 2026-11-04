@@ -1925,6 +1925,10 @@
         ],
         "work": "hamlet"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "Claudius and Laertes arrange a fencing match in which Laertes uses a sharpened, poisoned blade; Claudius also prepares poisoned wine as a second means of killing Hamlet. Hamlet scores the early hits, but Gertrude unknowingly drinks from the poisoned cup and dies. Laertes wounds Hamlet with the poisoned weapon, then loses it in the struggle and is wounded by the same blade. As Laertes dies, he exposes the plot and names Claudius. Hamlet stabs Claudius and forces him to drink the remaining poison, killing him, then forgives Laertes. The poison kills Hamlet shortly afterward. He prevents Horatio from taking his own life and charges him to explain what happened. Fortinbras returns from Poland as ambassadors report that Rosencrantz and Guildenstern are dead. Finding the royal family destroyed, Fortinbras claims his political rights in Denmark and orders a soldier's funeral for Hamlet. Horatio remains to tell the story, while Danish rule passes to the Norwegian prince.",
         "in_short": "Prince Hamlet returns to Denmark after his father's death and learns from the old king's ghost that his uncle Claudius committed murder, seized the crown, and married Queen Gertrude. Hamlet adopts erratic behavior while seeking proof. A staged play reproducing the alleged crime makes Claudius reveal his guilt, but Hamlet delays killing him and accidentally kills the counselor Polonius instead. Claudius sends Hamlet toward England with secret orders for his death; Hamlet escapes after redirecting those orders against Rosencrantz and Guildenstern. Polonius's daughter Ophelia loses her sanity and drowns, while her brother Laertes joins Claudius in a plot using a poisoned fencing blade. During the match, Gertrude drinks poisoned wine, Laertes and Hamlet are both wounded, and Laertes exposes the king. Hamlet kills Claudius before dying from the poison. Horatio survives to report the truth, and Fortinbras arrives to take control of a court whose ruling family has been destroyed.",
@@ -2332,6 +2336,10 @@
         ],
         "work": "hamlet-the-arkangel-shakespeare"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "The fencing match is Claudius and Laertes' trap: Laertes uses an unblunted sword coated with poison, while Claudius prepares poisoned wine as a second method. Gertrude unknowingly drinks from the cup. Laertes wounds Hamlet, but in the struggle they exchange weapons and Hamlet wounds Laertes with the same poisoned blade. As Gertrude dies and the plot is exposed, Laertes confesses and reconciles with Hamlet. Hamlet stabs Claudius and forces him to drink the poison, killing him. Hamlet then dies from his wound after asking Horatio to tell the true story and supporting Fortinbras as Denmark's next ruler. Fortinbras arrives from his Polish campaign as the royal family lies dead. The English ambassadors also report that Rosencrantz and Guildenstern have been executed. Fortinbras claims authority over Denmark and orders Hamlet to receive a soldier's funeral. Horatio remains to explain how the court's surveillance, revenge schemes, and concealed crimes produced the catastrophe.",
         "in_short": "Prince Hamlet returns to Denmark after his father's death and finds his uncle Claudius on the throne and married to his mother Gertrude. His father's ghost says Claudius murdered him and demands revenge. Unsure whether to trust the spirit, Hamlet adopts erratic behavior and uses a visiting acting company to stage a murder resembling the accusation. Claudius's reaction confirms his guilt, but Hamlet delays and accidentally kills the hidden Polonius. Ophelia, Polonius's daughter and Hamlet's former beloved, loses her reason and drowns; her brother Laertes returns seeking vengeance. Claudius recruits Laertes into a rigged fencing match using a poisoned blade and cup. The scheme kills Gertrude, Laertes, Hamlet, and Claudius, whom Hamlet finally kills after the plot is exposed. Fortinbras of Norway arrives to take control of Denmark. Hamlet's friend Horatio survives to report what happened, while the royal house is extinguished by secrecy, surveillance, and reciprocal revenge.",
@@ -2536,6 +2544,10 @@
           }
         ],
         "work": "hamlet-the-bad-quarto"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
       },
       "recaps": {
         "ending": "At Ofelia's funeral Hamlet reveals himself, quarrels with Leartes, and declares his love for her. The king then arranges a fencing match between them. Leartes uses a sharpened, poisoned weapon, while the king also prepares poisoned wine. During the bout Hamlet and Leartes exchange weapons and both receive mortal wounds. The queen drinks from the poisoned cup intended for Hamlet and dies. Leartes admits the plot and identifies the king as its author. Hamlet kills the king, then dies after asking Horatio to preserve the truth of what happened. Fortinbras arrives to find the Danish royal family destroyed and takes control amid the aftermath. The revenge demanded by the Ghost is completed, but it costs Hamlet, Ofelia, Leartes, the queen, and the king their lives.",

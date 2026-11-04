@@ -2715,6 +2715,10 @@
         ],
         "work": "time-regained"
       },
+      "position_scale": {
+        "length": 3,
+        "unit": "section"
+      },
       "recaps": {
         "ending": "At the Guermantes reception, involuntary memories triggered by physical sensations reveal to the narrator how his book can recover experience from time. The aged guests then show him time's destructive force in bodily form. He understands that the people, errors, loves, snobberies, and disappointments of his life are not distractions from art but its necessary material. Social identities have been rearranged: Madame Verdurin has become the Princesse de Guermantes, Bloch is successful, and former outsiders mingle with an aristocracy stripped of its old permanence. Gilberte's daughter by the dead Robert de Saint-Loup unites Swann's family with the Guermantes and symbolically joins the two ways of the narrator's childhood. Conscious that illness may leave him too little time, he resolves to construct the work that will disclose lives extended through time as well as space. The novel closes before that work is written, but its plan is clear; the long sequence the reader has completed is the form of the book he now conceives.",
         "in_short": "After years of illness and apparent failure, the narrator revisits Tansonville, returns to wartime Paris, and finally attends a Guermantes reception after another long absence. Gilberte corrects several childhood memories and reveals that the supposedly separate ways of Swann and Guermantes meet. In Paris, the war exposes shifting fashions of patriotism and society, while Charlus's private life, humiliation, and decline unfold against aerial raids; Robert de Saint-Loup dies in military service. At the later reception, sensations caused by uneven paving stones, a spoon, and a stiff napkin unexpectedly restore past moments with an intensity ordinary memory cannot achieve. The narrator realizes that art can uncover the timeless structure within lived experience. The guests, radically aged and socially rearranged, provide the human material for his work. Gilberte's daughter joins the Swann and Guermantes lines. Fearing death may overtake him, the narrator resolves at last to write the book shaped from his whole life—the work the reader has effectively just finished.",
@@ -3354,6 +3358,10 @@
           }
         ],
         "work": "titus-andronicus"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Lucius's Goth forces capture Aaron and his infant son. To preserve the child, Aaron admits his role in the crimes against the Andronicus family. Tamora and her sons visit Titus disguised as supernatural agents of revenge; Titus recognizes them, keeps Chiron and Demetrius behind, kills them, and has their remains baked into a pie. At the banquet he kills Lavinia, reveals what was served to Tamora, and kills the empress. Saturninus kills Titus, and Lucius immediately kills Saturninus. Marcus and Lucius explain the family's ordeal to the assembled Romans, who accept Lucius as emperor. Lucius orders honorable burial for Titus and Lavinia. Aaron is sentenced to be buried to the chest and starved, and Tamora's body is denied burial. Rome has a new ruler, but nearly every member of the rival families has been destroyed by the cycle of retaliation.",

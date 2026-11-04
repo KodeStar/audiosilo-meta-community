@@ -679,6 +679,10 @@
         ],
         "work": "angels-in-america"
       },
+      "position_scale": {
+        "length": 8,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "Prior reaches Heaven and rejects the Angels' demand that humanity stop moving and changing. He returns their prophetic book and asks for more life despite pain, loss, and the certainty of death. On Earth, Roy Cohn dies after tricking Ethel Rosenberg into confirming his disbarment; Belize has Louis recite the Jewish prayer for the dead over Roy's body, and Ethel joins unseen. Harper finally leaves Joe, taking his credit card and flying west to begin an independent life. Joe, abandoned by both Harper and Louis and separated from Roy's promised future, does not join the final gathering. Five years later, Prior is alive though still ill. He sits at the Bethesda Fountain with Belize, Louis, and Hannah, an unlikely chosen family shaped by the epidemic and their shared history. Prior addresses the audience with hope for more life and imagines the fountain restored, offering a blessing that does not deny suffering or mortality. The characters do not achieve a clean cure or political resolution, but survival, change, and mutual care defeat the Angels' ideal of static safety.",
         "in_short": "In 1985 New York, Prior Walter develops AIDS and is abandoned by his frightened boyfriend, Louis Ironson. Louis begins a relationship with Joe Pitt, a closeted Mormon lawyer whose Valium-dependent wife Harper retreats into hallucinations. Joe's patron, the powerful conservative lawyer Roy Cohn, also has AIDS but denies the identity and uses influence to secure scarce medication. An Angel selects Prior as a prophet and commands humanity to stop migrating and changing, claiming human restlessness drove God away. Prior refuses the mission and ultimately returns the prophetic book to Heaven, choosing painful life and change over stillness. Joe's relationship with Louis collapses after Louis learns of his connection to Roy; Harper leaves Joe to build a life of her own. Roy is disbarred and dies, watched by Ethel Rosenberg's ghost, while Belize and Louis give him a final prayer. Five years later Prior remains alive, supported by Belize, Louis, and Joe's mother Hannah, and closes with a blessing of survival and hope.",
@@ -944,6 +948,10 @@
           }
         ],
         "work": "anna-christie"
+      },
+      "position_scale": {
+        "length": 4,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Two days after Anna tells the truth about her past, Chris returns prepared to accept her, though he still distrusts the sea and the man she loves. Mat also comes back. His first demand for an oath of purity angers Anna, but when she swears that she has never loved another man, he accepts her account and renews his commitment to her. The reconciliation is uneasy rather than idealized: Mat and Chris discover that both have signed onto the same vessel bound for South Africa, leaving Anna to wait ashore for their return. Anna and Mat plan to marry after the voyage. Chris sees the coincidence as another sign that the sea governs their lives, and the play closes with all three facing a future that repeats some of the separations they had hoped to escape.",
@@ -2950,6 +2958,10 @@
         ],
         "work": "antigone"
       },
+      "position_scale": {
+        "length": 1,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "Creon orders Antigone sealed in a cave, then belatedly goes to release her after the Chorus warns that he has pushed the punishment too far. He arrives after Antigone has hanged herself. Haemon, found holding her body, rejects his father and kills himself. A messenger brings the news to Eurydice, who quietly withdraws and cuts her throat. Creon is left alive after losing his wife, his son, and his niece. He returns to the administrative work of the state because, unlike Antigone, he has accepted the duty of continuing. The guards resume their card game, untouched by the royal family's destruction, and the Chorus closes the play on the silence that follows tragedy.",
         "in_short": "After the sons of Oedipus kill each other in a civil war, Creon honors Eteocles and forbids burial of Polynices. Their sister Antigone secretly covers Polynices' body with earth and is arrested when she returns to perform the rite again. Creon tries privately to save his niece, arguing that rule is practical work and revealing that neither brother deserves her idealized loyalty. Antigone nearly accepts life but rejects the compromised happiness he offers and insists on owning her act. Creon condemns her to be sealed in a cave. She hangs herself before he can reverse course; her fiancé Haemon, Creon's son, kills himself beside her, and Creon's wife Eurydice takes her own life after hearing the news. Creon survives and returns alone to governing while the indifferent guards carry on with their routine.",
@@ -3076,6 +3088,10 @@
           }
         ],
         "work": "antigone-sophocles"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "episode"
       },
       "recaps": {
         "ending": "Tiresias warns that Creon's treatment of Polyneices and Antigone has offended the gods. Creon finally yields and goes first to bury Polyneices, then to release Antigone from the stone chamber. The reversal comes too late. Antigone has hanged herself. Haemon, grieving beside her, attacks his father unsuccessfully and then kills himself. When Eurydice hears that her son is dead, she withdraws into the palace and takes her own life, condemning Creon for the deaths of their children. Creon returns carrying Haemon's body and learns of his wife's death. Having lost his family through the decree he defended as necessary to the state, he recognizes his own responsibility and asks to be led away. The Chorus closes by linking wisdom with reverence for divine law and by presenting suffering as the punishment that teaches the proud.",

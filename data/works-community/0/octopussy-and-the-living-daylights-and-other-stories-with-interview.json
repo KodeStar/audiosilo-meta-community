@@ -95,6 +95,10 @@
         ],
         "work": "oedipus-at-colonus-by-sophocles"
       },
+      "position_scale": {
+        "length": 1,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "Divine thunder tells Oedipus that his appointed end has arrived. He dismisses his daughters before the final moment and leads Theseus alone to the secret place where he will leave the world. A messenger reports that Oedipus did not die by an ordinary visible process: after ritual preparations and farewells, he vanished in a manner known fully only to Theseus. The Athenian king must keep the location of the grave secret and pass that knowledge only to his successor, preserving the protection Oedipus has promised Athens. Antigone and Ismene mourn their father and ask to see the site, but Theseus honors Oedipus's prohibition. Antigone then asks for help returning to Thebes in the hope of preventing the fatal conflict between her brothers. Theseus agrees, and the sisters depart under his protection while Oedipus's hidden resting place remains a sacred defense for Athens.",
         "in_short": "Blind and exiled, the aged Oedipus reaches the sacred grove at Colonus with Antigone and recognizes the place foretold for his death. He asks Athens for protection, offering the spiritual power of his future grave in return. King Theseus grants sanctuary. Ismene reports that Thebes now wants control of Oedipus's burial place; Creon tries to force him back and abducts his daughters, but Theseus rescues them. Polynices then asks his father to support an attack on Thebes, and Oedipus rejects him, repeating the curse that his sons will kill each other. When thunder announces his end, Oedipus leads Theseus to a secret place, sends his daughters away, and vanishes in a mysterious death witnessed only by the Athenian king. His concealed grave becomes a promised safeguard for Athens. Antigone and Ismene prepare to return toward Thebes.",
@@ -203,6 +207,10 @@
           }
         ],
         "work": "oedipus-rex"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "episode"
       },
       "recaps": {
         "ending": "The shepherd confirms that Oedipus was the infant son of Laius and Jocasta whom he had been ordered to abandon. Oedipus therefore fulfilled the prophecy he tried to escape: without knowing their identities, he killed his father at a crossroads and married his mother after saving Thebes. Jocasta hangs herself when the truth becomes unavoidable. Oedipus finds her body, uses pins from her clothing to blind himself, and returns before the Thebans asking to be driven from the city. Creon assumes authority but refuses to make an immediate decision about exile until the gods' wishes are known. Oedipus asks Creon to care for Antigone and Ismene and is allowed a final meeting with them before being led away. The city has identified the source of its pollution, but the play closes before Oedipus's permanent destination is settled.",
@@ -510,6 +518,10 @@
           }
         ],
         "work": "oedipus-the-king"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "episode"
       },
       "recaps": {
         "ending": "The shepherd confirms that Oedipus was the infant son of Laius and Jocasta whom he had been ordered to abandon. Oedipus therefore fulfilled the prophecy he tried to escape: without knowing their identities, he killed his father at a crossroads and married his mother after saving Thebes. Jocasta hangs herself when the truth becomes unavoidable. Oedipus finds her body, uses pins from her clothing to blind himself, and returns before the Thebans asking to be driven from the city. Creon assumes authority but refuses to make an immediate decision about exile until the gods' wishes are known. Oedipus asks Creon to care for Antigone and Ismene and is allowed a final meeting with them before being led away. The city has identified the source of its pollution, but the play closes before Oedipus's permanent destination is settled.",
@@ -1175,6 +1187,10 @@
           }
         ],
         "work": "old-goriot"
+      },
+      "position_scale": {
+        "length": 4,
+        "unit": "part"
       },
       "recaps": {
         "ending": "Goriot suffers a final collapse after Anastasie and Delphine quarrel before him over their money troubles. Rastignac and Bianchon nurse him in his bare room while his daughters repeatedly put their social and financial crises ahead of visiting. Goriot dies still calling for them and still excusing their neglect. Rastignac and the servant Christophe must arrange and pay for the funeral; neither daughter attends, though their empty, crested carriages follow the coffin. After watching the burial, Rastignac looks out over Paris and consciously accepts it as his adversary. He then goes to dine with Delphine, ending the novel with Goriot abandoned and Rastignac committed to the social struggle that helped destroy him.",

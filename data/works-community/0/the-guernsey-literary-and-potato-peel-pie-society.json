@@ -727,6 +727,10 @@
         ],
         "work": "the-hairy-ape"
       },
+      "position_scale": {
+        "length": 8,
+        "unit": "scene"
+      },
       "recaps": {
         "ending": "After prison gives him no useful outlet, Yank visits an Industrial Workers of the World office and asks the organization to help him destroy the steel industry. His crude demand for explosives convinces the secretary that he is either a police agent or dangerously reckless, and he is thrown out. Rejected by both wealthy society and the organized workers whose cause he thought might accept him, Yank goes to the zoo. He addresses a caged gorilla as a fellow outsider and releases it, expecting recognition and brotherhood. The animal instead crushes him in an embrace and tosses him into the cage. Mortally injured, Yank concludes that he has finally found where he belongs, but that place is a cage in which he dies. His search ends with neither the industrial world, the working class, nor nature able to provide the identity and belonging he believed physical strength guaranteed.",
         "in_short": "Yank, the strongest stoker on an ocean liner, believes his labor and physical power place him at the heart of the industrial age. Mildred Douglas, the sheltered daughter of a steel magnate, visits the stokehole and recoils from him as if he were an animal. Her reaction destroys his confidence and begins a search for revenge and belonging. In New York he tries to confront wealthy churchgoers, but they barely register him and the police arrest him. In prison he learns about the Industrial Workers of the World and seeks their help attacking the steel system, only to be rejected as a suspected provocateur. Finally he visits a zoo, releases a gorilla he imagines as a brother, and is crushed by it. Dying inside the animal's cage, Yank recognizes that he belongs nowhere: not with the machinery he powered, the rich who own it, the workers' political movement, or the animal world onto which others projected him.",
@@ -2097,6 +2101,10 @@
         ],
         "text": "The tenth entry in the Jack Reacher series opens with Reacher watching a stranger drive off in an oddly parked Mercedes outside a New York cafe. John Gregory, a security executive who was present when the car was recovered, tracks him down for a description of the driver and brings him to his employer, Edward Lane, a former Army colonel who now runs a private security firm staffed by veterans of elite military units. Lane reveals that the car carried a million dollars in ransom money: his wife Kate and her eight-year-old daughter Jade disappeared the previous morning along with their driver, and the kidnappers have missed the follow-up call they promised after collecting the cash. Lane asks Reacher, a former Army CID investigator, to find them without involving the police, drawing him into a kidnapping whose planners have already shown they can dictate and enforce their own terms.",
         "work": "the-hard-way"
+      },
+      "position_scale": {
+        "length": 77,
+        "unit": "chapter"
       },
       "recaps": {
         "ending": "Lane, Gregory, Perez, and Addison capture Taylor, Anthony Jackson, Pauling, Kate, and Jade at Grange Farm. Reacher returns, kills all four attackers, and frees the captives. Taylor survives a gunshot wound, and Jackson survives Lane's beating. The group hides the bodies, the attackers' vehicles, and other evidence in an excavation on the farm. Reacher gives Pauling the recovered $800,000 for Hobart's long-term support, then leaves without disclosing where he is going. A year later, Kate and Graham Taylor are working Grange Farm, Jade has a baby brother named Jack, and Melody Jackson is close to her. Groom, Burke, and Kowalski have died in Iraq. More than $9 million is found when the Dakota apartment is foreclosed. Anne Lane's fate, wider accountability for the Burkina Faso operation, and any legal consequences from the concealed killings remain unresolved.",

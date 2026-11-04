@@ -1000,11 +1000,11 @@
             "role": "supporting"
           },
           {
-            "description": "A kind woman Jim encounters while trying to survive outside the workhouse. She offers food and humane attention when most adults see only a troublesome street boy, giving Jim a brief experience of safety without confinement.",
+            "description": "A friend of Jim's mother and one of the few adults who looks out for the Jarvis children. What she can do for them is limited by how little security she has herself.",
             "id": "rosie",
             "name": "Rosie",
             "reveal": {
-              "chapter": 11
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -1021,11 +1021,11 @@
             "aliases": [
               "Shrimps"
             ],
-            "description": "A small boy already working under Grimy Nick's control when Jim reaches the coal boat. Wary but companionable, he shows Jim how exposed street children can be trapped by adults who promise work or shelter.",
+            "description": "A small street boy Jim falls in with, named for the toes that show through the ends of his boots. He has no more protection than Jim, and the two look out for each other.",
             "id": "shrimps",
             "name": "Shrimps",
             "reveal": {
-              "chapter": 23
+              "chapter": 12
             },
             "role": "supporting"
           },
@@ -1052,9 +1052,13 @@
         ],
         "work": "street-child"
       },
+      "position_scale": {
+        "length": 27,
+        "unit": "chapter"
+      },
       "recaps": {
         "ending": "Jim escapes Grimy Nick's violent control and returns to the London streets, still without family, money, or a secure place to sleep. He reaches a school for poor children associated with Thomas Barnardo. Although the available refuge cannot simply accommodate every homeless boy, Jim's presence and his account of life outside make the human cost of that limit impossible to ignore. Barnardo listens as Jim describes eviction, the loss of his mother and sisters, the workhouse, and the exploitation he has survived. Jim is finally treated as a child in need rather than a criminal or a source of labor. The closing historical note is hopeful: Jim's story strengthens Barnardo's determination to create a home whose door will remain open to destitute children. Jim's future is not restored to what it was, but his testimony helps begin a wider effort to protect children living as he has lived.",
-        "in_short": "Jim Jarvis lives with his sick mother and two sisters in Victorian London until unpaid rent leaves them homeless. The family enters the workhouse, where they are separated, and Jim loses his mother and contact with his sisters. He befriends Tip but cannot accept the institution's hunger, labor, and punishments, so he escapes and survives on the streets. Brief kindness cannot give him lasting security, and Grimy Nick traps him into harsh work on a coal boat alongside another boy, Shrimps. Jim eventually escapes again and reaches a school serving poor children. There he meets Thomas Barnardo and explains what happens to children who have no family or bed and can still be turned away when shelters are full. Barnardo takes Jim seriously. The boy's experience helps inspire the promise that destitute children seeking refuge should not be refused for lack of money.",
+        "in_short": "Jim Jarvis lives with his sick mother and two sisters in Victorian London until unpaid rent leaves them homeless. The family enters the workhouse, where they are separated, and Jim loses his mother and contact with his sisters. He befriends Tip but cannot accept the institution's hunger, labor, and punishments, so he escapes and survives on the streets. Brief kindness cannot give him lasting security, and Grimy Nick traps him into harsh work on a coal boat. Jim eventually escapes again and reaches a school serving poor children. There he meets Thomas Barnardo and explains what happens to children who have no family or bed and can still be turned away when shelters are full. Barnardo takes Jim seriously. The boy's experience helps inspire the promise that destitute children seeking refuge should not be refused for lack of money.",
         "license": "CC-BY-SA-4.0",
         "recaps": [
           {
@@ -1073,14 +1077,14 @@
           },
           {
             "scope": "book",
-            "text": "Jim gets out of the workhouse and returns to the streets. Freedom spares him the institution's rules but exposes him to cold, hunger, and adults who assume an unaccompanied child is dishonest. He searches for food and work while still hoping he may somehow find his sisters. Tip's companionship cannot provide a permanent answer, and Jim must rely on quick judgment and occasional kindness. Rosie treats him with compassion and helps him for a time, showing him that not every adult intends to punish or exploit him. Yet no informal refuge can guarantee his safety. With nowhere secure to go, Jim remains vulnerable to anyone offering work, food, or a place to sleep, even when the offer carries dangers he cannot fully assess.",
+            "text": "Jim gets out of the workhouse and returns to the streets. Freedom spares him the institution's rules but exposes him to cold, hunger, and adults who assume an unaccompanied child is dishonest. He searches for food and work while still hoping he may somehow find his sisters. Tip's companionship cannot provide a permanent answer, and Jim must rely on quick judgment and occasional kindness. He finds Rosie, his mother's friend, who takes him in and sets him to selling seafood in the streets, showing him that not every adult intends to punish or exploit him. Yet her household cannot keep him, and he is turned out. He falls in with Shrimps, another street boy named for the toes showing through his boots. With nowhere secure to go, Jim remains vulnerable to anyone offering work, food, or a place to sleep, even when the offer carries dangers he cannot fully assess.",
             "through": {
               "chapter": 12
             }
           },
           {
             "scope": "book",
-            "text": "Grimy Nick takes control of Jim and forces him into exhausting, dangerous labor connected with a coal boat. Jim meets Shrimps, another small boy caught in the same system, and learns how easily homeless children can disappear into work that is little different from imprisonment. Nick uses threats and violence to keep them obedient. Jim refuses to accept this as his only future and eventually escapes, returning once more to London without money or family. He reaches a school serving poor children and comes to the attention of Thomas Barnardo. Jim explains the chain of losses that brought him there and the reality of sleeping rough when no refuge has room. Barnardo listens to him as a witness rather than dismissing him as a nuisance. Jim's story helps persuade the reformer that a home for destitute children must not turn a child away simply because he cannot pay, giving Jim's ordeal a hopeful consequence beyond his own rescue.",
+            "text": "Grimy Nick takes control of Jim and forces him into exhausting, dangerous labor on a coal boat, and Jim learns how easily homeless children can disappear into work that is little different from imprisonment. Nick uses threats and violence to keep him obedient. Jim refuses to accept this as his only future and eventually escapes, returning once more to London without money or family. He finds Shrimps again, now gravely ill, and in looking for help reaches a school serving poor children and comes to the attention of Thomas Barnardo. Jim explains the chain of losses that brought him there and the reality of sleeping rough when no refuge has room. Barnardo listens to him as a witness rather than dismissing him as a nuisance. Jim's story helps persuade the reformer that a home for destitute children must not turn a child away simply because he cannot pay, giving Jim's ordeal a hopeful consequence beyond his own rescue.",
             "through": {
               "chapter": 27
             }
@@ -1372,6 +1376,10 @@
         ],
         "work": "studying-dracula-the-complete-text-and-revision-guide"
       },
+      "position_scale": {
+        "length": 27,
+        "unit": "chapter"
+      },
       "recaps": {
         "ending": "After Dracula attacks Mina, the hunters use her involuntary psychic connection to track his retreat from England. They destroy or sanctify all but one of his boxes of native earth, follow his ship to Galatz, and divide into teams for the pursuit across Transylvania. Van Helsing takes Mina near Castle Dracula, wards her against the three vampire women, and destroys them while the other men close on the gypsies transporting Dracula's final box. Just before sunset, Jonathan and Quincey reach the cart. Jonathan cuts Dracula's throat and Quincey strikes his heart, causing the Count to disintegrate. Mina sees a look of peace on his face, and the sacred burn on her forehead vanishes, showing that the curse has ended. Quincey has suffered a fatal wound and dies beside his friends, comforted by Mina's recovery. An epilogue set seven years later shows Jonathan and Mina as parents of a boy named Quincey. Arthur and Seward have married, and the survivors return together to Transylvania, carrying their records as the principal evidence of their struggle.",
         "in_short": "Solicitor Jonathan Harker visits Count Dracula's Transylvanian castle and discovers that his client is a vampire preparing to move to England. Jonathan escapes, but Dracula reaches Whitby and preys on Lucy Westenra. Dr. Seward, Arthur Holmwood, Quincey Morris, and Professor Van Helsing repeatedly try to save Lucy; after she dies and returns as a vampire, they free her by destroying her undead body. Mina Harker assembles the group's records, helping them trace Dracula's London refuges, but Dracula attacks her and forces a blood bond that threatens to transform her. The hunters ruin his boxes of earth and pursue his last refuge back toward his castle, using Mina's psychic connection to follow him. Van Helsing destroys Dracula's three vampire women. Jonathan and Quincey intercept Dracula's box before sunset and kill him, breaking the curse on Mina. Quincey dies from a wound received in the fight. Seven years later, Jonathan and Mina have a son named for him, and the surviving friends remain united by the ordeal.",
@@ -1577,6 +1585,10 @@
           }
         ],
         "work": "studying-wuthering-heights-the-complete-text-and-revision-guide"
+      },
+      "position_scale": {
+        "length": 34,
+        "unit": "chapter"
       },
       "recaps": {
         "ending": "After gaining both Wuthering Heights and Thrushcross Grange, Heathcliff loses interest in completing his revenge. Hareton increasingly resembles the people Heathcliff loved and hated, while Cathy and Hareton overcome their hostility: she teaches him to read, he responds with devotion, and they plan to marry. Heathcliff becomes preoccupied with Catherine's presence and withdraws from ordinary life, eating little and wandering the moors. Nelly finds him dead in Catherine's old room beside an open window. He is buried beside Catherine and Edgar, and local stories claim that Heathcliff and Catherine are seen together on the moors. Lockwood later returns to find the oppressive household transformed. Cathy and Hareton intend to marry on New Year's Day and move to Thrushcross Grange, leaving Joseph at the Heights. The younger pair's union reconciles the Earnshaw and Linton lines and ends the cycle of dispossession, while Lockwood closes at the three graves.",

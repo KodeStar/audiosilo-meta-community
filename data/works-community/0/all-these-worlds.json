@@ -1023,6 +1023,10 @@
         ],
         "work": "alls-well-that-ends-well"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "At the French court, Bertram denies giving Diana his ancestral ring and becomes entangled in contradictions about a second ring that belonged to Helena. Diana refuses to explain how she obtained it until the widow and Helena arrive. Helena reveals that she took Diana's place during the secret meeting with Bertram: she therefore possesses his ring and is pregnant by him, satisfying the two conditions he had declared impossible before he would accept her as his wife. Faced with the proof, Bertram promises to love Helena if she can demonstrate the truth of her account, and she assures him that the evidence is genuine. The king accepts the resolution and turns to arranging Diana's future marriage. Parolles, already exposed as a coward and rejected by Bertram, receives food and shelter from Lafew. The announced reconciliation closes the legal and dynastic problem, though Bertram's sudden change of heart leaves the emotional future of the marriage dependent on conduct not shown in the play.",
         "in_short": "Helena, the physician's daughter and ward of the Countess of Roussillon, loves the countess's son Bertram. She cures the King of France and claims Bertram as her promised reward, but he rejects the unequal match, goes to war in Florence, and says he will recognize her only if she gains his ancestral ring and bears his child. Helena follows in disguise and befriends Diana, the woman Bertram is trying to seduce. Diana obtains his ring and secretly sends Helena to meet him in her place, allowing Helena to fulfill both conditions. Meanwhile, Bertram's fellow officers expose his companion Parolles as a coward. Believing Helena dead, Bertram returns to France, where conflicting claims about the rings bring him under suspicion. Diana delays the explanation until Helena appears alive and pregnant, carrying Bertram's ring. Bertram accepts her and promises love, while the king acknowledges that the conditions have been met.",
@@ -3057,6 +3061,10 @@
         ],
         "work": "an-enemy-of-the-people"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "After the public meeting, the Stockmann home is attacked, Thomas loses his post at the baths, Petra is dismissed from her school, and their landlord orders the family out. Captain Horster also suffers for giving Thomas a venue. Morten Kiil then reveals that he has used the money Katherine and the children expected to inherit to buy cheap shares in the baths. He demands that Thomas retract his accusation, since the family will otherwise lose the investment and the tanneries may bear the blame. Hovstad and Aslaksen mistakenly treat the purchases as evidence that Thomas engineered the controversy for profit and offer the newspaper's help in return for support; he drives them away. Although leaving for another country remains possible, Thomas decides to stay. He plans to continue proving his case, educate his sons at home, and teach poor children to think independently. With Katherine and Petra beside him, he accepts isolation and concludes that a person who stands alone for the truth can possess a different kind of strength.",
         "in_short": "Doctor Thomas Stockmann discovers that the water supplying his town's celebrated baths is contaminated by industrial waste. The press and local reformers initially support him, but his brother Peter, the mayor, explains that rebuilding the system will be expensive and require a long closure. Once property owners fear higher taxes, the newspaper and civic leaders reverse themselves. Denied publication and an orderly hearing, Thomas speaks at a turbulent public meeting, broadening his attack from the baths to the complacent majority that suppresses uncomfortable truths. The town declares him an enemy of the people. His windows are broken, he and his daughter lose their jobs, and his family faces eviction. His father-in-law further traps him by investing the family's expected inheritance in the baths. Rejecting both pressure and opportunistic offers, Thomas chooses to remain in town, educate his children, and continue the fight with the support of his family and Captain Horster.",
@@ -3191,6 +3199,10 @@
           }
         ],
         "work": "an-inspector-calls-classic-radio-theatre"
+      },
+      "position_scale": {
+        "length": 3,
+        "unit": "act"
       },
       "recaps": {
         "ending": "After Inspector Goole leaves, Arthur, Sybil, and Gerald concentrate on whether the investigation was genuine, while Sheila and Eric insist that the family's behavior remains shameful regardless. Gerald learns that the local police force has no inspector by that name. Telephone calls to the infirmary find no record of a recent suicide, and the older Birlings conclude that they have been deceived, perhaps by being shown different photographs and led to confuse several women. Their relief widens the moral division in the family: Sheila and Eric have accepted responsibility, but their parents are chiefly grateful that scandal may be avoided. Then the telephone rings. Arthur is told that a young woman has just died after taking disinfectant and that a police inspector is on the way to question the family. The promised real inquiry repeats the situation at the point when the unrepentant characters believe they have escaped it.",

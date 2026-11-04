@@ -1011,6 +1011,10 @@
         ],
         "work": "the-cherry-orchard"
       },
+      "position_scale": {
+        "length": 4,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "The estate has been sold to Lopakhin, who plans to clear the orchard and lease the land for summer cottages. Ranevskaya returns to Paris, Gaev takes a bank position, Anya looks toward education and a new life, and Trofimov continues toward his imagined future. Varya accepts work as a housekeeper for another family. Although Ranevskaya and Lopakhin leave Varya and Lopakhin alone together, he never proposes, and they part awkwardly. The servants and family depart, believing the sick old servant Firs has been sent to a hospital. In fact he has been forgotten inside the locked house. He lies down alone, lamenting the life that has passed. From outside comes the sound of axes cutting the orchard, along with a distant breaking sound. The old household disperses while the property passes to the descendant of its former serfs, but the social change brings no simple resolution for those leaving or for the person left behind.",
         "in_short": "Lyubov Ranevskaya returns from Paris to her indebted Russian estate, where her brother Gaev and adopted daughter Varya have failed to prevent an auction. Merchant Yermolai Lopakhin, descended from serfs owned by the family, repeatedly offers a workable plan: cut down the celebrated cherry orchard and lease plots to summer residents. Ranevskaya and Gaev cannot accept the loss embodied in that plan and rely on unlikely rescues. Around them, Anya draws hope from the idealistic student Trofimov, servants pursue uncertain romances, and the household continues its habits as the deadline arrives. At the auction Lopakhin buys the estate himself and exults in owning the land where his family was once bound. The family scatters; Lopakhin still fails to propose to Varya. Everyone leaves the house locked and apparently empty, but the ailing old servant Firs has been forgotten inside. As he lies alone, axes begin cutting down the orchard.",
@@ -3742,6 +3746,10 @@
           }
         ],
         "work": "the-constant-wife"
+      },
+      "position_scale": {
+        "length": 3,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Constance reveals that her decorating business is successful and that she has earned enough to support herself. She presents John with money for her past upkeep and announces that she will now pay her share of the household expenses, removing financial dependence from their marriage. She then tells him that she intends to travel to Italy with Bernard Kersal and take the same personal freedom that John assumed for himself. John reacts with jealousy and appeals to a double standard, but Constance calmly uses his own reasoning about love and infidelity against him. She does not seek divorce: she plans to return after the trip and continue their companionable marriage on revised terms. John, confronted with an equality he did not expect, finally yields. Constance leaves with Bernard economically independent and in control of her choice, while the marriage remains intact but no longer governed solely by John's privileges.",

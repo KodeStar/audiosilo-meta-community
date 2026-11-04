@@ -3091,6 +3091,10 @@
         ],
         "work": "lady-windemers-fan"
       },
+      "position_scale": {
+        "length": 4,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "Mrs Erlynne visits the Windermeres before leaving England and asks for a photograph of Lady Windermere and her child. Lord Windermere still considers her unworthy and wants to expose her past, but Lady Windermere, remembering the rescue at Lord Darlington's rooms, insists that she is a good woman. Mrs Erlynne privately prevents Lady Windermere from confessing her attempted flight and keeps their true relationship secret. She takes the fan and the photograph with her. Lord Augustus then announces that Mrs Erlynne has accepted his proposal: she has explained her presence in Darlington's rooms as an effort to find Augustus himself, and he believes her. Mrs Erlynne leaves to marry him abroad. Lady Windermere keeps her marriage and her idealized memory of her mother, never learning that Mrs Erlynne is that mother. Mrs Erlynne gains a new life but sacrifices recognition by her daughter in order to protect her.",
         "in_short": "On her twenty-first birthday, Lady Windermere hears that her husband is secretly giving money to Mrs Erlynne, a woman seeking admission to respectable society. Lord Windermere forces an invitation to the birthday ball, while Lord Darlington urges Lady Windermere to leave her apparently unfaithful husband. She nearly does so, but Mrs Erlynne follows her to Darlington's rooms and persuades her to return to her child. When the men's unexpected arrival threatens discovery, Mrs Erlynne exposes herself and accepts the scandal so Lady Windermere can escape unseen. Mrs Erlynne is secretly Lady Windermere's supposedly dead mother; Lord Windermere knows this, but his wife never learns it. The next day Mrs Erlynne protects the secret, takes the incriminating fan with Lady Windermere's consent, and departs to marry Lord Augustus. Lady Windermere's marriage survives, and she revises her rigid judgment of other women without knowing the full reason for Mrs Erlynne's sacrifice.",
@@ -3244,6 +3248,10 @@
           }
         ],
         "work": "lady-windermeres-fan"
+      },
+      "position_scale": {
+        "length": 4,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Mrs. Erlynne takes responsibility for Lady Windermere's fan being in Lord Darlington's rooms, allowing Margaret to return home without her attempted departure becoming known. Lord Windermere, unaware of Mrs. Erlynne's sacrifice, regards her as irredeemable and wants her kept away from his wife. Margaret instead believes the older woman showed courage and refuses to condemn her. Mrs. Erlynne visits before leaving England but prevents Margaret from confessing the truth about the previous night. She also keeps secret that she is Margaret's mother, so Margaret never learns either the source of the blackmail or the full reason she was rescued. Mrs. Erlynne obtains a photograph of her daughter and says farewell. She then persuades Lord Augustus to accept her account of the night at Darlington's rooms, and he announces that they will marry and live abroad. The Windermeres remain together, each holding a different and incomplete judgment of the woman who preserved their marriage.",

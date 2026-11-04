@@ -1069,6 +1069,10 @@
         ],
         "work": "the-winters-tale"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "The company gathers at Paulina's house to see a statue said to represent Hermione. The figure appears to come alive, and Hermione is restored to Leontes after sixteen years of concealment. She embraces Perdita, explaining that hope created by the oracle kept her waiting for her daughter. Leontes and Polixenes are reconciled, and the marriage of Perdita and Florizel can proceed with both fathers' blessing. Leontes asks forgiveness of Hermione and Camillo, then pairs the faithful Camillo with Paulina. Mamillius and Antigonus remain dead, so the reunion does not erase the cost of Leontes's jealousy, but the divided families and kingdoms end the play reunited.",
         "in_short": "Leontes, king of Sicilia, becomes irrationally certain that his pregnant wife Hermione has had an affair with his friend Polixenes. Polixenes escapes, but Leontes imprisons Hermione, rejects their newborn daughter, and orders the baby abandoned. An oracle declares Hermione innocent; after news of their son Mamillius's death, Hermione is reported dead and Leontes repents. The baby, Perdita, is raised by shepherds in Bohemia. Sixteen years later she and Polixenes's son Florizel fall in love. When Polixenes opposes their marriage, they flee to Sicilia, where tokens reveal Perdita's royal identity. The kings reconcile and approve the match. Paulina then reveals a lifelike statue of Hermione, which comes to life: Hermione has survived in concealment. The family reunites, though the deaths caused by Leontes's jealousy cannot be undone.",
@@ -1078,14 +1082,14 @@
             "scope": "book",
             "text": "Polixenes, king of Bohemia, has spent nine months visiting his childhood friend Leontes in Sicilia. When he prepares to leave, Leontes asks his pregnant wife Hermione to persuade him to stay. She succeeds, and Leontes abruptly interprets their warmth as proof of an affair. He convinces himself that Hermione's unborn child belongs to Polixenes and that his son Mamillius may not be his own. Leontes orders Camillo to poison Polixenes. Camillo knows the accusation is groundless, warns Polixenes, and escapes with him to Bohemia. Their flight only strengthens Leontes's certainty. He publicly accuses Hermione and has her taken to prison while sending messengers to consult Apollo's oracle.",
             "through": {
-              "chapter": 1
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "Hermione gives birth in prison. Paulina carries the infant to Leontes, hoping the sight of his daughter will soften him, but he rejects the baby and orders Antigonus to abandon her in a remote place. Hermione is brought to trial and answers the charges with dignity. The oracle declares her innocent, identifies Leontes as a jealous tyrant, and warns that he will have no heir unless the lost child is found. Leontes refuses to believe it until news arrives that Mamillius has died. Hermione collapses, and Paulina reports that she too is dead. Faced with the consequences, Leontes accepts the oracle and resolves to mourn Hermione and their son for the rest of his life.",
             "through": {
-              "chapter": 2
+              "chapter": 3
             }
           },
           {
@@ -2807,6 +2811,10 @@
           }
         ],
         "work": "the-wonderful-story-of-henry-sugar"
+      },
+      "position_scale": {
+        "length": 7,
+        "unit": "piece"
       },
       "recaps": {
         "ending": "The collection closes by returning to Roald Dahl's wartime experience in a fictionalized form. A fighter pilot attempting to join his unit in North Africa is given faulty directions and runs out of fuel over hostile desert terrain. He survives the crash but suffers grave injuries and distorted, dreamlike impressions while moving between consciousness and medical care. He eventually awakens in a hospital, where the immediate emergency has passed but his recovery is only beginning. Read after Lucky Break, the piece also shows how Dahl first turned that crash into publishable fiction: the experiences described in the autobiographical essay become the material of the final story. The preceding title story has already reached its own framed conclusion, with Henry Sugar's casino winnings used to fund children's homes and his associates preserving the work after his death.",

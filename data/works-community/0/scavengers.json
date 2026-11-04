@@ -363,6 +363,10 @@
         ],
         "work": "school-for-wives"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "After Horace's attempted escape with Agnès fails, he unknowingly entrusts her to Arnolphe, still not realizing that Arnolphe and Monsieur de la Souche are the same man. Arnolphe reveals his identity and presses Agnès to accept him, but she refuses: her experience with Horace has taught her enough to recognize the injustice of the life planned for her. Oronte then arrives intending to make Horace marry the daughter of Enrique. Horace appeals to Arnolphe for help, only to have Arnolphe support the command out of spite. The arrangement reverses Arnolphe's apparent victory when Enrique identifies Agnès as his daughter, who was placed with a peasant family years earlier and eventually entrusted to Arnolphe. She is therefore the intended bride, and Horace can marry the woman he already loves. Arnolphe's elaborate effort to manufacture a submissive wife collapses, while Agnès leaves his control with her identity, family, and chosen match restored.",
         "in_short": "Arnolphe plans to marry his ward Agnès, whom he has deliberately kept uneducated and secluded because he thinks an ignorant wife cannot deceive him. Returning home, he learns that she and young Horace have fallen in love. Horace does not know that Arnolphe is also Monsieur de la Souche, Agnès's guardian, and repeatedly tells him every plan, allowing Arnolphe to interfere. Yet Agnès grows more articulate and determined as Arnolphe tries to impose obedience and marriage on her. A failed elopement briefly puts her back in his power. Then Horace's father arrives to arrange Horace's marriage to the long-lost daughter of Enrique. That daughter proves to be Agnès herself. Horace and Agnès are free to marry, and Arnolphe loses the woman whose mind and future he tried to control.",
@@ -2358,6 +2362,11 @@
           }
         ],
         "work": "secrets-of-the-sword-1"
+      },
+      "position_scale": {
+        "length": 30,
+        "partial": true,
+        "unit": "chapter"
       },
       "recaps": {
         "ending": "In the Fae realm, the Fae queen acknowledges lending the marking device to the elven assassin. In exchange for sweets, she removes the added magic from Chopper without damaging its older enchantments and returns the sword. Before the required arena duel, she heals Val's hand at the assassin's request for a fair fight. Val then defeats him with help from Chopper's newly evident combat guidance and her strengthened root magic. Zav arrives after defeating the rival Silverclaw dragon who ordered Val's death. The employer is sent to the Dragon Justice Court, and the assassin accepts payment to cancel the contract and promises not to threaten Val again. Zav proposes, and Val accepts. Back on Earth, the Sable Dragon prospers through magical security products, and Val resumes magical training while wedding plans take shape. Val's father remains afflicted by an unidentified source of ancient dragon magic. Chopper's dwarven origins, a possible connection to Mount Krennel, and Willard's new case involving a portal-using artifact thief lead toward the dwarven homeworld.",

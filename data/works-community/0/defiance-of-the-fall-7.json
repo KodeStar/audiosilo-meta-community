@@ -3108,6 +3108,11 @@
         ],
         "work": "demon-lords"
       },
+      "position_scale": {
+        "length": 37,
+        "partial": true,
+        "unit": "chapter"
+      },
       "recaps": {
         "ending": "Xan destroys the foundry core, ending Isaac's restoration regime but obliterating Riseguard. Noah, Crow-Foot Jim, and other possessed players are freed, and Archie binds Isaac to permanent service constructing a lower-world jump-gate network. The victory immediately gives way to a new crisis when Isrid enforces Vincent's secret bargain, possesses him, kills Xan, and escapes. Xan later respawns. Noah reunites with Amelia, and together they spend another forty-five in-game years pursuing reports of the possessed Vincent. On Myroth, Noah defeats and kills Vincent's controlled avatar, ending Isrid's possession and the linked devil threat. Vincent is free to respawn, though his later location is not established. Noah and Amelia repeatedly die until the update forcibly releases them into reality, where they remain together and Amelia is still pregnant. Isaac publicly claims responsibility for trapping the players, apparently shielding ARKUS, and Vincent is reported as a hero. The angel barrier, the larger climb, ARKUS's motives, Riseguard's recovery, and Zhang's final condition remain open.",
         "in_short": "Vincent reunites the World Knights and turns a dangerous climb into an effort to free Crow-Foot Jim, while Noah's determination to escape the accelerated game helps create a manufactured war at Riseguard. Isaac escalates that war into mass confinement and forced restoration, prompting Vincent, Xan, and their allies to build a resistance. After decades of training, they invade Riseguard, free several possessed players, and destroy the foundry controlling the restoration system, though the blast also destroys the city. Isrid then claims Vincent's body under a secret bargain and kills Xan. Noah and Amelia pursue the possessed Vincent for forty-five years. Noah finally kills Vincent's avatar, ending Isrid's control and freeing Vincent to respawn. Noah and Amelia then leave the game together, with Amelia still pregnant. Isaac is bound to Archie's service in the game and publicly accepts blame for the disaster in reality, while the angels, ARKUS's true intent, Riseguard's future, and Zhang's condition remain unresolved.",
@@ -3448,6 +3453,10 @@
           }
         ],
         "work": "desire-under-the-elms"
+      },
+      "position_scale": {
+        "length": 3,
+        "unit": "part"
       },
       "recaps": {
         "ending": "Abbie kills her infant son because Eben has come to believe that she conceived the child only to secure the farm, and she thinks removing the baby will prove that Eben matters more to her than property. Horrified, Eben goes to summon the sheriff. While waiting, he recognizes that her act grew from the same absolute love he feels and regrets betraying her. When the sheriff arrives, Eben claims responsibility as well and insists on sharing her punishment. Abbie accepts his renewed love, and the two are taken away together, emotionally united even as they face judgment. Ephraim is left alone on the farm he mastered but could never turn into a loving home. The sheriff's admiration of the property gives the final irony: the land remains desirable to outsiders despite the possessiveness, labor, and deaths attached to it.",

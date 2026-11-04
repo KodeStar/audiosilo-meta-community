@@ -1297,6 +1297,10 @@
         ],
         "work": "troilus-and-cressida"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "During the fighting, Troilus pursues Diomedes while Hector continues seeking honorable opponents. Hector corners a richly armored Greek, kills him, and pauses to take the armor. Achilles then finds Hector isolated and has his Myrmidons surround and kill him, afterward claiming the victory and dragging Hector's body behind his horse. Troilus returns to Troy with the news and urges the Trojans to turn grief into revenge. His love for Cressida has already collapsed after he saw her yield to Diomedes, and Hector, Troy's chief defender, is dead. Pandarus closes the play sick and rejected by Troilus, addressing the audience with the bitterness of a failed intermediary. The war continues without reconciliation, leaving both the romance and the heroic ideals surrounding the conflict discredited.",
         "in_short": "During the Trojan War, Prince Troilus loves Cressida and uses her uncle Pandarus to arrange a meeting. They pledge fidelity, but almost immediately the Greeks trade a Trojan prisoner for Cressida, whose father has defected to their camp. Troilus and Cressida are forced apart. Meanwhile, Greek commanders try to lure Achilles back into battle by praising Ajax, who fights Hector in a courteous, inconclusive duel. In the Greek camp, Cressida is isolated and courted by Diomedes. Troilus secretly watches her give Diomedes a token that Troilus had given her and concludes that she has betrayed him. Battle resumes. Hector ignores warnings and goes out to fight; after pausing over an opponent's armor, he is surrounded and killed by Achilles's Myrmidons. Troilus reports the loss to Troy and calls for vengeance. Neither the love story nor the war reaches a just resolution, and Pandarus ends abandoned and embittered.",
@@ -2888,6 +2892,10 @@
         ],
         "work": "twelfth-night"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "The arrival of both twins finally resolves the mistaken identities. Viola and Sebastian recognize each other, and Viola confirms that she can prove her true identity once the captain holding her clothes is found. Orsino accepts that Olivia has married Sebastian rather than Cesario and turns his affection toward Viola, asking her to become his wife. Olivia welcomes Viola as a sister. Sir Toby has married Maria in reward for her part in the trick on Malvolio, while Sir Andrew has been beaten and humiliated. Fabian explains how the forged letter led Malvolio to behave strangely and how the household confined and mocked him. Olivia orders that amends be made, but Malvolio leaves promising revenge on everyone involved. Antonio is no longer treated as a madman once Sebastian confirms their history. The play closes with two intended or completed marriages, but Feste's final song and Malvolio's anger leave a sober edge beneath the festivities.",
         "in_short": "After a shipwreck separates Viola from her twin Sebastian, she disguises herself as a young man, Cesario, and serves Duke Orsino. Orsino sends her to woo the mourning Olivia, but Viola loves Orsino while Olivia falls for Cesario. Meanwhile, Olivia's uncle Sir Toby and his companions punish the proud steward Malvolio with a forged letter that convinces him Olivia loves him; his bizarre behavior leads to his confinement as a supposed madman. Sebastian, also alive, enters Illyria with the devoted Antonio. Because he looks exactly like Cesario, strangers challenge, embrace, or marry him under a mistaken identity, and he accepts Olivia's sudden love. When the twins finally appear together, the confusion ends. Olivia remains married to Sebastian, Orsino asks Viola to marry him, and Sir Toby marries Maria. Malvolio learns that he was deceived and departs vowing revenge, leaving the comic reconciliation deliberately incomplete.",
@@ -3053,6 +3061,10 @@
           }
         ],
         "work": "twelve-angry-men"
+      },
+      "position_scale": {
+        "length": 3,
+        "unit": "act"
       },
       "recaps": {
         "ending": "The final defenses of the guilty verdict collapse under scrutiny. The older eyewitness's account is weakened by the realization that she likely was not wearing her glasses when she claimed to see the killing through passing train cars. Juror 10's openly prejudiced argument causes the others to turn away from him, separating bias from evidence. Juror 4, previously the most disciplined supporter of conviction, accepts that the eyewitness problem creates reasonable doubt. Juror 3 remains alone. His insistence that the accused must be punished finally breaks into grief over his estranged son, exposing the personal anger driving his certainty. He tears the photograph he carries, then changes his vote to not guilty. The jury returns a unanimous acquittal. The play does not establish what truly happened; its resolution is the jurors' recognition that the prosecution did not prove guilt beyond a reasonable doubt. Juror 8 helps the shaken Juror 3 with his coat before leaving. Outside the courthouse, Jurors 8 and 9 exchange names and part, their brief civility contrasting with the anonymity and conflict of the jury room.",

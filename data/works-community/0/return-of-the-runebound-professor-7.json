@@ -2346,6 +2346,10 @@
         ],
         "work": "revolutionary-road"
       },
+      "position_scale": {
+        "length": 22,
+        "unit": "chapter"
+      },
       "recaps": {
         "ending": "After John Givings bluntly exposes the fear and self-deception behind the canceled move to Paris, Frank and April's marriage reaches its final collapse. Frank admits his affair, but April's indifference denies him the emotional response he expected. She later sleeps with Shep Campbell, then returns home without finding a way out of her situation. Following one last argument, April becomes unnaturally calm. She sends Frank to work after preparing breakfast and then attempts to end her pregnancy by herself. She suffers catastrophic bleeding and dies at the hospital. Frank is left shocked and diminished; the children go to live with relatives, and he eventually leaves Revolutionary Road for the city. Shep continues to grieve April while keeping the truth of their encounter from Milly. The Wheelers' house is sold to another young couple, allowing the neighborhood to absorb the tragedy into fresh appearances. When Helen Givings talks about the former residents, Howard quietly turns off his hearing aid.",
         "in_short": "Frank and April Wheeler regard themselves as exceptional people trapped in a conventional Connecticut suburb, but their marriage is already damaged by contempt, disappointment, and performance. After April's failed appearance in an amateur play, she proposes that the family move to Paris, where she will work while Frank discovers a meaningful direction. The plan briefly restores their intimacy. Frank nevertheless begins an affair with secretary Maureen Grube and receives an attractive promotion offer. When April becomes pregnant, Frank uses the pregnancy and his new prospects to abandon Paris, while April considers ending the pregnancy herself. John Givings, a psychiatric patient whose bluntness the Wheelers once admired, names their retreat as fear. Their arguments intensify; Frank's confession of infidelity changes little, and April briefly turns to neighbor Shep Campbell. The next morning she performs an abortion alone, hemorrhages, and dies. Frank leaves the suburb and the children live with relatives, while the neighborhood replaces the Wheelers and resumes its reassuring stories about itself.",
@@ -3116,6 +3120,10 @@
         ],
         "work": "richard-ii"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "Richard is imprisoned at Pomfret Castle, where he reflects on identity, kingship, and isolation. After he attacks a keeper who reports that the new king has withdrawn a customary privilege, Exton and armed men enter. Richard kills one attacker before Exton kills him. Exton brings Richard's body to Henry IV, expecting approval, but Henry condemns the deed and banishes him, while acknowledging that his own words may have prompted it. Elsewhere, the new king hears that rebels against him have been defeated and pardons the Bishop of Carlisle. With Richard dead and reports of severed heads arriving from the fighting, Henry announces a pilgrimage to Jerusalem to atone for the bloodshed associated with his rise. Bolingbroke holds the crown as Henry IV, but the violence predicted by Carlisle has begun, and the legitimacy of the new reign remains burdened by deposition and regicide.",
         "in_short": "Richard II stops a trial by combat between Henry Bolingbroke and Thomas Mowbray, banishes both men, and later seizes Bolingbroke's inheritance after John of Gaunt dies. While Richard campaigns in Ireland, Bolingbroke returns, claiming only his estate, and rapidly gains noble support. Richard's allies collapse; he submits to Bolingbroke and is taken to London. In Parliament, Bolingbroke presses charges, Richard relinquishes the crown, and Bolingbroke becomes Henry IV. A plot to restore Richard is discovered when York finds his son Aumerle's involvement; Henry pardons Aumerle after the Duchess of York pleads for him. The queen is separated from Richard and sent to France. At Pomfret, Richard is attacked by Exton and killed after fighting back. Henry condemns Exton, although his own words inspired the murder, and plans a penitential journey to Jerusalem as his contested reign begins.",
@@ -3323,6 +3331,10 @@
           }
         ],
         "work": "richard-iii"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
       },
       "recaps": {
         "ending": "On the night before Bosworth, the ghosts of Richard's victims visit his camp and condemn him, then promise Richmond victory. Richard wakes shaken but goes into battle determined to fight. Stanley's position remains uncertain until the fighting begins, when he and other wavering nobles support Richmond. Richard fights fiercely after losing his horse and searches for Richmond on foot, but Richmond kills him. Stanley retrieves the crown and places it on Richmond, who becomes Henry VII. Richmond announces that he will marry Elizabeth of York, joining the Lancastrian and Yorkist lines. He pardons surviving opponents who submit, orders burial for the dead, and promises a peaceful government. Richard's defeat ends his violent reign, while the planned marriage offers a political settlement to the dynastic conflict that enabled his rise.",

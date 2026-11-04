@@ -2289,6 +2289,10 @@
         ],
         "work": "othello-william-shakespeare"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "Othello enters Desdemona's bedroom convinced that she betrayed him and kills her despite her denials. Emilia discovers what has happened and exposes the handkerchief plot: she gave it to Iago, who used it to frame Cassio. Iago kills Emilia when she refuses to stay silent, then is captured after fleeing. Othello wounds Iago, learns that Desdemona and Cassio were innocent, and kills himself beside his wife. Cassio survives the attack and is appointed governor of Cyprus. Lodovico orders that Iago be held for punishment and that Othello's property pass to Gratiano. The Turkish threat has vanished, but Iago's manipulation destroys Othello, Desdemona, Emilia, and Roderigo, leaving Cassio and the Venetian officials to restore civil authority.",
         "in_short": "Othello, a respected Venetian general, marries Desdemona and takes her to Cyprus. His ensign Iago, angry over Cassio's promotion, engineers Cassio's dismissal and persuades Othello that Cassio and Desdemona are lovers. A handkerchief dropped by Desdemona and stolen by Emilia becomes Iago's false proof. Othello's trust turns into jealousy; he humiliates Desdemona, orders Cassio's death, and resolves to kill his wife. Iago manipulates Roderigo into attacking Cassio, then kills Roderigo to protect himself, though Cassio survives. Othello kills Desdemona. Emilia reveals Iago's deception, and Iago kills her before being arrested. Once Othello understands that Desdemona was innocent, he kills himself. Cassio is left in command of Cyprus, while Iago faces punishment.",
@@ -2467,6 +2471,10 @@
           }
         ],
         "work": "othello-william-shakespeare-2"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Iago directs Roderigo to attack Cassio in the dark, then wounds Cassio himself and kills Roderigo to prevent exposure. Othello, believing Cassio dead, smothers Desdemona in their bed. Emilia arrives and learns what has happened; Desdemona briefly revives but does not accuse her husband before dying. When Othello cites the handkerchief as proof, Emilia understands Iago's plot and publicly explains how she found it and gave it to him. Iago kills Emilia and is captured after Othello wounds him. Faced with the truth of Desdemona's innocence, Othello kills himself beside her. Letters and testimony confirm Iago's responsibility for the attacks and Roderigo's manipulation. Cassio is placed in authority in Cyprus, while Lodovico orders Iago held for punishment and returns to Venice with news of the catastrophe.",
