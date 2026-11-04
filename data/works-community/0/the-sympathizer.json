@@ -1207,7 +1207,7 @@
             "id": "therese-mangeot",
             "name": "Therese Mangeot",
             "reveal": {
-              "chapter": 2
+              "chapter": 6
             },
             "role": "supporting"
           },
@@ -1216,7 +1216,7 @@
             "id": "madame-mangeot",
             "name": "Madame Mangeot",
             "reveal": {
-              "chapter": 2
+              "chapter": 6
             },
             "role": "minor"
           },
@@ -1225,7 +1225,7 @@
             "id": "carosse",
             "name": "Carosse",
             "reveal": {
-              "chapter": 3
+              "chapter": 13
             },
             "role": "antagonist"
           }
@@ -1249,28 +1249,28 @@
             "scope": "book",
             "text": "During the German occupation, Jean-Louis Chavel is held with other French hostages. After a resistance attack, the prisoners are ordered to choose by lot the men who will be executed in reprisal. Chavel, a wealthy lawyer, draws a marked paper and panics at the certainty of death. He offers his money, house, and possessions to anyone willing to replace him. Janvier, an impoverished prisoner already seriously ill, accepts because the estate can support his mother and sister long after his likely death. The other prisoners formalize the exchange, and Janvier joins the condemned men while Chavel survives. His life has been preserved, but only through a bargain that strips him of his property and leaves him with the knowledge that another man died in his place.",
             "through": {
-              "chapter": 1
+              "chapter": 5
             }
           },
           {
             "scope": "book",
             "text": "After the war, Chavel returns anonymously to the estate he surrendered in prison. Janvier's mother and sister, Therese, now occupy the house. Calling himself Charlot, Chavel presents himself as a former prisoner who knew Janvier and accepts a humble place in the household instead of revealing that he once owned it. Therese speaks freely before him of her contempt for Jean-Louis Chavel, the rich coward whose bargain sent her brother to his death. Chavel remains because he has nowhere else to go and because the life of the family he enriched has become inseparable from his guilt. As he works beside Therese, his attachment to her deepens, making the truth both more necessary and more difficult to tell.",
             "through": {
-              "chapter": 2
+              "chapter": 12
             }
           },
           {
             "scope": "book",
             "text": "Chavel continues living at his former estate under the name Charlot, concealing his identity from Therese as their trust grows. The fragile arrangement is disrupted by Carosse, a fugitive collaborator with an actor's confidence, who claims that he is the missing Jean-Louis Chavel. Because the real Chavel will not expose himself, Carosse can use the household's hatred and curiosity to make the false identity plausible. Therese believes the man she despises may at last be within reach, while Chavel sees another person taking control of the name he abandoned. Carosse's presence turns Chavel's concealment from a private moral failure into an immediate danger to Therese and the home Janvier bought with his death.",
             "through": {
-              "chapter": 3
+              "chapter": 14
             }
           },
           {
             "scope": "book",
             "text": "In prison, Jean-Louis Chavel bought his life by transferring his entire estate to Janvier, who accepted execution so his mother and sister would be provided for. Returning after the war as Charlot, Chavel became a servant in his old home and grew close to Janvier's sister Therese, even as she described her hatred for the man he really was. Carosse, a wanted collaborator and actor, then arrived pretending to be Chavel. When the impostor's scheme puts Therese in danger, Chavel finally gives up his disguise and identifies himself. He intervenes to protect her and is fatally shot by Carosse, whose false claim is exposed and defeated. Therese learns that the quiet man she had trusted was also the man she had sworn to hate. Chavel dies without reclaiming his wealth, having freely risked the life he once purchased at another man's expense; the estate remains with Therese.",
             "through": {
-              "chapter": 4
+              "chapter": 18
             }
           }
         ],

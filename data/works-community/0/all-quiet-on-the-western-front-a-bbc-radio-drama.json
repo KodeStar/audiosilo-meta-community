@@ -962,7 +962,7 @@
             "id": "daniel-leblanc",
             "name": "Daniel LeBlanc",
             "reveal": {
-              "chapter": 2
+              "chapter": 9
             },
             "role": "supporting"
           },
@@ -971,7 +971,7 @@
             "id": "jutta-pfennig",
             "name": "Jutta Pfennig",
             "reveal": {
-              "chapter": 2
+              "chapter": 9
             },
             "role": "supporting"
           },
@@ -980,7 +980,7 @@
             "id": "etienne-leblanc",
             "name": "Etienne LeBlanc",
             "reveal": {
-              "chapter": 4
+              "chapter": 37
             },
             "role": "supporting"
           },
@@ -989,7 +989,7 @@
             "id": "madame-manec",
             "name": "Madame Manec",
             "reveal": {
-              "chapter": 4
+              "chapter": 37
             },
             "role": "supporting"
           },
@@ -998,7 +998,7 @@
             "id": "reinhold-von-rumpel",
             "name": "Reinhold von Rumpel",
             "reveal": {
-              "chapter": 4
+              "chapter": 37
             },
             "role": "antagonist"
           },
@@ -1007,7 +1007,7 @@
             "id": "dr-hauptmann",
             "name": "Dr. Hauptmann",
             "reveal": {
-              "chapter": 4
+              "chapter": 37
             },
             "role": "supporting"
           },
@@ -1016,7 +1016,7 @@
             "id": "frederick",
             "name": "Frederick",
             "reveal": {
-              "chapter": 4
+              "chapter": 37
             },
             "role": "supporting"
           },
@@ -1043,7 +1043,7 @@
             "id": "dr-geffard",
             "name": "Dr. Geffard",
             "reveal": {
-              "chapter": 2
+              "chapter": 9
             },
             "role": "minor"
           },
@@ -1052,7 +1052,7 @@
             "id": "madame-ruelle",
             "name": "Madame Ruelle",
             "reveal": {
-              "chapter": 6
+              "chapter": 68
             },
             "role": "supporting"
           }
@@ -1076,56 +1076,56 @@
             "scope": "book",
             "text": "In August 1944 Allied aircraft drop warnings over the fortified French port of Saint-Malo and then begin bombing. Sixteen-year-old Marie-Laure LeBlanc, who is blind, is alone in her great-uncle Etienne's narrow house. She feels her way through a scale model of the town and holds a miniature of the house that may contain something hidden. Elsewhere in the city, eighteen-year-old German soldier Werner Pfennig is stationed at the Hotel of Bees with a unit that detects radio transmissions. The bombardment collapses the building and seals Werner, the powerful Volkheimer, and the injured engineer Bernd in its cellar. Werner tries the field radio while air, water, and time begin to run out. The opening siege leaves Marie-Laure isolated above ground and Werner trapped below it, close to one another but still strangers.",
             "through": {
-              "chapter": 1
+              "chapter": 8
             }
           },
           {
             "scope": "book",
             "text": "Years before the siege, Marie-Laure grows up in Paris with her father Daniel, locksmith for the Museum of Natural History. After she loses her sight, Daniel builds a precise wooden model of their neighborhood so she can memorize routes and move independently. At the museum she learns the story of the Sea of Flames, a rare diamond said to protect its owner while bringing disaster to loved ones. In the German mining town of Zollverein, orphaned Werner and his younger sister Jutta discover a broken radio. Werner repairs it and becomes absorbed by broadcasts, especially a French program explaining science to children. His skill spreads through the town and attracts official attention. Jutta listens to foreign news and fears the demands the Nazi state will make of her brother, while Werner sees technical education as a route away from a fatal future in the coal mines.",
             "through": {
-              "chapter": 2
+              "chapter": 31
             }
           },
           {
             "scope": "book",
             "text": "When Germany invades France, the Paris museum evacuates its treasures. Daniel flees with Marie-Laure, carrying a stone entrusted to him by the museum; several identical parcels have been sent by different routes, so he does not know whether his is the real Sea of Flames or a copy. After a difficult journey they reach the walled town of Saint-Malo and take refuge with Daniel's reclusive uncle Etienne and Madame Manec. Daniel constructs a model of Saint-Malo and hides the stone inside one of its miniature buildings. In Germany, Werner earns a place at an elite Nazi school. Dr. Hauptmann values his mathematical talent, while Werner's friend Frederick becomes a target because he will not participate willingly in the school's cruelty. Werner's hoped-for escape through science is binding him more closely to the regime.",
             "through": {
-              "chapter": 4
+              "chapter": 61
             }
           },
           {
             "scope": "book",
             "text": "Occupation tightens around Saint-Malo. Daniel is arrested while traveling and does not return, leaving Marie-Laure dependent on Etienne and Madame Manec. Madame Manec organizes women in small acts of resistance and wants to use Etienne's hidden radio, but his war trauma initially makes him afraid to participate. Marie-Laure begins carrying messages concealed in bread and learns the town well enough to move through it despite the danger. Madame Manec dies before seeing the resistance work completed. In Germany, Frederick is savagely punished and leaves school with lasting injuries. Werner continues developing equipment that can pinpoint radio sources, suppressing his doubts as technical success wins Hauptmann's approval. He is assigned to military service earlier than expected. Meanwhile, gem specialist Reinhold von Rumpel searches occupied Europe for the museum's missing stones and methodically eliminates false copies.",
             "through": {
-              "chapter": 6
+              "chapter": 95
             }
           },
           {
             "scope": "book",
             "text": "Werner joins Volkheimer's mobile unit in occupied eastern Europe, using his instruments to locate forbidden transmitters. The work leads soldiers to resistance operators and civilians, forcing Werner to see the deaths produced by calculations he once regarded as pure problem-solving. He remains obedient and increasingly isolated from the moral clarity Jutta demanded of him. In Saint-Malo, Etienne finally continues Madame Manec's work. He and Marie-Laure broadcast coded information for the resistance while maintaining routines that conceal their transmissions. Marie-Laure also ventures to a seaside grotto, where she studies shells and finds temporary freedom from the occupied streets. Von Rumpel traces Daniel's movements and concludes that the remaining stone may have gone to Saint-Malo. The two wartime paths are narrowing toward Etienne's radio and the hidden object in the model house.",
             "through": {
-              "chapter": 8
+              "chapter": 120
             }
           },
           {
             "scope": "book",
             "text": "Werner's unit is transferred to Saint-Malo to find a transmitter operating inside the city. He detects Etienne's broadcasts and recognizes the voice and music associated with the French science programs he and Jutta heard as children. Instead of reporting the source, he conceals what he has found and listens. Etienne eventually leaves the house on resistance business and is detained, leaving Marie-Laure alone as the Allied attack approaches. Von Rumpel arrives in Saint-Malo, identifies Etienne's house from the model, and searches it for the Sea of Flames. During the bombardment Marie-Laure retreats to the attic with the miniature house, while von Rumpel remains below and Werner is trapped beneath the Hotel of Bees. Marie-Laure begins broadcasting from the attic, sending words and music into the besieged city without knowing whether help can hear her.",
             "through": {
-              "chapter": 10
+              "chapter": 147
             }
           },
           {
             "scope": "book",
             "text": "Volkheimer uses explosives to break out of the collapsed cellar, and Werner follows Marie-Laure's signal to Etienne's house. Von Rumpel is still searching inside and has nearly reached the attic. Werner enters and shoots him, then answers Marie-Laure's broadcast and persuades her that she is safe. They share canned peaches before Werner guides her through the ruined streets during a ceasefire. At the seaside grotto, Marie-Laure opens the miniature house, places the Sea of Flames in the water, and leaves its key behind. She and Werner separate. Marie-Laure is reunited with Etienne, who survives imprisonment, and the two later return to Paris. Werner is taken prisoner; sick and delirious, he wanders from the camp and steps on a German land mine. His brief choice to disobey saves Marie-Laure, but he does not survive the war.",
             "through": {
-              "chapter": 11
+              "chapter": 165
             }
           },
           {
             "scope": "book",
             "text": "After the war, Etienne becomes Marie-Laure's family and helps her rebuild a life in Paris. Decades later, Volkheimer receives Werner's recovered effects and sends them to Jutta, including the small wooden model of Etienne's house. Jutta travels to Saint-Malo with her son and learns from Marie-Laure that Werner came to the house and led her to safety. The evidence does not erase his service in the German army, but it gives Jutta a truthful final act by which to remember him. Marie-Laure becomes a scientist at the museum, specializing in mollusks, and raises a daughter. In 2014 she is an elderly woman walking through Paris with her grandson, aware of innumerable messages moving invisibly around them. The Sea of Flames remains where she left it in the flooded grotto beneath Saint-Malo, separated from human possession.",
             "through": {
-              "chapter": 14
+              "chapter": 178
             }
           }
         ],

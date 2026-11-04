@@ -1246,7 +1246,7 @@
             "id": "marcus-brutus",
             "name": "Marcus Brutus",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -1255,7 +1255,7 @@
             "id": "caius-cassius",
             "name": "Caius Cassius",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1264,7 +1264,7 @@
             "id": "mark-antony",
             "name": "Mark Antony",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1273,7 +1273,7 @@
             "id": "casca",
             "name": "Casca",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1282,7 +1282,7 @@
             "id": "calpurnia",
             "name": "Calpurnia",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1291,7 +1291,7 @@
             "id": "soothsayer",
             "name": "Soothsayer",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -1300,7 +1300,7 @@
             "id": "portia",
             "name": "Portia",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1309,7 +1309,7 @@
             "id": "decius-brutus",
             "name": "Decius Brutus",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1318,7 +1318,7 @@
             "id": "artemidorus",
             "name": "Artemidorus",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -1327,7 +1327,7 @@
             "id": "metellus-cimber",
             "name": "Metellus Cimber",
             "reveal": {
-              "chapter": 8
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -1336,7 +1336,7 @@
             "id": "octavius-caesar",
             "name": "Octavius Caesar",
             "reveal": {
-              "chapter": 11
+              "chapter": 4
             },
             "role": "supporting"
           },
@@ -1345,7 +1345,7 @@
             "id": "lepidus",
             "name": "Lepidus",
             "reveal": {
-              "chapter": 11
+              "chapter": 4
             },
             "role": "minor"
           }
@@ -1369,35 +1369,35 @@
             "scope": "book",
             "text": "Julius Caesar returns to Rome after victory over Pompey's sons, and common citizens celebrate him while tribunes fear the loss of republican freedom. At the festival of Lupercal, a soothsayer warns Caesar about the middle of March. Cassius sounds out Brutus, a respected senator who loves Caesar but worries about his ambition. Cassius argues that Caesar is merely a man and should not rule other Romans like a god. Casca reports that Antony offered Caesar a crown three times before the crowd and that Caesar refused it. During a violent storm, Cassius interprets strange events as signs against Caesar and recruits Casca. He also arranges for forged messages to be placed where Brutus will find them, making it appear that Rome expects Brutus to act.",
             "through": {
-              "chapter": 3
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Brutus decides that Caesar must die, not for proven tyranny but because coronation might change him. Cassius and the other conspirators visit before dawn. Brutus refuses to bind them by oath, rejects Cicero as a recruit, and prevents Cassius from adding Antony to their target. Portia sees Brutus's distress and asks to be trusted with his secret. At Caesar's house, Calpurnia's nightmares and reports of unnatural signs persuade Caesar to stay home. Decius reinterprets her dream as a promise of Roman renewal and warns that the Senate may mock Caesar, so Caesar reverses his decision. Artemidorus prepares a warning, while Portia anxiously sends Lucius toward the Capitol. Caesar proceeds to the Senate surrounded by the conspirators, repeatedly dismissing opportunities to learn what awaits him.",
             "through": {
-              "chapter": 7
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "At the Capitol, Metellus Cimber petitions Caesar to recall his banished brother. Caesar refuses and boasts of his constancy. The conspirators kneel around him, then stab him; Brutus joins the attack, and Caesar dies. Antony secures permission to meet them, shakes their bloody hands, and asks to speak at the funeral. Cassius distrusts the request, but Brutus permits it on condition that Antony not blame them. Brutus addresses the citizens first and claims that love of Rome forced him to oppose Caesar's ambition. The crowd initially accepts his case. Antony then uses Caesar's body, his refusals of the crown, and a generous will to dismantle Brutus's argument and inflame the citizens. The mob riots, even killing the poet Cinna merely because he shares a conspirator's name. Brutus and Cassius flee Rome as Antony learns that Octavius has arrived.",
             "through": {
-              "chapter": 10
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "Antony, Octavius, and Lepidus form a triumvirate and mark political enemies for death. Away from Rome, Brutus accuses Cassius of tolerating corruption, while Cassius believes his old ally has publicly humiliated him. Their fierce quarrel gives way to reconciliation. Brutus reveals that Portia has died by suicide amid anxiety over the conflict. Against Cassius's advice to wait, Brutus argues that their armies must march to Philippi before popular support shifts to their enemies. That night Caesar's ghost appears to Brutus and says they will meet again at Philippi. The omen accompanies Brutus as he commits his side to battle.",
             "through": {
-              "chapter": 13
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "The rival armies meet at Philippi. Brutus's troops gain ground against Octavius, but Cassius's position collapses. Unable to see clearly, Cassius sends Titinius to learn whether approaching horsemen are allies. He mistakes their welcome of Titinius for capture and orders Pindarus to kill him. Titinius returns, finds Cassius dead, and kills himself. Brutus rallies the remaining forces for another engagement, but they are defeated. With capture near, Brutus asks his companions to assist his suicide. Strato holds a sword, and Brutus runs upon it. Antony says Brutus was the only conspirator moved by sincere concern for the common good; Octavius grants him honorable burial. Caesar has been avenged, and the victorious Octavius and Antony control Rome.",
             "through": {
-              "chapter": 18
+              "chapter": 5
             }
           }
         ],
