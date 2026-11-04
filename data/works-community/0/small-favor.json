@@ -453,7 +453,7 @@
             "id": "hamlet",
             "name": "Hamlet",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -474,7 +474,7 @@
             "id": "claudius",
             "name": "Claudius",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -483,7 +483,7 @@
             "id": "gertrude",
             "name": "Gertrude",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -501,7 +501,7 @@
             "id": "polonius",
             "name": "Polonius",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -510,7 +510,7 @@
             "id": "ophelia",
             "name": "Ophelia",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -519,7 +519,7 @@
             "id": "laertes",
             "name": "Laertes",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -528,7 +528,7 @@
             "id": "rosencrantz",
             "name": "Rosencrantz",
             "reveal": {
-              "chapter": 7
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -537,7 +537,7 @@
             "id": "guildenstern",
             "name": "Guildenstern",
             "reveal": {
-              "chapter": 7
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -546,7 +546,7 @@
             "id": "fortinbras",
             "name": "Fortinbras",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -558,7 +558,7 @@
             "id": "gravedigger",
             "name": "Gravedigger",
             "reveal": {
-              "chapter": 19
+              "chapter": 5
             },
             "role": "minor"
           }
@@ -582,42 +582,35 @@
             "scope": "book",
             "text": "On the battlements at Elsinore, guards and Hamlet's friend Horatio see an armed apparition resembling the recently dead King Hamlet. Denmark is also preparing against possible action by the Norwegian prince Fortinbras. Inside the court, the dead king's brother Claudius has taken the throne and married Queen Gertrude. Prince Hamlet remains in mourning and resents both the marriage and the pressure to accept it. Horatio tells him about the apparition. Meanwhile, Laertes prepares to return to France and warns his sister Ophelia that Hamlet's romantic interest may not survive the obligations of royalty. Their father Polonius orders Ophelia to reject Hamlet's approaches. Hamlet goes to the night watch, where the apparition signals that it wants to speak with him alone.",
             "through": {
-              "chapter": 4
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "The ghost claims to be Hamlet's father and says Claudius murdered him by pouring poison into his ear. It demands revenge against Claudius but tells Hamlet not to harm Gertrude. Hamlet makes Horatio and the guard Marcellus swear secrecy and hints that he may behave strangely as part of his response. Later, Ophelia reports that Hamlet has visited her in a disturbed state, and Polonius decides frustrated love explains the prince's conduct. Claudius and Gertrude summon Hamlet's old acquaintances Rosencrantz and Guildenstern to learn what is wrong. Hamlet quickly realizes they are acting for the king. A traveling acting company arrives, giving Hamlet a way to test the ghost's accusation: he plans a performance that resembles the alleged murder and will study Claudius's reaction.",
             "through": {
-              "chapter": 7
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "Claudius and Polonius secretly observe an encounter between Hamlet and Ophelia. Hamlet rejects her and directs bitter attacks at love, marriage, and deception; Claudius concludes that love alone does not explain his behavior. Hamlet then stages the actors' account of a ruler killed through poison by a relative who wins the widow. Claudius abruptly stops the performance, which Hamlet and Horatio take as confirmation of guilt. Claudius tries to pray, acknowledging his crime to himself but finding that he cannot surrender the benefits gained from it. Hamlet comes upon him and could strike, yet delays because he fears killing a man at prayer may reward rather than punish him. Hamlet instead goes to confront Gertrude in her room while Polonius hides behind a hanging to listen.",
             "through": {
-              "chapter": 10
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "During the confrontation with his mother, Hamlet hears movement behind the hanging and thrusts his sword through it, killing Polonius without first seeing whom he has struck. He condemns Gertrude's marriage and sees the ghost again, though Gertrude cannot see it. Claudius now regards Hamlet as immediately dangerous. He sends the prince to England with Rosencrantz and Guildenstern, secretly enclosing orders for Hamlet's execution. Hamlet conceals Polonius's body before being forced to reveal its location. On the road he encounters troops connected with Fortinbras and is struck by the contrast between their readiness for action and his own delays. Back at Elsinore, Ophelia is overcome by her father's death and Hamlet's absence, speaking and singing in disordered fragments. Laertes returns at the head of an angry crowd, demanding an account of his father's death.",
             "through": {
-              "chapter": 16
+              "chapter": 4
             }
           },
           {
             "scope": "book",
-            "text": "Hamlet sends word that he has returned to Denmark after pirates intercepted his voyage. Claudius redirects Laertes's anger toward Hamlet and proposes a fencing match in which Laertes will use a sharpened blade coated with poison. Claudius prepares poisoned wine as a second means of ensuring Hamlet's death. Gertrude then reports that Ophelia has drowned after falling into a stream. At the cemetery, Hamlet speaks with a gravedigger and reflects on the remains of people once known to him. The funeral party arrives, and Hamlet realizes the grave is Ophelia's. Laertes leaps into it in grief; Hamlet reveals himself, insists that his love for Ophelia was profound, and struggles with Laertes before they are separated. The court moves toward the fencing match under the appearance of reconciliation.",
+            "text": "Hamlet sends word that he has returned to Denmark after pirates intercepted his voyage. Claudius redirects Laertes's anger toward Hamlet and proposes a fencing match in which Laertes will use a sharpened blade coated with poison. Claudius prepares poisoned wine as a second means of ensuring Hamlet's death. Gertrude then reports that Ophelia has drowned after falling into a stream. At the cemetery, Hamlet speaks with a gravedigger and reflects on the remains of people once known to him. The funeral party arrives, and Hamlet realizes the grave is Ophelia's. Laertes leaps into it in grief; Hamlet reveals himself, insists that his love for Ophelia was profound, and struggles with Laertes before they are separated. The court moves toward the fencing match under the appearance of reconciliation. Hamlet tells Horatio that he discovered the execution order aboard the ship and replaced it with one condemning Rosencrantz and Guildenstern. Despite an uneasy feeling, he accepts the fencing match with Laertes. Hamlet apologizes for his earlier conduct, and Laertes outwardly accepts while retaining the poisoned weapon. During the bout Gertrude drinks from Claudius's poisoned cup. Laertes wounds Hamlet; in the ensuing scuffle the men exchange swords, and Hamlet wounds Laertes with the same poisoned point. Gertrude dies, and Laertes confesses the plot and names Claudius. Hamlet kills Claudius with the blade and poisoned drink. Laertes and Hamlet die soon afterward, reconciled. Hamlet charges Horatio to tell the truth and supports Fortinbras's claim before his death. Fortinbras arrives to find the royal house destroyed, assumes authority in Denmark, and orders honors for Hamlet as Horatio prepares to recount the causes of the disaster.",
             "through": {
-              "chapter": 19
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Hamlet tells Horatio that he discovered the execution order aboard the ship and replaced it with one condemning Rosencrantz and Guildenstern. Despite an uneasy feeling, he accepts the fencing match with Laertes. Hamlet apologizes for his earlier conduct, and Laertes outwardly accepts while retaining the poisoned weapon. During the bout Gertrude drinks from Claudius's poisoned cup. Laertes wounds Hamlet; in the ensuing scuffle the men exchange swords, and Hamlet wounds Laertes with the same poisoned point. Gertrude dies, and Laertes confesses the plot and names Claudius. Hamlet kills Claudius with the blade and poisoned drink. Laertes and Hamlet die soon afterward, reconciled. Hamlet charges Horatio to tell the truth and supports Fortinbras's claim before his death. Fortinbras arrives to find the royal house destroyed, assumes authority in Denmark, and orders honors for Hamlet as Horatio prepares to recount the causes of the disaster.",
-            "through": {
-              "chapter": 20
+              "chapter": 5
             }
           }
         ],
@@ -639,7 +632,7 @@
             "id": "king-henry-v",
             "name": "King Henry V",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -657,7 +650,7 @@
             "id": "duke-of-exeter",
             "name": "Duke of Exeter",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -666,7 +659,7 @@
             "id": "the-dauphin",
             "name": "The Dauphin",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "antagonist"
           },
@@ -678,7 +671,7 @@
             "id": "king-charles-vi",
             "name": "King Charles VI",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "antagonist"
           },
@@ -687,7 +680,7 @@
             "id": "pistol",
             "name": "Pistol",
             "reveal": {
-              "chapter": 3
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -696,7 +689,7 @@
             "id": "nym",
             "name": "Nym",
             "reveal": {
-              "chapter": 3
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -705,7 +698,7 @@
             "id": "bardolph",
             "name": "Bardolph",
             "reveal": {
-              "chapter": 3
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -717,7 +710,7 @@
             "id": "hostess-quickly",
             "name": "Hostess Quickly",
             "reveal": {
-              "chapter": 3
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -729,7 +722,7 @@
             "id": "richard-scrope",
             "name": "Richard Scrope",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "antagonist"
           },
@@ -738,7 +731,7 @@
             "id": "fluellen",
             "name": "Fluellen",
             "reveal": {
-              "chapter": 8
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -750,7 +743,7 @@
             "id": "katherine-of-france",
             "name": "Katherine of France",
             "reveal": {
-              "chapter": 10
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -759,7 +752,7 @@
             "id": "alice",
             "name": "Alice",
             "reveal": {
-              "chapter": 10
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -768,7 +761,7 @@
             "id": "montjoy",
             "name": "Montjoy",
             "reveal": {
-              "chapter": 12
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -777,7 +770,7 @@
             "id": "michael-williams",
             "name": "Michael Williams",
             "reveal": {
-              "chapter": 14
+              "chapter": 4
             },
             "role": "minor"
           }
@@ -801,42 +794,35 @@
             "scope": "book",
             "text": "A Chorus asks the audience to imagine kingdoms and armies beyond what the stage can literally show. In England, the Archbishop of Canterbury and the Bishop of Ely discuss both Henry's transformation from an unruly prince into a serious king and a parliamentary threat to church property. Canterbury prepares to support Henry's claim to France with legal argument and church money. Before the court, Henry insists that Canterbury state the case carefully because war will cost lives. Canterbury argues that the French rule excluding descent through women does not invalidate Henry's line, and the English nobles urge action. French ambassadors then deliver a mocking gift of tennis balls from the Dauphin, implying that Henry is fit only for games. Henry answers that the insult will have grave consequences and announces his intention to carry his claim into France.",
             "through": {
-              "chapter": 2
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "In London, Pistol, Nym, Bardolph, and Hostess Quickly settle a quarrel and prepare to follow the army. Falstaff dies offstage, mourned by his old companions. At Southampton, Henry reveals that he already knows of a French-funded assassination plot by Cambridge, Grey, and his trusted friend Scrope. He first leads the conspirators to endorse strict punishment in another case, then presents their own written commissions and sentences them to death. The discovery strengthens his resolve rather than delaying the expedition. In France, King Charles orders preparations against the English advance. The Dauphin remains confident that Henry can be dismissed as the reckless youth he once was, but the king recalls earlier English victories in France and treats the invasion as a serious danger.",
             "through": {
-              "chapter": 6
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "Henry's army lands in France and attacks Harfleur. He rallies his men at a breach in the walls, while Fluellen directs the common soldiers and quarrels over proper military conduct. Pistol, Nym, Bardolph, and the Boy reveal a less heroic side of the campaign: the men seek profit, and the Boy recognizes their cowardice and dishonesty. When Harfleur continues to resist, Henry threatens the governor with the destruction that will follow if the town forces an assault. With no relief coming from the Dauphin, the governor surrenders. Henry orders Exeter to hold the town and restrain abuse of its people. The English army, weakened by sickness, then prepares to march toward Calais. At the French court, Princess Katherine begins learning English from Alice, practicing the names of body parts while the wider conflict moves closer.",
             "through": {
-              "chapter": 10
+              "chapter": 3
             }
           },
           {
             "scope": "book",
-            "text": "French nobles gather their much larger force and anticipate an easy victory. The English continue their difficult march. Fluellen reports that Bardolph has been condemned for stealing from a church, and Henry allows the execution, insisting that the army respect French civilians and property. The French herald Montjoy demands that Henry pay a ransom to avoid destruction; Henry refuses while acknowledging his troops' exhausted condition. On the night before battle, the French boast in their camp, while Henry borrows a cloak and walks anonymously among his soldiers. He hears confidence from some but enters a serious argument with Michael Williams, who questions the king's responsibility for the deaths and spiritual fate of those who fight for him. Alone afterward, Henry reflects on the burdens hidden beneath royal ceremony and prays that his father's seizure of the crown will not be held against the army.",
+            "text": "French nobles gather their much larger force and anticipate an easy victory. The English continue their difficult march. Fluellen reports that Bardolph has been condemned for stealing from a church, and Henry allows the execution, insisting that the army respect French civilians and property. The French herald Montjoy demands that Henry pay a ransom to avoid destruction; Henry refuses while acknowledging his troops' exhausted condition. On the night before battle, the French boast in their camp, while Henry borrows a cloak and walks anonymously among his soldiers. He hears confidence from some but enters a serious argument with Michael Williams, who questions the king's responsibility for the deaths and spiritual fate of those who fight for him. Alone afterward, Henry reflects on the burdens hidden beneath royal ceremony and prays that his father's seizure of the crown will not be held against the army. At dawn the English learn how heavily they are outnumbered. Henry rejects a wish for reinforcements and tells his small company that sharing the danger will make their service memorable. Montjoy offers another chance to negotiate, but Henry again refuses ransom. The battle of Agincourt follows. The crowded French force cannot turn its numerical advantage into victory, and leading nobles are killed or captured. Pistol takes a French soldier prisoner for ransom. When the French renew their attack and the English baggage area is assaulted, Henry orders the French prisoners killed in the crisis. The remaining French resistance collapses. Montjoy returns, acknowledges the English victory, and asks permission to recover the dead. The casualty reports show severe French losses, including many nobles, against a much smaller English total. Henry attributes the result to God and orders that the dead be honored before the army proceeds toward Calais.",
             "through": {
-              "chapter": 14
-            }
-          },
-          {
-            "scope": "book",
-            "text": "At dawn the English learn how heavily they are outnumbered. Henry rejects a wish for reinforcements and tells his small company that sharing the danger will make their service memorable. Montjoy offers another chance to negotiate, but Henry again refuses ransom. The battle of Agincourt follows. The crowded French force cannot turn its numerical advantage into victory, and leading nobles are killed or captured. Pistol takes a French soldier prisoner for ransom. When the French renew their attack and the English baggage area is assaulted, Henry orders the French prisoners killed in the crisis. The remaining French resistance collapses. Montjoy returns, acknowledges the English victory, and asks permission to recover the dead. The casualty reports show severe French losses, including many nobles, against a much smaller English total. Henry attributes the result to God and orders that the dead be honored before the army proceeds toward Calais.",
-            "through": {
-              "chapter": 21
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "After the campaign, Fluellen confronts Pistol for mocking the Welsh custom of wearing leeks and forces him to eat one. Pistol, having lost his companions and learned that his wife has died, plans to return to England and survive through fraud. The royal parties meet in France to settle the war. Burgundy urges peace by describing a country neglected and damaged by prolonged conflict. King Charles agrees to terms that recognize Henry as his heir, and the political settlement includes Henry's marriage to Princess Katherine. Left to speak with her, Henry courts Katherine in a mixture of directness and imperfect French. She accepts within the limits of her father's decision, and the court celebrates the expected union. The final Chorus then supplies the historical outcome beyond the ceremony: Henry dies young, his infant son inherits both crowns, and divided English leadership loses the territories won in France.",
             "through": {
-              "chapter": 23
+              "chapter": 5
             }
           }
         ],
@@ -858,7 +844,7 @@
             "id": "julius-caesar",
             "name": "Julius Caesar",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -867,7 +853,7 @@
             "id": "marcus-brutus",
             "name": "Marcus Brutus",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -876,7 +862,7 @@
             "id": "caius-cassius",
             "name": "Caius Cassius",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -885,7 +871,7 @@
             "id": "mark-antony",
             "name": "Mark Antony",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -894,7 +880,7 @@
             "id": "casca",
             "name": "Casca",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -903,7 +889,7 @@
             "id": "calpurnia",
             "name": "Calpurnia",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -912,7 +898,7 @@
             "id": "soothsayer",
             "name": "Soothsayer",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -924,7 +910,7 @@
             "id": "cinna-the-conspirator",
             "name": "Cinna",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -933,7 +919,7 @@
             "id": "lucius",
             "name": "Lucius",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -942,7 +928,7 @@
             "id": "portia",
             "name": "Portia",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -954,7 +940,7 @@
             "id": "decius-brutus",
             "name": "Decius Brutus",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -963,7 +949,7 @@
             "id": "artemidorus",
             "name": "Artemidorus",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -975,7 +961,7 @@
             "id": "octavius-caesar",
             "name": "Octavius Caesar",
             "reveal": {
-              "chapter": 11
+              "chapter": 4
             },
             "role": "supporting"
           },
@@ -984,7 +970,7 @@
             "id": "lepidus",
             "name": "Lepidus",
             "reveal": {
-              "chapter": 11
+              "chapter": 4
             },
             "role": "minor"
           },
@@ -993,7 +979,7 @@
             "id": "titinius",
             "name": "Titinius",
             "reveal": {
-              "chapter": 13
+              "chapter": 4
             },
             "role": "supporting"
           }
@@ -1017,42 +1003,35 @@
             "scope": "book",
             "text": "Julius Caesar returns to Rome after defeating Pompey's sons, and the public celebrates him. Tribunes object that the crowd has transferred its loyalty too quickly from Pompey. During the festival of Lupercal, a soothsayer warns Caesar about the fifteenth of March, but Caesar dismisses him. Cassius begins sounding out Brutus, a senator admired for honor, about Caesar's growing power. Brutus loves Caesar personally but admits concern for Rome. Casca reports that Mark Antony publicly offered Caesar a crown three times and that Caesar refused it each time before collapsing. Caesar privately identifies Cassius as dangerous. That night, unnatural storms and ominous sights disturb Rome. Cassius interprets them as signs against Caesar and recruits Casca. He sends Cinna to place forged appeals where Brutus will find them, making resistance appear to be a public demand.",
             "through": {
-              "chapter": 3
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Unable to sleep, Brutus decides that Caesar must die, not for proven abuses but because kingship might transform him into a tyrant. The forged messages reinforce that conclusion. Cassius and the conspirators visit, and Brutus takes command of key decisions: they will not swear an oath, will exclude Cicero, and will kill only Caesar rather than Antony as well. Portia presses Brutus to explain his distress, proving her constancy, but their conversation is interrupted. On the morning of the Senate meeting, Calpurnia's nightmare and alarming reports from priests persuade Caesar to remain home. Decius reinterprets the dream as a sign of Rome drawing strength from Caesar and suggests the Senate may mock him or withdraw a crown. Caesar changes his mind. Artemidorus prepares a warning that names the conspirators, and Portia anxiously sends Lucius toward the Capitol.",
             "through": {
-              "chapter": 7
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "On the way to the Capitol, Caesar again dismisses the soothsayer and fails to read Artemidorus's warning. At the Senate, the conspirators surround him under cover of a petition and stab him; Brutus's participation completes Caesar's shock and collapse. Mark Antony sends assurances, then returns and outwardly reconciles with the assassins while privately grieving over Caesar's body. Brutus rejects Cassius's caution and allows Antony to speak at the funeral after Brutus explains the killing. Brutus tells the citizens that he acted to prevent slavery under an ambitious ruler, and the crowd initially approves. Antony then reminds them of Caesar's generosity, displays the wounds, and reveals a will benefiting Roman citizens. The crowd turns violently against the conspirators, who flee the city, while Antony recognizes that he has released forces he may not control.",
             "through": {
-              "chapter": 9
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "The enraged mob kills an innocent poet named Cinna merely because he shares a conspirator's name. Antony, Octavius, and Lepidus form a triumvirate, draw up lists of people to be executed, and prepare to fight Brutus and Cassius. At the republican camp, Brutus accuses Cassius of tolerating corruption; their quarrel becomes intensely personal before they reconcile. Brutus then reveals that Portia has died by suicide after becoming overwhelmed by his absence and the triumvirs' strength. Despite Cassius's strategic preference to wait, Brutus decides their army should march to Philippi. That night, Caesar's ghost appears to Brutus and says they will meet again there. Brutus continues toward battle, carrying both private grief and the consequences of his public choice.",
             "through": {
-              "chapter": 13
+              "chapter": 4
             }
           },
           {
             "scope": "book",
-            "text": "The rival leaders confront one another at Philippi before battle. Brutus and Cassius recognize that capture would mean humiliation and agree they will not be led through Rome as prisoners. Brutus's troops gain an advantage over Octavius but begin plundering too soon, while Antony's forces overwhelm Cassius's position. From a hill, Cassius asks Pindarus to report what is happening to Titinius. Pindarus mistakenly believes the approaching troops have captured Titinius, so Cassius concludes that all is lost and orders Pindarus to help him die with the same sword that struck Caesar. Titinius was actually welcomed by allied soldiers. When he returns and finds Cassius dead because of the error, he kills himself with Cassius's sword. Brutus arrives, mourns both men, and prepares for another engagement.",
+            "text": "The rival leaders confront one another at Philippi before battle. Brutus and Cassius recognize that capture would mean humiliation and agree they will not be led through Rome as prisoners. Brutus's troops gain an advantage over Octavius but begin plundering too soon, while Antony's forces overwhelm Cassius's position. From a hill, Cassius asks Pindarus to report what is happening to Titinius. Pindarus mistakenly believes the approaching troops have captured Titinius, so Cassius concludes that all is lost and orders Pindarus to help him die with the same sword that struck Caesar. Titinius was actually welcomed by allied soldiers. When he returns and finds Cassius dead because of the error, he kills himself with Cassius's sword. Brutus arrives, mourns both men, and prepares for another engagement. The second phase of battle destroys the remaining republican resistance. Young Cato dies fighting, while Lucilius pretends to be Brutus so that enemy soldiers will capture him and give the real Brutus time to escape. Antony recognizes the deception and treats Lucilius with respect. With defeat certain, Brutus asks his companions to help him die rather than be captured. Several refuse, but Strato finally holds a sword while Brutus runs onto it. Octavius and Antony then reach the body. Antony declares that Brutus alone among the conspirators acted from an honest belief that Caesar's death served Rome, whereas the others were driven by envy. Octavius orders an honorable burial and accepts Brutus's surviving men into his service. The triumvirs leave the battlefield victorious, and the republican conspiracy ends in military and political failure.",
             "through": {
-              "chapter": 16
-            }
-          },
-          {
-            "scope": "book",
-            "text": "The second phase of battle destroys the remaining republican resistance. Young Cato dies fighting, while Lucilius pretends to be Brutus so that enemy soldiers will capture him and give the real Brutus time to escape. Antony recognizes the deception and treats Lucilius with respect. With defeat certain, Brutus asks his companions to help him die rather than be captured. Several refuse, but Strato finally holds a sword while Brutus runs onto it. Octavius and Antony then reach the body. Antony declares that Brutus alone among the conspirators acted from an honest belief that Caesar's death served Rome, whereas the others were driven by envy. Octavius orders an honorable burial and accepts Brutus's surviving men into his service. The triumvirs leave the battlefield victorious, and the republican conspiracy ends in military and political failure.",
-            "through": {
-              "chapter": 18
+              "chapter": 5
             }
           }
         ],
@@ -1174,7 +1153,7 @@
             "id": "france",
             "name": "France",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -1186,7 +1165,7 @@
             "id": "burgundy",
             "name": "Burgundy",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -1198,7 +1177,7 @@
             "id": "edgar",
             "name": "Edgar",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1207,7 +1186,7 @@
             "id": "oswald",
             "name": "Oswald",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1219,7 +1198,7 @@
             "id": "fool",
             "name": "Fool",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           }
@@ -1243,35 +1222,28 @@
             "scope": "book",
             "text": "Lear announces that he will divide Britain among his daughters according to how fully they declare their love for him. Goneril and Regan offer elaborate praise; Cordelia refuses to exaggerate. Lear disowns Cordelia, banishes Kent for defending her, and gives power to the two elder daughters and their husbands. France marries Cordelia without a dowry. Edmund, Gloucester's younger son, forges a letter suggesting that Edgar plans to displace their father, then persuades Edgar to flee. At Goneril's home, Lear's large retinue causes conflict. Goneril demands that he reduce it, and Lear curses her before leaving for Regan. Kent returns in disguise to serve Lear, while the Fool repeatedly warns that the king surrendered the power that once protected him.",
             "through": {
-              "chapter": 2
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Edmund stages a fight with Edgar and wounds himself, convincing Gloucester that Edgar is dangerous. Edgar hides by adopting the identity of a destitute wanderer called Poor Tom. Cornwall and Regan punish Kent for quarreling with Oswald, placing him in the stocks despite his service to Lear. When Lear arrives, Regan supports Goneril rather than her father. The sisters reduce the number of followers they will allow him to keep until they question why he needs any. Refusing to submit, Lear rushes out into a violent storm with the Fool; Kent follows to find and protect him. Gloucester privately decides to aid the king despite Cornwall's orders, while Edmund prepares to use that decision against his father.",
             "through": {
+              "chapter": 3
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Exposed to the storm, Lear rages against the weather and begins recognizing the suffering of people who lack shelter and power. Kent leads him to a hut, where they meet Edgar disguised as Poor Tom; Lear, the Fool, and the disguised Edgar form a strange company. Gloucester finds them and arranges help. Edmund shows Cornwall a letter proving Gloucester's assistance to Lear and is rewarded with his father's title. Cornwall and Regan seize Gloucester, blind him, and cast him out. A servant who tries to stop the cruelty wounds Cornwall before Regan kills the servant; Cornwall later dies from the injury. The blinded Gloucester learns that Edgar was falsely accused. Still concealed, Edgar takes charge of his despairing father and guides him toward Dover, where Cordelia's supporters are gathering. In Dover, Cordelia searches for Lear and brings him under medical care. Gloucester asks his unknown guide to lead him to a cliff so he can end his life. Edgar instead stages a harmless fall on level ground and persuades him that he miraculously survived, restoring some will to continue. Lear, wandering and mentally disordered, meets Gloucester before Cordelia's attendants find him. Lear wakes in Cordelia's care, recognizes her, and asks forgiveness; she answers with compassion. Political conflict grows among the British leaders: Goneril and Regan both desire Edmund, while Albany condemns Goneril and the cruelty done to Gloucester. Edgar kills Oswald and finds Goneril's letter proposing Albany's murder. The French-backed force led by Cordelia prepares to fight the British army commanded by Edmund.",
+            "through": {
               "chapter": 4
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Exposed to the storm, Lear rages against the weather and begins recognizing the suffering of people who lack shelter and power. Kent leads him to a hut, where they meet Edgar disguised as Poor Tom; Lear, the Fool, and the disguised Edgar form a strange company. Gloucester finds them and arranges help. Edmund shows Cornwall a letter proving Gloucester's assistance to Lear and is rewarded with his father's title. Cornwall and Regan seize Gloucester, blind him, and cast him out. A servant who tries to stop the cruelty wounds Cornwall before Regan kills the servant; Cornwall later dies from the injury. The blinded Gloucester learns that Edgar was falsely accused. Still concealed, Edgar takes charge of his despairing father and guides him toward Dover, where Cordelia's supporters are gathering.",
-            "through": {
-              "chapter": 6
-            }
-          },
-          {
-            "scope": "book",
-            "text": "In Dover, Cordelia searches for Lear and brings him under medical care. Gloucester asks his unknown guide to lead him to a cliff so he can end his life. Edgar instead stages a harmless fall on level ground and persuades him that he miraculously survived, restoring some will to continue. Lear, wandering and mentally disordered, meets Gloucester before Cordelia's attendants find him. Lear wakes in Cordelia's care, recognizes her, and asks forgiveness; she answers with compassion. Political conflict grows among the British leaders: Goneril and Regan both desire Edmund, while Albany condemns Goneril and the cruelty done to Gloucester. Edgar kills Oswald and finds Goneril's letter proposing Albany's murder. The French-backed force led by Cordelia prepares to fight the British army commanded by Edmund.",
-            "through": {
-              "chapter": 8
             }
           },
           {
             "scope": "book",
             "text": "The British army wins, and Lear and Cordelia are captured. Edmund sends them away with a secret order for their deaths. Albany arrests Edmund and Goneril for treason. A disguised Edgar challenges Edmund, defeats him, and identifies himself; he reports that Gloucester died after learning the truth about his loyal son. Regan, poisoned by the jealous Goneril, dies, and Goneril kills herself after her conspiracy is exposed. The dying Edmund admits that he ordered Lear and Cordelia killed and tries to cancel the command, but help arrives too late. Lear carries in Cordelia's body: she has been hanged. Unable to revive her, he dies beside her. Albany offers rule to Kent and Edgar. Kent says his own life is nearly over, leaving Edgar to face the work of governing after the collapse of Lear's family and court.",
             "through": {
-              "chapter": 10
+              "chapter": 5
             }
           }
         ],
@@ -1296,7 +1268,7 @@
             "id": "macbeth",
             "name": "Macbeth",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -1305,7 +1277,7 @@
             "id": "banquo",
             "name": "Banquo",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1326,7 +1298,7 @@
             "id": "king-duncan",
             "name": "King Duncan",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1338,7 +1310,7 @@
             "id": "malcolm",
             "name": "Malcolm",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1347,7 +1319,7 @@
             "id": "donalbain",
             "name": "Donalbain",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -1356,7 +1328,7 @@
             "id": "lady-macbeth",
             "name": "Lady Macbeth",
             "reveal": {
-              "chapter": 5
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1365,7 +1337,7 @@
             "id": "macduff",
             "name": "Macduff",
             "reveal": {
-              "chapter": 10
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1374,7 +1346,7 @@
             "id": "fleance",
             "name": "Fleance",
             "reveal": {
-              "chapter": 8
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1383,7 +1355,7 @@
             "id": "ross",
             "name": "Ross",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1392,7 +1364,7 @@
             "id": "lennox",
             "name": "Lennox",
             "reveal": {
-              "chapter": 10
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1401,7 +1373,7 @@
             "id": "porter",
             "name": "Porter",
             "reveal": {
-              "chapter": 10
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -1410,7 +1382,7 @@
             "id": "murderers",
             "name": "Murderers",
             "reveal": {
-              "chapter": 12
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -1419,7 +1391,7 @@
             "id": "hecate",
             "name": "Hecate",
             "reveal": {
-              "chapter": 16
+              "chapter": 3
             },
             "role": "antagonist"
           },
@@ -1428,7 +1400,7 @@
             "id": "lady-macduff",
             "name": "Lady Macduff",
             "reveal": {
-              "chapter": 19
+              "chapter": 4
             },
             "role": "supporting"
           }
@@ -1450,51 +1422,37 @@
         "recaps": [
           {
             "scope": "book",
-            "text": "Scotland defeats a rebellion and an invasion with crucial help from Macbeth and Banquo. On their way from the battlefield, three witches greet Macbeth as Thane of Glamis, Thane of Cawdor, and future king. They tell Banquo that he will father kings without becoming one himself. Soon Ross and Angus announce that Duncan has granted Macbeth the executed traitor's title of Cawdor, apparently confirming the first prediction. Macbeth begins imagining how the crown might come to him, while Banquo warns that truthful beginnings can lead toward harm.",
+            "text": "Scotland defeats a rebellion and an invasion with crucial help from Macbeth and Banquo. On their way from the battlefield, three witches greet Macbeth as Thane of Glamis, Thane of Cawdor, and future king. They tell Banquo that he will father kings without becoming one himself. Soon Ross and Angus announce that Duncan has granted Macbeth the executed traitor's title of Cawdor, apparently confirming the first prediction. Macbeth begins imagining how the crown might come to him, while Banquo warns that truthful beginnings can lead toward harm. Duncan names his son Malcolm Prince of Cumberland and heir, creating an obstacle between Macbeth and the throne. Lady Macbeth reads her husband's report of the prophecy and resolves that Duncan's visit to their castle must become an opportunity to seize power. She urges Macbeth to hide their intentions behind the appearance of hospitality. Duncan arrives and warmly praises his hosts. Macbeth recognizes the moral, political, and personal reasons not to kill a guest and king, and decides to abandon the plan. Lady Macbeth attacks his courage and lays out a scheme to drug Duncan's guards, murder the sleeping king, and blame the attendants. Macbeth accepts the plan and prepares to deceive the royal household.",
             "through": {
-              "chapter": 3
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Duncan names his son Malcolm Prince of Cumberland and heir, creating an obstacle between Macbeth and the throne. Lady Macbeth reads her husband's report of the prophecy and resolves that Duncan's visit to their castle must become an opportunity to seize power. She urges Macbeth to hide their intentions behind the appearance of hospitality. Duncan arrives and warmly praises his hosts. Macbeth recognizes the moral, political, and personal reasons not to kill a guest and king, and decides to abandon the plan. Lady Macbeth attacks his courage and lays out a scheme to drug Duncan's guards, murder the sleeping king, and blame the attendants. Macbeth accepts the plan and prepares to deceive the royal household.",
-            "through": {
-              "chapter": 7
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "After a hallucination of a dagger, Macbeth enters Duncan's chamber and kills him. He returns shaken, still carrying the guards' daggers, so Lady Macbeth takes them back and smears the sleeping men with blood. Knocking begins at the gate. Macduff arrives to wake Duncan, discovers the body, and raises the alarm. Macbeth kills the guards before they can be questioned, claiming rage. Duncan's sons fear the murderer may target them next: Malcolm flees to England and Donalbain to Ireland. Their escape makes them look guilty. Macbeth is chosen as king and travels to Scone for coronation, while Macduff remains apart and Banquo remembers the witches' prophecies.",
             "through": {
-              "chapter": 11
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "As king, Macbeth fears Banquo's suspicion and the prediction that Banquo's descendants will inherit the crown. He hires murderers to ambush Banquo and Fleance. Banquo is killed, but Fleance escapes. At a royal banquet, Macbeth sees Banquo's ghost occupying his place and reacts in terror before the guests, while Lady Macbeth struggles to dismiss his behavior as an illness. Macbeth decides to consult the witches again and recognizes that violence has trapped him in further violence. Hecate plans to use misleading visions to make him overconfident. Scottish nobles increasingly suspect Macbeth of Duncan's and Banquo's deaths. Macduff has gone to England to join Malcolm and seek military help against the new king.",
             "through": {
-              "chapter": 17
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "The witches summon apparitions that tell Macbeth to beware Macduff, but also say that no one born of woman will harm him and that he will be safe until Birnam Wood comes to Dunsinane. A vision of kings descended from Banquo enrages him. Learning that Macduff has fled, Macbeth orders an attack on his home; murderers kill Lady Macduff and her children. In England, Malcolm tests Macduff's loyalty by pretending he would be a corrupt ruler, then withdraws the claims once Macduff proves his concern for Scotland. Ross brings news of the slaughter of Macduff's family. Macduff turns his grief toward revenge, and Malcolm prepares to return with an army supported by the English commander Siward.",
             "through": {
-              "chapter": 20
+              "chapter": 4
             }
           },
           {
             "scope": "book",
-            "text": "Lady Macbeth sleepwalks under a doctor's observation, repeatedly trying to wash imagined blood from her hands and revealing fragments of the crimes that torment her. Scottish nobles join Malcolm as the invading force approaches Dunsinane. Macbeth clings to the witches' promises despite reports that his supporters are deserting. Malcolm orders each soldier to cut a branch from Birnam Wood and carry it as camouflage, making the forest appear to move toward the castle. Macbeth then learns that Lady Macbeth has died and responds with exhausted despair. A messenger reports the advancing wood, shaking one prophecy, but Macbeth arms himself for a final defense.",
+            "text": "Lady Macbeth sleepwalks under a doctor's observation, repeatedly trying to wash imagined blood from her hands and revealing fragments of the crimes that torment her. Scottish nobles join Malcolm as the invading force approaches Dunsinane. Macbeth clings to the witches' promises despite reports that his supporters are deserting. Malcolm orders each soldier to cut a branch from Birnam Wood and carry it as camouflage, making the forest appear to move toward the castle. Macbeth then learns that Lady Macbeth has died and responds with exhausted despair. A messenger reports the advancing wood, shaking one prophecy, but Macbeth arms himself for a final defense. Malcolm's forces throw down their branches and attack Dunsinane. Macbeth continues to trust the assurance about ordinary birth and kills Young Siward in combat. When Macduff confronts him, however, Macduff explains that he was delivered from his mother's body before natural birth. Macbeth understands that the witches' promise was a trap but refuses to surrender. Macduff kills him and enters with his severed head. Malcolm is proclaimed king. He makes his loyal thanes the first earls of Scotland, invites back those driven into exile, and promises to restore order after the tyranny. Macbeth's reign ends, Macduff's family is avenged, and Duncan's rightful line returns through Malcolm.",
             "through": {
-              "chapter": 25
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Malcolm's forces throw down their branches and attack Dunsinane. Macbeth continues to trust the assurance about ordinary birth and kills Young Siward in combat. When Macduff confronts him, however, Macduff explains that he was delivered from his mother's body before natural birth. Macbeth understands that the witches' promise was a trap but refuses to surrender. Macduff kills him and enters with his severed head. Malcolm is proclaimed king. He makes his loyal thanes the first earls of Scotland, invites back those driven into exile, and promises to restore order after the tyranny. Macbeth's reign ends, Macduff's family is avenged, and Duncan's rightful line returns through Malcolm.",
-            "through": {
-              "chapter": 29
+              "chapter": 5
             }
           }
         ],
@@ -1525,7 +1483,7 @@
             "id": "juliet-capulet",
             "name": "Juliet Capulet",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -1534,7 +1492,7 @@
             "id": "mercutio",
             "name": "Mercutio",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1561,7 +1519,7 @@
             "id": "nurse",
             "name": "Nurse",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1570,7 +1528,7 @@
             "id": "friar-lawrence",
             "name": "Friar Lawrence",
             "reveal": {
-              "chapter": 8
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1588,7 +1546,7 @@
             "id": "lady-capulet",
             "name": "Lady Capulet",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1597,7 +1555,7 @@
             "id": "count-paris",
             "name": "Count Paris",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1615,7 +1573,7 @@
             "id": "apothecary",
             "name": "Apothecary",
             "reveal": {
-              "chapter": 22
+              "chapter": 5
             },
             "role": "minor"
           }
@@ -1639,42 +1597,35 @@
             "scope": "book",
             "text": "Servants of the Montague and Capulet households turn an insult into a street fight, drawing in Benvolio and Tybalt before Prince Escalus stops the brawl. He decrees death for anyone who disturbs Verona's peace again. Romeo Montague has avoided the fighting because he is brooding over Rosaline, who does not return his love. Benvolio urges him to look elsewhere. Count Paris asks Lord Capulet for permission to marry Juliet; Capulet says she is still young but invites Paris to court her at a feast. A servant who cannot read accidentally shows the guest list to Romeo and Benvolio, allowing them to learn that Rosaline will attend. Lady Capulet and the Nurse tell Juliet about Paris, and Juliet agrees to observe him without promising more.",
             "through": {
-              "chapter": 3
+              "chapter": 1
             }
           },
           {
             "scope": "book",
-            "text": "Romeo enters the Capulet feast masked with Benvolio and Mercutio. There he sees Juliet, and each becomes immediately absorbed in the other. Tybalt recognizes Romeo's voice and wants to attack him, but Lord Capulet forbids violence under his roof. Only after Romeo and Juliet kiss do they discover that they belong to the enemy families. Romeo later slips into the Capulet orchard, where he overhears Juliet privately considering their love and the obstacle created by their names. He reveals himself, and they exchange promises. Juliet insists that their intentions must be honorable; she will send a messenger the next day, and Romeo is to arrange a marriage. Their relationship has moved from first meeting to a secret commitment before either family knows it exists.",
+            "text": "Romeo enters the Capulet feast masked with Benvolio and Mercutio. There he sees Juliet, and each becomes immediately absorbed in the other. Tybalt recognizes Romeo's voice and wants to attack him, but Lord Capulet forbids violence under his roof. Only after Romeo and Juliet kiss do they discover that they belong to the enemy families. Romeo later slips into the Capulet orchard, where he overhears Juliet privately considering their love and the obstacle created by their names. He reveals himself, and they exchange promises. Juliet insists that their intentions must be honorable; she will send a messenger the next day, and Romeo is to arrange a marriage. Their relationship has moved from first meeting to a secret commitment before either family knows it exists. Romeo asks Friar Lawrence to marry him and Juliet. The friar criticizes Romeo's sudden change from Rosaline but agrees, hoping a union might end the feud. Tybalt has sent a challenge to Romeo, while Mercutio and Benvolio remain unaware of the new relationship. Juliet's Nurse meets Romeo, confirms his intentions, and carries instructions back to Juliet. After an anxious wait, Juliet learns that she should go to Friar Lawrence's cell. The young couple meet there and are married in secret. The arrangement depends on the discretion of the friar and Nurse, and its promise of reconciliation has not yet altered the hostility in Verona's streets.",
             "through": {
-              "chapter": 7
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Romeo asks Friar Lawrence to marry him and Juliet. The friar criticizes Romeo's sudden change from Rosaline but agrees, hoping a union might end the feud. Tybalt has sent a challenge to Romeo, while Mercutio and Benvolio remain unaware of the new relationship. Juliet's Nurse meets Romeo, confirms his intentions, and carries instructions back to Juliet. After an anxious wait, Juliet learns that she should go to Friar Lawrence's cell. The young couple meet there and are married in secret. The arrangement depends on the discretion of the friar and Nurse, and its promise of reconciliation has not yet altered the hostility in Verona's streets.",
-            "through": {
-              "chapter": 11
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "Tybalt confronts Romeo, who refuses to fight because the secret marriage has made Tybalt his relative. Mercutio interprets the refusal as submission and fights Tybalt himself. Romeo intervenes, and Tybalt wounds Mercutio under Romeo's arm; Mercutio dies condemning both houses. Enraged, Romeo kills Tybalt. Prince Escalus spares Romeo's life but banishes him from Verona. Juliet initially believes Romeo has been killed, then learns that he killed her cousin and must leave. She grieves for both men but remains loyal to her husband. Friar Lawrence prevents Romeo from harming himself and arranges for him to spend the night with Juliet before escaping to Mantua. Meanwhile, Capulet promises Juliet to Paris, believing a swift marriage will relieve her grief over Tybalt.",
             "through": {
-              "chapter": 14
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "After their single night together, Romeo leaves for Mantua. Juliet refuses to marry Paris, but her father responds with threats and her mother offers no protection. When even the Nurse advises her to accept Paris, Juliet turns entirely to Friar Lawrence. He gives her a potion that will make her appear dead for about two days. The plan is to place her in the family tomb while the friar sends word to Romeo; Romeo can then be present when she wakes, and they can leave together. Juliet agrees despite fears about the tomb and drinks the potion alone. The next morning the Nurse finds her apparently lifeless. The Capulet household's wedding preparations turn into funeral arrangements, and Juliet is carried to the tomb while the secret message is supposed to travel to Mantua.",
             "through": {
-              "chapter": 21
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "Romeo's servant Balthasar reaches Mantua with news that Juliet is dead, unaware of the friar's plan. Romeo buys poison and returns to Verona. Friar Lawrence then learns that his letter was never delivered because the messenger was held back by a public-health restriction. At the tomb, Romeo meets Paris, who believes he has come to dishonor the Capulets, and kills him in the ensuing fight. Romeo enters, drinks the poison beside Juliet, and dies. Juliet wakes moments later. The friar urges her to flee but leaves when the watch approaches; Juliet instead kills herself with Romeo's dagger. Friar Lawrence explains the secret marriage and failed escape plan to the prince and both families, supported by Romeo's letter. Prince Escalus holds the feuding houses responsible. The Montagues and Capulets reconcile and promise to honor the dead lovers, ending their conflict only after it has destroyed their children.",
             "through": {
-              "chapter": 24
+              "chapter": 5
             }
           }
         ],
@@ -1708,7 +1659,7 @@
             "id": "viola",
             "name": "Viola",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -1717,7 +1668,7 @@
             "id": "sebastian",
             "name": "Sebastian",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1726,7 +1677,7 @@
             "id": "sea-captain",
             "name": "Sea Captain",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -1735,7 +1686,7 @@
             "id": "olivia",
             "name": "Olivia",
             "reveal": {
-              "chapter": 5
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1744,7 +1695,7 @@
             "id": "sir-toby-belch",
             "name": "Sir Toby Belch",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1753,7 +1704,7 @@
             "id": "sir-andrew-aguecheek",
             "name": "Sir Andrew Aguecheek",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1762,7 +1713,7 @@
             "id": "maria",
             "name": "Maria",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1771,7 +1722,7 @@
             "id": "malvolio",
             "name": "Malvolio",
             "reveal": {
-              "chapter": 5
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1780,7 +1731,7 @@
             "id": "feste",
             "name": "Feste",
             "reveal": {
-              "chapter": 5
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1789,7 +1740,7 @@
             "id": "antonio",
             "name": "Antonio",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1798,7 +1749,7 @@
             "id": "fabian",
             "name": "Fabian",
             "reveal": {
-              "chapter": 10
+              "chapter": 2
             },
             "role": "minor"
           }
@@ -1822,42 +1773,35 @@
             "scope": "book",
             "text": "Orsino, ruler of Illyria, listens to music while dwelling on his love for Countess Olivia. She has rejected his courtship and intends to remain in mourning for her dead brother. Elsewhere on the coast, Viola survives a shipwreck but has no news of her twin brother Sebastian. Learning about Orsino and Olivia from a sea captain, she chooses to disguise herself as a young man and seek a place in Orsino's service. At Olivia's house, her uncle Sir Toby drinks late with the wealthy and gullible Sir Andrew, whose suit to Olivia Toby encourages. Maria, one of Olivia's attendants, warns Toby about his behavior. Viola, now known as Cesario, quickly gains Orsino's confidence and is sent to deliver another appeal to Olivia, although Viola has herself fallen in love with Orsino.",
             "through": {
-              "chapter": 4
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Cesario refuses to be dismissed at Olivia's gate and gains a private audience. Viola argues Orsino's case without concealing her opinion that his rehearsed devotion is excessive. Olivia remains unmoved by Orsino but becomes fascinated by the messenger, sending Malvolio after Cesario with a ring as a pretext for another meeting. Viola realizes that her disguise has produced a triangle: she loves Orsino, Orsino loves Olivia, and Olivia loves Cesario. Meanwhile, Sebastian is revealed to have survived the wreck. He plans to enter Illyria, and Antonio, the captain who rescued him, follows despite the danger posed by his past conflict with Orsino's people.",
             "through": {
-              "chapter": 6
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "Orsino continues to confide in Cesario about love, unaware that his page is Viola. When Viola hints that she loves someone resembling Orsino, he does not understand her confession and sends her back to Olivia. In Olivia's house, Malvolio interrupts the noisy nighttime singing of Sir Toby, Sir Andrew, Maria, and Feste and threatens to report them. Maria devises revenge: she will imitate Olivia's handwriting in a letter designed to exploit Malvolio's vanity. The letter, left where he will find it, convinces him that Olivia secretly loves him and wants him to behave in ways she actually dislikes, including smiling constantly, wearing yellow stockings, and treating Sir Toby with authority. Malvolio eagerly resolves to obey. Sebastian and Antonio have reached the city, but Antonio gives Sebastian his purse and remains cautious because he could be arrested. Fabian joins Maria and the others to watch their deception unfold.",
             "through": {
-              "chapter": 10
+              "chapter": 3
             }
           },
           {
             "scope": "book",
-            "text": "Olivia openly tells Cesario that she loves him, leaving Viola unable to answer without exposing her identity. Sir Andrew, jealous of Olivia's interest, is persuaded by Sir Toby and Fabian to challenge Cesario. Neither challenger wants to fight, but Toby separately tells each that the other is dangerous. Before their reluctant duel can begin, Antonio mistakes Viola for Sebastian and intervenes. Officers arrest him; when Viola cannot return the purse he gave Sebastian, Antonio believes his friend has betrayed him. His use of Sebastian's name gives Viola her first real hope that her brother lives. Malvolio, meanwhile, appears before Olivia smiling and dressed according to the forged letter. She thinks him mentally unwell and entrusts him to Sir Toby, allowing the conspirators to confine and torment him. Sebastian then encounters Feste, Sir Andrew, and Sir Toby, all of whom mistake him for Cesario. Unlike Viola, he fights back, startling them. Olivia intervenes, addresses him as Cesario, and leads the bewildered but willing Sebastian away.",
+            "text": "Olivia openly tells Cesario that she loves him, leaving Viola unable to answer without exposing her identity. Sir Andrew, jealous of Olivia's interest, is persuaded by Sir Toby and Fabian to challenge Cesario. Neither challenger wants to fight, but Toby separately tells each that the other is dangerous. Before their reluctant duel can begin, Antonio mistakes Viola for Sebastian and intervenes. Officers arrest him; when Viola cannot return the purse he gave Sebastian, Antonio believes his friend has betrayed him. His use of Sebastian's name gives Viola her first real hope that her brother lives. Malvolio, meanwhile, appears before Olivia smiling and dressed according to the forged letter. She thinks him mentally unwell and entrusts him to Sir Toby, allowing the conspirators to confine and torment him. Sebastian then encounters Feste, Sir Andrew, and Sir Toby, all of whom mistake him for Cesario. Unlike Viola, he fights back, startling them. Olivia intervenes, addresses him as Cesario, and leads the bewildered but willing Sebastian away. Sebastian accepts Olivia's affection while marveling at his sudden good fortune, and she arranges for them to marry privately. In the house, Maria and Feste continue the deception against Malvolio. Feste disguises his voice as a learned examiner and treats Malvolio's sensible answers as evidence of madness, then speaks to him as himself. Malvolio persuades Feste to carry a letter to Olivia asking for release and explaining that he has been wronged. Sir Toby begins to worry that the prank has gone too far and may cost him Olivia's favor. By the end of these events, Olivia believes she has secured Cesario as her husband, Sebastian has married a woman who mistook him for his sister's disguise, and Viola still does not know that her twin is nearby.",
             "through": {
-              "chapter": 14
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Sebastian accepts Olivia's affection while marveling at his sudden good fortune, and she arranges for them to marry privately. In the house, Maria and Feste continue the deception against Malvolio. Feste disguises his voice as a learned examiner and treats Malvolio's sensible answers as evidence of madness, then speaks to him as himself. Malvolio persuades Feste to carry a letter to Olivia asking for release and explaining that he has been wronged. Sir Toby begins to worry that the prank has gone too far and may cost him Olivia's favor. By the end of these events, Olivia believes she has secured Cesario as her husband, Sebastian has married a woman who mistook him for his sister's disguise, and Viola still does not know that her twin is nearby.",
-            "through": {
-              "chapter": 17
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "Orsino visits Olivia with Cesario and encounters the arrested Antonio, who insists that Cesario is Sebastian. Olivia enters and treats Cesario as the husband she has just married, while Viola denies any such commitment. Sir Andrew and Sir Toby then arrive injured, accusing Cesario of attacking them. The contradictions end when Sebastian appears. The twins question one another, recognize shared family details, and finally accept that both survived the wreck. Olivia understands that she married Sebastian, who gladly confirms the match. Once Viola promises to resume her own clothes and identity, Orsino abandons his suit to Olivia and chooses Viola. Malvolio's letter prompts his release. The forged message is produced, Fabian admits the conspiracy, and the household learns that Sir Toby has married Maria. Malvolio leaves angrily after promising revenge. The action closes with the intended marriages of Orsino and Viola and of Olivia and Sebastian, while Feste remains to sing after the company departs.",
             "through": {
-              "chapter": 18
+              "chapter": 5
             }
           }
         ],
@@ -1879,7 +1823,7 @@
             "id": "hamlet",
             "name": "Hamlet",
             "reveal": {
-              "chapter": 5
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -1891,7 +1835,7 @@
             "id": "ghost-of-king-hamlet",
             "name": "Ghost of King Hamlet",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1900,7 +1844,7 @@
             "id": "claudius",
             "name": "Claudius",
             "reveal": {
-              "chapter": 5
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1909,7 +1853,7 @@
             "id": "gertrude",
             "name": "Gertrude",
             "reveal": {
-              "chapter": 5
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1918,7 +1862,7 @@
             "id": "horatio",
             "name": "Horatio",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1927,7 +1871,7 @@
             "id": "polonius",
             "name": "Polonius",
             "reveal": {
-              "chapter": 8
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1936,7 +1880,7 @@
             "id": "ophelia",
             "name": "Ophelia",
             "reveal": {
-              "chapter": 8
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1945,7 +1889,7 @@
             "id": "laertes",
             "name": "Laertes",
             "reveal": {
-              "chapter": 5
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1954,7 +1898,7 @@
             "id": "rosencrantz",
             "name": "Rosencrantz",
             "reveal": {
-              "chapter": 18
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1963,7 +1907,7 @@
             "id": "guildenstern",
             "name": "Guildenstern",
             "reveal": {
-              "chapter": 18
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1972,7 +1916,7 @@
             "id": "fortinbras",
             "name": "Fortinbras",
             "reveal": {
-              "chapter": 5
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -1984,7 +1928,7 @@
             "id": "gravedigger",
             "name": "Gravedigger",
             "reveal": {
-              "chapter": 47
+              "chapter": 5
             },
             "role": "minor"
           }
@@ -2008,42 +1952,35 @@
             "scope": "book",
             "text": "On the battlements at Elsinore, guards and Hamlet's friend Horatio see an armed apparition resembling the recently dead King Hamlet. Denmark is also preparing against possible action by the Norwegian prince Fortinbras. Inside the court, the dead king's brother Claudius has taken the throne and married Queen Gertrude. Prince Hamlet remains in mourning and resents both the marriage and the pressure to accept it. Horatio tells him about the apparition. Meanwhile, Laertes prepares to return to France and warns his sister Ophelia that Hamlet's romantic interest may not survive the obligations of royalty. Their father Polonius orders Ophelia to reject Hamlet's approaches. Hamlet goes to the night watch, where the apparition signals that it wants to speak with him alone.",
             "through": {
-              "chapter": 12
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "The ghost claims to be Hamlet's father and says Claudius murdered him by pouring poison into his ear. It demands revenge against Claudius but tells Hamlet not to harm Gertrude. Hamlet makes Horatio and the guard Marcellus swear secrecy and hints that he may behave strangely as part of his response. Later, Ophelia reports that Hamlet has visited her in a disturbed state, and Polonius decides frustrated love explains the prince's conduct. Claudius and Gertrude summon Hamlet's old acquaintances Rosencrantz and Guildenstern to learn what is wrong. Hamlet quickly realizes they are acting for the king. A traveling acting company arrives, giving Hamlet a way to test the ghost's accusation: he plans a performance that resembles the alleged murder and will study Claudius's reaction.",
             "through": {
-              "chapter": 22
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "Claudius and Polonius secretly observe an encounter between Hamlet and Ophelia. Hamlet rejects her and directs bitter attacks at love, marriage, and deception; Claudius concludes that love alone does not explain his behavior. Hamlet then stages the actors' account of a ruler killed through poison by a relative who wins the widow. Claudius abruptly stops the performance, which Hamlet and Horatio take as confirmation of guilt. Claudius tries to pray, acknowledging his crime to himself but finding that he cannot surrender the benefits gained from it. Hamlet comes upon him and could strike, yet delays because he fears killing a man at prayer may reward rather than punish him. Hamlet instead goes to confront Gertrude in her room while Polonius hides behind a hanging to listen.",
             "through": {
-              "chapter": 30
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "During the confrontation with his mother, Hamlet hears movement behind the hanging and thrusts his sword through it, killing Polonius without first seeing whom he has struck. He condemns Gertrude's marriage and sees the ghost again, though Gertrude cannot see it. Claudius now regards Hamlet as immediately dangerous. He sends the prince to England with Rosencrantz and Guildenstern, secretly enclosing orders for Hamlet's execution. Hamlet conceals Polonius's body before being forced to reveal its location. On the road he encounters troops connected with Fortinbras and is struck by the contrast between their readiness for action and his own delays. Back at Elsinore, Ophelia is overcome by her father's death and Hamlet's absence, speaking and singing in disordered fragments. Laertes returns at the head of an angry crowd, demanding an account of his father's death.",
             "through": {
-              "chapter": 42
+              "chapter": 4
             }
           },
           {
             "scope": "book",
-            "text": "Hamlet sends word that he has returned to Denmark after pirates intercepted his voyage. Claudius redirects Laertes's anger toward Hamlet and proposes a fencing match in which Laertes will use a sharpened blade coated with poison. Claudius prepares poisoned wine as a second means of ensuring Hamlet's death. Gertrude then reports that Ophelia has drowned after falling into a stream. At the cemetery, Hamlet speaks with a gravedigger and reflects on the remains of people once known to him. The funeral party arrives, and Hamlet realizes the grave is Ophelia's. Laertes leaps into it in grief; Hamlet reveals himself, insists that his love for Ophelia was profound, and struggles with Laertes before they are separated. The court moves toward the fencing match under the appearance of reconciliation.",
+            "text": "Hamlet sends word that he has returned to Denmark after pirates intercepted his voyage. Claudius redirects Laertes's anger toward Hamlet and proposes a fencing match in which Laertes will use a sharpened blade coated with poison. Claudius prepares poisoned wine as a second means of ensuring Hamlet's death. Gertrude then reports that Ophelia has drowned after falling into a stream. At the cemetery, Hamlet speaks with a gravedigger and reflects on the remains of people once known to him. The funeral party arrives, and Hamlet realizes the grave is Ophelia's. Laertes leaps into it in grief; Hamlet reveals himself, insists that his love for Ophelia was profound, and struggles with Laertes before they are separated. The court moves toward the fencing match under the appearance of reconciliation. Hamlet tells Horatio that he discovered the execution order aboard the ship and replaced it with one condemning Rosencrantz and Guildenstern. Despite an uneasy feeling, he accepts the fencing match with Laertes. Hamlet apologizes for his earlier conduct, and Laertes outwardly accepts while retaining the poisoned weapon. During the bout Gertrude drinks from Claudius's poisoned cup. Laertes wounds Hamlet; in the ensuing scuffle the men exchange swords, and Hamlet wounds Laertes with the same poisoned point. Gertrude dies, and Laertes confesses the plot and names Claudius. Hamlet kills Claudius with the blade and poisoned drink. Laertes and Hamlet die soon afterward, reconciled. Hamlet charges Horatio to tell the truth and supports Fortinbras's claim before his death. Fortinbras arrives to find the royal house destroyed, assumes authority in Denmark, and orders honors for Hamlet as Horatio prepares to recount the causes of the disaster.",
             "through": {
-              "chapter": 47
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Hamlet tells Horatio that he discovered the execution order aboard the ship and replaced it with one condemning Rosencrantz and Guildenstern. Despite an uneasy feeling, he accepts the fencing match with Laertes. Hamlet apologizes for his earlier conduct, and Laertes outwardly accepts while retaining the poisoned weapon. During the bout Gertrude drinks from Claudius's poisoned cup. Laertes wounds Hamlet; in the ensuing scuffle the men exchange swords, and Hamlet wounds Laertes with the same poisoned point. Gertrude dies, and Laertes confesses the plot and names Claudius. Hamlet kills Claudius with the blade and poisoned drink. Laertes and Hamlet die soon afterward, reconciled. Hamlet charges Horatio to tell the truth and supports Fortinbras's claim before his death. Fortinbras arrives to find the royal house destroyed, assumes authority in Denmark, and orders honors for Hamlet as Horatio prepares to recount the causes of the disaster.",
-            "through": {
-              "chapter": 49
+              "chapter": 5
             }
           }
         ],
@@ -2065,7 +2002,7 @@
             "id": "king-henry-v",
             "name": "King Henry V",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -2074,7 +2011,7 @@
             "id": "archbishop-of-canterbury",
             "name": "Archbishop of Canterbury",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2083,7 +2020,7 @@
             "id": "duke-of-exeter",
             "name": "Duke of Exeter",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2092,7 +2029,7 @@
             "id": "the-dauphin",
             "name": "The Dauphin",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "antagonist"
           },
@@ -2104,7 +2041,7 @@
             "id": "king-charles-vi",
             "name": "King Charles VI",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "antagonist"
           },
@@ -2113,7 +2050,7 @@
             "id": "pistol",
             "name": "Pistol",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2122,7 +2059,7 @@
             "id": "nym",
             "name": "Nym",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -2131,7 +2068,7 @@
             "id": "bardolph",
             "name": "Bardolph",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -2143,7 +2080,7 @@
             "id": "hostess-quickly",
             "name": "Hostess Quickly",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -2155,7 +2092,7 @@
             "id": "richard-scrope",
             "name": "Richard Scrope",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "antagonist"
           },
@@ -2164,7 +2101,7 @@
             "id": "fluellen",
             "name": "Fluellen",
             "reveal": {
-              "chapter": 8
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -2176,7 +2113,7 @@
             "id": "katherine-of-france",
             "name": "Katherine of France",
             "reveal": {
-              "chapter": 10
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -2185,7 +2122,7 @@
             "id": "alice",
             "name": "Alice",
             "reveal": {
-              "chapter": 10
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -2194,7 +2131,7 @@
             "id": "montjoy",
             "name": "Montjoy",
             "reveal": {
-              "chapter": 12
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -2203,7 +2140,7 @@
             "id": "michael-williams",
             "name": "Michael Williams",
             "reveal": {
-              "chapter": 14
+              "chapter": 4
             },
             "role": "minor"
           }
@@ -2227,42 +2164,35 @@
             "scope": "book",
             "text": "A Chorus asks the audience to imagine kingdoms and armies beyond what the stage can literally show. In England, the Archbishop of Canterbury and the Bishop of Ely discuss both Henry's transformation from an unruly prince into a serious king and a parliamentary threat to church property. Canterbury prepares to support Henry's claim to France with legal argument and church money. Before the court, Henry insists that Canterbury state the case carefully because war will cost lives. Canterbury argues that the French rule excluding descent through women does not invalidate Henry's line, and the English nobles urge action. French ambassadors then deliver a mocking gift of tennis balls from the Dauphin, implying that Henry is fit only for games. Henry answers that the insult will have grave consequences and announces his intention to carry his claim into France.",
             "through": {
-              "chapter": 2
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "In London, Pistol, Nym, Bardolph, and Hostess Quickly settle a quarrel and prepare to follow the army. Falstaff dies offstage, mourned by his old companions. At Southampton, Henry reveals that he already knows of a French-funded assassination plot by Cambridge, Grey, and his trusted friend Scrope. He first leads the conspirators to endorse strict punishment in another case, then presents their own written commissions and sentences them to death. The discovery strengthens his resolve rather than delaying the expedition. In France, King Charles orders preparations against the English advance. The Dauphin remains confident that Henry can be dismissed as the reckless youth he once was, but the king recalls earlier English victories in France and treats the invasion as a serious danger.",
             "through": {
-              "chapter": 6
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "Henry's army lands in France and attacks Harfleur. He rallies his men at a breach in the walls, while Fluellen directs the common soldiers and quarrels over proper military conduct. Pistol, Nym, Bardolph, and the Boy reveal a less heroic side of the campaign: the men seek profit, and the Boy recognizes their cowardice and dishonesty. When Harfleur continues to resist, Henry threatens the governor with the destruction that will follow if the town forces an assault. With no relief coming from the Dauphin, the governor surrenders. Henry orders Exeter to hold the town and restrain abuse of its people. The English army, weakened by sickness, then prepares to march toward Calais. At the French court, Princess Katherine begins learning English from Alice, practicing the names of body parts while the wider conflict moves closer.",
             "through": {
-              "chapter": 10
+              "chapter": 3
             }
           },
           {
             "scope": "book",
-            "text": "French nobles gather their much larger force and anticipate an easy victory. The English continue their difficult march. Fluellen reports that Bardolph has been condemned for stealing from a church, and Henry allows the execution, insisting that the army respect French civilians and property. The French herald Montjoy demands that Henry pay a ransom to avoid destruction; Henry refuses while acknowledging his troops' exhausted condition. On the night before battle, the French boast in their camp, while Henry borrows a cloak and walks anonymously among his soldiers. He hears confidence from some but enters a serious argument with Michael Williams, who questions the king's responsibility for the deaths and spiritual fate of those who fight for him. Alone afterward, Henry reflects on the burdens hidden beneath royal ceremony and prays that his father's seizure of the crown will not be held against the army.",
+            "text": "French nobles gather their much larger force and anticipate an easy victory. The English continue their difficult march. Fluellen reports that Bardolph has been condemned for stealing from a church, and Henry allows the execution, insisting that the army respect French civilians and property. The French herald Montjoy demands that Henry pay a ransom to avoid destruction; Henry refuses while acknowledging his troops' exhausted condition. On the night before battle, the French boast in their camp, while Henry borrows a cloak and walks anonymously among his soldiers. He hears confidence from some but enters a serious argument with Michael Williams, who questions the king's responsibility for the deaths and spiritual fate of those who fight for him. Alone afterward, Henry reflects on the burdens hidden beneath royal ceremony and prays that his father's seizure of the crown will not be held against the army. At dawn the English learn how heavily they are outnumbered. Henry rejects a wish for reinforcements and tells his small company that sharing the danger will make their service memorable. Montjoy offers another chance to negotiate, but Henry again refuses ransom. The battle of Agincourt follows. The crowded French force cannot turn its numerical advantage into victory, and leading nobles are killed or captured. Pistol takes a French soldier prisoner for ransom. When the French renew their attack and the English baggage area is assaulted, Henry orders the French prisoners killed in the crisis. The remaining French resistance collapses. Montjoy returns, acknowledges the English victory, and asks permission to recover the dead. The casualty reports show severe French losses, including many nobles, against a much smaller English total. Henry attributes the result to God and orders that the dead be honored before the army proceeds toward Calais.",
             "through": {
-              "chapter": 14
-            }
-          },
-          {
-            "scope": "book",
-            "text": "At dawn the English learn how heavily they are outnumbered. Henry rejects a wish for reinforcements and tells his small company that sharing the danger will make their service memorable. Montjoy offers another chance to negotiate, but Henry again refuses ransom. The battle of Agincourt follows. The crowded French force cannot turn its numerical advantage into victory, and leading nobles are killed or captured. Pistol takes a French soldier prisoner for ransom. When the French renew their attack and the English baggage area is assaulted, Henry orders the French prisoners killed in the crisis. The remaining French resistance collapses. Montjoy returns, acknowledges the English victory, and asks permission to recover the dead. The casualty reports show severe French losses, including many nobles, against a much smaller English total. Henry attributes the result to God and orders that the dead be honored before the army proceeds toward Calais.",
-            "through": {
-              "chapter": 19
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "After the campaign, Fluellen confronts Pistol for mocking the Welsh custom of wearing leeks and forces him to eat one. Pistol, having lost his companions and learned that his wife has died, plans to return to England and survive through fraud. The royal parties meet in France to settle the war. Burgundy urges peace by describing a country neglected and damaged by prolonged conflict. King Charles agrees to terms that recognize Henry as his heir, and the political settlement includes Henry's marriage to Princess Katherine. Left to speak with her, Henry courts Katherine in a mixture of directness and imperfect French. She accepts within the limits of her father's decision, and the court celebrates the expected union. The final Chorus then supplies the historical outcome beyond the ceremony: Henry dies young, his infant son inherits both crowns, and divided English leadership loses the territories won in France.",
             "through": {
-              "chapter": 20
+              "chapter": 5
             }
           }
         ],
@@ -2284,7 +2214,7 @@
             "id": "julius-caesar",
             "name": "Julius Caesar",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2293,7 +2223,7 @@
             "id": "marcus-brutus",
             "name": "Marcus Brutus",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -2302,7 +2232,7 @@
             "id": "caius-cassius",
             "name": "Caius Cassius",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2311,7 +2241,7 @@
             "id": "mark-antony",
             "name": "Mark Antony",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2320,7 +2250,7 @@
             "id": "casca",
             "name": "Casca",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2329,7 +2259,7 @@
             "id": "calpurnia",
             "name": "Calpurnia",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2338,7 +2268,7 @@
             "id": "soothsayer",
             "name": "Soothsayer",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -2350,7 +2280,7 @@
             "id": "cinna-the-conspirator",
             "name": "Cinna",
             "reveal": {
-              "chapter": 6
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2359,7 +2289,7 @@
             "id": "lucius",
             "name": "Lucius",
             "reveal": {
-              "chapter": 8
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -2368,7 +2298,7 @@
             "id": "portia",
             "name": "Portia",
             "reveal": {
-              "chapter": 8
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2380,7 +2310,7 @@
             "id": "decius-brutus",
             "name": "Decius Brutus",
             "reveal": {
-              "chapter": 8
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2389,7 +2319,7 @@
             "id": "artemidorus",
             "name": "Artemidorus",
             "reveal": {
-              "chapter": 12
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -2401,7 +2331,7 @@
             "id": "octavius-caesar",
             "name": "Octavius Caesar",
             "reveal": {
-              "chapter": 22
+              "chapter": 4
             },
             "role": "supporting"
           },
@@ -2410,7 +2340,7 @@
             "id": "lepidus",
             "name": "Lepidus",
             "reveal": {
-              "chapter": 22
+              "chapter": 4
             },
             "role": "minor"
           },
@@ -2419,7 +2349,7 @@
             "id": "titinius",
             "name": "Titinius",
             "reveal": {
-              "chapter": 26
+              "chapter": 4
             },
             "role": "supporting"
           }
@@ -2443,42 +2373,35 @@
             "scope": "book",
             "text": "Julius Caesar returns to Rome after defeating Pompey's sons, and the public celebrates him. Tribunes object that the crowd has transferred its loyalty too quickly from Pompey. During the festival of Lupercal, a soothsayer warns Caesar about the fifteenth of March, but Caesar dismisses him. Cassius begins sounding out Brutus, a senator admired for honor, about Caesar's growing power. Brutus loves Caesar personally but admits concern for Rome. Casca reports that Mark Antony publicly offered Caesar a crown three times and that Caesar refused it each time before collapsing. Caesar privately identifies Cassius as dangerous. That night, unnatural storms and ominous sights disturb Rome. Cassius interprets them as signs against Caesar and recruits Casca. He sends Cinna to place forged appeals where Brutus will find them, making resistance appear to be a public demand.",
             "through": {
-              "chapter": 6
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Unable to sleep, Brutus decides that Caesar must die, not for proven abuses but because kingship might transform him into a tyrant. The forged messages reinforce that conclusion. Cassius and the conspirators visit, and Brutus takes command of key decisions: they will not swear an oath, will exclude Cicero, and will kill only Caesar rather than Antony as well. Portia presses Brutus to explain his distress, proving her constancy, but their conversation is interrupted. On the morning of the Senate meeting, Calpurnia's nightmare and alarming reports from priests persuade Caesar to remain home. Decius reinterprets the dream as a sign of Rome drawing strength from Caesar and suggests the Senate may mock him or withdraw a crown. Caesar changes his mind. Artemidorus prepares a warning that names the conspirators, and Portia anxiously sends Lucius toward the Capitol.",
             "through": {
-              "chapter": 14
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "On the way to the Capitol, Caesar again dismisses the soothsayer and fails to read Artemidorus's warning. At the Senate, the conspirators surround him under cover of a petition and stab him; Brutus's participation completes Caesar's shock and collapse. Mark Antony sends assurances, then returns and outwardly reconciles with the assassins while privately grieving over Caesar's body. Brutus rejects Cassius's caution and allows Antony to speak at the funeral after Brutus explains the killing. Brutus tells the citizens that he acted to prevent slavery under an ambitious ruler, and the crowd initially approves. Antony then reminds them of Caesar's generosity, displays the wounds, and reveals a will benefiting Roman citizens. The crowd turns violently against the conspirators, who flee the city, while Antony recognizes that he has released forces he may not control.",
             "through": {
-              "chapter": 18
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "The enraged mob kills an innocent poet named Cinna merely because he shares a conspirator's name. Antony, Octavius, and Lepidus form a triumvirate, draw up lists of people to be executed, and prepare to fight Brutus and Cassius. At the republican camp, Brutus accuses Cassius of tolerating corruption; their quarrel becomes intensely personal before they reconcile. Brutus then reveals that Portia has died by suicide after becoming overwhelmed by his absence and the triumvirs' strength. Despite Cassius's strategic preference to wait, Brutus decides their army should march to Philippi. That night, Caesar's ghost appears to Brutus and says they will meet again there. Brutus continues toward battle, carrying both private grief and the consequences of his public choice.",
             "through": {
-              "chapter": 26
+              "chapter": 4
             }
           },
           {
             "scope": "book",
-            "text": "The rival leaders confront one another at Philippi before battle. Brutus and Cassius recognize that capture would mean humiliation and agree they will not be led through Rome as prisoners. Brutus's troops gain an advantage over Octavius but begin plundering too soon, while Antony's forces overwhelm Cassius's position. From a hill, Cassius asks Pindarus to report what is happening to Titinius. Pindarus mistakenly believes the approaching troops have captured Titinius, so Cassius concludes that all is lost and orders Pindarus to help him die with the same sword that struck Caesar. Titinius was actually welcomed by allied soldiers. When he returns and finds Cassius dead because of the error, he kills himself with Cassius's sword. Brutus arrives, mourns both men, and prepares for another engagement.",
+            "text": "The rival leaders confront one another at Philippi before battle. Brutus and Cassius recognize that capture would mean humiliation and agree they will not be led through Rome as prisoners. Brutus's troops gain an advantage over Octavius but begin plundering too soon, while Antony's forces overwhelm Cassius's position. From a hill, Cassius asks Pindarus to report what is happening to Titinius. Pindarus mistakenly believes the approaching troops have captured Titinius, so Cassius concludes that all is lost and orders Pindarus to help him die with the same sword that struck Caesar. Titinius was actually welcomed by allied soldiers. When he returns and finds Cassius dead because of the error, he kills himself with Cassius's sword. Brutus arrives, mourns both men, and prepares for another engagement. The second phase of battle destroys the remaining republican resistance. Young Cato dies fighting, while Lucilius pretends to be Brutus so that enemy soldiers will capture him and give the real Brutus time to escape. Antony recognizes the deception and treats Lucilius with respect. With defeat certain, Brutus asks his companions to help him die rather than be captured. Several refuse, but Strato finally holds a sword while Brutus runs onto it. Octavius and Antony then reach the body. Antony declares that Brutus alone among the conspirators acted from an honest belief that Caesar's death served Rome, whereas the others were driven by envy. Octavius orders an honorable burial and accepts Brutus's surviving men into his service. The triumvirs leave the battlefield victorious, and the republican conspiracy ends in military and political failure.",
             "through": {
-              "chapter": 32
-            }
-          },
-          {
-            "scope": "book",
-            "text": "The second phase of battle destroys the remaining republican resistance. Young Cato dies fighting, while Lucilius pretends to be Brutus so that enemy soldiers will capture him and give the real Brutus time to escape. Antony recognizes the deception and treats Lucilius with respect. With defeat certain, Brutus asks his companions to help him die rather than be captured. Several refuse, but Strato finally holds a sword while Brutus runs onto it. Octavius and Antony then reach the body. Antony declares that Brutus alone among the conspirators acted from an honest belief that Caesar's death served Rome, whereas the others were driven by envy. Octavius orders an honorable burial and accepts Brutus's surviving men into his service. The triumvirs leave the battlefield victorious, and the republican conspiracy ends in military and political failure.",
-            "through": {
-              "chapter": 36
+              "chapter": 5
             }
           }
         ],
@@ -2600,7 +2523,7 @@
             "id": "france",
             "name": "France",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -2612,7 +2535,7 @@
             "id": "burgundy",
             "name": "Burgundy",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -2624,7 +2547,7 @@
             "id": "edgar",
             "name": "Edgar",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2633,7 +2556,7 @@
             "id": "oswald",
             "name": "Oswald",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2645,7 +2568,7 @@
             "id": "fool",
             "name": "Fool",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           }
@@ -2669,35 +2592,28 @@
             "scope": "book",
             "text": "Lear announces that he will divide Britain among his daughters according to how fully they declare their love for him. Goneril and Regan offer elaborate praise; Cordelia refuses to exaggerate. Lear disowns Cordelia, banishes Kent for defending her, and gives power to the two elder daughters and their husbands. France marries Cordelia without a dowry. Edmund, Gloucester's younger son, forges a letter suggesting that Edgar plans to displace their father, then persuades Edgar to flee. At Goneril's home, Lear's large retinue causes conflict. Goneril demands that he reduce it, and Lear curses her before leaving for Regan. Kent returns in disguise to serve Lear, while the Fool repeatedly warns that the king surrendered the power that once protected him.",
             "through": {
-              "chapter": 2
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Edmund stages a fight with Edgar and wounds himself, convincing Gloucester that Edgar is dangerous. Edgar hides by adopting the identity of a destitute wanderer called Poor Tom. Cornwall and Regan punish Kent for quarreling with Oswald, placing him in the stocks despite his service to Lear. When Lear arrives, Regan supports Goneril rather than her father. The sisters reduce the number of followers they will allow him to keep until they question why he needs any. Refusing to submit, Lear rushes out into a violent storm with the Fool; Kent follows to find and protect him. Gloucester privately decides to aid the king despite Cornwall's orders, while Edmund prepares to use that decision against his father.",
             "through": {
+              "chapter": 3
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Exposed to the storm, Lear rages against the weather and begins recognizing the suffering of people who lack shelter and power. Kent leads him to a hut, where they meet Edgar disguised as Poor Tom; Lear, the Fool, and the disguised Edgar form a strange company. Gloucester finds them and arranges help. Edmund shows Cornwall a letter proving Gloucester's assistance to Lear and is rewarded with his father's title. Cornwall and Regan seize Gloucester, blind him, and cast him out. A servant who tries to stop the cruelty wounds Cornwall before Regan kills the servant; Cornwall later dies from the injury. The blinded Gloucester learns that Edgar was falsely accused. Still concealed, Edgar takes charge of his despairing father and guides him toward Dover, where Cordelia's supporters are gathering. In Dover, Cordelia searches for Lear and brings him under medical care. Gloucester asks his unknown guide to lead him to a cliff so he can end his life. Edgar instead stages a harmless fall on level ground and persuades him that he miraculously survived, restoring some will to continue. Lear, wandering and mentally disordered, meets Gloucester before Cordelia's attendants find him. Lear wakes in Cordelia's care, recognizes her, and asks forgiveness; she answers with compassion. Political conflict grows among the British leaders: Goneril and Regan both desire Edmund, while Albany condemns Goneril and the cruelty done to Gloucester. Edgar kills Oswald and finds Goneril's letter proposing Albany's murder. The French-backed force led by Cordelia prepares to fight the British army commanded by Edmund.",
+            "through": {
               "chapter": 4
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Exposed to the storm, Lear rages against the weather and begins recognizing the suffering of people who lack shelter and power. Kent leads him to a hut, where they meet Edgar disguised as Poor Tom; Lear, the Fool, and the disguised Edgar form a strange company. Gloucester finds them and arranges help. Edmund shows Cornwall a letter proving Gloucester's assistance to Lear and is rewarded with his father's title. Cornwall and Regan seize Gloucester, blind him, and cast him out. A servant who tries to stop the cruelty wounds Cornwall before Regan kills the servant; Cornwall later dies from the injury. The blinded Gloucester learns that Edgar was falsely accused. Still concealed, Edgar takes charge of his despairing father and guides him toward Dover, where Cordelia's supporters are gathering.",
-            "through": {
-              "chapter": 6
-            }
-          },
-          {
-            "scope": "book",
-            "text": "In Dover, Cordelia searches for Lear and brings him under medical care. Gloucester asks his unknown guide to lead him to a cliff so he can end his life. Edgar instead stages a harmless fall on level ground and persuades him that he miraculously survived, restoring some will to continue. Lear, wandering and mentally disordered, meets Gloucester before Cordelia's attendants find him. Lear wakes in Cordelia's care, recognizes her, and asks forgiveness; she answers with compassion. Political conflict grows among the British leaders: Goneril and Regan both desire Edmund, while Albany condemns Goneril and the cruelty done to Gloucester. Edgar kills Oswald and finds Goneril's letter proposing Albany's murder. The French-backed force led by Cordelia prepares to fight the British army commanded by Edmund.",
-            "through": {
-              "chapter": 8
             }
           },
           {
             "scope": "book",
             "text": "The British army wins, and Lear and Cordelia are captured. Edmund sends them away with a secret order for their deaths. Albany arrests Edmund and Goneril for treason. A disguised Edgar challenges Edmund, defeats him, and identifies himself; he reports that Gloucester died after learning the truth about his loyal son. Regan, poisoned by the jealous Goneril, dies, and Goneril kills herself after her conspiracy is exposed. The dying Edmund admits that he ordered Lear and Cordelia killed and tries to cancel the command, but help arrives too late. Lear carries in Cordelia's body: she has been hanged. Unable to revive her, he dies beside her. Albany offers rule to Kent and Edgar. Kent says his own life is nearly over, leaving Edgar to face the work of governing after the collapse of Lear's family and court.",
             "through": {
-              "chapter": 10
+              "chapter": 5
             }
           }
         ],
@@ -2722,7 +2638,7 @@
             "id": "macbeth",
             "name": "Macbeth",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -2731,7 +2647,7 @@
             "id": "lady-macbeth",
             "name": "Lady Macbeth",
             "reveal": {
-              "chapter": 5
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2752,7 +2668,7 @@
             "id": "banquo",
             "name": "Banquo",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2761,7 +2677,7 @@
             "id": "king-duncan",
             "name": "King Duncan",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2770,7 +2686,7 @@
             "id": "malcolm",
             "name": "Malcolm",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2779,7 +2695,7 @@
             "id": "macduff",
             "name": "Macduff",
             "reveal": {
-              "chapter": 6
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2788,7 +2704,7 @@
             "id": "fleance",
             "name": "Fleance",
             "reveal": {
-              "chapter": 8
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -2797,7 +2713,7 @@
             "id": "ross",
             "name": "Ross",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2806,7 +2722,7 @@
             "id": "lennox",
             "name": "Lennox",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2815,7 +2731,7 @@
             "id": "lady-macduff",
             "name": "Lady Macduff",
             "reveal": {
-              "chapter": 19
+              "chapter": 4
             },
             "role": "minor"
           },
@@ -2824,7 +2740,7 @@
             "id": "young-siward",
             "name": "Young Siward",
             "reveal": {
-              "chapter": 27
+              "chapter": 5
             },
             "role": "minor"
           }
@@ -2848,42 +2764,35 @@
             "scope": "book",
             "text": "Scotland is fighting rebellion and foreign attack. King Duncan receives reports that Macbeth and Banquo have fought with exceptional courage, and he orders that Macbeth receive the title of the defeated Thane of Cawdor. Before the news reaches them, Macbeth and Banquo encounter three witches. They address Macbeth by his current title, by the title of Cawdor, and as a future king; they tell Banquo that his descendants will be kings though he will not. Ross and Angus then arrive and announce Macbeth's new title, making part of the prediction immediately true. Macbeth begins imagining the crown and is disturbed by the violent possibility that accompanies it. Duncan names his son Malcolm heir and plans to visit Macbeth's castle, placing both an obstacle and an opportunity before Macbeth.",
             "through": {
-              "chapter": 4
+              "chapter": 1
             }
           },
           {
             "scope": "book",
-            "text": "Lady Macbeth reads her husband's account of the witches and fears he lacks the hardness to seize the crown. When Duncan's visit is announced, she resolves that he must not leave alive. Macbeth initially considers reasons against murder: Duncan is his king, relative, guest, and a good ruler, while Macbeth has no motive beyond ambition. Lady Macbeth attacks his courage and outlines a plan to intoxicate Duncan's guards, kill the sleeping king, and blame the servants. Macbeth agrees. Duncan arrives at the castle and is welcomed with formal loyalty, unaware of the plan. As the household settles for the night, Banquo tells Macbeth that he has dreamed of the witches. Macbeth conceals his thoughts and moves toward Duncan's room after imagining a dagger leading him there.",
+            "text": "Lady Macbeth reads her husband's account of the witches and fears he lacks the hardness to seize the crown. When Duncan's visit is announced, she resolves that he must not leave alive. Macbeth initially considers reasons against murder: Duncan is his king, relative, guest, and a good ruler, while Macbeth has no motive beyond ambition. Lady Macbeth attacks his courage and outlines a plan to intoxicate Duncan's guards, kill the sleeping king, and blame the servants. Macbeth agrees. Duncan arrives at the castle and is welcomed with formal loyalty, unaware of the plan. As the household settles for the night, Banquo tells Macbeth that he has dreamed of the witches. Macbeth conceals his thoughts and moves toward Duncan's room after imagining a dagger leading him there. Macbeth murders Duncan but returns shaken, carrying the guards' daggers. Lady Macbeth takes the weapons back to the room and smears the sleeping guards with blood. Macduff discovers the king's body the next morning. Macbeth kills the guards, claiming rage, and Lady Macbeth diverts attention when his explanation draws scrutiny. Duncan's sons Malcolm and Donalbain fear a wider plot and flee separately, which makes them appear guilty. Macbeth is crowned at Scone. Banquo suspects that Macbeth gained the crown through murder but remembers that the witches promised kingship to his own descendants. Macduff avoids the coronation and returns home, a sign that acceptance of the new king is not complete. The natural and political order of Scotland has been disrupted, while Macbeth has obtained the position he and his wife sought.",
             "through": {
-              "chapter": 8
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Macbeth murders Duncan but returns shaken, carrying the guards' daggers. Lady Macbeth takes the weapons back to the room and smears the sleeping guards with blood. Macduff discovers the king's body the next morning. Macbeth kills the guards, claiming rage, and Lady Macbeth diverts attention when his explanation draws scrutiny. Duncan's sons Malcolm and Donalbain fear a wider plot and flee separately, which makes them appear guilty. Macbeth is crowned at Scone. Banquo suspects that Macbeth gained the crown through murder but remembers that the witches promised kingship to his own descendants. Macduff avoids the coronation and returns home, a sign that acceptance of the new king is not complete. The natural and political order of Scotland has been disrupted, while Macbeth has obtained the position he and his wife sought.",
-            "through": {
-              "chapter": 11
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "As king, Macbeth fears Banquo's knowledge and the prophecy about Fleance. He hires murderers to attack father and son. Banquo is killed, but Fleance escapes. At a state banquet Macbeth sees Banquo's ghost occupying his place, though no one else can see it. His public terror disrupts the gathering, and Lady Macbeth dismisses the guests before he reveals more. Macbeth concludes that he must seek further knowledge from the witches and keep using violence to secure his position. Macduff has stayed away from the banquet and gone to England, where Malcolm is seeking support. Scottish nobles begin speaking cautiously about Macbeth as a tyrant and hope that Malcolm and Macduff can restore lawful government. Macbeth's crown is secure in appearance but increasingly dependent on fear, secrecy, and further killing.",
             "through": {
-              "chapter": 17
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "The witches summon apparitions that warn Macbeth to beware Macduff, then tell him that no man born of woman will harm him and that he will remain safe until Birnam Wood comes to Dunsinane. A final vision shows Banquo's line continuing through future kings. Macbeth treats the apparently impossible conditions as guarantees, yet orders an immediate attack on Macduff's home. Murderers kill Lady Macduff and her children. In England, Malcolm tests Macduff's loyalty by pretending to possess qualities that would make him an even worse ruler than Macbeth. Macduff's despair for Scotland convinces him, and Malcolm reveals that English forces are ready to help. Ross arrives with news of the slaughter at Macduff's castle. Macduff turns his grief toward the campaign against Macbeth, while Malcolm urges him to seek justice in battle.",
             "through": {
-              "chapter": 20
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "Lady Macbeth sleepwalks under a doctor's observation, repeatedly acting as though she is washing blood from her hands and revealing the burden of remembered crimes. Malcolm, Macduff, and their allies advance toward Dunsinane. Malcolm orders each soldier to cut a branch from Birnam Wood and carry it as camouflage, making the wood appear to move. Macbeth remains confident in the witches' assurances even as supporters desert him. He receives news of Lady Macbeth's death and then hears that Birnam Wood seems to be advancing, forcing him to recognize that one prediction has turned against him. In battle Macbeth kills Young Siward, but Macduff seeks him personally. Macduff explains that he was delivered before natural birth; the assurance about ordinary birth therefore does not protect Macbeth. Macbeth fights and is killed. Macduff presents his head, Malcolm is acclaimed king, and the new ruler calls the exiles home and prepares for his coronation at Scone.",
             "through": {
-              "chapter": 29
+              "chapter": 5
             }
           }
         ],
@@ -2914,7 +2823,7 @@
             "id": "juliet-capulet",
             "name": "Juliet Capulet",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -2941,7 +2850,7 @@
             "id": "mercutio",
             "name": "Mercutio",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2950,7 +2859,7 @@
             "id": "the-nurse",
             "name": "The Nurse",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2959,7 +2868,7 @@
             "id": "friar-lawrence",
             "name": "Friar Lawrence",
             "reveal": {
-              "chapter": 7
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2977,7 +2886,7 @@
             "id": "lady-capulet",
             "name": "Lady Capulet",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3004,7 +2913,7 @@
             "id": "count-paris",
             "name": "Count Paris",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3013,7 +2922,7 @@
             "id": "the-apothecary",
             "name": "The Apothecary",
             "reveal": {
-              "chapter": 18
+              "chapter": 5
             },
             "role": "minor"
           }
@@ -3037,42 +2946,35 @@
             "scope": "book",
             "text": "A street quarrel between servants of the Montague and Capulet households grows into a public brawl. Prince Escalus stops it and declares that another outbreak will be punished severely. Romeo Montague has avoided the fighting because he is preoccupied with Rosaline, who does not return his love. Benvolio tries to lift his spirits. Meanwhile Count Paris asks Lord Capulet for Juliet's hand. Capulet invites him to a family feast, saying Juliet is still very young but allowing Paris to court her. A servant who cannot read asks Romeo for help with the guest list, unintentionally revealing the feast. Benvolio persuades Romeo to attend in disguise so he can compare Rosaline with other women. Lady Capulet and Juliet's Nurse tell Juliet about Paris's proposal. Juliet agrees to observe him but makes no promise beyond what her parents request.",
             "through": {
-              "chapter": 3
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Romeo enters the Capulet feast with Benvolio and Mercutio. There he sees Juliet and immediately forgets Rosaline. Tybalt recognizes Romeo's voice and wants to attack him, but Lord Capulet forbids violence under his roof. Romeo and Juliet speak, kiss, and only afterward learn that each belongs to the enemy family. Later Romeo slips into the Capulet orchard, where he hears Juliet privately confessing her love for him. He reveals himself, and they acknowledge that their family names make the relationship dangerous. Juliet insists that their vows must lead to honorable marriage rather than a passing courtship. They arrange for her to send a messenger to Romeo the next morning so he can provide the time and place for a wedding.",
             "through": {
-              "chapter": 6
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "Friar Lawrence agrees to marry Romeo and Juliet, partly because their union might reconcile the two families. The Nurse carries messages between them, and the couple marry in secret. Soon afterward Tybalt challenges Romeo. Bound to Tybalt by the hidden marriage, Romeo refuses to fight, but Mercutio takes up the challenge and is fatally wounded when Romeo intervenes. Enraged and grieving, Romeo kills Tybalt. Prince Escalus spares Romeo's life but banishes him from Verona. Juliet first reacts with horror to the news of Tybalt's death, then remains loyal to her husband. The Nurse helps Romeo reach Juliet for a final night together before he must leave for Mantua, while Friar Lawrence urges him to wait there for a chance to disclose the marriage and seek a pardon.",
             "through": {
-              "chapter": 11
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "After Romeo departs, Juliet's parents attempt to relieve what they think is grief for Tybalt by arranging her rapid marriage to Paris. Juliet refuses. Lord Capulet responds with threats of rejection, Lady Capulet offers no protection, and even the Nurse advises Juliet to forget the banished Romeo and accept Paris. Feeling abandoned, Juliet goes to Friar Lawrence. He proposes a dangerous escape: she will drink a potion that produces the appearance of death, be placed in the Capulet tomb, and awaken after roughly two days. The friar will send Romeo an explanation so that Romeo can retrieve her and take her away. Juliet accepts, returns home, pretends to consent to the wedding, and drinks the potion despite fears about its effects and the tomb.",
             "through": {
-              "chapter": 15
+              "chapter": 4
             }
           },
           {
             "scope": "book",
-            "text": "The Nurse finds Juliet unresponsive on the morning planned for her wedding. The Capulet household's preparations turn into funeral arrangements, and Juliet is carried to the family tomb. Friar Lawrence's message to Romeo fails because the messenger is prevented from completing the journey. Romeo instead hears from his servant Balthasar that Juliet is dead. With no knowledge of the potion plan, he resolves to die beside her. In Mantua he finds an impoverished apothecary and persuades him to sell a lethal poison. Romeo then returns secretly to Verona, carrying the means to kill himself and a letter explaining his intentions.",
+            "text": "The Nurse finds Juliet unresponsive on the morning planned for her wedding. The Capulet household's preparations turn into funeral arrangements, and Juliet is carried to the family tomb. Friar Lawrence's message to Romeo fails because the messenger is prevented from completing the journey. Romeo instead hears from his servant Balthasar that Juliet is dead. With no knowledge of the potion plan, he resolves to die beside her. In Mantua he finds an impoverished apothecary and persuades him to sell a lethal poison. Romeo then returns secretly to Verona, carrying the means to kill himself and a letter explaining his intentions. At the Capulet tomb, Paris confronts Romeo and is killed in the ensuing fight. Romeo enters, says farewell to Juliet, and drinks poison. Friar Lawrence arrives as Juliet wakes, but Romeo is already dead. The friar urges her to flee, then leaves when guards approach; Juliet remains and kills herself with Romeo's dagger. The prince, the Capulets, and the Montagues gather to investigate. Friar Lawrence recounts the lovers' marriage, Romeo's banishment, Juliet's potion, and the message that failed to reach Mantua. Supporting testimony and Romeo's letter confirm the sequence. The deaths expose the final cost of the feud. Capulet and Montague reconcile and promise to honor Romeo and Juliet with memorials, while Prince Escalus declares that the disaster has punished all involved.",
             "through": {
-              "chapter": 18
-            }
-          },
-          {
-            "scope": "book",
-            "text": "At the Capulet tomb, Paris confronts Romeo and is killed in the ensuing fight. Romeo enters, says farewell to Juliet, and drinks poison. Friar Lawrence arrives as Juliet wakes, but Romeo is already dead. The friar urges her to flee, then leaves when guards approach; Juliet remains and kills herself with Romeo's dagger. The prince, the Capulets, and the Montagues gather to investigate. Friar Lawrence recounts the lovers' marriage, Romeo's banishment, Juliet's potion, and the message that failed to reach Mantua. Supporting testimony and Romeo's letter confirm the sequence. The deaths expose the final cost of the feud. Capulet and Montague reconcile and promise to honor Romeo and Juliet with memorials, while Prince Escalus declares that the disaster has punished all involved.",
-            "through": {
-              "chapter": 20
+              "chapter": 5
             }
           }
         ],
@@ -3106,7 +3008,7 @@
             "id": "viola",
             "name": "Viola",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -3115,7 +3017,7 @@
             "id": "sea-captain",
             "name": "Sea Captain",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -3124,7 +3026,7 @@
             "id": "sir-toby-belch",
             "name": "Sir Toby Belch",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3133,7 +3035,7 @@
             "id": "maria",
             "name": "Maria",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3142,7 +3044,7 @@
             "id": "sir-andrew-aguecheek",
             "name": "Sir Andrew Aguecheek",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3151,7 +3053,7 @@
             "id": "olivia",
             "name": "Olivia",
             "reveal": {
-              "chapter": 5
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3160,7 +3062,7 @@
             "id": "malvolio",
             "name": "Malvolio",
             "reveal": {
-              "chapter": 5
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3172,7 +3074,7 @@
             "id": "feste",
             "name": "Feste",
             "reveal": {
-              "chapter": 5
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3181,7 +3083,7 @@
             "id": "sebastian",
             "name": "Sebastian",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -3190,7 +3092,7 @@
             "id": "antonio",
             "name": "Antonio",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -3199,7 +3101,7 @@
             "id": "fabian",
             "name": "Fabian",
             "reveal": {
-              "chapter": 10
+              "chapter": 2
             },
             "role": "minor"
           }
@@ -3223,42 +3125,35 @@
             "scope": "book",
             "text": "Duke Orsino of Illyria longs for Countess Olivia, who has withdrawn from courtship while mourning her brother. On the coast, Viola survives a shipwreck but believes her twin brother Sebastian has died. With a sea captain's help, she adopts male clothing and the name Cesario so she can safely enter Orsino's service. Elsewhere, Olivia's uncle Sir Toby drinks and makes noise in her house with Sir Andrew Aguecheek, a rich, inept suitor whom he encourages to keep pursuing Olivia. Maria, Olivia's waiting-gentlewoman, warns them that their conduct is unwelcome. Viola quickly gains Orsino's confidence. He sends Cesario to present his love to Olivia, while Viola privately realizes that she has fallen in love with Orsino herself.",
             "through": {
-              "chapter": 4
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Cesario gains an audience with Olivia and speaks for Orsino with such force that Olivia becomes interested in the messenger instead of the master. She sends Malvolio after Cesario with a ring and pretends it was left behind. Viola understands that Olivia has fallen for her male disguise and sees the emerging triangle: she loves Orsino, Orsino loves Olivia, and Olivia loves Cesario. Meanwhile, Sebastian is revealed to have survived the wreck. He believes Viola dead and prepares to travel into Illyria. Antonio, the captain who rescued him, cares for him deeply and decides to follow despite having enemies in Orsino's territory.",
             "through": {
-              "chapter": 6
+              "chapter": 2
             }
           },
           {
             "scope": "book",
-            "text": "Sir Toby, Sir Andrew, and Feste hold a loud late-night gathering until Malvolio rebukes them and threatens to report Maria. In response, Maria devises a punishment based on Malvolio's vanity: she will imitate Olivia's handwriting in a letter suggesting that Olivia secretly loves him and wants him to behave in a series of conspicuous ways. Orsino continues confiding in Cesario about love. Viola comes close to describing her own feelings but cannot reveal her identity. At Olivia's house, Malvolio finds the planted letter while Maria and the others watch from hiding. He convinces himself it is genuine and resolves to approach Olivia smiling, wearing yellow stockings crossed with garters, and treating the rest of the household with arrogance. The tricksters are delighted that he has followed their design.",
+            "text": "Sir Toby, Sir Andrew, and Feste hold a loud late-night gathering until Malvolio rebukes them and threatens to report Maria. In response, Maria devises a punishment based on Malvolio's vanity: she will imitate Olivia's handwriting in a letter suggesting that Olivia secretly loves him and wants him to behave in a series of conspicuous ways. Orsino continues confiding in Cesario about love. Viola comes close to describing her own feelings but cannot reveal her identity. At Olivia's house, Malvolio finds the planted letter while Maria and the others watch from hiding. He convinces himself it is genuine and resolves to approach Olivia smiling, wearing yellow stockings crossed with garters, and treating the rest of the household with arrogance. The tricksters are delighted that he has followed their design. Olivia declares her love directly to Cesario, but Viola can only reject her. Sir Andrew decides to leave because Olivia favors the page; Sir Toby keeps him present by persuading him to challenge Cesario. Antonio catches up with Sebastian and gives him money before they separate to explore the town. Malvolio then appears before Olivia in the bizarre clothing and manner prescribed by the forged letter. Because Olivia knows nothing of the trick, she thinks he is mentally unwell and leaves Sir Toby to supervise him. Maria and her companions intensify the deception by treating Malvolio as possessed. At the same time, Sir Toby and Fabian frighten both Sir Andrew and the equally unwilling Cesario with exaggerated accounts of the other's skill in combat, forcing them toward a duel neither wants.",
             "through": {
-              "chapter": 10
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Olivia declares her love directly to Cesario, but Viola can only reject her. Sir Andrew decides to leave because Olivia favors the page; Sir Toby keeps him present by persuading him to challenge Cesario. Antonio catches up with Sebastian and gives him money before they separate to explore the town. Malvolio then appears before Olivia in the bizarre clothing and manner prescribed by the forged letter. Because Olivia knows nothing of the trick, she thinks he is mentally unwell and leaves Sir Toby to supervise him. Maria and her companions intensify the deception by treating Malvolio as possessed. At the same time, Sir Toby and Fabian frighten both Sir Andrew and the equally unwilling Cesario with exaggerated accounts of the other's skill in combat, forcing them toward a duel neither wants.",
-            "through": {
-              "chapter": 14
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "Antonio mistakes Cesario for Sebastian and intervenes in the duel. When officers arrest him, he asks for the money he gave Sebastian, but Viola cannot understand him and has none. Antonio interprets this as betrayal. His references to Sebastian give Viola hope that her brother may be alive. Sebastian then arrives and is repeatedly mistaken for Cesario. Unlike Viola, he responds forcefully when Sir Andrew and Sir Toby attack him. Olivia intervenes, addresses him as Cesario, and urges him to come with her. Though astonished by her affection and by the strange familiarity of everyone around him, Sebastian accepts the good fortune and agrees to marry her. Malvolio has meanwhile been confined in darkness. Feste disguises his voice as a learned examiner to torment him, then promises to carry out a letter in which Malvolio asks Olivia for release.",
             "through": {
-              "chapter": 17
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "Orsino visits Olivia with Cesario. Olivia treats Cesario as her husband, while Antonio identifies the page as Sebastian, producing accusations of betrayal on every side. Sir Andrew and Sir Toby enter wounded and blame Cesario for beating them. The appearance of the real Sebastian finally separates the two identities. Sebastian and Viola recognize one another as the twins lost in the wreck, and Viola explains her disguise. Olivia accepts Sebastian as the man she married. Orsino, seeing that Cesario is Viola and recalling her devotion, asks Viola to become his wife once she resumes her own identity. Feste delivers Malvolio's letter, and Malvolio is released. Fabian and Feste explain Maria's forged message; Fabian also reports that Sir Toby has married Maria. Malvolio leaves in anger, promising revenge, while Orsino calls for an effort to make peace and prepares for the two marriages.",
             "through": {
-              "chapter": 18
+              "chapter": 5
             }
           }
         ],

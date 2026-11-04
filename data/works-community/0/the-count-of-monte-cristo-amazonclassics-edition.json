@@ -730,7 +730,7 @@
             "id": "alexis",
             "name": "Alexis",
             "reveal": {
-              "chapter": 2
+              "chapter": 44
             },
             "role": "supporting"
           }
@@ -754,28 +754,28 @@
             "scope": "book",
             "text": "Josh Bell and his twin brother, Jordan, are twelve-year-old standouts on their middle-school basketball team. Josh narrates their life in the language of dribbles, beats, and competition. Their father, Chuck, was once a celebrated professional player overseas and still coaches the boys with showmanship and affection. Their mother, Crystal, is an assistant principal who insists that schoolwork and discipline matter as much as winning. The twins are close, but change begins when Jordan becomes interested in a new student, Alexis. Josh jokingly calls her Miss Sweet Tea and feels the first signs that his brother's attention is moving beyond their shared world.",
             "through": {
-              "chapter": 2
+              "chapter": 54
             }
           },
           {
             "scope": "book",
             "text": "Jordan's relationship with Alexis takes more of his time, leaving Josh jealous and isolated. A careless bet and a haircut mishap result in Josh losing the locks that have been part of his identity. On the court, frustration replaces the twins' instinctive teamwork. Josh finally hurls a basketball at Jordan in anger during a game, bloodying his brother's nose. He is suspended and ordered to apologize, while Jordan refuses to forgive him immediately. At home, another source of fear is becoming visible: Chuck has high blood pressure and troubling symptoms, but he jokes, ignores Crystal's warnings, and resists medical treatment.",
             "through": {
-              "chapter": 3
+              "chapter": 82
             }
           },
           {
             "scope": "book",
             "text": "Josh endures his suspension and the loss of trust from both his brother and his team. He begins to understand that his anger came from fear of being left behind, though recognizing it does not instantly repair the damage. Chuck's health worsens and he collapses, forcing the family to confront risks he has long dismissed. Hospital visits and basketball continue side by side. Josh and Jordan make tentative moves toward reconciliation as they worry about their father, but the pressure of the season and Chuck's uncertain condition keep the family suspended between hope and dread.",
             "through": {
-              "chapter": 4
+              "chapter": 118
             }
           },
           {
             "scope": "book",
             "text": "Chuck suffers a final heart crisis and is hospitalized. Josh sees him before leaving to play in a major game, while Crystal stays behind. During the game, the family receives the news that Chuck has died. Victory on the court cannot matter in the face of the loss. Josh retreats into grief and struggles to accept comfort, including from Jordan. After the funeral, Jordan brings him their father's championship ring and gives it to him as a sign of love and understanding. The brothers then play one-on-one. Their familiar competition becomes a way to speak when ordinary words are inadequate, beginning a reconciliation and allowing both boys to carry their father's memory forward together.",
             "through": {
-              "chapter": 6
+              "chapter": 142
             }
           }
         ],
@@ -3446,7 +3446,7 @@
             "id": "susannah-dean",
             "name": "Odetta Holmes",
             "reveal": {
-              "chapter": 4
+              "chapter": 8
             },
             "role": "supporting"
           },
@@ -3455,7 +3455,7 @@
             "id": "jack-mort",
             "name": "Jack Mort",
             "reveal": {
-              "chapter": 5
+              "chapter": 13
             },
             "role": "antagonist"
           },
@@ -3464,7 +3464,7 @@
             "id": "henry-dean",
             "name": "Henry Dean",
             "reveal": {
-              "chapter": 2
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -3473,7 +3473,7 @@
             "id": "enrico-balazar",
             "name": "Enrico Balazar",
             "reveal": {
-              "chapter": 3
+              "chapter": 5
             },
             "role": "antagonist"
           }

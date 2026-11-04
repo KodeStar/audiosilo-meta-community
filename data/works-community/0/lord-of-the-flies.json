@@ -2695,7 +2695,7 @@
             "id": "macduff",
             "name": "Macduff",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2704,7 +2704,7 @@
             "id": "romeo",
             "name": "Romeo",
             "reveal": {
-              "chapter": 2
+              "chapter": 6
             },
             "role": "protagonist"
           },
@@ -2713,7 +2713,7 @@
             "id": "juliet",
             "name": "Juliet",
             "reveal": {
-              "chapter": 2
+              "chapter": 6
             },
             "role": "protagonist"
           },
@@ -2722,7 +2722,7 @@
             "id": "friar-laurence",
             "name": "Friar Laurence",
             "reveal": {
-              "chapter": 2
+              "chapter": 7
             },
             "role": "supporting"
           },
@@ -2731,7 +2731,7 @@
             "id": "nurse",
             "name": "Nurse",
             "reveal": {
-              "chapter": 2
+              "chapter": 6
             },
             "role": "supporting"
           },
@@ -2740,7 +2740,7 @@
             "id": "tybalt",
             "name": "Tybalt",
             "reveal": {
-              "chapter": 2
+              "chapter": 6
             },
             "role": "antagonist"
           }
@@ -2764,14 +2764,14 @@
             "scope": "book",
             "text": "After Scotland defeats an invasion and rebellion, three witches tell Macbeth that he will become king and that Banquo's descendants will rule after him. King Duncan soon rewards Macbeth with a title named in the prophecy. Lady Macbeth persuades her husband to murder Duncan while the king is their guest, and they frame his guards. Duncan's sons flee, allowing Macbeth to take the crown. Fearing Banquo's predicted line, Macbeth has his friend killed, though Banquo's son escapes. He returns to the witches, whose warnings make him feel protected by impossible conditions. Macbeth orders the slaughter of Macduff's family, driving Macduff to join Malcolm's invasion. Lady Macbeth, tormented by guilt, dies. Malcolm's soldiers camouflage themselves with branches from Birnam Wood, fulfilling one warning. Macduff reveals that the witches' promise does not protect Macbeth from him, kills the tyrant, and enables Malcolm to become king.",
             "through": {
-              "chapter": 1
+              "chapter": 5
             }
           },
           {
             "scope": "book",
             "text": "Macbeth's murder of Duncan leads to a fearful reign, the destruction of Lady Macbeth, and a revolt led by Malcolm and Macduff. Macduff kills Macbeth and Malcolm restores the royal line. The collection then moves to Verona, where Romeo Montague and Juliet Capulet fall in love despite their families' feud. Friar Laurence marries them secretly. Tybalt kills Romeo's friend Mercutio, and Romeo kills Tybalt, for which he is banished. When Juliet's parents order her to marry Paris, the friar gives her a potion that will make her appear dead until Romeo can take her away. The message explaining the plan never reaches him. Romeo enters the tomb, believes Juliet dead, and takes poison. Juliet wakes and kills herself with his dagger. Faced with the deaths of their children, the Montagues and Capulets end their feud.",
             "through": {
-              "chapter": 2
+              "chapter": 10
             }
           }
         ],
@@ -2808,7 +2808,7 @@
             "id": "duncan",
             "name": "Duncan",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2820,7 +2820,7 @@
             "id": "malcolm",
             "name": "Malcolm",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2829,7 +2829,7 @@
             "id": "ross",
             "name": "Ross",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2841,7 +2841,7 @@
             "id": "macbeth",
             "name": "Macbeth",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -2850,7 +2850,7 @@
             "id": "banquo",
             "name": "Banquo",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2862,7 +2862,7 @@
             "id": "lady-macbeth",
             "name": "Lady Macbeth",
             "reveal": {
-              "chapter": 5
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2871,7 +2871,7 @@
             "id": "fleance",
             "name": "Fleance",
             "reveal": {
-              "chapter": 8
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -2883,7 +2883,7 @@
             "id": "macduff",
             "name": "Macduff",
             "reveal": {
-              "chapter": 10
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2892,7 +2892,7 @@
             "id": "lennox",
             "name": "Lennox",
             "reveal": {
-              "chapter": 10
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2904,7 +2904,7 @@
             "id": "porter",
             "name": "Porter",
             "reveal": {
-              "chapter": 10
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -2913,7 +2913,7 @@
             "id": "hecate",
             "name": "Hecate",
             "reveal": {
-              "chapter": 16
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -2925,7 +2925,7 @@
             "id": "lady-macduff",
             "name": "Lady Macduff",
             "reveal": {
-              "chapter": 19
+              "chapter": 4
             },
             "role": "supporting"
           },
@@ -2934,7 +2934,7 @@
             "id": "siward",
             "name": "Siward",
             "reveal": {
-              "chapter": 24
+              "chapter": 5
             },
             "role": "supporting"
           },
@@ -2946,7 +2946,7 @@
             "id": "siwards-son",
             "name": "Siward's Son",
             "reveal": {
-              "chapter": 24
+              "chapter": 5
             },
             "role": "minor"
           }
@@ -2968,44 +2968,37 @@
         "recaps": [
           {
             "scope": "book",
-            "text": "Scotland defeats both an internal rebellion and a Norwegian attack, largely through the courage of Macbeth and Banquo. King Duncan orders the execution of the treacherous Thane of Cawdor and gives that title to Macbeth. Before hearing of the honor, Macbeth and Banquo encounter three witches. They hail Macbeth as Thane of Glamis, Thane of Cawdor, and future king; they tell Banquo that his descendants will be kings. When Ross announces Macbeth's new title, the first part of the prediction comes true. Macbeth begins imagining the death of Duncan even as the thought horrifies him. Duncan names his son Malcolm Prince of Cumberland, formally placing him in the succession, and then announces a visit to Macbeth's castle at Inverness.",
+            "text": "Scotland defeats both an internal rebellion and a Norwegian attack, largely through the courage of Macbeth and Banquo. King Duncan orders the execution of the treacherous Thane of Cawdor and gives that title to Macbeth. Before hearing of the honor, Macbeth and Banquo encounter three witches. They hail Macbeth as Thane of Glamis, Thane of Cawdor, and future king; they tell Banquo that his descendants will be kings. When Ross announces Macbeth's new title, the first part of the prediction comes true. Macbeth begins imagining the death of Duncan even as the thought horrifies him. Duncan names his son Malcolm Prince of Cumberland, formally placing him in the succession, and then announces a visit to Macbeth's castle at Inverness. Lady Macbeth reads her husband's account of the witches and decides Duncan's visit offers the opportunity to seize the crown. She calls on Macbeth to conceal their purpose and plans to intoxicate Duncan's guards so the king can be killed and the blame placed on them. Duncan arrives trusting his hosts. Macbeth recognizes the moral, political, and practical reasons not to murder a kinsman and guest who has ruled well, and briefly decides against it. Lady Macbeth attacks his courage and lays out the plan until he agrees. They prepare to appear welcoming while intending to kill Duncan that night.",
             "through": {
-              "chapter": 4
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Lady Macbeth reads her husband's account of the witches and decides Duncan's visit offers the opportunity to seize the crown. She calls on Macbeth to conceal their purpose and plans to intoxicate Duncan's guards so the king can be killed and the blame placed on them. Duncan arrives trusting his hosts. Macbeth recognizes the moral, political, and practical reasons not to murder a kinsman and guest who has ruled well, and briefly decides against it. Lady Macbeth attacks his courage and lays out the plan until he agrees. They prepare to appear welcoming while intending to kill Duncan that night.",
-            "through": {
-              "chapter": 7
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "On his way to Duncan's room, Macbeth sees an imagined dagger leading him toward the murder. He kills the sleeping king but returns carrying the guards' daggers, too shaken to go back. Lady Macbeth plants the weapons and smears the sleeping men with blood. Macduff arrives in the morning and discovers Duncan's body. Macbeth kills the guards before they can be questioned, claiming rage. Duncan's sons Malcolm and Donalbain fear that the murderer may target them next and flee separately to England and Ireland. Their departure makes them look guilty. Macbeth is chosen king and goes to Scone for coronation, while Macduff pointedly goes home to Fife rather than attend. Violent weather and unnatural events accompany the transfer of power.",
             "through": {
-              "chapter": 11
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "As king, Macbeth remains afraid of Banquo, who knows the witches' promises and whose heirs were predicted to rule. Without involving Lady Macbeth in the details, Macbeth hires killers to attack Banquo and Fleance on their way to a royal banquet. Banquo is murdered, but Fleance escapes. At the feast Macbeth sees Banquo's ghost occupying his place and reacts publicly to an apparition no one else can see. Lady Macbeth tries to explain his behavior as an illness and ends the gathering. Macbeth recognizes that Macduff's absence signals opposition and decides to return to the witches for greater certainty. His rule is becoming increasingly isolated and violent, while Banquo's surviving son leaves the succession prophecy open.",
             "through": {
-              "chapter": 15
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "The witches summon apparitions that tell Macbeth to beware Macduff, assure him that anyone delivered through ordinary childbirth cannot harm him, and say he will remain secure until the forest at Birnam advances upon his castle. A vision of kings descended from Banquo disturbs him, but the other messages make him feel nearly invulnerable. Learning that Macduff has fled to England, Macbeth sends murderers to Macduff's castle, where they kill Lady Macduff and her children. In England, Malcolm tests Macduff's integrity by pretending to possess vices worse than Macbeth's, then reveals his fitness to rule and reports English military support. Ross arrives with news of the slaughter. Macduff turns his grief toward vengeance, and he and Malcolm prepare to invade Scotland with Siward's forces.",
             "through": {
-              "chapter": 20
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "Lady Macbeth sleepwalks under the observation of a doctor and attendant, compulsively reenacting attempts to clean imagined blood from her hands and exposing guilty memories. Malcolm's Scottish and English allies advance while Macbeth's nobles desert him. Near Birnam Wood, Malcolm orders each soldier to cut a branch and carry it as camouflage, causing the wood to appear to move toward Dunsinane. Macbeth learns that Lady Macbeth has died and responds with exhausted despair. He still trusts the witches' assurances, but the report of moving trees shakes that confidence. During the battle he kills Siward's son, then faces Macduff. Macduff reveals that he was delivered before natural birth and therefore does not fit Macbeth's interpretation of the prophecy. Macduff kills and beheads him. Malcolm is acclaimed king, rewards his allies as earls, recalls exiles, and invites Scotland to his coronation at Scone.",
             "through": {
-              "chapter": 29
+              "chapter": 5
             }
           }
         ],
@@ -3087,7 +3080,7 @@
             "id": "lady-macbeth",
             "name": "Lady Macbeth",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3105,7 +3098,7 @@
             "id": "fleance",
             "name": "Fleance",
             "reveal": {
-              "chapter": 3
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -3114,7 +3107,7 @@
             "id": "donalbain",
             "name": "Donalbain",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -3123,7 +3116,7 @@
             "id": "porter",
             "name": "Porter",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -3132,7 +3125,7 @@
             "id": "lady-macduff",
             "name": "Lady Macduff",
             "reveal": {
-              "chapter": 7
+              "chapter": 4
             },
             "role": "minor"
           },
@@ -3141,7 +3134,7 @@
             "id": "siward",
             "name": "Siward",
             "reveal": {
-              "chapter": 8
+              "chapter": 5
             },
             "role": "supporting"
           }
@@ -3165,35 +3158,35 @@
             "scope": "book",
             "text": "Scotland defeats an invasion and rebellion, largely through the courage of Macbeth and Banquo. King Duncan orders the execution of the treacherous Thane of Cawdor and gives that title to Macbeth. Before Macbeth receives the news, three witches greet him as Thane of Glamis, Thane of Cawdor, and a future king; they tell Banquo that his descendants will rule. The first prediction is confirmed almost at once, making Macbeth take the promise of kingship seriously. Duncan names his son Malcolm heir and announces a visit to Macbeth's castle. Lady Macbeth reads her husband's report of the prophecy and worries that his conscience will prevent him from taking the shortest route to power. When Macbeth arrives, she begins planning Duncan's death and tells him to conceal their intentions beneath the conduct of loyal hosts.",
             "through": {
-              "chapter": 2
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Macbeth hesitates to kill Duncan because the king is his guest, relative, and benefactor, but Lady Macbeth challenges his courage and fixes the plan: they will intoxicate Duncan's guards, murder the sleeping king, and use the guards' weapons and blood to incriminate them. After a vision of a dagger leads him toward Duncan's room, Macbeth commits the murder. Lady Macbeth returns the daggers when her shaken husband cannot. Macduff discovers the body the next morning. Macbeth kills the guards before they can defend themselves, claiming rage. Duncan's sons Malcolm and Donalbain fear the killer will pursue them and flee separately, which makes them look guilty. Macbeth is crowned at Scone, but Macduff avoids the ceremony and suspicion surrounds the new order.",
             "through": {
-              "chapter": 4
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "Banquo suspects Macbeth obtained the crown by violence, while Macbeth fears the prophecy that Banquo's descendants, rather than his own, will inherit it. Macbeth hires killers to ambush Banquo and Fleance. Banquo is murdered, but Fleance escapes. At a state banquet, Macbeth sees Banquo's ghost occupying his place and reacts with terror in front of the nobles, though no one else can see the apparition. Lady Macbeth tries to explain away his behavior and ends the feast when he cannot recover. Macbeth resolves to consult the witches again and begins treating Macduff, who has refused to attend, as an enemy. Scottish nobles increasingly understand that their country is suffering under a fearful and violent ruler.",
             "through": {
-              "chapter": 5
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "The witches summon apparitions that warn Macbeth to beware Macduff, then assure him that no man born by ordinary means from a woman can harm him and that he will remain secure until Birnam Wood moves to Dunsinane. He interprets the last two predictions as guarantees, though a vision of kings descended from Banquo enrages him. Learning that Macduff has fled to England, Macbeth orders an attack on Macduff's castle. Murderers kill Lady Macduff and her son. In England, Malcolm tests Macduff's loyalty by pretending he would be an even worse ruler than Macbeth. Macduff's despair for Scotland convinces him, and Malcolm reveals that English forces are ready to help. Ross then reports the murder of Macduff's family. Macduff turns his grief toward the coming campaign against Macbeth.",
             "through": {
-              "chapter": 8
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "Lady Macbeth sleepwalks under the observation of a doctor and attendant, repeatedly trying to cleanse imagined blood from her hands and revealing the burden of the crimes. Malcolm, Macduff, Siward, and Scottish defectors march toward Dunsinane. Their soldiers cut branches from Birnam Wood to conceal their numbers, making the forest appear to move and fulfilling a prophecy Macbeth had considered impossible. Lady Macbeth dies, and Macbeth responds with bleak resignation but refuses to surrender. He kills Young Siward in battle, still trusting that no man born naturally from a woman can defeat him. Macduff reveals that he was delivered by surgery rather than ordinary birth, then kills and beheads Macbeth. Malcolm is hailed as king. He calls home the exiles, rewards his allies, and promises to repair the damage done under Macbeth's rule.",
             "through": {
-              "chapter": 10
+              "chapter": 5
             }
           }
         ],

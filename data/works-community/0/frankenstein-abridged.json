@@ -375,7 +375,7 @@
             "id": "elizabeth-lavenza",
             "name": "Elizabeth Lavenza",
             "reveal": {
-              "chapter": 1
+              "chapter": 7
             },
             "role": "supporting"
           },
@@ -384,7 +384,7 @@
             "id": "alphonse-frankenstein",
             "name": "Alphonse Frankenstein",
             "reveal": {
-              "chapter": 1
+              "chapter": 7
             },
             "role": "supporting"
           },
@@ -393,7 +393,7 @@
             "id": "henry-clerval",
             "name": "Henry Clerval",
             "reveal": {
-              "chapter": 2
+              "chapter": 10
             },
             "role": "supporting"
           },
@@ -405,7 +405,7 @@
             "id": "the-creation",
             "name": "The Creation",
             "reveal": {
-              "chapter": 5
+              "chapter": 20
             }
           },
           {
@@ -413,7 +413,7 @@
             "id": "justine-moritz",
             "name": "Justine Moritz",
             "reveal": {
-              "chapter": 7
+              "chapter": 27
             },
             "role": "supporting"
           },
@@ -422,7 +422,7 @@
             "id": "william-frankenstein",
             "name": "William Frankenstein",
             "reveal": {
-              "chapter": 7
+              "chapter": 27
             },
             "role": "minor"
           },
@@ -431,7 +431,7 @@
             "id": "de-lacey",
             "name": "De Lacey",
             "reveal": {
-              "chapter": 12
+              "chapter": 43
             },
             "role": "supporting"
           },
@@ -440,7 +440,7 @@
             "id": "felix-de-lacey",
             "name": "Felix De Lacey",
             "reveal": {
-              "chapter": 12
+              "chapter": 43
             },
             "role": "supporting"
           },
@@ -449,7 +449,7 @@
             "id": "safie",
             "name": "Safie",
             "reveal": {
-              "chapter": 13
+              "chapter": 47
             },
             "role": "supporting"
           }
@@ -473,42 +473,42 @@
             "scope": "book",
             "text": "Robert Walton's polar voyage is halted by ice, where his crew rescues the weakened Victor Frankenstein. Victor begins an account meant to warn the ambitious captain. He recalls his secure Genevan upbringing with Elizabeth Lavenza, Henry Clerval, and the rest of his family. An early fascination with nature's hidden workings follows him to university. Modern chemistry and anatomy give that curiosity a practical direction, and he becomes determined to cross the boundary between death and life. Working alone, he shuts out both family and health as the experiment consumes him.",
             "through": {
-              "chapter": 5
+              "chapter": 20
             }
           },
           {
             "scope": "book",
             "text": "Victor brings his constructed body to life but is appalled by the being he has made. He abandons it and falls into a serious illness, with Clerval caring for him. After his recovery, word comes that young William has been murdered. Victor returns to Geneva and glimpses the creation nearby, convincing him of the killer's identity. He tells no one about the experiment. Justine Moritz is tried because William's miniature has been placed on her, and her pressured confession helps condemn her despite Elizabeth's defense. Justine is executed, leaving Victor certain that his silence has cost two innocent lives.",
             "through": {
-              "chapter": 9
+              "chapter": 33
             }
           },
           {
             "scope": "book",
             "text": "The creation meets Victor in the mountains and insists on being heard. He describes awakening without help, learning the uses of food and fire, and discovering that strangers respond to him with fear. From a hiding place near the De Lacey cottage, he watches a loving but impoverished family. Their speech and the lessons given to Safie teach him language, history, and the idea of human fellowship. He secretly makes their work easier and hopes to join them, but growing knowledge also shows him how completely he lacks kinship, status, or a place in society.",
             "through": {
-              "chapter": 13
+              "chapter": 47
             }
           },
           {
             "scope": "book",
             "text": "The creation approaches the blind De Lacey and speaks peacefully until the other family members return and drive him out. He responds to this rejection with destruction, then suffers another attack after rescuing a child. Near Geneva he meets William, kills him upon learning that he is a Frankenstein, and hides the stolen miniature on Justine. He asks Victor to make a female of his kind, promising that the pair will live far from all people. Victor reluctantly agrees, believing this may end the danger, and travels to Britain to carry out the work.",
             "through": {
-              "chapter": 17
+              "chapter": 60
             }
           },
           {
             "scope": "book",
             "text": "Alone on a Scottish island, Victor starts the promised companion but imagines the harm that two such beings or their descendants could cause. He destroys the unfinished female in front of the watching creation. The creature threatens Victor's wedding night. Soon afterward Victor is detained in Ireland and shown the strangled body of Henry Clerval. He survives another breakdown and is eventually released. Back in Geneva, he prepares to marry Elizabeth while assuming that the threat is directed against himself, and he keeps the true danger secret from her.",
             "through": {
-              "chapter": 21
+              "chapter": 73
             }
           },
           {
             "scope": "book",
             "text": "During the wedding night, Victor searches for the creature and leaves Elizabeth exposed; she is murdered. Alphonse dies soon after, and Victor begins a relentless chase across the continent and onto the polar sea. Walton's crew rescues him, but he dies aboard their trapped vessel after finishing his warning. Walton chooses his crew's survival over further exploration and prepares to return south. The creation visits Victor's body and admits that vengeance has made him suffer as well as caused suffering. Saying that he has no remaining purpose, he intends to burn himself. He departs over the ice and passes from Walton's sight.",
             "through": {
-              "chapter": 24
+              "chapter": 79
             }
           }
         ],

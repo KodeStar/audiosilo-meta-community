@@ -2357,7 +2357,7 @@
             "id": "falstaff",
             "name": "Falstaff",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -2366,7 +2366,7 @@
             "id": "falstaffs-page",
             "name": "Falstaff's Page",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -2378,7 +2378,7 @@
             "id": "chief-justice",
             "name": "Chief Justice",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2390,7 +2390,7 @@
             "id": "archbishop-scroop",
             "name": "Archbishop Scroop",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2402,7 +2402,7 @@
             "id": "hostess-quickly",
             "name": "Hostess Quickly",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2415,7 +2415,7 @@
             "id": "prince-henry",
             "name": "Prince Henry",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "protagonist"
           },
@@ -2424,7 +2424,7 @@
             "id": "poins",
             "name": "Poins",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2436,7 +2436,7 @@
             "id": "doll-tearsheet",
             "name": "Doll Tearsheet",
             "reveal": {
-              "chapter": 7
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2448,7 +2448,7 @@
             "id": "king-henry-iv",
             "name": "King Henry IV",
             "reveal": {
-              "chapter": 8
+              "chapter": 3
             },
             "role": "protagonist"
           },
@@ -2460,7 +2460,7 @@
             "id": "robert-shallow",
             "name": "Robert Shallow",
             "reveal": {
-              "chapter": 9
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -2472,7 +2472,7 @@
             "id": "silence",
             "name": "Silence",
             "reveal": {
-              "chapter": 9
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -2484,7 +2484,7 @@
             "id": "prince-john",
             "name": "Prince John",
             "reveal": {
-              "chapter": 10
+              "chapter": 4
             },
             "role": "supporting"
           }
@@ -2515,42 +2515,35 @@
             "scope": "book",
             "text": "Rumor spreads contradictory news after Shrewsbury. Northumberland first hears that the rebels won, then learns from Morton that Hotspur is dead and the royal army victorious. Grief drives him toward renewed rebellion alongside Archbishop Scroop, Mowbray, and Hastings, though the scale of the king's forces makes their position uncertain. In London, Falstaff complains of age and illness while enjoying the fame he gained through false claims about the battle. The Chief Justice confronts him over his past robbery and present misconduct. Falstaff avoids accountability through jokes and his military commission, confident that association with Prince Henry will continue to protect him. Meanwhile, the Archbishop's party prepares to justify another armed challenge to the crown.",
             "through": {
-              "chapter": 3
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Hostess Quickly has Falstaff detained over his debts, but his persuasion turns the confrontation into another promise of marriage and further credit. Prince Henry, conscious that concern for his sick father sits uneasily beside tavern amusement, disguises himself with Poins and listens as Falstaff belittles him to Doll Tearsheet. When exposed, Falstaff invents an excuse and resumes their familiar banter. News of the northern rebellion interrupts the gathering: the prince must return to court, and Falstaff must join the military levy. Their separation makes clear that national duty is again displacing the Eastcheap world, even as Falstaff treats the campaign as another opportunity for profit and self-preservation.",
             "through": {
-              "chapter": 7
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "King Henry, unable to sleep, reflects on the burden of rule and hears that the rebels are assembling. He divides command among his sons and allies while his illness worsens. In Gloucestershire, Falstaff meets the elderly justices Shallow and Silence to choose recruits. Shallow boasts about their youthful adventures, though Falstaff privately remembers him as insignificant. The men presented for service reveal the human cost and corruption of recruitment: those with resources buy their way out, while weaker candidates are taken. Falstaff accepts payments and leads away the remaining soldiers, planning to exploit both the campaign and his acquaintance with Shallow.",
             "through": {
-              "chapter": 9
+              "chapter": 3
             }
           },
           {
             "scope": "book",
-            "text": "Prince John and Westmoreland meet Archbishop Scroop, Mowbray, and Hastings. John receives their list of grievances and promises they will be addressed, then invites both armies to disperse before a shared drink. Once the rebel troops have gone, he arrests their leaders for treason and orders their execution, arguing that his promise concerned the grievances rather than immunity for those who raised an army. Falstaff arrives after a rebel named Colevile has surrendered to him and again claims martial importance, but John departs without rewarding him. The northern rising is extinguished through the prince's calculated agreement rather than a major battle, and Falstaff returns toward Gloucestershire seeking comfort and advantage with Shallow.",
+            "text": "Prince John and Westmoreland meet Archbishop Scroop, Mowbray, and Hastings. John receives their list of grievances and promises they will be addressed, then invites both armies to disperse before a shared drink. Once the rebel troops have gone, he arrests their leaders for treason and orders their execution, arguing that his promise concerned the grievances rather than immunity for those who raised an army. Falstaff arrives after a rebel named Colevile has surrendered to him and again claims martial importance, but John departs without rewarding him. The northern rising is extinguished through the prince's calculated agreement rather than a major battle, and Falstaff returns toward Gloucestershire seeking comfort and advantage with Shallow. At Westminster, Henry IV receives news that the rebellion has ended, then collapses. Prince Henry finds him apparently lifeless and removes the crown, assuming that the burden has passed to him. The king wakes, sees the crown missing, and interprets the act as impatient ambition. Hal returns and explains that he believed his father dead and had addressed the crown as a dangerous inheritance. Their reconciliation allows Henry to advise his heir on rule and to acknowledge the troubled way he gained power. The king is carried to the Jerusalem Chamber, where he dies, fulfilling a prediction that he would die in Jerusalem without ever reaching the Holy Land. Prince Henry succeeds as Henry V.",
             "through": {
-              "chapter": 13
-            }
-          },
-          {
-            "scope": "book",
-            "text": "At Westminster, Henry IV receives news that the rebellion has ended, then collapses. Prince Henry finds him apparently lifeless and removes the crown, assuming that the burden has passed to him. The king wakes, sees the crown missing, and interprets the act as impatient ambition. Hal returns and explains that he believed his father dead and had addressed the crown as a dangerous inheritance. Their reconciliation allows Henry to advise his heir on rule and to acknowledge the troubled way he gained power. The king is carried to the Jerusalem Chamber, where he dies, fulfilling a prediction that he would die in Jerusalem without ever reaching the Holy Land. Prince Henry succeeds as Henry V.",
-            "through": {
-              "chapter": 14
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "The new Henry V reassures his brothers that his former wildness has ended and confirms the Chief Justice in office, praising the independence with which he enforced the law. Falstaff, dining with Shallow when news of the accession arrives, borrows more money and rushes to London expecting power and wealth through his friendship with the king. At the coronation procession he calls familiarly to Henry, but the king publicly renounces him, orders him to keep his distance, and provides an allowance only so that necessity cannot excuse renewed misconduct. The Chief Justice commits Falstaff, Shallow, and their companions to the Fleet. Hostess Quickly and Doll are also under arrest. Falstaff insists the rejection is merely for appearances, yet his access to the king has ended. Prince John predicts that the government will soon carry war into France.",
             "through": {
-              "chapter": 19
+              "chapter": 5
             }
           }
         ],
@@ -2576,7 +2569,7 @@
             "id": "henry-v",
             "name": "Henry V",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -2585,7 +2578,7 @@
             "id": "archbishop-of-canterbury",
             "name": "Archbishop of Canterbury",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2594,7 +2587,7 @@
             "id": "duke-of-exeter",
             "name": "Duke of Exeter",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2603,7 +2596,7 @@
             "id": "dauphin",
             "name": "Dauphin",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "antagonist"
           },
@@ -2612,7 +2605,7 @@
             "id": "pistol",
             "name": "Pistol",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2621,7 +2614,7 @@
             "id": "nym",
             "name": "Nym",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -2630,7 +2623,7 @@
             "id": "bardolph",
             "name": "Bardolph",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2642,7 +2635,7 @@
             "id": "hostess",
             "name": "Hostess",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -2651,7 +2644,7 @@
             "id": "lord-scrope",
             "name": "Lord Scrope",
             "reveal": {
-              "chapter": 8
+              "chapter": 2
             },
             "role": "antagonist"
           },
@@ -2660,7 +2653,7 @@
             "id": "fluellen",
             "name": "Fluellen",
             "reveal": {
-              "chapter": 11
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -2672,7 +2665,7 @@
             "id": "katherine",
             "name": "Katherine",
             "reveal": {
-              "chapter": 13
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -2681,7 +2674,7 @@
             "id": "alice",
             "name": "Alice",
             "reveal": {
-              "chapter": 13
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -2690,7 +2683,7 @@
             "id": "montjoy",
             "name": "Montjoy",
             "reveal": {
-              "chapter": 17
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -2699,7 +2692,7 @@
             "id": "michael-williams",
             "name": "Michael Williams",
             "reveal": {
-              "chapter": 19
+              "chapter": 4
             },
             "role": "supporting"
           }
@@ -2723,42 +2716,35 @@
             "scope": "book",
             "text": "A chorus asks the audience to imagine the courts and battlefields that the stage cannot fully represent. At Henry's court, the Archbishop of Canterbury and Bishop of Ely discuss the king's transformation from an undisciplined prince into a serious ruler. They also fear a proposal to take church wealth and hope to direct Henry's attention toward France. Canterbury presents a long hereditary argument that French law does not bar Henry's claim through a female ancestor. Henry insists that the advice be honest because war will cost many lives. His nobles support the claim. The French Dauphin answers through ambassadors with a mocking gift of tennis balls, implying Henry is still suited only to games. Henry treats the insult as a challenge and orders preparations for war.",
             "through": {
-              "chapter": 5
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "In London, Pistol, Nym, Bardolph, and the Hostess prepare for the campaign while settling personal quarrels. Falstaff dies offstage as his former companions depart. At Southampton, Henry reveals that he knows Cambridge, Scrope, and Grey have accepted French support for a plot against him. He first has them endorse strict punishment in another case, then gives them evidence of their own treason. Scrope's betrayal wounds him most because the man appeared to be a trusted friend. All three accept their sentences, and Henry orders their execution. With the threat behind the lines removed, the English fleet sails for France. In the French court, King Charles prepares a defense while the Dauphin remains dismissive; Exeter arrives as Henry's ambassador and formally demands the crown.",
             "through": {
-              "chapter": 10
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "Henry's army besieges Harfleur. He rallies his troops for another assault and threatens the town with the violence that will follow if resistance continues. The governor, unable to obtain relief from the Dauphin, surrenders. Henry orders Exeter to govern the town and show mercy to its inhabitants. Disease and exhaustion have sharply reduced the English force, but Henry decides to march toward Calais rather than remain at Harfleur. Among the soldiers, Captain Fluellen insists on discipline and military method, while the Boy recognizes that Pistol, Nym, and Bardolph are more interested in plunder than honor. Bardolph is caught robbing a church. Henry upholds the death sentence despite their former friendship, making clear that the army's rules apply even to men he once knew closely.",
             "through": {
-              "chapter": 15
+              "chapter": 3
             }
           },
           {
             "scope": "book",
-            "text": "The French forces gather in superior numbers and expect to crush the weakened English army. Montjoy demands Henry's surrender, but Henry refuses while making no boast about his chances. On the night before Agincourt, French nobles pass the time with confidence and impatience. Henry borrows a cloak and walks anonymously among his own sentries. Soldiers Bates, Court, and Williams question whether the king shares responsibility for the souls and deaths of men sent into a doubtful battle. Henry argues that each person remains responsible for his own moral state, though after they leave he reflects on the burdens of monarchy and prays that his father's seizure of the crown will not be held against the army. He and Williams exchange gloves as pledges to continue their quarrel after the battle.",
+            "text": "The French forces gather in superior numbers and expect to crush the weakened English army. Montjoy demands Henry's surrender, but Henry refuses while making no boast about his chances. On the night before Agincourt, French nobles pass the time with confidence and impatience. Henry borrows a cloak and walks anonymously among his own sentries. Soldiers Bates, Court, and Williams question whether the king shares responsibility for the souls and deaths of men sent into a doubtful battle. Henry argues that each person remains responsible for his own moral state, though after they leave he reflects on the burdens of monarchy and prays that his father's seizure of the crown will not be held against the army. He and Williams exchange gloves as pledges to continue their quarrel after the battle. As battle approaches, Westmoreland wishes for more English troops, but Henry declares that the small company will share greater honor if it wins. The English meet the French at Agincourt and break their attack despite being heavily outnumbered. Pistol captures a French soldier for ransom, while the Boy guarding the baggage is among those killed when the French raid the camp. Henry, fearing a renewed attack, orders the prisoners killed; when he learns of the slaughter at the baggage, he condemns the act. The French finally concede defeat. The casualty lists show enormous French losses and relatively few English dead. Henry forbids proud claims that English strength alone produced the result and orders that the victory be attributed to God. He later reveals his disguise to Williams and rewards the soldier after Fluellen helps settle their glove challenge.",
             "through": {
-              "chapter": 20
-            }
-          },
-          {
-            "scope": "book",
-            "text": "As battle approaches, Westmoreland wishes for more English troops, but Henry declares that the small company will share greater honor if it wins. The English meet the French at Agincourt and break their attack despite being heavily outnumbered. Pistol captures a French soldier for ransom, while the Boy guarding the baggage is among those killed when the French raid the camp. Henry, fearing a renewed attack, orders the prisoners killed; when he learns of the slaughter at the baggage, he condemns the act. The French finally concede defeat. The casualty lists show enormous French losses and relatively few English dead. Henry forbids proud claims that English strength alone produced the result and orders that the victory be attributed to God. He later reveals his disguise to Williams and rewards the soldier after Fluellen helps settle their glove challenge.",
-            "through": {
-              "chapter": 25
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "After Agincourt, the English return to France for peace negotiations. Fluellen forces Pistol to eat a leek after Pistol mocked his Welsh identity; Pistol, having lost his companions and learned that the Hostess has died, plans to return to England and live by deception. At the French palace, King Charles, Queen Isabel, Burgundy, and the English nobles negotiate. Burgundy describes a country damaged by prolonged war and urges reconciliation. Henry's terms make him heir to the French throne and husband to Princess Katherine. Left with Katherine and Alice, Henry courts the princess across their language barrier. Katherine says the marriage depends on her father's will, and the returning rulers approve the match. The treaty is accepted in hopes of lasting peace. The epilogue records that Henry dies young, leaving an infant heir under whom civil disorder returns and England loses France.",
             "through": {
-              "chapter": 31
+              "chapter": 5
             }
           }
         ],

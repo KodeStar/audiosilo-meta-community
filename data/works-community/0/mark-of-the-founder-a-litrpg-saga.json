@@ -3908,7 +3908,7 @@
             "id": "claudio",
             "name": "Claudio",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3917,7 +3917,7 @@
             "id": "juliet",
             "name": "Juliet",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3926,7 +3926,7 @@
             "id": "lucio",
             "name": "Lucio",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3938,7 +3938,7 @@
             "id": "mistress-overdone",
             "name": "Mistress Overdone",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -3950,7 +3950,7 @@
             "id": "pompey",
             "name": "Pompey",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3959,7 +3959,7 @@
             "id": "friar-thomas",
             "name": "Friar Thomas",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -3968,7 +3968,7 @@
             "id": "isabella",
             "name": "Isabella",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -3977,7 +3977,7 @@
             "id": "provost",
             "name": "Provost",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -3986,7 +3986,7 @@
             "id": "elbow",
             "name": "Elbow",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -3995,7 +3995,7 @@
             "id": "mariana",
             "name": "Mariana",
             "reveal": {
-              "chapter": 11
+              "chapter": 4
             },
             "role": "supporting"
           },
@@ -4004,7 +4004,7 @@
             "id": "barnardine",
             "name": "Barnardine",
             "reveal": {
-              "chapter": 12
+              "chapter": 4
             },
             "role": "minor"
           }
@@ -4028,42 +4028,35 @@
             "scope": "book",
             "text": "Duke Vincentio announces that he is leaving Vienna and appoints Angelo to govern with Escalus as adviser. The Duke has allowed strict laws to go unenforced and wants Angelo to restore discipline, but privately he remains in the city disguised as a friar so he can observe the results. Angelo quickly revives an old law imposing death for sex outside formally recognized marriage. Claudio is arrested because his promised wife Juliet is pregnant; their union was delayed by unresolved dowry arrangements, but the law treats it as an offense. Claudio asks his outspoken friend Lucio to find Isabella, Claudio's sister, who is about to enter a convent. Lucio tells her of the sentence and persuades her that her restraint and eloquence may move Angelo to mercy. Isabella agrees to plead for her brother despite her horror at his conduct.",
             "through": {
-              "chapter": 4
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Angelo insists that justice requires Claudio's execution even when Escalus urges him to consider whether he might share the same human weakness. The Provost also seeks mercy. Isabella's first appeal initially meets the same refusal, but her argument that power must recognize its own fallibility awakens Angelo's desire for her. At a second meeting he proposes that Claudio can live if Isabella yields her body to him. He speaks indirectly at first, then makes the bargain plain and threatens to make her accusation unbelievable if she exposes him. Isabella refuses, valuing both her conscience and the truth above a rescue purchased by coercion. She goes to the prison to tell Claudio what Angelo has demanded, certain that her brother will accept death rather than ask her to submit.",
             "through": {
-              "chapter": 8
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "Disguised as a friar, the Duke prepares Claudio for death and listens while Isabella reports Angelo's proposition. Claudio first praises her refusal but, frightened by the prospect of dying, asks her to accept the bargain. Isabella angrily rejects him. The Duke intervenes with an alternative: Angelo once abandoned Mariana after the loss of her dowry, although their betrothal gave her a claim upon him. Mariana can meet Angelo in darkness while he believes she is Isabella, preserving Isabella's chastity and completing Mariana's marriage contract. Isabella agrees to send Angelo the required signals. Elsewhere Lucio casually slanders the absent Duke to the disguised Duke himself, while Pompey is sent to prison and offered work assisting the executioner. The hidden observer now sees both official corruption and the city's irreverent judgment of his own rule.",
             "through": {
-              "chapter": 10
+              "chapter": 3
             }
           },
           {
             "scope": "book",
-            "text": "Mariana agrees to the substitution, and Isabella arranges the nocturnal meeting with Angelo. Mariana takes her place and sleeps with the man who had repudiated her. Despite believing Isabella has fulfilled his demand, Angelo sends the prison an order for Claudio's immediate execution and asks for his severed head as proof. The Duke persuades the reluctant Provost to delay and proposes substituting the head of Barnardine, another condemned prisoner. Barnardine refuses to be executed while spiritually and physically unprepared. A different solution appears when Ragozine, a prisoner resembling Claudio, dies naturally of fever. His head is sent to Angelo, while Claudio remains hidden. To prepare Angelo's public exposure, the Duke tells Isabella falsely that Claudio has died and instructs her to accuse Angelo when the Duke returns.",
+            "text": "Mariana agrees to the substitution, and Isabella arranges the nocturnal meeting with Angelo. Mariana takes her place and sleeps with the man who had repudiated her. Despite believing Isabella has fulfilled his demand, Angelo sends the prison an order for Claudio's immediate execution and asks for his severed head as proof. The Duke persuades the reluctant Provost to delay and proposes substituting the head of Barnardine, another condemned prisoner. Barnardine refuses to be executed while spiritually and physically unprepared. A different solution appears when Ragozine, a prisoner resembling Claudio, dies naturally of fever. His head is sent to Angelo, while Claudio remains hidden. To prepare Angelo's public exposure, the Duke tells Isabella falsely that Claudio has died and instructs her to accuse Angelo when the Duke returns. Angelo and Escalus prepare to welcome the Duke at the city gate. Angelo is unsettled by his own crimes but believes that the supposed execution has removed the principal witness against him. The Duke sends instructions that citizens with grievances should present petitions publicly. Isabella and Mariana rehearse their accusations, with Mariana prepared to reveal that she, not Isabella, met Angelo in the garden. The Duke lays aside his friar's habit and returns openly to Vienna, while Friar Peter is ready to support the women's carefully staged testimony. Claudio remains alive in prison, unknown to Isabella, so that the Duke can control the timing of the final revelation.",
             "through": {
-              "chapter": 13
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Angelo and Escalus prepare to welcome the Duke at the city gate. Angelo is unsettled by his own crimes but believes that the supposed execution has removed the principal witness against him. The Duke sends instructions that citizens with grievances should present petitions publicly. Isabella and Mariana rehearse their accusations, with Mariana prepared to reveal that she, not Isabella, met Angelo in the garden. The Duke lays aside his friar's habit and returns openly to Vienna, while Friar Peter is ready to support the women's carefully staged testimony. Claudio remains alive in prison, unknown to Isabella, so that the Duke can control the timing of the final revelation.",
-            "through": {
-              "chapter": 16
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "Isabella accuses Angelo before the returned Duke, describing the sexual bargain and asserting that he killed Claudio after receiving what he demanded. The Duke pretends disbelief and puts Angelo in charge of examining the charge. Mariana appears, confirms the encounter, and identifies herself as Angelo's former betrothed and actual partner that night. The Duke withdraws and returns as Friar Lodowick, but Lucio pulls away the disguise, forcing the Duke to reveal himself. Angelo confesses. The Duke orders him to marry Mariana and initially sentences him to death afterward. Mariana pleads for her husband, and Isabella joins her despite believing Claudio dead. The Duke pardons Angelo and reveals Claudio alive, allowing him to marry Juliet. Barnardine and other prisoners also receive mercy. Lucio must marry Kate Keepdown and face punishment for slander. The Duke proposes to Isabella, whose silence leaves her decision unstated.",
             "through": {
-              "chapter": 17
+              "chapter": 5
             }
           }
         ],

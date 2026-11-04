@@ -2567,7 +2567,7 @@
             "id": "jonathan-harker",
             "name": "Jonathan Harker",
             "reveal": {
-              "chapter": 1
+              "chapter": 10
             },
             "role": "protagonist"
           },
@@ -2576,7 +2576,7 @@
             "id": "count-dracula",
             "name": "Count Dracula",
             "reveal": {
-              "chapter": 1
+              "chapter": 10
             },
             "role": "antagonist"
           },
@@ -2588,7 +2588,7 @@
             "id": "mina-murray",
             "name": "Mina Murray",
             "reveal": {
-              "chapter": 1
+              "chapter": 10
             },
             "role": "protagonist"
           },
@@ -2597,7 +2597,7 @@
             "id": "lucy-westenra",
             "name": "Lucy Westenra",
             "reveal": {
-              "chapter": 1
+              "chapter": 10
             },
             "role": "supporting"
           },
@@ -2609,7 +2609,7 @@
             "id": "abraham-van-helsing",
             "name": "Abraham Van Helsing",
             "reveal": {
-              "chapter": 1
+              "chapter": 10
             },
             "role": "supporting"
           },
@@ -2621,7 +2621,7 @@
             "id": "gabriel-john-utterson",
             "name": "Gabriel John Utterson",
             "reveal": {
-              "chapter": 2
+              "chapter": 22
             },
             "role": "protagonist"
           },
@@ -2630,7 +2630,7 @@
             "id": "henry-jekyll",
             "name": "Dr. Henry Jekyll",
             "reveal": {
-              "chapter": 2
+              "chapter": 22
             },
             "role": "supporting"
           },
@@ -2642,7 +2642,7 @@
             "id": "edward-hyde",
             "name": "Edward Hyde",
             "reveal": {
-              "chapter": 2
+              "chapter": 22
             },
             "role": "antagonist"
           },
@@ -2651,7 +2651,7 @@
             "id": "hastie-lanyon",
             "name": "Dr. Hastie Lanyon",
             "reveal": {
-              "chapter": 2
+              "chapter": 22
             },
             "role": "supporting"
           },
@@ -2660,7 +2660,7 @@
             "id": "the-governess",
             "name": "The Governess",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -2669,7 +2669,7 @@
             "id": "flora",
             "name": "Flora",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2678,7 +2678,7 @@
             "id": "miles",
             "name": "Miles",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2687,7 +2687,7 @@
             "id": "mrs-grose",
             "name": "Mrs. Grose",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2696,7 +2696,7 @@
             "id": "peter-quint",
             "name": "Peter Quint",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "antagonist"
           },
@@ -2705,7 +2705,7 @@
             "id": "miss-jessel",
             "name": "Miss Jessel",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "antagonist"
           }
@@ -2721,29 +2721,29 @@
         "work": "quick-classics-collection-gothic"
       },
       "recaps": {
-        "ending": "The collection closes with the crisis at Bly. After the governess publicly confronts Flora about the figure she believes is watching from across the lake, Flora becomes terrified of her and leaves with Mrs. Grose. The governess remains alone with Miles and presses him to acknowledge both his expulsion from school and Peter Quint's presence. Miles admits that he stole a letter and was dismissed for saying improper things to other boys. The governess sees Quint at the window and tries to shield Miles while demanding that he name the apparition. Miles cries out against Quint, but then dies in the governess's arms. The narrative never supplies an independent confirmation of the ghosts or of the children's supposed corruption, so the ending leaves the governess's interpretation unresolved even though its human cost is certain.",
-        "in_short": "This collection presents three compact Gothic narratives. In Dracula, Jonathan Harker discovers that his Transylvanian client is a vampire; after Dracula preys on Lucy Westenra and Mina Harker in England, Van Helsing and their allies pursue him home and destroy him. In Dr. Jekyll and Mr. Hyde, lawyer Gabriel Utterson investigates the brutal Hyde and learns from Jekyll's final account that doctor and criminal are one man, separated by a chemical experiment that Jekyll can no longer control. In The Turn of the Screw, a governess at Bly believes the ghosts of Peter Quint and Miss Jessel are corrupting Miles and Flora. Flora is removed after rejecting the governess, while Miles dies during a final confrontation in which the governess claims to see Quint. The last tale leaves open whether the apparitions were real or products of the governess's mind.",
+        "ending": "The Turn of the Screw closes with the crisis at Bly. After the governess publicly confronts Flora about the figure she believes is watching from across the lake, Flora becomes terrified of her and leaves with Mrs. Grose. The governess remains alone with Miles and presses him to acknowledge both his expulsion from school and Peter Quint's presence. Miles admits that he stole a letter and was dismissed for saying improper things to other boys. The governess sees Quint at the window and tries to shield Miles while demanding that he name the apparition. Miles cries out against Quint, but then dies in the governess's arms. The narrative never supplies an independent confirmation of the ghosts or of the children's supposed corruption, so the ending leaves the governess's interpretation unresolved even though its human cost is certain. The collection itself ends with Jekyll's written confession, read after his death.",
+        "in_short": "This collection presents three compact Gothic narratives. In Dracula, Jonathan Harker discovers that his Transylvanian client is a vampire; after Dracula preys on Lucy Westenra and Mina Harker in England, Van Helsing and their allies pursue him home and destroy him. In Dr. Jekyll and Mr. Hyde, lawyer Gabriel Utterson investigates the brutal Hyde and learns from Jekyll's final account that doctor and criminal are one man, separated by a chemical experiment that Jekyll can no longer control. In The Turn of the Screw, a governess at Bly believes the ghosts of Peter Quint and Miss Jessel are corrupting Miles and Flora. Flora is removed after rejecting the governess, while Miles dies during a final confrontation in which the governess claims to see Quint. That tale leaves open whether the apparitions were real or products of the governess's mind.",
         "license": "CC-BY-SA-4.0",
         "recaps": [
           {
             "scope": "book",
-            "text": "Solicitor Jonathan Harker travels to Count Dracula's castle and discovers that his host is a vampire preparing to relocate to England. Dracula reaches the seaside town of Whitby, where Mina Murray is staying with Lucy Westenra. Lucy weakens under repeated attacks despite the efforts of Dr. Seward and Professor Van Helsing; after her death, the men accept that she has become undead and release her from that state. Jonathan returns and marries Mina, who organizes the group's records. Dracula then attacks Mina and forces a supernatural link upon her, but the connection also helps the hunters track him. They destroy his English refuges and chase his final box of earth back toward Transylvania. Near the castle, Jonathan and Quincey Morris open the box and kill Dracula before sunset. Mina is freed from his influence, though Quincey dies from wounds sustained in the struggle.",
+            "text": "At Bly, a young governess has sole responsibility for Miles and Flora. She sees an unknown man and woman around the estate; Mrs. Grose identifies her descriptions as Peter Quint and Miss Jessel, two dead former employees. Convinced that the children secretly communicate with the apparitions, the governess interprets their charm and evasions as evidence of corruption. Miles admits that he wants to return to school but avoids explaining his dismissal. When Flora disappears to the lake, the governess says Miss Jessel is present; Flora denies seeing anyone and becomes violently afraid of the governess. Mrs. Grose takes Flora away. Alone with Miles, the governess presses him until he admits stealing a letter and says he was expelled for things he told other boys. She sees Quint at the window and urges Miles to reject him. Miles cries out and then dies in her arms, leaving the existence of the ghosts unresolved.",
             "through": {
-              "chapter": 1
+              "chapter": 9
             }
           },
           {
             "scope": "book",
-            "text": "The first tale ends with Dracula destroyed and Mina restored. The next follows lawyer Gabriel Utterson, who is disturbed by Dr. Henry Jekyll's will because it leaves everything to the cruel Edward Hyde. Hyde later murders Sir Danvers Carew and disappears, while Jekyll briefly resumes a sociable life before shutting himself away. Dr. Lanyon dies after receiving a terrible revelation connected to Jekyll. When Jekyll's servant fears that someone else has occupied the laboratory, Utterson breaks in and finds Hyde dead in Jekyll's clothes. Written statements explain the mystery: Jekyll created a drug that let him embody his suppressed impulses as Hyde. At first he changed by choice, but the transformations began occurring without the drug, and Hyde's violence escalated. Unable to reproduce a crucial chemical ingredient and facing permanent loss of control, Jekyll leaves his confession as his life ends.",
+            "text": "After the crisis at Bly, the collection turns to Dracula. Solicitor Jonathan Harker travels to Count Dracula's castle and discovers that his host is a vampire preparing to relocate to England. Dracula reaches the seaside town of Whitby, where Mina Murray is staying with Lucy Westenra. Lucy weakens under repeated attacks despite the efforts of Dr. Seward and Professor Van Helsing; after her death, the men accept that she has become undead and release her from that state. Jonathan returns and marries Mina, who organizes the group's records. Dracula then attacks Mina and forces a supernatural link upon her, but the connection also helps the hunters track him. They destroy his English refuges and chase his final box of earth back toward Transylvania. Near the castle, Jonathan and Quincey Morris open the box and kill Dracula before sunset. Mina is freed from his influence, though Quincey dies from wounds sustained in the struggle.",
             "through": {
-              "chapter": 2
+              "chapter": 21
             }
           },
           {
             "scope": "book",
-            "text": "After the deaths of Jekyll and Hyde, the collection turns to Bly, where a young governess has sole responsibility for Miles and Flora. She sees an unknown man and woman around the estate; Mrs. Grose identifies her descriptions as Peter Quint and Miss Jessel, two dead former employees. Convinced that the children secretly communicate with the apparitions, the governess interprets their charm and evasions as evidence of corruption. Miles admits that he wants to return to school but avoids explaining his dismissal. When Flora disappears to the lake, the governess says Miss Jessel is present; Flora denies seeing anyone and becomes violently afraid of the governess. Mrs. Grose takes Flora away. Alone with Miles, the governess presses him until he admits stealing a letter and says he was expelled for things he told other boys. She sees Quint at the window and urges Miles to reject him. Miles cries out and then dies in her arms, leaving the existence of the ghosts unresolved.",
+            "text": "The second tale ends with Dracula destroyed and Mina restored. The last follows lawyer Gabriel Utterson, who is disturbed by Dr. Henry Jekyll's will because it leaves everything to the cruel Edward Hyde. Hyde later murders Sir Danvers Carew and disappears, while Jekyll briefly resumes a sociable life before shutting himself away. Dr. Lanyon dies after receiving a terrible revelation connected to Jekyll. When Jekyll's servant fears that someone else has occupied the laboratory, Utterson breaks in and finds Hyde dead in Jekyll's clothes. Written statements explain the mystery: Jekyll created a drug that let him embody his suppressed impulses as Hyde. At first he changed by choice, but the transformations began occurring without the drug, and Hyde's violence escalated. Unable to reproduce a crucial chemical ingredient and facing permanent loss of control, Jekyll leaves his confession as his life ends.",
             "through": {
-              "chapter": 3
+              "chapter": 33
             }
           }
         ],

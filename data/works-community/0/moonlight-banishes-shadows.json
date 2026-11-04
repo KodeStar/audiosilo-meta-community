@@ -4297,7 +4297,7 @@
             "id": "antonio",
             "name": "Antonio",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -4306,7 +4306,7 @@
             "id": "don-john",
             "name": "Don John",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "antagonist"
           },
@@ -4315,7 +4315,7 @@
             "id": "borachio",
             "name": "Borachio",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "antagonist"
           },
@@ -4324,7 +4324,7 @@
             "id": "conrade",
             "name": "Conrade",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -4333,7 +4333,7 @@
             "id": "margaret",
             "name": "Margaret",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -4342,7 +4342,7 @@
             "id": "ursula",
             "name": "Ursula",
             "reveal": {
-              "chapter": 7
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -4351,7 +4351,7 @@
             "id": "dogberry",
             "name": "Dogberry",
             "reveal": {
-              "chapter": 9
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -4360,7 +4360,7 @@
             "id": "verges",
             "name": "Verges",
             "reveal": {
-              "chapter": 9
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -4369,7 +4369,7 @@
             "id": "friar-francis",
             "name": "Friar Francis",
             "reveal": {
-              "chapter": 12
+              "chapter": 4
             },
             "role": "supporting"
           }
@@ -4393,42 +4393,35 @@
             "scope": "book",
             "text": "Leonato welcomes Don Pedro and his soldiers to Messina after a successful campaign. Claudio confides that he loves Leonato's daughter Hero, and Don Pedro offers to woo her on Claudio's behalf at a masked celebration. Benedick and Beatrice immediately renew their practiced exchange of insults, each claiming to despise marriage and the other. Don Pedro's recently reconciled brother Don John has also arrived, but he resents his dependent position and the happiness around him. When Borachio reports Claudio's plans, Don John decides to interfere. His first opportunity is to suggest that Don Pedro intends to keep Hero for himself, exploiting Claudio's insecurity and willingness to believe reports rather than ask Hero or the prince directly.",
             "through": {
-              "chapter": 3
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "At the masked ball, Don John deceives Claudio briefly, but Don Pedro presents Hero to him as promised and Leonato approves their marriage. With the wedding set for a later date, Don Pedro proposes passing the time by bringing Beatrice and Benedick together. Leonato, Claudio, and Don Pedro stage a conversation within Benedick's hearing, claiming that Beatrice loves him but will never confess because she fears his mockery. Benedick accepts the story and decides that marriage may be reasonable after all. At the same time, Borachio gives Don John a more damaging plan: Margaret will appear at Hero's chamber window while Borachio addresses her by Hero's name, and Don John will place Claudio and Don Pedro where distance and darkness make the scene look like proof of Hero's infidelity.",
             "through": {
-              "chapter": 6
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "Hero and Ursula complete the friends' matchmaking scheme by letting Beatrice overhear that Benedick loves her and suffers because her pride makes any approach hopeless. Beatrice resolves to answer his supposed affection. Their changed behavior amuses the conspirators. Don John then tells Claudio and Don Pedro that Hero is unfaithful and promises to show them evidence at her window on the night before the wedding. After Borachio carries out the deception with Margaret, he boasts about it to Conrade in the street. Messina's night watch overhears him describe Don John's payment and the false appearance created for Claudio. The watch arrests both men. Dogberry and Verges now possess evidence that could save Hero, though their confused manner makes it uncertain whether they can communicate it in time.",
             "through": {
-              "chapter": 9
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "Hero prepares for her wedding without knowing what Claudio believes. Dogberry tries to report the arrests to Leonato, but Leonato is preoccupied and tells him to conduct the examination himself. At the ceremony Claudio refuses Hero and publicly accuses her of receiving another man at her window. Don Pedro supports the charge, and Don John departs after seeing his plot succeed. Hero collapses. Leonato initially accepts the accusation, but Beatrice insists on her cousin's innocence and Friar Francis judges Hero's responses sincere. The friar proposes hiding her and announcing her death so that grief may soften Claudio and time may expose the truth. Alone, Beatrice and Benedick admit their love. Beatrice tests his loyalty by demanding that he challenge Claudio for dishonoring Hero, and Benedick agrees. Meanwhile Borachio's formal examination begins to reveal the conspiracy.",
             "through": {
-              "chapter": 13
+              "chapter": 4
             }
           },
           {
             "scope": "book",
-            "text": "Leonato and Antonio confront Claudio and Don Pedro, who still believe their accusation justified. Benedick arrives, ends his friendship with Claudio, challenges him, and reports that Don John has fled. Dogberry then brings in Borachio, who confesses that Hero was innocent and that Margaret unknowingly played the visible part in Don John's staged scene. Claudio and Don Pedro understand that they trusted a manufactured appearance and destroyed Hero's reputation. Believing her dead, Claudio submits to any punishment Leonato chooses. Leonato requires him to tell the city of Hero's innocence, mourn at her family tomb, and marry another daughter of the house the next morning without first seeing her. Benedick reports the confession to Beatrice and asks Friar Francis to marry them, though their familiar defensiveness persists alongside their new commitment.",
+            "text": "Leonato and Antonio confront Claudio and Don Pedro, who still believe their accusation justified. Benedick arrives, ends his friendship with Claudio, challenges him, and reports that Don John has fled. Dogberry then brings in Borachio, who confesses that Hero was innocent and that Margaret unknowingly played the visible part in Don John's staged scene. Claudio and Don Pedro understand that they trusted a manufactured appearance and destroyed Hero's reputation. Believing her dead, Claudio submits to any punishment Leonato chooses. Leonato requires him to tell the city of Hero's innocence, mourn at her family tomb, and marry another daughter of the house the next morning without first seeing her. Benedick reports the confession to Beatrice and asks Friar Francis to marry them, though their familiar defensiveness persists alongside their new commitment. Claudio keeps vigil at Hero's tomb, publicly retracts the accusation, and prepares to marry Leonato's veiled niece. At the ceremony the bride unmasks as Hero, alive and cleared by Borachio's confession. Claudio accepts her joyfully, and the first marriage can proceed with trust restored. Beatrice and Benedick continue pretending that pity rather than desire moves them until Hero and Claudio produce private writings in which each confessed love for the other. Exposed, they agree to marry and answer embarrassment with affectionate mockery. Don Pedro is left without a partner despite having arranged the other matches. A messenger reports that Don John has been captured while fleeing. Benedick postpones dealing with him until the next day and calls for music and dancing, closing the action with communal celebration after the destructive plot has been uncovered.",
             "through": {
-              "chapter": 15
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Claudio keeps vigil at Hero's tomb, publicly retracts the accusation, and prepares to marry Leonato's veiled niece. At the ceremony the bride unmasks as Hero, alive and cleared by Borachio's confession. Claudio accepts her joyfully, and the first marriage can proceed with trust restored. Beatrice and Benedick continue pretending that pity rather than desire moves them until Hero and Claudio produce private writings in which each confessed love for the other. Exposed, they agree to marry and answer embarrassment with affectionate mockery. Don Pedro is left without a partner despite having arranged the other matches. A messenger reports that Don John has been captured while fleeing. Benedick postpones dealing with him until the next day and calls for music and dancing, closing the action with communal celebration after the destructive plot has been uncovered.",
-            "through": {
-              "chapter": 17
+              "chapter": 5
             }
           }
         ],
@@ -4807,7 +4800,7 @@
             "id": "the-four-knights",
             "name": "The Four Knights",
             "reveal": {
-              "chapter": 3
+              "chapter": 2
             },
             "role": "antagonist"
           }
@@ -4836,16 +4829,9 @@
           },
           {
             "scope": "book",
-            "text": "On Christmas morning, Becket preaches to the congregation about the apparent contradiction of rejoicing and mourning in the Christian understanding of martyrdom. A martyr's death is a victory only when it serves a divine purpose rather than personal ambition. His sermon answers the last tempter: Becket will not seek death as a means of securing reputation or power after death. At the same time, his words prepare Canterbury for the likelihood that he will soon be killed. He takes leave of the congregation in a mood of calm resolution, having accepted that the outcome cannot be judged by ordinary political success or survival.",
+            "text": "On Christmas morning, Becket preaches to the congregation about the apparent contradiction of rejoicing and mourning in the Christian understanding of martyrdom. A martyr's death is a victory only when it serves a divine purpose rather than personal ambition. His sermon answers the last tempter: Becket will not seek death as a means of securing reputation or power after death. At the same time, his words prepare Canterbury for the likelihood that he will soon be killed. He takes leave of the congregation in a mood of calm resolution, having accepted that the outcome cannot be judged by ordinary political success or survival. Four knights arrive as agents of royal authority and accuse Becket of treason, ingratitude, and stirring opposition to Henry. They demand that he submit and leave England again. Becket disputes their account and refuses. After withdrawing to arm themselves, the knights return to the cathedral. The priests try to bolt the doors and hide the archbishop, but Becket orders the church opened and will not escape. The knights enter and murder him. They then turn to the audience with calculated defenses of the act, presenting themselves as disinterested servants of order and Becket as either a traitor or a man who provoked his own death. The change in style exposes the ease with which violence can be dressed as reasonable policy. The Chorus accepts that ordinary people cannot remain untouched by the crime and moves from terror toward confession and prayer. The priests proclaim Becket a martyr, so the knights' physical victory becomes a spiritual defeat and the murder enters the religious memory of the community.",
             "through": {
               "chapter": 2
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Four knights arrive as agents of royal authority and accuse Becket of treason, ingratitude, and stirring opposition to Henry. They demand that he submit and leave England again. Becket disputes their account and refuses. After withdrawing to arm themselves, the knights return to the cathedral. The priests try to bolt the doors and hide the archbishop, but Becket orders the church opened and will not escape. The knights enter and murder him. They then turn to the audience with calculated defenses of the act, presenting themselves as disinterested servants of order and Becket as either a traitor or a man who provoked his own death. The change in style exposes the ease with which violence can be dressed as reasonable policy. The Chorus accepts that ordinary people cannot remain untouched by the crime and moves from terror toward confession and prayer. The priests proclaim Becket a martyr, so the knights' physical victory becomes a spiritual defeat and the murder enters the religious memory of the community.",
-            "through": {
-              "chapter": 3
             }
           }
         ],

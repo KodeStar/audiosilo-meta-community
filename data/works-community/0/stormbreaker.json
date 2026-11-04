@@ -986,7 +986,7 @@
             "id": "mr-spink",
             "name": "Mr Spink",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "antagonist"
           },
@@ -995,7 +995,7 @@
             "id": "tip",
             "name": "Tip",
             "reveal": {
-              "chapter": 4
+              "chapter": 6
             },
             "role": "supporting"
           },
@@ -1004,7 +1004,7 @@
             "id": "rosie",
             "name": "Rosie",
             "reveal": {
-              "chapter": 6
+              "chapter": 11
             },
             "role": "supporting"
           },
@@ -1013,7 +1013,7 @@
             "id": "grimmy-nick",
             "name": "Grimy Nick",
             "reveal": {
-              "chapter": 8
+              "chapter": 12
             },
             "role": "antagonist"
           },
@@ -1025,7 +1025,7 @@
             "id": "shrimps",
             "name": "Shrimps",
             "reveal": {
-              "chapter": 8
+              "chapter": 23
             },
             "role": "supporting"
           },
@@ -1037,7 +1037,7 @@
             "id": "thomas-barnardo",
             "name": "Thomas Barnardo",
             "reveal": {
-              "chapter": 10
+              "chapter": 25
             },
             "role": "supporting"
           }
@@ -1061,28 +1061,28 @@
             "scope": "book",
             "text": "Jim Jarvis lives with his widowed mother and his sisters, Emily and Lizzie, in a single rented room in Victorian London. Their mother is ill and cannot earn enough to cover both food and rent. Jim searches for small ways to help, but hunger shapes every decision. Their landlord, Mr Spink, demands what the family owes and evicts them when they cannot pay. With their few possessions lost and no relative able to take them in, the Jarvises move through the city looking for shelter. Mrs Jarvis's health worsens, and the institutions available to the poor offer help only on severe terms. The family is driven toward the workhouse, knowing that entering it will mean surrendering freedom and being separated from one another.",
             "through": {
-              "chapter": 2
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "The Jarvis family enters the workhouse and is divided according to its rules. Jim cannot stay with his mother or sisters. The food is inadequate, the labor repetitive, and the discipline intended to make poverty feel punishable. Jim's mother, already gravely ill, dies, while Emily and Lizzie are sent away beyond his reach. Jim is left effectively alone. He meets Tip, another boy who understands the institution and becomes his ally, but friendship does not make the workhouse bearable. Its masters answer resistance with punishment, and Jim sees that remaining means accepting a life controlled by people indifferent to his grief. He begins to think about escape despite the danger of having no food or shelter outside.",
             "through": {
-              "chapter": 4
+              "chapter": 9
             }
           },
           {
             "scope": "book",
             "text": "Jim gets out of the workhouse and returns to the streets. Freedom spares him the institution's rules but exposes him to cold, hunger, and adults who assume an unaccompanied child is dishonest. He searches for food and work while still hoping he may somehow find his sisters. Tip's companionship cannot provide a permanent answer, and Jim must rely on quick judgment and occasional kindness. Rosie treats him with compassion and helps him for a time, showing him that not every adult intends to punish or exploit him. Yet no informal refuge can guarantee his safety. With nowhere secure to go, Jim remains vulnerable to anyone offering work, food, or a place to sleep, even when the offer carries dangers he cannot fully assess.",
             "through": {
-              "chapter": 7
+              "chapter": 12
             }
           },
           {
             "scope": "book",
             "text": "Grimy Nick takes control of Jim and forces him into exhausting, dangerous labor connected with a coal boat. Jim meets Shrimps, another small boy caught in the same system, and learns how easily homeless children can disappear into work that is little different from imprisonment. Nick uses threats and violence to keep them obedient. Jim refuses to accept this as his only future and eventually escapes, returning once more to London without money or family. He reaches a school serving poor children and comes to the attention of Thomas Barnardo. Jim explains the chain of losses that brought him there and the reality of sleeping rough when no refuge has room. Barnardo listens to him as a witness rather than dismissing him as a nuisance. Jim's story helps persuade the reformer that a home for destitute children must not turn a child away simply because he cannot pay, giving Jim's ordeal a hopeful consequence beyond his own rescue.",
             "through": {
-              "chapter": 10
+              "chapter": 27
             }
           }
         ],

@@ -3348,7 +3348,7 @@
             "id": "mr-twit",
             "name": "Mr Twit",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "antagonist"
           },
@@ -3357,7 +3357,7 @@
             "id": "mrs-twit",
             "name": "Mrs Twit",
             "reveal": {
-              "chapter": 1
+              "chapter": 4
             },
             "role": "antagonist"
           },
@@ -3366,7 +3366,7 @@
             "id": "muggle-wump",
             "name": "Muggle-Wump",
             "reveal": {
-              "chapter": 1
+              "chapter": 14
             },
             "role": "protagonist"
           },
@@ -3375,7 +3375,7 @@
             "id": "roly-poly-bird",
             "name": "The Roly-Poly Bird",
             "reveal": {
-              "chapter": 1
+              "chapter": 18
             },
             "role": "supporting"
           },
@@ -3384,7 +3384,7 @@
             "id": "little-billy",
             "name": "Little Billy",
             "reveal": {
-              "chapter": 2
+              "chapter": 30
             },
             "role": "protagonist"
           },
@@ -3393,7 +3393,7 @@
             "id": "don-mini",
             "name": "Don Mini",
             "reveal": {
-              "chapter": 2
+              "chapter": 30
             },
             "role": "supporting"
           },
@@ -3405,7 +3405,7 @@
             "id": "gruncher",
             "name": "The Gruncher",
             "reveal": {
-              "chapter": 2
+              "chapter": 30
             },
             "role": "antagonist"
           },
@@ -3414,7 +3414,7 @@
             "id": "swan",
             "name": "The Swan",
             "reveal": {
-              "chapter": 2
+              "chapter": 30
             },
             "role": "supporting"
           },
@@ -3423,7 +3423,7 @@
             "id": "girl",
             "name": "The Girl",
             "reveal": {
-              "chapter": 3
+              "chapter": 40
             },
             "role": "protagonist"
           },
@@ -3432,7 +3432,7 @@
             "id": "mr-gregg",
             "name": "Mr Gregg",
             "reveal": {
-              "chapter": 3
+              "chapter": 40
             },
             "role": "supporting"
           },
@@ -3441,7 +3441,7 @@
             "id": "mrs-gregg",
             "name": "Mrs Gregg",
             "reveal": {
-              "chapter": 3
+              "chapter": 40
             },
             "role": "supporting"
           },
@@ -3450,7 +3450,7 @@
             "id": "william-gregg",
             "name": "William Gregg",
             "reveal": {
-              "chapter": 3
+              "chapter": 40
             },
             "role": "minor"
           },
@@ -3459,7 +3459,7 @@
             "id": "philip-gregg",
             "name": "Philip Gregg",
             "reveal": {
-              "chapter": 3
+              "chapter": 40
             },
             "role": "minor"
           }
@@ -3483,21 +3483,21 @@
             "scope": "book",
             "text": "Mr and Mrs Twit are a cruel couple who spend much of their time playing escalating tricks on each other. Their private warfare includes disgusting food, concealed creatures, and a scheme that makes Mrs Twit believe she is steadily shrinking. Their cruelty extends beyond the marriage: they imprison Muggle-Wump and his family of monkeys, forcing them to practice standing upside down, and spread strong glue on a tree so that visiting birds can be baked in a pie. The Roly-Poly Bird helps the monkeys warn the birds away. While the Twits are absent, the animals escape and attach the household furniture to the ceiling. On returning, the couple believe the whole room has turned upside down and stand on their heads to correct themselves. Glue fixes them there, and they shrink until nothing remains. The animals are free to return home.",
             "through": {
-              "chapter": 1
+              "chapter": 29
             }
           },
           {
             "scope": "book",
             "text": "After the Twits are defeated by their captives, Little Billy enters the Forest of Sin despite his mother's warnings. The fire-breathing Gruncher chases him up a tree, where he discovers the Minpins, tiny people whose connected homes occupy the hollow trunks. Their leader, Don Mini, explains that birds provide transportation but that the monster makes the forest floor deadly. Billy learns to ride a Swan and devises a way to help. He draws the Gruncher into a pursuit, stays just ahead of it, and flies out over a lake. When the Swan rises beyond reach, the charging beast plunges into the water and is destroyed. The Minpins can safely use the ground again. Billy returns home and keeps their community secret, but the Swan continues to collect him for nighttime flights and visits with his new friends.",
             "through": {
-              "chapter": 2
+              "chapter": 39
             }
           },
           {
             "scope": "book",
             "text": "The final narrator is a girl whose finger produces transformative magic whenever her anger becomes intense. She objects to the Gregg family's enthusiasm for shooting animals, especially after Mr Gregg and his sons kill ducks. Her anger triggers the power. The next morning, Mr and Mrs Gregg and their sons are tiny and winged, while four human-sized ducks occupy their house with human arms and the family's guns. The Greggs build a nest in a tree and confront hunger, cold, and the fear of being shot. When the ducks threaten them, the family promise to abandon hunting. They regain their normal forms, destroy the guns, and begin treating birds differently. The Girl then discovers signs that the power has affected another hunting family, showing that the Magic Finger remains beyond her control and that the Greggs' lesson is not its final intervention.",
             "through": {
-              "chapter": 3
+              "chapter": 42
             }
           }
         ],

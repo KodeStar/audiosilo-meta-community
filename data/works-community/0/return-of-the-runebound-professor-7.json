@@ -2286,7 +2286,7 @@
             "id": "howard-givings",
             "name": "Howard Givings",
             "reveal": {
-              "chapter": 2
+              "chapter": 10
             },
             "role": "minor"
           },
@@ -2295,7 +2295,7 @@
             "id": "maureen-grube",
             "name": "Maureen Grube",
             "reveal": {
-              "chapter": 3
+              "chapter": 5
             },
             "role": "supporting"
           },
@@ -2304,7 +2304,7 @@
             "id": "bart-pollock",
             "name": "Bart Pollock",
             "reveal": {
-              "chapter": 5
+              "chapter": 13
             },
             "role": "supporting"
           },
@@ -2313,7 +2313,7 @@
             "id": "john-givings",
             "name": "John Givings",
             "reveal": {
-              "chapter": 6
+              "chapter": 12
             },
             "role": "supporting"
           },
@@ -2322,7 +2322,7 @@
             "id": "jennifer-wheeler",
             "name": "Jennifer Wheeler",
             "reveal": {
-              "chapter": 2
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -2331,7 +2331,7 @@
             "id": "michael-wheeler",
             "name": "Michael Wheeler",
             "reveal": {
-              "chapter": 2
+              "chapter": 3
             },
             "role": "minor"
           }
@@ -2355,42 +2355,42 @@
             "scope": "book",
             "text": "April Wheeler gives a poor performance as the lead in a community theater production, and Frank's attempt to comfort her turns into a vicious argument on the drive home. Their fight reveals a marriage sustained partly by the belief that they are more intelligent and alive than the suburban people around them. Frank remembers the early confidence of their courtship and the compromises that brought them to a house on Revolutionary Road with two children. By morning, neither has resolved the humiliation or the anger exposed after the play.",
             "through": {
-              "chapter": 2
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "Frank commutes to an unfulfilling job at Knox Business Machines, where he performs sophistication for his younger secretary, Maureen Grube, and begins an affair with her. At home, April proposes a radical solution to their stagnation: the family will move to Paris, she will support them by working, and Frank will be free to discover what he actually wants to do. He is flattered by her faith in his unrealized potential. Planning the move revives their intimacy and gives both of them a story in which their present failures are temporary.",
             "through": {
-              "chapter": 3
+              "chapter": 8
             }
           },
           {
             "scope": "book",
             "text": "The Wheelers announce the Paris plan to Shep and Milly Campbell and to others in their circle. The reactions allow Frank and April to feel daring and united, although Shep is distressed by the prospect of April leaving. Helen Givings brings her son John, temporarily out of a psychiatric hospital, to meet the couple. His contempt for suburban pretense seems to validate their planned escape. Meanwhile, Frank continues concealing his affair, so the new honesty he celebrates at home rests on another deception.",
             "through": {
-              "chapter": 4
+              "chapter": 12
             }
           },
           {
             "scope": "book",
             "text": "Two developments threaten the move. Frank attracts the attention of executive Bart Pollock, who offers the recognition and advancement at Knox that Frank had claimed not to want. April then learns that she is pregnant. She proposes ending the pregnancy herself so they can preserve the Paris plan, but Frank resists. His objections combine genuine fear with a growing desire to accept the corporate future now available to him. Their shared project becomes another contest over whose account of their life will prevail, and Paris is canceled.",
             "through": {
-              "chapter": 6
+              "chapter": 14
             }
           },
           {
             "scope": "book",
             "text": "Without Paris, the Wheelers lose the hopeful role that briefly held them together. Frank presents the pregnancy and promotion as reasons for maturity, while April sees him using them to retreat into the life they both condemned. During another visit, John Givings immediately detects that the plan has collapsed and says openly that fear, not necessity, stopped them. His attack strips away their preferred explanations. Frank later confesses his affair with Maureen, expecting the disclosure to have emotional force, but April responds with detachment rather than jealousy.",
             "through": {
-              "chapter": 8
+              "chapter": 18
             }
           },
           {
             "scope": "book",
             "text": "April turns briefly to Shep Campbell, who has long loved her, but their encounter offers no durable escape. After a final night of conflict with Frank, she becomes calm and prepares breakfast for him the next morning. Once Frank leaves for work, April attempts to terminate her pregnancy alone. She hemorrhages and dies after being taken to the hospital. Frank is left devastated and later moves away, while Jennifer and Michael are placed with relatives. Shep grieves privately, and the house on Revolutionary Road is sold to a new family. Helen Givings reshapes the Wheelers' story into neighborhood conversation; as she talks, Howard Givings switches off his hearing aid, ending the novel with another quiet act of withdrawal.",
             "through": {
-              "chapter": 9
+              "chapter": 22
             }
           }
         ],
@@ -2996,7 +2996,7 @@
             "id": "duchess-of-gloucester",
             "name": "Duchess of Gloucester",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -3008,7 +3008,7 @@
             "id": "aumerle",
             "name": "Aumerle",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3020,7 +3020,7 @@
             "id": "duke-of-york",
             "name": "Duke of York",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -3032,7 +3032,7 @@
             "id": "queen-isabel",
             "name": "Queen Isabel",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -3044,7 +3044,7 @@
             "id": "northumberland",
             "name": "Northumberland",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -3053,7 +3053,7 @@
             "id": "bushy",
             "name": "Bushy",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -3062,7 +3062,7 @@
             "id": "green",
             "name": "Green",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -3071,7 +3071,7 @@
             "id": "bishop-of-carlisle",
             "name": "Bishop of Carlisle",
             "reveal": {
-              "chapter": 10
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -3080,7 +3080,7 @@
             "id": "gardener",
             "name": "Gardener",
             "reveal": {
-              "chapter": 12
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -3092,7 +3092,7 @@
             "id": "duchess-of-york",
             "name": "Duchess of York",
             "reveal": {
-              "chapter": 15
+              "chapter": 5
             },
             "role": "supporting"
           },
@@ -3101,7 +3101,7 @@
             "id": "exton",
             "name": "Exton",
             "reveal": {
-              "chapter": 17
+              "chapter": 5
             },
             "role": "minor"
           }
@@ -3125,42 +3125,28 @@
             "scope": "book",
             "text": "King Richard summons Henry Bolingbroke and Thomas Mowbray to hear their accusations. Bolingbroke charges Mowbray with treason and involvement in the Duke of Gloucester's death; Mowbray denies it. John of Gaunt refuses to pursue vengeance for Gloucester outside lawful royal authority, despite the murdered man's widow urging action. Richard arranges a trial by combat at Coventry, then halts it before the duel begins. He banishes Bolingbroke for ten years, reduced to six after seeing Gaunt's grief, and banishes Mowbray for life. Mowbray laments losing his native language, while Bolingbroke leaves England bitter but controlled. Richard then prepares an expedition to Ireland, already short of money and surrounded by favorites whose influence troubles older nobles.",
             "through": {
-              "chapter": 4
+              "chapter": 1
             }
           },
           {
             "scope": "book",
-            "text": "The dying Gaunt rebukes Richard for exploiting England and wasting its inherited wealth. After Gaunt dies, Richard seizes his lands and revenues rather than allowing Bolingbroke to inherit, alarming York and other nobles because their own property now seems insecure. Richard names York as regent and leaves for Ireland. Northumberland, Ross, and Willoughby learn that Bolingbroke has returned with armed supporters, publicly claiming his lawful inheritance. York lacks the resources and confidence to resist effectively. The Welsh force waiting for Richard disperses after rumors of his death, while the queen's foreboding deepens. Bushy and Green flee toward Bristol; Bolingbroke's party captures and executes them, and the nobles who had supported Richard increasingly join the returning exile.",
+            "text": "The dying Gaunt rebukes Richard for exploiting England and wasting its inherited wealth. After Gaunt dies, Richard seizes his lands and revenues rather than allowing Bolingbroke to inherit, alarming York and other nobles because their own property now seems insecure. Richard names York as regent and leaves for Ireland. Northumberland, Ross, and Willoughby learn that Bolingbroke has returned with armed supporters, publicly claiming his lawful inheritance. York lacks the resources and confidence to resist effectively. The Welsh force waiting for Richard disperses after rumors of his death, while the queen's foreboding deepens. Bushy and Green flee toward Bristol; Bolingbroke's party captures and executes them, and the nobles who had supported Richard increasingly join the returning exile. Richard returns from Ireland and initially trusts that divine kingship and loyal subjects will defeat Bolingbroke. Successive reports strip away that confidence: the Welsh troops are gone, favorites have been executed, York has submitted, and more nobles have changed sides. At Flint Castle, Bolingbroke presents himself as a subject seeking only the restoration of his title and estate, backed by an army. Richard recognizes that he has no effective choice and agrees to go with him to London. The queen overhears a gardener compare the neglected country to an untended garden and learns that Richard is expected to be deposed. Her personal grief now joins the public collapse of his rule.",
             "through": {
-              "chapter": 9
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Richard returns from Ireland and initially trusts that divine kingship and loyal subjects will defeat Bolingbroke. Successive reports strip away that confidence: the Welsh troops are gone, favorites have been executed, York has submitted, and more nobles have changed sides. At Flint Castle, Bolingbroke presents himself as a subject seeking only the restoration of his title and estate, backed by an army. Richard recognizes that he has no effective choice and agrees to go with him to London. The queen overhears a gardener compare the neglected country to an untended garden and learns that Richard is expected to be deposed. Her personal grief now joins the public collapse of his rule.",
-            "through": {
-              "chapter": 12
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "In Parliament, Bolingbroke demands judgment on the charges surrounding Gloucester's death. The Bishop of Carlisle argues that a lawful king cannot be judged by a subject and predicts civil war if Richard is deposed. He is arrested for treason. Richard is brought in to relinquish the crown publicly. He and Bolingbroke hold it between them before Richard surrenders it, and Richard examines how royal identity dissolves when its ceremonies and authority are removed. He refuses to read a written confession of crimes and asks for a mirror, which he breaks after seeing that his face does not display his inner ruin. Bolingbroke becomes King Henry IV. Aumerle and the Abbot of Westminster then join a secret plan intended to remove the new king and restore Richard.",
             "through": {
-              "chapter": 13
+              "chapter": 4
             }
           },
           {
             "scope": "book",
-            "text": "On the road to confinement, Richard and Queen Isabel share a final meeting. Richard tells her to return to France and preserve his story, while Northumberland forces them apart. At York's house, York discovers a sealed document showing that his son Aumerle is involved in the conspiracy against Henry IV. He rides to expose it despite the Duchess of York's pleas. Aumerle reaches the king first and confesses; York demands punishment, while the duchess kneels until Henry pardons her son. The other conspirators receive no such protection. Henry later speaks of his unease while Richard remains alive, and Exton interprets the remark as a wish for Richard's death. Richard, meanwhile, has been sent to Pomfret Castle.",
+            "text": "On the road to confinement, Richard and Queen Isabel share a final meeting. Richard tells her to return to France and preserve his story, while Northumberland forces them apart. At York's house, York discovers a sealed document showing that his son Aumerle is involved in the conspiracy against Henry IV. He rides to expose it despite the Duchess of York's pleas. Aumerle reaches the king first and confesses; York demands punishment, while the duchess kneels until Henry pardons her son. The other conspirators receive no such protection. Henry later speaks of his unease while Richard remains alive, and Exton interprets the remark as a wish for Richard's death. Richard, meanwhile, has been sent to Pomfret Castle. At Pomfret, Richard tries to occupy his isolation by analyzing his situation, but each reflection returns him to mortality and the loss of kingship. A groom visits and tells him that Bolingbroke rode Richard's former horse at the coronation. When a keeper refuses Richard's accustomed food privilege on orders from above, Richard attacks him. Exton enters with armed servants; Richard seizes a weapon and kills one man before Exton strikes him down. The new king receives reports that the conspirators against him have been killed and pardons Carlisle. Exton then presents Richard's body. Henry condemns and banishes Exton, denying that he ordered the murder even as he recognizes that his own anxious words encouraged it. He announces a journey to Jerusalem to seek absolution. Henry IV possesses the throne, but Richard's blood and the suppression of resistance darken the new reign from its beginning.",
             "through": {
-              "chapter": 17
-            }
-          },
-          {
-            "scope": "book",
-            "text": "At Pomfret, Richard tries to occupy his isolation by analyzing his situation, but each reflection returns him to mortality and the loss of kingship. A groom visits and tells him that Bolingbroke rode Richard's former horse at the coronation. When a keeper refuses Richard's accustomed food privilege on orders from above, Richard attacks him. Exton enters with armed servants; Richard seizes a weapon and kills one man before Exton strikes him down. The new king receives reports that the conspirators against him have been killed and pardons Carlisle. Exton then presents Richard's body. Henry condemns and banishes Exton, denying that he ordered the murder even as he recognizes that his own anxious words encouraged it. He announces a journey to Jerusalem to seek absolution. Henry IV possesses the throne, but Richard's blood and the suppression of resistance darken the new reign from its beginning.",
-            "through": {
-              "chapter": 19
+              "chapter": 5
             }
           }
         ],

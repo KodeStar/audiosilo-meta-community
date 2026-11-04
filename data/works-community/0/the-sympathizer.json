@@ -5453,7 +5453,7 @@
             "id": "weena",
             "name": "Weena",
             "reveal": {
-              "chapter": 1
+              "chapter": 8
             },
             "role": "supporting"
           },
@@ -5462,7 +5462,7 @@
             "id": "the-eloi",
             "name": "The Eloi",
             "reveal": {
-              "chapter": 1
+              "chapter": 5
             },
             "role": "supporting"
           },
@@ -5471,7 +5471,7 @@
             "id": "the-morlocks",
             "name": "The Morlocks",
             "reveal": {
-              "chapter": 1
+              "chapter": 9
             },
             "role": "antagonist"
           },
@@ -5480,7 +5480,7 @@
             "id": "edward-prendick",
             "name": "Edward Prendick",
             "reveal": {
-              "chapter": 2
+              "chapter": 19
             },
             "role": "protagonist"
           },
@@ -5489,7 +5489,7 @@
             "id": "montgomery",
             "name": "Montgomery",
             "reveal": {
-              "chapter": 2
+              "chapter": 20
             },
             "role": "supporting"
           },
@@ -5498,7 +5498,7 @@
             "id": "doctor-moreau",
             "name": "Doctor Moreau",
             "reveal": {
-              "chapter": 2
+              "chapter": 25
             }
           },
           {
@@ -5506,7 +5506,7 @@
             "id": "mling",
             "name": "M'ling",
             "reveal": {
-              "chapter": 2
+              "chapter": 21
             },
             "role": "supporting"
           },
@@ -5515,7 +5515,7 @@
             "id": "the-sayer-of-the-law",
             "name": "The Sayer of the Law",
             "reveal": {
-              "chapter": 2
+              "chapter": 30
             },
             "role": "supporting"
           },
@@ -5527,7 +5527,7 @@
             "id": "griffin",
             "name": "Griffin",
             "reveal": {
-              "chapter": 3
+              "chapter": 41
             },
             "role": "protagonist"
           },
@@ -5536,7 +5536,7 @@
             "id": "mrs-hall",
             "name": "Mrs Hall",
             "reveal": {
-              "chapter": 3
+              "chapter": 41
             },
             "role": "supporting"
           },
@@ -5545,7 +5545,7 @@
             "id": "thomas-marvel",
             "name": "Thomas Marvel",
             "reveal": {
-              "chapter": 3
+              "chapter": 49
             },
             "role": "supporting"
           },
@@ -5554,7 +5554,7 @@
             "id": "doctor-kemp",
             "name": "Doctor Kemp",
             "reveal": {
-              "chapter": 3
+              "chapter": 57
             },
             "role": "supporting"
           },
@@ -5563,7 +5563,7 @@
             "id": "colonel-adye",
             "name": "Colonel Adye",
             "reveal": {
-              "chapter": 3
+              "chapter": 65
             },
             "role": "supporting"
           },
@@ -5572,7 +5572,7 @@
             "id": "bobby-jaffers",
             "name": "Bobby Jaffers",
             "reveal": {
-              "chapter": 3
+              "chapter": 47
             },
             "role": "minor"
           }
@@ -5596,21 +5596,21 @@
             "scope": "book",
             "text": "The Time Traveller shows skeptical dinner guests a device that vanishes and later returns from an absence injured and exhausted. He says his full-sized machine carried him to the year 802,701, where the small, carefree Eloi inhabit a warm landscape of decaying buildings. He befriends Weena after saving her from drowning, but his machine disappears from the lawn beside the White Sphinx. Investigation reveals the Morlocks, pale beings who live underground, maintain old machinery, and prey on the Eloi. Seeking tools and weapons, the Traveller takes Weena toward a ruined museum. A forest fire separates them during a Morlock attack, and he cannot find her afterward. At the Sphinx he enters a trap, fights off the Morlocks, and escapes in the recovered machine. He travels much farther forward, seeing a cooling Earth occupied by strange coastal creatures and eventually an almost lifeless world beneath a dim sun. Returning to his own evening, he produces two unfamiliar flowers that Weena placed in his pocket. The next day he departs again with supplies and a camera, promising a short trip, but three years pass without his return.",
             "through": {
-              "chapter": 1
+              "chapter": 17
             }
           },
           {
             "scope": "book",
             "text": "The first novel ends with the Time Traveller disappearing on a second journey after describing the Eloi, the Morlocks, Weena's loss, and Earth's remote decline. The collection then turns to Edward Prendick, a castaway delivered to an isolated Pacific island by Montgomery and Doctor Moreau. Prendick discovers that Moreau uses surgery and conditioning to turn animals into speaking, humanlike Beast Folk, who are held to a code against animal conduct by fear of their creator. When a puma escapes during an operation, Moreau pursues it and both are killed. The Beast Folk begin to lose their learned restraint and revert. Montgomery, despondent and drunk, releases the remaining animals, burns the boats, and dies in a struggle that also destroys the compound. Prendick survives by maintaining the appearance of authority among the Beast Folk, even as their speech and social order decay. He eventually leaves on a small boat that drifts ashore carrying two corpses and is rescued. Back in England, nobody believes his account. Unable to stop seeing hints of the islanders in other people, he avoids crowds and finds limited peace in astronomy and scientific study.",
             "through": {
-              "chapter": 2
+              "chapter": 40
             }
           },
           {
             "scope": "book",
             "text": "After the Time Traveller vanishes and Prendick escapes Moreau's collapsing island, a bandaged stranger named Griffin arrives in Iping to continue private experiments. He has made his body invisible, but the condition leaves him exposed to cold, hunger, dirt, and discovery. When money runs out he steals, reveals himself while resisting arrest, and flees without clothes. He coerces the tramp Thomas Marvel into carrying his books and stolen cash, but Marvel escapes to Port Burdock. Wounded and desperate, Griffin seeks help from his former university acquaintance Doctor Kemp. He explains that he discovered how to alter the way living tissue refracts light, tested the process on himself, and destroyed his former lodging, but found invisible life punishing. Griffin now proposes that Kemp help him establish a reign of terror. Kemp secretly alerts the authorities. Griffin escapes, announces that Kemp will be killed, and attacks the house, shooting Colonel Adye during the pursuit. Kemp runs into the town and calls for help; workers and bystanders surround Griffin despite being unable to see him and beat him to death. His body gradually becomes visible as a young albino man. Marvel keeps the stolen money, opens an inn, and secretly studies Griffin's coded notebooks, though he cannot decipher the scientific work they contain.",
             "through": {
-              "chapter": 3
+              "chapter": 69
             }
           }
         ],

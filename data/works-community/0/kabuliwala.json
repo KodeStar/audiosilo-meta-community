@@ -2198,7 +2198,7 @@
             "id": "edgar",
             "name": "Edgar",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2231,7 +2231,7 @@
             "id": "fool",
             "name": "Fool",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2240,7 +2240,7 @@
             "id": "oswald",
             "name": "Oswald",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2252,7 +2252,7 @@
             "id": "france",
             "name": "France",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -2264,7 +2264,7 @@
             "id": "burgundy",
             "name": "Burgundy",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           }
@@ -2288,35 +2288,28 @@
             "scope": "book",
             "text": "Lear announces that he will divide Britain among his three daughters while keeping the name and privileges of king. Goneril and Regan answer his public love test with elaborate praise. Cordelia refuses to exaggerate and says she loves him according to her duty. Enraged, Lear disinherits her, banishes Kent for objecting, and divides her share between the elder sisters and their husbands. Burgundy withdraws as Cordelia's suitor, but the King of France marries her without a dowry. Goneril and Regan privately agree that their father's rashness will have to be managed. In Gloucester's family, Edmund resents the preference given to his legitimate brother Edgar. He forges a letter suggesting Edgar wants their father's estate and begins persuading each man that the other is dangerous.",
             "through": {
-              "chapter": 2
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Kent returns in disguise and is accepted as Lear's servant. At Goneril's home, Lear's large company behaves as though he still rules. Goneril orders her household to show less deference and demands that he reduce his followers. Lear curses her and leaves for Regan, expecting kinder treatment. Goneril sends Oswald ahead with her account. Edmund stages a fight and wounds himself, framing Edgar as a would-be murderer; Gloucester condemns Edgar and promises Edmund the inheritance. Regan and Cornwall support Goneril, punish the disguised Kent for quarreling with Oswald, and refuse Lear's demand for an independent royal company. The sisters reduce the number of attendants they will allow until Lear rejects shelter on their terms. He goes out into a violent storm with the Fool while the doors are shut against him.",
             "through": {
+              "chapter": 2
+            }
+          },
+          {
+            "scope": "book",
+            "text": "On the heath Lear rages at the storm, confronts his loss of authority, and begins to recognize the suffering of people who have no shelter. Kent guides him toward refuge, where they meet Edgar disguised as a destitute madman. Gloucester decides to help Lear despite Cornwall's orders and confides in Edmund, who immediately betrays him. Lear, the Fool, Kent, and Edgar are led toward Dover. Cornwall and Regan seize Gloucester. After he admits helping Lear escape, they blind him; a servant who tries to stop them wounds Cornwall before Regan kills the servant. Gloucester is then turned out and learns that Edmund exposed him. Realizing Edgar was falsely accused, he asks to be led toward the cliffs at Dover. Still disguised, Edgar meets his father and undertakes to guide him. At Dover, Edgar prevents Gloucester's intended suicide by convincing him that he has miraculously survived a fall. Lear appears, crowned with weeds and speaking with flashes of insight amid mental disorder, before Cordelia's attendants take him to safety. Goneril and Regan each become attached to Edmund, adding personal rivalry to the political conflict. Albany turns against Goneril after learning how Lear and Gloucester have been treated. Cornwall has died from the wound inflicted by his servant. Cordelia returns with French forces to rescue her father. Lear wakes under her care, recognizes her, and asks forgiveness; she receives him with compassion rather than reproach. The reconciliation restores their bond, but the armies are about to fight, and Edmund now commands forces for the sisters' side.",
+            "through": {
               "chapter": 4
-            }
-          },
-          {
-            "scope": "book",
-            "text": "On the heath Lear rages at the storm, confronts his loss of authority, and begins to recognize the suffering of people who have no shelter. Kent guides him toward refuge, where they meet Edgar disguised as a destitute madman. Gloucester decides to help Lear despite Cornwall's orders and confides in Edmund, who immediately betrays him. Lear, the Fool, Kent, and Edgar are led toward Dover. Cornwall and Regan seize Gloucester. After he admits helping Lear escape, they blind him; a servant who tries to stop them wounds Cornwall before Regan kills the servant. Gloucester is then turned out and learns that Edmund exposed him. Realizing Edgar was falsely accused, he asks to be led toward the cliffs at Dover. Still disguised, Edgar meets his father and undertakes to guide him.",
-            "through": {
-              "chapter": 6
-            }
-          },
-          {
-            "scope": "book",
-            "text": "At Dover, Edgar prevents Gloucester's intended suicide by convincing him that he has miraculously survived a fall. Lear appears, crowned with weeds and speaking with flashes of insight amid mental disorder, before Cordelia's attendants take him to safety. Goneril and Regan each become attached to Edmund, adding personal rivalry to the political conflict. Albany turns against Goneril after learning how Lear and Gloucester have been treated. Cornwall has died from the wound inflicted by his servant. Cordelia returns with French forces to rescue her father. Lear wakes under her care, recognizes her, and asks forgiveness; she receives him with compassion rather than reproach. The reconciliation restores their bond, but the armies are about to fight, and Edmund now commands forces for the sisters' side.",
-            "through": {
-              "chapter": 8
             }
           },
           {
             "scope": "book",
             "text": "Cordelia's army is defeated, and she and Lear are taken prisoner. Lear imagines that captivity with Cordelia can still give them a private peace, but Edmund sends an officer with secret instructions to kill them. Albany accuses Edmund of treason and Goneril of conspiring with him. A disguised Edgar answers the formal challenge and mortally wounds Edmund, then identifies himself. He recounts that Gloucester died after the shock and joy of learning his loyal son was alive. Regan collapses from poison administered by Goneril, and Goneril kills herself when her plots are exposed. Edmund tries to revoke the death order, but the rescue arrives too late. Lear enters carrying Cordelia's body; she has been hanged. Unable to accept her death, he dies beside her. Albany asks Kent and Edgar to share rule. Kent expects to follow Lear in death, leaving Edgar to face the work of restoring the ruined state.",
             "through": {
-              "chapter": 10
+              "chapter": 5
             }
           }
         ],

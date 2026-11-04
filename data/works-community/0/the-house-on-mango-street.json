@@ -4535,7 +4535,7 @@
             "id": "luke-ellis",
             "name": "Luke Ellis",
             "reveal": {
-              "chapter": 2
+              "chapter": 24
             },
             "role": "protagonist"
           },
@@ -4553,7 +4553,7 @@
             "id": "mrs-sigsby",
             "name": "Mrs. Sigsby",
             "reveal": {
-              "chapter": 5
+              "chapter": 36
             },
             "role": "antagonist"
           },
@@ -4562,7 +4562,7 @@
             "id": "kalisha-benson",
             "name": "Kalisha Benson",
             "reveal": {
-              "chapter": 5
+              "chapter": 36
             },
             "role": "supporting"
           },
@@ -4571,7 +4571,7 @@
             "id": "nicky-wilholm",
             "name": "Nicky Wilholm",
             "reveal": {
-              "chapter": 5
+              "chapter": 36
             },
             "role": "supporting"
           },
@@ -4580,7 +4580,7 @@
             "id": "avery-dixon",
             "name": "Avery Dixon",
             "reveal": {
-              "chapter": 10
+              "chapter": 65
             },
             "role": "supporting"
           },
@@ -4589,7 +4589,7 @@
             "id": "george-iles",
             "name": "George Iles",
             "reveal": {
-              "chapter": 5
+              "chapter": 36
             },
             "role": "supporting"
           },
@@ -4598,7 +4598,7 @@
             "id": "maureen-alvorson",
             "name": "Maureen Alvorson",
             "reveal": {
-              "chapter": 7
+              "chapter": 65
             },
             "role": "supporting"
           },
@@ -4607,7 +4607,7 @@
             "id": "trevor-stackhouse",
             "name": "Trevor Stackhouse",
             "reveal": {
-              "chapter": 6
+              "chapter": 65
             },
             "role": "antagonist"
           },
@@ -4616,7 +4616,7 @@
             "id": "sheriff-john",
             "name": "Sheriff John",
             "reveal": {
-              "chapter": 3
+              "chapter": 15
             },
             "role": "supporting"
           },
@@ -4625,7 +4625,7 @@
             "id": "wendy-gullickson",
             "name": "Wendy Gullickson",
             "reveal": {
-              "chapter": 3
+              "chapter": 15
             },
             "role": "supporting"
           },
@@ -4634,7 +4634,7 @@
             "id": "dr-hendricks",
             "name": "Dr. Hendricks",
             "reveal": {
-              "chapter": 6
+              "chapter": 36
             },
             "role": "antagonist"
           }
@@ -4658,42 +4658,42 @@
             "scope": "book",
             "text": "Former Florida police officer Tim Jamieson gives up his airline seat for cash and begins traveling north by slower means. He stops in DuPray, South Carolina, where a local vacancy and his instincts lead him to take a low-paid job as the police department's night knocker. In Minneapolis, twelve-year-old Luke Ellis is intellectually advanced enough to be considering two colleges at once and has occasional telekinetic flashes. A professional team enters his home, kills his parents, drugs him, and carries him away. Luke wakes in a room built to resemble his own, but the view outside reveals that he is imprisoned in an unfamiliar compound.",
             "through": {
-              "chapter": 4
+              "chapter": 26
             }
           },
           {
             "scope": "book",
             "text": "Luke discovers that he is in the Front Half of a secret facility holding children with telepathic or telekinetic talents. Kalisha Benson, Nicky Wilholm, George Iles, and other captives explain the routines: staff members run invasive tests, award tokens for obedience, punish resistance, and eventually transfer children to Back Half, from which nobody returns. Director Mrs. Sigsby insists that the work serves a greater good, while security chief Trevor Stackhouse ensures compliance. Luke hides the full extent of his intelligence and begins watching the institution as carefully as it watches him.",
             "through": {
-              "chapter": 8
+              "chapter": 36
             }
           },
           {
             "scope": "book",
             "text": "Young Avery Dixon arrives terrified but displays far stronger telepathy than the Institute expected. He joins Luke's circle and begins hearing thoughts beyond ordinary range. The children learn that the facility uses harsh procedures to intensify their abilities and that Back Half subjects are being consumed by some larger operation. Luke also gains the cautious sympathy of housekeeper Maureen Alvorson. Burdened by debts and mistreatment, Maureen secretly gives him information and helps him identify weaknesses in the compound's security. As Luke's friends are transferred away, escape becomes urgent rather than theoretical.",
             "through": {
-              "chapter": 12
+              "chapter": 65
             }
           },
           {
             "scope": "book",
             "text": "Luke uses Maureen's assistance, stolen access, and a gap beneath the perimeter fence to flee the Institute. He reaches a freight train and hides among its cargo, carrying evidence that may support his story. The Institute discovers the escape, suppresses local traces, and begins a wide search under Stackhouse's direction. Luke survives the long journey south and arrives exhausted in DuPray, where Tim notices him. Though Luke's account sounds impossible, his knowledge, physical condition, and documentation persuade Tim that he needs protection rather than dismissal.",
             "through": {
-              "chapter": 16
+              "chapter": 118
             }
           },
           {
             "scope": "book",
             "text": "Tim brings Luke's evidence to Sheriff John and the DuPray officers. The Institute locates Luke and sends Mrs. Sigsby, Stackhouse, and an armed team to recover him and eliminate witnesses. Tim and the police prepare the station and town for an attack, while Luke realizes that the minds of his captive friends remain connected to him across the distance. The assault becomes a gunfight in DuPray. The defenders kill or capture many of the raiders and take Sigsby alive, but the larger crisis remains at the Institute, where Avery and the Back Half children are being pushed toward a final collective action.",
             "through": {
-              "chapter": 20
+              "chapter": 155
             }
           },
           {
             "scope": "book",
             "text": "Avery links the exhausted children in Back Half, and Luke helps focus their combined telepathic and telekinetic strength from DuPray. They wrench the Institute's structures from their foundations and destroy the compound. Avery and other captives die, as do Stackhouse and Mrs. Sigsby, but Kalisha, Nicky, George, and several children survive. The dispersed Institute network begins closing facilities and erasing evidence. Months later, the survivors are sheltered in DuPray when a calm representative visits. He says the network identified future mass killers and sacrificed gifted children to prevent enormous loss of life. Luke exposes the uncertainty in those predictions and refuses the claim that the system was justified. The representative withdraws, leaving Luke and the others alive to decide how their abilities might be used more humanely.",
             "through": {
-              "chapter": 24
+              "chapter": 193
             }
           }
         ],

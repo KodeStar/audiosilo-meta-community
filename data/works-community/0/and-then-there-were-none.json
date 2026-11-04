@@ -2999,7 +2999,7 @@
             "id": "creon",
             "name": "Creon",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "antagonist"
           },
@@ -3026,7 +3026,7 @@
             "id": "guard",
             "name": "Guard",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3035,7 +3035,7 @@
             "id": "haemon",
             "name": "Haemon",
             "reveal": {
-              "chapter": 7
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -3044,7 +3044,7 @@
             "id": "tiresias",
             "name": "Tiresias",
             "reveal": {
-              "chapter": 11
+              "chapter": 5
             },
             "role": "supporting"
           },
@@ -3053,7 +3053,7 @@
             "id": "eurydice",
             "name": "Eurydice",
             "reveal": {
-              "chapter": 13
+              "chapter": 5
             },
             "role": "supporting"
           },
@@ -3062,7 +3062,7 @@
             "id": "chorus-of-theban-elders",
             "name": "Chorus of Theban Elders",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           }
@@ -3084,37 +3084,23 @@
         "recaps": [
           {
             "scope": "book",
-            "text": "Thebes has survived an attack led by Polyneices, one of the sons of Oedipus. Polyneices and his brother Eteocles have killed each other, leaving their uncle Creon to rule. Antigone secretly tells her sister Ismene that Creon has ordered Eteocles buried with honour but forbidden anyone to bury Polyneices. For Antigone, the command conflicts with obligations owed to the dead and to the gods. She asks Ismene to help cover their brother's body. Ismene is afraid of the death penalty and argues that the surviving sisters have too little power to challenge the state. Antigone rejects caution, declares that she will perform the burial herself, and leaves Ismene distressed but unable to stop her.",
+            "text": "Thebes has survived an attack led by Polyneices, one of the sons of Oedipus. Polyneices and his brother Eteocles have killed each other, leaving their uncle Creon to rule. Antigone secretly tells her sister Ismene that Creon has ordered Eteocles buried with honour but forbidden anyone to bury Polyneices. For Antigone, the command conflicts with obligations owed to the dead and to the gods. She asks Ismene to help cover their brother's body. Ismene is afraid of the death penalty and argues that the surviving sisters have too little power to challenge the state. Antigone rejects caution, declares that she will perform the burial herself, and leaves Ismene distressed but unable to stop her. The Chorus of Theban elders celebrates the city's escape from conquest. Creon addresses them as the new king and defines loyalty to the city as the basis of good rule. He announces that Eteocles will receive full honours while Polyneices must remain exposed, guarded against anyone attempting burial. A frightened sentry then reports that someone has scattered dust over Polyneices and carried out the minimum funeral observance without leaving a clear trace. Creon suspects bribery and conspiracy rather than religious duty. He threatens the guards unless they find the offender, turning the unexplained rite into a direct test of his authority.",
             "through": {
               "chapter": 1
             }
           },
           {
             "scope": "book",
-            "text": "The Chorus of Theban elders celebrates the city's escape from conquest. Creon addresses them as the new king and defines loyalty to the city as the basis of good rule. He announces that Eteocles will receive full honours while Polyneices must remain exposed, guarded against anyone attempting burial. A frightened sentry then reports that someone has scattered dust over Polyneices and carried out the minimum funeral observance without leaving a clear trace. Creon suspects bribery and conspiracy rather than religious duty. He threatens the guards unless they find the offender, turning the unexplained rite into a direct test of his authority.",
+            "text": "The guards clear the dust and keep watch. When Antigone returns and repeats the rites, they arrest her and bring her before Creon. She admits the act without hesitation and argues that his proclamation cannot cancel older divine laws governing the dead. Creon regards her defiance, and especially her refusal to submit after being caught, as intolerable. Ismene tries to share responsibility, but Antigone will not let her claim a deed she declined to perform. Creon condemns Antigone despite her engagement to his son. Haemon approaches respectfully and urges his father to listen to the citizens, who pity Antigone, and to remain flexible. Creon interprets disagreement as disobedience. Their argument ends with Haemon leaving in anger and Creon resolved to confine Antigone alive in a stone chamber.",
             "through": {
               "chapter": 3
             }
           },
           {
             "scope": "book",
-            "text": "The guards clear the dust and keep watch. When Antigone returns and repeats the rites, they arrest her and bring her before Creon. She admits the act without hesitation and argues that his proclamation cannot cancel older divine laws governing the dead. Creon regards her defiance, and especially her refusal to submit after being caught, as intolerable. Ismene tries to share responsibility, but Antigone will not let her claim a deed she declined to perform. Creon condemns Antigone despite her engagement to his son. Haemon approaches respectfully and urges his father to listen to the citizens, who pity Antigone, and to remain flexible. Creon interprets disagreement as disobedience. Their argument ends with Haemon leaving in anger and Creon resolved to confine Antigone alive in a stone chamber.",
+            "text": "Antigone is led away to the chamber where she will be sealed with only a small provision of food. She mourns the marriage and ordinary life she will never have, while still holding to the duty that brought her sentence. Creon refuses to accept responsibility for her coming death because the confinement leaves her fate formally to the gods. Tiresias arrives with evidence that the city's religious rites are failing: birds and sacrificial signs have been polluted by remains taken from Polyneices' unburied body. He warns that Creon has reversed the proper order by keeping a dead man above ground and placing a living woman below it. Creon first accuses the prophet of corruption, but Tiresias predicts deaths within Creon's own household. After the prophet leaves, the shaken Chorus persuades the king to undo his commands. Creon finally arranges burial for Polyneices and then hurries to release Antigone, but his change of mind is too late. At the chamber, Antigone has hanged herself. Haemon is beside her; after attempting to strike Creon, he turns his weapon on himself and dies holding Antigone. A messenger brings the news to Eurydice. She listens quietly, enters the palace, and kills herself, blaming Creon for the loss of her sons. Creon returns carrying Haemon's body and is told of his wife's death. The king who treated compromise as weakness is left alive without his family, acknowledging that his own decisions caused the disaster. He asks his attendants to take him away. The Chorus concludes that pride and irreverence bring severe punishment and that wisdom often arrives only through suffering.",
             "through": {
-              "chapter": 7
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Antigone is led away to the chamber where she will be sealed with only a small provision of food. She mourns the marriage and ordinary life she will never have, while still holding to the duty that brought her sentence. Creon refuses to accept responsibility for her coming death because the confinement leaves her fate formally to the gods. Tiresias arrives with evidence that the city's religious rites are failing: birds and sacrificial signs have been polluted by remains taken from Polyneices' unburied body. He warns that Creon has reversed the proper order by keeping a dead man above ground and placing a living woman below it. Creon first accuses the prophet of corruption, but Tiresias predicts deaths within Creon's own household. After the prophet leaves, the shaken Chorus persuades the king to undo his commands.",
-            "through": {
-              "chapter": 11
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Creon finally arranges burial for Polyneices and then hurries to release Antigone, but his change of mind is too late. At the chamber, Antigone has hanged herself. Haemon is beside her; after attempting to strike Creon, he turns his weapon on himself and dies holding Antigone. A messenger brings the news to Eurydice. She listens quietly, enters the palace, and kills herself, blaming Creon for the loss of her sons. Creon returns carrying Haemon's body and is told of his wife's death. The king who treated compromise as weakness is left alive without his family, acknowledging that his own decisions caused the disaster. He asks his attendants to take him away. The Chorus concludes that pride and irreverence bring severe punishment and that wisdom often arrives only through suffering.",
-            "through": {
-              "chapter": 13
+              "chapter": 5
             }
           }
         ],

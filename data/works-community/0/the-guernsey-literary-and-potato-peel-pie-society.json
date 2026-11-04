@@ -1892,7 +1892,7 @@
             "id": "edward-lane",
             "name": "Edward Lane",
             "reveal": {
-              "chapter": 1
+              "chapter": 10
             },
             "role": "supporting"
           },
@@ -1901,7 +1901,7 @@
             "id": "kate-lane",
             "name": "Kate Lane",
             "reveal": {
-              "chapter": 2
+              "chapter": 20
             },
             "role": "supporting"
           },
@@ -1910,7 +1910,7 @@
             "id": "john-gregory",
             "name": "John Gregory",
             "reveal": {
-              "chapter": 1
+              "chapter": 10
             },
             "role": "supporting"
           },
@@ -1919,7 +1919,7 @@
             "id": "kowalski",
             "name": "Kowalski",
             "reveal": {
-              "chapter": 1
+              "chapter": 10
             },
             "role": "minor"
           },
@@ -1928,7 +1928,7 @@
             "id": "carter-groom",
             "name": "Carter Groom",
             "reveal": {
-              "chapter": 1
+              "chapter": 10
             },
             "role": "minor"
           },
@@ -1937,7 +1937,7 @@
             "id": "burke",
             "name": "Burke",
             "reveal": {
-              "chapter": 1
+              "chapter": 10
             },
             "role": "minor"
           },
@@ -1946,7 +1946,7 @@
             "id": "perez",
             "name": "Perez",
             "reveal": {
-              "chapter": 1
+              "chapter": 10
             },
             "role": "minor"
           },
@@ -1955,7 +1955,7 @@
             "id": "addison",
             "name": "Addison",
             "reveal": {
-              "chapter": 1
+              "chapter": 10
             },
             "role": "minor"
           },
@@ -1964,7 +1964,7 @@
             "id": "anne-lane",
             "name": "Anne Lane",
             "reveal": {
-              "chapter": 2
+              "chapter": 20
             },
             "role": "minor"
           },
@@ -1973,7 +1973,7 @@
             "id": "jade-lane",
             "name": "Jade Lane",
             "reveal": {
-              "chapter": 3
+              "chapter": 30
             },
             "role": "supporting"
           },
@@ -1982,7 +1982,7 @@
             "id": "lanes-missing-driver",
             "name": "Lane's missing driver",
             "reveal": {
-              "chapter": 3
+              "chapter": 30
             },
             "role": "minor"
           },
@@ -1991,7 +1991,7 @@
             "id": "silent-observer",
             "name": "Silent observer",
             "reveal": {
-              "chapter": 5
+              "chapter": 30
             },
             "role": "supporting"
           },
@@ -2000,7 +2000,7 @@
             "id": "lauren-pauling",
             "name": "Lauren Pauling",
             "reveal": {
-              "chapter": 4
+              "chapter": 39
             },
             "role": "supporting"
           },
@@ -2009,7 +2009,7 @@
             "id": "clay-james-hobart",
             "name": "Clay James Hobart",
             "reveal": {
-              "chapter": 5
+              "chapter": 54
             },
             "role": "supporting"
           },
@@ -2018,7 +2018,7 @@
             "id": "dee-marie-graziano",
             "name": "Dee Marie Graziano",
             "reveal": {
-              "chapter": 5
+              "chapter": 54
             },
             "role": "supporting"
           },
@@ -2027,7 +2027,7 @@
             "id": "patricia-joseph",
             "name": "Patricia Joseph",
             "reveal": {
-              "chapter": 6
+              "chapter": 58
             },
             "role": "minor"
           },
@@ -2036,7 +2036,7 @@
             "id": "graham-taylor",
             "name": "Graham Taylor",
             "reveal": {
-              "chapter": 7
+              "chapter": 67
             },
             "role": "supporting"
           },
@@ -2045,7 +2045,7 @@
             "id": "anthony-jackson",
             "name": "Anthony Jackson",
             "reveal": {
-              "chapter": 8
+              "chapter": 76
             },
             "role": "supporting"
           },
@@ -2054,7 +2054,7 @@
             "id": "susan-jackson",
             "name": "Susan Jackson",
             "reveal": {
-              "chapter": 8
+              "chapter": 76
             },
             "role": "supporting"
           },
@@ -2063,7 +2063,7 @@
             "id": "melody-jackson",
             "name": "Melody Jackson",
             "reveal": {
-              "chapter": 8
+              "chapter": 76
             },
             "role": "minor"
           },
@@ -2072,7 +2072,7 @@
             "id": "dave-kemp",
             "name": "Dave Kemp",
             "reveal": {
-              "chapter": 9
+              "chapter": 77
             },
             "role": "minor"
           }
@@ -2114,21 +2114,21 @@
             "scope": "book",
             "text": "Reacher sees a stranger collect a silver Mercedes in New York and is found by John Gregory, an executive at Edward Lane's private-security company. Lane explains that the car contained one million dollars for the return of his missing wife, Kate. Kate had disappeared with her eight-year-old daughter, Jade, and their former-SAS driver, but the ransom handoff produced no release or further call. Reacher agrees to investigate without involving law enforcement. He and former FBI agent Lauren Pauling also reopen the disappearance of Lane's previous wife, Anne, as a possible parallel. Lane's distress appears genuine, but the present operation shows signs of inside knowledge. A body believed to be the missing driver is recovered, and Lane orders his men to hunt the apparent abductors. Reacher concludes that the successive vehicle exchanges were watched from a concealed apartment overlooking the original pickup point. A separate lead emerges from Lane's past: two mercenaries were abandoned after an operation in Burkina Faso, and one reportedly survived and returned to the United States.",
             "through": {
-              "chapter": 4
+              "chapter": 39
             }
           },
           {
             "scope": "book",
             "text": "Reacher and Pauling locate the bare surveillance apartment and learn that its tenant appeared unable to speak, implying that another person handled the ransom calls. They find surviving mercenary Clay James Hobart with his sister, Dee Marie Graziano. Hobart is catastrophically disabled and can speak, clearing him as the observer. His account supports the belief that Lane deliberately abandoned him in Burkina Faso and may have arranged Anne Lane's death, but it cannot prove either claim. Hobart and Dee Marie also establish an alibi for Kate and Jade's disappearance. Reacher traces stolen vehicle keys and discovers an apparent confinement room in former Lane operative Graham Taylor's apartment. He later identifies Taylor as the silent observer, who had pretended to be tongueless to hide his English accent and identifying features. Taylor needed an American partner to make the calls. Reacher gives Lane Taylor's name and probable destination, receives part of a promised payment intended for Hobart's care, and travels to England with Pauling. They trace Taylor's family connection to Grange Farm in Norfolk, while Lane and his veterans prepare to follow.",
             "through": {
-              "chapter": 8
+              "chapter": 76
             }
           },
           {
             "scope": "book",
             "text": "At Grange Farm, Reacher learns that Taylor sent a packet to a New York hotel. After giving Lane the farm's location, he recognizes the truth from items Jade left behind: Kate and Jade packed deliberately, Taylor helped them flee, and Kate supplied the American voice for the ransom calls. Susan and Melody Jackson remained in New York while Kate and Jade used their identities to enter Britain. Kate and Jade are alive at the farm, and Kate explains that she escaped because Lane had threatened Jade and because of what she learned about his past violence. She is pregnant, and Taylor is her partner. Their trail was designed to bring Lane to a confrontation at the farm. Lane arrives with Gregory, Perez, and Addison, infiltrates the property, wounds Taylor, and captures Taylor, Anthony Jackson, Pauling, Kate, and Jade. Reacher returns, works out that the attackers remain nearby, and kills Perez and Addison. He draws Lane out of the hostage barn and kills him, then kills Gregory with the captives' agreement. The survivors bury the four attackers and two vehicles in a farm excavation. Reacher gives Pauling the recovered $800,000 for Hobart's support and leaves. One year later, Kate and Graham Taylor work the farm, Jade has a baby brother, and Reacher's whereabouts are unknown.",
             "through": {
-              "chapter": 11
+              "chapter": 77
             }
           }
         ],

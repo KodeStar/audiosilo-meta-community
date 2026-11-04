@@ -2895,7 +2895,7 @@
             "id": "victor-vale",
             "name": "Victor Vale",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "protagonist"
           },
@@ -2904,7 +2904,7 @@
             "id": "marcella-riggins",
             "name": "Marcella Riggins",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -2913,7 +2913,7 @@
             "id": "marcus-andover",
             "name": "Marcus Andover",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "antagonist"
           },
@@ -2922,7 +2922,7 @@
             "id": "sydney-clarke",
             "name": "Sydney Clarke",
             "reveal": {
-              "chapter": 6
+              "chapter": 19
             },
             "role": "supporting"
           },
@@ -2931,7 +2931,7 @@
             "id": "mitch-turner",
             "name": "Mitch Turner",
             "reveal": {
-              "chapter": 6
+              "chapter": 19
             },
             "role": "supporting"
           },
@@ -2943,7 +2943,7 @@
             "id": "eli-ever",
             "name": "Eli Ever",
             "reveal": {
-              "chapter": 8
+              "chapter": 45
             },
             "role": "antagonist"
           },
@@ -2952,7 +2952,7 @@
             "id": "june",
             "name": "June",
             "reveal": {
-              "chapter": 10
+              "chapter": 71
             }
           },
           {
@@ -2960,7 +2960,7 @@
             "id": "stell",
             "name": "Stell",
             "reveal": {
-              "chapter": 12
+              "chapter": 71
             },
             "role": "supporting"
           },
@@ -2969,7 +2969,7 @@
             "id": "dominic-rusher",
             "name": "Dominic Rusher",
             "reveal": {
-              "chapter": 16
+              "chapter": 71
             },
             "role": "supporting"
           },
@@ -2978,7 +2978,7 @@
             "id": "haverty",
             "name": "Dr. Haverty",
             "reveal": {
-              "chapter": 20
+              "chapter": 93
             },
             "role": "antagonist"
           },
@@ -2987,7 +2987,7 @@
             "id": "dol",
             "name": "Dol",
             "reveal": {
-              "chapter": 8
+              "chapter": 19
             },
             "role": "minor"
           },

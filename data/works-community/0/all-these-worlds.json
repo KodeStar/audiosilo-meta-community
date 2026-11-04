@@ -954,7 +954,7 @@
             "id": "lavatch",
             "name": "Lavatch",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -966,7 +966,7 @@
             "id": "king-of-france",
             "name": "King of France",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -978,7 +978,7 @@
             "id": "first-lord-dumaine",
             "name": "First Lord Dumaine",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -990,7 +990,7 @@
             "id": "second-lord-dumaine",
             "name": "Second Lord Dumaine",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -999,7 +999,7 @@
             "id": "widow",
             "name": "Widow",
             "reveal": {
-              "chapter": 13
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -1008,7 +1008,7 @@
             "id": "diana",
             "name": "Diana",
             "reveal": {
-              "chapter": 13
+              "chapter": 3
             },
             "role": "supporting"
           }
@@ -1032,42 +1032,35 @@
             "scope": "book",
             "text": "After the deaths of their fathers, Bertram leaves his home in Roussillon to live as a ward of the King of France. Helena, the physician's orphaned daughter raised by Bertram's mother, grieves at his departure because she secretly loves him and considers their difference in rank an insurmountable barrier. Bertram's companion Parolles talks grandly about honor while encouraging a worldly view of love; Helena distrusts him. The Countess discovers Helena's feelings and responds with sympathy rather than anger. Learning that the king is gravely ill, Helena resolves to travel to Paris and offer a remedy inherited from her father, turning her hope of healing the king into a possible path toward Bertram.",
             "through": {
-              "chapter": 3
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "At court, the king initially refuses Helena's help because established physicians have given up. She stakes her life and reputation on the cure and asks, if successful, to choose a husband from among the king's wards. The treatment restores the king, and Helena selects Bertram. Bertram protests that she lacks noble birth, but the king declares that her merit and his own grant can supply rank, then commands the marriage. Bertram submits publicly while privately rejecting Helena. Under Parolles's influence, he plans to leave her and join the Florentine war. He sends Helena back to Roussillon with a letter and departs without completing the marriage, placing military ambition and social pride above the union imposed on him.",
             "through": {
-              "chapter": 8
+              "chapter": 2
             }
           },
           {
             "scope": "book",
-            "text": "The Florentine campaign begins, and Bertram earns a place among the French volunteers. Helena reaches Roussillon alone and gives the Countess her son's letter. In it, Bertram declares that Helena may call him husband only when she wears the ring he never removes and carries his child, conditions he believes cannot be fulfilled. The Countess condemns his behavior and assures Helena of her support. Believing her presence keeps Bertram from home and puts him in danger abroad, Helena leaves secretly, announcing a religious pilgrimage. News then spreads that she has died, while Bertram continues to gain military distinction in Florence.",
+            "text": "The Florentine campaign begins, and Bertram earns a place among the French volunteers. Helena reaches Roussillon alone and gives the Countess her son's letter. In it, Bertram declares that Helena may call him husband only when she wears the ring he never removes and carries his child, conditions he believes cannot be fulfilled. The Countess condemns his behavior and assures Helena of her support. Believing her presence keeps Bertram from home and puts him in danger abroad, Helena leaves secretly, announcing a religious pilgrimage. News then spreads that she has died, while Bertram continues to gain military distinction in Florence. Helena is alive and has traveled to Florence disguised as a pilgrim. There she lodges with a widow and meets the widow's daughter Diana, whom Bertram has been persistently trying to seduce. The widow and Diana describe his pursuit and the local admiration for his military success. Helena reveals her identity to them and offers Diana financial security in exchange for help. Their plan is for Diana to appear to accept Bertram, demand his ancestral ring as proof of devotion, and arrange a darkened nighttime meeting at which Helena will secretly take her place. This would allow Helena to obtain the ring and consummate her marriage without Diana yielding to Bertram.",
             "through": {
-              "chapter": 12
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Helena is alive and has traveled to Florence disguised as a pilgrim. There she lodges with a widow and meets the widow's daughter Diana, whom Bertram has been persistently trying to seduce. The widow and Diana describe his pursuit and the local admiration for his military success. Helena reveals her identity to them and offers Diana financial security in exchange for help. Their plan is for Diana to appear to accept Bertram, demand his ancestral ring as proof of devotion, and arrange a darkened nighttime meeting at which Helena will secretly take her place. This would allow Helena to obtain the ring and consummate her marriage without Diana yielding to Bertram.",
-            "through": {
-              "chapter": 15
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "Bertram's fellow officers decide to cure him of his faith in Parolles. They seize Parolles while disguised as enemy soldiers, blindfold him, and pretend to interrogate him. Hoping to save himself, Parolles readily betrays military information and insults his companions, while Bertram listens and learns how false his friend has been. At the same time, Diana secures Bertram's ring and gives him another ring supplied by Helena. Helena takes Diana's place at the nocturnal meeting and becomes pregnant by her husband, fulfilling the substance of Bertram's two demands. With false reports of Helena's death still circulating and the war ending, Bertram prepares to return to France; Helena, Diana, and the widow also set out for the king's court.",
             "through": {
-              "chapter": 20
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "Back in Roussillon, Bertram expresses regret for Helena's reported death, and the king considers marrying him to Lafew's daughter. The plan collapses when the king recognizes on Bertram's finger the ring he had given Helena. Bertram's evasive explanation raises suspicion that he harmed her. Diana then arrives, claims Bertram promised marriage, and produces his ancestral ring, but she withholds the full account and is threatened with imprisonment. The widow and Helena finally appear. Helena explains that she occupied Diana's place at Bertram's secret meeting, displays his ring, and announces that she carries his child. Thus she has met both conditions in his letter. Bertram accepts the proof and promises to love her. The king receives the settlement and offers to provide a husband for Diana. Parolles, disgraced after his staged capture, survives through Lafew's charity, while Helena and Bertram's newly declared reconciliation ends the play.",
             "through": {
-              "chapter": 23
+              "chapter": 5
             }
           }
         ],

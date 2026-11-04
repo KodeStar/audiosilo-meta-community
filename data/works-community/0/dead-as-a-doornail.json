@@ -2619,7 +2619,7 @@
             "id": "roberto-miranda",
             "name": "Roberto Miranda",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           }
@@ -2643,28 +2643,21 @@
             "scope": "book",
             "text": "In an unnamed country emerging from dictatorship, Gerardo Escobar returns to his isolated coastal home after a flat tire. He tells his wife Paulina that the president has asked him to join a truth commission, but its mandate covers only abuses that led to death. Paulina, who was abducted, tortured, and raped by agents of the former regime, resents a process that excludes surviving victims and doubts the new authorities' courage. A stranger named Roberto Miranda arrives, having helped Gerardo on the road, and stays to talk about the political transition. Listening from another room, Paulina becomes convinced that his voice belongs to the doctor who participated in her torture years earlier, when she was blindfolded and unable to see him.",
             "through": {
-              "chapter": 2
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "While the men sleep, Paulina takes Gerardo's gun, binds Roberto to a chair, and reveals her accusation. She also finds a recording of Schubert's string quartet known as Death and the Maiden in Roberto's car, matching the music played during her captivity. Roberto insists that he is innocent and that the recording is common; Gerardo is horrified by Paulina's improvised tribunal and argues that recognition by voice and manner is not proof. Paulina demands that Roberto confess fully, saying that she needs his acknowledgment more than formal punishment. She forces Gerardo into the role of defense counsel but controls the room and the weapon. The dispute sets her remembered certainty against the safeguards Gerardo believes the new democracy must observe.",
             "through": {
-              "chapter": 4
+              "chapter": 2
             }
           },
           {
             "scope": "book",
-            "text": "Gerardo speaks privately with Paulina about her imprisonment, learning details she had never fully shared with him, and tries to negotiate a way for Roberto to survive. Roberto continues to deny being her torturer but agrees to record a confession if it will secure his release. Gerardo supplies him with information from Paulina's account so that the statement will satisfy her. The resulting confession describes the doctor's movement from detached medical supervision into active cruelty and sexual violence. Paulina listens carefully rather than simply accepting it. She has not treated the confession as an empty ritual: she is testing whether Roberto possesses knowledge that Gerardo could not have given him.",
+            "text": "Gerardo speaks privately with Paulina about her imprisonment, learning details she had never fully shared with him, and tries to negotiate a way for Roberto to survive. Roberto continues to deny being her torturer but agrees to record a confession if it will secure his release. Gerardo supplies him with information from Paulina's account so that the statement will satisfy her. The resulting confession describes the doctor's movement from detached medical supervision into active cruelty and sexual violence. Paulina listens carefully rather than simply accepting it. She has not treated the confession as an empty ritual: she is testing whether Roberto possesses knowledge that Gerardo could not have given him. Paulina reveals that she intentionally gave Gerardo inaccurate details. Roberto corrected those details in his confession, strengthening her belief that he can only know them because he was present during her torture. Roberto still frames his statement as something composed under threat, while Paulina demands genuine recognition of what was done to her. The private trial reaches its deadline without yielding a conventional verdict or a stable division between proof, confession, and coercion. Later, Gerardo and Paulina attend a concert after the truth commission has completed its restricted work. Schubert's Death and the Maiden is performed, and Paulina sees, or may imagine she sees, Roberto in the audience. The image leaves the three figures facing one another across a society that has moved toward democracy without fully accounting for the violence carried into its present.",
             "through": {
-              "chapter": 6
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Paulina reveals that she intentionally gave Gerardo inaccurate details. Roberto corrected those details in his confession, strengthening her belief that he can only know them because he was present during her torture. Roberto still frames his statement as something composed under threat, while Paulina demands genuine recognition of what was done to her. The private trial reaches its deadline without yielding a conventional verdict or a stable division between proof, confession, and coercion. Later, Gerardo and Paulina attend a concert after the truth commission has completed its restricted work. Schubert's Death and the Maiden is performed, and Paulina sees, or may imagine she sees, Roberto in the audience. The image leaves the three figures facing one another across a society that has moved toward democracy without fully accounting for the violence carried into its present.",
-            "through": {
-              "chapter": 7
+              "chapter": 3
             }
           }
         ],
@@ -2965,7 +2958,7 @@
             "id": "jacinto",
             "name": "Jacinto",
             "reveal": {
-              "chapter": 3
+              "chapter": 7
             },
             "role": "supporting"
           },
@@ -2974,7 +2967,7 @@
             "id": "eusabio",
             "name": "Eusabio",
             "reveal": {
-              "chapter": 4
+              "chapter": 11
             },
             "role": "supporting"
           },
@@ -2986,7 +2979,7 @@
             "id": "christopher-carson",
             "name": "Christopher Carson",
             "reveal": {
-              "chapter": 2
+              "chapter": 5
             },
             "role": "supporting"
           },
@@ -2998,7 +2991,7 @@
             "id": "antonio-jose-martinez",
             "name": "Antonio José Martínez",
             "reveal": {
-              "chapter": 5
+              "chapter": 13
             },
             "role": "antagonist"
           },
@@ -3010,7 +3003,7 @@
             "id": "manuel-lucero",
             "name": "Manuel Lucero",
             "reveal": {
-              "chapter": 5
+              "chapter": 13
             },
             "role": "supporting"
           },
@@ -3019,7 +3012,7 @@
             "id": "magdalena",
             "name": "Magdalena",
             "reveal": {
-              "chapter": 2
+              "chapter": 5
             },
             "role": "supporting"
           },
@@ -3031,7 +3024,7 @@
             "id": "isabella-olivares",
             "name": "Isabella Olivares",
             "reveal": {
-              "chapter": 6
+              "chapter": 15
             },
             "role": "supporting"
           },
@@ -3040,7 +3033,7 @@
             "id": "sada",
             "name": "Sada",
             "reveal": {
-              "chapter": 7
+              "chapter": 17
             },
             "role": "minor"
           },
@@ -3052,7 +3045,7 @@
             "id": "bernard-ducrot",
             "name": "Bernard Ducrot",
             "reveal": {
-              "chapter": 9
+              "chapter": 24
             },
             "role": "supporting"
           }
@@ -3076,42 +3069,42 @@
             "scope": "book",
             "text": "Church officials in Rome consider how to govern the immense territory acquired by the United States in the Southwest. On Father Ferrand's recommendation, the French priest Jean Marie Latour is appointed vicar apostolic of New Mexico. Traveling toward Santa Fe, Latour becomes lost in a desert landscape whose repeated shapes seem to offer no direction. A cruciform tree gives him a place to pray, and he eventually finds water and hospitality in a hidden Mexican settlement. In Santa Fe, local clergy initially refuse to recognize his authority because his documents have not come through their established Mexican hierarchy. Latour undertakes the long journey required to have his appointment confirmed. Once established, he is joined by his old friend Joseph Vaillant. The reserved Latour supplies order and judgment; the sociable, energetic Vaillant has a gift for immediate human contact. Together they begin rebuilding a scattered diocese whose history and customs long predate their arrival.",
             "through": {
-              "chapter": 1
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "Latour and Vaillant travel continually among isolated communities, often across dangerous country with little shelter. Their journeys reveal both the devotion of ordinary people and abuses that flourished when parishes had almost no supervision. Vaillant's practical warmth makes him an effective collector and organizer, while Latour listens, observes, and judges more slowly. The missionaries befriend the frontiersman Kit Carson, discovering a modest man unlike his sensational public reputation. They also become involved in rescuing Magdalena from a brutal husband. The episode shows how thin formal institutions are in remote settlements and how much protection depends on personal courage and cooperation. Each journey enlarges the priests' knowledge of the diocese while making clear that European expectations cannot simply be imposed without attention to local lives.",
             "through": {
-              "chapter": 2
+              "chapter": 6
             }
           },
           {
             "scope": "book",
             "text": "Accompanied by the young guide Jacinto, Latour visits the mesa-top pueblo of Acoma to celebrate Mass. The difficult ascent, exposed church, and ancient settlement impress upon him the persistence of a people whose world cannot be contained by the history his own church tells. Stories of an earlier abusive friar and the community's resistance complicate any simple account of missionary heroism. On another journey, severe weather drives Latour and Jacinto toward shelter known to the guide. Jacinto brings him into a concealed place connected with sacred knowledge but does not explain its meaning. Latour accepts the limits placed upon him. His friendship with Jacinto rests partly on this restraint: he can receive protection and recognize spiritual seriousness without claiming a right to every secret.",
             "through": {
-              "chapter": 3
+              "chapter": 10
             }
           },
           {
             "scope": "book",
             "text": "The American occupation transforms New Mexico while older conflicts continue. Latour values his friendship with the Navajo leader Eusabio and recognizes the dignity and knowledge embodied in Indigenous relationships to the land. At the same time, United States campaigns led by men including Kit Carson devastate Navajo communities and force removal, exposing a gulf between private decency and the violence of public policy. Within the church, Latour confronts Padre Antonio José Martínez of Taos, a powerful priest who rejects the bishop's reforms and authority. Martínez uses his local influence to resist removal and supports a break with Latour's jurisdiction. Latour excommunicates him and the compromised Padre Lucero. When Lucero lies dying, however, Latour answers his summons and sits with him, maintaining pastoral duty even toward an opponent. Martínez dies outside communion with Latour's church, but his regional legacy remains larger than the formal sentence against him.",
             "through": {
-              "chapter": 5
+              "chapter": 14
             }
           },
           {
             "scope": "book",
             "text": "As the diocese grows, Latour and Vaillant respond differently to expansion. A legal dispute forces the widowed Doña Isabella Olivares to prove facts about her age in order to preserve her inheritance under American law. Latour supports her, helping protect a woman whose position has become vulnerable during the change of governments. He also encounters Sada, an elderly Mexican servant prevented by her Protestant employers from practicing her faith openly; her isolation reveals a quieter cost of conquest and displacement. Latour develops plans for a Romanesque cathedral of local golden stone, seeking a building that belongs visually to the landscape rather than merely copying what he left in Europe. Vaillant, meanwhile, is drawn north by the Colorado gold rush. What begins as a temporary mission becomes his permanent field: he travels among rough mining settlements, raises resources, and builds Catholic institutions with characteristic urgency.",
             "through": {
-              "chapter": 8
+              "chapter": 23
             }
           },
           {
             "scope": "book",
             "text": "Vaillant accepts leadership of the church in Colorado and eventually becomes its bishop. Separation grieves both men, but Latour understands that his friend is most fully himself while traveling, improvising, and founding new missions. Vaillant dies after years of strenuous service, and the scale of public mourning testifies to the attachments he formed. Latour completes his own long tenure and retires near the Santa Fe cathedral built from the stone he selected. Cared for in age by younger priests, he revisits memories of France, missionary journeys, Indigenous friends, vanished settlements, and Vaillant. The Southwest is no longer an alien assignment to him; it has become the place in which his life's meaning is gathered. Latour dies peacefully in Santa Fe and is laid in his cathedral. The institution he organized survives, but the close emphasizes a personal accommodation to mortality and place rather than administrative triumph.",
             "through": {
-              "chapter": 9
+              "chapter": 31
             }
           }
         ],
@@ -3552,16 +3545,9 @@
           },
           {
             "scope": "book",
-            "text": "Willy asks Howard Wagner for a non-traveling position, but Howard dismisses his claims of past service and fires him. Willy then meets the now-successful Bernard, who asks why Biff abandoned his future after visiting Willy in Boston. Willy avoids the answer. Charley again offers him a job and gives him money, but Willy's pride lets him accept only the loan. At a restaurant Biff tries to explain that Bill Oliver barely remembered him and never considered him a salesman; after waiting all day, Biff impulsively stole Oliver's fountain pen. Willy refuses this correction to the family's story and announces that he has been fired. As the conversation collapses, Happy leaves with two women and denies that Willy is his father. Willy relives Boston, where teenage Biff discovered him with another woman. Biff's admiration broke, and he abandoned the summer school needed for graduation. At home Linda condemns both sons for deserting Willy. Biff confronts his father, rejects their fantasies of greatness, and says he will leave. His tears convince Willy that Biff loves him. Believing his life-insurance money will make Biff successful, Willy consults the imagined Ben and drives away to kill himself.",
+            "text": "Willy asks Howard Wagner for a non-traveling position, but Howard dismisses his claims of past service and fires him. Willy then meets the now-successful Bernard, who asks why Biff abandoned his future after visiting Willy in Boston. Willy avoids the answer. Charley again offers him a job and gives him money, but Willy's pride lets him accept only the loan. At a restaurant Biff tries to explain that Bill Oliver barely remembered him and never considered him a salesman; after waiting all day, Biff impulsively stole Oliver's fountain pen. Willy refuses this correction to the family's story and announces that he has been fired. As the conversation collapses, Happy leaves with two women and denies that Willy is his father. Willy relives Boston, where teenage Biff discovered him with another woman. Biff's admiration broke, and he abandoned the summer school needed for graduation. At home Linda condemns both sons for deserting Willy. Biff confronts his father, rejects their fantasies of greatness, and says he will leave. His tears convince Willy that Biff loves him. Believing his life-insurance money will make Biff successful, Willy consults the imagined Ben and drives away to kill himself. Willy dies in the planned car crash. Despite his belief that personal popularity would bring a great public farewell, only Linda, Biff, Happy, Charley, and Bernard gather at his grave. Charley argues that a salesman's work depends on dreams and that Willy was destroyed when those dreams ceased to sustain him. Biff believes Willy misunderstood himself and spent his life pursuing the wrong kind of success; he plans to leave the business world and return to work outdoors. Happy instead vows to remain in the city and demonstrate that Willy's ambition was valid. Linda cannot reconcile the suicide with the family's new financial position: the mortgage has just been paid, and she had imagined that they were finally secure. She says goodbye at the grave, left with an empty, fully owned house. Willy's death ends his struggle but passes the conflict over his values to his sons.",
             "through": {
               "chapter": 2
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Willy dies in the planned car crash. Despite his belief that personal popularity would bring a great public farewell, only Linda, Biff, Happy, Charley, and Bernard gather at his grave. Charley argues that a salesman's work depends on dreams and that Willy was destroyed when those dreams ceased to sustain him. Biff believes Willy misunderstood himself and spent his life pursuing the wrong kind of success; he plans to leave the business world and return to work outdoors. Happy instead vows to remain in the city and demonstrate that Willy's ambition was valid. Linda cannot reconcile the suicide with the family's new financial position: the mortgage has just been paid, and she had imagined that they were finally secure. She says goodbye at the grave, left with an empty, fully owned house. Willy's death ends his struggle but passes the conflict over his values to his sons.",
-            "through": {
-              "chapter": 3
             }
           }
         ],

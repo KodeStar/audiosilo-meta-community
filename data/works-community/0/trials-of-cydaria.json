@@ -1156,7 +1156,7 @@
             "id": "cressida",
             "name": "Cressida",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -1174,7 +1174,7 @@
             "id": "hector",
             "name": "Hector",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1183,7 +1183,7 @@
             "id": "priam",
             "name": "Priam",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1192,7 +1192,7 @@
             "id": "cassandra",
             "name": "Cassandra",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -1201,7 +1201,7 @@
             "id": "ulysses",
             "name": "Ulysses",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1210,7 +1210,7 @@
             "id": "agamemnon",
             "name": "Agamemnon",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1219,7 +1219,7 @@
             "id": "achilles",
             "name": "Achilles",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1228,7 +1228,7 @@
             "id": "ajax",
             "name": "Ajax",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1237,7 +1237,7 @@
             "id": "thersites",
             "name": "Thersites",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1246,7 +1246,7 @@
             "id": "diomedes",
             "name": "Diomedes",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1255,7 +1255,7 @@
             "id": "aeneas",
             "name": "Aeneas",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1264,7 +1264,7 @@
             "id": "paris",
             "name": "Paris",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1273,7 +1273,7 @@
             "id": "helen",
             "name": "Helen",
             "reveal": {
-              "chapter": 7
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -1282,7 +1282,7 @@
             "id": "calchas",
             "name": "Calchas",
             "reveal": {
-              "chapter": 9
+              "chapter": 3
             },
             "role": "supporting"
           }
@@ -1306,42 +1306,35 @@
             "scope": "book",
             "text": "Seven years into the siege of Troy, the Trojan prince Troilus is more absorbed by his love for Cressida than by the fighting. Her uncle Pandarus acts as his go-between, praising Troilus to Cressida as they watch Trojan warriors pass. Cressida answers with wit and caution, revealing privately that she already favors Troilus but believes restraint gives her leverage. In the Greek camp, Agamemnon and his commanders consider why Troy still stands. Ulysses blames disorder and rivalry, especially Achilles's refusal to fight. When Aeneas brings Hector's challenge to single combat, Ulysses proposes choosing Ajax rather than Achilles: if Ajax succeeds the Greeks gain honor, and either way public praise of Ajax may provoke Achilles to return.",
             "through": {
-              "chapter": 3
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Ajax vents his temper on Thersites, the camp's relentlessly abusive critic. In Troy, Priam asks whether Helen should be returned to end the war. Hector argues that keeping another man's wife is wrong and that the cost has exceeded her value. Troilus and Paris appeal instead to honor and reputation, and Hector ultimately agrees to continue defending the decision despite his own reasoning. Cassandra's prophetic warning is ignored. The Greek leaders visit Achilles, who remains aloof, while Ajax is selected to meet Hector. The commanders deliberately flatter Ajax and slight Achilles, putting Ulysses's strategy into motion.",
             "through": {
-              "chapter": 6
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "Pandarus finds Paris with Helen, then arranges a private meeting between Troilus and Cressida. The young people confess their love and pledge to remain faithful, with Pandarus serving as witness. In the Greek camp, Cressida's father Calchas asks Agamemnon to reward his defection by exchanging the captured Trojan Antenor for his daughter. The commanders agree. Ulysses then guides the other Greek leaders past Achilles while they ignore him, making him feel the loss of his standing. Achilles learns that Ajax will fight Hector and begins to recognize that fame depends on continued public action.",
             "through": {
-              "chapter": 9
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "The prisoner exchange is announced in Troy only hours after Troilus and Cressida have spent the night together. They part in anguish, renew their promises, and exchange tokens. Diomedes escorts Cressida to the Greek camp while Troilus is permitted to follow part of the way. The Greek commanders greet Cressida with a series of kisses that makes her vulnerable position clear. Hector and Ajax then fight, but Hector ends the contest after recognizing their kinship, and the opponents embrace. Hector visits the Greek camp, where he speaks courteously with the commanders. He and Achilles examine and threaten one another, anticipating a later encounter even as the formal visit ends in hospitality.",
             "through": {
-              "chapter": 14
+              "chapter": 4
             }
           },
           {
             "scope": "book",
-            "text": "Achilles is still reluctant to fight, but the armies prepare for renewed battle. Troilus enters the Greek camp with Ulysses and secretly watches Cressida meet Diomedes. Cressida resists, bargains, and calls herself divided, but she gives Diomedes the sleeve Troilus had given her and agrees to see him again. Troilus interprets what he sees as the destruction of the Cressida he loved and turns his devotion into fury against Diomedes. In Troy, Andromache and Cassandra beg Hector not to fight because of their ominous dreams and visions. Priam also urges caution. Hector briefly agrees, then reverses himself and goes out after Troilus challenges his honor. The private betrayal and the public war now move toward the same violent conclusion.",
+            "text": "Achilles is still reluctant to fight, but the armies prepare for renewed battle. Troilus enters the Greek camp with Ulysses and secretly watches Cressida meet Diomedes. Cressida resists, bargains, and calls herself divided, but she gives Diomedes the sleeve Troilus had given her and agrees to see him again. Troilus interprets what he sees as the destruction of the Cressida he loved and turns his devotion into fury against Diomedes. In Troy, Andromache and Cassandra beg Hector not to fight because of their ominous dreams and visions. Priam also urges caution. Hector briefly agrees, then reverses himself and goes out after Troilus challenges his honor. The private betrayal and the public war now move toward the same violent conclusion. Fighting spreads across the field. Troilus pursues Diomedes with reckless anger, while Hector searches for opponents worthy of his reputation. Hector kills a warrior in splendid armor and stops to claim it. Achilles, returning to combat, finds Hector isolated and orders the Myrmidons to surround him. They kill the unprepared Hector, and Achilles has the body dragged behind his horse while the Greeks proclaim victory. Troilus survives and carries the news back to Troy, calling on the city to answer grief with revenge. He rejects Pandarus, whose efforts joined him to Cressida. Pandarus, ill and embittered, closes the play alone. Hector is dead, Cressida remains in the Greek camp, Troilus is hardened, and the war continues without a healing resolution.",
             "through": {
-              "chapter": 18
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Fighting spreads across the field. Troilus pursues Diomedes with reckless anger, while Hector searches for opponents worthy of his reputation. Hector kills a warrior in splendid armor and stops to claim it. Achilles, returning to combat, finds Hector isolated and orders the Myrmidons to surround him. They kill the unprepared Hector, and Achilles has the body dragged behind his horse while the Greeks proclaim victory. Troilus survives and carries the news back to Troy, calling on the city to answer grief with revenge. He rejects Pandarus, whose efforts joined him to Cressida. Pandarus, ill and embittered, closes the play alone. Hector is dead, Cressida remains in the Greek camp, Troilus is hardened, and the war continues without a healing resolution.",
-            "through": {
-              "chapter": 24
+              "chapter": 5
             }
           }
         ],
@@ -2775,7 +2768,7 @@
             "id": "viola",
             "name": "Viola",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -2796,7 +2789,7 @@
             "id": "olivia",
             "name": "Olivia",
             "reveal": {
-              "chapter": 6
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2805,7 +2798,7 @@
             "id": "sir-toby-belch",
             "name": "Sir Toby Belch",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2814,7 +2807,7 @@
             "id": "sir-andrew-aguecheek",
             "name": "Sir Andrew Aguecheek",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2823,7 +2816,7 @@
             "id": "maria",
             "name": "Maria",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2832,7 +2825,7 @@
             "id": "malvolio",
             "name": "Malvolio",
             "reveal": {
-              "chapter": 7
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2844,7 +2837,7 @@
             "id": "feste",
             "name": "Feste",
             "reveal": {
-              "chapter": 7
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2853,7 +2846,7 @@
             "id": "sebastian",
             "name": "Sebastian",
             "reveal": {
-              "chapter": 9
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2862,7 +2855,7 @@
             "id": "antonio",
             "name": "Antonio",
             "reveal": {
-              "chapter": 9
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2871,7 +2864,7 @@
             "id": "fabian",
             "name": "Fabian",
             "reveal": {
-              "chapter": 14
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -2880,7 +2873,7 @@
             "id": "captain",
             "name": "Captain",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           }
@@ -2904,35 +2897,28 @@
             "scope": "book",
             "text": "Duke Orsino of Illyria continues to pursue Countess Olivia, who says she will avoid men while mourning her brother. A shipwreck brings Viola to the coast. Believing her twin brother Sebastian has died, she disguises herself as a young man called Cesario and enters Orsino's service. Orsino quickly favors his new page and sends Cesario to present his case to Olivia. In Olivia's household, her drunken uncle Sir Toby entertains the wealthy but foolish Sir Andrew, who imagines himself a possible husband for Olivia. Maria, Olivia's attendant, warns the men about their behavior but shares their delight in wit and mischief.",
             "through": {
-              "chapter": 5
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Viola, disguised as Cesario, gains an interview with Olivia. Her spirited delivery does not make Olivia love Orsino, but it does make Olivia fall for the messenger. Olivia sends Malvolio after Cesario with a ring as a pretext for another meeting. Viola realizes that her disguise has created a triangle: she loves Orsino, Orsino loves Olivia, and Olivia loves the identity Viola has assumed. Elsewhere, Sebastian is revealed to have survived the wreck. His rescuer Antonio follows him toward Illyria despite the personal danger of returning there. In Olivia's house, Feste resumes his place as fool, while Malvolio's disapproval of Sir Toby's late-night revels deepens the household quarrel.",
             "through": {
-              "chapter": 10
+              "chapter": 2
             }
           },
           {
             "scope": "book",
-            "text": "Orsino speaks intimately with Cesario about love, unaware that his page is Viola and loves him. Viola offers a disguised account of a woman whose hidden devotion resembles her own, but Orsino again sends her to Olivia. Sir Toby, Maria, Sir Andrew, Feste, and Fabian turn their anger at Malvolio into a scheme. Maria writes a letter imitating Olivia's hand and leaves it where Malvolio will find it. The message hints that Olivia loves him and instructs him to smile constantly, wear yellow stockings with crossed garters, and behave with authority toward her relatives. Malvolio accepts the fantasy because it matches his ambition and sets out to obey. Sir Andrew, jealous of Olivia's interest in Cesario, is persuaded to write a challenge.",
+            "text": "Orsino speaks intimately with Cesario about love, unaware that his page is Viola and loves him. Viola offers a disguised account of a woman whose hidden devotion resembles her own, but Orsino again sends her to Olivia. Sir Toby, Maria, Sir Andrew, Feste, and Fabian turn their anger at Malvolio into a scheme. Maria writes a letter imitating Olivia's hand and leaves it where Malvolio will find it. The message hints that Olivia loves him and instructs him to smile constantly, wear yellow stockings with crossed garters, and behave with authority toward her relatives. Malvolio accepts the fantasy because it matches his ambition and sets out to obey. Sir Andrew, jealous of Olivia's interest in Cesario, is persuaded to write a challenge. Olivia openly declares her love to Cesario, leaving Viola unable to return it or reveal why. Malvolio appears before Olivia smiling and dressed according to the forged letter. Since the costume and conduct contradict everything she expects of him, Olivia concludes that he is unwell and leaves Sir Toby to care for him. The conspirators instead confine Malvolio as a madman, and Feste torments him while pretending to be a learned examiner. Sir Toby arranges a duel between the frightened Sir Andrew and the equally unwilling Cesario. Antonio intervenes, believing Cesario to be Sebastian, and is arrested by Orsino's officers. When Cesario denies knowing him and cannot return a purse Antonio entrusted to Sebastian, Antonio feels betrayed; Viola, hearing him call her Sebastian, begins to hope her brother is alive.",
             "through": {
-              "chapter": 15
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Olivia openly declares her love to Cesario, leaving Viola unable to return it or reveal why. Malvolio appears before Olivia smiling and dressed according to the forged letter. Since the costume and conduct contradict everything she expects of him, Olivia concludes that he is unwell and leaves Sir Toby to care for him. The conspirators instead confine Malvolio as a madman, and Feste torments him while pretending to be a learned examiner. Sir Toby arranges a duel between the frightened Sir Andrew and the equally unwilling Cesario. Antonio intervenes, believing Cesario to be Sebastian, and is arrested by Orsino's officers. When Cesario denies knowing him and cannot return a purse Antonio entrusted to Sebastian, Antonio feels betrayed; Viola, hearing him call her Sebastian, begins to hope her brother is alive.",
-            "through": {
-              "chapter": 24
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "Sebastian enters the confusion and is repeatedly mistaken for Cesario. He defeats Sir Toby and Sir Andrew when they attack him, then accepts Olivia's astonishing affection and agrees to marry her. When Orsino visits Olivia, she treats Cesario as the husband she has just married, while Antonio insists that the same young man is Sebastian. The simultaneous arrival of Sebastian and Viola makes the truth visible. The twins recognize one another, and Viola explains her disguise. Olivia accepts Sebastian as her husband, and Orsino turns from Olivia to Viola and proposes marriage. Fabian reveals the trick played on Malvolio; Sir Toby has married Maria, but Malvolio rejects the offered explanation and leaves promising revenge. The reunited households prepare to celebrate, with the damage done to Malvolio left only partly repaired.",
             "through": {
-              "chapter": 26
+              "chapter": 5
             }
           }
         ],

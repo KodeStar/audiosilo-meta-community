@@ -1781,7 +1781,7 @@
             "id": "hamlet",
             "name": "Hamlet",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -1793,7 +1793,7 @@
             "id": "claudius",
             "name": "Claudius",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1805,7 +1805,7 @@
             "id": "gertrude",
             "name": "Gertrude",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1832,7 +1832,7 @@
             "id": "polonius",
             "name": "Polonius",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1841,7 +1841,7 @@
             "id": "ophelia",
             "name": "Ophelia",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1850,7 +1850,7 @@
             "id": "laertes",
             "name": "Laertes",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1859,7 +1859,7 @@
             "id": "rosencrantz",
             "name": "Rosencrantz",
             "reveal": {
-              "chapter": 13
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1868,7 +1868,7 @@
             "id": "guildenstern",
             "name": "Guildenstern",
             "reveal": {
-              "chapter": 13
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1889,7 +1889,7 @@
             "id": "first-player",
             "name": "First Player",
             "reveal": {
-              "chapter": 17
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -1901,7 +1901,7 @@
             "id": "first-gravedigger",
             "name": "First Gravedigger",
             "reveal": {
-              "chapter": 40
+              "chapter": 5
             },
             "role": "minor"
           },
@@ -1910,7 +1910,7 @@
             "id": "osric",
             "name": "Osric",
             "reveal": {
-              "chapter": 41
+              "chapter": 5
             },
             "role": "minor"
           }
@@ -1934,42 +1934,35 @@
             "scope": "book",
             "text": "Guards at Elsinore have repeatedly seen an armed ghost resembling Denmark's dead king. Horatio witnesses it and decides to inform Prince Hamlet. The court is now ruled by the dead king's brother Claudius, who has married Queen Gertrude and manages a threatened campaign by the Norwegian prince Fortinbras. Hamlet remains bitterly in mourning and is distressed by his mother's rapid remarriage. Laertes receives permission to return to France, but before leaving he and his father Polonius warn Ophelia not to trust Hamlet's courtship. Hamlet joins the night watch and follows the ghost despite his companions' fears. The apparition identifies itself as his father's spirit and says Claudius murdered him while he slept. It demands revenge but tells Hamlet not to harm Gertrude. Hamlet makes Horatio and the guards swear secrecy and hints that he may deliberately behave strangely.",
             "through": {
-              "chapter": 10
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Polonius sends a servant to investigate Laertes in Paris. Ophelia reports that Hamlet has approached her in a disturbing state, and Polonius decides frustrated love must explain the prince's behavior. Claudius and Gertrude summon Hamlet's old companions Rosencrantz and Guildenstern to discover what troubles him. The king's envoys also report that the elder king of Norway has restrained Fortinbras and redirected his army toward Poland. Polonius presents Hamlet's letters to Ophelia as proof of lovesickness, though Hamlet mocks him and quickly detects that Rosencrantz and Guildenstern were sent to observe him. A traveling acting company arrives. Moved by an actor's emotional performance, Hamlet condemns his own delay and plans a test: the players will stage a murder resembling the ghost's account while he and Horatio watch Claudius's reaction.",
             "through": {
-              "chapter": 17
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "Claudius and Polonius secretly observe a meeting between Hamlet and Ophelia. Hamlet rejects her, questions the value of life and action, and speaks with such bitterness that Claudius doubts love is the true cause of his behavior. The players perform the revised drama before the court. When the staged king is poisoned by a relative who then courts the widow, Claudius abruptly ends the performance. Hamlet and Horatio take this reaction as confirmation of the ghost's charge. Claudius resolves to send Hamlet to England with Rosencrantz and Guildenstern. Alone, the king attempts to pray and acknowledges his crime, but cannot surrender the crown and queen he gained from it. Hamlet comes upon him kneeling and has an opportunity to kill him, yet postpones the act because he does not want Claudius to die while apparently seeking forgiveness.",
             "through": {
-              "chapter": 25
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "Hamlet confronts Gertrude in her chamber while Polonius listens from behind a hanging. Hearing movement, Hamlet thrusts through the fabric and kills Polonius, having mistaken the hidden figure for a more dangerous enemy. The ghost reappears to remind Hamlet of his purpose, though Gertrude cannot see it and takes his response as further evidence of madness. Hamlet presses her to recognize the moral corruption of her marriage but says his strange conduct is deliberate. Claudius treats Polonius's death as proof that Hamlet must be removed at once. He sends the prince to England under guard by Rosencrantz and Guildenstern, secretly instructing the English king to execute him. On the journey Hamlet encounters Fortinbras's army marching to fight over a small piece of Polish territory and again criticizes his own failure to act.",
             "through": {
-              "chapter": 32
+              "chapter": 4
             }
           },
           {
             "scope": "book",
-            "text": "Ophelia, shattered by her father's death and Hamlet's absence, appears at court singing disconnected songs and distributing flowers. Laertes returns at the head of an angry crowd and demands an account from Claudius. The king redirects his anger toward Hamlet. Horatio receives a letter explaining that pirates attacked Hamlet's ship and returned him to Denmark. Claudius and Laertes devise a seemingly friendly fencing match in which Laertes will use an unblunted sword coated with poison; Claudius prepares poisoned wine as a backup. Gertrude then announces that Ophelia has drowned after falling into a stream. Hamlet, now back in Denmark, watches cemetery workers prepare an unnamed grave and reflects on the remains of the court jester Yorick, whom he knew as a child. The funeral party arrives, and Hamlet learns that the grave is Ophelia's. He and Laertes struggle in grief before being separated.",
+            "text": "Ophelia, shattered by her father's death and Hamlet's absence, appears at court singing disconnected songs and distributing flowers. Laertes returns at the head of an angry crowd and demands an account from Claudius. The king redirects his anger toward Hamlet. Horatio receives a letter explaining that pirates attacked Hamlet's ship and returned him to Denmark. Claudius and Laertes devise a seemingly friendly fencing match in which Laertes will use an unblunted sword coated with poison; Claudius prepares poisoned wine as a backup. Gertrude then announces that Ophelia has drowned after falling into a stream. Hamlet, now back in Denmark, watches cemetery workers prepare an unnamed grave and reflects on the remains of the court jester Yorick, whom he knew as a child. The funeral party arrives, and Hamlet learns that the grave is Ophelia's. He and Laertes struggle in grief before being separated. Hamlet tells Horatio that he discovered Claudius's execution order at sea and replaced it with one condemning Rosencrantz and Guildenstern, after which the pirate encounter brought him home. He regrets his hostility toward Laertes but accepts the fencing invitation carried by Osric despite an uneasy feeling. During the match, Gertrude drinks from Claudius's poisoned cup. Laertes wounds Hamlet with the poisoned blade; in the struggle they exchange weapons, and Hamlet wounds Laertes with it. The dying queen identifies the poisoned drink, and Laertes reveals the king's plot. Hamlet kills Claudius with both weapon and poison, then reconciles with Laertes before each dies. Hamlet stops Horatio from committing suicide so that he can give an accurate account. Fortinbras arrives as ambassadors confirm the deaths of Rosencrantz and Guildenstern. With the Danish royal house destroyed, Fortinbras takes authority and orders military honors for Hamlet.",
             "through": {
-              "chapter": 40
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Hamlet tells Horatio that he discovered Claudius's execution order at sea and replaced it with one condemning Rosencrantz and Guildenstern, after which the pirate encounter brought him home. He regrets his hostility toward Laertes but accepts the fencing invitation carried by Osric despite an uneasy feeling. During the match, Gertrude drinks from Claudius's poisoned cup. Laertes wounds Hamlet with the poisoned blade; in the struggle they exchange weapons, and Hamlet wounds Laertes with it. The dying queen identifies the poisoned drink, and Laertes reveals the king's plot. Hamlet kills Claudius with both weapon and poison, then reconciles with Laertes before each dies. Hamlet stops Horatio from committing suicide so that he can give an accurate account. Fortinbras arrives as ambassadors confirm the deaths of Rosencrantz and Guildenstern. With the Danish royal house destroyed, Fortinbras takes authority and orders military honors for Hamlet.",
-            "through": {
-              "chapter": 43
+              "chapter": 5
             }
           }
         ],
@@ -2315,7 +2308,7 @@
             "id": "first-gravedigger",
             "name": "First Gravedigger",
             "reveal": {
-              "chapter": 3
+              "chapter": 5
             },
             "role": "minor"
           },
@@ -2324,7 +2317,7 @@
             "id": "osric",
             "name": "Osric",
             "reveal": {
-              "chapter": 3
+              "chapter": 5
             },
             "role": "minor"
           }
@@ -2362,7 +2355,7 @@
             "scope": "book",
             "text": "The players stage a murder resembling the ghost's account, and Claudius abruptly stops the performance, confirming his guilt to Hamlet. Hamlet later finds him apparently praying but postpones revenge. In Gertrude's chamber, Hamlet stabs through a curtain and accidentally kills Polonius. Claudius sends him toward England with secret execution orders. Hamlet discovers the order during the voyage, replaces it with instructions condemning Rosencrantz and Guildenstern, and returns after an encounter with pirates. Meanwhile, Ophelia loses her reason after her father's death and drowns. Laertes returns furious, and Claudius directs his revenge toward Hamlet. They plan a fencing match using a poisoned blade and poisoned wine. At the match Gertrude drinks from the cup, Laertes wounds Hamlet, and the fighters exchange weapons so that Laertes is poisoned too. As Gertrude dies, Laertes exposes the scheme and reconciles with Hamlet. Hamlet kills Claudius, then dies after asking Horatio to preserve the truth and supporting Fortinbras for the throne. Fortinbras arrives, assumes authority, and orders military honors for Hamlet.",
             "through": {
-              "chapter": 3
+              "chapter": 5
             }
           }
         ],
@@ -2414,7 +2407,7 @@
             "id": "hamlet",
             "name": "Hamlet",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -2426,7 +2419,7 @@
             "id": "king-claudius",
             "name": "King Claudius",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2439,7 +2432,7 @@
             "id": "queen-gertrude",
             "name": "Queen Gertrude",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2448,7 +2441,7 @@
             "id": "corambis",
             "name": "Corambis",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2460,7 +2453,7 @@
             "id": "leartes",
             "name": "Leartes",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2472,7 +2465,7 @@
             "id": "ofelia",
             "name": "Ofelia",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2481,7 +2474,7 @@
             "id": "montano",
             "name": "Montano",
             "reveal": {
-              "chapter": 5
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -2493,7 +2486,7 @@
             "id": "rossencraft",
             "name": "Rossencraft",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2505,7 +2498,7 @@
             "id": "gilderstone",
             "name": "Gilderstone",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2517,7 +2510,7 @@
             "id": "lead-player",
             "name": "Lead Player",
             "reveal": {
-              "chapter": 8
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -2529,7 +2522,7 @@
             "id": "first-gravedigger",
             "name": "First Gravedigger",
             "reveal": {
-              "chapter": 16
+              "chapter": 5
             },
             "role": "minor"
           }
@@ -2553,42 +2546,35 @@
             "scope": "book",
             "text": "The night watch at Elsinore has seen an armed apparition resembling Denmark's dead king. Horatio, initially doubtful, witnesses it and agrees to tell Prince Hamlet. Inside the court, the late king's brother now rules Denmark and has married the widowed queen, Gertrude. Hamlet remains in mourning and is bitter about the rapid marriage, while the royal couple urges him to accept the new order. Leartes receives permission to return to France. Before leaving, he warns his sister Ofelia that Hamlet's courtship may be limited by royal duty; their father Corambis orders her to avoid the prince. Hamlet joins Horatio and the watch, where the Ghost finally speaks to him. It says the present king murdered it and commands Hamlet to take revenge while sparing his mother from physical harm.",
             "through": {
-              "chapter": 4
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "Hamlet swears Horatio and Marcellus to secrecy and prepares to behave unpredictably while investigating the Ghost's accusation. Corambis sends Montano to inquire into Leartes's conduct in France. Ofelia then reports that Hamlet has approached her in a frightening, disordered manner. Corambis concludes that rejected love has driven the prince mad and takes the theory to the king. The king and queen summon Hamlet's old companions Rossencraft and Gilderstone, asking them to discover what troubles him. Hamlet quickly suspects that they were sent for. Corambis tries to demonstrate his own explanation by arranging for Ofelia to encounter Hamlet while the court observes. Hamlet's despair and hostility become public, but his private remarks show that his disturbance cannot be reduced to disappointed romance.",
             "through": {
-              "chapter": 7
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "A company of actors arrives at Elsinore, giving Hamlet a way to test the Ghost's story without acting immediately on it. He asks for a performance that will echo the reported murder of his father and plans to watch the king's response. Hamlet also confronts Ofelia, rejecting the relationship and speaking harshly while the king and Corambis monitor him. At the court performance, the staged poisoning closely resembles the Ghost's account. The king abruptly stops the entertainment and withdraws, convincing Hamlet and Horatio that his guilt has been exposed. The king now treats Hamlet as a direct danger rather than merely a troubled dependent. Gertrude summons her son to her chamber, while Corambis plans to hide nearby and overhear their conversation.",
             "through": {
-              "chapter": 10
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "Hamlet finds the king alone but delays killing him under circumstances that might appear spiritually favorable. In Gertrude's chamber he presses his mother to recognize the corruption of her second marriage. Hearing movement behind a hanging, Hamlet strikes through it and kills Corambis, having believed the concealed listener might be the king. The Ghost reappears to remind Hamlet of revenge and restrain his anger toward Gertrude. The killing gives the king grounds to remove him. Hamlet is sent toward England with Rossencraft and Gilderstone, who carry secret instructions intended to cause his death. At court Ofelia, broken by her father's death and Hamlet's disappearance, loses her reason. Leartes returns furious, and the king directs his desire for vengeance toward Hamlet.",
             "through": {
-              "chapter": 13
+              "chapter": 4
             }
           },
           {
             "scope": "book",
-            "text": "Hamlet discovers the orders against him, escapes the journey to England, and arranges for the scheme to fall upon the companions carrying it. News of his survival reaches Denmark. Gertrude, now aware that the king is working against her son, informs Horatio that Hamlet is returning and places hope in his vindication. Ofelia dies after wandering in her distracted state, leaving Leartes with two deaths to avenge. The king recruits him into a concealed plan: Leartes will fence Hamlet with a sharpened blade treated with poison, and a poisoned drink will provide a second means of killing the prince. Hamlet comes back to a court preparing both Ofelia's burial and the apparently friendly sporting match.",
+            "text": "Hamlet discovers the orders against him, escapes the journey to England, and arranges for the scheme to fall upon the companions carrying it. News of his survival reaches Denmark. Gertrude, now aware that the king is working against her son, informs Horatio that Hamlet is returning and places hope in his vindication. Ofelia dies after wandering in her distracted state, leaving Leartes with two deaths to avenge. The king recruits him into a concealed plan: Leartes will fence Hamlet with a sharpened blade treated with poison, and a poisoned drink will provide a second means of killing the prince. Hamlet comes back to a court preparing both Ofelia's burial and the apparently friendly sporting match. In the graveyard Hamlet reflects on mortality before discovering that the burial is Ofelia's. He and Leartes struggle at the grave, each asserting his grief, but the arranged fencing match proceeds. Leartes wounds Hamlet with the poisoned weapon; in the confusion they exchange swords, and Hamlet wounds Leartes with the same blade. Gertrude drinks the poisoned wine prepared as the king's backup plan and dies. The dying Leartes confesses the conspiracy and names the king. Hamlet kills the king, completing the revenge commanded by the Ghost, then succumbs to the poison himself. He asks Horatio to live and report the truth. Fortinbras arrives after the Danish royal house has destroyed itself and assumes authority over the kingdom, ordering honorable treatment for Hamlet amid the dead.",
             "through": {
-              "chapter": 15
-            }
-          },
-          {
-            "scope": "book",
-            "text": "In the graveyard Hamlet reflects on mortality before discovering that the burial is Ofelia's. He and Leartes struggle at the grave, each asserting his grief, but the arranged fencing match proceeds. Leartes wounds Hamlet with the poisoned weapon; in the confusion they exchange swords, and Hamlet wounds Leartes with the same blade. Gertrude drinks the poisoned wine prepared as the king's backup plan and dies. The dying Leartes confesses the conspiracy and names the king. Hamlet kills the king, completing the revenge commanded by the Ghost, then succumbs to the poison himself. He asks Horatio to live and report the truth. Fortinbras arrives after the Danish royal house has destroyed itself and assumes authority over the kingdom, ordering honorable treatment for Hamlet amid the dead.",
-            "through": {
-              "chapter": 17
+              "chapter": 5
             }
           }
         ],

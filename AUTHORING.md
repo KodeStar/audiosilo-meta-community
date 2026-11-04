@@ -270,9 +270,37 @@ why it must be spoiler-free outright rather than positioned.
   so the card is visible from the start of Act II. A recap may only stand at an
   act boundary: `through: { "chapter": 3 }` covers everything to the end of Act
   III, and a "story so far" in the middle of an act waits for the act's end. A
-  prologue or epilogue outside the acts counts with the act it opens or closes.
-  A play not divided into acts is one act: every reveal is `1` (or `0`) and it
-  has a single chaptered recap, `through: { "chapter": 1 }`.
+  prologue, epilogue or interlude outside the acts counts with the act it opens
+  or closes. A play's act is its **top-level printed division, whatever the
+  play calls it**: a play printed in numbered scenes with no acts counts those
+  scenes (*The Glass Menagerie*'s seven, *Saint Joan*'s six), one printed in
+  parts counts the parts (*Desire Under the Elms*), and a play in two halves
+  numbers straight through (*Angels in America*, 3 + 5 = 8). A Greek tragedy
+  counts its episodes, each with the ode that follows it, the prologue and
+  parodos with the first and the exodos with the last. A play with no division
+  at all is one act: every reveal is `1` (or `0`) and it has a single chaptered
+  recap, `through: { "chapter": 1 }`.
+- **A recording's track is never a position, unless the recording is the work.**
+  A recap that ends mid-act rounds UP to that act, and two recaps landing on one
+  act become one. The exception is a work that exists only as audio (a
+  dramatization, an abridgement issued as a recording): no printed chapter
+  exists, so its own markers are the numbering rather than the novel it adapts.
+  One issued in only a few files has too few to gate by and may keep the adapted
+  novel's chapters, which can only reveal later.
+- **A book whose chapter numbering restarts** (in each part or book) counts
+  straight through: chapter 1 of Part Two after a seven-chapter Part One is
+  `chapter: 8`. A part is a position only in a book with nothing finer.
+- **A book with no numbered chapters** uses the finest division it does print.
+  A diary counts each dated entry, a novel in verse each titled poem, a book of
+  named tales or unnumbered sections each of those (*A Hero of Our Time*'s five
+  tales, *The Waves*' nine sections).
+- **An anthology counts through its pieces in book order.** A piece with its own
+  chapters or acts contributes each of them; a piece with none is one position.
+  *The Twits* (29 chapters), then *The Minpins*, puts the first recap at `29`.
+- **Later is always safe.** When a position cannot be verified after research,
+  round it UP to the next one you are sure is at or past the event, never down.
+- A recaps member may stop before the book does (the rest carried by `in_short`
+  and `ending`), and its positions are still the book's chapters.
 - A consumer (the site, the player) compares the listener's current position
   against these numbers and only reveals what is already safe. That is the whole
   point: **get the position right and the spoiler protection is automatic.**
@@ -355,7 +383,8 @@ style:
 - [ ] The final chaptered recap states the **actual ending**, not a tease; `ending`
       and `in_short` (if present) carry the real outcome plainly.
 - [ ] Voice is neutral reference-guide - no jokes, editorializing, or profanity.
-- [ ] Positions use the book's own (logical) chapter numbers, a play's its acts; `0` = prior-book.
+- [ ] Positions use the book's own (logical) chapter numbers, a play's its acts, counted straight through; `0` = prior-book.
+- [ ] If metacheck's `mis-scaled sidecar` advisory names the work and the recording is what is odd (a file split, study tracks, scene tracks), core's `pkg/check/sidecar_lengths.json` records the book's real length, with the reason.
 - [ ] Book 2+ has a `chapter: 0` series recap; a series opener does not.
 - [ ] `metafmt --write` and `metacheck` both pass.
 
