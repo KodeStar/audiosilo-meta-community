@@ -1864,7 +1864,7 @@
             "id": "konstantin-treplev",
             "name": "Konstantin Treplev",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -1873,7 +1873,7 @@
             "id": "nina-zarechnaya",
             "name": "Nina Zarechnaya",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -1885,7 +1885,7 @@
             "id": "irina-arkadina",
             "name": "Irina Arkadina",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1894,7 +1894,7 @@
             "id": "boris-trigorin",
             "name": "Boris Trigorin",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1903,7 +1903,7 @@
             "id": "pyotr-sorin",
             "name": "Pyotr Sorin",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1912,7 +1912,7 @@
             "id": "masha-shamrayev",
             "name": "Masha Shamrayev",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1921,7 +1921,7 @@
             "id": "semyon-medvedenko",
             "name": "Semyon Medvedenko",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -1933,7 +1933,7 @@
             "id": "yevgeny-dorn",
             "name": "Yevgeny Dorn",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1942,7 +1942,7 @@
             "id": "ilya-shamrayev",
             "name": "Ilya Shamrayev",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -1951,7 +1951,7 @@
             "id": "polina-shamrayeva",
             "name": "Polina Shamrayeva",
             "reveal": {
-              "chapter": 3
+              "chapter": 2
             },
             "role": "minor"
           }
@@ -1975,28 +1975,28 @@
             "scope": "book",
             "text": "At his uncle Sorin's country estate, Konstantin Treplev prepares an experimental play intended to replace conventional theatre with new forms. Its sole performer is Nina, a neighbor's daughter whom he loves. The audience includes Konstantin's mother, the celebrated actress Arkadina, and her companion, the successful writer Trigorin. Arkadina jokes and interrupts during the performance, and Konstantin stops it in humiliation. Nina remains awed by the famous artists, while Konstantin sees his mother's response as another sign that she neither respects his work nor makes room for him. Around this central conflict, Masha admits to Dr. Dorn that she loves Konstantin, though the schoolteacher Medvedenko loves her. Dorn is the one person who tells Konstantin that the strange play had value and that he should continue writing with a serious purpose.",
             "through": {
-              "chapter": 2
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "The summer gathering grows tense. Arkadina quarrels over the estate's horses and threatens to leave, while Sorin's poor health and regret over his unlived life become more apparent. Nina observes that famous people behave like ordinary people and is increasingly drawn to Trigorin. Konstantin, despairing over the failure of his play and Nina's emotional distance, has shot a seagull. He places the dead bird before her and says that he may soon destroy himself in the same way. Nina is frightened and no longer understands him. Trigorin then speaks to her about the relentless burden of writing. Seeing the bird, he notes an idea for a story about a young woman destroyed by a man who encounters her by chance. Nina hears his account of artistic life as an invitation rather than a warning.",
             "through": {
-              "chapter": 3
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "Konstantin has survived a suicide attempt and wears a bandage from the wound. Masha decides to marry Medvedenko in hopes of extinguishing her love for him. Arkadina plans to take Trigorin away after recognizing his interest in Nina. Konstantin asks his mother for tenderness while she changes his bandage, but their brief reconciliation collapses into insults about Trigorin and his own writing. Trigorin asks Arkadina to release him so that he can pursue Nina. Arkadina pleads, flatters, and exerts their shared history until he agrees to remain with her. Nina, however, has decided to defy her family, go to Moscow, and become an actress. Before departing, she gives Trigorin a token that arranges a meeting. He returns to tell her where he is staying, and they kiss, beginning the relationship anticipated by his seagull story.",
             "through": {
-              "chapter": 4
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "Two years later, Konstantin is publishing fiction but remains dissatisfied with his work. Masha has married Medvedenko and had a child, yet she still loves Konstantin and neglects her family. Nina became an actress and Trigorin's lover; their child died, Trigorin returned to Arkadina, and Nina's early career deteriorated before she began rebuilding it in provincial theatres. With Sorin gravely ill and the household gathered again, Nina visits Konstantin in secret. She is distressed and speaks of herself as the seagull, then rejects the image and asserts that she is an actress whose task is to endure. She still loves Trigorin and leaves to continue touring. Konstantin concludes that she is lost to him, tears up his manuscripts, and shoots himself offstage. Dorn quietly tells Trigorin that Konstantin is dead and asks him to take Arkadina away before she is informed.",
             "through": {
-              "chapter": 5
+              "chapter": 4
             }
           }
         ],

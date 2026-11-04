@@ -949,7 +949,7 @@
             "id": "leontes",
             "name": "Leontes",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -958,7 +958,7 @@
             "id": "hermione",
             "name": "Hermione",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -967,7 +967,7 @@
             "id": "polixenes",
             "name": "Polixenes",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -976,7 +976,7 @@
             "id": "camillo",
             "name": "Camillo",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -985,7 +985,7 @@
             "id": "mamillius",
             "name": "Mamillius",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -994,7 +994,7 @@
             "id": "antigonus",
             "name": "Antigonus",
             "reveal": {
-              "chapter": 3
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1003,7 +1003,7 @@
             "id": "paulina",
             "name": "Paulina",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1012,7 +1012,7 @@
             "id": "perdita",
             "name": "Perdita",
             "reveal": {
-              "chapter": 8
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -1021,7 +1021,7 @@
             "id": "old-shepherd",
             "name": "Old Shepherd",
             "reveal": {
-              "chapter": 8
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -1033,7 +1033,7 @@
             "id": "shepherds-son",
             "name": "Shepherd's Son",
             "reveal": {
-              "chapter": 8
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -1042,7 +1042,7 @@
             "id": "autolycus",
             "name": "Autolycus",
             "reveal": {
-              "chapter": 11
+              "chapter": 4
             },
             "role": "supporting"
           },
@@ -1054,7 +1054,7 @@
             "id": "florizel",
             "name": "Florizel",
             "reveal": {
-              "chapter": 12
+              "chapter": 4
             },
             "role": "supporting"
           }

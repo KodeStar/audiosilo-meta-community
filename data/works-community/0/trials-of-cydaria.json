@@ -1156,7 +1156,7 @@
             "id": "cressida",
             "name": "Cressida",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -1174,7 +1174,7 @@
             "id": "hector",
             "name": "Hector",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1183,7 +1183,7 @@
             "id": "priam",
             "name": "Priam",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1192,7 +1192,7 @@
             "id": "cassandra",
             "name": "Cassandra",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -1201,7 +1201,7 @@
             "id": "ulysses",
             "name": "Ulysses",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1210,7 +1210,7 @@
             "id": "agamemnon",
             "name": "Agamemnon",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1219,7 +1219,7 @@
             "id": "achilles",
             "name": "Achilles",
             "reveal": {
-              "chapter": 6
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1228,7 +1228,7 @@
             "id": "ajax",
             "name": "Ajax",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1237,7 +1237,7 @@
             "id": "thersites",
             "name": "Thersites",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1246,7 +1246,7 @@
             "id": "diomedes",
             "name": "Diomedes",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1255,7 +1255,7 @@
             "id": "aeneas",
             "name": "Aeneas",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1264,7 +1264,7 @@
             "id": "paris",
             "name": "Paris",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -1273,7 +1273,7 @@
             "id": "helen",
             "name": "Helen",
             "reveal": {
-              "chapter": 7
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -1282,7 +1282,7 @@
             "id": "calchas",
             "name": "Calchas",
             "reveal": {
-              "chapter": 9
+              "chapter": 3
             },
             "role": "supporting"
           }

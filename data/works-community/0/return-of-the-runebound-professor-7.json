@@ -2996,7 +2996,7 @@
             "id": "duchess-of-gloucester",
             "name": "Duchess of Gloucester",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -3008,7 +3008,7 @@
             "id": "aumerle",
             "name": "Aumerle",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3020,7 +3020,7 @@
             "id": "duke-of-york",
             "name": "Duke of York",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -3032,7 +3032,7 @@
             "id": "queen-isabel",
             "name": "Queen Isabel",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -3044,7 +3044,7 @@
             "id": "northumberland",
             "name": "Northumberland",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -3053,7 +3053,7 @@
             "id": "bushy",
             "name": "Bushy",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -3062,7 +3062,7 @@
             "id": "green",
             "name": "Green",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -3071,7 +3071,7 @@
             "id": "bishop-of-carlisle",
             "name": "Bishop of Carlisle",
             "reveal": {
-              "chapter": 10
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -3080,7 +3080,7 @@
             "id": "gardener",
             "name": "Gardener",
             "reveal": {
-              "chapter": 12
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -3092,7 +3092,7 @@
             "id": "duchess-of-york",
             "name": "Duchess of York",
             "reveal": {
-              "chapter": 15
+              "chapter": 5
             },
             "role": "supporting"
           },
@@ -3101,7 +3101,7 @@
             "id": "exton",
             "name": "Exton",
             "reveal": {
-              "chapter": 17
+              "chapter": 5
             },
             "role": "minor"
           }

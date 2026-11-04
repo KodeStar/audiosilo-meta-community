@@ -3908,7 +3908,7 @@
             "id": "claudio",
             "name": "Claudio",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3917,7 +3917,7 @@
             "id": "juliet",
             "name": "Juliet",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3926,7 +3926,7 @@
             "id": "lucio",
             "name": "Lucio",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3938,7 +3938,7 @@
             "id": "mistress-overdone",
             "name": "Mistress Overdone",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -3950,7 +3950,7 @@
             "id": "pompey",
             "name": "Pompey",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -3959,7 +3959,7 @@
             "id": "friar-thomas",
             "name": "Friar Thomas",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -3968,7 +3968,7 @@
             "id": "isabella",
             "name": "Isabella",
             "reveal": {
-              "chapter": 4
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -3977,7 +3977,7 @@
             "id": "provost",
             "name": "Provost",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -3986,7 +3986,7 @@
             "id": "elbow",
             "name": "Elbow",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -3995,7 +3995,7 @@
             "id": "mariana",
             "name": "Mariana",
             "reveal": {
-              "chapter": 11
+              "chapter": 4
             },
             "role": "supporting"
           },
@@ -4004,7 +4004,7 @@
             "id": "barnardine",
             "name": "Barnardine",
             "reveal": {
-              "chapter": 12
+              "chapter": 4
             },
             "role": "minor"
           }

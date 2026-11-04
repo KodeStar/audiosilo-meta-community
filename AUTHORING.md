@@ -263,6 +263,16 @@ why it must be spoiler-free outright rather than positioned.
   chapters, some are abridged). Use the chapter as printed in the book.
 - `chapter: 0` means front matter or knowledge carried from **earlier books** in
   the series (a character the reader already knows; a "story so far" recap).
+- **A play's `chapter` is the ACT** (1-based; `0` = front matter, before the
+  play begins), never the scene: acts are how most play recordings are tracked
+  and they are stable across editions, where scene numbering is not. A
+  character who first enters in Act II, Scene 3 has `reveal: { "chapter": 2 }`,
+  so the card is visible from the start of Act II. A recap may only stand at an
+  act boundary: `through: { "chapter": 3 }` covers everything to the end of Act
+  III, and a "story so far" in the middle of an act waits for the act's end. A
+  prologue or epilogue outside the acts counts with the act it opens or closes.
+  A play not divided into acts is one act: every reveal is `1` (or `0`) and it
+  has a single chaptered recap, `through: { "chapter": 1 }`.
 - A consumer (the site, the player) compares the listener's current position
   against these numbers and only reveals what is already safe. That is the whole
   point: **get the position right and the spoiler protection is automatic.**
@@ -345,7 +355,7 @@ style:
 - [ ] The final chaptered recap states the **actual ending**, not a tease; `ending`
       and `in_short` (if present) carry the real outcome plainly.
 - [ ] Voice is neutral reference-guide - no jokes, editorializing, or profanity.
-- [ ] Positions use the book's own (logical) chapter numbers; `0` = prior-book.
+- [ ] Positions use the book's own (logical) chapter numbers, a play's its acts; `0` = prior-book.
 - [ ] Book 2+ has a `chapter: 0` series recap; a series opener does not.
 - [ ] `metafmt --write` and `metacheck` both pass.
 

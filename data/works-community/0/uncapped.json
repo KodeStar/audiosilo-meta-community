@@ -1285,7 +1285,7 @@
             "id": "ivan-voynitsky",
             "name": "Ivan Voynitsky",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -1297,7 +1297,7 @@
             "id": "sonya-serebryakova",
             "name": "Sonya Serebryakova",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -1309,7 +1309,7 @@
             "id": "mikhail-astrov",
             "name": "Mikhail Astrov",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1321,7 +1321,7 @@
             "id": "alexander-serebryakov",
             "name": "Alexander Serebryakov",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1330,7 +1330,7 @@
             "id": "yelena-andreyevna",
             "name": "Yelena Andreyevna",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -1339,7 +1339,7 @@
             "id": "maria-voynitskaya",
             "name": "Maria Voynitskaya",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -1348,7 +1348,7 @@
             "id": "marina",
             "name": "Marina",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -1360,7 +1360,7 @@
             "id": "ilya-telegin",
             "name": "Ilya Telegin",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           }
@@ -1384,28 +1384,28 @@
             "scope": "book",
             "text": "Professor Serebryakov and his young second wife, Yelena, are staying on the country estate that belongs to his daughter Sonya. Their irregular hours and complaints have disrupted a household normally sustained by Sonya and her uncle Vanya. Dr. Astrov, exhausted by years of medical work, visits and speaks of the forests he is trying to preserve. Vanya, once an admirer of the professor, now regards him as a fraud whose career consumed the labor of others. He also admits his growing love for Yelena. Sonya quietly confides that she has loved Astrov for years, though his manner toward her gives little cause for hope. Around them, Marina and Telegin continue the domestic routine while resentments that were previously contained begin to surface.",
             "through": {
-              "chapter": 2
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "A sleepless night exposes the household's emotional strain. Serebryakov complains of age and illness, demanding Yelena's care while rejecting sympathy. Once he retires, Vanya presses Yelena to acknowledge the emptiness of her marriage and his devotion to her, but she refuses him. Astrov arrives after drinking and speaks with Sonya about his fatigue and inability to love. Later, Sonya and Yelena overcome some of the reserve between them. Sonya confesses that she loves Astrov and asks Yelena to discover whether he might return her feelings. Yelena agrees to question him, though the prospect also forces her to consider her own restlessness and interest in the doctor.",
             "through": {
-              "chapter": 3
+              "chapter": 2
             }
           },
           {
             "scope": "book",
             "text": "When Yelena questions Astrov on Sonya's behalf, he says he does not love Sonya and assumes Yelena is arranging a private meeting for herself. He embraces Yelena just as Vanya enters carrying flowers. Shaken by the encounter and its discovery, Yelena decides that she and Serebryakov must leave. The professor then summons the household and proposes selling the estate, investing the proceeds, and buying a more convenient home abroad. Vanya reacts with outrage: the property came from Sonya's mother, and he and Sonya have spent years working to support the professor while settling its debts. Serebryakov has not considered where they would live. The quarrel becomes chaotic. Vanya obtains a pistol and fires twice at the professor, missing both times. His attempted violence leaves the household horrified and forces the long-standing conflict into the open.",
             "through": {
-              "chapter": 4
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "Serebryakov and Yelena prepare to leave the estate. Vanya, humiliated by the failed shooting and overwhelmed by despair, has taken morphine from Astrov's case, but Sonya persuades him to return it. Astrov makes clear that he cannot offer Sonya the love she hopes for. He and Yelena exchange a final private farewell, acknowledging their attraction without beginning an affair, and Astrov leaves. Vanya and Serebryakov reconcile formally: Vanya promises to resume managing the estate and sending its revenues, while the professor agrees to let the old arrangement stand. After the visitors depart, Vanya and Sonya sit down at once to restore the accounts. Vanya weeps at the thought of his remaining years. Sonya tells him that they must continue to work, endure their unhappiness, and trust that peace will come after death. Telegin plays softly as their former routine closes around them.",
             "through": {
-              "chapter": 5
+              "chapter": 4
             }
           }
         ],

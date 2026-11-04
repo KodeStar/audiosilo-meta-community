@@ -2357,7 +2357,7 @@
             "id": "falstaff",
             "name": "Falstaff",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "protagonist"
           },
@@ -2366,7 +2366,7 @@
             "id": "falstaffs-page",
             "name": "Falstaff's Page",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "minor"
           },
@@ -2378,7 +2378,7 @@
             "id": "chief-justice",
             "name": "Chief Justice",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2390,7 +2390,7 @@
             "id": "archbishop-scroop",
             "name": "Archbishop Scroop",
             "reveal": {
-              "chapter": 3
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -2402,7 +2402,7 @@
             "id": "hostess-quickly",
             "name": "Hostess Quickly",
             "reveal": {
-              "chapter": 4
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2415,7 +2415,7 @@
             "id": "prince-henry",
             "name": "Prince Henry",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "protagonist"
           },
@@ -2424,7 +2424,7 @@
             "id": "poins",
             "name": "Poins",
             "reveal": {
-              "chapter": 5
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2436,7 +2436,7 @@
             "id": "doll-tearsheet",
             "name": "Doll Tearsheet",
             "reveal": {
-              "chapter": 7
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2448,7 +2448,7 @@
             "id": "king-henry-iv",
             "name": "King Henry IV",
             "reveal": {
-              "chapter": 8
+              "chapter": 3
             },
             "role": "protagonist"
           },
@@ -2460,7 +2460,7 @@
             "id": "robert-shallow",
             "name": "Robert Shallow",
             "reveal": {
-              "chapter": 9
+              "chapter": 3
             },
             "role": "supporting"
           },
@@ -2472,7 +2472,7 @@
             "id": "silence",
             "name": "Silence",
             "reveal": {
-              "chapter": 9
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -2484,7 +2484,7 @@
             "id": "prince-john",
             "name": "Prince John",
             "reveal": {
-              "chapter": 10
+              "chapter": 4
             },
             "role": "supporting"
           }

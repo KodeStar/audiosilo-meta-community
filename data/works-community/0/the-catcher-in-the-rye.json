@@ -939,7 +939,7 @@
             "id": "pyotr-sergeyevich-trofimov",
             "name": "Pyotr Sergeyevich Trofimov",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -984,7 +984,7 @@
             "id": "charlotta-ivanovna",
             "name": "Charlotta Ivanovna",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           },
@@ -996,7 +996,7 @@
             "id": "boris-borisovich-simeonov-pishchik",
             "name": "Boris Borisovich Simeonov-Pishchik",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           }
