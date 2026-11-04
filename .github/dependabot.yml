@@ -20,3 +20,9 @@ updates:
         update-types:
           - minor
           - patch
+    # route.yml calls core's reusable route workflow at a full commit sha that
+    # is bumped by hand, like CORE_REF (see route.yml). Core's tags are code and
+    # data releases, not versions of that workflow, so a dependabot "update" of
+    # the pin would be noise at best.
+    ignore:
+      - dependency-name: "KodeStar/audiosilo-meta*"
