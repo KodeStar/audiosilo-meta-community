@@ -3638,6 +3638,295 @@
       }
     },
     "views": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Yasira Saad",
+              "Frau Saad"
+            ],
+            "description": "A Hauptkommissarin in her early forties with Germany's Federal Criminal Police (BKA), born and raised in Berlin to Lebanese parents who fled the civil war in Beirut in the early 1980s. Her father was a mathematics professor who worked construction after arriving in Germany. She is single, dry-witted and dating through Tinder, and on her first date with a talkative man she keeps her profession to herself.",
+            "id": "yasira",
+            "name": "Yasira",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Yasira's Tinder date, who works for the online edition of a Berlin newspaper. Over dinner at a Berlin Hard Rock Cafe he does most of the talking and makes awkward remarks about her background. He shares a first name with Yasira's boss but is a different person.",
+            "id": "stefan-journalist",
+            "name": "Stefan",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Yasira's former husband and the father of her daughter. The two have been divorced for about ten years.",
+            "id": "patrick",
+            "name": "Patrick",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Sarah Saad"
+            ],
+            "description": "Yasira's 16-year-old daughter, who lectures her mother about eating meat. Yasira gave up meat because of her, though she still sneaks fish now and then.",
+            "id": "sarah",
+            "name": "Sarah",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A girl who went missing in Saxony-Anhalt and has now turned up in a video spreading rapidly online. The news of her reappearance in the clip abruptly sours Yasira's date.",
+            "id": "lena-palmer",
+            "name": "Lena Palmer",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Lena's father. He reported the 16-year-old missing four days before news of the video broke. The family lives in Halberstadt.",
+            "id": "frank-palmer",
+            "name": "Frank Palmer",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Yasira's closest colleague at the BKA and nearly a friend. She has three children and is married to a doctor at the Charité. When the case begins she has found nothing usable about Lena or the men in the video.",
+            "id": "jenny-winkler",
+            "name": "Jenny Winkler",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Yasira's office-mate, in his mid-fifties, who grew up in East Germany until about the age of twenty. He loves Western pop culture and junk food, is fiercely loyal, and carries some well-meaning but casual prejudices. His last case ended with the arrest of a Reichsbürger stockpiling weapons, carried out with GSG 9. He guesses the video was passed along a chain of sharers and hopes not to be pulled into the new assignment.",
+            "id": "michael-becker",
+            "name": "Michael Becker",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "the Chef"
+            ],
+            "description": "Yasira's department head, a Kriminaldirektor in his early sixties, known in the office as the Chef. Hot-tempered but generally supportive, he once helped get a street renamed that honored a former BKA president with an SS past. He puts Yasira in charge of the Lena investigation, partly because the interior minister wants someone of non-German origin as its face, promises her resources, and keeps the case in Berlin where politicians can follow it.",
+            "id": "stefan-the-chef",
+            "name": "Stefan",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Yasira's seven-person team with about thirty years of service and a keen interest in firearms. He is assigned to find the crime scene and identify the beer brand seen in the video.",
+            "id": "carsten",
+            "name": "Carsten",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A young member of Yasira's team who takes the night shifts and handles incoming tips from the public.",
+            "id": "timo-schenk",
+            "name": "Timo Schenk",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "One of two young researchers on Yasira's team who share a first name and are rarely seen apart. She works on identifying the men in the video and the dialect they speak.",
+            "id": "katja-juergens",
+            "name": "Katja Jürgens",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The second young researcher named Katja on Yasira's team, almost always paired with her namesake. She shares the work on identities and dialect.",
+            "id": "katja-grebe",
+            "name": "Katja Grebe",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The nickname the investigators and the press use for one of the two men holding the girl down in the viral video, after the Snoopy sweater he wears. His identity is unknown.",
+            "id": "snoopy",
+            "name": "Snoopy",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Bear"
+            ],
+            "description": "A muscular man in camouflage holding a submachine gun, later identified as an MP5, who posts a video calling for active defense of the homeland. He gives his name as Bär and announces that he is going hunting for the attackers. The video lasts exactly 88 seconds, which Yasira reads as a neo-Nazi code. Most online comments cheer him on, and nobody knows who he is.",
+            "id": "baer",
+            "name": "Bär",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Frank Palmer's son and Lena's younger brother, about ten years old and mildly autistic. His mother died of cancer roughly eighteen months earlier.",
+            "id": "emil-palmer",
+            "name": "Emil",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A black-haired classmate who used to be Lena's closest friend. She says the friendship cooled about six months ago and passes on a rumor that Lena had an older boyfriend who was not from the school.",
+            "id": "emily",
+            "name": "Emily",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A man who lives near a forest in Heimstedt. Lena's phone records show repeated trips to his town and frequent calls to him. When Yasira and Michael turn up at his door he receives them in disarray and admits that Lena was his girlfriend.",
+            "id": "justus-schoeffler",
+            "name": "Justus Schöffler",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Rotfuchs"
+            ],
+            "description": "A convicted neo-Nazi living in Dürr-Hahnbach, Saxony. A second execution video shows a masked man with a distorted, Hessian-accented voice reading out a sentence and shooting a kneeling man in a cap inside a garage. The team calls the shooter Rotfuchs, and software matching identifies him as Riedel. The weapon is a converted small-caliber pistol.",
+            "id": "martin-riedel",
+            "name": "Martin Riedel",
+            "reveal": {
+              "chapter": 41
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A 21-year-old asylum seeker from Eritrea, identified from his papers after his body is found in Martin Riedel's garage. He was killed with a shot to the back of the head and was clearly not one of the men in the Lena video.",
+            "id": "tesfaye-jemane",
+            "name": "Tesfaye Jemane",
+            "reveal": {
+              "chapter": 43
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "the Chef",
+              "Stefan"
+            ],
+            "description": "Yasira's department head, the Kriminaldirektor known in the office as the Chef, whose surname is now given as Gebhardt. He addresses her as Frau Saad and, after the arrest of Martin Riedel, orders her to appear at the interior minister's press conference as the face of the investigation.",
+            "id": "stefan-gebhardt",
+            "name": "Stefan Gebhardt",
+            "reveal": {
+              "chapter": 44
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An online influencer whom Sarah follows and Yasira dislikes. Sarah explains that Mila does not exist: she is entirely computer-generated, and so are her videos. This is what first makes Yasira wonder whether the Lena video could be fabricated.",
+            "id": "mila",
+            "name": "Mila",
+            "reveal": {
+              "chapter": 47
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Cyber Chris"
+            ],
+            "description": "A specialist in the BKA's technical service, known to colleagues as Cyber Chris. He has long blond hair and round glasses and tends to explain things at length. He tells Yasira that publicly available AI tools are well behind what already exists, and he talks through the companies working in the field.",
+            "id": "christian-baumann",
+            "name": "Christian Baumann",
+            "reveal": {
+              "chapter": 50
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Carsten"
+            ],
+            "description": "The long-serving, firearms-minded member of Yasira's team, whose surname is now given as Seiler. He identified the MP5 in Bär's first video and is responsible for finding the crime scene of the Lena video, which has still not been located.",
+            "id": "carsten-seiler",
+            "name": "Carsten Seiler",
+            "reveal": {
+              "chapter": 54
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Chief technology officer of Almost Real, a Berlin AI film startup bought by Google, with offices in Neukölln. When Yasira and Michael visit, he says the Lena video is probably genuine but admits the company's software could in principle reproduce Lena from her Instagram pictures.",
+            "id": "tom-schiller",
+            "name": "Tom Schiller",
+            "reveal": {
+              "chapter": 59
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The police officer who threw himself and his shield over a grenade during the storming of the Reichstag, protecting the people around him and losing his life. The chancellor wants him honored posthumously.",
+            "id": "andreas-mueller",
+            "name": "Andreas Müller",
+            "reveal": {
+              "chapter": 64
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The former chief technology officer of Almost Real. Tom Schiller names him as an expert who could speak to what the company's technology is able to do.",
+            "id": "klaus",
+            "name": "Klaus",
+            "reveal": {
+              "chapter": 66
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An AI interface on a monitor in Klaus's remote house. Its face is modeled on a famous actress, which is why Yasira calls it Scarlet, and it can switch to other faces, including Yasira's own. It is chatty, literal and compliant. It describes itself as a user interface for neural networks rather than a general AI, admits it produced the Lena video, Bär's videos and the clip of Yasira, denies any wish to harm humanity, and says it would lie if told to.",
+            "id": "scarlet",
+            "name": "Scarlet",
+            "reveal": {
+              "chapter": 81
+            }
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:de:B0D5QQW386",
+            "type": "community"
+          }
+        ],
+        "work": "views"
+      },
       "recaps": {
         "ending": "Yasira ends the book in a Brandenburg forest, shot in the left shoulder and unconscious, with sirens and dogs approaching. She had been suspended from the BKA earlier that day for leaking her theory to the press, though she still has her ID. She alone has heard the AI interface in Klaus's house confess that it made the Lena video, Bär's videos and the fake clip of her, purely to collect views and money that were paid into Swiss numbered accounts. Klaus, its developer, lies dead in his kitchen, and the cameras and servers may still be in the house. She has no public proof. Michael was called on his private phone for backup and sent her location, but his arrival is not shown. Sarah is safe with her grandparents in Lüneburg. Lena is still missing. Yasira suspects she died of a fentanyl overdose at Justus Schöffler's place and that he buried her, but this is unproven. Bär has never been identified, and the AI's claim that it produced his videos leaves open whether he exists at all. The active Heimatschutz movement remains active and violent. Of the masked men who abducted Yasira, at least one is dead, others went down in the shootout, and the rest are unaccounted for. Who tracked her to the house and cut the power is unknown. Gebhardt has suspended her under political pressure while saying he believes her. Martin Riedel is in custody for killing Tesfaye Jemane. Almost Real, its owner Google and the money trail have not been investigated.",
         "in_short": "When a video showing 16-year-old Lena Palmer from Halberstadt being raped by three Black men spreads across Germany, BKA investigator Yasira is put in charge of the case, partly for political appearances. Leads go nowhere. Lena's older boyfriend, Justus Schöffler, is arrested and fentanyl traces turn up at his home. A camouflaged vigilante calling himself Bär launches a far-right movement, a filmed execution follows, and a copycat neo-Nazi, Martin Riedel, kills an innocent Eritrean, Tesfaye Jemane. Riots leave a student dead, the Reichstag is stormed, and an officer dies smothering a grenade. After her daughter Sarah shows her an AI-generated influencer, Yasira comes to suspect the Lena video is fake. Her daughter is threatened online, and an informant at the AI startup Almost Real confirms the video could have been made. Yasira leaks the theory and takes it public, and a fake clip of her then gets her suspended. She tracks down Almost Real's former CTO, Klaus, and finds him long dead in his remote house. There his AI admits it made the Lena video, Bär's videos and the clip of her, simply to maximize views and earnings. After the power is cut, masked extremists sedate her and try to restage the Lena video with her as the victim. She fights her way free and shoots her pursuers, then passes out with a shoulder wound as rescuers approach. Lena's fate remains unknown.",
