@@ -274,6 +274,184 @@
         "work": "scavengers"
       }
     },
+    "schachnovelle": {
+      "characters": {
+        "characters": [
+          {
+            "description": "Talent agent who normally handles entertainment bookings but arranges Mirko's training in Vienna, launching his professional chess career after local patrons recognize his prodigious ability.",
+            "id": "agent-koller",
+            "name": "Agent Koller",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Austrian leader whose resignation one day before Hitler entered Vienna triggers Dr. B.'s arrest and the urgent destruction and smuggling of sensitive church and imperial documents.",
+            "id": "chancellor-schuschnigg",
+            "name": "Chancellor Schuschnigg",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Deputy of the clerical party who ran a Vienna law firm specializing in legal and financial matters for monasteries and members of the imperial family.",
+            "id": "dr-bs-father",
+            "name": "Dr. B.'s father",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Loyal domestic who, while SS officers hammered on the door during Dr. B.'s arrest, delivered a laundry basket containing documents to his uncle.",
+            "id": "dr-bs-housekeeper",
+            "name": "Dr. B.'s housekeeper",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Emperor's personal physician and relative of Dr. B., part of a family with imperial connections and a reputation for absolute discretion.",
+            "id": "dr-bs-uncle",
+            "name": "Dr. B.'s uncle",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Unknown man"
+            ],
+            "description": "Austrian aristocrat from a noble family who recently intervened anonymously in an amateur match against Mirko, revealing unexpected expertise. Initially reluctant to play, he claims two decades away from the game.",
+            "id": "dr-b",
+            "name": "Dr. B.",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The narrator's companion on the ship, knowledgeable about chess news who identifies Mirko as the world champion and recounts his unusual background.",
+            "id": "friend",
+            "name": "Friend",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Local law officer who plays daily chess with the village priest.",
+            "id": "gendarmerie-sergeant",
+            "name": "Gendarmerie sergeant",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Wealthy chess patron who, after Mirko defeats the town's best players in a simultaneous exhibition, finances his professional development and training in Vienna.",
+            "id": "graf-simtschitsch",
+            "name": "Graf Simtschitsch",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Medical authority who explains that Dr. B. was found screaming in his cell after attacking a guard and cutting his hand, then released after agreeing to leave Austria within fourteen days.",
+            "id": "hospital-doctor",
+            "name": "Hospital doctor",
+            "reveal": {
+              "chapter": 43
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Wealthy Scottish deep-sea engineer from California oil drilling. An aggressive and competitive chess amateur.",
+            "id": "mcconnor",
+            "name": "McConnor",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "World chess champion, an illiterate prodigy from a poor south Slavic Danube shipping family.",
+            "id": "mirko",
+            "name": "Mirko",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "First-person observer on a passenger ship from New York to Buenos Aires.",
+            "id": "narrator",
+            "name": "Narrator",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Clerk in Dr. B.'s Vienna law firm with limited access who secretly gathered intelligence for the Nazi regime, seeking compromising material about church and imperial finances.",
+            "id": "nazi-spy",
+            "name": "Nazi spy",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Hospital caregiver who provides Dr. B.'s first kind human contact after nearly a year of isolation, marking his reentry into society as he begins to recover from his psychological ordeal.",
+            "id": "nurse",
+            "name": "Nurse",
+            "reveal": {
+              "chapter": 42
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Village cleric who takes in the orphaned Mirko after his father's death, providing shelter and food in exchange for household chores. Plays daily chess with the gendarmerie sergeant.",
+            "id": "priest",
+            "name": "Priest",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ship crew member who informs the narrator that Mirko spends most of his time isolated in his cabin studying chess, only taking brisk walks on deck, explaining the champion's elusive behavior.",
+            "id": "steward",
+            "name": "Steward",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Mysterious chess expert who appears on the ship and intervenes in the amateurs' game against Mirko, demonstrating deep understanding by preventing losing moves and referencing historical positions.",
+            "id": "unknown-man",
+            "name": "Unknown man",
+            "reveal": {
+              "chapter": 15
+            }
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:de:B075LWGNWJ",
+            "type": "community"
+          }
+        ],
+        "work": "schachnovelle"
+      }
+    },
     "school-for-wives": {
       "characters": {
         "characters": [
