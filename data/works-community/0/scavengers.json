@@ -274,6 +274,64 @@
         "work": "scavengers"
       }
     },
+    "schachnovelle": {
+      "recaps": {
+        "ending": "Dr. B. has permanently renounced chess after his breakdown during the second game against Mirko, his hand scar a lasting reminder of his trauma. Mirko, the illiterate world champion from a poor Danube shipping family, remains the reigning champion, acknowledging Dr. B.'s unusual talent for a dilettante. The narrator's account concludes with Dr. B.'s final departure. All threads are resolved: Mirko's dominance is briefly challenged, Dr. B.'s imprisonment and self-taught chess mastery are fully explained, and his psychological struggle ends with his absolute renunciation. No open threads remain.",
+        "in_short": "On a transatlantic voyage, the narrator encounters world chess champion Mirko, an illiterate prodigy from a poor Danube shipping family who rose to dominance through cold logic and tenacity. The true focus emerges with Dr. B., an Austrian aristocrat imprisoned by the Nazis in solitary confinement at Hotel Metropol. To survive psychological torture, he steals a chess manual and trains his mind to visualize the board, eventually descending into obsessive chess fever. After release and escape to America, Dr. B. meets Mirko on the ship and, despite claiming decades away from chess, defeats the world champion in their first game. During a second match, his latent madness resurfaces, he makes an illegal move, and permanently renounces chess, while Mirko remains the world champion.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "book",
+            "text": "On a passenger ship from New York to Buenos Aires, the narrator's friend identifies Mirko, the world chess champion, traveling after a successful American tour. Mirko's unusual background emerges: an illiterate prodigy, son of a poor south Slavic Danube shipper, taken in by a village priest after his father's death. There, observing daily chess games between the priest and the local gendarmerie sergeant, Mirko learns the game and defeats both men in his first attempts. Recognizing his extraordinary talent, local patrons Graf Simtschitsch and Agent Koller finance his training in Vienna. Despite needing a physical board to visualize positions, Mirko wins tournament after tournament, becoming Hungarian champion at 18 and world champion at 20 through sheer tenacity and cold logic.",
+            "through": {
+              "chapter": 5
+            }
+          },
+          {
+            "scope": "book",
+            "text": "As the voyage continues, the narrator attempts to engage Mirko but finds the champion isolated, spending most time in his cabin studying chess with only brief deck walks. Meanwhile, chess activity in the smoking room draws passengers including the narrator's wife and McConnor, a wealthy Scottish engineer from California oil. After Mirko dismisses their amateur play, McConnor pays for a simultaneous exhibition but loses decisively. During this, Dr. B. appears, advising the amateurs and enabling them to draw against Mirko. He is an Austrian aristocrat from a noble family with imperial connections. He begins his story: on the day Chancellor Schuschnigg resigned, he burned critical documents and smuggled papers via his housekeeper to his uncle, then was arrested by the SS and imprisoned at Hotel Metropol, where psychological torture through isolation aims to extract information about church and imperial assets.",
+            "through": {
+              "chapter": 24
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Dr. B.'s imprisonment at Hotel Metropol continues with solitary confinement and intermittent interrogations about financial documents, banks, and contacts. The uncertainty of not knowing what the Gestapo already possesses makes every answer a high-stakes decision. After months of sensory deprivation, Dr. B. reaches a breaking point. During a waiting period before interrogation, he notices a chess manual with 150 master games protruding from a coat pocket and steals it. Back in his cell, he studies the games voraciously, using bread crumbs on his bedspread to reconstruct positions. He marks the squares with a pencil; after 6 days he can play complete games from the book, after 8 days he no longer needs the crumbs, and after 14 days he achieves mental visualization, playing all games blindfolded.",
+            "through": {
+              "chapter": 34
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Chess becomes Dr. B.'s mental discipline during continued isolation. He establishes a daily routine of multiple mental games, sharpening his mind and handling interrogations better. After memorizing all 150 games in the stolen manual, the lack of novelty forces him to create new challenges, so he begins playing chess against himself, splitting his consciousness to calculate moves for both sides simultaneously. Initially mechanical, his personality soon becomes emotionally invested. This evolves into chess fever, an obsessive monomania where he plays hundreds of games in his mind, thinking only of chess even in his sleep. Physical symptoms appear: weight loss, insomnia, trembling hands. Eventually, Dr. B. wakes in a hospital, disoriented, hearing human voices for the first time in months, with trees visible outside.",
+            "through": {
+              "chapter": 41
+            }
+          },
+          {
+            "scope": "book",
+            "text": "A nurse provides Dr. B.'s first kind human contact after nearly a year of isolation. A doctor explains he was found screaming in his cell after attacking a guard and cutting his hand, then released after signing an agreement to leave Austria within fourteen days. Those days were consumed by paperwork. Only on the ship does Dr. B. begin processing his ordeal. Seeing passengers playing chess in the smoking room shocks him, having forgotten chess can be played with real pieces and opponents. He recognizes positions from his mental games, intervenes to prevent a bad move, and is persuaded to test himself. Dr. B. agrees to one game against Mirko. The match reveals contrasting styles: Mirko is immobile and intense, carefully considering each move, while Dr. B. plays loosely and conversationally. After 42 moves and 3.5 hours, Dr. B. executes a brilliant queen sacrifice, forcing mate and defeating the world champion.",
+            "through": {
+              "chapter": 49
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Despite earlier warnings about his mental state, Dr. B. feverishly accepts a second game against Mirko. The world champion deliberately plays slowly, taking the full allowed time per move to irritate Dr. B., who becomes increasingly agitated, arguing about time limits. During the second game, Dr. B. makes an illegal move, claiming check on a board position only he can see in his mind. Mirko challenges the move, asking if anyone sees check. The narrator intervenes, reminding Dr. B. of his hand injury and scar. Dr. B. realizes he is relapsing into chess madness, abruptly apologizes, declares he will never play chess again, and departs. Mirko, remaining detached, comments that Dr. B. showed unusual talent for a dilettante. Dr. B. permanently renounces chess, his trauma and self-taught mastery now fully explained, while Mirko remains the world champion.",
+            "through": {
+              "chapter": 53
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:de:B075LWGNWJ",
+            "type": "community"
+          }
+        ],
+        "work": "schachnovelle"
+      }
+    },
     "school-for-wives": {
       "characters": {
         "characters": [
