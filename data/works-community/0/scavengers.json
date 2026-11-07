@@ -432,14 +432,6 @@
               "chapter": 8
             },
             "role": "minor"
-          },
-          {
-            "description": "Mysterious chess expert who appears on the ship and intervenes in the amateurs' game against Mirko, demonstrating deep understanding by preventing losing moves and referencing historical positions.",
-            "id": "unknown-man",
-            "name": "Unknown man",
-            "reveal": {
-              "chapter": 15
-            }
           }
         ],
         "license": "CC-BY-SA-4.0",
