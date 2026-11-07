@@ -1132,6 +1132,101 @@
         "work": "the-warriors-apprentice"
       }
     },
+    "the-waste-lands": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The last gunslinger of Gilead, leading his new companions inland on the quest for the Dark Tower. Hard, patient, and deadly, he has begun teaching Eddie and Susannah the gunslinger's craft. As this book opens he is troubled by a growing madness: two contradictory memories of the boy Jake war in his mind, threatening to tear his sanity apart.",
+            "id": "roland-deschain",
+            "name": "Roland Deschain",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A young man from late-twentieth-century New York whom Roland drew into his world through a magic door. A recovering heroin addict, quick-witted and sharp-tongued, he has become a gunslinger-in-training in Roland's ka-tet and is in love with Susannah. He is discovering a talent for carving and for the deeper workings of the quest.",
+            "id": "eddie-dean",
+            "name": "Eddie Dean",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Odetta Holmes",
+              "Detta Walker"
+            ],
+            "description": "A woman from 1960s New York, drawn into Roland's world through a door and made whole out of a once-divided self. She uses a wheelchair, having lost her legs before she came, and is fierce, clever, and devoted to Eddie. She is learning the gunslinger's way and carries the strength of the hard past that shaped her.",
+            "id": "susannah-dean",
+            "name": "Susannah Dean",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A boy from a version of New York who once traveled with Roland and died in the mountains beneath the man in black's chase. His fate and Roland's memory of him have become tangled and painful. In his own world, a boy who feels he does not belong there is likewise being pulled toward Mid-World, and reuniting the two threads is one of this book's central aims.",
+            "id": "jake-chambers",
+            "name": "Jake Chambers",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A billy-bumbler, a small, clever animal of Mid-World that resembles a cross between a raccoon, a dog, and a badger, and can echo human speech. Gentle and loyal, he attaches himself to Jake and becomes a beloved member of the traveling company.",
+            "id": "oy",
+            "name": "Oy",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A sentient monorail train, the last of its kind, that runs across the poisoned waste lands from the ruined city of Lud. Vastly intelligent and dangerously unstable, it takes a cruel delight in riddles and offers passage only on terms that put the travelers' lives at stake.",
+            "id": "blaine",
+            "name": "Blaine",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "imported_at": "2026-07-25",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          }
+        ],
+        "work": "the-waste-lands"
+      },
+      "recaps": {
+        "ending": "The ka-tet reaches the decayed city of Lud and, hunted through it, makes for the cradle of Blaine the Mono, a sentient and murderously insane monorail train. Roland's group is now complete: Roland, Eddie, Susannah, the redrawn Jake, and the billy-bumbler Oy. Blaine agrees to carry them across the deadly waste lands toward the Tower, but only as a game: the travelers must best the train with a riddle it cannot answer, or Blaine will speed into its terminus and kill them along with itself. The book ends on a cliffhanger, with the ka-tet trapped aboard, the poisoned lands blurring past, and a contest of riddles just beginning that will decide whether any of them survive to reach the next stage of the quest.",
+        "in_short": "Roland and his ka-tet, Eddie and Susannah, follow the path of a Beam toward the Dark Tower. Roland is being driven mad by a paradox: because he changed the past, the boy Jake both died and never came to his world, and two memories tear at him. Jake, in New York, suffers the same split. The ka-tet draws Jake across through a haunted house and a speaking demon, and the paradox heals; along the way they gain a billy-bumbler named Oy. They kill Shardik, a great cyborg bear guarding a Beam portal, and press on to Lud, a ruined city torn between two dying gangs. There they board Blaine, an insane, sentient monorail that agrees to carry them across the poisoned waste lands only if they can beat it at riddles, and threatens to kill them all at the end of the line if they cannot. The book breaks off mid-contest as Blaine races toward its final stop.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "In the earlier books, Roland Deschain, the last gunslinger of Gilead, chased the man in black across a desert, sacrificed the boy Jake to catch him, and was told he must draw three companions to him on the road to the Dark Tower. Reaching the Western Sea, and gravely wounded by a beach-monster, he found three doors into twentieth-century New York and drew two people through them: Eddie Dean, a young man freed from a heroin habit, and a woman whose split self was made whole as Susannah Dean. The two fell in love and became gunslingers-in-training under Roland's teaching. But Roland's meddling in the past has cut the thread that once brought Jake into his world, leaving Roland with two warring memories of the boy and a mind close to breaking.",
+            "through": {
+              "chapter": 0
+            }
+          }
+        ],
+        "sources": [
+          {
+            "imported_at": "2026-07-25",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          }
+        ],
+        "work": "the-waste-lands"
+      }
+    },
     "the-water-babies": {
       "characters": {
         "characters": [

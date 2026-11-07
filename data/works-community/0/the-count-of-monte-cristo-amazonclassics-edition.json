@@ -3417,11 +3417,11 @@
         "work": "the-dark-between"
       }
     },
-    "the-dark-tower-ii-the-drawing-of-the-three": {
+    "the-dark-tower": {
       "characters": {
         "characters": [
           {
-            "description": "The last gunslinger of Gilead, driven by a lifelong quest for the Dark Tower, the linchpin that holds all worlds together. Hard, disciplined, and deadly with his revolvers, he has already crossed a desert, sacrificed a boy, and been told by the man in black that he must draw three companions to him. This book opens with Roland alone on the shore of the Western Sea, soon gravely wounded and fevered, needing help to go on.",
+            "description": "The last gunslinger of Gilead, come at last near the end of his lifelong quest for the Dark Tower. Relentless and haunted, bound to his ka-tet by deep love he rarely shows, he presses toward the Tower through the final and most costly stretch of his road.",
             "id": "roland-deschain",
             "name": "Roland Deschain",
             "reveal": {
@@ -3430,101 +3430,7 @@
             "role": "protagonist"
           },
           {
-            "description": "A young man from late-twentieth-century New York, quick-tongued, wry, and in the grip of a heroin habit, living under the thumb of his older brother and a mob dealer. Roland reaches him through a door that opens onto his mind, the first of the three the gunslinger must draw. Beneath the addiction Eddie is brave and clever, and the crossing into Roland's world offers him a chance at a harder, freer life.",
-            "id": "eddie-dean",
-            "name": "Eddie Dean",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "supporting"
-          },
-          {
-            "aliases": [
-              "Detta Walker"
-            ],
-            "description": "A woman from 1960s New York, drawn through the second door as another of the three. Wealthy, educated, and active in the civil-rights movement, she lost her legs to a subway accident and uses a wheelchair. She is not, however, a single settled self: a hard and hidden second nature contends within her, and reconciling the two is central to her becoming whole in Roland's world.",
-            "id": "susannah-dean",
-            "name": "Odetta Holmes",
-            "reveal": {
-              "chapter": 4
-            },
-            "role": "supporting"
-          },
-          {
-            "description": "A respectable-seeming man of 1970s New York who is secretly a compulsive killer, choosing victims at random and pushing or dropping things on them from hiding. Roland reaches him through the third door. His past crimes prove tangled with the gunslinger's own story in ways that make him more than a stranger.",
-            "id": "jack-mort",
-            "name": "Jack Mort",
-            "reveal": {
-              "chapter": 5
-            },
-            "role": "antagonist"
-          },
-          {
-            "description": "Eddie's older brother in New York, who introduced him to heroin and keeps him close through a mix of dependence and guilt. Once Eddie's protector, he has become a burden dragging on his younger brother's life and choices.",
-            "id": "henry-dean",
-            "name": "Henry Dean",
-            "reveal": {
-              "chapter": 2
-            },
-            "role": "minor"
-          },
-          {
-            "description": "A New York mob boss for whom Eddie is smuggling drugs. Coldly dangerous and fond of building card houses while he waits, he runs his operation from a bar and expects his deals to go exactly as arranged, making him a deadly problem when Eddie's run goes wrong.",
-            "id": "enrico-balazar",
-            "name": "Enrico Balazar",
-            "reveal": {
-              "chapter": 3
-            },
-            "role": "antagonist"
-          }
-        ],
-        "license": "CC-BY-SA-4.0",
-        "sources": [
-          {
-            "imported_at": "2026-07-25",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "the-dark-tower-ii-the-drawing-of-the-three"
-      },
-      "recaps": {
-        "ending": "By the end, Roland has drawn his three. Eddie Dean, pulled out of a life of addiction, has begun to get clean and is becoming a gunslinger in his own right. Odetta Holmes and her buried second self, Detta Walker, are forced into a single confrontation that Roland stages through the body of the killer Jack Mort, and out of it emerges an integrated woman who takes the name Susannah Dean. Jack Mort dies before he can be drawn as a person, killed by a train much as he once killed others. Roland remains physically diminished, having lost fingers to the beach-monster, but he is no longer alone: Eddie and Susannah, already drawn to each other in love, stand with him. The new fellowship leaves the shore of the Western Sea and starts inland, bound together as ka-tet on the long road toward the Tower.",
-        "in_short": "Fevered and maimed after a monster on the beach takes two of his fingers, Roland finds three free-standing doors along the shore of the Western Sea, each opening into the mind of a person in twentieth-century New York. Through the first he reaches Eddie Dean, a heroin addict, and pulls him bodily into Mid-World after helping him survive a mob deal. Through the second he reaches Odetta Holmes, a legless woman whose mind is split between a genteel self and a violent hidden self. Through the third he inhabits Jack Mort, a secret killer whose old crimes maimed Odetta and once pushed the boy Jake to his death. Using Mort, Roland engineers a crisis that forces Odetta's two selves to confront each other and fuse into a single, whole woman, Susannah Dean. The three are drawn: Eddie and Susannah join Roland as the beginnings of a new ka-tet, and the fellowship turns inland toward the Dark Tower.",
-        "license": "CC-BY-SA-4.0",
-        "recaps": [
-          {
-            "scope": "series",
-            "text": "In the first book, the last gunslinger, Roland Deschain of the fallen land of Gilead, pursued the man in black across a desert in a world that has moved on. He passed through the town of Tull, where the sorcerer's meddling forced him to kill everyone, then found a displaced boy, Jake Chambers, and took him along, only to let the boy fall to his death in the mountains rather than lose the chase. Roland finally confronted the man in black, who read his future in a deck of cards, foretold three companions he must draw to him, and spoke of the Dark Tower as the linchpin of all worlds before a night-long talk aged Roland by years. Roland woke alone and walked on to the shore of the Western Sea, still bound for the Tower and now knowing he must gather three.",
-            "through": {
-              "chapter": 0
-            }
-          }
-        ],
-        "sources": [
-          {
-            "imported_at": "2026-07-25",
-            "ref": "model-knowledge:best-effort",
-            "type": "community"
-          }
-        ],
-        "work": "the-dark-tower-ii-the-drawing-of-the-three"
-      }
-    },
-    "the-dark-tower-iii-the-waste-lands": {
-      "characters": {
-        "characters": [
-          {
-            "description": "The last gunslinger of Gilead, leading his new companions inland on the quest for the Dark Tower. Hard, patient, and deadly, he has begun teaching Eddie and Susannah the gunslinger's craft. As this book opens he is troubled by a growing madness: two contradictory memories of the boy Jake war in his mind, threatening to tear his sanity apart.",
-            "id": "roland-deschain",
-            "name": "Roland Deschain",
-            "reveal": {
-              "chapter": 0
-            },
-            "role": "protagonist"
-          },
-          {
-            "description": "A young man from late-twentieth-century New York whom Roland drew into his world through a magic door. A recovering heroin addict, quick-witted and sharp-tongued, he has become a gunslinger-in-training in Roland's ka-tet and is in love with Susannah. He is discovering a talent for carving and for the deeper workings of the quest.",
+            "description": "A young man from New York, drawn into Mid-World and now a full gunslinger of the ka-tet, married to Susannah. Loyal, brave, and quick under fire, he stands with Roland through the last battles of the quest.",
             "id": "eddie-dean",
             "name": "Eddie Dean",
             "reveal": {
@@ -3533,11 +3439,7 @@
             "role": "supporting"
           },
           {
-            "aliases": [
-              "Odetta Holmes",
-              "Detta Walker"
-            ],
-            "description": "A woman from 1960s New York, drawn into Roland's world through a door and made whole out of a once-divided self. She uses a wheelchair, having lost her legs before she came, and is fierce, clever, and devoted to Eddie. She is learning the gunslinger's way and carries the strength of the hard past that shaped her.",
+            "description": "A woman from 1960s New York, drawn into Mid-World and long since made whole, a gunslinger married to Eddie. Fierce and steady, she has endured being ridden by the being Mia and now fights to reunite the ka-tet and reach the Tower.",
             "id": "susannah-dean",
             "name": "Susannah Dean",
             "reveal": {
@@ -3546,7 +3448,7 @@
             "role": "supporting"
           },
           {
-            "description": "A boy from a version of New York who once traveled with Roland and died in the mountains beneath the man in black's chase. His fate and Roland's memory of him have become tangled and painful. In his own world, a boy who feels he does not belong there is likewise being pulled toward Mid-World, and reuniting the two threads is one of this book's central aims.",
+            "description": "A boy from New York, drawn into Mid-World and now a full gunslinger of the ka-tet, bonded to the billy-bumbler Oy. Brave beyond his years, he shares every danger of the final road.",
             "id": "jake-chambers",
             "name": "Jake Chambers",
             "reveal": {
@@ -3555,20 +3457,51 @@
             "role": "supporting"
           },
           {
-            "description": "A billy-bumbler, a small, clever animal of Mid-World that resembles a cross between a raccoon, a dog, and a badger, and can echo human speech. Gentle and loyal, he attaches himself to Jake and becomes a beloved member of the traveling company.",
+            "description": "A billy-bumbler, a small, clever animal of Mid-World that can echo human speech, devoted to Jake and to the whole company, faithful to the end of the road.",
             "id": "oy",
             "name": "Oy",
             "reveal": {
-              "chapter": 2
+              "chapter": 0
             },
             "role": "supporting"
           },
           {
-            "description": "A sentient monorail train, the last of its kind, that runs across the poisoned waste lands from the ruined city of Lud. Vastly intelligent and dangerously unstable, it takes a cruel delight in riddles and offers passage only on terms that put the travelers' lives at stake.",
-            "id": "blaine",
-            "name": "Blaine",
+            "description": "A former priest from another world's America, traveling with the ka-tet. As this book opens he stands with Jake at the threshold of the Dixie Pig, ready to face a nest of the Tower's servants so that Susannah can be saved.",
+            "id": "father-callahan",
+            "name": "Father Callahan",
             "reveal": {
-              "chapter": 4
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "the man in black",
+              "Walter"
+            ],
+            "description": "The shape-shifting dark sorcerer who has stalked Roland since childhood and meddled in his quest across every book. Cunning and ambitious, he schemes to seize the Tower's power for himself, playing his own game amid the servants of a greater and madder master.",
+            "id": "randall-flagg",
+            "name": "Randall Flagg",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The great enemy of the Tower, a mad and monstrous being who rules the Tower's servants from a distant castle and works to bring down the Beams that hold all worlds together. He is the ultimate power set against Roland's quest, wanting the ruin of everything the gunslinger would preserve.",
+            "id": "the-crimson-king",
+            "name": "The Crimson King",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The demon-fathered child born at the crossing point of the quest, claimed by two dark bloodlines and able to take the form of a monstrous spider. Both heir and hunter, he is drawn to stalk Roland's ka-tet across the last stretch of the road, a threat that grows as he does.",
+            "id": "mordred-deschain",
+            "name": "Mordred Deschain",
+            "reveal": {
+              "chapter": 1
             },
             "role": "antagonist"
           }
@@ -3581,16 +3514,16 @@
             "type": "community"
           }
         ],
-        "work": "the-dark-tower-iii-the-waste-lands"
+        "work": "the-dark-tower"
       },
       "recaps": {
-        "ending": "The ka-tet reaches the decayed city of Lud and, hunted through it, makes for the cradle of Blaine the Mono, a sentient and murderously insane monorail train. Roland's group is now complete: Roland, Eddie, Susannah, the redrawn Jake, and the billy-bumbler Oy. Blaine agrees to carry them across the deadly waste lands toward the Tower, but only as a game: the travelers must best the train with a riddle it cannot answer, or Blaine will speed into its terminus and kill them along with itself. The book ends on a cliffhanger, with the ka-tet trapped aboard, the poisoned lands blurring past, and a contest of riddles just beginning that will decide whether any of them survive to reach the next stage of the quest.",
-        "in_short": "Roland and his ka-tet, Eddie and Susannah, follow the path of a Beam toward the Dark Tower. Roland is being driven mad by a paradox: because he changed the past, the boy Jake both died and never came to his world, and two memories tear at him. Jake, in New York, suffers the same split. The ka-tet draws Jake across through a haunted house and a speaking demon, and the paradox heals; along the way they gain a billy-bumbler named Oy. They kill Shardik, a great cyborg bear guarding a Beam portal, and press on to Lud, a ruined city torn between two dying gangs. There they board Blaine, an insane, sentient monorail that agrees to carry them across the poisoned waste lands only if they can beat it at riddles, and threatens to kill them all at the end of the line if they cannot. The book breaks off mid-contest as Blaine races toward its final stop.",
+        "ending": "Roland reaches the Dark Tower having lost everyone. Father Callahan dies at the Dixie Pig; Eddie is killed freeing the Breakers; Jake dies saving the life of the writer whose work sustains their story; Oy is slain defending Roland from the spider-child Mordred, whom Roland then kills though Mordred is his own monstrous son; and Susannah, unwilling to face the Tower, leaves through a door into a happier world where versions of Eddie and Jake live. Randall Flagg is devoured by Mordred before he can seize the Tower, and the Crimson King, trapped raving on a balcony, is erased from being by an artist's drawing. Alone, Roland enters the Tower and climbs to its top, where the door opens not onto triumph but onto the Mojave desert where his quest first began. His memory wiped, he sets out once more to chase the man in black, condemned to repeat the whole road. One thing is different: he now carries the Horn of Eld he once left behind, a small sign that on some future turn the cycle might at last be broken.",
+        "in_short": "In the final book the ka-tet is reunited but pays terribly for the Tower. Father Callahan dies covering Jake's escape from the Dixie Pig; Mia gives birth to the spider-child Mordred, who kills her at once and begins to stalk Roland's people. The company frees the psychic Breakers who are being forced to destroy the Beams, and in that battle Eddie Dean is shot and dies. Jake is killed soon after, saving the writer Stephen King from the van that would have ended the story. Grieving, Roland and Susannah go on; Susannah at last chooses love and life over the Tower and passes through a door into a kinder world. Mordred devours Randall Flagg, then dies at Roland's hand with Oy's help, though Oy is killed too. The Crimson King is erased from existence, and Roland reaches the Dark Tower alone, climbs it, and is thrown back to the desert where his quest began, doomed to walk the road again, this time carrying a horn that hints the loop might one day break.",
         "license": "CC-BY-SA-4.0",
         "recaps": [
           {
             "scope": "series",
-            "text": "In the earlier books, Roland Deschain, the last gunslinger of Gilead, chased the man in black across a desert, sacrificed the boy Jake to catch him, and was told he must draw three companions to him on the road to the Dark Tower. Reaching the Western Sea, and gravely wounded by a beach-monster, he found three doors into twentieth-century New York and drew two people through them: Eddie Dean, a young man freed from a heroin habit, and a woman whose split self was made whole as Susannah Dean. The two fell in love and became gunslingers-in-training under Roland's teaching. But Roland's meddling in the past has cut the thread that once brought Jake into his world, leaving Roland with two warring memories of the boy and a mind close to breaking.",
+            "text": "So far, Roland Deschain, the last gunslinger of Gilead, has drawn and forged his ka-tet on the road to the Dark Tower: Eddie and Susannah Dean, brought from New York and wed, the boy Jake Chambers, twice bound to Roland, the billy-bumbler Oy, and their ally Father Callahan, a priest from another world. They destroyed the insane monorail Blaine, learned the tragedy of Roland's youth, drove off the dark sorcerer Randall Flagg, and defended the town of Calla Bryn Sturgis against the child-stealing Wolves. But Susannah was taken over by the being Mia and carried a demon-fathered child through a door to New York, and the fellowship split across worlds to save her and to protect the rose and the writer Stephen King, on whom the story of their quest depends. The great enemy, the Crimson King, works to topple the Beams that hold all worlds together, and the last stage of the quest is at hand.",
             "through": {
               "chapter": 0
             }
@@ -3603,7 +3536,7 @@
             "type": "community"
           }
         ],
-        "work": "the-dark-tower-iii-the-waste-lands"
+        "work": "the-dark-tower"
       }
     }
   }
