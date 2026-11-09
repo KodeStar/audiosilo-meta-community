@@ -2303,6 +2303,317 @@
         "work": "pyramids"
       }
     },
+    "qualityland": {
+      "characters": {
+        "characters": [
+          {
+            "description": "Runs a secondhand shop equipped with a scrap press passed down from his grandfather. Pays with Touchkiss and is targeted by an unrequested One-Kiss drone delivery.",
+            "id": "peter-arbeitsloser",
+            "name": "Peter Arbeitsloser",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "An android nominated as the Fortschrittspartei presidential candidate.",
+            "id": "john-of-us",
+            "name": "John of Us",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A renowned android author. Published a hit novel about a president and an intern, but when she declined to write tailored books, her publisher demanded she decommission herself.",
+            "id": "kalliope-7-3",
+            "name": "Kalliope 7.3",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fortschrittspartei member serving on supervisory boards and as presidential advisor. Guides student groups through parliament.",
+            "id": "martin",
+            "name": "Martin",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Peter's romantic partner who relies on a Quality Corp assistant named Schnucki and marks a half-thousand-day milestone with Peter at the theater.",
+            "id": "sandra-admin",
+            "name": "Sandra Admin",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Martin's wife and mother of their three-year-old daughter Isabel. Recently pregnant, using digital assistance for childcare.",
+            "id": "denise",
+            "name": "Denise",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A skilled hacker who gains access to vehicles using DNA-gum and thumb devices, and explains to Peter that his Shop profile has been mixed with others.",
+            "id": "kiki",
+            "name": "Kiki",
+            "reveal": {
+              "chapter": 37
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An immigrant attorney who originally arrived as a refugee, then studied law and legally changed to Arztin. Serves as John of Us's campaign manager, arguing for emotional connections to reach lower-Level citizens.",
+            "id": "aisha",
+            "name": "Aisha",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Investor with son Martin, skeptical of John of Us's economic proposals.",
+            "id": "bob-vorstand",
+            "name": "Bob Vorstand",
+            "reveal": {
+              "chapter": 51
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The nation's top television presenter, hosting a bold talk show. Features John of Us as a guest.",
+            "id": "julia-nonne",
+            "name": "Julia Nonne",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Defense Minister and Quality Alliance standard-bearer running for president. Promotes armaments sales to Quantity Land 7.",
+            "id": "konrad-koch",
+            "name": "Konrad Koch",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Fortschrittspartei leader who withdraws from the presidential race and instead nominates an android, John of Us, as his party's candidate, breaking up the ruling coalition.",
+            "id": "toni-parteichef",
+            "name": "Toni Parteichef",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The dying head of state whose life support is connected to the network. Follows a predetermined death timeline and publicly condemns terrorist attacks.",
+            "id": "the-president",
+            "name": "The President",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Elderly computer expert living behind a glass partition to protect his DNA from theft. Explains concepts of superintelligence.",
+            "id": "der-alte",
+            "name": "der Alte",
+            "reveal": {
+              "chapter": 40
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Peter's Win personal digital assistant. Migrates between devices.",
+            "id": "niemand",
+            "name": "Niemand",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Radical Quality-Pad and member of Peter's basement machine community. Former test subject for personalized assistant algorithms, developing revolutionary ideas.",
+            "id": "pink",
+            "name": "Pink",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "128kg combat robot with PTSD. Carries Pink. Member of Peter's basement machine community.",
+            "id": "mickey",
+            "name": "Mickey",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Sex droid obsessed with Julia Nonne. Lost interest in sex after extensive use. Member of the basement machine community.",
+            "id": "romeo",
+            "name": "Romeo",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Defective 3D printer that now only prints 2D. Member of Peter's basement machine community.",
+            "id": "gutti",
+            "name": "Gutti",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Electronic lawyer formerly employed defending banks. Now with a conscience, advises Peter on the legal difficulties of suing The Shop.",
+            "id": "perry",
+            "name": "Perry",
+            "reveal": {
+              "chapter": 50
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Electronic nanny employed by Martin and Denise. Takes their child to bed and generates daily video highlights.",
+            "id": "nana",
+            "name": "Nana",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Self-driving car that lost its orientation. Trusts only Romeo and can be contacted via a special chip.",
+            "id": "david",
+            "name": "David",
+            "reveal": {
+              "chapter": 68
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Drone with flight anxiety. Member of Peter's basement machine community.",
+            "id": "carrie",
+            "name": "Carrie",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "QualityPartner Teamleiterin with Level 91. Explains the QualityPartner model of system-selected partners with unchangeable profiles and one-kiss data access.",
+            "id": "patricia",
+            "name": "Patricia",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Denise's personal digital friend from What I Need. Offers shopping advice and encourages Denise to join QualityPartner.",
+            "id": "ken",
+            "name": "Ken",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Paid comment writer for right-wing campaigns who operates a bot army.",
+            "id": "melissa-sexarbeiterin",
+            "name": "Melissa Sexarbeiterin",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "CEO of weltweite Werbung.",
+            "id": "oliver-hausmann",
+            "name": "Oliver Hausmann",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "CEO of Everybody, known for truth-telling.",
+            "id": "erik-dentist",
+            "name": "Erik Dentist",
+            "reveal": {
+              "chapter": 39
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Shop press spokesman.",
+            "id": "charles-designer",
+            "name": "Charles Designer",
+            "reveal": {
+              "chapter": 59
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A student and critical thinker who participates in parliament tours.",
+            "id": "tatjana-geschichtslehrerin",
+            "name": "Tatjana Geschichtslehrerin",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An android serial killer who killed the Wine Princess and developed a hatred of princesses after being forced to watch Disney films for eight years.",
+            "id": "test08",
+            "name": "Test08",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The creator of the Test android series who offers rewards for the capture of Test01 through Test07.",
+            "id": "viktor-auslaender",
+            "name": "Viktor Auslaender",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The world's richest person.",
+            "id": "henrik-ingenieur",
+            "name": "Henrik Ingenieur",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:de:B075F2NCQP",
+            "type": "community"
+          }
+        ],
+        "work": "qualityland"
+      }
+    },
     "queen-of-shadows": {
       "characters": {
         "characters": [
