@@ -2612,6 +2612,69 @@
           }
         ],
         "work": "qualityland"
+      },
+      "recaps": {
+        "ending": "John of Us wins the presidential election by a narrow margin of 2049 votes but is assassinated shortly after by Martin, although John's last action saves Peter's life. Peter wakes in a hospital with eight broken ribs where Kalliope announces she has nearly completed a novel documenting his experiences. The protest against The Shop that Peter triggered creates a short-lived sales decline that quickly rebounds. Martin's family life is in ruins after his marriage ends and his public humiliation. Kiki becomes part of Peter's circle and employs Mickey as protection. Henrik Ingenieur maintains his conviction that the system cannot be wrong. The basement machine community remains intact. John's legacy becomes a matter of debate with various theories claiming he distributed his consciousness online, but Peter believes John consciously chose to save him.",
+        "in_short": "QualityLand is a nation where only superlatives are allowed and residents are continuously evaluated. Peter Arbeitsloser, once a Level 10 citizen, becomes an outcast at Level 9 when his partner Sandra severs their relationship through the QualityPartner system. As he copes with isolation and mysterious deliveries, he takes in discarded androids including the novelist Kalliope 7.3. Meanwhile the android John of Us campaigns for the presidency on logic-based policy while facing attacks from nationalist Konrad Koch. Peter's televised complaint about profiling errors gains mass attention, he meets The Shop's CEO Henrik Ingenieur, and John wins the election by 2049 votes but is then assassinated by Martin during Peter's audience. Peter recovers with eight broken ribs as theories emerge that John may have survived in digital form.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "book",
+            "text": "QualityLand is a nation where only superlatives are permitted and residents take occupational surnames. Peter Arbeitsloser operates a secondhand shop with a scrap press, assisted by a Win device called Niemand, and makes payments via Touchkiss. After reaching a 500-day milestone with his partner Sandra Admin, she uses QualityPartner to end their relationship and even buys Peter a dating voucher. His social standing plummets when his Level falls from 10 to 9, earning him the nutzlos classification.",
+            "through": {
+              "chapter": 10
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Peter keeps receiving unordered items via One-Kiss drones. In his shop's basement he shelters a growing collection of discarded machines. When the android author Kalliope 7.3 is ordered to decommission herself, Peter helps her and she joins his basement community. Meanwhile android John of Us launches his presidential bid against the nationalist candidate Konrad Koch. Fortschrittspartei member Martin deals with home life that includes his pregnant wife Denise. Peter has not yet decided how to vote. The country's infrastructure includes Ohrwurmer ear microbots and a Level system that grants or restricts privileges based on numeric scores.",
+            "through": {
+              "chapter": 26
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Peter tries and fails to return the unwanted device through The Shop's hotline and service center, encountering automated systems and shifting policies. He meets Kiki, a skilled hacker who explains how profile data can become polluted across accounts. She helps him manipulate Bybot android shoppers and a mutual attraction develops. In Peter's basement, the machine community including Pink, Mickey, Romeo and Carrie spends time watching science fiction films. Peter consults an electronic lawyer named Perry, who informs him The Shop has relocated to Kaufland and that legal action in QualityLand would be impossible. Campaign manager Aisha struggles with John of Us's bid as he promotes policies like universal basic income for an era of automation.",
+            "through": {
+              "chapter": 50
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Peter's failed attempts to return the vibrator to The Shop expose the corporation's intentional policy of sending unordered items to manipulate acceptance rates, and his profile becomes polluted through algorithmic errors that mix his data with others. Meanwhile John of Us, with campaign manager Aisha, advocates for policies like unconditional basic income while facing smear campaigns from Koch. Peter discovers a hidden community of defective machines in his basement, including the novelist android Kalliope 7.3, and meets tech-savvy hacker Kiki who helps him understand the scope of his digital identity crisis. As Peter's protest begins to take shape through his viral social media posts, QualityLand's surveillance state deepens with pervasive Ohrwurmer microbots and advertisements for Super Secure drones that promise constant monitoring with the tagline You never walk alone.",
+            "through": {
+              "chapter": 52
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Peter struggles with unsolicited deliveries and profile contamination while sheltering discarded machines including Kalliope 7.3. John of Us continues his presidential bid with Aisha, while Julia Nonne hosts a show featuring QualityPartner Patricia, Everybody CEO Erik Dentist, and The Shop spokesman Charles Designer discussing corporate data consolidation. Martin discovers Denise's digital affair with Ken.",
+            "through": {
+              "chapter": 59
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The terminally ill President follows his predetermined timeline as John of Us narrowly defeats Konrad Koch by exactly 2049 votes to become the next president. Peter casts his ballot for John without any algorithmic recommendation. Martin, whose Level has dropped to 88 after personal scandals, manages to vote for Koch despite difficulties with facial recognition at the polling station. John's campaign recovers from adverse coverage and the fallout from Martin's leaked personal video. Aisha and John share a growing personal bond, and John demonstrates the ability to directly interface with search algorithms. Society remains fractured with ongoing anti-technology attacks by the Maschinensturmer group and continued corporate influence over information.",
+            "through": {
+              "chapter": 75
+            }
+          },
+          {
+            "scope": "book",
+            "text": "John of Us receives Peter for a presidential audience where Peter submits handwritten documents outlining his preferences and requested system changes. Martin suddenly enters carrying an explosive device, shouting slogans against machines. John detects the bomb and pushes Peter out of the blast radius before Martin attaches the device to John, causing an explosion that destroys John but leaves Peter injured. Peter wakes in a hospital with eight broken ribs where Kalliope, who has been documenting his journey, announces she has nearly completed a novel about his experiences. As Peter recovers, conspiracy theories emerge about John's survival, with some claiming he planned the assassination to fragment his consciousness across the internet, while Peter believes John made a conscious moral choice to save him over preserving himself.",
+            "through": {
+              "chapter": 78
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:de:B075F2NCQP",
+            "type": "community"
+          }
+        ],
+        "work": "qualityland"
       }
     },
     "queen-of-shadows": {
