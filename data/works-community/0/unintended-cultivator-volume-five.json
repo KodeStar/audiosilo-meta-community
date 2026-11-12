@@ -1684,6 +1684,410 @@
       }
     },
     "unique": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Silas Renner"
+            ],
+            "description": "The narrator, a former college dropout who became Earth's forerunner when the planet was pulled into a contest between five worlds. His travels have taken him through the evacuation of Galen, the fey realms and the Divided Realms, and he has helped bring down the god Primus. He is engaged to Selena of House Turga, is the blood brother of Ryan, and carries the soul of Lily in his amulet. He is quietly an architect-type figure with unusual access to the system.",
+            "id": "silas",
+            "name": "Silas",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Silas's blood brother. He lands the final blow on Primus, god of the Divided Realms, and rises to divine tier, which grants Silas a flat stat bonus through their bond. He has several wives. Before the party leaves, he urges Silas to get home soon because he senses danger tied to time, and he warns that other powerful figures may rebel.",
+            "id": "ryan",
+            "name": "Ryan",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An immensely powerful woman, ranked above anything primordial, who freezes time while Silas crosses the void and is found calmly reading at a table. She tells him his primordial aspect is locked, that he is going to be tested, and that collecting favors would be wise. She offers no direct help and forbids him to tell his companions about the meeting.",
+            "id": "ea",
+            "name": "Ea",
+            "reveal": {
+              "chapter": 2
+            }
+          },
+          {
+            "description": "Silas's fiancee, a member of House Turga, one of the peak families. Their engagement tied Silas into the web of great houses. She travels back toward Earth with him after the fall of Primus.",
+            "id": "selena",
+            "name": "Selena",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Silas's closest companions and his mentor through earlier adventures. His bonded dragon carries the party through the void on the trip back to Earth after the fight with Primus.",
+            "id": "samvek",
+            "name": "Samvek",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A longtime companion of Silas who travels home with him from the Divided Realms. She points out that he is both valuable and a target, and that most of those hunting for power do not yet know he is an architect.",
+            "id": "lana",
+            "name": "Lana",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Samvek's companion and a healer. She is part of the group that returns from the Divided Realms with Silas.",
+            "id": "talia",
+            "name": "Talia",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Silas's chief of staff on Earth, who is plugged into the planet's satellite network and keeps track of his affairs while he is away.",
+            "id": "simone",
+            "name": "Simone",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Silas's adoptive father in House Kalestian. Because of the adoption, Kalestian ships orbiting Earth address Silas as Lord Kalestian and treat him as fifth in line in the family. Abel himself is absent.",
+            "id": "abel",
+            "name": "Abel",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Silas's mother, who lives in a community of more than 100,000 people inside the safe zone around Champaign, Illinois. She has reached rare tier and helps organize the settlement's many crafters. She had been anxious about her son until Lana's divination confirmed he was alive.",
+            "id": "silas-mother",
+            "name": "Silas's mother",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The gruff caretaker and organizer of the large community where Silas's mother lives, and her partner. He greets Silas when he lands at his mother's home.",
+            "id": "wilmarth",
+            "name": "Wilmarth",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A senior Alliance military officer and one of Silas's main contacts on Earth. Silas puts a meeting with him near the top of his schedule after returning home.",
+            "id": "general-krulak",
+            "name": "General Krulak",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Earth's forerunners and a past ally of Silas. She is conducting genetic research on the moon, where dungeons have been spreading. Silas trusts her, but with some caution.",
+            "id": "asta",
+            "name": "Asta",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A forerunner who held temporary authority over Earth until a system notice stripped it away. He commands the Vanguard, a force of nearly 2,000 that has cut casualties sharply, and he has shed his earlier arrogance. He admits to a romance with Ada despite pressure from Chinese officials. Silas equips him with more than 400 golems and four control gauntlets.",
+            "id": "jiang",
+            "name": "Jiang",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An African forerunner who holds a large Ethiopian city against the monster waves. She is in a relationship with Jiang.",
+            "id": "ada",
+            "name": "Ada",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Silas's younger sister, a forerunner at level 250 who is waiting for permission to advance further. She arrives at their mother's house with her boyfriend Chad, a healer and former medic. She shares the distinctive forerunner trait and is visibly uneasy around Asta.",
+            "id": "silas-sister",
+            "name": "Silas's sister",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The boyfriend of Silas's younger sister. He is a healer who once worked as a medic, and he comes with her when she visits their mother's home.",
+            "id": "chad",
+            "name": "Chad",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A legendary-tier Duelist Mage of House Kalestian whose post as Envoy Monitor has been dissolved. He appears in the backyard of Silas's mother's house and offers to serve as Silas's advisor and liaison to the house, reporting only to Abel unless Silas allows otherwise. He tells Silas that 30,000 legendary troops and five generals now answer to Silas. Silas accepts on condition that Darius keeps other houses from planting advisors. His gauntlet cannot be read by Identify.",
+            "id": "darius",
+            "name": "Darius",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Silas's Eidolon, a four-armed fighter with black skin and white wings who can unleash a sonic taunt. When six portals open across Earth, Silas summons him to help defend Beijing.",
+            "id": "erg",
+            "name": "Erg",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A lepon necromancer who, in an earlier adventure, died and was absorbed into Sanctuary's protective tree. She returns as Earth's planetary guardian, three stories tall and at Ascendant tier, marked by roots and silver veins in her fur, with amethyst eyes and crystal ears. Her arrival gives Silas a 10 percent boost, and she throws herself at the kaiju ravaging Tokyo.",
+            "id": "vex",
+            "name": "Vex",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A German member of the Terran Council who pushed a vote of no confidence in Silas, which the system rendered void. He remains popular in Berlin, where banners bearing his first name are on display.",
+            "id": "german-council-representative",
+            "name": "The German council representative",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Lord of Clan Raiden and Samvek's father. After weeks of seclusion he ascends, and the system binds him to 1,000 years of service. The service will be waived if he trains Silas, whom the system calls a new architect, and secures his loyalty to the heavens. Golden lightning plays over him. After hearing secrets from his friend Baran, he pledges loyalty to Silas as a clansman, provided Silas does not prove unworthy.",
+            "id": "samuel-rayden",
+            "name": "Samuel Rayden",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A priest of the Sect of the Veiled Infinity, an old friend of Samuel Rayden, and someone Samvek regards as an uncle. He ascends alongside Samuel. Behind wards that block all listening, he shares secrets about Silas involving prophecies and bloodlines, and reports that seers have seen Silas rise in many futures, most ending in destruction and only a few in salvation.",
+            "id": "baran",
+            "name": "Baran",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A goddess who bears a grudge against Silas. When Samuel Rayden ascends, the system warns that she resents Silas. She is forbidden to move against a fellow architect directly, but she is able to bend the rules of the heavens.",
+            "id": "hostile-goddess",
+            "name": "The hostile goddess",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Selena's father, of House Turga. Together with Selena's uncle he places a long-range call to her at a Turga station and urges her to marry Silas within the month, pointing to rival families and the purity of Silas's bloodline. He refers to Silas as the Forerunner and hopes the match will produce children. Selena declines to name a date and leaves the timing to Silas.",
+            "id": "selena-father",
+            "name": "Selena's father",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Selena's uncle, of House Turga. He joins her father on a long-range call to Selena, and the two press her to wed Silas within the month for the sake of the family's standing against rivals. Selena refuses to commit to a date.",
+            "id": "selena-uncle",
+            "name": "Selena's uncle",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A brother and sister of legendary tier, with bronze skin, amber eyes, claws and burnt-orange hair, children of the head of a clan founded by a god. They call theirs the first clan and want to open a chapter house on Earth. The brother loses a duel to Silas fought without abilities, and the sister flirts until Silas says he is engaged, then turns the talk to a contract.",
+            "id": "first-clan-siblings",
+            "name": "The first-clan siblings",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dead woman whose soul is bound to a choker that Abel made, which Silas carries. She appears to him as herself, with black hair and pale skin, in a timeless gray space. She identifies the Sicarius from an earlier vision of his, tells him some people may want him captured, and approves of his choice of Selena.",
+            "id": "lily",
+            "name": "Lily",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An order of the most lethal assassins in the multiverse, hired to kill targets at peak legendary or ascendant strength. Lily warns Silas that one of them matches a figure from his earlier vision and that hits may be placed on him.",
+            "id": "sicarius",
+            "name": "The Sicarius",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An earlier candidate for the tests that Ea is running. According to Ea, he was turned down because he had nothing primordial in him. He is also the original source of the Psy power that Silas uses.",
+            "id": "jay",
+            "name": "Jay",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The chief shareholder of RA Corporation, a figure who operates in the multiverse's underside. Silas owes him a blind favor. He meets Abel in the corona of a dying star, refuses Abel's offer to buy out the favor, and reveals he knows Silas is an architect. He claims he funded the portals into Earth to help Silas, and he knows Abel is looking for a way past the barriers to divine tier.",
+            "id": "ra-chief-shareholder",
+            "name": "RA Corporation's chief shareholder",
+            "reveal": {
+              "chapter": 35
+            }
+          },
+          {
+            "description": "A manager at the Trancheck corporation and Silas's contact there. When the board discusses how to handle Silas, he argues for giving him resources and administrative help without demanding anything back, pointing out that pressure on earlier rivals backfired. He intends to deliver the company's invitation to Silas.",
+            "id": "rain",
+            "name": "Rain",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An ascendant of House Kalestian who left his birth world ten thousand years ago and calls Silas his younger brother. Wealthy and calculating, he prepays a Trancheck director five trillion credits for supplies Silas will need. In exchange for a personal cut, she must write the contract so Silas has to appear in person at the ring-world Kashar Station, where Tiberian intends to meet him away from Earth.",
+            "id": "tiberian-kalestian",
+            "name": "Tiberian Kalestian",
+            "reveal": {
+              "chapter": 44
+            }
+          },
+          {
+            "description": "Lana's older sister, proud, close to ascension, and a rival to Lana. When Silas and Lana arrive at the Kalestian palace world of Ondurin, she receives them with thinly veiled condescension, says she expects to follow their mother as head of the empire's daily rule, and leads them to the Empress.",
+            "id": "chloe",
+            "name": "Chloe",
+            "reveal": {
+              "chapter": 46
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Lana's mother, a level-500 ruler who has run the Kalestian empire day to day for a few hundred years, while Abel remains its true head. She bows to Silas as a son of the founder and asks him to call her sister. She pledges 300,000 administrators and as many trainers for Earth's safe zones. When she and her daughter Chloe suggest Silas should have chosen Lana, he defends his friendship with Lana, and she approves.",
+            "id": "the-empress",
+            "name": "The Empress",
+            "reveal": {
+              "chapter": 47
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A far older and more powerful version of Silas, whose face Silas sees after being pulled to the edge of the astral plane. He is engaged in a vast shaping against unraveling timelines, has lost many people, and does not remember ever meeting his younger self. He pulls the younger Silas out at the moment of a past mistake.",
+            "id": "future-silas",
+            "name": "Future Silas",
+            "reveal": {
+              "chapter": 54
+            }
+          },
+          {
+            "description": "A duchess of hell, recently captured and humiliated, who is one of Silas's vassals in the hell system. The hell king sends her back to Earth to encourage Silas to take more risks. She has sworn an oath to Silas not to spy on him.",
+            "id": "devil-duchess",
+            "name": "The devil duchess",
+            "reveal": {
+              "chapter": 55
+            }
+          },
+          {
+            "description": "A 400-foot blue-and-platinum dragon emperor who once killed the Mother of Dragons. When he senses echoes of her in Silas's surge of power, he moves angrily toward Earth until the god of magic who serves him says the matter is being handled. He is bonded to a divine woman in crimson armor, who offers to go to Earth as an observer.",
+            "id": "dragon-emperor",
+            "name": "The dragon emperor",
+            "reveal": {
+              "chapter": 55
+            }
+          },
+          {
+            "description": "One of Ryan's wives, now a demigoddess with a cultivator core. When Ryan feels his blood bond with Silas burn and then go silent, he sends her to Earth to find out what happened.",
+            "id": "kumo",
+            "name": "Kumo",
+            "reveal": {
+              "chapter": 55
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dark god who acts as patron to the Sicarius assassins. After Silas kills one of the three assassins attacking his family, the other two flee through a portal, and Silas senses this god's presence behind it.",
+            "id": "death-god",
+            "name": "The death god",
+            "reveal": {
+              "chapter": 60
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A kind demigoddess healer who comes from the dragons' side and works with souls. She takes custody of the assassin's soul that Silas captured and brings him back to Earth. Silas trusts her, and her call carries the dragon emperor's authority, which brings dragons in to help with disaster relief.",
+            "id": "soul-healer",
+            "name": "The soul healer",
+            "reveal": {
+              "chapter": 61
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A fragment of Silas that spread into one of the fleeing assassins through his self-propagation ability and was carried into a death god's realm. It takes over the assassin's body, suppresses the original mind, and calls itself Silas B. It keeps Silas's memories and loyalty and quietly gathers intelligence from inside the death god's domain.",
+            "id": "silas-b",
+            "name": "Silas B",
+            "reveal": {
+              "chapter": 65
+            }
+          },
+          {
+            "description": "The god of gambling and the original god of the heavens. He shows up unannounced at Silas and Selena's wedding, appearing just as Silas steps onto the platform. His reasons for coming are unknown.",
+            "id": "lucky",
+            "name": "Lucky",
+            "reveal": {
+              "chapter": 78
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A blonde woman who appears to Silas at his wedding and says she is Jay's wife. Identify shows him nothing about her and she gives off no aura, though she holds a vast reserve of Psy. She touches his temple, and he gains Psy germination, the power to awaken Psy in humans who carry the right bloodline. Selena afterward says no one was there.",
+            "id": "amelia",
+            "name": "Amelia",
+            "reveal": {
+              "chapter": 79
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:uk:B0H1VSQCJM",
+            "type": "community"
+          }
+        ],
+        "work": "unique"
+      },
       "recaps": {
         "ending": "Silas closes the book married to Selena, now Selena Renner. He is level 418 and must reach level 501 to ascend. His soul has evolved toward a demigod-like state while his body remains mortal. His Draconic Dust is frozen at 99 percent, and he now has Psy germination, a gift that came through Jay. The system has warned him that the heavens' protection will not last. Earth is stable: about 99 percent of survivors live in six safe zones, civilian monster deaths are near zero, the Terran Council is suspended, and appointed leaders govern the zones, with Selena acting for Europe. Jiang, Ada, Asta, Lana, Kumo and Silas's sister, who is now legendary and his third horseman, remain on Earth. Samuel and Baran, his frontier mentors, attended the wedding, where Baran officiated, and they and Samvek remain with Clan Raiden. The asteroid with Silas's world-tree node now sits in Earth orbit as a possible gateway for chimeras. Open threads: the death god and the escaped Sicarius still hunt him, while Silas B secretly controls one assassin's body in that god's realm; a hostile goddess wants him gone, and RA Corporation's chief shareholder still holds his blind favor. Tiberian warns that the other Kalestian brothers will test Silas, and Abel remains blocked from divine tier. The titans are moving. Ea's candidacy and its purpose are unexplained, and a parchment from Future Silas waits unread in his storage. Erg's recovery, Lucky's dice, the question of children, the hell-prince challenge, the infinity key, and about eight years of Earth's probation remain ahead, starting with a honeymoon in a legendary-tier dungeon.",
         "in_short": "Silas, Earth's forerunner, comes home after the fall of Primus to find himself declared Earth's undisputed ruler. A mysterious being named Ea tells him he will be tested. When a level-500 kaiju devastates Tokyo, Vex returns as planetary guardian to kill it, and Silas strains his architect powers to save twenty million people, which gets him locked out of the system. He builds housing for millions and sentences Asta to a symbolic death for her experiments. He then spends a system boon creating six safe zones and rewrites the system so future worlds receive them too. Earth's politicians plot against him, and a German council member hires Sicarius assassins who kill his mother's partner and his sister. Silas saves his mother and sister in storage, where they are reborn stronger. He kills one assassin, forges its soul into a weapon, then exposes and executes the conspirator and disbands the council. Along the way he takes on dragon power, meets his own future self, and is introduced to his adoptive brother Tiberian. He trains on the frontier under Samuel Rayden and Baran, then returns to a stable Earth and marries Selena before gods and clans, receiving a Psy gift from Jay through Jay's wife Amelia.",
