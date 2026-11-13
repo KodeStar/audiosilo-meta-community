@@ -5231,6 +5231,366 @@
       }
     },
     "flowbreaker": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The narrator and protagonist, a swordsman from a homeland across the sea who came to the continent of Caldwin and became the bonded wielder of the sentient sacred sword Dawn. He also carries the Dominion Breaker, whose power has cost him control before, and he has bonded the sword Diamantine. He has learned that he is not fully human. After Akadi's true form was destroyed, he and his allies escaped by airship and crash-landed in the unclaimed lands.",
+            "id": "keras",
+            "name": "Keras",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "aliases": [
+              "Dawnbringer"
+            ],
+            "description": "A sentient sacred sword of light and Keras's bonded partner. Their bond gives him the basics of light and spirit magic, a telepathic link, and shared senses. She came to trust him after he gave up a shrine reward to spare a spirit copy of his friend Lydia, and for a time she cut him off after discovering he is not fully human.",
+            "id": "dawn",
+            "name": "Dawn",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A spirit held inside a fire sword by silencing runes until Keras and Dawn broke them during the finals of the Edria tournament. Once released, she joined the group that fled the tournament by airship and came down in the unclaimed lands.",
+            "id": "akari",
+            "name": "Akari",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dragon and former guardian of Dawn who now travels with Keras's group. She shares a bond with Dawn and is driven by the wish to avenge her father, who was killed by the Cloudcutter wielder of the Tales of Orochi. Dawn worries that she may slip away to face him alone before she is ready.",
+            "id": "reika",
+            "name": "Reika",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A very tall man in a wide-brimmed hat who wields the fire sword from which Akari was freed. He faced Keras in the Edria tournament, then helped bring down Akadi's true form, and he escaped with the group by airship.",
+            "id": "fire-sword-wielder",
+            "name": "The fire-sword wielder",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A long-lived spirit artist, about four hundred years old and the second apprentice of the god of swords. In the prologue, set years after the main story, she walks west through the unclaimed lands with Keras, who found her after a long search. She has spent roughly a decade in a stasis pool to keep her own unstable seal in check, worries about how Keras uses his seal, holds a grudge against the fire-sword wielder, and asks Keras to tell her his story.",
+            "id": "rin-jaden",
+            "name": "Rin Jaden",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A crystal-armored being who is a conscious piece of the sword Diamantine. Keras freed him from the Emperor during the tournament finals and afterward handed Diamantine to him instead of to the Crown Princess.",
+            "id": "green-guardian",
+            "name": "The Green Guardian",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A malevolent demigod and harbinger of the Sun Eater who takes control of other people's bodies. His servant possessed and killed competitors at the Edria tournament, and he came to possess the Emperor before Keras and his allies destroyed his true form.",
+            "id": "akadi",
+            "name": "Akadi",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The hostile power that Akadi serves as harbinger. Agents acting in its name possessed and killed fighters and allies at the Edria tournament before Akadi's true form was destroyed.",
+            "id": "sun-eater",
+            "name": "The Sun Eater",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Cloudcutter wielder"
+            ],
+            "description": "A member of the Tales of Orochi who carries the sword Cloudcutter. He killed the father of the dragon guardian who travels with Keras, and she hopes to take revenge on him.",
+            "id": "rizo",
+            "name": "Rizo",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A masked figure Keras meets in a dream he shares with Dawn. He resembles Keras but has white hair, gold eyes, and a black six-petal flower mark on one cheek. He calls himself Keras on a different path, summons many unusual swords, calls Dawn 'Anna', and claims Keras always ends up killing her. His black-gemmed circlet drains Dawn's mana. He seems to be testing rather than trying to kill, and he asks Keras to come back.",
+            "id": "white-haired-double",
+            "name": "The white-haired double",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A white-robed greatsword wielder who fought Keras in the tournament and once left him and a companion in the hospital. He waits at the shade shrine with tea set out for exactly the right number of guests, apparently through foresight, and warns that the Cloudcutter wielder is coming. He acts within limits set by someone he calls Father, whose number is seven, and refuses to explain further.",
+            "id": "muramasa",
+            "name": "Muramasa",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A chief god among the mortal gods of Rendalir, known as the Kingmaker. In that world's lore she is an ancestor of Akadi, who was her grandchild and the king of Fenir.",
+            "id": "maruna",
+            "name": "Maruna",
+            "reveal": {
+              "chapter": 7
+            }
+          },
+          {
+            "description": "A bearded blacksmith and shopkeeper inside the Rendalir scenario who greets new arrivals. A veteran of fifteen runs, he and his partner Kester Boyd earn rewards by supplying the other teams from a shop built over a tunnel that leads to the scenario's exit. He takes charge of the glass dagger used against Akari.",
+            "id": "lars-mantrake",
+            "name": "Lars Mantrake",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A gunslinger in a long coat and Lars Mantrake's partner in their supply shop inside the Rendalir scenario. Like Lars, he has been through the scenario many times and profits by equipping the other teams.",
+            "id": "kester-boyd",
+            "name": "Kester Boyd",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The leader of a climbing team among the summoned heroes in the Rendalir scenario. With his seer Aaliyah, he gives Keras an outline of the scenario's five phases and a count of roughly thirty participants spread across about five teams.",
+            "id": "dario",
+            "name": "Dario",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The seer on Dario's team. She and Dario brief Keras on the scenario and suggest that the regenerating enemy general may be King Akadi of Fenir, which Keras doubts.",
+            "id": "aaliyah",
+            "name": "Aaliyah",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A local god of Rendalir known as the Fateweaver and counted as an opponent of the Kingmaker. Soon after Akari enters the scenario, men calling on his name attack her with glass daggers that suppress a person's shade.",
+            "id": "makar",
+            "name": "Makar",
+            "reveal": {
+              "chapter": 8
+            }
+          },
+          {
+            "description": "A summoned hero in the Rendalir scenario, known only by this title at first. Before Keras arrives, the knight has already stopped an attempt on the king's life and broken up an enemy ritual attack, pushing events away from the course Keras was told to expect.",
+            "id": "knight-of-splintered-songs",
+            "name": "The Knight of Splintered Songs",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A singer at the Last Word tavern who performs in Liadrin, the language of Keras's homeland, and carries a weapon in a guitar case that feels like his own sword. She is a shrine-made copy of a world maker, the Hunter of Skies, and Keras treats her as an ancestor. She confirms she added the gem on the Dominion Breaker, teaches him about the crystal language, refuses to give any password for the sword, and shares lore about the Sun Eater, whom she once failed to stop.",
+            "id": "hunter-of-skies",
+            "name": "The Hunter of Skies",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A god of Rendalir whose story is told at the capital's grand cathedral. Once the god of adaptation, he was cursed and imprisoned for a thousand years after being caught with another woman on the night of his wedding to one of the Kingmaker's daughters, and he became a god of blood and madness.",
+            "id": "madron",
+            "name": "Madron",
+            "reveal": {
+              "chapter": 12
+            }
+          },
+          {
+            "description": "The ruler of the Rendalir capital in the scenario, a stocky man in his thirties with gray-flecked hair. Warm and informal, he goes about without an entourage. Fresh from surviving an attempt on his life, he greets Keras and Akari with hugs, waves away warnings that the city walls could fall, and invites them to a ball at the palace the following evening.",
+            "id": "the-king",
+            "name": "The king",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A giant chained crystal at the heart of an ancient cavern city beneath the capital. After Keras cuts its chains, it identifies itself as the ruin gateway crystal of its continent, now cut off from its network, and asks him for help. It first flags him as a deific threat before accepting him.",
+            "id": "ruin-gateway-crystal",
+            "name": "The ruin gateway crystal",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An archaeologist and memory mage, short and strongly built, with a blue-tinted thumb. She belongs to an artifact-collecting group tied to the northern nation and once traveled briefly with the dreamers. Keras picks her to record his memory of the fight with the harbinger into a crystal for the Kingmaker.",
+            "id": "gisela",
+            "name": "Gisela",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A retired war sorcerer who specializes in barriers and works alongside Gisela. Quiet, deadpan, and averse to being touched, he helps Keras and Akari choose relics from the cathedral vault.",
+            "id": "albus",
+            "name": "Albus",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A summoned hero from Andanya who is training as a Warder in a monster-hunting order. At a meeting of the teams he reports that followers of a god disguised as a senator are targeting the city's crystals. He knows of Rin Jaden, whom Keras calls a family friend.",
+            "id": "orlando-ortega",
+            "name": "Orlando Ortega",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young summoned hero with purplish hair, an oversized blue hat, a staff, knives, and reddish-purple eyes. She teases Keras, claims they knew each other in another life, and tells the teams that the cathedral's scrying mirror is the Kingmaker's first daughter turned into an artifact. When she brushes Akari's hand, both react as if burned.",
+            "id": "vivi-vespera",
+            "name": "Vivi Vespera",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A local who works alone in the Rendalir scenario, wearing a bandolier of enchanted tools and speaking with an Edrian accent, and who is engaged in sabotaging military supplies. Kester Boyd warns the teams that this figure has been nearby every time an entire team disappeared.",
+            "id": "caretaker",
+            "name": "Caretaker",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A goddess sealed in a crystal coffin beneath the old cathedral that bears her name. She closely resembles the Kingmaker, and when cultists wake her, her aura kills the mortals in the room. Her first request is to be killed before her mother arrives.",
+            "id": "vasil",
+            "name": "Vasil",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A white-bearded god of winter and uncle of Vasil, living in a tower of ice reached through a guarded gateway. His robes show shifting pictured stories. He sees his duty as watching and recording the world until its end and will not act against the World Render, but he grants Keras's group sanctuary in his domain in exchange for Keras's account of one possible future.",
+            "id": "the-preserver",
+            "name": "The Preserver",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Knight of Splintered Songs"
+            ],
+            "description": "The stained-glass-armored Knight of Splintered Songs, revealed as Velis, Keras's old rival and friend from home, who trained with him toward the paladins of Taos. Her polearm is the heart lance, which holds a fragment of Keras's soul and the whole soul of his cousin, the Wandering War. She is on a covert mission to find a cure for someone whose magical points are damaged, hints at a time loop back home, and turns down a formal partnership with Keras.",
+            "id": "velis",
+            "name": "Velis",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A silver-haired goddess of dreams and destiny and the Kingmaker's younger daughter, who closely resembles her mother. She first appears through a scrying link, greets Vasil as her big sister, and promises to have a rough portal built so Vasil and her companions can reach her.",
+            "id": "liriel",
+            "name": "Liriel",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A god of purity, grandson of the Kingmaker and son of her daughter and the Fateweaver. Seen through Vasil's scrying alongside Akadi, he speaks of reclaiming his mother and of seizing resources before a great-grandfather absorbs a Mirogia. He senses the watchers and shatters the scrying mirror.",
+            "id": "god-of-purity",
+            "name": "The god of purity",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A dreamer leader and the finest Rendalir swordsman Keras meets, who spars with him at the dreamers' camp as the enemy armies close in on the capital.",
+            "id": "arturo",
+            "name": "Arturo",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A master ritualist among the dreamers who teaches Keras ruin star-vein exercises and works on an emergency plan. Keras leaves the Fateweaver's ring with her before the assault on the palace.",
+            "id": "desderada",
+            "name": "Desderada",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A shield-bearing purifier who has turned against the god of purity's army. She joins Kester Boyd's rescue party and draws the army's attacks onto herself with a speech delivered from the edge of a tunnel.",
+            "id": "serenity",
+            "name": "Serenity",
+            "reveal": {
+              "chapter": 44
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A healer from the purifiers who has broken with the god of purity's army and fights on the side of Kester Boyd's rescue party.",
+            "id": "pureheart",
+            "name": "Pureheart",
+            "reveal": {
+              "chapter": 44
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The humanoid avatar of the ruin gateway crystal, who introduces himself by this name when Keras arrives in a bare stone room after the Rendalir scenario ends. He trades and sells, cannot leave the shrine, and wants revenge on the Sun Eater. He explains much of what Keras went through and rewards him with a shard of Flowbreaker.",
+            "id": "ravat",
+            "name": "Ravat",
+            "reveal": {
+              "chapter": 50
+            },
+            "role": "supporting"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:uk:B0HF7PXFNH",
+            "type": "community"
+          }
+        ],
+        "work": "flowbreaker"
+      },
       "recaps": {
         "ending": "The Rendalir scenario ends in defeat. The Fateweaver Makar pierces the world's heart, twelve gods marked by the Sun Eater stand behind him, and Liriel, who is not marked by the Sun Eater, teleports Keras and Velis away. Keras killed Madron and earlier took Maruna's arm, but the outcome does not change; Maruna and Vasil are among the marked gods. Ravat, the ruin crystal's avatar, explains that the shrine's gods were weaker copies, that Albus, Gisela and Vasil were real spirit fragments, and that Gisela and Albus died as themselves and now rest inside the shrine. He gives Keras a Flowbreaker shard on a bronze memory chain, returns the ring as a fabrication, and warns him to stop damaging his seals. Keras gives the ring to Velis, who goes home to seek a cure for a sick friend, and they part on bad terms. Outside, Akari survives her wounds, Lars and Dario are safe, Ravat reports a Warden of the Buried as safe without saying who that is, and Orlando's fate after being turned to sand remains unclear. Reika is badly hurt with a broken wing, and Dawn has been taken by an unknown party. Open threads include Dawn's abductor, Keras's seals and lost memories, the white-haired double, Vivi Vespera's identity, the heart lance's trapped souls, Velis's home time loop, Muramasa's Father, Reika's revenge on the Cloudcutter wielder, the other Flowbreaker pieces, Mithralis and Valian, and the Sun Eater and Makar, both still active. In the epilogue, years later, Keras brings Rin Jaden to the shrine's memorial, and with an old friend of theirs who arrives by portal they go in to try the scenario again, with the seventh spire matter still pending.",
         "in_short": "After escaping the Edria tournament, Keras and his companions hide in the unclaimed lands, where a mentor explains the Ruin Gateway Shrine, a scenario that replays the fall of the world Rendalir. Keras enters with the fire spirit Akari, leaving Dawn outside with Reika. Under the alias Talion he joins other summoned heroes in the capital, frees the ruin gateway crystal, and bargains with the goddess Maruna. He frees Maruna's imprisoned daughter Vasil, cuts off Maruna's arm, accepts a time ring from the Fateweaver Makar, takes refuge with the winter god called the Preserver, and is reunited with his old rival Velis. With Gisela, Albus and Lars he storms the palace to stop a ritual that would open the world's heart, while Akari and Orlando infiltrate the enemy army below, and he kills the regenerating blood god Madron. Makar freezes time, Gisela and Albus die, and Makar pierces the world's heart while twelve Sun Eater-marked gods, Maruna and Vasil among them, back him. Liriel sends Keras and Velis out. The crystal's avatar Ravat gives Keras a Flowbreaker shard, Velis goes home on bad terms, and Keras finds Reika wounded and Dawn stolen. Years later he returns with Rin Jaden to try again.",
