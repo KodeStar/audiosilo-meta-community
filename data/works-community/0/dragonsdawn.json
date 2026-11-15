@@ -3826,6 +3826,311 @@
         "work": "dungeon-desolation"
       }
     },
+    "dungeon-diving-201": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Ken Nagato"
+            ],
+            "description": "Head of the Nagato clan and guildmaster of Silverfangs, an Emperor-class adventurer with a sealed demon secondary class. He comes back from a summer in the elven world with his party and is about to start his second year at Halen. He has the rare Portal skill but cannot open one himself yet, and the remnants of Kaiming are hunting him.",
+            "id": "ken",
+            "name": "Ken",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Ken's instructor at Halen and a fearsome high-level fighter whose Limit Break turns her berserk. Her new red hair dye failed the moment Limit Break activated. On the way home she admits she deliberately took the blood of the floor-45 demon boss, which is linked to Ken's sealed demon class. She claims her Limit Break came from a floor-28 lightning bird, though Ken suspects she is hiding part of the truth.",
+            "id": "crimson",
+            "name": "Crimson",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elf and the party's tank, fighting with a glaive, camouflage and roots. She returns from the elven world with Ken, who swapped skills with her over the summer, and Ken's grandfather treats her as his favorite granddaughter. She takes her duty of keeping Ken safe very seriously.",
+            "id": "fayeth",
+            "name": "Fayeth",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ken's partner and party mage. Over the summer she trained deep in the dungeon with her parents, unlocked a demonic heritage, and changed from warlock to demonic mage with a Temptress secondary class. Her eyes are now pink, and the covered one has a heart-shaped pupil.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A druid in Ken's party and one of his partners. She spent the summer training hard under her mother and has gained the ability to revive the dead, which makes her the group's safety net. She can understand her rabbit companion and passes on what he says.",
+            "id": "charlotte",
+            "name": "Charlotte",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Charlotte's giant rabbit. Over the summer he was retrained as a dodge tank, with skills for taunting, evading and moving quickly, though he still has trouble keeping enemies focused on him.",
+            "id": "bun-bun",
+            "name": "Bun-Bun",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A masked butler in the service of the Nagato family who looks after Ken and reports back to his grandfather. She travels with the group on the walk home through the dungeon.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Ken's grandmother, an elder of the Nagato clan who can teleport inside a cloud of mist. She walks back to the Nagato estate with Ken's party after the summer.",
+            "id": "yui",
+            "name": "Yui",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Ken's grandfather and an elder of the Nagato clan. He carries Ken to the estate and settles terms with him about leaving Crimson and Ken's class partners alone. He is very fond of Fayeth, and Amy reports to him.",
+            "id": "kens-grandfather",
+            "name": "Ken's grandfather",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An elf princess Ken became partnered with during his summer in the elven world, and one of the people he swapped skills with. She stays in her own world, but Ken says he may bring her into his group later.",
+            "id": "elf-princess",
+            "name": "The elf princess",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Head of the Halen academy. She is stern and dislikes being ordered around by Crimson, but she owes Crimson favors and so agrees to portal Ken's group to school at the last minute.",
+            "id": "headmistress",
+            "name": "The headmistress",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Head of the UG. With angel summons backing him, he personally leads the raid that destroys Kaiming's last safe house on the surface.",
+            "id": "ug-president",
+            "name": "The UG president",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A senior figure in what remains of Kaiming. He is a caster who uses debuffs and snake venom and can open portals. When the UG takes his last surface safe house, he escapes through a portal into a dungeon and swears to get revenge on Ken.",
+            "id": "kaiming-leader",
+            "name": "The Kaiming leader",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A bard in Ken's party, Class 2A, who dreams of having a harem of healers. Her strong mana regeneration is valuable for the coming raid. She finds out that Ken did sleep with the elf princess.",
+            "id": "harley",
+            "name": "Harley",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A notorious woman with a large harem who joins Halen's staff at the start of the year and takes over a second-year class. Crimson silences her at the entrance ceremony. She is Helen's mother, and her students have already built a luxurious school building on floor 30. Ken has said he wants nothing to do with her.",
+            "id": "harem-queen",
+            "name": "The harem queen",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Class 2A tank who has a revive skill, and the daughter of the harem queen. Dez says Helen wrote the smutty serial \"74 Wives\" to get back at her mother and to get into Silverfangs.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Class 2A classmate of Ken's who fights as a frost knight tank.",
+            "id": "penny",
+            "name": "Penny",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A blonde Class 2A student who answers the teachers' questions and whose mother leads a guild. She explains that death rates at the top colleges are expected to climb steeply under the new standards.",
+            "id": "candace",
+            "name": "Candace",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Class 2A classmate of Ken's.",
+            "id": "taylor",
+            "name": "Taylor",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A monster that appears only when the dungeon focuses on Ken. It is huge and dark, throws off purple sparks, and teleports. Other attacks pass straight through it, and only Ken's blades can hurt it. When Charlotte heals him, it speeds up and kills him in an instant before disappearing.",
+            "id": "panther",
+            "name": "The panther",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A cat-people shaman Ken met over the summer. She tattooed him and has a big mane, blue stripes and revealing clothes. Dez bets that she will come looking for him.",
+            "id": "cat-people-shaman",
+            "name": "The cat-people shaman",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A healer in Candace's party with short black hair, whose skills drain souls. She is the one who suggests Helen's mother as a possible partner for Ken, and the group teases him about it.",
+            "id": "selene",
+            "name": "Selene",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The tank in Candace's party, fighting with a mace and shield.",
+            "id": "myrtle",
+            "name": "Myrtle",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A cocky, strong berserker from a rich family, and the center of the startup party Crimson scouted for when she was young. He lied to the party, and on a candy-themed floor a lightning phoenix drove him into a rage. He killed the mage, and then the phoenix killed him and the healer. Crimson blamed him for the deaths and kept his CID.",
+            "id": "rick",
+            "name": "Rick",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A blue-haired UG official with glasses and a laptop who runs the safe zone. After the dwarf attack she tells Ken that a dwarf has marked him and asks him to stay out of public areas. She is Selene's mother and says plainly that Selene's father is in prison. She is keeping watch on Ken because of his ties to the elves.",
+            "id": "zone-director",
+            "name": "The zone director",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The UG zone director, now known by name. She is blue-haired, Selene's mother, around her mid-forties in level, and not afraid of Crimson. Her husband is in prison as a UG undercover agent working against Kaiming. She works with Crimson to draw out and destroy a gathering of would-be assassins, then announces penalties against those who worked with Kaiming.",
+            "id": "director-amato",
+            "name": "Director Amato",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A woman Ken met on floor 7 who was power-leveled to level 40. She has been messaging with Crimson, who invites her to handle public relations for Silverfangs. Ken agrees to it reluctantly.",
+            "id": "influencer",
+            "name": "The influencer",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An elf with a silver ponytail who serves as a courier between worlds. She brings Ken letters from the elf princess along with an errand related to the metal trade.",
+            "id": "royal-censor",
+            "name": "The royal censor",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An incubus-type demon lord sealed inside Ken, who acts as his secondary class. He is a level-45 boss that the UG restricts, far too strong for Ken to fight alone. He once gave bonus stats in exchange for smut magazines. When Ken meets him in his mindscape, he confirms that Dez's demonic side belongs to her by blood.",
+            "id": "snoo-snoo",
+            "name": "Snoo-Snoo",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A healer with Penny's group whose power moves wounds onto enemies. With Penny, she kills an armored soldier dwarf during the defense of Halen.",
+            "id": "dolly",
+            "name": "Dolly",
+            "reveal": {
+              "chapter": 34
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The harem queen's real name, revealed through her own point of view. She is Helen's mother, a knight of the mythic flame who wields a blue-fire sword, and her harem's bonds boost her stats. She hates being mistaken for Crimson. During the dwarf invasion she leaves Ken in charge of the students and flies off alone to fight the dwarf queen and her guards.",
+            "id": "heather",
+            "name": "Heather",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The ruler of the invading dwarf hive. She is nearly nine feet tall, speaks English, and wears chitin armor that repairs itself. She is both a tank and a healer, turns captured humans into drones while taking what was in their CIDs, and treats her soldiers as parts of herself. Five elite soldiers guard her.",
+            "id": "dwarf-queen",
+            "name": "The dwarf queen",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0F1DJVRH6",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-diving-201"
+      }
+    },
     "dungeon-diving-302": {
       "characters": {
         "characters": [
