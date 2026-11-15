@@ -3827,6 +3827,280 @@
       }
     },
     "dungeon-diving-102": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The only male student in Halen's first-year class and leader of a party that has just reached level 4. His class, Emperor, could not be read by CIDs at the entrance exam, and he hides a secondary class, Demon Lord, drawn from a demon sealed inside him whose name, Snoo, he keeps to himself. His skills are Dark Strike, Earth Stomp, Charm, Metamorphosis, Sprint and Absorb. He has already killed classmates to keep his party safe and is ready to do so again. He is dating Dez and engaged to the elf Fayeth after an accidental proposal.",
+            "id": "ken-nagato",
+            "name": "Ken Nagato",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "An elf who serves as the tank of Ken's party and is the daughter of the elven ambassador. Ken proposed to her without meaning to, and she now calls him her fieore, while he refers to her as his elven fiance. She shares Ken's bed along with Dez, who would like Fayeth to become physically closer to him. The anti-elf faction at Halen has tried to kill her before, though months have passed without a new attempt.",
+            "id": "fayeth",
+            "name": "Fayeth",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Desmonda"
+            ],
+            "description": "A warlock in Ken's party and his girlfriend, whose mother is a succubus. Dez provided the family ritual that sealed a demon inside Ken, and she inspects the seal regularly to confirm it is holding. She openly wants Fayeth to grow physically closer to Ken as well.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A druid who serves as the healer of Ken's party and is accompanied by her pet rabbit Bun Bun.",
+            "id": "charlotte",
+            "name": "Charlotte",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The bard of Ken's party. She is drawn to healers. She unknowingly played a part in Ken's victory over the demon sealed within him, something Ken has chosen not to tell her.",
+            "id": "harley",
+            "name": "Harley",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Charlotte's pet rabbit and constant companion. During the class camping drill he keeps watch alongside her, giving the party an extra lookout while the others set traps and alarm wires around the camp.",
+            "id": "bun-bun",
+            "name": "Bun Bun",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The Aberrant-class instructor in charge of Ken's first-year class and his main patron. She moves the fifth-floor boss fight up to serve as the first-term final and sets up a flag contest across the first ten floors, in which any party that falls to zero points is expelled. In private she tells Ken the headmistress will not permit a purge, so the contest is the approved way to remove anti-elf students. She earlier supplied the blood of a powerful floor boss that helped Ken overcome his demon, and she intimidates students freely, wrecking one desk as a warning.",
+            "id": "crimson",
+            "name": "Crimson",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Fayeth's father and the elven ambassador at Halen. He lives in the academy's visitor center alongside Crimson and Ken, and he is researching the first holder of the Emperor class, a class the elves link to periods of upheaval.",
+            "id": "adin",
+            "name": "Adin",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The headmistress of Halen. She has come to tolerate Ken because he improved the academy's relations with the elves, and she has granted him a small locker room as the school's male student. She does not want students purged outright, which leads Crimson to use a contest instead.",
+            "id": "marlow",
+            "name": "Marlow",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A first-year who leads one of the other parties in Crimson's class. When Crimson announces the flag contest, Kendra's objection prompts the instructor to give every party a single starting point.",
+            "id": "kendra",
+            "name": "Kendra",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A first-year in Crimson's class. Early in the term Crimson destroys Taylor's desk as a warning, an example of how the instructor deals with students in her room.",
+            "id": "taylor",
+            "name": "Taylor",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A frost knight on Halen's security council, several levels above Ken, with the ability to slow her targets. During the gym camp-out she is near a marsh camp that Ken raids for its flag, and he manages to slip away from her.",
+            "id": "penelope",
+            "name": "Penelope",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The demon lord sealed inside Ken and the source of his secondary Demon Lord class. Ken beat it in a stealth contest with the help of a high-level boss's blood supplied by Crimson, and he keeps its name a secret from everyone.",
+            "id": "snoo",
+            "name": "Snoo",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A priestess in Halen's Class B who is hostile to the elves. Ken's party has learned that her father runs the company that makes CIDs, and that plant-grown elven CIDs could undercut his business, giving her family a motive to move against Fayeth and the elves.",
+            "id": "class-b-priestess",
+            "name": "The Class B priestess",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Father of the anti-elf Class B priestess and head of the company that manufactures CIDs. Elven CIDs grown from plants threaten his firm's market, which Ken's party sees as the reason behind his family's hostility to the elves.",
+            "id": "cid-company-head",
+            "name": "The CID company head",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A first-year who leads the only other party in Crimson's class to have reached level 4 at the start of the term.",
+            "id": "spell-weaver-rival",
+            "name": "The spell-weaver rival",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Beastmaster in the spell-weaver rival's party who scouts with two wolves and an owl. Through her animals she saw a wealthy Class B student start the gym fire during the camp-out, and her leader passes this on to Ken when their parties meet in the dungeon.",
+            "id": "rival-scout",
+            "name": "The rival party's scout",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A party of three men and a woman who climb up from the safe-zone pit into the fifth-floor boss room just as Ken arrives first at the end of his race with the rival party. Their sudden arrival alarms him.",
+            "id": "the-four-hunters",
+            "name": "The four hunters",
+            "reveal": {
+              "chapter": 14
+            }
+          },
+          {
+            "description": "The head of the United Guilds, a heavily scarred and muscular man staying at the Halen branch. He shows Ken records identifying the dungeon attackers as members of a low-level guild, most of them with prison histories. Because his organization must look neutral, he will not act against them openly, but he keeps the guild under watch, has already stopped two earlier attempts to send stronger killers, and discourages others by letting them know Crimson has been informed.",
+            "id": "ug-president",
+            "name": "The United Guilds president",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A dungeon advisor for the United Guilds at Halen. She watches Ken with obvious curiosity as he comes out of the guild president's office.",
+            "id": "katie",
+            "name": "Katie",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The sole grandfather among the five grandparents who raised Ken. When Ken phones home to ask for help against the guild targeting his party, the grandparents tease him about having three girlfriends. Once Fayeth introduces herself, they cancel their plans to fly and decide to make the trip on foot, expecting to arrive around midnight the following night.",
+            "id": "ken-grandfather",
+            "name": "Ken's grandfather",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The stern member of the grandparents who raised Ken, and the only one related to him by blood. She looks like Ken's mother, her daughter, and blames herself for having been too harsh with her. In a private talk she promises to support Ken if he tells her everything, warning that any attack on the Nagato family will end in bloodshed. Ken tells her this is the third attempt on Fayeth.",
+            "id": "ken-biological-grandmother",
+            "name": "Ken's biological grandmother",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A close friend from Ken's mother's adventuring party whom Ken thought of as an uncle. According to Ken's grandfather, this friend wanted Ken's mother, grew jealous, and hired old enemies of the family to get rid of Ken's father. None of this has been confirmed.",
+            "id": "ken-honorary-uncle",
+            "name": "Ken's honorary uncle",
+            "reveal": {
+              "chapter": 23
+            }
+          },
+          {
+            "description": "The heir to the elven throne, who is reported to hold an Emperor class, one of only two known. Ken finds the timing suspiciously convenient, given his own class, while Adin works to keep Ken's class out of view.",
+            "id": "elven-heir",
+            "name": "The elven heir",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An elven royal censor, the trusted advisor of a noble lady who sent her to question Adin about documents on Ken's class. Royal censors serve the emperor's line as investigators, judges and executioners, and Adin fears them. Crimson escorts her and slices through her sword when she half draws it, warning that Ken's grandparents forbid weapons or harm to his relatives. The censor, who is wary of Crimson, says she will return in two days, and Crimson follows her into the dungeon.",
+            "id": "royal-censor",
+            "name": "The royal censor",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ken's four grandmothers, distinct from the other three. She meets the party in the first safe zone, buys beer, teases Ken, and lets a brief wave of killing intent show before announcing that the party will be leaving with her.",
+            "id": "ken-safe-zone-grandmother",
+            "name": "Ken's safe-zone grandmother",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ken's four grandmothers, who fights with banners and debuffs. At the close of the term she drives the party to the airport, where they are each given two parachutes for the strike against the CID company head.",
+            "id": "ken-banner-grandmother",
+            "name": "Ken's banner grandmother",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ken's four grandmothers, a pilot with the power to revive the fallen. When the CID company head kills Ken with a shield blast during the fight after the plane crash, she brings Ken back to life.",
+            "id": "ken-reviver-grandmother",
+            "name": "Ken's reviver grandmother",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A high-level portal caster with a snake tattoo running down both arms, matching the arch-and-snake mark worn by the CID company head's guards. He claims the title of heir, and Ken's grandfather despises the organization the mark represents. He summons reinforcements during the fight and escapes once the company head is killed.",
+            "id": "snake-tattoo-leader",
+            "name": "The snake-tattoo leader",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0F1DHQX5D",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-diving-102"
+      },
       "recaps": {
         "ending": "The term closes with Ken's party passing the semester by defeating the fifth-floor boggart boss. The anti-elf threat at Halen is finished: Fayeth killed the Class B priestess after her father's plane was downed, and Crimson turned her father, the CID company head, to dust. Ken was killed in that fight and revived by a grandmother. The convict guild is gone. Ken is level 5 with Dark Blades and Discharge and has accepted his place as heir to the family's assassin trade. He is soul-bonded to Fayeth and committed to Dez and Charlotte; Harley and Bun Bun remain in the party. The grandparents stay near Halen and plan to train the party. Open threads carry forward: the snake-tattoo leader and his organization escaped and are now linked to the CID company head; the fate of Ken's parents and the friend accused of betraying his father remain unconfirmed; Crimson's heart-rate-linked ability is still dangerous, and she believes Ken is her best chance at fixing it while aiming to push him to floor 20; the elves' staged Emperor claim and the request that Ken share Absorb with the princess remain unresolved, with Ken committed only to visiting the elven world; the Naga threat deep in the dungeon persists; the seal holding Snoo has shifted; and Charlotte's sisters have yet to test Ken. Ken and Fayeth look ahead to four years of hard leveling.",
         "in_short": "In his first year at Halen, Ken Nagato leads his level-4 party through Crimson's flag contest, a sanctioned way to expel the anti-elf students who target his elven fiance Fayeth. A fire set during the gym camp-out leaves him with strained mana channels, and Crimson trains him hard in weighted mana-suppression cuffs. On a race to the fifth-floor boss, hired hunters from a convict guild ambush the party; Ken lures them off alone and kills them with his friends' help. His grandparents arrive, revealing that the family are hereditary assassins, and Ken wipes out the guild's house in a single night, then asks them to rebuild the family trade. He bonds fully with Fayeth, steals the Class B priestess's flag, reaches level 5, and learns from an elven royal censor that the princess's Emperor class was staged, leaving his own as the true one. After the party defeats the priestess underground and beats the fifth-floor boss, her father threatens Halen. Ken's grandfather crashes his plane, and in the fight that follows Ken is killed and revived, Crimson destroys the father, Fayeth kills the priestess, and a snake-tattooed portal caster whose mark matches the CID company head's guards escapes.",
