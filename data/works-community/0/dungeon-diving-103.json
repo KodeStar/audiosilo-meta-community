@@ -366,6 +366,311 @@
         "work": "dungeon-diving-103"
       }
     },
+    "dungeon-diving-104": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Ken Nagato"
+            ],
+            "description": "Narrator and head of the Nagato clan, a human student adventurer at level 13. During the Naga incident he absorbed a synthetic portal spellbook and used it to shut the portal, but the Portal skill it gave him now shows as restricted. He turns down the harem queen's offer and agrees to spend the summer in the elven world, drawing the people who want his ability away from home while Crimson tries to find her way back.",
+            "id": "ken",
+            "name": "Ken",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "An elf tank who fights with shield and spear, and Ken's bonded partner. She is carried out of the dungeon with him after the Naga incident and goes with Ken, Amy and the royal censor to the elven world for the summer.",
+            "id": "fayeth",
+            "name": "Fayeth",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ken's instructor, a ferocious fighter whose Limit Break state is hard for her to rein in. During the Naga incident she went through a portal into Naga territory, and she is stranded there as the book opens. Part of Ken's reason for leaving Earth for the summer is to buy her time to return.",
+            "id": "crimson",
+            "name": "Crimson",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A silver-haired elf with a ponytail who serves as a royal censor and is one of the strongest fighters on the scene. She carries Ken and Fayeth out of the dungeon, beats the harem queen in a duel, and takes on the job of escorting and protecting Ken during his summer in the elven world.",
+            "id": "royal-censor",
+            "name": "The royal censor",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Helen's mother, a red-haired fighter who carries a sword wreathed in blue flame. She chases Ken out of the dungeon and offers him the top place in her harem because of the portal spellbook he absorbed. When he says no, she loses a duel to the royal censor and pulls back, insisting he will come to her in the end. She is later allowed to supervise Helen.",
+            "id": "harem-queen",
+            "name": "The harem queen",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A member of Ken's circle and the harem queen's daughter. To avoid being taken home by her mother, she adopts a cover story suggested by Dez, publicly declaring that she loves Ken and writes an online smut serial about him. The ploy lets her stay: she joins the Silverfangs, with her mother permitted to oversee her.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A masked, white-haired member of the Nagato clan, assigned to Ken as an ally by one of his grandmothers. She joins Ken, Fayeth and the royal censor on the journey to the elven world and stays close to him as his attendant.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ken's grandmothers, a healer able to move as mist. She travels with the group for the first stretch of the descent toward the elven world before turning back.",
+            "id": "yui",
+            "name": "Yui",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A druid healer among Ken's fellow students. When the families arrange intensive summer training at the Nagato estate, aiming to push the students to level 20 before their second year, Charlotte asks to take part and her mother agrees. She remains on Earth while Ken leaves for the elven world.",
+            "id": "charlotte",
+            "name": "Charlotte",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Charlotte's mother, a mage who commands storms. She is present at the dungeon exit after the Naga incident and gives her consent for Charlotte to join the accelerated summer training the families organize at the Nagato estate.",
+            "id": "charlottes-mother",
+            "name": "Charlotte's mother",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A half-demon member of Ken's group whose family is responsible for the demon sealed inside him. After the Naga incident her father leads the push to fast-track the students' growth over the summer, and she is the one who proposes Helen's cover story so Helen can stay rather than go home with her mother.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A white-haired woman of a cat-eared tribal race, marked with blue tiger stripes, whom Ken meets in the floor 45 safe zone. A shaman traveling with a protective leopard-spotted guard, she sits down with Ken uninvited, questions him, and is taken with his scent, yet will not explain how her people make use of the dungeon.",
+            "id": "cat-people-shaman",
+            "name": "The cat-people shaman",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The emperor's red-haired, blue-eyed daughter, an isolated young elf with few if any friends. She is a distant cousin and childhood friend of Fayeth. Publicly she is the prophesied hero, but her father staged that claim: her real class is Eidolon Priest, letting her call on up to four Eidolons. She hopes to gain Ken's Absorb ability and hosts him and Fayeth as if they were family.",
+            "id": "elf-princess",
+            "name": "The elf princess",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A royal censor ranked just below the head of the princess's guard. Watching Ken train in the palace gym, she studies his Nagato sword style and correctly guesses that assassins taught him. She is fiercely protective of the princess and had bowed to Ken after the welcome dinner.",
+            "id": "second-ranking-censor",
+            "name": "The second-ranking censor",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Fayeth's mother, a warm and very outspoken elf whose husband works as an ambassador in another world. On meeting Ken she teases him with blunt questions and is alarmed to hear that Crimson is his teacher, given the rumors about Crimson, but she quickly declares that she is adopting him as a son and plans to cook him dinner.",
+            "id": "fayeths-mother",
+            "name": "Fayeth's mother",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Ruler of the elves and the princess's father. He presented his daughter to the public as a prophesied hero even though her true class is something else. He has turned floors 61 to 65 of the dungeon into sealed minefields because the route to the Naga lies beneath them, a move that has angered elite elves, and there is talk that he may abdicate in her favor.",
+            "id": "emperor",
+            "name": "The emperor",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of the princess's royal censors. On the party's first dive through the royal family's private entrance, she uses a teleport-like ability to move everyone from the grassland of the first floor to a red-rock zone containing an orc village, where the princess shows Ken how she really fights.",
+            "id": "teleporting-censor",
+            "name": "The teleporting censor",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The arrogant heir of a powerful ducal house, strong enough to stand up to the royal censor. He barges into the princess's training zone with high-level companions, demands a spar, sneers at Ken as a mere human, and claims the princess will soon be engaged to him. She denies it and he storms off. His house once governed three great trees, lost two in a tax scandal, and has since won one back.",
+            "id": "younger-duke",
+            "name": "The younger duke",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Father of the younger duke, holding the same ducal title. Together they lead a large bloc of dukes and top adventurers opposed to the emperor, whose main demand is that the closed upper dungeon floors be reopened. A marriage between his son and the princess would expose her false class.",
+            "id": "elder-duke",
+            "name": "The elder duke",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An older elf with a mustache who directs a wave of crushing killing intent toward the princess's group at the palace ballroom event. Ken steps in front of her and mostly withstands it, though he can tell the man is far beyond his own strength.",
+            "id": "mustached-elf",
+            "name": "The mustached elf",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A noble elf at the palace event who belittles Ken as the princess's pet. After Ken shows her how much metal humans have and casually throw away on Earth, she changes course and asks for a meeting to discuss trade.",
+            "id": "duchess",
+            "name": "The duchess",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The princess's mother, who no longer stands at the emperor's side and has withdrawn from politics because she disapproves of his course. She is described as gentler than her husband, and Ken is promised an introduction to her.",
+            "id": "princess-mother",
+            "name": "The princess's mother",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Head of an elven adventuring party led by a hooded archer that ambushes Ken's group on the sixth floor. He offers to sell the disguised princess and Fayeth in a duke's new city and turns out to be part of a ring trafficking drugged, declawed cat-people. Cruel but loyal to his own crew, he is a little more skilled in combat than Ken.",
+            "id": "slaver-leader",
+            "name": "The slaver leader",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The owner of a brothel in a neon-lit vice district hidden under the roots of a duke's city. Far stronger than anyone in Ken's party, she buys the disguised princess for a large sum in crystals. Flirtatious and businesslike, she boasts that she will sell anything, information included, and she quickly suspects the princess is more than a lookalike.",
+            "id": "underroot-madam",
+            "name": "The brothel madam",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A level 30 cat-person held captive and forced to work in the hidden vice district. Ken books time with her and proves his connection to the cat-people shaman with clothing that carries the shaman's scent. She agrees to help, and Ken promises that she and the other captives will be sent home.",
+            "id": "captive-cat-woman",
+            "name": "The captive cat-woman",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A heavyset elf who runs a bar in the hidden district and wields ember magic, stronger than Ken. He is allied with the duke's family and schemes to take over the madam's position. When Ken attacks him he grows more powerful amid the flames, sets his own bar on fire, and pursues Ken after he escapes.",
+            "id": "ember-mage",
+            "name": "The ember mage",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A tall, thin elf armed with crescent blades who works under the ember mage. Ken overhears the two discussing a book of letters tying the duke to the trafficking, and the lanky elf carries the book off to a safe house.",
+            "id": "lanky-elf",
+            "name": "The lanky elf",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A huge white Naga matriarch commanding an army in a Naga safe zone. When Crimson cuts through dozens of her soldiers, the matriarch strikes her hard with her tail, and Crimson chooses to flee rather than face her directly.",
+            "id": "white-matriarch",
+            "name": "The white Naga matriarch",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A royal censor who fights on the front line and is the strongest brawler among the princess's guards. Her power grows with contracts and money, and the class she advertises is not her real one. She travels with the party as they escort the freed cat-people down through the dungeon.",
+            "id": "merchant-censor",
+            "name": "The merchant censor",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An older cat-person woman with silver in her hair who leads the group waiting in the floor 40 safe zone. She thanks Ken and the elves for returning the freed captives, invites the shaman to lead a ritual in their honor, and blesses Ken as someone with great potential.",
+            "id": "cat-people-elder",
+            "name": "The cat-people elder",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The head of the UG, who is visibly afraid of Crimson and gives way to her. After she gets a new CID, the president brings her up to date on Ken closing the portal, the greed his ability stirred up, and his departure for the elven world, and asks her not to kill the harem queen.",
+            "id": "ug-president",
+            "name": "The UG president",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A royal censor able to change her face. During the plan to slip into the seized palace she takes on the mustached elf's appearance to help the infiltrators, then stays behind to guard the entrance.",
+            "id": "shapeshifting-censor",
+            "name": "The shapeshifting censor",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0F1DL28J9",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-diving-104"
+      }
+    },
     "dungeon-diving-201": {
       "characters": {
         "characters": [
