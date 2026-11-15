@@ -1039,6 +1039,332 @@
         "work": "dungeon-diving-201"
       }
     },
+    "dungeon-diving-202": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Ken Nagato"
+            ],
+            "description": "The first-person narrator, heir to the Nagato assassin clan and guildmaster of Silverfangs. In earlier adventures he survived a smoke-panther trial that granted him Liminal Speed, a skill that builds speed in stacks and can freeze time in proportion to them, and he became Crimson's lover. He helped bring down a dwarf queen and came away with a mana-burn injury to his arm, and his party also survived an attack by the remnants of the Kai Ming group.",
+            "id": "ken",
+            "name": "Ken",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "The Halen instructor in charge of Ken's class and his demanding trainer. She gained her Limit Break from a trial much like the one that gave Ken his speed, and she and Ken are now lovers, which lets her use his portal ability. She keeps up a long-running rivalry with Heather, the teacher of the neighboring class.",
+            "id": "crimson",
+            "name": "Crimson",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "the Harem Queen"
+            ],
+            "description": "Known as the Harem Queen, she teaches Class 2B, the class next door to Ken's, and is a rival of Crimson. In the previous book she killed an attacking dwarf queen with Ken's help, an encounter that left Ken with a mana-burn injury to his arm.",
+            "id": "heather",
+            "name": "Heather",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elf and one of Ken's partners, serving as the main tank of his party. She expects to miss Harley now that the bard is spending most of her time with a separate healer group being formed for the coming raid.",
+            "id": "fayeth",
+            "name": "Fayeth",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A demonic mage in Ken's party and one of his partners. Changes over the summer have altered her appearance, most visibly giving her pinker eyes. She is quick to scheme and makes no secret of her affection for Ken.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A druid and the healer of Ken's party, close to him and protective of his health. She spent time fussing over the mana-burn injury to his arm, and her training over the break has left her noticeably more mature.",
+            "id": "charlotte",
+            "name": "Charlotte",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A cat-person shaman who has taken to wearing human clothes. She has stepped into Harley's place in Ken's party and is performing well there as the class arrives for a large vampire-castle event on the 28th floor.",
+            "id": "feline",
+            "name": "Feline",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A pink-haired bard who is still technically a member of Ken's party but now spends most of her time with a three-person healer group. She is recruiting healers for that group so it can field its own party in the upcoming raid, a plan Ken supports.",
+            "id": "harley",
+            "name": "Harley",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A blue-haired Frost Knight in Ken's class who is clearly eager to see him again when the class gathers through Crimson's portal for the vampire-castle event on the 28th floor.",
+            "id": "penny",
+            "name": "Penny",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A student in Ken's class who reads entries from the dungeon almanac aloud as the class prepares for the vampire-castle event on the 28th floor.",
+            "id": "candice",
+            "name": "Candice",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The leader of the senior class, who joins the vampire-castle trip because rising graduation requirements push the seniors to keep out-leveling the second-years in Ken's class.",
+            "id": "senior-class-president",
+            "name": "Senior-class president",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A red-haired, winged tank in Ken's class who fights with a shield. When Ken rushes into the vampire boss's chamber alone and is nearly killed, she arrives with the others and takes a rapier strike that was aimed at him.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A classmate who mixes healing and damage, draining life from vampires and redirecting it to wounded allies. During the rescue of an overwhelmed group of seniors, she and Candice speak bluntly to the seniors about the risks they took.",
+            "id": "selene",
+            "name": "Selene",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A well-known social-media influencer who handles public relations for Silverfangs. Crimson brings her to the event camp, where she arrives with assistants and begins preparing Ken and Feline for media interviews, saying the image of the cat-people needs careful handling.",
+            "id": "silverfangs-pr-lead",
+            "name": "Silverfangs PR lead",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Ken's masked, white-haired butler and a trained Nagato ninja. She delivers a letter from his grandparents asking him to scout a target and decide on a contract himself, then joins him as his pretend date for the job. She collects speed abilities, including a sprint and a teleport, and can switch between personas instantly.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The target named in the contract Ken's grandparents ask him to scout. He is recorded as a level 38 elemental fighter who styles himself king of the 30th-floor safe zone, and a small guild accuses him of taking its members' CIDs and inventories and acting like a warlord.",
+            "id": "safe-zone-ruler",
+            "name": "The safe-zone ruler",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A tired but friendly administrator who greets Ken and Amy at the 30th-floor safe zone and guides them around. He says he has not left the zone in three years, and he shows them a village where few residents own CIDs or decent gear.",
+            "id": "henry",
+            "name": "Henry",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "One of the two women seated with the safe-zone ruler. She keeps the trade records, runs the ruler's trade, and shows Ken and Amy to their room. She is eager to buy foam for filling the walls and does not appear to be held against her will.",
+            "id": "the-bookkeeper",
+            "name": "The bookkeeper",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The second woman at the safe-zone ruler's side. Her travel skill lets her turn into a whirlwind and carry others, so she serves as a kind of taxi for the household, and the ruler does not regard her as a planner.",
+            "id": "whirlwind-woman",
+            "name": "The whirlwind woman",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Charlotte's rabbit companion, who guards her closely and reacts to the jokes around him.",
+            "id": "bun-bun",
+            "name": "Bun-Bun",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A handsome Royal Academy student, the son of an emir, who carries a saber and expensive gear. He steps in after Crimson injures a Royal Academy student who pointed at Ken, claims to have met Crimson before, and accuses Ken's group of leaning on her to farm crystals and win the raid competition.",
+            "id": "the-prince",
+            "name": "The prince",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The blonde class president of the Trusk school, a dragon summoner who calls herself the best summoner in the world and is adored by her classmates. A fan of the web serial about Ken's group, she challenges Ken to a wager on the college raid competition: if she wins he becomes her pet, and if he wins she becomes his dress-up doll.",
+            "id": "trusk-class-president",
+            "name": "Trusk class president",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An old high-school acquaintance of Ken who is now a berserker with a mohawk-style haircut and the leader of his Pendulum class, a role he won by going berserk and beating his challengers. A friendly rival, he tells Ken about the upcoming DPS test and the betting already running on it.",
+            "id": "pendulum-class-leader",
+            "name": "Pendulum class leader",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The Royal Academy's professor, one of three rival instructors Crimson confronts and beats. He holds the betting on the inter-school contest, bullies others, and cannot see Ken's UG stats because they are locked.",
+            "id": "royal-academy-professor",
+            "name": "Royal Academy professor",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The professor from the Pendulum college, one of the three rival instructors Crimson confronts and defeats after learning that the schools kept the betting on the contest hidden from her. Like the other two, he is unable to view Ken's UG stats, which are locked.",
+            "id": "pendulum-professor",
+            "name": "Pendulum professor",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Ken's grandmother, a healer with a sadistic streak and an expert in torture who also works on CIDs. Brought in by portal after Ken's job in the safe zone, she and another grandmother crack the locked CIDs the party recovered and clear out the castle's server area.",
+            "id": "yui",
+            "name": "Yui",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Ken's grandfather, who arrives after the safe-zone job. He is fast and flirtatious, takes an immediate liking to Feline, and quizzes her about cat-person bodies based on what he has read in adult comics.",
+            "id": "ken-s-grandfather",
+            "name": "Ken's grandfather",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The prince's bodyguard, a level 52 strength-based fighter with a history as a mass murderer. On the prince's order he crushes Ken's shoulder during their confrontation in the safe zone.",
+            "id": "george",
+            "name": "George",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An elf princess with red hair who is Ken's wife by elven ritual and calls herself an empress. Warm toward Ken and commanding toward her guards, she agrees to join his class for the floor-32 raid despite her father's wish that she stay home.",
+            "id": "the-elf-princess",
+            "name": "The elf princess",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The elf princess's aunt, a sensor who serves as her close guard. She is strong enough to break swords and keeps a careful watch over her niece.",
+            "id": "the-princess-s-aunt",
+            "name": "The princess's aunt",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A junior royal censor who is present with the elf princess at the Elven Palace and accompanies her among her guards.",
+            "id": "the-junior-royal-censor",
+            "name": "The junior royal censor",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An elf mercenary sensor at level 68, hired to spar with Ken at the Elven Palace. She relies on brute force, and her area shockwaves outlast his speed stacks and kill him before he is revived.",
+            "id": "miriam",
+            "name": "Miriam",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Pendulum berserker and Ken's old high-school friend who leads his class. In the DPS test he posts 1,271, likely helped by an extra healer and no tank. He was earlier seen surrounded by eight women at a safe-zone bar.",
+            "id": "makin",
+            "name": "Makin",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The president of the UG, a large summoner whose scars turn into winged warriors. He visits Ken's camp to brief the elves, reporting that the Naga have pulled back. Crimson mocks him as a coward for hanging back during an old raid, and he asks questions about the destroyed safe zone.",
+            "id": "ug-president",
+            "name": "UG president",
+            "reveal": {
+              "chapter": 34
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0F1DJQ9QJ",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-diving-202"
+      }
+    },
     "dungeon-diving-203": {
       "characters": {
         "characters": [
