@@ -734,6 +734,330 @@
         "work": "dungeon-diving-201"
       }
     },
+    "dungeon-diving-203": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Ken Nagato"
+            ],
+            "description": "The narrator, a level 31 melee damage dealer who leads Class 2A of Halen into a 25-person raid on floor 32. His Liminal Speed skill builds attack-speed stacks, and its second phase can stop time for everyone else. He is Crimson's student and lover, and he heads the Silverfangs guild. He has a bet with the prince in which Crimson herself is the stake, and winning it could give Silverfangs a major lift.",
+            "id": "ken",
+            "name": "Ken",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "A powerful Halen instructor who trains Ken and is also his lover. She is missing from the floor-32 raid while she works elsewhere. The prince's bet with Ken names her as the prize, so the outcome of the raid matters to her directly.",
+            "id": "crimson",
+            "name": "Crimson",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Desmonda"
+            ],
+            "description": "A demonic mage and ranged caster in Ken's raid, and one of the women closest to him. She speaks up about tactics from the first pull, suggesting that Helen should handle all the pulling.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elf tank who fights with a glaive and draws monster packs with a spore-based pull skill. She is the raid's best tank at controlling groups of enemies, and she is one of Ken's partners. She argues with Helen over who pulls, and the two agree to take turns.",
+            "id": "fayeth",
+            "name": "Fayeth",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A green-haired druid and healer in Ken's class who carries her rabbit, Bun-Bun, everywhere. She is one of the women close to Ken.",
+            "id": "charlotte",
+            "name": "Charlotte",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Charlotte's rabbit companion, which she carries with her into the raid.",
+            "id": "bun-bun",
+            "name": "Bun-Bun",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A cat-person shaman close to Ken, who calls him her mate. She formally joins the class raid, taking one of the two places left by classmates who quit, and with her the roster reaches its full 25.",
+            "id": "feline",
+            "name": "Feline",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A tall, blue-haired frost tank whom Ken counts among the classmates he trusts. She is the backup tank on the first boss. She praises Ken's result on the recent damage check and blushes around him.",
+            "id": "penny",
+            "name": "Penny",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A blonde arcane weaver who casts runes and keeps her uniform spotless. She is the raid's strategist and explains each boss's mechanics. She also holds the loot as the neutral keeper until payouts are decided. She sides with Ken on starting with the easiest quadrant.",
+            "id": "candice",
+            "name": "Candice",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A classmate who leads a group of healers in the floor-32 raid.",
+            "id": "harley",
+            "name": "Harley",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A winged paladin who tanks with a shield. She deals most of her damage when enemies attack her. She wants to open the raid in the middle quadrant and keeps clashing with Fayeth over pulling until they agree to alternate.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A healer whose style hurts enemies and heals the whole raid at the same time. In the necromancer fight she is the most efficient healer the class has. She also has a sharp, teasing sense of humor that she aims at her fellow healers.",
+            "id": "selene",
+            "name": "Selene",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A priest and healer in the raid. She is Penny's cousin and Harley's girlfriend. After the first wipe she argues that Harley should be revived first, since Harley restores the healers' mana.",
+            "id": "meredith",
+            "name": "Meredith",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An elven royal in Ken's class and one of the women close to him. She stays out of classroom disputes and enjoys the break from court politics that the raid gives her.",
+            "id": "the-elf-princess",
+            "name": "The elf princess",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An arrogant young man whom Ken has met several times. He made a bet with Ken in which Crimson is the stake, and he treats Ken as a rival.",
+            "id": "the-prince",
+            "name": "The prince",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A Class C professor from Halen who supervises the class's floor-32 raid while Crimson is away. No high-level tanks or healers come along this time, and her job is to make sure fallen students are revived after a wipe.",
+            "id": "halen-class-c-professor",
+            "name": "Halen Class C professor",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A top-level elven royal censor who guards Ken at the princess's request. She spars with him while Candice records data, and he beats her only after his Liminal Speed builds up. Afterward she points out that an assassin should not be expected to win a fair fight.",
+            "id": "chief-royal-censor",
+            "name": "The chief royal censor",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An enchanter in Ken's class who mostly buffs the tanks and supports the healers. Ken and Candice decide the raid has more healing than it needs and want her to buff the melee damage dealers.",
+            "id": "kendra",
+            "name": "Kendra",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Grandpa"
+            ],
+            "description": "Ken's grandfather and an elder of the Nagato clan. He arrives at the dungeon with Ken's three grandmothers and reports that the princess's business through Silverfangs has made the family billionaires. He tests Ken with a surprise attack, then joins him for a meal in his tent.",
+            "id": "kens-grandfather",
+            "name": "Ken's grandfather",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "One of Ken's three grandmothers. She is known for a sadistic streak. She comes to the dungeon with Ken's grandfather and the other grandmothers and visits Ken's camp.",
+            "id": "yui",
+            "name": "Yui",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The berserker who leads the Pendulum college's group. When an earthquake cuts the dungeon off, he joins Ken, the professors and the prince to plan a route to the floor-30 safe zone.",
+            "id": "pendulum-berserker",
+            "name": "Pendulum berserker",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A male professor from the Royal College who sits in on the leaders' meeting after the earthquake, when the colleges plan how to reach the floor-30 safe zone and restore contact.",
+            "id": "royal-college-professor",
+            "name": "Royal College professor",
+            "reveal": {
+              "chapter": 14
+            }
+          },
+          {
+            "aliases": [
+              "Madam Root"
+            ],
+            "description": "A senior elven royal censor whose mercenary class grows stronger as she earns money. The Emperor once expelled her and put a bounty on her, and she worked underground as Madam Root before recently returning to the censors. She runs a network of informants among human adventurers and is immensely strong.",
+            "id": "older-royal-censor",
+            "name": "Older royal censor",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A younger elven royal censor who can move through darkness at speed, taking one passenger with her. After the dungeon shifts and cuts her off from the princess, she and the older censor decide to push as deep as they can to reach her.",
+            "id": "junior-royal-censor",
+            "name": "Junior royal censor",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A black-haired Royal College student in gold jewelry who is a distant relative of the SJS family. She comes to Ken offering to throw her college's raid attempt and to give testimony if he protects her, but she refuses to be recorded. Ken declines her offer.",
+            "id": "royal-college-student",
+            "name": "Royal College student",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The leader of the Trusk college's class and an ally of Ken on the stranded colleges' council. With Pendulum and Ken, she votes to leave the raid when food runs low. Her college's summoners had earlier hidden the raid entrance under sand.",
+            "id": "trusk-class-leader",
+            "name": "Trusk class leader",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A dwarf queen of roughly level 50. Trusk scouts report that she leads around 500 dwarves in an assault on the Naga, who are defending the floor-35 boss door and the way into the safe zone. She stands between the alliance and safety.",
+            "id": "dwarf-queen",
+            "name": "Dwarf queen",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A demon sealed inside Ken, carried over from earlier books.",
+            "id": "sealed-demon",
+            "name": "The demon sealed in Ken",
+            "reveal": {
+              "chapter": 0
+            }
+          },
+          {
+            "aliases": [
+              "Demon Lord Snoo-Snoo"
+            ],
+            "description": "The demon sealed inside Ken, who says he was once third in line for the Demon Lord throne. When Ken meets a floor boss in his likeness, the demon breaks his chains in Ken's mind. He admits he was steering Ken to spare the prince so that he could take the prince's body, with Ken's as a fallback. Freed from the seal, he becomes the boss and vows to claim Ken's body.",
+            "id": "snoo-snoo",
+            "name": "Snoo-Snoo",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A winged, angel-like woman who works as the governor's assistant in the vast city found below the boss floor, which she calls Star City. A language skill lets her speak English, which another human living in the city taught her.",
+            "id": "winged-guide",
+            "name": "Winged guide",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Ken's nickname for Star City's winged guide, since he cannot pronounce her real name. She explains how the city came to be inside the dungeon and who lives there, then leads Ken to Crimson before going her own way.",
+            "id": "lulu",
+            "name": "Lulu",
+            "reveal": {
+              "chapter": 33
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The governor of Star City, a tall, high-level, green-skinned man in a silk shirt with a monocle and gold-capped tusks. Ken offends him by calling him an orc and then bows, and the governor welcomes the party.",
+            "id": "star-city-governor",
+            "name": "Star City governor",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The head of the UG. The princess says he has assured her that the earlier attempt on her life will not be repeated.",
+            "id": "ug-president",
+            "name": "UG president",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0F1DLGWL7",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-diving-203"
+      }
+    },
     "dungeon-diving-302": {
       "characters": {
         "characters": [
