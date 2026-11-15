@@ -1028,6 +1028,365 @@
         "work": "dungeon-diving-302"
       }
     },
+    "dungeon-diving-303": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The narrator, a former human who now carries demonic traits. He can spot Threadspawn hosts and opens portals at will. He has just removed a worm from his classmate Selene by surgery and raided a UG research lab that the worms had overrun, so the UG is now hostile to him. He intends to pass what he learned to the elves, the demons and the Orkai, and he is advised to gather enough allies that the UG has to deal with him as an equal.",
+            "id": "ken",
+            "name": "Ken",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Ken's mentor and the most dangerous human on his side. The UG is afraid of her, and simply having her nearby keeps Ken safe from its reprisals while the fallout from the lab raid and Selene's surgery settles.",
+            "id": "crimson",
+            "name": "Crimson",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "the Harem Queen"
+            ],
+            "description": "A calm, experienced senior adventurer known by the title of Harem Queen. She accepts Ken's account of Selene's infection because he and Crimson can detect hosts. She supports him while scolding him, tells him to confess to the UG director and to warn her before operating on any classmate again, and stays at Halen to watch the class for further infections.",
+            "id": "heather",
+            "name": "Heather",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Halen classmate and the daughter of a UG director. She was a Threadspawn host, and Ken has just cut the worm out of her. She lies unconscious and sedated while Charlotte watches over her.",
+            "id": "selene",
+            "name": "Selene",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Ken's party and its healer. After the surgery she tends Selene and keeps watch over her recovery, then helps move her somewhere safer.",
+            "id": "charlotte",
+            "name": "Charlotte",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ken's partners and a member of his party. She is quick to tease him, including about the cat-person companion acting as a nurse after Selene's surgery.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Ken's party who stands by him as the consequences of Selene's surgery and the UG lab raid begin to land.",
+            "id": "penny",
+            "name": "Penny",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A cat-person in Ken's household and party. After Selene's surgery she acts as a nurse, helping Charlotte care for the sedated girl and take her away to recover.",
+            "id": "cat-person-companion",
+            "name": "Cat-person companion",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior UG official and Selene's mother. Heather tells Ken he must confess to her what he did to her daughter. Her husband is said to be unstable and dangerous.",
+            "id": "ug-director",
+            "name": "UG director",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A media figure Ken trusts. He plans to get in touch with her as soon as he leaves Halen after Selene's surgery.",
+            "id": "belair",
+            "name": "Belair",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Selene's father and the UG director's husband. He was released from prison only recently, after serving time for mass murder, and is known for violence. He comes with his wife when she confronts Ken about their daughter.",
+            "id": "selenes-father",
+            "name": "Selene's father",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A tall, heavily built succubus in the demon hierarchy to which Ken belongs. She calls him her favorite former human, prizes his eyes, and reminds him that he still owes her favors. She treats his worm-removal method as something to trade with demon royals, insists on a trade rather than a favor, promises him protection within her hierarchy, and says a hell embassy will soon open in Star City.",
+            "id": "lady-frey",
+            "name": "Lady Frey",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elderly Orkai arbiter who walks with a cane yet remains strong, and who has crossed paths with Ken before. He reads whether people are telling the truth, confirms that nobody lied about Selene's cure, and takes her into Orkai care. He warns that reporting a host to the Orkai currently amounts to a death sentence for that host.",
+            "id": "orkai-judge",
+            "name": "Orkai judge-arbiter",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ken's grandfather, an eager fighter with several wives. He greets Ken with a surprise sword attack, insists that a Nagato does not run, and pushes for a direct confrontation with the UG.",
+            "id": "kens-grandfather",
+            "name": "Ken's grandfather",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Wives of Ken's grandfather. Two of them appear first: a gentle one who bakes, and a sharp strategist who can rein in the grandfather and advises an indirect approach to the UG. Ken's late mother was the daughter of one of the grandmothers.",
+            "id": "kens-grandmothers",
+            "name": "Ken's grandmothers",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The scarred and nervous head of the UG. When his board investors brush off Crimson and Ken's media attack and propose a smear campaign, he is the only one who warns that Crimson could kill them. Crimson's nickname for him is scaredy cat.",
+            "id": "ug-president",
+            "name": "UG president",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ruler of the elves and Ken's wife, with ruby hair and sun-kissed skin. She wants more of his time and is tired of her nobles. Ken gives her a serum vial and explains the extraction method. A drow assassin then attacks her in her bedroom, and Ken stops him.",
+            "id": "elf-empress",
+            "name": "Elf empress",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A silver-haired elven royal censor who has completed her trial and fights with red limit-break lightning. She knocks out a heckling noble, wants a portal to Earth so she can fight Crimson, and throws the drow assassin out of the window before chasing him.",
+            "id": "silver-haired-censor",
+            "name": "Silver-haired royal censor",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The empress's partner, an armored guard who is now a royal censor. She was once the tank in Ken's party until Penny took that role, and she is one of Ken's lovers. She turns down his offer to rejoin because her people need her.",
+            "id": "former-party-tank-censor",
+            "name": "Empress's partner censor",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A grey-skinned drow killer who coats his blade with an oily poison. He gets into the elven palace and attacks the empress in her bedroom, but Ken blocks him and the silver-haired censor drives him out.",
+            "id": "drow-assassin",
+            "name": "Drow assassin",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An elven royal censor whom the silver-haired censor assigns to guard the empress after the assassination attempt.",
+            "id": "younger-censor",
+            "name": "Younger royal censor",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A female drow armed with curved daggers. She squares off against Ken during the fight at the twentieth-floor safe zone where the drow hold Naga as forced laborers.",
+            "id": "drow-dagger-fighter",
+            "name": "Drow dagger fighter",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A powerful female drow who comes down on a thread to take over a fight in a dungeon safe zone. The other drow kneel to her. She claims the territory for her people, kicks the silver-haired censor away with ease, and tells Ken that alliances with elves mean nothing given what waits deeper in the dungeon.",
+            "id": "drow-leader",
+            "name": "Strong drow leader",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A wealthy UG board member whom Ken and his grandfather track to an estate in France. They overhear her hiring adventurers to kill Crimson, including a discussion of poisoning her with radiation.",
+            "id": "french-estate-board-member",
+            "name": "Board member at the French estate",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A UG board member known for double-crossing deals. Dez and one of Ken's grandmothers attack him in his high-rise, and he dies from his own grenade.",
+            "id": "high-rise-board-member",
+            "name": "Board member in the high-rise",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An eager Halen classmate who answers the questions in Crimson's lesson on poisons.",
+            "id": "candace",
+            "name": "Candace",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A Halen classmate who backs giving extra exercise to a troublesome former party support in Crimson's training.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A creature that travels with Ken's group. During the raid on a drow settlement it chews through the drow webs to keep Charlotte safe.",
+            "id": "bun-bun",
+            "name": "Bun-Bun",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A worm living in a dying human woman held as a drow slave. Unlike any Threadspawn Ken has met before, it is afraid and begs to be spared. It says it was bred in a drow pool and placed into broken workers to keep them laboring, and that drow venom prevents it from taking drow hosts. Ken has it removed, and Charlotte heals the woman.",
+            "id": "frightened-threadspawn",
+            "name": "Frightened Threadspawn",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A small, pink-haired succubus who outranks Lady Frey by a wide margin and moves extremely fast. She and Frey want Ken to find and remove Threadspawn among the demons, and she carries him to hell to start the work.",
+            "id": "demon-princess",
+            "name": "Demon princess",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A large shade who leads the shades, the tank caste among the demons, and holds infected shades in a cell in hell. Ken is told to treat an uninfected shade first, and while he pretends to cure that one he removes a worm from the shade beside it. The prince then uses the staged cure to clear the uninfected shade of past crimes.",
+            "id": "shade-prince",
+            "name": "Shade prince",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The ruler of the succubi, grey-haired and grandmotherly in appearance, regarded by demons as close to a god. Her skin turns Ken's blades aside. She has been watching his fights with the drow, says she has stood before the gates at the very bottom of the dungeon, promises the Threadspawn will be wiped out, and urges Ken to stop fighting like a human and draw on his demon side.",
+            "id": "succubus-queen",
+            "name": "Succubus Queen",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An assassin-type drow from a scouting party that ambushes Ken and Penny. Ken brings her under Greater Charm, and she and the other charmed drow turn on the rest of their group and then serve him as he prepares to attack their fortress.",
+            "id": "charmed-drow-servant",
+            "name": "Charmed drow servant",
+            "reveal": {
+              "chapter": 26
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A strong drow officer who defends the fortress during Ken's assault. Heather's Absolute Reflect has no effect on her, and after Ken wounds her with Mana Implosion she crushes his chest. Heather, Crimson and Ken then kill her. As she dies she swears to hunt down Ken and his women and to infect him with a worm.",
+            "id": "drow-lieutenant",
+            "name": "Drow lieutenant",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An older cat-person woman who raised the cat-person companion. She is found among cat-person captives in a drow-held safe zone, is wary of Ken at first, and organizes her people for the evacuation.",
+            "id": "cat-person-foster-mother",
+            "name": "Cat-person foster mother",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A self-assured young woman who recognizes Ken at a mall escape room during his date with Selene. With three friends she pushes into the date and films the pair on their phones, and the encounter ends with Selene lifting her off her feet in a confrontation.",
+            "id": "mall-fan-leader",
+            "name": "Mall fan leader",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A spoiled young heiress to the estate of a dead UG board member. Under pressure she admits to allying with the Threadspawn, planning to arm her security force with them, and handing them full access to UG information. Ken wounds her with a venom-coated dagger, charms her and takes her CID.",
+            "id": "bank-heiress",
+            "name": "Bank heiress",
+            "reveal": {
+              "chapter": 34
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An elf at the Nagato breakfast table. She calculates how Ken's new incubation skill works, connects elf-human marriage to political stakes, and points out that controlling the UG effectively makes Ken a human king.",
+            "id": "elf-princess",
+            "name": "Elf princess",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0HM6SRCJT",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-diving-303"
+      }
+    },
     "dungeon-eternium": {
       "characters": {
         "characters": [
