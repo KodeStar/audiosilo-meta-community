@@ -481,7 +481,7 @@
             "role": "supporting"
           },
           {
-            "description": "The emperor's red-haired, blue-eyed daughter, an isolated young elf with few if any friends. She is a distant cousin and childhood friend of Fayeth. Publicly she is the prophesied hero, but her father staged that claim: her real class is Eidolon Priest, letting her call on up to four Eidolons. She hopes to gain Ken's Absorb ability and hosts him and Fayeth as if they were family.",
+            "description": "The emperor's red-haired, blue-eyed daughter, an isolated young elf with few if any friends. She is a distant cousin and childhood friend of Fayeth. She hopes to gain Ken's Absorb ability and hosts him and Fayeth as if they were family.",
             "id": "elf-princess",
             "name": "The elf princess",
             "reveal": {
@@ -508,7 +508,7 @@
             "role": "minor"
           },
           {
-            "description": "Ruler of the elves and the princess's father. He presented his daughter to the public as a prophesied hero even though her true class is something else. He has turned floors 61 to 65 of the dungeon into sealed minefields because the route to the Naga lies beneath them, a move that has angered elite elves, and there is talk that he may abdicate in her favor.",
+            "description": "Ruler of the elves and the princess's father. He presented his daughter to the public as a prophesied hero. He has turned floors 61 to 65 of the dungeon into sealed minefields because the route to the Naga lies beneath them, a move that has angered elite elves, and there is talk that he may abdicate in her favor.",
             "id": "emperor",
             "name": "The emperor",
             "reveal": {
