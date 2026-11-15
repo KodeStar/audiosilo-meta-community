@@ -3826,6 +3826,286 @@
         "work": "dungeon-desolation"
       }
     },
+    "dungeon-diving-302": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The first-person narrator, a third-year student in a class tied to the Silver Fangs guild. He was once human and became an incubus after taking in demon blood that his teacher Crimson had gathered, blood that also made a dungeon boss far more dangerous. Since a recent ambush he has been limited to classes and city life, because dungeon trips are suspended while mind-controlling worms are loose. Investigators have confirmed that no one in his class is under worm control.",
+            "id": "ken",
+            "name": "Ken",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "The narrator's girlfriend and classmate, who fights as a demonic mage. She started life as a human and is now a demon. Like the rest of their Silver Fangs class, she is kept out of the dungeon for the time being while the mind-controlling worms remain at large.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The class's teacher and the strongest human adventurer alive. She has black hair and blue eyes, wears red leather cut from a monster-dinosaur hide, goes by Mistress Crimson after her surname, and flirts with the narrator openly. She collected the demon blood that turned him into an incubus. Under pressure from the college, the United Guilds, and students' families, she has halted dungeon trips because of the loose worms and a deep-dungeon race hunting anyone who might be possessed, but she is lining up chaperones so the class can hunt the trial monsters it needs during a surface job fair.",
+            "id": "crimson",
+            "name": "Crimson",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A blonde, studious classmate who likes rules to be followed. She protests when Crimson has the students mark one another's tests instead of grading them herself, unaware until the narrator lets it slip that Crimson has been awarding her full marks without reading her work.",
+            "id": "candace",
+            "name": "Candace",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A paladin classmate with fiery hair who disapproves of harems, an attitude the narrator puts down to trouble with her parents. She belongs to the class's Silver Fangs group but is one of the few members not set on staying with the guild.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A cat-like Nekorian who lives in the narrator's Star City household, a home Crimson also shares. Around the house she is known for preferring meat dishes when the residents cook.",
+            "id": "cat-race-companion",
+            "name": "Cat-race companion",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A small, pigtailed succubus the narrator knows, usually trailed by admirers from the orc-eyed deep-dungeon race. She passes on word that a succubus demon lord has arrived in Star City with a retinue and is rumored to be connected to the worms.",
+            "id": "succubus-acquaintance",
+            "name": "Succubus acquaintance",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A former top influencer who now runs public relations for the Silver Fangs guild, working mostly with Crimson. Because the college leadership has kept Crimson away from the press, she is assigned to manage the publicity tour meant to reassure the public about the college.",
+            "id": "silver-fangs-pr-manager",
+            "name": "Silver Fangs PR manager",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The head of the college, a gray-haired former adventurer in a purple robe whose own students have outgrown her in level. She once tried to have the narrator expelled for failing and remains openly hostile to him and to Crimson. She briefs the press-tour students to represent the school well and keep their answers vague on sensitive subjects. Candace's mother does business with her.",
+            "id": "headmistress",
+            "name": "Headmistress",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Known publicly as the harem queen, she is a red-haired Halen teacher, Helen's mother, and an ally of the narrator, and is said to be more popular than Crimson. She turns up as a surprise podcast guest, recounts her battle with a dwarf queen at the 25th-floor safe zone while crediting the narrator with the killing blow, and teases him about joining her harem to her daughter's embarrassment.",
+            "id": "heather",
+            "name": "Heather",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The narrator's grandmother, who stays in contact by message during the press tour. When the group guesses at the identity of a secret podcast guest, she confirms that the narrator's grandfather, a member of the first raid to go beyond level 30, will not be appearing.",
+            "id": "kens-grandmother",
+            "name": "Ken's grandmother",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A dwarven queen who invades New York, sending swarms of mindless drone workers into buildings and a studio. She commands both the drones and a more intelligent warrior caste, and is found on the roof of Grand Central Station directing her drones to raise a fortress when Ken's group arrives to stop her.",
+            "id": "dwarven-queen",
+            "name": "Dwarven queen",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A cameraman who records the battle in Grand Central Station. A low-level adventurer thanks to a friend, he watches Ken move faster than any human should and understands that his footage shows what deep-diving adventurers turn into.",
+            "id": "kevin",
+            "name": "Kevin",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The head of the United Guilds, a big, scarred man whom Crimson regards as a coward. He questions Ken and Heather after the New York fight, reveals that Crimson is using Ken's shared detection ability to screen high-level teams for worm hosts, and explains that the infected will be captured and studied in a facility. He also advises Ken to keep clear of the demons, who rank humans near the bottom.",
+            "id": "ug-president",
+            "name": "UG president",
+            "reveal": {
+              "chapter": 11
+            }
+          },
+          {
+            "description": "A flattering talk show host with a wealthy social circle. On his show the audience adores Ken, who slices Gary's cup with a short sword without using abilities. Gary invites the group to his after-party, and Ken accepts.",
+            "id": "gary",
+            "name": "Gary",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A member of Ken's party who joins the group as they dress for Gary's party in New York and goes with them to the ballroom.",
+            "id": "penny",
+            "name": "Penny",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Ken's party who joins the group as they get ready for Gary's party and attends the ballroom gathering with them.",
+            "id": "charlotte",
+            "name": "Charlotte",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ken's companions, a blue-haired woman of a whale-like race with ears shaped like fins. She knows little about human society and is puzzled when Ken explains carrying, where strong players haul rich low-level clients. She finds it hard to believe that Ken was ever human.",
+            "id": "whale-race-companion",
+            "name": "Whale-race companion",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A blue-haired director who is second-in-command of the United Guilds, brisk and efficient. When Ken cannot reach the president, she promises UG staff for the infected adventurers he has found and asks him to subdue them so they can be studied.",
+            "id": "ug-director",
+            "name": "UG director",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A gaunt blonde woman with a hole in her abdomen who sits in a large tub filled with thousands of loose worms in a castle-like New York penthouse. Though human, she is a worm host of overwhelming strength, drops two of Ken's companions with a glance, and shrugs off every ability he has. She seems to lead the infected in New York.",
+            "id": "new-york-worm-host",
+            "name": "New York worm host",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A black-winged angel who lives in the Star City apartment Ken shares with Crimson. Her own race shuns her for wearing black. She treats visitors courteously and tells Ken that Crimson has gone out for a drink.",
+            "id": "ambrosia",
+            "name": "Ambrosia",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A succubus demon lord with a crown of horns, golden eyes, and a spaded tail. Her subordinates call her mistress, and outsiders address her as lady or lord. Politically sharp and dangerous, she quickly realizes Ken is not a born demon when he enters her building, asks whether he carries a worm, and accuses him of pretending to be a demon.",
+            "id": "lady-frey",
+            "name": "Lady Frey",
+            "reveal": {
+              "chapter": 18
+            }
+          },
+          {
+            "description": "A pink-haired demon princess who appears at the New York penthouse once the worm host is subdued. Lady Frey defers to her, and she seems to know who Ken is. She burns the tub of worms, sears the host's gut with a small flame, offers Ken a steed contract that he turns down, and takes the captive away.",
+            "id": "pink-haired-demon-princess",
+            "name": "Pink-haired demon princess",
+            "reveal": {
+              "chapter": 22
+            }
+          },
+          {
+            "description": "An incubus who is a rival candidate for the empty incubus throne. Lady Frey calls Ken through her stone while he is in the dungeon and orders him to kill this rival.",
+            "id": "rival-incubus",
+            "name": "Rival incubus",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An aged succubus who welcomes Ken and Dez warmly at a royal demon gathering in the Sloth Queen's palace and puts Lady Frey at ease. She is the Succubus Queen, who ranks above the princess Frey serves.",
+            "id": "succubus-queen",
+            "name": "Succubus Queen",
+            "reveal": {
+              "chapter": 30
+            }
+          },
+          {
+            "description": "A large succubus of high standing who attends the royal demon gathering. Together with the pink-haired princess, she backs Ken and shields him while he scans the crowd for worm carriers.",
+            "id": "large-succubus-lady",
+            "name": "Large succubus lady",
+            "reveal": {
+              "chapter": 31
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The orc-like leader of a mixed band of non-humans, including a naga, an elf, and a demon, who ambush Ken during his press tour. The attackers have the unnatural strength of worm hosts, and their leader speaks for the parasites as a whole. He demands that Ken come with them for his sight or watch everyone he cares about be taken, before the pink-haired princess pins the group and carries him off.",
+            "id": "orc-like-parasite-envoy",
+            "name": "Orc-like parasite envoy",
+            "reveal": {
+              "chapter": 33
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A member of Ken's class whom his scan reveals to be carrying a worm. She is the daughter of a United Guilds director. Ken's party argues over whether to kill her or capture her and decides to try to help her without the UG.",
+            "id": "infected-classmate",
+            "name": "Infected classmate",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An overworked doctor at the United Guilds facility where the infected are held. He treats the disguised party members smuggled in as patients and takes orders from a figure with a smoky voice who calls the worm hosts siblings.",
+            "id": "facility-doctor",
+            "name": "Facility doctor",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A huge, axe-wielding orc-like worm host who confronts Ken and Crimson near the dungeon entrance. He says Ken killed his relative, the breeder in the bathtub, speaks about how highly the parasites value family, and badly wounds Ken in the fight that follows.",
+            "id": "orc-like-worm-host",
+            "name": "Orc-like worm host",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0GY9LSSCF",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-diving-302"
+      }
+    },
     "dungeon-eternium": {
       "characters": {
         "characters": [
