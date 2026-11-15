@@ -3827,6 +3827,291 @@
       }
     },
     "dungeon-diving-101": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The narrator, a newly graduated high-school student raised by his grandparents, chiefly his grandfather, after his parents and their party disappeared in the dungeon. His grandfather, a retired assassin who suspects the deaths were no accident, has drilled him in stealth and combat for years. Ken arrives at the class activation exam hoping for a fighting class such as rogue, and during the exam's psych evaluation stage he overpowers a classmate who has turned into a raging Berserker, catching the eye of a recruiter from the Pendulum academy.",
+            "id": "ken",
+            "name": "Ken",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "The highest damage dealer in the world, known for fighting with a whip and a short blade. She is the adventurer who carried the dungeon stone used for class activation up from the fiftieth floor. She graduated from an all-women dungeon academy, and Ken has heard she is expected to teach there one day.",
+            "id": "crimson",
+            "name": "Crimson",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ken's grandfather and guardian, a retired adventurer who served as an assassin. He took Ken in and trained him after the boy's parents and their party vanished in the dungeon; he brought back only their bodies and believes someone was responsible. He is crude and playful, and he urges Ken to gather a large party of women around him.",
+            "id": "kens-grandfather",
+            "name": "Ken's grandfather",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A broad-shouldered, cheerful recruiter for the Pendulum academy who easily carries off Ken's classmate after the boy turns into a Berserker during the activation exam. Pendulum wants the classmate for his class alone, and the recruiter tells Ken the academy is interested in him too if he shows more of the same ability.",
+            "id": "pendulum-representative",
+            "name": "Pendulum representative",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A druid with green hair and a drowsy, deadpan manner who has already activated her class before the exam. She is the daughter of a well-known guild leader, and her older sisters went to the same all-women academy. Ken beats her in a practical duel by waiting until her mana runs low. The dungeon stone confirms her as a Druid with high starting magic and the spells Growth and Heal, and the academy recruits her on the spot.",
+            "id": "charlotte",
+            "name": "Charlotte",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Bun-Bun"
+            ],
+            "description": "Charlotte's pet rabbit and fighting companion. Charlotte can heal it and make it grow larger, it communicates with her, and it is known to hold grudges. It fights beside her in her practical duel against Ken.",
+            "id": "bun-bun",
+            "name": "Bun Bun",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The strict head of the all-women academy, a former adventurer whose party was wiped out by a boss on the forty-third floor, leaving her with an injured hip. She makes no secret of disliking Ken and did not want a man admitted at all, but she gives way because she is afraid of Crimson.",
+            "id": "the-headmistress",
+            "name": "The headmistress",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A red-haired student on the academy's security council who confronts Ken with a club on his first day simply because a man is on campus. Ken slices her club in half, and Charlotte and Bun Bun knock her down so he can escape to the opening ceremony. Two other council members accompany her.",
+            "id": "red-haired-security-council-girl",
+            "name": "Red-haired security council girl",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A purple-haired warlock in Crimson's class who sits with Ken at the opening ceremony. Dez is a nickname for a longer given name. Her red eyes are said to reflect demon blood in her family line. Her family wanted her at Pendulum, but she chose Crimson's academy instead. She has trained hard, starts with Shadowbolt and Hex of Lethargy, and quickly decides Crimson is singling Ken out.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A loud, pink-haired bard in Crimson's class who fights with a bow. On the first dive she drops a boggart with a single arrow.",
+            "id": "harley",
+            "name": "Harley",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Two students from Crimson's class, one from a prominent family, who are found stabbing and kicking Harley on the first floor and claim she stole a boyfriend. They fight Ken's group, and one of them cuts Ken's arm when he hesitates to strike a fellow student. Harley later admits the rumor behind the attack was false.",
+            "id": "harleys-attackers",
+            "name": "Harley's attackers",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A student who joins Crimson's class on the first day of lessons, arriving late enough that only the elven student's seat is still empty.",
+            "id": "taylor",
+            "name": "Taylor",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A cheerful United Guilds teller and ice mage at level 18 who has reached the twenty-first floor. She becomes the dungeon advisor for Ken's party, registers them as a group, and buys their loot. She explains that Ken's CID cannot show his skills because it does not recognize his class, and gives him a list of basic class spells to test. She is not fond of Harley.",
+            "id": "katie",
+            "name": "Katie",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A blue-haired priest in a Class B group that Ken's party finds struggling during a frogman surge on the first floor. Her group has lost members who ran or went missing, and it is at first dismissive of Ken's party before joining it to fight.",
+            "id": "class-b-priest",
+            "name": "Blue-haired Class B priest",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A blue-haired Frost Knight from Class B, level 4 and armed with a long sword. She looks down on Ken as Crimson's chosen student and challenges him ahead of the first-year tournament.",
+            "id": "penelope",
+            "name": "Penelope",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A masked first-year Ken faces in the tournament. She has been trained in assassin techniques without holding an assassin class, and fights with flicker and dark strike. She recognizes the name of Ken's grandfather and respects it, and after losing she parts from Ken on friendly terms.",
+            "id": "jasmine",
+            "name": "Jasmine",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A level-45 boss from the forty-fifth floor, called into Ken's soul by Dez's family ritual, that intends to take over his body. Ken picks stealth as the contest and the academy dorms as the setting. The demon's charm works on every girl except Harley, so it fails, while Ken repeats his earlier route. It then grows into a giant, but the ritual's pentagram chains pull it in and it is absorbed into Ken's soul, leaving him with a Demon Lord secondary class.",
+            "id": "the-demon-lord",
+            "name": "The demon lord",
+            "reveal": {
+              "chapter": 19
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Dez's father, a thin man in a purple suit who is unimpressed on meeting Ken. He is a warlock only a few levels below Crimson, and according to Crimson he holds a demon-linked secondary class that he keeps hidden through his work with the United Guilds. His family does not tolerate failure.",
+            "id": "dezs-father",
+            "name": "Dez's father",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Dez's mother, a woman with a powerful personal magnetism. Crimson has said that her secondary class is a succubus class, one of the demon-linked classes in Dez's family.",
+            "id": "dezs-mother",
+            "name": "Dez's mother",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Penelope's father, a blue-haired, shield-bearing adventurer at level 51. He comes to watch the first-year tournament, treats Ken with open hostility, and pays out on a bet he lost to Crimson.",
+            "id": "penelopes-father",
+            "name": "Penelope's father",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An elemental summoner who reaches the late rounds of the first-year tournament with a mentor backing her. Her elementals shrug off cutting weapons, but she is weak in a straight fight, and Dez beats her with a hex and a thrown knife.",
+            "id": "felicity",
+            "name": "Felicity",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An enchanter in Crimson's class who offers to join Ken's party after the tournament. Ken turns her down because the group wants to keep its five members.",
+            "id": "kendra",
+            "name": "Kendra",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The elven envoy's daughter, whose arrival at the academy has been expected for weeks. She appears on the second floor just as Ken kneels to pick up a gold ring and holds it out as a greeting gift; she puts it on her ring finger and treats it as a meaningful gesture. She is a saintess, an elven class tied to a great holy tree, and is distantly related to the emperor's line. Cheerful and flirtatious, she stays close to Ken and moves into the house he shares with Crimson. Dez expects her to fill the last party slot.",
+            "id": "elf-saintess",
+            "name": "The elf saintess",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elven ambassador to humans and the saintess's father. His party has been down to the fiftieth floor and back. On meeting Ken and learning he is Crimson's protege, he concludes that Crimson arranged the encounter with his daughter, and tells the welcoming officials he has accepted Crimson's offer. He uses a root-like device to translate.",
+            "id": "elven-envoy",
+            "name": "The elven envoy",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The head of the United Guilds, present with the headmistress at the negotiations with the elves at the visitor center. He is angered when Ken's class discovery interrupts the talks.",
+            "id": "ug-president",
+            "name": "The United Guilds president",
+            "reveal": {
+              "chapter": 28
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The purple-armored leader of a group of students with stealth skills who scout ambush points along the route Ken's party uses on the second floor. The group plans to kill the elf saintess and the rest of the party, and its skills came from a larger anti-elf organization.",
+            "id": "anti-elf-assassin",
+            "name": "Anti-elf assassin leader",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A ranger-type girl in the five-member anti-elf student group that scouts ambush spots on the second floor with stealth skills obtained from a larger anti-elf organization. She is one of the three members Ken finds there.",
+            "id": "anti-elf-archer",
+            "name": "Anti-elf archer",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The axe-wielding tank of the five-member anti-elf student group that plans to ambush the elf saintess and Ken's party on the second floor, and fights Ken alongside the group's assassin leader.",
+            "id": "anti-elf-axe-tank",
+            "name": "Anti-elf axe tank",
+            "reveal": {
+              "chapter": 32
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A brown-haired upperclassman in expensive gear who casts Tornado and belongs to the anti-elf group. Her father opposes the elven alliance and supplies skills to the students it recruits.",
+            "id": "anti-elf-caster",
+            "name": "Upperclassman caster",
+            "reveal": {
+              "chapter": 33
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A first-year priest from Class B who arrives with the upperclassman caster after an anti-elf ambush fails. She is the caster's partner in the group.",
+            "id": "anti-elf-priest",
+            "name": "First-year anti-elf priest",
+            "reveal": {
+              "chapter": 33
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0F1DL2D49",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-diving-101"
+      },
       "recaps": {
         "ending": "At the close of the book Ken is level 3 and finally accepted at the academy. The headmistress has dropped her opposition now that he is engaged to the elf saintess, granting him dorm access until nine in the evening and promising men's bathrooms. His CID lists his class as Emperor, an elven class whose powers are still largely unknown, while his Demon Lord secondary class and Metamorphosis stay hidden behind Crimson's concealment gesture. Dez continues to maintain his demonic seal.\n\nHis party is settled at five: Ken, Charlotte, Dez, Harley, and the elf saintess as tank, with Bun Bun. Charlotte and Dez are both his girlfriends, Charlotte has a weekend date with him pending, and Dez has asked for one too. The engagement holds only as long as the saintess is happy, and her father the envoy is still negotiating with the humans, with the elves' encounter with the Naga past floor 60 hanging over the talks.\n\nKen killed three members of an anti-elf student group in the dungeon and concealed it; the security council, led by the red-haired girl and including Penelope, cleared him. Crimson cured his poisoning, quietly sold the loot, and intends to use him against the other students involved. Two conspirators remain free: a brown-haired upperclassman caster whose father backs the plot, and a first-year Class B priest whom Ken has already located and whose father he plans to trace. The wider organization supplying their stealth skills is unknown to the United Guilds. Still unresolved are the truth behind Ken's parents' deaths and his grandfather's possible revenge, the year-long bet between Ken and Crimson, Arthur's demand that Ken never fail, and his suggestion of a winter-break dive with Dez.",
         "in_short": "Ken, an assassin-trained orphan raised by his grandfather, receives an unreadable Aberrant class at his activation exam and is taken by Crimson, the world's top damage dealer, into her class at an all-women dungeon academy whose headmistress wants him gone. He forms a party with the druid Charlotte, the warlock Dez, and the bard Harley, and learns his CID cannot safely let him raise stats. Through Dez's family ritual, secretly backed by Crimson, he defeats a level-45 demon lord inside his own soul and gains a hidden Demon Lord secondary class. He wins the first-year tournament, keeping Dez in his party by a bet with her father, and begins dating both Charlotte and Dez. When the elves arrive, an innocent gift of a ring makes him engaged to the envoy's daughter, a saintess who becomes the party's tank, and her people identify his class as Emperor, held by only two elves before him. An anti-elf student group then plots to kill her; Ken ambushes them alone, kills three, hides the bodies, and survives poisoning with Crimson's help. Cleared by the security council and accepted at last by the headmistress, he tracks down the plot's surviving Class B priest and plans to trace her father.",
