@@ -1363,6 +1363,318 @@
         "work": "dungeon-diving-203"
       }
     },
+    "dungeon-diving-301": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Ken Nagato"
+            ],
+            "description": "The narrator and heir of the Nagato clan, a human whose incubus form was granted by the dungeon, although Star City assumes he was born a demon. An Emperor-class melee fighter, he ends a summer of private gravity-chamber training with Crimson exhausted and aware that he still trails the strongest fighters. Before leaving the chamber he agrees to a future duel with a young orc-like warrior who mocks him as a little demon.",
+            "id": "ken",
+            "name": "Ken",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "The strongest human, a Halen instructor, and Ken's lover and private trainer. Since the Naga attack and humanity's arrival in Star City she has quietly pushed her own training harder. She passes on research suggesting one day of diving for every four of training, and reminds Ken that his grandmother expects the clan heir to train with the new recruits.",
+            "id": "crimson",
+            "name": "Crimson",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young warrior of the orc-like race that dominates Star City, belonging to one of the city's guilds. He shoulders past Ken outside the gravity chamber, calls him a little demon, and demands proof of strength, drawing Ken into an agreement to duel him in the gravity chambers at a later date.",
+            "id": "orc-like-guild-fighter",
+            "name": "Orc-like guild fighter",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young cat-person shaman, son of his clan's chief shaman. His grandmother, the clan's elder shaman, died fighting an incubus in an earlier dispute, and his sister lies unconscious in the healing ward still believing the grandmother lived. Lucian despises incubi, and with his father's quiet encouragement he starts looking for indirect ways to strike at the incubus, such as leaving him unable to pay the fine the arbiters imposed.",
+            "id": "lucian",
+            "name": "Lucian",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Chief shaman of Lucian's clan, a cold and formidable figure around level 90 or higher. He tells his son that the orc-like arbiters found both sides at fault in the clash that killed the clan's elder shaman, so only a fine applies. Unable to move openly, he hints that Lucian should work through others and make the incubus unable to pay.",
+            "id": "lucians-father",
+            "name": "Lucian's father",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Lucian's sister, lying in a coma in her clan's healing ward. She believes their grandmother survived the fight with the incubus, and Lucian lets her keep that belief. She is the family member he plainly cares for, in contrast to their cold parents.",
+            "id": "lucians-sister",
+            "name": "Lucian's sister",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Ken's grandfather, an aging swordsman who fights with a sword of light. He welcomes Ken home with a surprise attack, and Ken, now his equal or slightly better in speed, beats him using liminal space. Playful and secretly glad to see his grandson, he is teased by the household about his several wives and a hidden stash.",
+            "id": "kens-grandfather",
+            "name": "Ken's grandfather",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ken's masked, white-haired servant, a butler with the manner of a ninja, returning from earlier books. When Ken comes home Ami walks him through the rebuilt Nagato clan and explains the many young recruits who have joined it.",
+            "id": "ami",
+            "name": "Ami",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ken's partners and a member of his party. She comes from a warlock family with demon blood, became a demon herself in the previous book, and now fights as a demonic mage with a heart-shaped pupil. She joins Ken in greeting guests at the clan's welcome feast and swaps summer stories with Penny and Charlotte.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A white-haired, blue-striped shaman of the spirit tiger tribe and a member of Ken's party. Her people split from the main cat-person clans long ago and worship the dungeon, which tribes devoted to the goddess Neko regard as heresy. A clan kidnapped her after the shuffle. Her CID functions through her rituals.",
+            "id": "feline",
+            "name": "Feline",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ken's partner and the party's healer, owner of the dungeon monster Bun-Bun. She has become more confident and bolder in public over the summer. During the clan's welcome feast she helps out in the kitchen with Penny before joining the others.",
+            "id": "charlotte",
+            "name": "Charlotte",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ken's companions and the party's tank, who has grown as strong as her own father over the summer. She helps in the kitchen at the clan's welcome feast and compares summers with Charlotte and Dez.",
+            "id": "penny",
+            "name": "Penny",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Charlotte's pet, a dungeon monster roughly as strong as Charlotte herself. He ambushes Ken at the welcome feast and is handled with good humor.",
+            "id": "bun-bun",
+            "name": "Bun-Bun",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Helen's mother"
+            ],
+            "description": "Helen's mother, a powerful human adventurer widely known as the harem queen, reported to be in the upper 60s in level. She is actively pursuing information about trials, with Helen accompanying her.",
+            "id": "harem-queen",
+            "name": "Harem queen",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A red-haired paladin in Ken's class at Halen and the daughter of the harem queen. She spent the summer training with her mother and remains openly hostile toward Ken, even while trading gossip with him and Harley before class.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A pink-haired bard in Ken's class who jokes about wanting a harem of healers and is always eager to pry into gossip.",
+            "id": "harley",
+            "name": "Harley",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "One of Ken's classmates, an anxious perfectionist who takes assignments and grades very seriously.",
+            "id": "candice",
+            "name": "Candice",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A black-winged angel shunned by other angels and kept in employment by Crimson. She greets Ken's class when it arrives in Star City to see the new Halen building.",
+            "id": "ambrosia",
+            "name": "Ambrosia",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Head of a guild of the orc-like host race and a steady, methodical tank whom Ken is scheduled to duel. Outside the gravity chambers he questions Ken and the class, acting more like an interviewer than his usual swaggering self, and proposes that Ken's guild be ranked through a sparring match watched by observers. When Dez boasts about the size and strength of Ken's harem, he takes it as a slip revealing that Ken hides his real power.",
+            "id": "orc-like-guild-leader",
+            "name": "Orc-like guild leader",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A courteous whale-tailed man about eight feet tall, with fin-shaped ears and a huge anchor as his weapon. He trips a wire at the class's dungeon camp at night, addresses Ken as an incubus, and politely asks the way to his destination.",
+            "id": "whale-people-anchor",
+            "name": "Whale-people anchor",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A small, blue-haired woman in the whale-people party who fills the pillar role in their two-role formation of anchors and pillars. Blunt, loud and very strong, she lives outside any pod, is startled to see a cat-person and a demon paired as mates, bickers with Feline over fish, and quickly befriends Dez.",
+            "id": "whale-people-pillar",
+            "name": "Whale-people pillar",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior arbiter of the orc-like host race whose power is so far beyond Ken's that a scan reads above level 100 and returns errors. When a local attacks one of his guards in a safe zone under investigation, he treats the act as an admission of guilt and erases the zone's central buildings and everyone inside with a single strike.",
+            "id": "senior-arbiter",
+            "name": "Senior arbiter",
+            "reveal": {
+              "chapter": 11
+            }
+          },
+          {
+            "description": "An elderly, cheerful official of the orc-like host race who steps in at the end of Ken's duel. A retired arbiter now handling administrative work, he still carries the standing of a judge. He re-registers Ken, keeps his stats and skills off the record, rates him only on what the fight displayed, and reminds him that justice has no borders.",
+            "id": "retired-arbiter",
+            "name": "Retired arbiter",
+            "reveal": {
+              "chapter": 14
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Head of the UG, a scarred man Crimson refers to by a nickname. As the UG sets up offices in Star City and pledges support to the arbiters, he receives Ken and several classmates summoned to the UG and shows them to a meeting.",
+            "id": "ug-president",
+            "name": "UG president",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "the elf princess"
+            ],
+            "description": "The elf princess and future empress, whom the elves already count as Ken's wife. She attends the meeting about marking Ken's followers and supports extending the mark through his organizations, the elves included, while preparing to explain why placing her people under Ken could serve them.",
+            "id": "ellie",
+            "name": "Ellie",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elf ally of Ken's from earlier books who supports her people. She is present at the meeting in the elven palace where Ken's partners discuss marking his followers.",
+            "id": "fayeth",
+            "name": "Fayeth",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A senior elf censor who attends the meeting at the elven palace with a second censor while the elves weigh accepting Ken's mark.",
+            "id": "chief-censor",
+            "name": "Chief censor",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "the clan enforcer"
+            ],
+            "description": "A cloaked, dark-skinned enforcer adopted into Lucian's clan, with only his eyes showing. He drags Lucian back to the chieftain after the failed attack on Ken, answers directly to the chieftain, and is assigned to keep watch over the disgraced Lucian.",
+            "id": "lucians-guard",
+            "name": "Lucian's guard",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A younger elf censor who was thrown onto floors in the 90s during the shuffle and survived by resting and relying on a travel ability, encountering whales and demons along the way. Crimson located her with Eyes of Wisdom and the chief censor brought her home. She receives Ken's mark on her shoulder.",
+            "id": "second-censor",
+            "name": "Second censor",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The public relations manager for the Nagato clan and the Silver Fangs, who wears the Silver Fangs mark over her heart. She arrives at the class's trial site with a camera crew, interviews Ken about the trial, and teasingly calls him her sugar daddy on camera.",
+            "id": "pr-manager",
+            "name": "PR manager",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An elderly woman with white, blue-striped ears and tail who leads the Spirit Tiger clan and carries authority over other cat-person clan heads. At a council of clan chiefs she breaks the limbs of Lucian's father and explains what little is known about the worms that revive dead hosts.",
+            "id": "spirit-tiger-chief",
+            "name": "Spirit Tiger chief",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A red-lipped demoness with the rank of demon lord who leads a delegation of a dozen or more demons, including an imp and a large bearded demon, to Star City by a newly discovered route from their home city. She has fought the retired arbiter in the past, and her group must be tested for worms on arrival.",
+            "id": "demon-lord",
+            "name": "Demon lord",
+            "reveal": {
+              "chapter": 31
+            }
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0G4XBXZCL",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-diving-301"
+      }
+    },
     "dungeon-diving-302": {
       "characters": {
         "characters": [
