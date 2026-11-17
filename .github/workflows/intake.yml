@@ -143,7 +143,10 @@ jobs:
     # own outcome-labeling would re-fire a `labeled` run - a duplicate intake and
     # a duplicate comment - for every non-ok verdict. A CALLED run (route.yml) is
     # admitted for the issue that started its caller and no other: the steps read
-    # that issue from the event payload.
+    # that issue from the event payload. The concurrency group at the top of the
+    # file carries a VERBATIM copy of this condition: change the two together, or
+    # a real run lands in the `-noop` group (where a skipped event can replace it
+    # while it waits) and a skipped one in the `run` group.
     if: >-
       (
         inputs.issue_number > 0 &&
