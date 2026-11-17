@@ -41,7 +41,13 @@ concurrency:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    # A context over one request's cap is judged in chunks of ~200 KB, one model
+    # call after another (ai-verify.sh), at about 4-7 minutes a call. An intake
+    # pull request is one or two chunks; a maintainer's data sweep can be many
+    # more (#523: 162 entries, 14 chunks, cancelled twice at 25 minutes with no
+    # verdict). The bound is sized for that, and still stops a hung CLI call from
+    # holding the concurrency group, and the pull request's verdict, for good.
+    timeout-minutes: 120
     # HAS_OAUTH and HAS_API_KEY gate the CLI install below: a step `if:` reads
     # the `env` context, so each secret's presence is resolved here, where job
     # `env` may reference `secrets`.
