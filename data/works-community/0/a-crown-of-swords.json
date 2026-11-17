@@ -1208,6 +1208,10 @@
         ],
         "work": "a-doll-house"
       },
+      "position_scale": {
+        "length": 3,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "After the party, Torvald reads Krogstad's letter and learns that Nora forged her father's signature to obtain the loan that paid for his recovery abroad. He reacts by condemning her and worrying about his own reputation, saying their marriage must continue only as an appearance. A second letter returns the incriminating bond, and Torvald immediately declares the danger over and offers forgiveness. Nora understands that neither her father nor her husband has treated her as an independent adult, and that Torvald failed the test on which she had placed her hopes. She removes her costume, returns her wedding ring, and tells him she must leave both him and the children to educate herself and discover her own convictions. Torvald appeals to religion, morality, and family duty, but she no longer accepts his authority on those subjects. She leaves the house, while he is left with the remote hope that they might someday change enough for a true marriage to be possible.",
         "in_short": "Nora Helmer seems to be a carefree wife awaiting her husband Torvald's promotion, but she secretly owes money to Nils Krogstad. She took the loan to save Torvald's health and forged her dying father's signature to secure it. When Torvald plans to dismiss Krogstad from his new bank post, Krogstad threatens exposure. Nora tries to delay Torvald's reading of the letter while her widowed friend Kristine Linde, once attached to Krogstad, offers to speak with him. Kristine and Krogstad reconcile, but she insists that the truth must remain in the Helmers' letterbox. Torvald reads it and responds not with the self-sacrifice Nora imagined but with anger about his reputation. Even after Krogstad returns the bond and Torvald offers forgiveness, Nora recognizes that her marriage has denied her an adult identity. She leaves Torvald and their children to learn who she is and what she believes, ending the household she once worked so hard to preserve.",
@@ -1494,6 +1498,10 @@
           }
         ],
         "work": "a-dolls-house-annotated-with-reviews-from-1879-1900"
+      },
+      "position_scale": {
+        "length": 3,
+        "unit": "act"
       },
       "recaps": {
         "ending": "After the masquerade, Torvald reads Krogstad's letter and learns about Nora's forged signature. He responds by condemning her and concentrating on the threat to his own reputation, declaring that their outward marriage must continue even though she cannot be trusted with the children. Krogstad then returns the bond and abandons his threat. Torvald immediately says the danger has passed and offers forgiveness, but Nora understands that the self-sacrificing rescue she expected from him was an illusion. She changes out of her costume and explains that first her father and then Torvald treated her as a pleasing possession rather than an equal adult. Concluding that she must educate herself and decide her own moral beliefs, she leaves Torvald, the children, and the household despite his pleas. She returns her wedding ring, takes her belongings, and closes the door behind her, leaving Torvald alone with only the faint possibility that their relationship could someday be transformed.",
