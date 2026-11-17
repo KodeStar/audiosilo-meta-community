@@ -42,8 +42,12 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    # HAS_OAUTH and HAS_API_KEY gate the CLI install below: a step `if:` reads
+    # the `env` context, so each secret's presence is resolved here, where job
+    # `env` may reference `secrets`.
     env:
       HAS_OAUTH: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+      HAS_API_KEY: ${{ secrets.ANTHROPIC_API_KEY != '' }}
     # Same-repo branches or a manual dispatch; a `labeled` event only for the
     # opt-in `ai-verify` label, never for the two outcome labels this job applies
     # (which would re-fire it and cancel the run that just labelled).
@@ -57,8 +61,8 @@ jobs:
         github.event.pull_request.head.repo.full_name == github.repository
       )
     steps:
-      # Pinned by sha, as core's ai-verify.yml is: this job holds the OAuth
-      # secret and a write token, and a moved tag would run new code beside both.
+      # Pinned by sha, as core's ai-verify.yml is: this job holds the model
+      # secrets and a write token, and a moved tag would run new code beside them.
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -127,11 +131,15 @@ jobs:
           .github/scripts/ai-verify.sh .github/scripts/ai-verify-context.sh .github/scripts/ai-verify-reuse.sh
           .github/workflows/ai-verify.yml
 
+      # Only for the CLAUDE_CODE_OAUTH_TOKEN transport: ai-verify.sh prefers
+      # ANTHROPIC_API_KEY, over curl, whenever it is set (meta-sync#63), so this
+      # runs only when the subscription token is the one credential there is, and
+      # no npm download runs beside the secrets for nothing.
       # Pinned, and bumped by hand after checking the flags ai-verify.sh passes
       # still mean the same thing; `claude --version` is a liveness probe (core's
       # ai-verify.yml explains the outage that taught both).
       - name: Install Claude Code CLI
-        if: steps.gather.outputs.has_changes == 'true' && steps.reuse.outputs.reuse != 'true' && env.HAS_OAUTH == 'true'
+        if: steps.gather.outputs.has_changes == 'true' && steps.reuse.outputs.reuse != 'true' && env.HAS_OAUTH == 'true' && env.HAS_API_KEY != 'true'
         run: |
           npm install -g @anthropic-ai/claude-code@2.1.273
           claude --version

@@ -129,7 +129,8 @@ flag lead stays ONE line
 ending in a colon (the steward's `watcher.FindingOf` drops it as the line that
 does). `bash .github/scripts/ai-verify-test.sh` tests that transport, the note
 and the lead with stub `claude` and `curl` (core's `scripts/aiverify_test.go`
-cases; this repository has no Go module).
+cases; this repository has no Go module), and check.yml's `structure` job
+runs it. With the key set, ai-verify.yml skips the CLI install.
 `.github/scripts/ai-verify-context.sh` renders the changed ENTRIES
 (keyed by work slug across the touched packs, so a pack split is invisible),
 never a raw diff.
