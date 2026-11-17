@@ -93,12 +93,11 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  # KEEP IN STEP WITH .github/workflows/check.yml - the two must name the SAME
-  # core commit, or the bot would compose with different rules than the checks
-  # validate against. Bump both in one pull request; check.yml's own comment
-  # carries the full rationale for pinning by sha and for the sparse checkout.
+  # The core commit is CORE_REF, read from .github/core-ref after each job's
+  # checkout - the one pin check.yml reads too, so the bot always composes with
+  # the rules the checks validate against. check.yml's env comment carries the
+  # rationale for pinning by sha and for the sparse checkout.
   CORE_REPO: KodeStar/audiosilo-meta
-  CORE_REF: 0d59de02c05a0bcd94885fa546780835344725db
 
 jobs:
   intake:
@@ -136,6 +135,9 @@ jobs:
         uses: actions/checkout@v7
         with:
           ref: main
+
+      - name: Read the core tooling pin
+        run: bash .github/scripts/core-ref.sh >> "$GITHUB_ENV"
 
       - name: Checkout the core tooling
         uses: actions/checkout@v7
@@ -341,6 +343,9 @@ jobs:
           # reasoning as the create-pull-request step above.
           fetch-depth: 0
           token: ${{ secrets.INTAKE_PAT || github.token }}
+
+      - name: Read the core tooling pin
+        run: bash .github/scripts/core-ref.sh >> "$GITHUB_ENV"
 
       - name: Checkout the core tooling
         uses: actions/checkout@v7

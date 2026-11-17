@@ -34,14 +34,17 @@ concurrency:
 
 env:
   # The core repository holds ALL the tooling (one implementation of pack math,
-  # canonical JSON and validation - see README.md). This is the exact core commit
-  # the checks below run, pinned by sha rather than floating on main so a core
-  # change can never turn this repository's history red on its own.
+  # canonical JSON and validation - see README.md). The exact core commit the
+  # checks below run is CORE_REF, read from .github/core-ref by the first step
+  # after the checkout (.github/scripts/core-ref.sh). It is pinned by sha rather
+  # than floating on main so a core change can never turn this repository's
+  # history red on its own, and it is ONE file because intake.yml composes with
+  # the same tooling: the bot must never compose by rules the checks do not use.
   #
   # TO BUMP: put the new full 40-character sha of KodeStar/audiosilo-meta@main
-  # here in its own pull request, and read the diff of what the checks say. A
-  # bump that turns the tree red is a data fix (usually `metafmt --write`), not a
-  # reason to un-bump.
+  # in .github/core-ref in its own pull request, and read the diff of what the
+  # checks say. A bump that turns the tree red is a data fix (usually `metafmt
+  # --write`), not a reason to un-bump.
   #
   # NOTE on why this is a checkout and not `go run github.com/kodestar/...@v`:
   # the core module carries the ~1.5GB core data tree, and Go has no way to
@@ -55,7 +58,6 @@ env:
   # ever publishes tool binaries, or splits the tooling into a module of its
   # own, this becomes a one-line download instead.
   CORE_REPO: KodeStar/audiosilo-meta
-  CORE_REF: 0d59de02c05a0bcd94885fa546780835344725db
 
 jobs:
   # STRUCTURE - everything the community tree can be judged on by itself: schema,
@@ -69,6 +71,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+
+      - name: Read the core tooling pin
+        run: bash .github/scripts/core-ref.sh >> "$GITHUB_ENV"
 
       - name: Checkout the core tooling
         uses: actions/checkout@v7

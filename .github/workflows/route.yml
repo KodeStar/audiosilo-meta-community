@@ -21,9 +21,10 @@ jobs:
     permissions:
       contents: read
       issues: write
-    # Pinned to a full core commit sha, like check.yml's and intake.yml's
-    # CORE_REF and for the same reason: a core change must never change how
-    # this repository routes without a pull request here that says so.
+    # Pinned to a full core commit sha, like the CORE_REF check.yml and
+    # intake.yml read from .github/core-ref, and for the same reason: a core
+    # change must never change how this repository routes without a pull request
+    # here that says so.
     #
     # TO BUMP: when core changes .github/workflows/route-reusable.yml, put the
     # new full 40-character sha of KodeStar/audiosilo-meta@main here in its own
@@ -44,7 +45,7 @@ jobs:
     if: needs.route.outputs.decision == 'route'
     # The called workflow's jobs may use at most what this job grants: the
     # intake job's own three (its rebase job never runs on an issues event).
-    # intake.yml's CORE_REF pins the tooling it composes with, as always.
+    # .github/core-ref on main pins the tooling intake.yml composes with, as always.
     permissions:
       contents: write
       pull-requests: write
