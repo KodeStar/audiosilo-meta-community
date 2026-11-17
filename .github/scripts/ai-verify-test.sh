@@ -81,6 +81,20 @@ run oauth "$CONTEXT" CLAUDE_CODE_OAUTH_TOKEN=test
 [ ! -e "$WORK/oauth/curl-called" ] || fail "subscription token alone: curl was called"
 [ -s "$WORK/oauth/stdin.txt" ] || fail "subscription token alone: the CLI was not called"
 
+# ai-verify.yml installs no CLI when the key is set, so the key must reach a
+# verdict on a PATH with no `claude` at all: the curl and jq stubs alone, ahead
+# of the caller's PATH less every directory that holds one.
+NOCLI_BIN="$WORK/bin-nocli"
+mkdir -p "$NOCLI_BIN"
+cp "$BIN/curl" "$BIN/jq" "$NOCLI_BIN/"
+NOCLI_PATH="$NOCLI_BIN"
+while IFS= read -r -d : dir; do
+  if [ -n "$dir" ] && [ ! -x "$dir/claude" ]; then NOCLI_PATH="$NOCLI_PATH:$dir"; fi
+done <<< "$PATH:"
+run nocli "$CONTEXT" ANTHROPIC_API_KEY=key PATH="$NOCLI_PATH"
+[ -e "$WORK/nocli/curl-called" ] || fail "the key with no CLI installed: curl was not called"
+grep -q '"verdict":"pass"' "$WORK/nocli/verdict.json" || fail "the key with no CLI installed: verdict $(cat "$WORK/nocli/verdict.json" 2>/dev/null)"
+
 # On the API key transport the prompt and the message reach jq as files and the
 # request reaches curl on stdin. One entry can run to MAX_INPUT_BYTES (200 kB),
 # past the 128 KiB Linux allows one argument, where jq or curl handed it as one
