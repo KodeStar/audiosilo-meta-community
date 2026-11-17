@@ -2065,6 +2065,10 @@
         ],
         "work": "taras-bulba"
       },
+      "position_scale": {
+        "length": 12,
+        "unit": "chapter"
+      },
       "recaps": {
         "ending": "After witnessing Ostap's execution in Warsaw, Taras returns to the Cossacks and leads a merciless campaign through Poland. He refuses a negotiated peace and continues raiding with his own regiment. Polish forces eventually trap him near the Dniester. Captured after turning back for his dropped pipe, he is chained to a tree and burned. Even while the fire rises, he calls directions to his escaping comrades, who reach boats and flee downriver. Taras dies certain that the Cossack cause and the strength of the Russian land will outlast his enemies. Ostap is dead, Andriy died by Taras's own hand after joining the Polish side, and Taras's final band survives without him; the family story closes in destruction rather than reconciliation.",
         "in_short": "Cossack colonel Taras Bulba takes his newly educated sons, Ostap and Andriy, from their mother's home to the Zaporozhian Sich. A Polish campaign gives both sons their first experience of war. During the siege of Dubno, Andriy enters the starving city to help a Polish noblewoman he loves and abandons the Cossacks for her people. Taras confronts and kills him in battle. Ostap fights steadfastly but is captured and taken to Warsaw, where Taras secretly watches his public execution and answers his son's final call. Taras then leads a destructive revenge campaign across Poland. Surrounded near the Dniester, he is captured and burned alive while directing his comrades' escape. All three central men die, each expressing a different loyalty: Andriy to romantic love, Ostap to his comrades, and Taras to the Cossack brotherhood and its faith.",
@@ -2639,6 +2643,10 @@
           }
         ],
         "work": "tartuffe"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Tartuffe returns with an officer, expecting Orgon to be arrested for possessing politically dangerous papers. The officer instead takes Tartuffe into custody. The king has investigated the case, recognized Tartuffe as an offender with a history of false identities, and understood that Orgon was deceived rather than disloyal. The royal decision cancels Tartuffe's claim to the house and pardons Orgon's earlier indiscretion. Orgon's family is therefore spared eviction and prosecution. Even after being rescued, Orgon is ready to vent his anger on Tartuffe until Cleante urges him to accept justice without vindictiveness. With the household restored, Orgon turns at last to the promise he nearly broke: Mariane and Valere are free to marry.",

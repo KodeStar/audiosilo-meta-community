@@ -2965,7 +2965,7 @@
             "id": "jacinto",
             "name": "Jacinto",
             "reveal": {
-              "chapter": 3
+              "chapter": 7
             },
             "role": "supporting"
           },
@@ -2974,7 +2974,7 @@
             "id": "eusabio",
             "name": "Eusabio",
             "reveal": {
-              "chapter": 4
+              "chapter": 11
             },
             "role": "supporting"
           },
@@ -2986,7 +2986,7 @@
             "id": "christopher-carson",
             "name": "Christopher Carson",
             "reveal": {
-              "chapter": 2
+              "chapter": 5
             },
             "role": "supporting"
           },
@@ -2998,7 +2998,7 @@
             "id": "antonio-jose-martinez",
             "name": "Antonio José Martínez",
             "reveal": {
-              "chapter": 5
+              "chapter": 13
             },
             "role": "antagonist"
           },
@@ -3010,7 +3010,7 @@
             "id": "manuel-lucero",
             "name": "Manuel Lucero",
             "reveal": {
-              "chapter": 5
+              "chapter": 13
             },
             "role": "supporting"
           },
@@ -3019,7 +3019,7 @@
             "id": "magdalena",
             "name": "Magdalena",
             "reveal": {
-              "chapter": 2
+              "chapter": 5
             },
             "role": "supporting"
           },
@@ -3031,7 +3031,7 @@
             "id": "isabella-olivares",
             "name": "Isabella Olivares",
             "reveal": {
-              "chapter": 6
+              "chapter": 15
             },
             "role": "supporting"
           },
@@ -3040,7 +3040,7 @@
             "id": "sada",
             "name": "Sada",
             "reveal": {
-              "chapter": 7
+              "chapter": 17
             },
             "role": "minor"
           },
@@ -3052,7 +3052,7 @@
             "id": "bernard-ducrot",
             "name": "Bernard Ducrot",
             "reveal": {
-              "chapter": 9
+              "chapter": 24
             },
             "role": "supporting"
           }
@@ -3067,6 +3067,10 @@
         ],
         "work": "death-comes-for-the-archbishop"
       },
+      "position_scale": {
+        "length": 31,
+        "unit": "chapter"
+      },
       "recaps": {
         "ending": "Vaillant remains in Colorado and becomes its first bishop, accepting hardship and exhausting travel as the work for which he is fitted. He dies before Latour, and news of his friend's enormous funeral leaves Latour conscious of both their different temperaments and their lifelong bond. Latour retires after decades of service, living near the cathedral he planned from native golden stone. In old age he is cared for by younger clergy and revisits memories of his journeys, Indigenous friends, and vanished companions. He dies in Santa Fe, not as a stranger defeated by the country but as a person whose identity has become joined to it. His body is placed in the cathedral. The diocese, buildings, and communities continue beyond both missionaries, while the novel closes on the archbishop's peaceful acceptance of death and the enduring shape of his work.",
         "in_short": "French priest Jean Marie Latour is sent to organize the new Catholic diocese of New Mexico, joined by his energetic friend Joseph Vaillant. They cross deserts, visit remote settlements and pueblos, confront undisciplined clergy, and learn to serve communities shaped by Mexican, Indigenous, and American histories. Latour's patient authority contrasts with Vaillant's restless missionary drive. Latour removes the defiant Padre Martínez, protects vulnerable parishioners, and builds a cathedral suited to the landscape; Vaillant ultimately carries the mission into Colorado's mining camps and becomes a bishop there. Their work is entangled with conquest, Navajo suffering, and rapid American expansion, which the church can neither control nor escape. Vaillant dies first. Latour retires in Santa Fe and dies peacefully near the cathedral, having changed the diocese while also being permanently changed by its land and people.",
@@ -3076,42 +3080,42 @@
             "scope": "book",
             "text": "Church officials in Rome consider how to govern the immense territory acquired by the United States in the Southwest. On Father Ferrand's recommendation, the French priest Jean Marie Latour is appointed vicar apostolic of New Mexico. Traveling toward Santa Fe, Latour becomes lost in a desert landscape whose repeated shapes seem to offer no direction. A cruciform tree gives him a place to pray, and he eventually finds water and hospitality in a hidden Mexican settlement. In Santa Fe, local clergy initially refuse to recognize his authority because his documents have not come through their established Mexican hierarchy. Latour undertakes the long journey required to have his appointment confirmed. Once established, he is joined by his old friend Joseph Vaillant. The reserved Latour supplies order and judgment; the sociable, energetic Vaillant has a gift for immediate human contact. Together they begin rebuilding a scattered diocese whose history and customs long predate their arrival.",
             "through": {
-              "chapter": 1
+              "chapter": 4
             }
           },
           {
             "scope": "book",
             "text": "Latour and Vaillant travel continually among isolated communities, often across dangerous country with little shelter. Their journeys reveal both the devotion of ordinary people and abuses that flourished when parishes had almost no supervision. Vaillant's practical warmth makes him an effective collector and organizer, while Latour listens, observes, and judges more slowly. The missionaries befriend the frontiersman Kit Carson, discovering a modest man unlike his sensational public reputation. They also become involved in rescuing Magdalena from a brutal husband. The episode shows how thin formal institutions are in remote settlements and how much protection depends on personal courage and cooperation. Each journey enlarges the priests' knowledge of the diocese while making clear that European expectations cannot simply be imposed without attention to local lives.",
             "through": {
-              "chapter": 2
+              "chapter": 6
             }
           },
           {
             "scope": "book",
             "text": "Accompanied by the young guide Jacinto, Latour visits the mesa-top pueblo of Acoma to celebrate Mass. The difficult ascent, exposed church, and ancient settlement impress upon him the persistence of a people whose world cannot be contained by the history his own church tells. Stories of an earlier abusive friar and the community's resistance complicate any simple account of missionary heroism. On another journey, severe weather drives Latour and Jacinto toward shelter known to the guide. Jacinto brings him into a concealed place connected with sacred knowledge but does not explain its meaning. Latour accepts the limits placed upon him. His friendship with Jacinto rests partly on this restraint: he can receive protection and recognize spiritual seriousness without claiming a right to every secret.",
             "through": {
-              "chapter": 3
+              "chapter": 10
             }
           },
           {
             "scope": "book",
             "text": "The American occupation transforms New Mexico while older conflicts continue. Latour values his friendship with the Navajo leader Eusabio and recognizes the dignity and knowledge embodied in Indigenous relationships to the land. At the same time, United States campaigns led by men including Kit Carson devastate Navajo communities and force removal, exposing a gulf between private decency and the violence of public policy. Within the church, Latour confronts Padre Antonio José Martínez of Taos, a powerful priest who rejects the bishop's reforms and authority. Martínez uses his local influence to resist removal and supports a break with Latour's jurisdiction. Latour excommunicates him and the compromised Padre Lucero. When Lucero lies dying, however, Latour answers his summons and sits with him, maintaining pastoral duty even toward an opponent. Martínez dies outside communion with Latour's church, but his regional legacy remains larger than the formal sentence against him.",
             "through": {
-              "chapter": 5
+              "chapter": 14
             }
           },
           {
             "scope": "book",
             "text": "As the diocese grows, Latour and Vaillant respond differently to expansion. A legal dispute forces the widowed Doña Isabella Olivares to prove facts about her age in order to preserve her inheritance under American law. Latour supports her, helping protect a woman whose position has become vulnerable during the change of governments. He also encounters Sada, an elderly Mexican servant prevented by her Protestant employers from practicing her faith openly; her isolation reveals a quieter cost of conquest and displacement. Latour develops plans for a Romanesque cathedral of local golden stone, seeking a building that belongs visually to the landscape rather than merely copying what he left in Europe. Vaillant, meanwhile, is drawn north by the Colorado gold rush. What begins as a temporary mission becomes his permanent field: he travels among rough mining settlements, raises resources, and builds Catholic institutions with characteristic urgency.",
             "through": {
-              "chapter": 8
+              "chapter": 23
             }
           },
           {
             "scope": "book",
             "text": "Vaillant accepts leadership of the church in Colorado and eventually becomes its bishop. Separation grieves both men, but Latour understands that his friend is most fully himself while traveling, improvising, and founding new missions. Vaillant dies after years of strenuous service, and the scale of public mourning testifies to the attachments he formed. Latour completes his own long tenure and retires near the Santa Fe cathedral built from the stone he selected. Cared for in age by younger priests, he revisits memories of France, missionary journeys, Indigenous friends, vanished settlements, and Vaillant. The Southwest is no longer an alien assignment to him; it has become the place in which his life's meaning is gathered. Latour dies peacefully in Santa Fe and is laid in his cathedral. The institution he organized survives, but the close emphasizes a personal accommodation to mortality and place rather than administrative triumph.",
             "through": {
-              "chapter": 9
+              "chapter": 31
             }
           }
         ],

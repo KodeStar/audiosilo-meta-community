@@ -419,7 +419,7 @@
             "id": "susannah-dean",
             "name": "Odetta Holmes",
             "reveal": {
-              "chapter": 4
+              "chapter": 8
             },
             "role": "supporting"
           },
@@ -428,7 +428,7 @@
             "id": "jack-mort",
             "name": "Jack Mort",
             "reveal": {
-              "chapter": 5
+              "chapter": 13
             },
             "role": "antagonist"
           },
@@ -437,7 +437,7 @@
             "id": "henry-dean",
             "name": "Henry Dean",
             "reveal": {
-              "chapter": 2
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -446,7 +446,7 @@
             "id": "enrico-balazar",
             "name": "Enrico Balazar",
             "reveal": {
-              "chapter": 3
+              "chapter": 5
             },
             "role": "antagonist"
           }
@@ -460,6 +460,10 @@
           }
         ],
         "work": "the-drawing-of-the-three"
+      },
+      "position_scale": {
+        "length": 17,
+        "unit": "section"
       },
       "recaps": {
         "ending": "By the end, Roland has drawn his three. Eddie Dean, pulled out of a life of addiction, has begun to get clean and is becoming a gunslinger in his own right. Odetta Holmes and her buried second self, Detta Walker, are forced into a single confrontation that Roland stages through the body of the killer Jack Mort, and out of it emerges an integrated woman who takes the name Susannah Dean. Jack Mort dies before he can be drawn as a person, killed by a train much as he once killed others. Roland remains physically diminished, having lost fingers to the beach-monster, but he is no longer alone: Eddie and Susannah, already drawn to each other in love, stand with him. The new fellowship leaves the shore of the Western Sea and starts inland, bound together as ka-tet on the long road toward the Tower.",

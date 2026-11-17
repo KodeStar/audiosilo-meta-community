@@ -1897,6 +1897,10 @@
         ],
         "work": "henrik-ibsens-ghosts"
       },
+      "position_scale": {
+        "length": 3,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "After the orphanage burns, Engstrand lets Pastor Manders believe that careless handling of a candle caused the fire and offers to protect his reputation. Manders agrees to support Engstrand's proposed sailors' home, leaving Mrs Alving free of the memorial project she had created with her husband's fortune. Mrs Alving then tells Oswald and Regina that Captain Alving was Regina's father. Regina, realizing that Oswald is her half-brother and that the household offers her no future, leaves. Oswald explains that his illness will eventually destroy his mind and reminds his mother that she promised to give him a fatal dose of morphine rather than let him remain helpless. At sunrise he suffers the feared final attack and becomes unresponsive, asking only for the sun. Mrs Alving stands over him with the morphine, torn between her promise and her horror. The play ends before she acts, leaving Oswald's life and her decision unresolved.",
         "in_short": "Widow Helen Alving plans an orphanage honoring her supposedly virtuous husband, while privately revealing to Pastor Manders that Captain Alving was persistently unfaithful and destructive. She sent their son Oswald abroad and maintained the public lie to protect him. Oswald returns ill and attracted to the maid Regina, whose true father is Captain Alving. Mrs Alving hopes truth and freedom can prevent the past from repeating, but the uninsured orphanage burns after Manders rejected insurance for fear of public criticism. Engstrand exploits the fire to draw Manders into financing a sailors' home. Mrs Alving finally tells Oswald and Regina that they are half-siblings; Regina leaves. Oswald then reveals that his inherited illness may reduce him to permanent helplessness and has obtained morphine for his mother to end his life if that happens. At dawn the attack comes. He loses awareness and asks for sunlight while Mrs Alving, holding the morphine, faces the promised choice. Her action is not shown.",
@@ -2031,6 +2035,10 @@
           }
         ],
         "work": "henrik-ibsens-the-wild-duck"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
       },
       "recaps": {
         "ending": "After Hjalmar rejects Hedvig as his daughter, Gregers persuades her that sacrificing the wild duck may prove her love for him. Hjalmar returns intending to leave, but his attachment to the household is already weakening that resolve. A shot sounds in the attic. The adults discover that Hedvig has shot herself rather than the duck, and Relling concludes that the wound was deliberate. Hjalmar is overwhelmed and pleads over her body, while Gina and Old Ekdal share the loss. Gregers wants to believe that the death will permanently ennoble Hjalmar, but Relling predicts that even this grief will eventually become part of the self-dramatizing story by which Hjalmar lives. Gregers nevertheless declares that he will continue pursuing his moral mission, leaving the play with no restoration of the family he disrupted.",
@@ -2260,6 +2268,10 @@
           }
         ],
         "work": "henry-iv-part-1"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
       },
       "recaps": {
         "ending": "At Shrewsbury, Worcester withholds King Henry's offer of pardon because he fears that Hotspur might accept it and later blame him for the rebellion. Battle follows. Prince Hal rescues his father from Douglas and kills Hotspur in single combat, proving the courage that his public reputation had concealed. Falstaff survives an encounter with Douglas by pretending to be dead, then finds Hotspur's body and falsely claims the kill; Hal lets the boast stand. Worcester and Vernon are captured and condemned after the king learns that his peace terms were never delivered honestly. Douglas is released without ransom in recognition of his valor. The royal army wins the field, but the wider rising is not over: Northumberland and the Archbishop of York still threaten the crown. Henry divides his forces, sending John and Westmoreland north while he and Hal turn toward Wales to confront Glendower and Mortimer.",
@@ -2938,6 +2950,10 @@
         ],
         "work": "henry-vi-part-3"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "Edward defeats Warwick at Barnet, where Warwick and his brother Montague are killed. Clarence abandons Warwick and returns to his brothers before the Yorkists defeat Margaret's army at Tewkesbury. Prince Edward is captured and stabbed to death after defying the Yorkist brothers. Margaret is taken prisoner. Richard then goes to the Tower and murders the captive Henry VI, treating the last Lancastrian king as an obstacle to his own family's security and to his private ambition. Edward IV ends the play on the throne with Queen Elizabeth and their infant son, believing the civil conflict settled. Yet Richard's closing thoughts make clear that peace within the victorious house of York is unstable: Henry and his son are dead, but Richard is already looking beyond his brother's reign toward the crown for himself.",
         "in_short": "After York forces Henry VI to name him heir, Queen Margaret rejects the settlement and defeats York at Wakefield, where Clifford kills young Rutland and Margaret helps humiliate York before his death. York's sons Edward and Richard continue the claim. Following the brutal victory at Towton, Edward becomes king and Henry is captured. Edward secretly marries Elizabeth Grey while Warwick is negotiating a French marriage for him. Humiliated, Warwick joins Margaret and brings Clarence with him, briefly restoring Henry. Edward escapes, returns with Burgundian support, regains London, and captures Henry again. Clarence changes sides once more, rejoining his brothers before the decisive battles. Warwick dies at Barnet; Margaret's army loses at Tewkesbury; the Yorkist brothers kill Prince Edward. Richard murders Henry in the Tower. Edward IV appears secure with his wife and infant heir, but Richard's ambition points toward another seizure of the crown.",
@@ -3157,6 +3173,10 @@
           }
         ],
         "work": "henry-vi-pt-2"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
       },
       "recaps": {
         "ending": "York returns from Ireland with an army, initially claiming that he seeks only the removal of Somerset. When Somerset appears despite reports that he was imprisoned, York openly asserts his right to the crown. The rival houses gather their supporters and fight at Saint Albans. York kills the elder Clifford, while York's son Richard kills Somerset. Warwick's forces break through, and the defeated King Henry and Queen Margaret flee toward London. Young Clifford finds his father's body and vows revenge against the whole house of York. York, Salisbury, Warwick, and their allies pursue the royal party, intending to press York's claim before Henry can recover. Cade's revolt has failed, but the deeper conflict York cultivated now becomes an open dynastic war.",
