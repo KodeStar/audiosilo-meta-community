@@ -96,7 +96,8 @@ decided issue is a no-op (the guard is described once, in core's
 route-reusable.yml header). The App id is a routing hint, not trust;
 holds (`intake:held`) and the denylist (`.github/intake-denylist`) are described
 in core's GOVERNANCE.md. When core changes route-reusable.yml, bump the sha in
-route.yml in its own pull request, as with CORE_REF (dependabot ignores it).
+route.yml in its own pull request, as with `.github/core-ref` (dependabot
+ignores it).
 
 ## The tooling checkout (both workflows)
 
@@ -104,11 +105,13 @@ Neither workflow can `go run github.com/kodestar/audiosilo-meta/...`: the core
 module carries the ~1.5GB core data tree and proxy.golang.org times out on every
 post-seed version, so a direct fetch clones the whole repository (~40 minutes,
 measured). Both workflows instead do a **blobless sparse checkout of core's
-tooling directories at a pinned sha** and run from it. `check.yml` and
-`intake.yml` must name the SAME `CORE_REF`, or the bot would compose with
-different rules than the checks validate against - bump them in one pull request.
-The full rationale is in check.yml's own comment; consolidating the two into one
-pin is a recorded follow-up rather than a second mechanism.
+tooling directories at a pinned sha** and run from it. The sha is ONE file,
+`.github/core-ref`, which both read into `CORE_REF` through
+`.github/scripts/core-ref.sh`, so the bot always composes with the rules the
+checks validate against; bump it in its own pull request. Each core checkout's
+`ref` falls back to a name that does not exist, so a job that never read the pin
+fails rather than floating on core's main. The full rationale is in check.yml's
+env comment.
 
 ## The AI review (ai-verify.yml) and the steward
 
@@ -128,7 +131,8 @@ flag lead stays ONE line
 ending in a colon (the steward's `watcher.FindingOf` drops it as the line that
 does). `bash .github/scripts/ai-verify-test.sh` tests that transport, the note
 and the lead with stub `claude` and `curl` (core's `scripts/aiverify_test.go`
-cases; this repository has no Go module).
+cases; this repository has no Go module), and check.yml's `structure` job
+runs it. With the key set, ai-verify.yml skips the CLI install.
 `.github/scripts/ai-verify-context.sh` renders the changed ENTRIES
 (keyed by work slug across the touched packs, so a pack split is invisible),
 never a raw diff.

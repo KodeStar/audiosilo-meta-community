@@ -88,17 +88,45 @@ permissions: {}
 # `data:<template>` emits several events at once, and the generic `data` event is
 # intentionally skipped by the job-level guard - with cancel-in-progress it would
 # cancel the run that opens the pull request.
+#
+# That is not the whole of it, because GitHub keeps at most ONE PENDING run per
+# group and a newer arrival replaces it, in-progress cancellation or not. So an
+# event the job-level `if` will skip - a label that is not a routing label, the
+# outcome label the last step applies, an edit to an issue with no `data:` label -
+# queued behind a running intake would cancel a REAL run waiting behind it, and
+# the submission would sit there with no pull request and no comment. Skipped
+# events therefore get their own `-noop` group, as in core's intake.yml and
+# ai-verify.yml. The condition below is a VERBATIM copy of the intake job's `if`
+# (its call and `issues` halves), so keeping the two in step is a matter of
+# keeping them identical. A called run (route.yml) shares the issue's `run` group
+# with a later edit's.
 concurrency:
-  group: ${{ github.event_name == 'push' && 'intake-rebase' || format('intake-{0}', github.event.issue.number) }}
+  group: >-
+    ${{ github.event_name == 'push' && 'intake-rebase' || format('intake-{0}-{1}', github.event.issue.number,
+    (
+      (
+        inputs.issue_number > 0 &&
+        inputs.issue_number == github.event.issue.number
+      ) || github.event_name == 'issues' && (
+      (
+        github.event.action != 'labeled' &&
+        contains(join(github.event.issue.labels.*.name), 'data:')
+      ) || (
+        github.event.action == 'labeled' &&
+        startsWith(github.event.label.name, 'data:') &&
+        github.event.label.name != 'data:invalid' &&
+        github.event.label.name != 'data:needs-human' &&
+        github.event.label.name != 'data:duplicate'
+      ))
+    ) && 'run' || 'noop') }}
   cancel-in-progress: false
 
 env:
-  # KEEP IN STEP WITH .github/workflows/check.yml - the two must name the SAME
-  # core commit, or the bot would compose with different rules than the checks
-  # validate against. Bump both in one pull request; check.yml's own comment
-  # carries the full rationale for pinning by sha and for the sparse checkout.
+  # The core commit is CORE_REF, read from .github/core-ref after each job's
+  # checkout - the one pin check.yml reads too, so the bot always composes with
+  # the rules the checks validate against. check.yml's env comment carries the
+  # rationale for pinning by sha and for the sparse checkout.
   CORE_REPO: KodeStar/audiosilo-meta
-  CORE_REF: 0d59de02c05a0bcd94885fa546780835344725db
 
 jobs:
   intake:
@@ -115,7 +143,10 @@ jobs:
     # own outcome-labeling would re-fire a `labeled` run - a duplicate intake and
     # a duplicate comment - for every non-ok verdict. A CALLED run (route.yml) is
     # admitted for the issue that started its caller and no other: the steps read
-    # that issue from the event payload.
+    # that issue from the event payload. The concurrency group at the top of the
+    # file carries a VERBATIM copy of this condition: change the two together, or
+    # a real run lands in the `-noop` group (where a skipped event can replace it
+    # while it waits) and a skipped one in the `run` group.
     if: >-
       (
         inputs.issue_number > 0 &&
@@ -137,11 +168,16 @@ jobs:
         with:
           ref: main
 
+      - name: Read the core tooling pin
+        run: bash .github/scripts/core-ref.sh >> "$GITHUB_ENV"
+
       - name: Checkout the core tooling
         uses: actions/checkout@v7
         with:
           repository: ${{ env.CORE_REPO }}
-          ref: ${{ env.CORE_REF }}
+          # Never empty (see check.yml): an unread pin fails here, it does not
+          # float on core's main.
+          ref: ${{ env.CORE_REF || 'core-ref-not-read' }}
           path: core
           # Blobless + sparse: the tooling, the schemas and the module files,
           # never core's data/ - see check.yml.
@@ -259,7 +295,7 @@ jobs:
             fi
             echo "Closes #${ISSUE} on merge."
             echo
-            echo "> Composed by the intake bot. A maintainer still reviews and approves before merge."
+            echo "> Composed by the intake bot. The steward (audiosilo-meta-sync) merges it once its checks and the AI review pass, and never while it is flagged."
           } > pr-body.md
 
       - name: Open the pull request
@@ -342,11 +378,16 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.INTAKE_PAT || github.token }}
 
+      - name: Read the core tooling pin
+        run: bash .github/scripts/core-ref.sh >> "$GITHUB_ENV"
+
       - name: Checkout the core tooling
         uses: actions/checkout@v7
         with:
           repository: ${{ env.CORE_REPO }}
-          ref: ${{ env.CORE_REF }}
+          # Never empty (see check.yml): an unread pin fails here, it does not
+          # float on core's main.
+          ref: ${{ env.CORE_REF || 'core-ref-not-read' }}
           path: core
           sparse-checkout: |
             cmd
