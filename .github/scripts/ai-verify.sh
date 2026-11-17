@@ -21,9 +21,11 @@
 # comment render are copied unchanged from KodeStar/audiosilo-meta's
 # .github/scripts/ai-verify.sh, because the verdict comment and labels are a
 # contract with audiosilo-meta-sync's steward (CLAUDE.md, "The AI review").
-# Keep the two scripts' shared halves in step. The one exception is the
+# Keep the two scripts' shared halves in step. The exceptions are the
 # community's own: the verdict's 'existing' list, its aggregation across chunks
-# and its "Already on main" section of the comment (core has none of them).
+# and its "Already on main" section of the comment (core has none of them), and
+# a pass note and flag lead that are always core's bot-origin ones (PASS_NOTE and
+# FLAG_LEAD below say why).
 #
 # What differs is what is judged. Core's reviewer checks CC0 facts; this one
 # checks CC BY-SA prose against AUTHORING.md: the spoiler model (positions), own
@@ -255,19 +257,29 @@ VERDICT_JSON="$(printf '%s' "$ACC" | jq -c --arg v "$VERDICT" '{verdict: $v, fin
 
 printf '%s\n' "$VERDICT_JSON" > "$VERDICT_OUT"
 
+# PASS_NOTE and FLAG_LEAD are what the comment says the verdict DOES. Here that
+# is core's bot-origin wording (its BOT_PASS_NOTE and BOT_FLAG_LEAD) for every
+# pull request: audiosilo-meta-sync's steward merges a community data pull
+# request on `ai-verified` once its other checks pass, and never while it is
+# `ai-flagged` (it answers the flag with a delete-only fix or parks it), so no
+# maintainer review stands between a pass and the merge and a flag IS a merge
+# block. The pass note says "data-only" because a pull request that also changes
+# a file outside data/ is the steward's to review, never to merge. FLAG_LEAD is ONE line ending in a colon: the steward reads a flag that
+# lists no findings by its prose lines and drops the lead as the line that ends
+# in one (its watcher.FindingOf), so a lead ending otherwise would read there as
+# the same finding on every such flag.
+PASS_NOTE="The steward (audiosilo-meta-sync) merges a data-only pull request on this verdict once its other checks pass."
+FLAG_LEAD="The steward (audiosilo-meta-sync) does not merge a pull request while it is flagged: it answers the flag or leaves the pull request for a maintainer. Claude flagged the following:"
+
 {
   if [ "$VERDICT" = "pass" ]; then
     echo "### AI verification: passed"
     echo
-    echo "Claude reviewed the data changes and found nothing concerning in this pull request's change. This is advisory; a maintainer still reviews before merge."
+    echo "Claude reviewed the data changes and found nothing concerning in this pull request's change. $PASS_NOTE"
   else
     echo "### AI verification: flagged"
     echo
-    # The lead is ONE line ending in a colon: audiosilo-meta-sync reads a flag
-    # that lists no findings by its prose lines and drops the lead as the line
-    # that ends in one (its watcher.FindingOf), so a lead ending otherwise would
-    # read there as the same finding on every such flag.
-    echo "Claude flagged the following for a maintainer to check (advisory - not a merge block):"
+    echo "$FLAG_LEAD"
     echo
     printf '%s' "$VERDICT_JSON" | jq -r '.findings[]? | "- " + .'
   fi

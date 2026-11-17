@@ -5,7 +5,8 @@
 #
 # The community repository has no Go module, so these are the shell half of core's
 # scripts/aiverify_test.go cases for the shared transport (TestAIVerifyPrefersTheAPIKey,
-# TestAIVerifyAPIRequestIsNeverAnArgument) and the flag lead's colon. The claude CLI
+# TestAIVerifyAPIRequestIsNeverAnArgument) and the comment's pass note and flag lead
+# (TestAIVerifyCommentSaysWhatTheVerdictDoes, its bot-origin case). The claude CLI
 # and curl are stubs on PATH; nothing reaches the network. Needs bash, jq and perl,
 # as the script itself does. Runs every case and exits non-zero if any failed.
 
@@ -56,9 +57,9 @@ chmod +x "$BIN/claude" "$BIN/curl" "$BIN/jq"
 CONTEXT="$WORK/context.txt"
 printf '=== ENTRY a-work (ADDED)\n{"characters": {}}\n' > "$CONTEXT"
 
-# run <name> <context> [VAR=value ...]: ai-verify.sh over <context> with the
-# stubs first on PATH and nothing else inherited, so a key in the caller's
-# environment cannot reach it. Leaves its files in $WORK/<name>/.
+# run <name> <context> [VAR=value ...]: ai-verify.sh over <context> with the stubs first on
+# PATH and nothing else inherited, so a key in the caller's environment cannot
+# reach it. Leaves its files in $WORK/<name>/.
 run() {
   local out="$WORK/$1" context="$2"
   shift 2
@@ -113,6 +114,15 @@ fi
 printf '%s' '{"result":"{\"verdict\":\"flag\",\"findings\":[\"a-work characters: a finding\"]}"}' > "$WORK/flag.json"
 run flag "$CONTEXT" CLAUDE_CODE_OAUTH_TOKEN=test REPLY_FILE="$WORK/flag.json"
 grep -qF -- '- a-work characters: a finding' "$WORK/flag/comment.md" || fail "the flag's finding is missing: $(cat "$WORK/flag/comment.md")"
+# The comment says what the verdict DOES (core's TestAIVerifyCommentSaysWhatTheVerdictDoes,
+# its bot-origin case): the steward merges a community data-only pull request on a
+# pass and never on a flag, so neither comment may call the verdict advisory.
+grep -qF 'does not merge a pull request while it is flagged' "$WORK/flag/comment.md" \
+  && ! grep -qF 'not a merge block' "$WORK/flag/comment.md" \
+  || fail "the flag comment does not say the steward holds the merge: $(cat "$WORK/flag/comment.md")"
+grep -qF 'merges a data-only pull request on this verdict' "$WORK/oauth/comment.md" \
+  && ! grep -qF 'a maintainer still reviews before merge' "$WORK/oauth/comment.md" \
+  || fail "the pass comment does not say the steward merges on it: $(cat "$WORK/oauth/comment.md")"
 while IFS= read -r line; do
   line="$(printf '%s' "$line" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
   case "$line" in "" | "#"* | "- "*) continue ;; esac

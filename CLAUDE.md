@@ -120,8 +120,12 @@ verdict parse and the comment render are copied and must stay in step with
 core's. The transport prefers the `ANTHROPIC_API_KEY` secret (billed per pull
 request) and falls back to the Claude Code CLI on `CLAUDE_CODE_OAUTH_TOKEN`, the
 subscription meta-sync's resolver shares (meta-sync#63).
-`bash .github/scripts/ai-verify-test.sh` tests that transport and the flag
-lead's colon with stub `claude` and `curl` (core's `scripts/aiverify_test.go`
+The comment's pass note and flag lead are core's bot-origin ones for every pull
+request: the steward merges a data-only pull request on a pass and never while
+flagged, so neither calls the verdict advisory, and the flag lead stays ONE line
+ending in a colon (the steward's `watcher.FindingOf` drops it as the line that
+does). `bash .github/scripts/ai-verify-test.sh` tests that transport, the note
+and the lead with stub `claude` and `curl` (core's `scripts/aiverify_test.go`
 cases; this repository has no Go module).
 `.github/scripts/ai-verify-context.sh` renders the changed ENTRIES
 (keyed by work slug across the touched packs, so a pack split is invisible),
