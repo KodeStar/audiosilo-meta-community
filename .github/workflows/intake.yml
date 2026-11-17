@@ -88,8 +88,37 @@ permissions: {}
 # `data:<template>` emits several events at once, and the generic `data` event is
 # intentionally skipped by the job-level guard - with cancel-in-progress it would
 # cancel the run that opens the pull request.
+#
+# That is not the whole of it, because GitHub keeps at most ONE PENDING run per
+# group and a newer arrival replaces it, in-progress cancellation or not. So an
+# event the job-level `if` will skip - a label that is not a routing label, the
+# outcome label the last step applies, an edit to an issue with no `data:` label -
+# queued behind a running intake would cancel a REAL run waiting behind it, and
+# the submission would sit there with no pull request and no comment. Skipped
+# events therefore get their own `-noop` group, as in core's intake.yml and
+# ai-verify.yml. The condition below is a VERBATIM copy of the intake job's `if`
+# (its call and `issues` halves), so keeping the two in step is a matter of
+# keeping them identical. A called run (route.yml) shares the issue's `run` group
+# with a later edit's.
 concurrency:
-  group: ${{ github.event_name == 'push' && 'intake-rebase' || format('intake-{0}', github.event.issue.number) }}
+  group: >-
+    ${{ github.event_name == 'push' && 'intake-rebase' || format('intake-{0}-{1}', github.event.issue.number,
+    (
+      (
+        inputs.issue_number > 0 &&
+        inputs.issue_number == github.event.issue.number
+      ) || github.event_name == 'issues' && (
+      (
+        github.event.action != 'labeled' &&
+        contains(join(github.event.issue.labels.*.name), 'data:')
+      ) || (
+        github.event.action == 'labeled' &&
+        startsWith(github.event.label.name, 'data:') &&
+        github.event.label.name != 'data:invalid' &&
+        github.event.label.name != 'data:needs-human' &&
+        github.event.label.name != 'data:duplicate'
+      ))
+    ) && 'run' || 'noop') }}
   cancel-in-progress: false
 
 env:
