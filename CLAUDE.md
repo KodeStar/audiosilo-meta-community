@@ -108,8 +108,10 @@ measured). Both workflows instead do a **blobless sparse checkout of core's
 tooling directories at a pinned sha** and run from it. The sha is ONE file,
 `.github/core-ref`, which both read into `CORE_REF` through
 `.github/scripts/core-ref.sh`, so the bot always composes with the rules the
-checks validate against; bump it in its own pull request. The full rationale is
-in check.yml's env comment.
+checks validate against; bump it in its own pull request. Each core checkout's
+`ref` falls back to a name that does not exist, so a job that never read the pin
+fails rather than floating on core's main. The full rationale is in check.yml's
+env comment.
 
 ## The AI review (ai-verify.yml) and the steward
 

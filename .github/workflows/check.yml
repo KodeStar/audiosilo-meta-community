@@ -86,7 +86,11 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: ${{ env.CORE_REPO }}
-          ref: ${{ env.CORE_REF }}
+          # Never empty: with no ref this checkout takes core's DEFAULT BRANCH,
+          # so a job that lost the step above would float on core's main and
+          # stay green. An unread pin names a ref that does not exist instead,
+          # and the checkout fails.
+          ref: ${{ env.CORE_REF || 'core-ref-not-read' }}
           path: core
           # Blobless + sparse: the tooling, the schemas and the module files,
           # never data/. Without this the checkout would pull the whole core

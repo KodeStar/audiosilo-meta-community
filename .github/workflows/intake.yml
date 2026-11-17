@@ -172,7 +172,9 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: ${{ env.CORE_REPO }}
-          ref: ${{ env.CORE_REF }}
+          # Never empty (see check.yml): an unread pin fails here, it does not
+          # float on core's main.
+          ref: ${{ env.CORE_REF || 'core-ref-not-read' }}
           path: core
           # Blobless + sparse: the tooling, the schemas and the module files,
           # never core's data/ - see check.yml.
@@ -380,7 +382,9 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: ${{ env.CORE_REPO }}
-          ref: ${{ env.CORE_REF }}
+          # Never empty (see check.yml): an unread pin fails here, it does not
+          # float on core's main.
+          ref: ${{ env.CORE_REF || 'core-ref-not-read' }}
           path: core
           sparse-checkout: |
             cmd
