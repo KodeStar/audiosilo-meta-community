@@ -122,7 +122,9 @@ request) and falls back to the Claude Code CLI on `CLAUDE_CODE_OAUTH_TOKEN`, the
 subscription meta-sync's resolver shares (meta-sync#63).
 The comment's pass note and flag lead are core's bot-origin ones for every pull
 request: the steward merges a data-only pull request on a pass and never while
-flagged, so neither calls the verdict advisory, and the flag lead stays ONE line
+flagged, so neither calls the verdict advisory (the pass note adds that a fork's
+pull request, which the steward only lists, is a maintainer's to merge), and the
+flag lead stays ONE line
 ending in a colon (the steward's `watcher.FindingOf` drops it as the line that
 does). `bash .github/scripts/ai-verify-test.sh` tests that transport, the note
 and the lead with stub `claude` and `curl` (core's `scripts/aiverify_test.go`

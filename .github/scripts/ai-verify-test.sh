@@ -137,6 +137,11 @@ grep -qF 'does not merge a pull request while it is flagged' "$WORK/flag/comment
 grep -qF 'merges a data-only pull request on this verdict' "$WORK/oauth/comment.md" \
   && ! grep -qF 'a maintainer still reviews before merge' "$WORK/oauth/comment.md" \
   || fail "the pass comment does not say the steward merges on it: $(cat "$WORK/oauth/comment.md")"
+# A fork's pull request (judged on a maintainer's dispatch) carries this comment
+# too, and the steward only lists that one, so the pass note leaves it to a
+# maintainer rather than promise a merge that never comes.
+grep -qF "a pull request from a fork is a maintainer's to merge" "$WORK/oauth/comment.md" \
+  || fail "the pass comment does not leave a fork's pull request to a maintainer: $(cat "$WORK/oauth/comment.md")"
 while IFS= read -r line; do
   line="$(printf '%s' "$line" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
   case "$line" in "" | "#"* | "- "*) continue ;; esac

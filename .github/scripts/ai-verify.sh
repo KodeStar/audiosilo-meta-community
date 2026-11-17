@@ -263,12 +263,17 @@ printf '%s\n' "$VERDICT_JSON" > "$VERDICT_OUT"
 # request on `ai-verified` once its other checks pass, and never while it is
 # `ai-flagged` (it answers the flag with a delete-only fix or parks it), so no
 # maintainer review stands between a pass and the merge and a flag IS a merge
-# block. The pass note says "data-only" because a pull request that also changes
-# a file outside data/ is the steward's to review, never to merge. FLAG_LEAD is ONE line ending in a colon: the steward reads a flag that
-# lists no findings by its prose lines and drops the lead as the line that ends
-# in one (its watcher.FindingOf), so a lead ending otherwise would read there as
-# the same finding on every such flag.
-PASS_NOTE="The steward (audiosilo-meta-sync) merges a data-only pull request on this verdict once its other checks pass."
+# block. The pass note names the two pull requests that is not true of, since
+# both can carry this comment: one that also changes a file outside data/ is the
+# steward's to review, never to merge (hence "data-only"), and one from a fork
+# (judged on a maintainer's dispatch) is only listed by it, so a maintainer
+# merges that one.
+#
+# FLAG_LEAD is ONE line ending in a colon: the steward reads a flag that lists
+# no findings by its prose lines and drops the lead as the line that ends in one
+# (its watcher.FindingOf), so a lead ending otherwise would read there as the
+# same finding on every such flag.
+PASS_NOTE="The steward (audiosilo-meta-sync) merges a data-only pull request on this verdict once its other checks pass; a pull request from a fork is a maintainer's to merge."
 FLAG_LEAD="The steward (audiosilo-meta-sync) does not merge a pull request while it is flagged: it answers the flag or leaves the pull request for a maintainer. Claude flagged the following:"
 
 {
