@@ -117,7 +117,13 @@ posts `### AI verification: passed|flagged` plus the `ai-verified` /
 `ai-flagged` label. `.github/scripts/ai-verify.sh` is core's script of the same
 name with a community prompt: the transport, the untrusted-data handling, the
 verdict parse and the comment render are copied and must stay in step with
-core's. `.github/scripts/ai-verify-context.sh` renders the changed ENTRIES
+core's. The transport prefers the `ANTHROPIC_API_KEY` secret (billed per pull
+request) and falls back to the Claude Code CLI on `CLAUDE_CODE_OAUTH_TOKEN`, the
+subscription meta-sync's resolver shares (meta-sync#63).
+`bash .github/scripts/ai-verify-test.sh` tests that transport and the flag
+lead's colon with stub `claude` and `curl` (core's `scripts/aiverify_test.go`
+cases; this repository has no Go module).
+`.github/scripts/ai-verify-context.sh` renders the changed ENTRIES
 (keyed by work slug across the touched packs, so a pack split is invisible),
 never a raw diff.
 
@@ -177,7 +183,7 @@ ready pull requests cost about N*(N+1)/2 model runs (14, about 100, on
 - **CI security is deliberate**: plain `pull_request`, never
   `pull_request_target`, and a read-only token with no secrets. Core carries the
   same rule for the same reason. The one exception is `ai-verify.yml`, which
-  needs the OAuth secret and `pull-requests: write` to post its verdict - and
+  needs a model secret and `pull-requests: write` to post its verdict - and
   therefore runs only on same-repo branches (and a maintainer's dispatch), never
   on a fork, with the contributor text handed to a tool-less model as data.
 - **The merge driver is not optional for pack conflicts.** git's line merge can
