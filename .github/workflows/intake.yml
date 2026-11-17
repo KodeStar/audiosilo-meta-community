@@ -292,7 +292,7 @@ jobs:
             fi
             echo "Closes #${ISSUE} on merge."
             echo
-            echo "> Composed by the intake bot. A maintainer still reviews and approves before merge."
+            echo "> Composed by the intake bot. The steward (audiosilo-meta-sync) merges it once its checks and the AI review pass, and never while it is flagged."
           } > pr-body.md
 
       - name: Open the pull request
