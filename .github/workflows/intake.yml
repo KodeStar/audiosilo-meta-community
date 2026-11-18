@@ -454,6 +454,11 @@ jobs:
         # leave every conflicted pull request for a human, which is the safe way
         # round.
         run: |
+          # GitHub runs this under `bash -e` (its default for a run: with no
+          # shell:), which does not reach a command tested by if, elif, ! or
+          # ||. Every failure the sweep means to survive is caught that way,
+          # and a status it reads later is taken through `|| var=$?`; anything
+          # else stops the step red, which is the safe way round.
           set -uo pipefail
           git config user.name "audiosilo-intake-bot"
           git config user.email "intake-bot@users.noreply.github.com"
@@ -465,12 +470,15 @@ jobs:
           # would never be swept. LEAST RECENTLY UPDATED first: a swept branch's
           # force-push bumps its updatedAt, so a sweep the job timeout cuts short
           # leaves the unswept ones at the FRONT of the next sweep. A listing that
-          # fails is a red run, not "no open intake pull requests": nothing is
-          # touched either way, but a silent green sweep would hide it. --base:
+          # fails, or is anything but a JSON array (an empty reply reads as no
+          # pull requests to jq), is a red run, not "no open intake pull
+          # requests": nothing is touched either way, but a silent green sweep
+          # would hide it. --base:
           # the sweep rebases onto main, which would rewrite a pull request
           # aimed at any other branch into one carrying all of main.
           if ! gh pr list --state open --base main --label bot-intake --limit 500 \
                 --json number,headRefName,headRefOid,isCrossRepository,updatedAt > "$RUNNER_TEMP/prs.json" \
+              || ! jq -e 'type == "array"' "$RUNNER_TEMP/prs.json" > /dev/null \
               || ! jq -r '.[] | select(.isCrossRepository) | "::warning::PR #\(.number) is from a fork; the sweep only rebases branches in this repository. Skipped."' "$RUNNER_TEMP/prs.json" \
               || ! jq -r 'sort_by(.updatedAt) | .[] | select(.isCrossRepository | not) | [.number, .headRefName, .headRefOid] | @tsv' "$RUNNER_TEMP/prs.json" > "$RUNNER_TEMP/prs.tsv"; then
             echo "::error::could not list the open intake pull requests; no branch was touched"
@@ -486,7 +494,7 @@ jobs:
           # driver below run these copies, never whatever a swept branch's tree
           # holds. Built only now, after the no-pull-requests exit, because the
           # common sweep has nothing to do. A failed build fails the whole sweep
-          # (by hand: this step runs without -e), which is right - without
+          # (by hand, since the if keeps -e out of it), which is right - without
           # trusted tools there is nothing it may run.
           tools="${RUNNER_TEMP}/intake-sweep-tools"
           if ! mkdir -p "$tools" \
@@ -609,14 +617,17 @@ jobs:
           # (watcher.SweepFailurePrefix, matched as a prefix), so the text must
           # come first.
           comment_once() {
-            local comments found
+            local comments found=0
             if ! comments="$(gh pr view "$1" --json comments)"; then
               echo "::warning::could not read the comments on PR #$1; not commenting"
               return
             fi
+            # || keeps -e off jq's "not found" (1), which a bare status read
+            # after it would not: the step stopped there, red, before the first
+            # comment of any kind was posted, and the rest of the sweep with it.
             printf '%s' "$comments" | jq -e --arg me "$self_login" --arg marker "$2" \
-              'any(.comments[]; ($me == "" or ((.author.login // "") | sub("\\[bot\\]$"; "")) == $me) and ((.body // "") | contains($marker)))' > /dev/null
-            found=$?
+              'any(.comments[]; ($me == "" or ((.author.login // "") | sub("\\[bot\\]$"; "")) == $me) and ((.body // "") | contains($marker)))' > /dev/null \
+              || found=$?
             if [ "$found" -eq 0 ]; then
               return
             elif [ "$found" -ne 1 ]; then
