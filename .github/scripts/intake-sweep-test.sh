@@ -242,8 +242,10 @@ seed reset -q --hard
 start; put scripts/run-me.sh 'echo run me'; commit added; seed rm -q scripts/run-me.sh
 put data/works-community/b/b.json '{"entries":{"beta":{"recaps":{"y":2}}}}'; commit removed; pr intake/issue-3
 start; put 'x [click](http:evil.example) #1 @someone <!-- m -->.json' '{}'; commit markdown; pr intake/issue-4
+# chmod in the working tree, not update-index: an index-only bit leaves the
+# file modified, and main_moves's checkout of main would then abort.
 start; put data/works-community/e/e.json '{"entries":{"eta":{"recaps":{"y":2}}}}'
-seed add -A; seed update-index --chmod=+x data/works-community/e/e.json; seed commit -q -m executable; pr intake/issue-5
+chmod +x "$C/seed/data/works-community/e/e.json"; commit executable; pr intake/issue-5
 before="$(for b in 1 2 3 4 5; do tip "intake/issue-$b"; done)"
 main_moves README.md more
 sweep
