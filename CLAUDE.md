@@ -206,7 +206,10 @@ ready pull requests cost about N*(N+1)/2 model runs (14, about 100, on
   job holds a persisted write token while it checks intake branches out, so it
   builds metafmt and metacheck from the pinned core and copies main's
   `scripts/pack-union-merge.sh` into the runner temp before touching any branch,
-  names the driver by that absolute path. It skips a fork's branch (a log
-  line) and refuses, with one comment, a branch adding a symbolic link or
-  changing anything outside `data/**/*.json`. Core's intake.yml does the same;
-  keep the two in step.
+  and names the driver by that absolute path. It skips a fork's branch (a log
+  line) and refuses, with one comment, a branch any commit of which adds a
+  symbolic link or changes anything but plainly named `data/**/*.json`. It
+  names every ref in full (`refs/remotes/origin/main`), since a tag or branch
+  called `origin/main` would otherwise become the rebase base. Core's
+  intake.yml carries the same sweep (the full refs and the per-commit and
+  plain-name rules are still to be ported there); keep the two in step.
