@@ -85,6 +85,13 @@ jobs:
       - name: Test the core pin reader
         run: bash .github/scripts/core-ref-test.sh
 
+      # intake.yml's rebase sweep, lifted out of the workflow and run as GitHub
+      # runs it against a local origin, with a stub gh and stub tools (no
+      # secret, no network). It is the one step that checks branches out
+      # beside a write token, so what it refuses is pinned here.
+      - name: Test the intake sweep
+        run: bash .github/scripts/intake-sweep-test.sh
+
       # core is public, so this job's read-only token is enough for
       # core-ref.sh's compare call.
       - name: Read the core tooling pin
