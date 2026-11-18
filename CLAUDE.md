@@ -221,5 +221,9 @@ ready pull requests cost about N*(N+1)/2 model runs (14, about 100, on
   runs under `bash -e` (GitHub's default for a `run:` with no `shell:`), so a
   status it reads goes through `||`; `.github/scripts/intake-sweep-test.sh` runs
   the step that way against a local origin (check.yml runs it; it needs bash
-  4.4, so not macOS's). Core's intake.yml carries the same sweep, with the same
-  rules and guards; keep the two in step.
+  4.4, so not macOS's). The give-up comment opens with its marker alone on the
+  first line (`<!-- intake-sweep:rebase-failed <head> <reason> -->`), then
+  "The intake bot could not rebase this branch onto ...": a CONTRACT with
+  audiosilo-meta-sync's steward (`watcher.IsSweepFailure`,
+  `watcher.SweepFailureHead`). Core's intake.yml carries the same sweep, with
+  the same rules, guards and comment shape; keep the two in step.

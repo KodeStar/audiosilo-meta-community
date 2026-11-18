@@ -612,10 +612,11 @@ jobs:
           # hidden marker ($2) and is not posted again while a comment of the
           # sweep's own bears it. A comment listing that fails, or cannot be
           # read, is not taken as "none yet" - that way round would comment on
-          # every push. The marker goes LAST: audiosilo-meta-sync's steward
-          # knows the give-up comment by its opening words
-          # (watcher.SweepFailurePrefix, matched as a prefix), so the text must
-          # come first.
+          # every push. The marker is the body's first line, alone, and the
+          # text follows on the next: audiosilo-meta-sync's steward knows the
+          # give-up notice by a line that opens with its marker
+          # (watcher.IsSweepFailure, which reads the head it names from there),
+          # the same shape core's sweep posts.
           comment_once() {
             local comments found=0
             if ! comments="$(gh pr view "$1" --json comments)"; then
@@ -634,9 +635,8 @@ jobs:
               echo "::warning::could not read the comments on PR #$1; not commenting"
               return
             fi
-            gh pr comment "$1" --body "$3
-
-          $2" \
+            gh pr comment "$1" --body "$2
+          $3" \
               || echo "::warning::could not comment on PR #$1"
           }
 

@@ -152,6 +152,15 @@ commented() {
   jq -e --arg n "$1" --arg t "$2" 'select(.number == $n and (.body | contains($t)))' "$C/comments.jsonl" > /dev/null \
     || fail "$NAME: no comment on #$1 holds '$2'"
 }
+# first_lines NUMBER MARKER SENTENCE: a comment on that pull request opens with
+# the marker alone on its first line and the sentence on the next, the shape
+# audiosilo-meta-sync's steward reads (watcher.IsSweepFailure) and core posts.
+first_lines() {
+  jq -e --arg n "$1" --arg m "$2" --arg t "$3" \
+    'select(.number == $n and ((.body | split("\n")) as $l | ($l[0] | startswith($m)) and (($l[1] // "") | startswith($t))))' \
+    "$C/comments.jsonl" > /dev/null \
+    || fail "$NAME: no comment on #$1 opens with '$2' and then '$3'"
+}
 comments() { [ "$(wc -l < "$C/comments.jsonl" | tr -d ' ')" -eq "$1" ] || fail "$NAME: $(wc -l < "$C/comments.jsonl" | tr -d ' ') comment(s), want $1"; }
 tools_ran() { [ "$(tr '\n' ' ' < "$C/tools.log")" = "$1" ] || fail "$NAME: the tools that ran were '$(tr '\n' ' ' < "$C/tools.log")', want '$1'"; }
 # quiet: nothing git or a tool printed reached the log where the runner would
@@ -183,10 +192,10 @@ exited 0
 grep -q -- '--base main' "$C/gh-list-args" || fail "$NAME: the listing is not held to pull requests into main"
 unmoved intake/issue-1 "$link_tip"
 commented 1 "it adds or changes a symbolic link, a submodule or an executable file (\`data/works-community/l.json\`)"
-commented 1 "<!-- intake-sweep:not-rebased -->"
+first_lines 1 "<!-- intake-sweep:not-rebased -->" "The intake bot does not rebase this pull request"
 unmoved intake/issue-2 "$clash_tip"
 commented 2 "The intake bot could not rebase this branch onto \`main\` mechanically: the pack merge could not resolve data/works-community/0/0.json"
-commented 2 "<!-- intake-sweep:rebase-failed ${clash_tip} "
+first_lines 2 "<!-- intake-sweep:rebase-failed ${clash_tip} " "The intake bot could not rebase this branch onto"
 unmoved fork-branch "$fork_tip"
 logged "::warning::PR #3 is from a fork"
 rebased intake/issue-4
