@@ -390,8 +390,9 @@ jobs:
   # named after the branch can be one git already holds (refs/remotes/origin/HEAD
   # points at origin/main), so either would let a tag or a branch name become
   # the base every pull request is rebased onto. Everything left that reads the
-  # branch reads it as data - which still leaves one thing the branch reaches:
-  # the entry keys metafmt turns into file names (slug_keys, in the step).
+  # branch reads it as data - which still leaves two things the branch reaches:
+  # the entry keys metafmt turns into file names (slug_keys, in the step) and
+  # the text git and the tools print into the log (inert, in the step).
   rebase:
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
@@ -535,6 +536,31 @@ jobs:
             "$tools/metafmt" --write -data "$GITHUB_WORKSPACE/data" --profile community
           }
           chk() { "$tools/metacheck" -data "$GITHUB_WORKSPACE/data" --profile community; }
+
+          # inert runs a command with the runner's workflow commands switched off
+          # for what it prints. That output is partly the branch's: git quotes a
+          # replayed commit's subject, and the tools quote entry keys and values.
+          # The runner acts on ##[command] anywhere in a line (and ::command:: at
+          # the start of one), which is enough to forge an annotation, mask
+          # arbitrary text out of the log, or switch off the warnings this sweep
+          # raises for every later pull request. The token is random per call,
+          # since whoever knows it can switch the commands back on; stderr joins
+          # stdout so neither overtakes the markers, and the closing marker gets
+          # a line of its own, since output that ends without a newline would
+          # otherwise swallow it and leave the commands off. Without a token the
+          # output is dropped rather than shown live.
+          inert() {
+            local token status=0
+            token="$(head -c 16 /dev/urandom | od -An -tx1 | tr -d ' \n')"
+            if [ "${#token}" -ne 32 ]; then
+              "$@" > /dev/null 2>&1
+              return
+            fi
+            echo "::stop-commands::${token}"
+            "$@" 2>&1 || status=$?
+            printf '\n::%s::\n' "$token"
+            return "$status"
+          }
 
           # changes lists what a branch ($2) changes against main ($1), in git's
           # raw format (modes, then a tab and the path). The whole change against
@@ -704,14 +730,14 @@ jobs:
               # inside the replay, and says so on the line grepped for below.
               rebaselog="${RUNNER_TEMP}/rebase-${number}.log"
               if git rebase "$main_sha" > "$rebaselog" 2>&1; then
-                cat "$rebaselog"
+                inert cat "$rebaselog"
                 if grep -q "merged both sides" "$rebaselog"; then
                   # A driver merge lands as jq's rendering of the entry map, and
                   # the merged pack may now be due a split, so normalize before
                   # pushing - the same pass the conflicted path runs below.
-                  if ! fmt; then
+                  if ! inert fmt; then
                     failure="metafmt could not normalize the merged tree"
-                  elif ! chk; then
+                  elif ! inert chk; then
                     failure="metacheck rejected the merged tree"
                   else
                     git add data
@@ -722,7 +748,7 @@ jobs:
                   fi
                 fi
               else
-                cat "$rebaselog"
+                inert cat "$rebaselog"
                 # Three-way merge every conflicted pack file, then let metafmt place
                 # and re-render the result. Anything else - a conflict outside
                 # data/, or one member edited on both sides - is for a person.
@@ -740,20 +766,20 @@ jobs:
                 fi
                 for f in "${conflicted[@]}"; do
                   case "$f" in
-                    data/*.json) "$tools/pack-union-merge.sh" "$f" || failure="the pack merge could not resolve ${f}" ;;
+                    data/*.json) inert "$tools/pack-union-merge.sh" "$f" || failure="the pack merge could not resolve ${f}" ;;
                     *) failure="conflict outside the data tree: ${f}" ;;
                   esac
                   [ -z "$failure" ] || break
                 done
-                if [ -z "$failure" ] && ! fmt; then
+                if [ -z "$failure" ] && ! inert fmt; then
                   failure="metafmt could not normalize the merged tree"
                 fi
-                if [ -z "$failure" ] && ! chk; then
+                if [ -z "$failure" ] && ! inert chk; then
                   failure="metacheck rejected the merged tree"
                 fi
                 if [ -z "$failure" ]; then
                   git add data
-                  GIT_EDITOR=true git rebase --continue || failure="the rebase could not be continued"
+                  inert env GIT_EDITOR=true git rebase --continue || failure="the rebase could not be continued"
                 fi
               fi
             fi
