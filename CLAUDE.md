@@ -209,10 +209,11 @@ ready pull requests cost about N*(N+1)/2 model runs (14, about 100, on
   and names the driver by that absolute path. It skips a fork's branch (a log
   line) and refuses, with one comment, a branch whose whole change or any one
   commit changes anything but a regular file plainly named `data/**/*.json` (a
-  symbolic link, a submodule or an executable included). It fetches main and the branch into two refs of its
-  own (`refs/intake-sweep/main`, `refs/intake-sweep/head`) and works by their
-  commit ids, since a tag or branch called `origin/main`, or a branch called
-  `HEAD`, would otherwise become the rebase base. Two things a branch still
+  symbolic link, a submodule or an executable included). It fetches main and
+  the branch into two refs of its own (`refs/intake-sweep/main`,
+  `refs/intake-sweep/head`) and works by their commit ids, since a tag or
+  branch called `origin/main`, or a branch called `HEAD`, would otherwise
+  become the rebase base. Two things a branch still
   reaches are held as well. metafmt runs only on a tree whose every entry key is
   a slug: it names a split pack after an entry key, so a key like `a/../../x`
   was a file written outside `data/` (the root fix is core's, in pkg/pack). And

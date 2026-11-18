@@ -383,17 +383,17 @@ jobs:
   # only when it is a same-repository branch whose every commit, and whose whole
   # diff against main, touches only regular, plainly named JSON files under
   # data/: no symbolic link, submodule or executable (a fork's is a warning in
-  # the log; a refused branch is a warning and one comment on the pull
-  # request). The two refs the
-  # rules and the rebase read are the sweep's OWN, spelled out in full
-  # (refs/intake-sweep/main and refs/intake-sweep/head): a short name like
-  # origin/main is resolved through tags and local branches first, and a ref
-  # named after the branch can be one git already holds (refs/remotes/origin/HEAD
-  # points at origin/main), so either would let a tag or a branch name become
-  # the base every pull request is rebased onto. Everything left that reads the
-  # branch reads it as data - which still leaves two things the branch reaches:
-  # the entry keys metafmt turns into file names (slug_keys, in the step) and
-  # the text git and the tools print into the log (inert, in the step).
+  # the log; a refused branch is a warning and one comment on the pull request).
+  # The two refs the rules and the rebase read are the sweep's OWN, spelled out
+  # in full (refs/intake-sweep/main and refs/intake-sweep/head): a short name
+  # like origin/main is resolved through tags and local branches first, and a
+  # ref named after the branch can be one git already holds
+  # (refs/remotes/origin/HEAD points at origin/main), so either would let a tag
+  # or a branch name become the base every pull request is rebased onto.
+  # Everything left that reads the branch reads it as data - which still leaves
+  # two things the branch reaches: the entry keys metafmt turns into file names
+  # (slug_keys, in the step) and the text git and the tools print into the log
+  # (inert, in the step).
   rebase:
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
