@@ -313,14 +313,11 @@ unmoved intake/issue-1 "$stop_tip"
 tools_ran ""
 commented 1 "the rebase stopped without a conflict to resolve"
 
-# A merged tree that cannot be staged is that pull request's failure, on both
-# replay paths: the step runs under bash -e, and stopping there would leave
-# every pull request behind it unswept, on every push, since the one that fails
-# keeps the oldest updatedAt. The sweep stages with `git add data` and nothing
-# else does, so a git that fails exactly that fails only the merged branch. The
-# second sweep takes the conflicted path (the driver switched off, so the
-# replay stops and the recipe resolves the pack) to the same reason, which is
-# not said twice.
+# A merged tree that cannot be staged is that pull request's give-up reason on
+# both replay paths, and the pull request behind it is still rebased. Only the
+# sweep runs `git add data`, so the stub fails exactly that. The second sweep
+# switches the driver off to take the conflicted path to the same reason,
+# which is not said twice.
 new_case staging
 start; put data/works-community/0/0.json '{"entries":{"alpha":{"characters":{"x":1}},"beta":{"recaps":{"y":2}}}}'
 commit "intake: issue #1"; pr intake/issue-1

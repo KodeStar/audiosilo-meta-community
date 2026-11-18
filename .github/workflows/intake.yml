@@ -745,12 +745,9 @@ jobs:
                   elif ! inert chk; then
                     failure="metacheck rejected the merged tree"
                   elif ! git add data; then
-                    # Tested like every other step of the replay: bare, a
-                    # failure here would stop the whole step under -e, and a
-                    # branch that fails it every time is never pushed, so it
-                    # keeps the oldest updatedAt and every pull request behind
-                    # it would go unswept on every push to main, with nothing
-                    # said on any of them.
+                    # Tested, as on the conflicted path: bare, a failure would
+                    # end the step under -e on every push, and leave every pull
+                    # request behind this one unswept.
                     failure="the merged tree could not be staged"
                   elif ! git diff --cached --quiet; then
                     GIT_EDITOR=true git commit --amend --no-edit --quiet \
