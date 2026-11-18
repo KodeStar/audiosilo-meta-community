@@ -381,8 +381,8 @@ jobs:
   # checkout, and the merge driver, copied from MAIN - are installed into the
   # runner temp before the first branch is touched, and a branch is swept at all
   # only when it is a same-repository branch whose every commit, and whose whole
-  # diff against main, touches only plainly named JSON files under data/ with no
-  # symbolic link or submodule (a fork's is a warning in the log; a refused
+  # diff against main, touches only regular, plainly named JSON files under
+  # data/ (no symbolic link, submodule or executable; a fork's is a warning in the log; a refused
   # branch is a warning and one comment on the pull request). The two refs the
   # rules and the rebase read are the sweep's OWN, spelled out in full
   # (refs/intake-sweep/main and refs/intake-sweep/head): a short name like
@@ -645,15 +645,20 @@ jobs:
           # one note covers it whatever happens next.
           refused_marker="<!-- intake-sweep:not-rebased -->"
           # shown renders the branch-controlled paths a refusal names: five at
-          # most, on one line, without the characters that would make a mention
-          # or a marker of a file name in the bot's own comment. Its callers put
-          # the result in a CODE SPAN, which is what keeps the rest of markdown
-          # out - a link, an image, an issue reference, a bare www. name - and
-          # the backtick is dropped here so a name cannot close that span.
-          shown() { printf '%s' "$1" | head -n 5 | tr '\n' ' ' | tr -d '[:cntrl:]`<>@' | cut -c 1-300; }
+          # most, each cut short and in a code span of its own, with every
+          # character outside [A-Za-z0-9._/ -] turned into ?, so no file name
+          # can make a mention, a link, markup, an issue reference, a marker or
+          # a workflow command out of the warning or the bot's comment, as in
+          # core's sweep. The sed's backticks are escaped inside double quotes,
+          # since a backtick in single quotes is SC2016 to actionlint's shell
+          # check.
+          shown() {
+            printf '%s\n' "$1" | head -n 5 | cut -c 1-120 \
+              | LC_ALL=C tr -c 'A-Za-z0-9._/ \n-' '?' | sed "s/.*/\`&\`/" | paste -sd ' ' -
+          }
           refuse() {
             echo "::warning::PR #$1 is not rebased by the sweep: $2"
-            comment_once "$1" "$refused_marker" "The intake bot does not rebase this pull request onto \`main\`: $2. Its sweep checks a branch out beside a write token, so it only takes branches whose every commit changes nothing but plainly named JSON files under \`data/\`. A maintainer has to rebase this one (or split the other change out). This note is posted once."
+            comment_once "$1" "$refused_marker" "The intake bot does not rebase this pull request onto \`main\`: $2. Its sweep checks a branch out beside a write token, so it only takes branches whose every commit changes nothing but regular, plainly named JSON files under \`data/\`. A maintainer has to rebase this one (or split the other change out). This note is posted once."
           }
 
           swept=0
@@ -698,20 +703,22 @@ jobs:
               # Unclassifiable is not sweepable: the rule below cannot be asked.
               failure="the branch's changed files could not be listed"
             elif ! links="$(changes "$main_sha" "$attempted_sha" \
-                | awk -F'\t' 'NF { split($1, mode, " "); if (mode[2] != "100644" && mode[2] != "100755" && mode[2] != "000000") print $2 }' \
+                | awk -F'\t' 'NF { split($1, mode, " "); if (mode[2] != "100644" && mode[2] != "000000") print $2 }' \
                 | sort -u)"; then
               failure="the branch's commits could not be listed"
             elif [ -n "$links" ]; then
-              # Something that is NOT A REGULAR FILE, added or retargeted in the
-              # branch's whole change or by any one of its commits (--raw's
-              # second mode column is the new mode: 100644 or 100755 for a file,
-              # 000000 for a removal, and anything else is refused - 120000 is a
-              # symbolic link, 160000 a submodule). metafmt --write reads and
-              # rewrites files through a link, so one under data/ pointing at
-              # .git/config or a workflow would be followed out of the tree with
-              # the token persisted; a submodule is a directory git fills from
-              # somewhere else, which no pack file is.
-              refuse "$number" "it adds or changes a symbolic link or a submodule (\`$(shown "$links")\`)"
+              # Something that is NOT A REGULAR, NON-EXECUTABLE FILE, added or
+              # retargeted in the branch's whole change or by any one of its
+              # commits (--raw's second mode column is the new mode: 100644 for
+              # a file, 000000 for a removal, and anything else is refused -
+              # 100755 is an executable, 120000 a symbolic link, 160000 a
+              # submodule). metafmt --write reads and rewrites files through a
+              # link, so one under data/ pointing at .git/config or a workflow
+              # would be followed out of the tree with the token persisted; a
+              # submodule is a directory git fills from somewhere else, which no
+              # pack file is; and no data file here is executable, so one that
+              # is would be something to run, not data (core refuses it too).
+              refuse "$number" "it adds or changes a symbolic link, a submodule or an executable file ($(shown "$links"))"
               echo "::endgroup::"
               continue
             elif [ -n "$outside" ]; then
@@ -721,12 +728,13 @@ jobs:
               # something nobody here reviewed. Both the whole change and EVERY
               # commit are asked (see changes): a commit that adds a file a
               # later one removes still puts it in the tree mid-replay, and back
-              # on the branch with the push. The name is held to
-              # [A-Za-z0-9._/-]: git quotes a name with a control or non-ASCII
-              # character, which then matches nothing here, so a newline that
-              # would start a workflow command in the log, or a marker spelled
-              # out in a path, never reaches a log line or a comment.
-              refuse "$number" "it changes files other than plainly named \`data/**/*.json\` (\`$(shown "$outside")\`)"
+              # on the branch with the push. A name that passes is held to
+              # [A-Za-z0-9._/-] (git quotes a name with a control or non-ASCII
+              # character, which then matches nothing here); one refused reaches
+              # the log and the comment only through shown, so a newline that
+              # would start a workflow command, or a marker spelled out in a
+              # path, never does.
+              refuse "$number" "it changes files other than plainly named \`data/**/*.json\` ($(shown "$outside"))"
               echo "::endgroup::"
               continue
             elif git merge-base --is-ancestor "$main_sha" "$attempted_sha"; then

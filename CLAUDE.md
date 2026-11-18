@@ -208,8 +208,8 @@ ready pull requests cost about N*(N+1)/2 model runs (14, about 100, on
   `scripts/pack-union-merge.sh` into the runner temp before touching any branch,
   and names the driver by that absolute path. It skips a fork's branch (a log
   line) and refuses, with one comment, a branch whose whole change or any one
-  commit adds a symbolic link or a submodule, or changes anything but plainly
-  named `data/**/*.json`. It fetches main and the branch into two refs of its
+  commit adds a symbolic link, a submodule or an executable, or changes
+  anything but plainly named `data/**/*.json`. It fetches main and the branch into two refs of its
   own (`refs/intake-sweep/main`, `refs/intake-sweep/head`) and works by their
   commit ids, since a tag or branch called `origin/main`, or a branch called
   `HEAD`, would otherwise become the rebase base. Two things a branch still
@@ -221,8 +221,5 @@ ready pull requests cost about N*(N+1)/2 model runs (14, about 100, on
   runs under `bash -e` (GitHub's default for a `run:` with no `shell:`), so a
   status it reads goes through `||`; `.github/scripts/intake-sweep-test.sh` runs
   the step that way against a local origin (check.yml runs it; it needs bash
-  4.4, so not macOS's). Core's intake.yml carries the same sweep, with the full
-  refs, the per-commit plain-name, link and submodule rules, the sanitised paths
-  and the listing check (the sweep's own refs, the key guard, the stopped
-  commands, `--base main` and the stop on a rebase that failed without a
-  conflict are still to be ported there); keep the two in step.
+  4.4, so not macOS's). Core's intake.yml carries the same sweep, with the same
+  rules and guards; keep the two in step.

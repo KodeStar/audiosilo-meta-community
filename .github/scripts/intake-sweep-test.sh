@@ -182,7 +182,7 @@ sweep
 exited 0
 grep -q -- '--base main' "$C/gh-list-args" || fail "$NAME: the listing is not held to pull requests into main"
 unmoved intake/issue-1 "$link_tip"
-commented 1 "it adds or changes a symbolic link or a submodule (\`data/works-community/l.json\`)"
+commented 1 "it adds or changes a symbolic link, a submodule or an executable file (\`data/works-community/l.json\`)"
 commented 1 "<!-- intake-sweep:not-rebased -->"
 unmoved intake/issue-2 "$clash_tip"
 commented 2 "The intake bot could not rebase this branch onto \`main\` mechanically: the pack merge could not resolve data/works-community/0/0.json"
@@ -220,8 +220,8 @@ quiet
 
 # What a branch may not carry, each refused before it is checked out: a link a
 # merge commit adds (git log shows no diff for one), a submodule entry, a file
-# outside data/ that a later commit removes again, and a name written to be
-# read as markdown.
+# outside data/ that a later commit removes again, a name written to be read
+# as markdown, and an executable data file.
 new_case refused
 start; put data/works-community/b/b.json '{"entries":{"beta":{"recaps":{"y":2}}}}'; commit c1
 seed checkout -q -B side "$BASE"; put data/works-community/c/c.json '{"entries":{}}'; commit side
@@ -229,19 +229,22 @@ seed checkout -q work; seed merge -q --no-ff --no-commit side 2> /dev/null
 ln -s ../../.git/config "$C/seed/data/works-community/l.json"; commit "merge side"; pr intake/issue-1
 start; seed update-index --add --cacheinfo "160000,${BASE},data/works-community/sub.json"; seed commit -q -m gitlink; pr intake/issue-2
 seed reset -q --hard
-start; put scripts/pack-union-merge.sh 'echo run me'; commit added; seed rm -q scripts/pack-union-merge.sh
+start; put scripts/run-me.sh 'echo run me'; commit added; seed rm -q scripts/run-me.sh
 put data/works-community/b/b.json '{"entries":{"beta":{"recaps":{"y":2}}}}'; commit removed; pr intake/issue-3
 start; put 'x [click](http:evil.example) #1 @someone <!-- m -->.json' '{}'; commit markdown; pr intake/issue-4
-before="$(for b in 1 2 3 4; do tip "intake/issue-$b"; done)"
+start; put data/works-community/e/e.json '{"entries":{"eta":{"recaps":{"y":2}}}}'
+seed add -A; seed update-index --chmod=+x data/works-community/e/e.json; seed commit -q -m executable; pr intake/issue-5
+before="$(for b in 1 2 3 4 5; do tip "intake/issue-$b"; done)"
 main_moves README.md more
 sweep
 exited 0
-[ "$(for b in 1 2 3 4; do tip "intake/issue-$b"; done)" = "$before" ] || fail "$NAME: a refused branch was pushed"
-commented 1 "a symbolic link or a submodule (\`data/works-community/l.json\`)"
-commented 2 "a symbolic link or a submodule (\`data/works-community/sub.json\`)"
-commented 3 "files other than plainly named \`data/**/*.json\` (\`scripts/pack-union-merge.sh\`)"
-commented 4 "(\`x [click](http:evil.example) #1 someone !-- m --.json\`)"
-comments 4
+[ "$(for b in 1 2 3 4 5; do tip "intake/issue-$b"; done)" = "$before" ] || fail "$NAME: a refused branch was pushed"
+commented 1 "a symbolic link, a submodule or an executable file (\`data/works-community/l.json\`)"
+commented 2 "a symbolic link, a submodule or an executable file (\`data/works-community/sub.json\`)"
+commented 3 "files other than plainly named \`data/**/*.json\` (\`scripts/run-me.sh\`)"
+commented 4 "(\`x ?click??http?evil.example? ?1 ?someone ??-- m --?.json\`)"
+commented 5 "a symbolic link, a submodule or an executable file (\`data/works-community/e/e.json\`)"
+comments 5
 tools_ran ""
 logged "rebased 0 pull request(s)"
 
