@@ -9,7 +9,8 @@
 # (bash -e) against a local bare origin. gh is a stub on PATH that serves the
 # pull request listing and keeps the comments it is asked to post; `go build`
 # is a stub that installs a metafmt and a metacheck which only record that they
-# ran; metacheck refuses a tree that holds an entry called unsound. The stub metafmt
+# ran, and how if it was not over this tree under the community profile;
+# metacheck refuses a tree that holds an entry called unsound. The stub metafmt
 # changes nothing, so what the real one would do to a tree is not tested here:
 # the guards in front of it are. Nothing reaches the network. Runs every case
 # and exits non-zero if any failed. This repository's stand-in for core's
@@ -70,13 +71,15 @@ esac
 EOF
 # go build -o DIR/ ./cmd/metafmt ./cmd/metacheck. The tools it installs print
 # what a workflow command looks like, as a real one quoting a branch's value
-# could, and say so if they are ever run over a tree holding a symbolic link.
+# could, and say so if they are ever run over a tree holding a symbolic link,
+# or run without `-data` naming this tree and `--profile community` after it.
 cat > "$WORK/bin/go" <<'EOF'
 #!/usr/bin/env bash
 for t in metafmt metacheck; do
   cat > "$3$t" <<TOOL
 #!/usr/bin/env bash
 echo "$t" >> "\$C/tools.log"
+case " \$* " in *" -data \$GITHUB_WORKSPACE/data --profile community "*) ;; *) echo "$t ran as: \$*" >> "\$C/tools.log" ;; esac
 [ -z "\$(find "\$GITHUB_WORKSPACE/data" -type l)" ] || echo "$t saw a symbolic link" >> "\$C/tools.log"
 echo "::error::forged by $t"
 echo "$t says ##[error]forged mid-line"
