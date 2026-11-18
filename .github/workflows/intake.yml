@@ -454,11 +454,16 @@ jobs:
           # --limit: gh lists 30 by default, and a pull request past the 30th
           # would never be swept. LEAST RECENTLY UPDATED first: a swept branch's
           # force-push bumps its updatedAt, so a sweep the job timeout cuts short
-          # leaves the unswept ones at the FRONT of the next sweep.
-          gh pr list --state open --label bot-intake --limit 500 \
-            --json number,headRefName,headRefOid,isCrossRepository,updatedAt > "$RUNNER_TEMP/prs.json"
-          jq -r '.[] | select(.isCrossRepository) | "::warning::PR #\(.number) is from a fork; the sweep only rebases branches in this repository. Skipped."' "$RUNNER_TEMP/prs.json"
-          jq -r 'sort_by(.updatedAt) | .[] | select(.isCrossRepository | not) | [.number, .headRefName, .headRefOid] | @tsv' "$RUNNER_TEMP/prs.json" > "$RUNNER_TEMP/prs.tsv"
+          # leaves the unswept ones at the FRONT of the next sweep. A listing that
+          # fails is a red run, not "no open intake pull requests": nothing is
+          # touched either way, but a silent green sweep would hide it.
+          if ! gh pr list --state open --label bot-intake --limit 500 \
+                --json number,headRefName,headRefOid,isCrossRepository,updatedAt > "$RUNNER_TEMP/prs.json" \
+              || ! jq -r '.[] | select(.isCrossRepository) | "::warning::PR #\(.number) is from a fork; the sweep only rebases branches in this repository. Skipped."' "$RUNNER_TEMP/prs.json" \
+              || ! jq -r 'sort_by(.updatedAt) | .[] | select(.isCrossRepository | not) | [.number, .headRefName, .headRefOid] | @tsv' "$RUNNER_TEMP/prs.json" > "$RUNNER_TEMP/prs.tsv"; then
+            echo "::error::could not list the open intake pull requests; no branch was touched"
+            exit 1
+          fi
           if [ ! -s "$RUNNER_TEMP/prs.tsv" ]; then
             echo "no open intake pull requests"
             exit 0
