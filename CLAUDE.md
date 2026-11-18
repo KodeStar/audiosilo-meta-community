@@ -208,8 +208,8 @@ ready pull requests cost about N*(N+1)/2 model runs (14, about 100, on
   `scripts/pack-union-merge.sh` into the runner temp before touching any branch,
   and names the driver by that absolute path. It skips a fork's branch (a log
   line) and refuses, with one comment, a branch whose whole change or any one
-  commit adds a symbolic link, a submodule or an executable, or changes
-  anything but plainly named `data/**/*.json`. It fetches main and the branch into two refs of its
+  commit changes anything but a regular file plainly named `data/**/*.json` (a
+  symbolic link, a submodule or an executable included). It fetches main and the branch into two refs of its
   own (`refs/intake-sweep/main`, `refs/intake-sweep/head`) and works by their
   commit ids, since a tag or branch called `origin/main`, or a branch called
   `HEAD`, would otherwise become the rebase base. Two things a branch still

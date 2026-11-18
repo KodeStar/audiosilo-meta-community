@@ -152,9 +152,10 @@ commented() {
   jq -e --arg n "$1" --arg t "$2" 'select(.number == $n and (.body | contains($t)))' "$C/comments.jsonl" > /dev/null \
     || fail "$NAME: no comment on #$1 holds '$2'"
 }
-# first_lines NUMBER MARKER SENTENCE: a comment on that pull request opens with
-# the marker alone on its first line and the sentence on the next, the shape
-# audiosilo-meta-sync's steward reads (watcher.IsSweepFailure) and core posts.
+# first_lines NUMBER MARKER SENTENCE: a comment on that pull request has a
+# first line that opens with the marker and a second that opens with the
+# sentence, the shape audiosilo-meta-sync's steward reads
+# (watcher.IsSweepFailure) and core posts.
 first_lines() {
   jq -e --arg n "$1" --arg m "$2" --arg t "$3" \
     'select(.number == $n and ((.body | split("\n")) as $l | ($l[0] | startswith($m)) and (($l[1] // "") | startswith($t))))' \
@@ -191,11 +192,11 @@ sweep
 exited 0
 grep -q -- '--base main' "$C/gh-list-args" || fail "$NAME: the listing is not held to pull requests into main"
 unmoved intake/issue-1 "$link_tip"
-commented 1 "it adds or changes a symbolic link, a submodule or an executable file (\`data/works-community/l.json\`)"
+commented 1 "it changes something other than a regular file plainly named \`data/**/*.json\` (\`data/works-community/l.json\`)"
 first_lines 1 "<!-- intake-sweep:not-rebased -->" "The intake bot does not rebase this pull request"
 unmoved intake/issue-2 "$clash_tip"
-commented 2 "The intake bot could not rebase this branch onto \`main\` mechanically: the pack merge could not resolve data/works-community/0/0.json"
-first_lines 2 "<!-- intake-sweep:rebase-failed ${clash_tip} " "The intake bot could not rebase this branch onto"
+first_lines 2 "<!-- intake-sweep:rebase-failed ${clash_tip} " \
+  "The intake bot could not rebase this branch onto \`main\` mechanically: the pack merge could not resolve data/works-community/0/0.json"
 unmoved fork-branch "$fork_tip"
 logged "::warning::PR #3 is from a fork"
 rebased intake/issue-4
@@ -248,11 +249,11 @@ main_moves README.md more
 sweep
 exited 0
 [ "$(for b in 1 2 3 4 5; do tip "intake/issue-$b"; done)" = "$before" ] || fail "$NAME: a refused branch was pushed"
-commented 1 "a symbolic link, a submodule or an executable file (\`data/works-community/l.json\`)"
-commented 2 "a symbolic link, a submodule or an executable file (\`data/works-community/sub.json\`)"
-commented 3 "files other than plainly named \`data/**/*.json\` (\`scripts/run-me.sh\`)"
+commented 1 "it changes something other than a regular file plainly named \`data/**/*.json\` (\`data/works-community/l.json\`)"
+commented 2 "it changes something other than a regular file plainly named \`data/**/*.json\` (\`data/works-community/sub.json\`)"
+commented 3 "it changes something other than a regular file plainly named \`data/**/*.json\` (\`scripts/run-me.sh\`)"
 commented 4 "(\`x ?click??http?evil.example? ?1 ?someone ??-- m --?.json\`)"
-commented 5 "a symbolic link, a submodule or an executable file (\`data/works-community/e/e.json\`)"
+commented 5 "it changes something other than a regular file plainly named \`data/**/*.json\` (\`data/works-community/e/e.json\`)"
 comments 5
 tools_ran ""
 logged "rebased 0 pull request(s)"
