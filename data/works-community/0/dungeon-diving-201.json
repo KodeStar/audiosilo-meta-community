@@ -1121,18 +1121,6 @@
             "role": "supporting"
           },
           {
-            "aliases": [
-              "the elf princess"
-            ],
-            "description": "The ruby-haired elf princess, known as Ellie, and one of Ken's partners. She is about to return to the elven world and guards her share of Ken's time jealously. She and Fayeth spend several days with Ken before they depart.",
-            "id": "ellie",
-            "name": "Ellie",
-            "reveal": {
-              "chapter": 5
-            },
-            "role": "supporting"
-          },
-          {
             "description": "An elf swordswoman who guards the elf princess. Now that the survivors have reached Star City, the party plans to escort her back to the elven world together with the princess, with Fayeth going along.",
             "id": "chief-censor",
             "name": "Chief censor",
