@@ -224,10 +224,13 @@ ready pull requests cost about N*(N+1)/2 model runs (14, about 100, on
   with no driver merge once kept a stale split pack, a copy of main's entries in
   a second pack, and pushed it for three days (#517). metafmt is not run on a
   tree that holds one entry in two packs with different content (`one_copy`):
-  it settles an entry held twice by keeping the copy in the pack whose range
-  covers it and discarding the other, and a stale pack makes the kept copy the
-  branch's, so over #517's tree it deleted recaps main had merged since and left
-  a tree metacheck passes. Identical copies are metafmt's to settle. The test's
+  an older metafmt settled an entry held twice by keeping the copy in the pack
+  whose range covers it and discarding the other, and a stale pack made the kept
+  copy the branch's, so over #517's tree it deleted recaps main had merged since
+  and left a tree metacheck passes. The pinned metafmt refuses such a tree
+  itself (`pack.ErrDifferingCopies`: `--write` exits 2 and writes nothing);
+  `one_copy` stays as the cheap first check with a clearer reason. Identical
+  copies are metafmt's to settle. The test's
   stub metafmt changes nothing, so it covers these guards and not what the real
   metafmt does to a tree. The step
   runs under `bash -e` (GitHub's default for a `run:` with no `shell:`), so a

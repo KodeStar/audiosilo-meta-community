@@ -362,9 +362,10 @@ comments 1
 # A clean rebase with no driver merge can still leave a tree no pack rule
 # allows: the branch split a pack at one cut, main split it at another, and the
 # replay kept the branch's new pack, a stale copy of an entry main now holds in
-# a pack of its own (#517). metafmt settles an entry held twice by discarding
-# one copy, and the stale pack makes that one main's, so where the two differ
-# it is not run and nothing is pushed. A copy identical to main's loses nothing:
+# a pack of its own (#517). An older metafmt settled an entry held twice by
+# discarding one copy, and the stale pack made that one main's; the pinned one
+# refuses the tree. Either way, where the two differ one_copy parks the branch
+# before metafmt runs and nothing is pushed. A copy identical to main's loses nothing:
 # that branch goes to the tools and is rebased. A second sweep of the parked
 # head says nothing new.
 new_case stale

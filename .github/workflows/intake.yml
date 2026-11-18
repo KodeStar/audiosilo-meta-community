@@ -535,21 +535,23 @@ jobs:
               | xargs -0 -r jq -n -e '[inputs | .entries | objects | keys_unsorted[] | test("\\A[a-z0-9-]+\\z")] | all' > /dev/null
           }
 
-          # one_copy is the other thing metafmt is owed: no entry key held by two
-          # packs with different content. metafmt --write settles a key held
-          # twice by keeping the copy in the pack whose range covers it and
-          # discarding the other, and exits 0 whether or not the two agreed. A
-          # stale pack on a branch narrows the range of main's pack, so the copy
-          # kept is the branch's stale one and the copy discarded is main's:
-          # over #517's tree (reproduced against the pin) it deleted the recaps
-          # main had merged for one work since the copy was made, and left a
-          # tree metacheck passes. That is a contributor's text removed by a
-          # rebase, under green checks. Copies that are identical lose nothing
-          # and stay metafmt's to settle. One jq over one stream, not xargs: the
-          # two copies must meet in one process, and xargs splits a long list of
-          # files. slug_keys runs first, so every file is JSON by now. The
-          # choice is pkg/pack's, at the pinned core; this guard stays in front
-          # of it.
+          # one_copy asks for no entry key held by two packs with different
+          # content. Before core's pack.ErrDifferingCopies, metafmt --write
+          # settled such a key by keeping the copy in the pack whose range
+          # covers it, discarding the other, and exiting 0. A stale pack on a
+          # branch narrows the range of main's pack, so the copy kept was the
+          # branch's stale one and the copy discarded was main's: over #517's
+          # tree it deleted the recaps main had merged for one work since the
+          # copy was made, and left a tree metacheck passes. The pinned core's
+          # metafmt now refuses that tree itself (--write exits 2 and writes
+          # nothing, --check exits 1), so this guard is no longer what saves
+          # the text. It stays because it is cheap: one jq pass parks the
+          # branch with a reason that names the cause, where metafmt would
+          # survey the whole tree first, and a pin moved back to an older core
+          # cannot reopen the hole. Copies that are identical lose nothing
+          # and stay metafmt's to settle. One jq over one stream, not xargs:
+          # the two copies must meet in one process, and xargs splits a long
+          # list of files. slug_keys runs first, so every file is JSON by now.
           one_copy() {
             find "$GITHUB_WORKSPACE/data" -type f -name '*.json' -exec cat {} + \
               | jq -n -e '[inputs | .entries | objects | to_entries[]] | group_by(.key) | all(map(.value) | unique | length == 1)' > /dev/null
@@ -563,7 +565,7 @@ jobs:
               return 1
             fi
             if ! one_copy; then
-              echo "an entry is in two packs with different content, and metafmt would discard one copy; it is not run on the tree (metafmt --check names the entry)"
+              echo "an entry is in two packs with different content; metafmt is not run on the tree (metafmt --check names the entry)"
               return 1
             fi
             "$tools/metafmt" --write -data "$GITHUB_WORKSPACE/data" --profile community
