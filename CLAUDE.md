@@ -11,9 +11,7 @@ its CLAUDE.md is worth reading before any non-trivial change.
 4.0 characters, recaps and description sidecars, keyed by work slug, plus the
 optional `position_scale` member stating the ruler those positions are on
 (AUTHORING.md). The third
-member, `description` - the spoiler-free intro paragraph - is schema-supported
-once core's `schema_version` 6 change has landed and `CORE_REF` has been bumped
-to it; written against an older pin, metacheck rejects it. No Go module, no
+member, `description`, is the spoiler-free intro paragraph. No Go module, no
 schemas, no build - the tooling all lives in core and is run against this tree.
 The three authoring guides (AUTHORING.md, EXTRACTION.md, EXTRACTION-AUDIO.md)
 live here because they document the process that produces this content.

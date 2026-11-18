@@ -56,11 +56,6 @@ data/works-community/<dir>/<bound>.json
 }
 ```
 
-`description` is the newest member: it validates once core's schema change
-(artifact `schema_version` 6) has landed and this repository's pinned
-`CORE_REF` has been bumped to it. Written against an older pin, `metacheck`
-rejects it as an unknown member.
-
 The family is separate from `data/works/` so the licence boundary is structural:
 everything in `works-community` is **CC BY-SA 4.0**, everything in the core
 families is CC0. Every member carries `license` (**must** be `"CC-BY-SA-4.0"`)
