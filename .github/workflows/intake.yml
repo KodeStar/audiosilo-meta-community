@@ -571,6 +571,22 @@ jobs:
             return "$status"
           }
 
+          # settle is what every replay owes before its tree is pushed, clean or
+          # conflicted: the trusted metafmt, then metacheck, then the result
+          # staged. The first to fail leaves the give-up reason in `failure`,
+          # naming the tree as $1 does. `git add` is tested like the other two:
+          # bare, a failure would end the step under -e on every push to main,
+          # and leave every pull request behind this one unswept.
+          settle() {
+            if ! inert fmt; then
+              failure="metafmt could not normalize the $1 tree"
+            elif ! inert chk; then
+              failure="metacheck rejected the $1 tree"
+            elif ! git add data; then
+              failure="the $1 tree could not be staged"
+            fi
+          }
+
           # changes lists what a branch ($2) changes against main ($1), in git's
           # raw format (modes, then a tab and the path). The whole change against
           # the merge base comes first: that is the tree `checkout -B` puts in
@@ -750,16 +766,8 @@ jobs:
                 if grep -q "merged both sides" "$rebaselog"; then
                   tree="merged"
                 fi
-                if ! inert fmt; then
-                  failure="metafmt could not normalize the ${tree} tree"
-                elif ! inert chk; then
-                  failure="metacheck rejected the ${tree} tree"
-                elif ! git add data; then
-                  # Tested, as on the conflicted path: bare, a failure would
-                  # end the step under -e on every push, and leave every pull
-                  # request behind this one unswept.
-                  failure="the ${tree} tree could not be staged"
-                elif ! git diff --cached --quiet; then
+                settle "$tree"
+                if [ -z "$failure" ] && ! git diff --cached --quiet; then
                   GIT_EDITOR=true git commit --amend --no-edit --quiet \
                     || failure="the normalized ${tree} tree could not be committed"
                 fi
@@ -787,15 +795,7 @@ jobs:
                   esac
                   [ -z "$failure" ] || break
                 done
-                if [ -z "$failure" ] && ! inert fmt; then
-                  failure="metafmt could not normalize the merged tree"
-                fi
-                if [ -z "$failure" ] && ! inert chk; then
-                  failure="metacheck rejected the merged tree"
-                fi
-                if [ -z "$failure" ] && ! git add data; then
-                  failure="the merged tree could not be staged"
-                fi
+                [ -n "$failure" ] || settle merged
                 if [ -z "$failure" ]; then
                   inert env GIT_EDITOR=true git rebase --continue || failure="the rebase could not be continued"
                 fi
