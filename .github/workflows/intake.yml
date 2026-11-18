@@ -744,12 +744,17 @@ jobs:
                     failure="metafmt could not normalize the merged tree"
                   elif ! inert chk; then
                     failure="metacheck rejected the merged tree"
-                  else
-                    git add data
-                    if ! git diff --cached --quiet; then
-                      GIT_EDITOR=true git commit --amend --no-edit --quiet \
-                        || failure="the normalized merge could not be committed"
-                    fi
+                  elif ! git add data; then
+                    # Tested like every other step of the replay: bare, a
+                    # failure here would stop the whole step under -e, and a
+                    # branch that fails it every time is never pushed, so it
+                    # keeps the oldest updatedAt and every pull request behind
+                    # it would go unswept on every push to main, with nothing
+                    # said on any of them.
+                    failure="the merged tree could not be staged"
+                  elif ! git diff --cached --quiet; then
+                    GIT_EDITOR=true git commit --amend --no-edit --quiet \
+                      || failure="the normalized merge could not be committed"
                   fi
                 fi
               else
@@ -782,8 +787,10 @@ jobs:
                 if [ -z "$failure" ] && ! inert chk; then
                   failure="metacheck rejected the merged tree"
                 fi
+                if [ -z "$failure" ] && ! git add data; then
+                  failure="the merged tree could not be staged"
+                fi
                 if [ -z "$failure" ]; then
-                  git add data
                   inert env GIT_EDITOR=true git rebase --continue || failure="the rebase could not be continued"
                 fi
               fi

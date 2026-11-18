@@ -129,13 +129,14 @@ main_moves() {
   seed push -q origin main
 }
 # sweep: a fresh clone of origin, as actions/checkout leaves it, and the step
-# run in it under bash -e. $PRE runs in the clone first.
+# run in it under bash -e. $PRE runs in the clone first, and a stub a case puts
+# in $C/bin comes before every other command of that name.
 sweep() {
   rm -rf "$C/ws"
   git clone -q "$C/origin.git" "$C/ws"
   mkdir "$C/ws/core"
   code=0
-  (cd "$C/ws" && eval "${PRE:-:}" && PATH="$WORK/bin:$PATH" RUNNER_TEMP="$C/rt" GITHUB_WORKSPACE="$C/ws" \
+  (cd "$C/ws" && eval "${PRE:-:}" && PATH="$C/bin:$WORK/bin:$PATH" RUNNER_TEMP="$C/rt" GITHUB_WORKSPACE="$C/ws" \
     LIST_FAIL="${LIST_FAIL:-}" bash -e "$WORK/sweep.sh") > "$C/log" 2>&1 || code=$?
 }
 
@@ -311,6 +312,45 @@ exited 0
 unmoved intake/issue-1 "$stop_tip"
 tools_ran ""
 commented 1 "the rebase stopped without a conflict to resolve"
+
+# A merged tree that cannot be staged is that pull request's failure, on both
+# replay paths: the step runs under bash -e, and stopping there would leave
+# every pull request behind it unswept, on every push, since the one that fails
+# keeps the oldest updatedAt. The sweep stages with `git add data` and nothing
+# else does, so a git that fails exactly that fails only the merged branch. The
+# second sweep takes the conflicted path (the driver switched off, so the
+# replay stops and the recipe resolves the pack) to the same reason, which is
+# not said twice.
+new_case staging
+start; put data/works-community/0/0.json '{"entries":{"alpha":{"characters":{"x":1}},"beta":{"recaps":{"y":2}}}}'
+commit "intake: issue #1"; pr intake/issue-1
+stuck_tip="$(tip intake/issue-1)"
+start; put data/works-community/b/b.json '{"entries":{"beta":{"recaps":{"y":2}}}}'; commit "intake: issue #2"; pr intake/issue-2
+main_moves data/works-community/0/0.json '{"entries":{"alpha":{"characters":{"x":1}},"gamma":{"characters":{"z":3}}}}'
+mkdir "$C/bin"
+cat > "$C/bin/git" <<STUB
+#!/usr/bin/env bash
+if [ "\$*" = "add data" ]; then echo "fatal: Unable to create index.lock" >&2; exit 128; fi
+if [ "\$1" = rebase ] && [ -e "\$C/no-driver" ]; then set -- -c merge.packjson.driver=false "\$@"; fi
+exec "$(command -v git)" "\$@"
+STUB
+chmod +x "$C/bin/git"
+sweep
+exited 0
+logged "merged both sides"
+unmoved intake/issue-1 "$stuck_tip"
+first_lines 1 "<!-- intake-sweep:rebase-failed ${stuck_tip} " \
+  "The intake bot could not rebase this branch onto \`main\` mechanically: the merged tree could not be staged."
+rebased intake/issue-2
+logged "rebased 1 pull request(s)"
+comments 1
+touch "$C/no-driver"
+sweep
+exited 0
+logged "CONFLICT"
+logged "::warning::PR #1 needs a human: the merged tree could not be staged"
+unmoved intake/issue-1 "$stuck_tip"
+comments 1
 
 # A listing that fails, or is anything but a JSON array, is a red step and not
 # "no open intake pull requests"; an empty array is that, and green.
