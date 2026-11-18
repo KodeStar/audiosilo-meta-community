@@ -12,8 +12,9 @@ name: intake
 #
 #   1. The TOOLING is a pinned, blobless sparse checkout of core (see check.yml,
 #      which does the same for the same reason - the core module is un-fetchable
-#      through the Go proxy). Every command runs from ./core against
-#      $GITHUB_WORKSPACE/data with `--profile community`.
+#      through the Go proxy). Every command is core's, run against
+#      $GITHUB_WORKSPACE/data with `--profile community`: `intake` runs it from
+#      ./core, `rebase` builds it from ./core first (see that job).
 #   2. The WORK-EXISTENCE question - is this sidecar keyed by a live core work
 #      slug - cannot be answered from this tree at all: the works family is not
 #      in it. metaissue is given `--works-db`, the newest data release's
@@ -30,8 +31,11 @@ name: intake
 # attachments HTTPS-only from GitHub's user-attachment hosts with a size cap. Do
 # not add a step that evals or runs anything derived from the issue. `rebase`
 # runs on `push` to main, trusted from the other end: the code it executes is
-# main's (and core's, at the pinned sha), and the only branches it rewrites
-# (force-push included) are ones this workflow created.
+# main's merge driver and core's tooling at the pinned sha, installed into the
+# runner temp before any branch is checked out and never run out of a swept
+# branch's tree, and the only branches it rewrites (force-push included) are
+# this repository's own bot-intake branches whose change is confined to JSON
+# files under data/ (see that job).
 #
 # The `labeled` trigger is load-bearing: the GitHub API silently DROPS labels on
 # issues opened by non-collaborators (the audiosilo-sidecars contributor tool
@@ -169,6 +173,9 @@ jobs:
           ref: main
 
       - name: Read the core tooling pin
+        env:
+          # For core-ref.sh's check that the pin is on core's main.
+          GH_TOKEN: ${{ github.token }}
         run: bash .github/scripts/core-ref.sh >> "$GITHUB_ENV"
 
       - name: Checkout the core tooling
@@ -360,9 +367,39 @@ jobs:
   # working tree cleaned, a comment posted, and the sweep moves on. A transport
   # failure (a lost --force-with-lease race, a branch deleted mid-sweep) must not
   # take the remaining pull requests down with it.
+  #
+  # SECURITY (core's rebase job, adapted): this job runs on `push` to main with
+  # a WRITE token persisted in .git/config (the force-push needs it), and it
+  # checks each swept branch out - so nothing it EXECUTES may come from that
+  # branch. A branch is selected by the bot-intake LABEL, which is data rather
+  # than proof of who wrote the branch, and a checked-out tree's
+  # `scripts/pack-union-merge.sh` is that branch's script, not main's (git runs a
+  # merge driver from the working tree's root, mid-replay). The same goes for
+  # the core checkout under core/, which is untracked here: a branch could add a
+  # file beside core's sources that a `go run` from core/ would compile in. So
+  # the tools the loop runs - metafmt and metacheck, built from the pinned core
+  # checkout, and the merge driver, copied from MAIN - are installed into the
+  # runner temp before the first branch is touched, and a branch is swept at all
+  # only when it is a same-repository branch whose every commit, and whose whole
+  # diff against main, touches only regular, plainly named JSON files under
+  # data/: no symbolic link, submodule or executable (a fork's is a warning in
+  # the log; a refused branch is a warning and one comment on the pull request).
+  # The two refs the rules and the rebase read are the sweep's OWN, spelled out
+  # in full (refs/intake-sweep/main and refs/intake-sweep/head): a short name
+  # like origin/main is resolved through tags and local branches first, and a
+  # ref named after the branch can be one git already holds
+  # (refs/remotes/origin/HEAD points at origin/main), so either would let a tag
+  # or a branch name become the base every pull request is rebased onto.
+  # Everything left that reads the branch reads it as data - which still leaves
+  # two things the branch reaches: the entry keys metafmt turns into file names
+  # (slug_keys, in the step) and the text git and the tools print into the log
+  # (inert, in the step).
   rebase:
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
+    # A hung sweep holds the intake-rebase group, which is what the bound is
+    # for; core's sweep, over a far larger tree, is observed up to ~9 minutes.
+    timeout-minutes: 45
     # Narrower than the intake job's: no issues: write, because nothing here
     # touches an issue.
     permissions:
@@ -374,11 +411,17 @@ jobs:
         with:
           # The rebase needs real history, and the PAT (when present) is what
           # makes the force-push re-trigger the required checks - the same
-          # reasoning as the create-pull-request step above.
+          # reasoning as the create-pull-request step above. The credential
+          # stays PERSISTED here: the sweep pushes with plain git. That, and the
+          # write-scoped GH_TOKEN in the sweep step's environment, is why the
+          # SECURITY note above keeps branch code out of this job's process
+          # tree; not persisting it would not be enough on its own.
           fetch-depth: 0
           token: ${{ secrets.INTAKE_PAT || github.token }}
 
       - name: Read the core tooling pin
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: bash .github/scripts/core-ref.sh >> "$GITHUB_ENV"
 
       - name: Checkout the core tooling
@@ -412,9 +455,55 @@ jobs:
         # leave every conflicted pull request for a human, which is the safe way
         # round.
         run: |
+          # GitHub runs this under `bash -e` (its default for a run: with no
+          # shell:), which does not reach a command tested by if, elif, ! or
+          # ||. Every failure the sweep means to survive is caught that way,
+          # and a status it reads later is taken through `|| var=$?`; anything
+          # else stops the step red, which is the safe way round.
           set -uo pipefail
           git config user.name "audiosilo-intake-bot"
           git config user.email "intake-bot@users.noreply.github.com"
+
+          # A fork's branch is not in this repository to rebase or push, and its
+          # content is nobody's this workflow can vouch for: logged, never swept.
+          #
+          # --limit: gh lists 30 by default, and a pull request past the 30th
+          # would never be swept. LEAST RECENTLY UPDATED first: a swept branch's
+          # force-push bumps its updatedAt, so a sweep the job timeout cuts short
+          # leaves the unswept ones at the FRONT of the next sweep. A listing that
+          # fails, or is anything but a JSON array (an empty reply reads as no
+          # pull requests to jq), is a red run, not "no open intake pull
+          # requests": nothing is touched either way, but a silent green sweep
+          # would hide it. --base:
+          # the sweep rebases onto main, which would rewrite a pull request
+          # aimed at any other branch into one carrying all of main.
+          if ! gh pr list --state open --base main --label bot-intake --limit 500 \
+                --json number,headRefName,headRefOid,isCrossRepository,updatedAt > "$RUNNER_TEMP/prs.json" \
+              || ! jq -e 'type == "array"' "$RUNNER_TEMP/prs.json" > /dev/null \
+              || ! jq -r '.[] | select(.isCrossRepository) | "::warning::PR #\(.number) is from a fork; the sweep only rebases branches in this repository. Skipped."' "$RUNNER_TEMP/prs.json" \
+              || ! jq -r 'sort_by(.updatedAt) | .[] | select(.isCrossRepository | not) | [.number, .headRefName, .headRefOid] | @tsv' "$RUNNER_TEMP/prs.json" > "$RUNNER_TEMP/prs.tsv"; then
+            echo "::error::could not list the open intake pull requests; no branch was touched"
+            exit 1
+          fi
+          if [ ! -s "$RUNNER_TEMP/prs.tsv" ]; then
+            echo "no open intake pull requests"
+            exit 0
+          fi
+
+          # The trusted tools, installed while main is still the checkout (see
+          # the job's SECURITY note): every metafmt/metacheck call and the merge
+          # driver below run these copies, never whatever a swept branch's tree
+          # holds. Built only now, after the no-pull-requests exit, because the
+          # common sweep has nothing to do. A failed build fails the whole sweep
+          # (by hand, since the if keeps -e out of it), which is right - without
+          # trusted tools there is nothing it may run.
+          tools="${RUNNER_TEMP}/intake-sweep-tools"
+          if ! mkdir -p "$tools" \
+              || ! (cd core && go build -o "$tools/" ./cmd/metafmt ./cmd/metacheck) \
+              || ! install -m 0755 scripts/pack-union-merge.sh "$tools/pack-union-merge.sh"; then
+            echo "::error::could not install the sweep's tools from main; no branch was touched"
+            exit 1
+          fi
 
           # .gitattributes routes data/**/*.json to this driver; a driver only
           # runs where it is configured, so this line is what turns it on for the
@@ -423,21 +512,78 @@ jobs:
           # anchored at different lines, and git then writes the key TWICE - a
           # file pkg/pack refuses and metafmt cannot re-render. The driver merges
           # the entry maps before any of that can happen, and refuses exactly what
-          # the recipe below refuses.
+          # the recipe below refuses. It names main's copy by absolute path: git
+          # runs a driver from the working tree's root, so a relative path would
+          # resolve to the replayed branch's script.
           git config merge.packjson.name "three-way merge of pack-file entries"
-          git config merge.packjson.driver "scripts/pack-union-merge.sh %O %A %B %P"
+          git config merge.packjson.driver "'$tools/pack-union-merge.sh' %O %A %B %P"
 
-          # The tooling runs from the core checkout against THIS tree, under the
-          # profile that says this root holds one family.
-          fmt() { (cd core && go run ./cmd/metafmt --write -data "$GITHUB_WORKSPACE/data" --profile community); }
-          chk() { (cd core && go run ./cmd/metacheck -data "$GITHUB_WORKSPACE/data" --profile community); }
+          # slug_keys is what metafmt is owed before it may write. A pack over its
+          # caps is split, and metafmt names the new pack after the ENTRY KEY the
+          # split falls on - at the pinned core without asking whether that key
+          # is a slug before joining it into a path. A branch's pack with a key
+          # like a/../../../x at the cut therefore had metafmt write a .json
+          # file outside data/, anywhere the runner user may write, with the
+          # token persisted (reproduced against the pin). So metafmt runs only
+          # on a tree whose every entry key is nothing but a-z, 0-9 and hyphens,
+          # as every slug is; metacheck refuses any other key one step later, so
+          # nothing mergeable is lost. \A and \z, not ^ and $: those can match at
+          # a line break inside a key. A file jq cannot read fails this too. The
+          # root fix is core's (pkg/pack refusing such a key); this guard stays.
+          slug_keys() {
+            find "$GITHUB_WORKSPACE/data" -type f -name '*.json' -print0 \
+              | xargs -0 -r jq -n -e '[inputs | .entries | objects | keys_unsorted[] | test("\\A[a-z0-9-]+\\z")] | all' > /dev/null
+          }
 
-          gh pr list --state open --label bot-intake --json number,headRefName \
-            --jq '.[] | [.number, .headRefName] | @tsv' > prs.tsv
-          if [ ! -s prs.tsv ]; then
-            echo "no open intake pull requests"
-            exit 0
-          fi
+          # The tooling runs against THIS tree, under the profile that says this
+          # root holds one family.
+          fmt() {
+            if ! slug_keys; then
+              echo "an entry key in the tree is not a slug, or a file is not JSON; metafmt is not run on it"
+              return 1
+            fi
+            "$tools/metafmt" --write -data "$GITHUB_WORKSPACE/data" --profile community
+          }
+          chk() { "$tools/metacheck" -data "$GITHUB_WORKSPACE/data" --profile community; }
+
+          # inert runs a command with the runner's workflow commands switched off
+          # for what it prints. That output is partly the branch's: git quotes a
+          # replayed commit's subject, and the tools quote entry keys and values.
+          # The runner acts on ##[command] anywhere in a line (and ::command:: at
+          # the start of one), which is enough to forge an annotation, mask
+          # arbitrary text out of the log, or switch off the warnings this sweep
+          # raises for every later pull request. The token is random per call,
+          # since whoever knows it can switch the commands back on; stderr joins
+          # stdout so neither overtakes the markers, and the closing marker gets
+          # a line of its own, since output that ends without a newline would
+          # otherwise swallow it and leave the commands off. Without a token the
+          # output is dropped rather than shown live.
+          inert() {
+            local token status=0
+            token="$(head -c 16 /dev/urandom | od -An -tx1 | tr -d ' \n')"
+            if [ "${#token}" -ne 32 ]; then
+              "$@" > /dev/null 2>&1
+              return
+            fi
+            echo "::stop-commands::${token}"
+            "$@" 2>&1 || status=$?
+            printf '\n::%s::\n' "$token"
+            return "$status"
+          }
+
+          # changes lists what a branch ($2) changes against main ($1), in git's
+          # raw format (modes, then a tab and the path). The whole change against
+          # the merge base comes first: that is the tree `checkout -B` puts in
+          # the working directory, a merge commit's own edits included, which
+          # `git log` shows no diff for. Then every commit on its own, which is
+          # every tree the replay passes through: a conflict can stop it at a
+          # commit whose file a later commit removes, and the push puts that
+          # commit back on the branch. --no-renames: a rename INTO data/ would
+          # otherwise list only its destination and hide the path it removed.
+          changes() {
+            git diff --no-renames --raw "$1...$2" \
+              && git log --no-renames --raw --format= "$1..$2"
+          }
 
           # restore returns the checkout to a clean copy of main. `git clean` is
           # not optional: metafmt --write can CREATE pack files before metacheck
@@ -449,68 +595,208 @@ jobs:
             git clean -fdq data 2>/dev/null || true
           }
 
+          # The sweep's own login, so comment_once counts only the markers the
+          # bot itself posted: anyone can write a marker into a comment, and one
+          # a contributor pasted must not mute the bot. Resolved once, through
+          # GraphQL's viewer, which answers for the workflow token and a PAT
+          # alike; a trailing "[bot]" is dropped on both sides, since REST and
+          # GraphQL spell a bot's login differently. Unresolved, the marker alone
+          # decides, with a warning.
+          self_login="$(gh api graphql -f query='query { viewer { login } }' --jq '.data.viewer.login')" || self_login=""
+          self_login="${self_login%"[bot]"}"
+          if [ -z "$self_login" ]; then
+            echo "::warning::could not resolve the sweep's own login; a marker in anyone's comment counts as already posted"
+          fi
+
+          # comment_once says something to a pull request ONCE: the sweep's
+          # verdicts recur on every push to main, so each comment carries a
+          # hidden marker ($2) and is not posted again while a comment of the
+          # sweep's own bears it. A comment listing that fails, or cannot be
+          # read, is not taken as "none yet" - that way round would comment on
+          # every push. The marker is the body's first line, alone, and the
+          # text follows on the next: audiosilo-meta-sync's steward knows the
+          # give-up notice by a line that opens with its marker
+          # (watcher.IsSweepFailure, which reads the head it names from there),
+          # the same shape core's sweep posts.
+          comment_once() {
+            local comments found=0
+            if ! comments="$(gh pr view "$1" --json comments)"; then
+              echo "::warning::could not read the comments on PR #$1; not commenting"
+              return
+            fi
+            # || keeps -e off jq's "not found" (1), which a bare status read
+            # after it would not: the step stopped there, red, before the first
+            # comment of any kind was posted, and the rest of the sweep with it.
+            printf '%s' "$comments" | jq -e --arg me "$self_login" --arg marker "$2" \
+              'any(.comments[]; ($me == "" or ((.author.login // "") | sub("\\[bot\\]$"; "")) == $me) and ((.body // "") | contains($marker)))' > /dev/null \
+              || found=$?
+            if [ "$found" -eq 0 ]; then
+              return
+            elif [ "$found" -ne 1 ]; then
+              echo "::warning::could not read the comments on PR #$1; not commenting"
+              return
+            fi
+            gh pr comment "$1" --body "$2
+          $3" \
+              || echo "::warning::could not comment on PR #$1"
+          }
+
+          # refuse leaves a pull request the sweep will not touch, and says why
+          # under a FIXED marker: the refusal is about what the branch is, so
+          # one note covers it whatever happens next.
+          refused_marker="<!-- intake-sweep:not-rebased -->"
+          # shown renders the branch-controlled paths a refusal names: five at
+          # most, each cut short and in a code span of its own, with every
+          # character outside [A-Za-z0-9._/ -] turned into ?, so no file name
+          # can make a mention, a link, markup, an issue reference, a marker or
+          # a workflow command out of the warning or the bot's comment, as in
+          # core's sweep. The sed's backticks are escaped inside double quotes,
+          # since a backtick in single quotes is SC2016 to actionlint's shell
+          # check.
+          shown() {
+            printf '%s\n' "$1" | head -n 5 | cut -c 1-120 \
+              | LC_ALL=C tr -c 'A-Za-z0-9._/ \n-' '?' | sed "s/.*/\`&\`/" | paste -sd ' ' -
+          }
+          refuse() {
+            echo "::warning::PR #$1 is not rebased by the sweep: $2"
+            comment_once "$1" "$refused_marker" "The intake bot does not rebase this pull request onto \`main\`: $2. Its sweep checks a branch out beside a write token, so it only takes branches whose every commit changes nothing but regular, plainly named JSON files under \`data/\`. A maintainer has to rebase this one (or split the other change out). This note is posted once."
+          }
+
           swept=0
-          while IFS=$'\t' read -r number branch; do
+          while IFS=$'\t' read -r number branch listed_sha; do
             echo "::group::PR #${number} (${branch})"
             failure=""
+            # The head the rebase attempts: the fetched tip, read before anything
+            # moves it. Until the fetch succeeds it is the head GitHub listed, so
+            # a failure that stops short of the fetch still names the branch's
+            # state and still changes when the branch does.
+            attempted_sha="$listed_sha"
+            # The sweep's own two refs, by full name, and never origin/main or
+            # anything spelled from the branch name. git resolves a short name
+            # through refs/tags/ and refs/heads/ before refs/remotes/, so a tag
+            # named origin/main, or the local branch `checkout -B` makes for a
+            # swept branch named origin/main, would otherwise be the base every
+            # later pull request is rebased onto - content no rule below ever
+            # looked at. And refs/remotes/origin/<branch> is no safer for being
+            # full: a branch named HEAD lands on refs/remotes/origin/HEAD, which
+            # git holds as a pointer at refs/remotes/origin/main wherever it has
+            # recorded the remote's default branch, so the fetch wrote the BRANCH
+            # over main's ref and the rules below compared the branch with
+            # itself. Nothing but the fetch below writes these two.
+            # It names its sources in full for the first reason (a remote tag
+            # can shadow a branch).
+            #
+            # Each is read ONCE, into a commit id, and everything after goes by
+            # those ids: a tag named like either ref makes the name ambiguous,
+            # which `git checkout -B` refuses outright, so one tag would
+            # otherwise stop the sweep of every pull request.
+            main_ref="refs/intake-sweep/main"
+            head_ref="refs/intake-sweep/head"
 
-            if ! git fetch --quiet origin main "$branch"; then
+            if ! git fetch --quiet origin "+refs/heads/main:${main_ref}" "+refs/heads/${branch}:${head_ref}"; then
               failure="the branch could not be fetched (deleted, or renamed?)"
-            elif git merge-base --is-ancestor origin/main "origin/${branch}"; then
+            elif ! main_sha="$(git rev-parse --verify --quiet "${main_ref}^{commit}")" \
+                || ! attempted_sha="$(git rev-parse --verify --quiet "${head_ref}^{commit}")"; then
+              attempted_sha="$listed_sha"
+              failure="the fetched branch could not be resolved"
+            elif ! refused="$(changes "$main_sha" "$attempted_sha" \
+                | awk -F'\t' '/^:/ { split($1, mode, " ")
+                    if ((mode[2] != "100644" && mode[2] != "000000") || $2 !~ "^data/[A-Za-z0-9._/-]*\\.json$") print $2 }' \
+                | sort -u)"; then
+              # Unclassifiable is not sweepable: the rule below cannot be asked.
+              failure="the branch's changed files could not be listed"
+            elif [ -n "$refused" ]; then
+              # The branch, in its whole change or in any one commit (see
+              # changes), writes something other than a regular file plainly
+              # named data/**/*.json, so rebasing it would put this job's write
+              # token beside a checkout of something nobody here reviewed:
+              # scripts/, a .gitattributes at any depth, a file under core/, an
+              # executable (no data file here is one), a symbolic link (metafmt
+              # --write would follow one out of the tree to .git/config), a
+              # submodule. --raw's second mode column is the new mode (000000: a
+              # removal). A commit that adds a file a later one removes still
+              # puts it in the tree mid-replay, and back on the branch with the
+              # push. git quotes a name with a control or non-ASCII character,
+              # which then matches nothing here, and a refused name reaches the
+              # log and the comment only through shown. The same rule as core's
+              # sweep.
+              refuse "$number" "it changes something other than a regular file plainly named \`data/**/*.json\` ($(shown "$refused"))"
+              echo "::endgroup::"
+              continue
+            elif git merge-base --is-ancestor "$main_sha" "$attempted_sha"; then
               echo "already on top of main"
               echo "::endgroup::"
               continue
-            elif ! git checkout --quiet -B "$branch" "origin/${branch}"; then
+            elif ! git checkout --quiet -B "$branch" "$attempted_sha"; then
               failure="the branch could not be checked out"
             else
               # The rebase output is kept because a CLEAN rebase can still have
               # merged two branches' entries: the driver resolves a pack conflict
               # inside the replay, and says so on the line grepped for below.
-              rebaselog="${RUNNER_TEMP:-/tmp}/rebase-${number}.log"
-              if git rebase origin/main > "$rebaselog" 2>&1; then
-                cat "$rebaselog"
+              rebaselog="${RUNNER_TEMP}/rebase-${number}.log"
+              if git rebase "$main_sha" > "$rebaselog" 2>&1; then
+                inert cat "$rebaselog"
                 if grep -q "merged both sides" "$rebaselog"; then
                   # A driver merge lands as jq's rendering of the entry map, and
                   # the merged pack may now be due a split, so normalize before
                   # pushing - the same pass the conflicted path runs below.
-                  if ! fmt; then
+                  if ! inert fmt; then
                     failure="metafmt could not normalize the merged tree"
-                  elif ! chk; then
+                  elif ! inert chk; then
                     failure="metacheck rejected the merged tree"
-                  else
-                    git add data
-                    if ! git diff --cached --quiet; then
-                      GIT_EDITOR=true git commit --amend --no-edit --quiet \
-                        || failure="the normalized merge could not be committed"
-                    fi
+                  elif ! git add data; then
+                    # Tested, as on the conflicted path: bare, a failure would
+                    # end the step under -e on every push, and leave every pull
+                    # request behind this one unswept.
+                    failure="the merged tree could not be staged"
+                  elif ! git diff --cached --quiet; then
+                    GIT_EDITOR=true git commit --amend --no-edit --quiet \
+                      || failure="the normalized merge could not be committed"
                   fi
                 fi
               else
-                cat "$rebaselog"
+                inert cat "$rebaselog"
                 # Three-way merge every conflicted pack file, then let metafmt place
                 # and re-render the result. Anything else - a conflict outside
                 # data/, or one member edited on both sides - is for a person.
-                for f in $(git diff --name-only --diff-filter=U); do
+                # NUL-delimited and read into an array rather than word-split, so
+                # a path with a space in it is one path; mapfile, not a `while
+                # read` pipeline, whose subshell would throw `failure` away.
+                mapfile -d '' -t conflicted < <(git diff -z --name-only --diff-filter=U)
+                if [ "${#conflicted[@]}" -eq 0 ]; then
+                  # Stopped with NO conflicted path: not a conflict, so nothing
+                  # the recipe below resolves, and the working tree is whatever
+                  # git left when it gave up - the branch's own head, if the
+                  # rebase never started. metafmt is not run over that, and
+                  # `rebase --continue` is not asked to finish what is not known.
+                  failure="the rebase stopped without a conflict to resolve"
+                fi
+                for f in "${conflicted[@]}"; do
                   case "$f" in
-                    data/*.json) scripts/pack-union-merge.sh "$f" || failure="the pack merge could not resolve ${f}" ;;
+                    data/*.json) inert "$tools/pack-union-merge.sh" "$f" || failure="the pack merge could not resolve ${f}" ;;
                     *) failure="conflict outside the data tree: ${f}" ;;
                   esac
                   [ -z "$failure" ] || break
                 done
-                if [ -z "$failure" ] && ! fmt; then
+                if [ -z "$failure" ] && ! inert fmt; then
                   failure="metafmt could not normalize the merged tree"
                 fi
-                if [ -z "$failure" ] && ! chk; then
+                if [ -z "$failure" ] && ! inert chk; then
                   failure="metacheck rejected the merged tree"
                 fi
+                if [ -z "$failure" ] && ! git add data; then
+                  failure="the merged tree could not be staged"
+                fi
                 if [ -z "$failure" ]; then
-                  git add data
-                  GIT_EDITOR=true git rebase --continue || failure="the rebase could not be continued"
+                  inert env GIT_EDITOR=true git rebase --continue || failure="the rebase could not be continued"
                 fi
               fi
             fi
 
-            if [ -z "$failure" ] && ! git push --force-with-lease origin "$branch"; then
+            # In full on both sides, and leased on the head the checks above
+            # passed: a short name is a refspec git reads (a leading + forces).
+            if [ -z "$failure" ] && ! git push --force-with-lease="refs/heads/${branch}:${attempted_sha}" \
+                origin "refs/heads/${branch}:refs/heads/${branch}"; then
               # A lost lease means someone else moved the branch while we worked;
               # the next push to main sweeps it again.
               failure="the branch moved while it was being rebased"
@@ -518,13 +804,19 @@ jobs:
 
             restore
             if [ -n "$failure" ]; then
-              gh pr comment "$number" --body "The intake bot could not rebase this branch onto \`main\` mechanically: ${failure}. It needs a maintainer." \
-                || echo "::warning::could not comment on PR #${number}"
               echo "::warning::PR #${number} needs a human: ${failure}"
+              # A stuck branch fails the same way on every push to main, so the
+              # comment is posted once per (attempted head, reason): the marker
+              # names both, the reason by digest because it can carry a path and
+              # a path can close an HTML comment. A new commit on the branch or a
+              # different failure is news and is said again.
+              reason="$(printf '%s' "$failure" | sha256sum | cut -c 1-16)"
+              comment_once "$number" "<!-- intake-sweep:rebase-failed ${attempted_sha} ${reason} -->" \
+                "The intake bot could not rebase this branch onto \`main\` mechanically: ${failure}. It needs a maintainer. This note is not repeated until the branch or the reason changes."
             else
               echo "rebased and pushed"
               swept=$((swept + 1))
             fi
             echo "::endgroup::"
-          done < prs.tsv
+          done < "$RUNNER_TEMP/prs.tsv"
           echo "rebased ${swept} pull request(s)"
