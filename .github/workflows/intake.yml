@@ -390,7 +390,8 @@ jobs:
   # named after the branch can be one git already holds (refs/remotes/origin/HEAD
   # points at origin/main), so either would let a tag or a branch name become
   # the base every pull request is rebased onto. Everything left that reads the
-  # branch reads it as data.
+  # branch reads it as data - which still leaves one thing the branch reaches:
+  # the entry keys metafmt turns into file names (slug_keys, in the step).
   rebase:
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
@@ -507,9 +508,32 @@ jobs:
           git config merge.packjson.name "three-way merge of pack-file entries"
           git config merge.packjson.driver "'$tools/pack-union-merge.sh' %O %A %B %P"
 
+          # slug_keys is what metafmt is owed before it may write. A pack over its
+          # caps is split, and metafmt names the new pack after the ENTRY KEY the
+          # split falls on - at the pinned core without asking whether that key
+          # is a slug before joining it into a path. A branch's pack with a key
+          # like a/../../../x at the cut therefore had metafmt write a .json
+          # file outside data/, anywhere the runner user may write, with the
+          # token persisted (reproduced against the pin). So metafmt runs only
+          # on a tree whose every entry key is nothing but a-z, 0-9 and hyphens,
+          # as every slug is; metacheck refuses any other key one step later, so
+          # nothing mergeable is lost. \A and \z, not ^ and $: those can match at
+          # a line break inside a key. A file jq cannot read fails this too. The
+          # root fix is core's (pkg/pack refusing such a key); this guard stays.
+          slug_keys() {
+            find "$GITHUB_WORKSPACE/data" -type f -name '*.json' -print0 \
+              | xargs -0 -r jq -n -e '[inputs | .entries | objects | keys_unsorted[] | test("\\A[a-z0-9-]+\\z")] | all' > /dev/null
+          }
+
           # The tooling runs against THIS tree, under the profile that says this
           # root holds one family.
-          fmt() { "$tools/metafmt" --write -data "$GITHUB_WORKSPACE/data" --profile community; }
+          fmt() {
+            if ! slug_keys; then
+              echo "an entry key in the tree is not a slug, or a file is not JSON; metafmt is not run on it"
+              return 1
+            fi
+            "$tools/metafmt" --write -data "$GITHUB_WORKSPACE/data" --profile community
+          }
           chk() { "$tools/metacheck" -data "$GITHUB_WORKSPACE/data" --profile community; }
 
           # changes lists what a branch ($2) changes against main ($1), in git's

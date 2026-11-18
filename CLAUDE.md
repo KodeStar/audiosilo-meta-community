@@ -212,8 +212,12 @@ ready pull requests cost about N*(N+1)/2 model runs (14, about 100, on
   named `data/**/*.json`. It fetches main and the branch into two refs of its
   own (`refs/intake-sweep/main`, `refs/intake-sweep/head`) and works by their
   commit ids, since a tag or branch called `origin/main`, or a branch called
-  `HEAD`, would otherwise become the rebase base. Core's intake.yml carries the
-  same sweep, with the full refs, the per-commit plain-name, link and submodule
-  rules, the sanitised paths and the listing check (the sweep's own refs,
-  `--base main` and the stop on a rebase that failed without a conflict are
-  still to be ported there); keep the two in step.
+  `HEAD`, would otherwise become the rebase base. One thing a branch still
+  reaches is held as well: metafmt runs only on a tree whose every entry key is
+  a slug, since it names a split pack after an entry key, so a key like
+  `a/../../x` was a file written outside `data/` (the root fix is core's, in
+  pkg/pack). Core's intake.yml carries the same sweep, with the full refs, the
+  per-commit plain-name, link and submodule rules, the sanitised paths and the
+  listing check (the sweep's own refs, the key guard, `--base main` and the stop
+  on a rebase that failed without a conflict are still to be ported there); keep
+  the two in step.
