@@ -414,6 +414,6 @@ fi
 # The intake sweep greps a rebase's output for "merged both sides", so a give-up
 # reason can call the tree it normalized a driver's merge. It runs metafmt and
 # metacheck after every rebase whatever this line says, since a clean rebase
-# with no merge at all can still keep a stale split pack (#517). Keep this
-# line's wording.
+# with no merge at all can still keep a stale split pack
+# (audiosilo-meta-community#517). Keep this line's wording.
 echo "$path: merged both sides' records"
