@@ -9,9 +9,11 @@
 # (bash -e) against a local bare origin. gh is a stub on PATH that serves the
 # pull request listing and keeps the comments it is asked to post; `go build`
 # is a stub that installs a metafmt and a metacheck which only record that they
-# ran, metacheck refusing a tree that holds one entry key in two packs. Nothing
-# reaches the network. Runs every case and exits non-zero if any
-# failed. This repository's stand-in for core's scripts/intakesweep_test.go.
+# ran; metacheck refuses a tree that holds an entry called unsound. The stub metafmt
+# changes nothing, so what the real one would do to a tree is not tested here:
+# the guards in front of it are. Nothing reaches the network. Runs every case
+# and exits non-zero if any failed. This repository's stand-in for core's
+# scripts/intakesweep_test.go.
 
 set -uo pipefail
 
@@ -82,8 +84,7 @@ TOOL
   chmod +x "$3$t"
 done
 cat >> "$3metacheck" <<'TOOL'
-dup="$(find "$GITHUB_WORKSPACE/data" -type f -name '*.json' -exec jq -r '.entries | objects | keys[]' {} + | sort | uniq -d | head -n 1)"
-[ -z "$dup" ] || { echo "metacheck: entry $dup is in two packs"; exit 1; }
+! grep -rqs '"unsound"' "$GITHUB_WORKSPACE/data" || { echo "metacheck: entry unsound is refused"; exit 1; }
 TOOL
 EOF
 chmod +x "$WORK/bin/gh" "$WORK/bin/go"
@@ -358,21 +359,53 @@ comments 1
 # A clean rebase with no driver merge can still leave a tree no pack rule
 # allows: the branch split a pack at one cut, main split it at another, and the
 # replay kept the branch's new pack, a stale copy of an entry main now holds in
-# a pack of its own (#517). The tools run over it anyway, metacheck refuses the
-# duplicate, and nothing is pushed.
+# a pack of its own (#517). metafmt settles an entry held twice by discarding
+# one copy, and the stale pack makes that one main's, so where the two differ
+# it is not run and nothing is pushed. A copy identical to main's loses nothing:
+# that branch goes to the tools and is rebased. A second sweep of the parked
+# head says nothing new.
 new_case stale
 start; put data/works-community/g/gamma.json '{"entries":{"gamma":{"characters":{"z":3}},"zeta":{"recaps":{"y":2}}}}'
 commit "intake: issue #1"; pr intake/issue-1
 stale_tip="$(tip intake/issue-1)"
+start; put data/works-community/d/delta.json '{"entries":{"beta":{"characters":{"b":1}},"delta":{"recaps":{"y":2}}}}'
+commit "intake: issue #2"; pr intake/issue-2
 main_moves data/works-community/b/beta.json '{"entries":{"beta":{"characters":{"b":1}},"gamma":{"characters":{"z":3},"recaps":{"r":1}}}}'
 sweep
 exited 0
 grep -q "merged both sides" "$C/log" && fail "$NAME: the driver merged, so this is not the clean replay the case is about"
 unmoved intake/issue-1 "$stale_tip"
-tools_ran "metafmt metacheck "
+logged "an entry is in two packs with different content"
 first_lines 1 "<!-- intake-sweep:rebase-failed ${stale_tip} " \
+  "The intake bot could not rebase this branch onto \`main\` mechanically: metafmt could not normalize the rebased tree."
+rebased intake/issue-2
+tools_ran "metafmt metacheck "
+logged "rebased 1 pull request(s)"
+comments 1
+sweep
+exited 0
+unmoved intake/issue-1 "$stale_tip"
+tools_ran "metafmt metacheck "
+comments 1
+
+# What metacheck refuses after a clean rebase is not pushed either, and the
+# give-up is said once however often the same head is swept.
+new_case checked
+start; put data/works-community/u/u.json '{"entries":{"unsound":{"recaps":{"y":2}}}}'
+commit "intake: issue #1"; pr intake/issue-1
+unsound_tip="$(tip intake/issue-1)"
+main_moves README.md more
+sweep
+exited 0
+unmoved intake/issue-1 "$unsound_tip"
+tools_ran "metafmt metacheck "
+first_lines 1 "<!-- intake-sweep:rebase-failed ${unsound_tip} " \
   "The intake bot could not rebase this branch onto \`main\` mechanically: metacheck rejected the rebased tree."
 logged "rebased 0 pull request(s)"
+comments 1
+sweep
+exited 0
+unmoved intake/issue-1 "$unsound_tip"
 comments 1
 
 # A listing that fails, or is anything but a JSON array, is a red step and not

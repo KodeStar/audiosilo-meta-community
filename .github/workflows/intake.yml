@@ -535,11 +535,35 @@ jobs:
               | xargs -0 -r jq -n -e '[inputs | .entries | objects | keys_unsorted[] | test("\\A[a-z0-9-]+\\z")] | all' > /dev/null
           }
 
+          # one_copy is the other thing metafmt is owed: no entry key held by two
+          # packs with different content. metafmt --write settles a key held
+          # twice by keeping the copy in the pack whose range covers it and
+          # discarding the other, and exits 0 whether or not the two agreed. A
+          # stale pack on a branch narrows the range of main's pack, so the copy
+          # kept is the branch's stale one and the copy discarded is main's:
+          # over #517's tree (reproduced against the pin) it deleted the recaps
+          # main had merged for one work since the copy was made, and left a
+          # tree metacheck passes. That is a contributor's text removed by a
+          # rebase, under green checks. Copies that are identical lose nothing
+          # and stay metafmt's to settle. One jq over one stream, not xargs: the
+          # two copies must meet in one process, and xargs splits a long list of
+          # files. slug_keys runs first, so every file is JSON by now. The
+          # choice is pkg/pack's, at the pinned core; this guard stays in front
+          # of it.
+          one_copy() {
+            find "$GITHUB_WORKSPACE/data" -type f -name '*.json' -exec cat {} + \
+              | jq -n -e '[inputs | .entries | objects | to_entries[]] | group_by(.key) | all(map(.value) | unique | length == 1)' > /dev/null
+          }
+
           # The tooling runs against THIS tree, under the profile that says this
           # root holds one family.
           fmt() {
             if ! slug_keys; then
               echo "an entry key in the tree is not a slug, or a file is not JSON; metafmt is not run on it"
+              return 1
+            fi
+            if ! one_copy; then
+              echo "an entry is in two packs with different content, and metafmt would discard one copy; it is not run on the tree (metafmt --check names the entry)"
               return 1
             fi
             "$tools/metafmt" --write -data "$GITHUB_WORKSPACE/data" --profile community
@@ -759,9 +783,12 @@ jobs:
                 # another cut, kept its new pack while the shrink of the old one
                 # merged away, and the sweep pushed a stale copy of main's
                 # entries in a second pack (#517, re-pushed on every push to
-                # main for three days). A driver merge also lands as jq's
-                # rendering of the entry map and may now be due a split. The
-                # reason names the tree a driver merged as such.
+                # main for three days). metafmt settles the copies that are
+                # identical and is not run where two differ (one_copy), so a
+                # stale copy is never pushed beside main's entry and never
+                # chosen over it. A driver merge also lands as jq's rendering
+                # of the entry map and may now be due a split. The reason names
+                # the tree a driver merged as such.
                 tree="rebased"
                 if grep -q "merged both sides" "$rebaselog"; then
                   tree="merged"

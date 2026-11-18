@@ -222,7 +222,14 @@ ready pull requests cost about N*(N+1)/2 model runs (14, about 100, on
   rebase, clean or not, is followed by metafmt and metacheck before the push,
   and a failure parks the branch with the give-up comment below: a clean replay
   with no driver merge once kept a stale split pack, a copy of main's entries in
-  a second pack, and pushed it for three days (#517). The step
+  a second pack, and pushed it for three days (#517). metafmt is not run on a
+  tree that holds one entry in two packs with different content (`one_copy`):
+  it settles an entry held twice by keeping the copy in the pack whose range
+  covers it and discarding the other, and a stale pack makes the kept copy the
+  branch's, so over #517's tree it deleted recaps main had merged since and left
+  a tree metacheck passes. Identical copies are metafmt's to settle. The test's
+  stub metafmt changes nothing, so it covers these guards and not what the real
+  metafmt does to a tree. The step
   runs under `bash -e` (GitHub's default for a `run:` with no `shell:`), so a
   status it reads goes through `||`; `.github/scripts/intake-sweep-test.sh` runs
   the step that way against a local origin (check.yml runs it; it needs bash
