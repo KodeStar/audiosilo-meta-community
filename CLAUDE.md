@@ -207,9 +207,13 @@ ready pull requests cost about N*(N+1)/2 model runs (14, about 100, on
   builds metafmt and metacheck from the pinned core and copies main's
   `scripts/pack-union-merge.sh` into the runner temp before touching any branch,
   and names the driver by that absolute path. It skips a fork's branch (a log
-  line) and refuses, with one comment, a branch any commit of which adds a
-  symbolic link or changes anything but plainly named `data/**/*.json`. It
-  names every ref in full (`refs/remotes/origin/main`), since a tag or branch
-  called `origin/main` would otherwise become the rebase base. Core's
-  intake.yml carries the same sweep (the full refs and the per-commit and
-  plain-name rules are still to be ported there); keep the two in step.
+  line) and refuses, with one comment, a branch whose whole change or any one
+  commit adds a symbolic link or a submodule, or changes anything but plainly
+  named `data/**/*.json`. It fetches main and the branch into two refs of its
+  own (`refs/intake-sweep/main`, `refs/intake-sweep/head`) and works by their
+  commit ids, since a tag or branch called `origin/main`, or a branch called
+  `HEAD`, would otherwise become the rebase base. Core's intake.yml carries the
+  same sweep, with the full refs, the per-commit plain-name, link and submodule
+  rules, the sanitised paths and the listing check (the sweep's own refs,
+  `--base main` and the stop on a rebase that failed without a conflict are
+  still to be ported there); keep the two in step.

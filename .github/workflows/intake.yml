@@ -382,12 +382,15 @@ jobs:
   # runner temp before the first branch is touched, and a branch is swept at all
   # only when it is a same-repository branch whose every commit, and whose whole
   # diff against main, touches only plainly named JSON files under data/ with no
-  # symbolic link (a fork's is a warning in the log; a refused branch is a
-  # warning and one comment on the pull request). Every ref is spelled out in
-  # full (refs/remotes/origin/...), because a short name like origin/main is
-  # resolved through tags and local branches first, and a tag or a swept branch
-  # named origin/main would otherwise become the base every pull request is
-  # rebased onto. Everything left that reads the branch reads it as data.
+  # symbolic link or submodule (a fork's is a warning in the log; a refused
+  # branch is a warning and one comment on the pull request). The two refs the
+  # rules and the rebase read are the sweep's OWN, spelled out in full
+  # (refs/intake-sweep/main and refs/intake-sweep/head): a short name like
+  # origin/main is resolved through tags and local branches first, and a ref
+  # named after the branch can be one git already holds (refs/remotes/origin/HEAD
+  # points at origin/main), so either would let a tag or a branch name become
+  # the base every pull request is rebased onto. Everything left that reads the
+  # branch reads it as data.
   rebase:
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
@@ -461,8 +464,10 @@ jobs:
           # force-push bumps its updatedAt, so a sweep the job timeout cuts short
           # leaves the unswept ones at the FRONT of the next sweep. A listing that
           # fails is a red run, not "no open intake pull requests": nothing is
-          # touched either way, but a silent green sweep would hide it.
-          if ! gh pr list --state open --label bot-intake --limit 500 \
+          # touched either way, but a silent green sweep would hide it. --base:
+          # the sweep rebases onto main, which would rewrite a pull request
+          # aimed at any other branch into one carrying all of main.
+          if ! gh pr list --state open --base main --label bot-intake --limit 500 \
                 --json number,headRefName,headRefOid,isCrossRepository,updatedAt > "$RUNNER_TEMP/prs.json" \
               || ! jq -r '.[] | select(.isCrossRepository) | "::warning::PR #\(.number) is from a fork; the sweep only rebases branches in this repository. Skipped."' "$RUNNER_TEMP/prs.json" \
               || ! jq -r 'sort_by(.updatedAt) | .[] | select(.isCrossRepository | not) | [.number, .headRefName, .headRefOid] | @tsv' "$RUNNER_TEMP/prs.json" > "$RUNNER_TEMP/prs.tsv"; then
@@ -506,6 +511,20 @@ jobs:
           # root holds one family.
           fmt() { "$tools/metafmt" --write -data "$GITHUB_WORKSPACE/data" --profile community; }
           chk() { "$tools/metacheck" -data "$GITHUB_WORKSPACE/data" --profile community; }
+
+          # changes lists what a branch ($2) changes against main ($1), in git's
+          # raw format (modes, then a tab and the path). The whole change against
+          # the merge base comes first: that is the tree `checkout -B` puts in
+          # the working directory, a merge commit's own edits included, which
+          # `git log` shows no diff for. Then every commit on its own, which is
+          # every tree the replay passes through: a conflict can stop it at a
+          # commit whose file a later commit removes, and the push puts that
+          # commit back on the branch. --no-renames: a rename INTO data/ would
+          # otherwise list only its destination and hide the path it removed.
+          changes() {
+            git diff --no-renames --raw "$1...$2" \
+              && git log --no-renames --raw --format= "$1..$2"
+          }
 
           # restore returns the checkout to a clean copy of main. `git clean` is
           # not optional: metafmt --write can CREATE pack files before metacheck
@@ -565,8 +584,11 @@ jobs:
           # one note covers it whatever happens next.
           refused_marker="<!-- intake-sweep:not-rebased -->"
           # shown renders the branch-controlled paths a refusal names: five at
-          # most, on one line, without the characters that would make a mention,
-          # markdown or a marker of a file name in the bot's own comment.
+          # most, on one line, without the characters that would make a mention
+          # or a marker of a file name in the bot's own comment. Its callers put
+          # the result in a CODE SPAN, which is what keeps the rest of markdown
+          # out - a link, an image, an issue reference, a bare www. name - and
+          # the backtick is dropped here so a name cannot close that span.
           shown() { printf '%s' "$1" | head -n 5 | tr '\n' ' ' | tr -d '[:cntrl:]`<>@' | cut -c 1-300; }
           refuse() {
             echo "::warning::PR #$1 is not rebased by the sweep: $2"
@@ -582,69 +604,82 @@ jobs:
             # a failure that stops short of the fetch still names the branch's
             # state and still changes when the branch does.
             attempted_sha="$listed_sha"
-            # Full ref names only, never origin/main or origin/<branch>: git
-            # resolves a short name through refs/tags/ and refs/heads/ before
-            # refs/remotes/, so a tag named origin/main, or the local branch
-            # `checkout -B` makes for a swept branch named origin/main, would
-            # otherwise be the base every later pull request is rebased onto -
-            # content no rule below ever looked at. The fetch names both sides
-            # in full for the same reason (a remote tag can shadow a branch).
-            main_ref="refs/remotes/origin/main"
-            head_ref="refs/remotes/origin/${branch}"
+            # The sweep's own two refs, by full name, and never origin/main or
+            # anything spelled from the branch name. git resolves a short name
+            # through refs/tags/ and refs/heads/ before refs/remotes/, so a tag
+            # named origin/main, or the local branch `checkout -B` makes for a
+            # swept branch named origin/main, would otherwise be the base every
+            # later pull request is rebased onto - content no rule below ever
+            # looked at. And refs/remotes/origin/<branch> is no safer for being
+            # full: a branch named HEAD lands on refs/remotes/origin/HEAD, which
+            # git holds as a pointer at refs/remotes/origin/main wherever it has
+            # recorded the remote's default branch, so the fetch wrote the BRANCH
+            # over main's ref and the rules below compared the branch with
+            # itself. Nothing but the fetch below writes these two.
+            # It names its sources in full for the first reason (a remote tag
+            # can shadow a branch).
+            #
+            # Each is read ONCE, into a commit id, and everything after goes by
+            # those ids: a tag named like either ref makes the name ambiguous,
+            # which `git checkout -B` refuses outright, so one tag would
+            # otherwise stop the sweep of every pull request.
+            main_ref="refs/intake-sweep/main"
+            head_ref="refs/intake-sweep/head"
 
             if ! git fetch --quiet origin "+refs/heads/main:${main_ref}" "+refs/heads/${branch}:${head_ref}"; then
               failure="the branch could not be fetched (deleted, or renamed?)"
-            elif ! attempted_sha="$(git rev-parse --verify --quiet "${head_ref}^{commit}")"; then
+            elif ! main_sha="$(git rev-parse --verify --quiet "${main_ref}^{commit}")" \
+                || ! attempted_sha="$(git rev-parse --verify --quiet "${head_ref}^{commit}")"; then
               attempted_sha="$listed_sha"
               failure="the fetched branch could not be resolved"
-            elif ! outside="$( { git diff --no-renames --name-only "${main_ref}...${head_ref}" \
-                  && git log --no-renames --format= --name-only "${main_ref}..${head_ref}"; } \
+            elif ! outside="$(changes "$main_sha" "$attempted_sha" | cut -f 2- \
                 | { grep -v -e '^data/[A-Za-z0-9._/-]*\.json$' -e '^$' || true; } | sort -u)"; then
               # Unclassifiable is not sweepable: the rule below cannot be asked.
               failure="the branch's changed files could not be listed"
-            elif ! links="$(git log --no-renames --raw --format= "${main_ref}..${head_ref}" \
-                | awk -F'\t' '{ split($1, mode, " "); if (mode[2] == "120000") print $2 }')"; then
+            elif ! links="$(changes "$main_sha" "$attempted_sha" \
+                | awk -F'\t' 'NF { split($1, mode, " "); if (mode[2] != "100644" && mode[2] != "100755" && mode[2] != "000000") print $2 }' \
+                | sort -u)"; then
               failure="the branch's commits could not be listed"
             elif [ -n "$links" ]; then
-              # A SYMBOLIC LINK added or retargeted by ANY of the branch's
-              # commits (--raw's second mode column is the new mode; every
-              # commit, since a conflict can stop the replay at one where a
-              # later commit's removal has not happened yet). metafmt --write
-              # reads and rewrites files through a link, so one under data/
-              # pointing at .git/config or a workflow would be followed out of
-              # the tree with the token persisted.
-              refuse "$number" "it adds or changes a symbolic link ($(shown "$links"))"
+              # Something that is NOT A REGULAR FILE, added or retargeted in the
+              # branch's whole change or by any one of its commits (--raw's
+              # second mode column is the new mode: 100644 or 100755 for a file,
+              # 000000 for a removal, and anything else is refused - 120000 is a
+              # symbolic link, 160000 a submodule). metafmt --write reads and
+              # rewrites files through a link, so one under data/ pointing at
+              # .git/config or a workflow would be followed out of the tree with
+              # the token persisted; a submodule is a directory git fills from
+              # somewhere else, which no pack file is.
+              refuse "$number" "it adds or changes a symbolic link or a submodule (\`$(shown "$links")\`)"
               echo "::endgroup::"
               continue
             elif [ -n "$outside" ]; then
               # The pull request reaches beyond plainly named data/**/*.json -
               # scripts/, .gitattributes at any depth, a file under core/ - so
               # rebasing it would put this job's write token beside a checkout of
-              # something nobody here reviewed. Both the whole change (three-dot:
-              # against the merge base) and EVERY commit are asked, as for links
-              # above: a commit that adds a file a later one removes still puts
-              # it in the tree mid-replay, and back on the branch with the push.
-              # The name is held to [A-Za-z0-9._/-]: git quotes a name with a
-              # control or non-ASCII character, which then matches nothing here,
-              # so a newline that would start a workflow command in the log, or
-              # a marker spelled out in a path, never reaches a log line or a
-              # comment. --no-renames: a rename INTO data/ would otherwise list
-              # only its destination and hide the path it removed.
-              refuse "$number" "it changes files other than plainly named data/**/*.json ($(shown "$outside"))"
+              # something nobody here reviewed. Both the whole change and EVERY
+              # commit are asked (see changes): a commit that adds a file a
+              # later one removes still puts it in the tree mid-replay, and back
+              # on the branch with the push. The name is held to
+              # [A-Za-z0-9._/-]: git quotes a name with a control or non-ASCII
+              # character, which then matches nothing here, so a newline that
+              # would start a workflow command in the log, or a marker spelled
+              # out in a path, never reaches a log line or a comment.
+              refuse "$number" "it changes files other than plainly named \`data/**/*.json\` (\`$(shown "$outside")\`)"
               echo "::endgroup::"
               continue
-            elif git merge-base --is-ancestor "$main_ref" "$head_ref"; then
+            elif git merge-base --is-ancestor "$main_sha" "$attempted_sha"; then
               echo "already on top of main"
               echo "::endgroup::"
               continue
-            elif ! git checkout --quiet -B "$branch" "$head_ref"; then
+            elif ! git checkout --quiet -B "$branch" "$attempted_sha"; then
               failure="the branch could not be checked out"
             else
               # The rebase output is kept because a CLEAN rebase can still have
               # merged two branches' entries: the driver resolves a pack conflict
               # inside the replay, and says so on the line grepped for below.
               rebaselog="${RUNNER_TEMP}/rebase-${number}.log"
-              if git rebase "$main_ref" > "$rebaselog" 2>&1; then
+              if git rebase "$main_sha" > "$rebaselog" 2>&1; then
                 cat "$rebaselog"
                 if grep -q "merged both sides" "$rebaselog"; then
                   # A driver merge lands as jq's rendering of the entry map, and
@@ -671,6 +706,14 @@ jobs:
                 # a path with a space in it is one path; mapfile, not a `while
                 # read` pipeline, whose subshell would throw `failure` away.
                 mapfile -d '' -t conflicted < <(git diff -z --name-only --diff-filter=U)
+                if [ "${#conflicted[@]}" -eq 0 ]; then
+                  # Stopped with NO conflicted path: not a conflict, so nothing
+                  # the recipe below resolves, and the working tree is whatever
+                  # git left when it gave up - the branch's own head, if the
+                  # rebase never started. metafmt is not run over that, and
+                  # `rebase --continue` is not asked to finish what is not known.
+                  failure="the rebase stopped without a conflict to resolve"
+                fi
                 for f in "${conflicted[@]}"; do
                   case "$f" in
                     data/*.json) "$tools/pack-union-merge.sh" "$f" || failure="the pack merge could not resolve ${f}" ;;
