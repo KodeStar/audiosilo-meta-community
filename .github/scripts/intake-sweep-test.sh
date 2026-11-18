@@ -9,8 +9,12 @@
 # (bash -e) against a local bare origin. gh is a stub on PATH that serves the
 # pull request listing and keeps the comments it is asked to post; `go build`
 # is a stub that installs a metafmt and a metacheck which only record that they
-# ran. Nothing reaches the network. Runs every case and exits non-zero if any
-# failed. This repository's stand-in for core's scripts/intakesweep_test.go.
+# ran, and how if it was not over this tree under the community profile;
+# metacheck refuses a tree that holds an entry called unsound. The stub metafmt
+# changes nothing, so what the real one would do to a tree is not tested here:
+# the guards in front of it are. Nothing reaches the network. Runs every case
+# and exits non-zero if any failed. This repository's stand-in for core's
+# scripts/intakesweep_test.go.
 
 set -uo pipefail
 
@@ -67,19 +71,24 @@ esac
 EOF
 # go build -o DIR/ ./cmd/metafmt ./cmd/metacheck. The tools it installs print
 # what a workflow command looks like, as a real one quoting a branch's value
-# could, and say so if they are ever run over a tree holding a symbolic link.
+# could, and say so if they are ever run over a tree holding a symbolic link,
+# or run without `-data` naming this tree and `--profile community` after it.
 cat > "$WORK/bin/go" <<'EOF'
 #!/usr/bin/env bash
 for t in metafmt metacheck; do
   cat > "$3$t" <<TOOL
 #!/usr/bin/env bash
 echo "$t" >> "\$C/tools.log"
+case " \$* " in *" -data \$GITHUB_WORKSPACE/data --profile community "*) ;; *) echo "$t ran as: \$*" >> "\$C/tools.log" ;; esac
 [ -z "\$(find "\$GITHUB_WORKSPACE/data" -type l)" ] || echo "$t saw a symbolic link" >> "\$C/tools.log"
 echo "::error::forged by $t"
 echo "$t says ##[error]forged mid-line"
 TOOL
   chmod +x "$3$t"
 done
+cat >> "$3metacheck" <<'TOOL'
+! grep -rqs '"unsound"' "$GITHUB_WORKSPACE/data" || { echo "metacheck: entry unsound is refused"; exit 1; }
+TOOL
 EOF
 chmod +x "$WORK/bin/gh" "$WORK/bin/go"
 
@@ -203,7 +212,7 @@ logged "::warning::PR #3 is from a fork"
 rebased intake/issue-4
 logged "rebased 1 pull request(s)"
 comments 2
-tools_ran ""
+tools_ran "metafmt metacheck "
 quiet
 # The same sweep again says nothing twice, and leaves the rebased branch alone.
 done_tip="$(tip intake/issue-4)"
@@ -315,7 +324,8 @@ commented 1 "the rebase stopped without a conflict to resolve"
 
 # A merged tree that cannot be staged is that pull request's give-up reason on
 # both replay paths, and the pull request behind it is still rebased. Only the
-# sweep runs `git add data`, so the stub fails exactly that. The second sweep
+# sweep runs `git add data`, so the stub fails exactly that, and only over the
+# merged branch's tree (the one holding beta in the shared pack). The second sweep
 # switches the driver off to take the conflicted path to the same reason,
 # which is not said twice.
 new_case staging
@@ -327,7 +337,7 @@ main_moves data/works-community/0/0.json '{"entries":{"alpha":{"characters":{"x"
 mkdir "$C/bin"
 cat > "$C/bin/git" <<STUB
 #!/usr/bin/env bash
-if [ "\$*" = "add data" ]; then echo "fatal: Unable to create index.lock" >&2; exit 128; fi
+if [ "\$*" = "add data" ] && grep -q beta data/works-community/0/0.json; then echo "fatal: Unable to create index.lock" >&2; exit 128; fi
 if [ "\$1" = rebase ] && [ -e "\$C/no-driver" ]; then set -- -c merge.packjson.driver=false "\$@"; fi
 exec "$(command -v git)" "\$@"
 STUB
@@ -347,6 +357,59 @@ exited 0
 logged "CONFLICT"
 logged "::warning::PR #1 needs a human: the merged tree could not be staged"
 unmoved intake/issue-1 "$stuck_tip"
+comments 1
+
+# A clean rebase with no driver merge can still leave a tree no pack rule
+# allows: the branch split a pack at one cut, main split it at another, and the
+# replay kept the branch's new pack, a stale copy of an entry main now holds in
+# a pack of its own (#517). An older metafmt settled an entry held twice by
+# discarding one copy, and the stale pack made that one main's; the pinned one
+# refuses the tree. Either way, where the two differ one_copy parks the branch
+# before metafmt runs and nothing is pushed. A copy identical to main's loses nothing:
+# that branch goes to the tools and is rebased. A second sweep of the parked
+# head says nothing new.
+new_case stale
+start; put data/works-community/g/gamma.json '{"entries":{"gamma":{"characters":{"z":3}},"zeta":{"recaps":{"y":2}}}}'
+commit "intake: issue #1"; pr intake/issue-1
+stale_tip="$(tip intake/issue-1)"
+start; put data/works-community/d/delta.json '{"entries":{"beta":{"characters":{"b":1}},"delta":{"recaps":{"y":2}}}}'
+commit "intake: issue #2"; pr intake/issue-2
+main_moves data/works-community/b/beta.json '{"entries":{"beta":{"characters":{"b":1}},"gamma":{"characters":{"z":3},"recaps":{"r":1}}}}'
+sweep
+exited 0
+grep -q "merged both sides" "$C/log" && fail "$NAME: the driver merged, so this is not the clean replay the case is about"
+unmoved intake/issue-1 "$stale_tip"
+logged "an entry is in two packs with different content"
+first_lines 1 "<!-- intake-sweep:rebase-failed ${stale_tip} " \
+  "The intake bot could not rebase this branch onto \`main\` mechanically: metafmt could not normalize the rebased tree."
+rebased intake/issue-2
+tools_ran "metafmt metacheck "
+logged "rebased 1 pull request(s)"
+comments 1
+sweep
+exited 0
+unmoved intake/issue-1 "$stale_tip"
+tools_ran "metafmt metacheck "
+comments 1
+
+# What metacheck refuses after a clean rebase is not pushed either, and the
+# give-up is said once however often the same head is swept.
+new_case checked
+start; put data/works-community/u/u.json '{"entries":{"unsound":{"recaps":{"y":2}}}}'
+commit "intake: issue #1"; pr intake/issue-1
+unsound_tip="$(tip intake/issue-1)"
+main_moves README.md more
+sweep
+exited 0
+unmoved intake/issue-1 "$unsound_tip"
+tools_ran "metafmt metacheck "
+first_lines 1 "<!-- intake-sweep:rebase-failed ${unsound_tip} " \
+  "The intake bot could not rebase this branch onto \`main\` mechanically: metacheck rejected the rebased tree."
+logged "rebased 0 pull request(s)"
+comments 1
+sweep
+exited 0
+unmoved intake/issue-1 "$unsound_tip"
 comments 1
 
 # A listing that fails, or is anything but a JSON array, is a red step and not

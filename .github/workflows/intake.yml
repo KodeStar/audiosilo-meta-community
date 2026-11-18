@@ -535,11 +535,37 @@ jobs:
               | xargs -0 -r jq -n -e '[inputs | .entries | objects | keys_unsorted[] | test("\\A[a-z0-9-]+\\z")] | all' > /dev/null
           }
 
+          # one_copy asks for no entry key held by two packs with different
+          # content. Before core's pack.ErrDifferingCopies, metafmt --write
+          # settled such a key by keeping the copy in the pack whose range
+          # covers it, discarding the other, and exiting 0. A stale pack on a
+          # branch narrows the range of main's pack, so the copy kept was the
+          # branch's stale one and the copy discarded was main's: over #517's
+          # tree it deleted the recaps main had merged for one work since the
+          # copy was made, and left a tree metacheck passes. The pinned core's
+          # metafmt now refuses that tree itself (--write exits 2 and writes
+          # nothing, --check exits 1), so this guard is no longer what saves
+          # the text. It stays because it is cheap: one jq pass parks the
+          # branch with a reason that names the cause, where metafmt would
+          # survey the whole tree first, and a pin moved back to an older core
+          # cannot reopen the hole. Copies that are identical lose nothing
+          # and stay metafmt's to settle. One jq over one stream, not xargs:
+          # the two copies must meet in one process, and xargs splits a long
+          # list of files. slug_keys runs first, so every file is JSON by now.
+          one_copy() {
+            find "$GITHUB_WORKSPACE/data" -type f -name '*.json' -exec cat {} + \
+              | jq -n -e '[inputs | .entries | objects | to_entries[]] | group_by(.key) | all(map(.value) | unique | length == 1)' > /dev/null
+          }
+
           # The tooling runs against THIS tree, under the profile that says this
           # root holds one family.
           fmt() {
             if ! slug_keys; then
               echo "an entry key in the tree is not a slug, or a file is not JSON; metafmt is not run on it"
+              return 1
+            fi
+            if ! one_copy; then
+              echo "an entry is in two packs with different content; metafmt is not run on the tree (metafmt --check names the entry)"
               return 1
             fi
             "$tools/metafmt" --write -data "$GITHUB_WORKSPACE/data" --profile community
@@ -569,6 +595,22 @@ jobs:
             "$@" 2>&1 || status=$?
             printf '\n::%s::\n' "$token"
             return "$status"
+          }
+
+          # settle is what every replay owes before its tree is pushed, clean or
+          # conflicted: the trusted metafmt, then metacheck, then the result
+          # staged. The first to fail leaves the give-up reason in `failure`,
+          # naming the tree as $1 does. `git add` is tested like the other two:
+          # bare, a failure would end the step under -e on every push to main,
+          # and leave every pull request behind this one unswept.
+          settle() {
+            if ! inert fmt; then
+              failure="metafmt could not normalize the $1 tree"
+            elif ! inert chk; then
+              failure="metacheck rejected the $1 tree"
+            elif ! git add data; then
+              failure="the $1 tree could not be staged"
+            fi
           }
 
           # changes lists what a branch ($2) changes against main ($1), in git's
@@ -736,23 +778,27 @@ jobs:
               rebaselog="${RUNNER_TEMP}/rebase-${number}.log"
               if git rebase "$main_sha" > "$rebaselog" 2>&1; then
                 inert cat "$rebaselog"
+                # EVERY clean rebase is normalized and checked before the push,
+                # not only one the driver merged. A replay with no conflict at
+                # all can still leave a tree no pack rule allows: a branch that
+                # split a pack, rebased onto a main that split the same pack at
+                # another cut, kept its new pack while the shrink of the old one
+                # merged away, and the sweep pushed a stale copy of main's
+                # entries in a second pack (#517, re-pushed on every push to
+                # main for three days). metafmt settles the copies that are
+                # identical and is not run where two differ (one_copy), so a
+                # stale copy is never pushed beside main's entry and never
+                # chosen over it. A driver merge also lands as jq's rendering
+                # of the entry map and may now be due a split. The reason names
+                # the tree a driver merged as such.
+                tree="rebased"
                 if grep -q "merged both sides" "$rebaselog"; then
-                  # A driver merge lands as jq's rendering of the entry map, and
-                  # the merged pack may now be due a split, so normalize before
-                  # pushing - the same pass the conflicted path runs below.
-                  if ! inert fmt; then
-                    failure="metafmt could not normalize the merged tree"
-                  elif ! inert chk; then
-                    failure="metacheck rejected the merged tree"
-                  elif ! git add data; then
-                    # Tested, as on the conflicted path: bare, a failure would
-                    # end the step under -e on every push, and leave every pull
-                    # request behind this one unswept.
-                    failure="the merged tree could not be staged"
-                  elif ! git diff --cached --quiet; then
-                    GIT_EDITOR=true git commit --amend --no-edit --quiet \
-                      || failure="the normalized merge could not be committed"
-                  fi
+                  tree="merged"
+                fi
+                settle "$tree"
+                if [ -z "$failure" ] && ! git diff --cached --quiet; then
+                  GIT_EDITOR=true git commit --amend --no-edit --quiet \
+                    || failure="the normalized ${tree} tree could not be committed"
                 fi
               else
                 inert cat "$rebaselog"
@@ -778,15 +824,7 @@ jobs:
                   esac
                   [ -z "$failure" ] || break
                 done
-                if [ -z "$failure" ] && ! inert fmt; then
-                  failure="metafmt could not normalize the merged tree"
-                fi
-                if [ -z "$failure" ] && ! inert chk; then
-                  failure="metacheck rejected the merged tree"
-                fi
-                if [ -z "$failure" ] && ! git add data; then
-                  failure="the merged tree could not be staged"
-                fi
+                [ -n "$failure" ] || settle merged
                 if [ -z "$failure" ]; then
                   inert env GIT_EDITOR=true git rebase --continue || failure="the rebase could not be continued"
                 fi
