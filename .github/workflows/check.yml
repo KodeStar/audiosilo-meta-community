@@ -85,9 +85,8 @@ jobs:
       - name: Test the core pin reader
         run: bash .github/scripts/core-ref-test.sh
 
-      # core-ref.sh asks the GitHub API whether the pin is on core's main (a
-      # fork's commit checks out through the parent repository too); core is
-      # public, so this job's read-only token is enough.
+      # core is public, so this job's read-only token is enough for
+      # core-ref.sh's compare call.
       - name: Read the core tooling pin
         env:
           GH_TOKEN: ${{ github.token }}

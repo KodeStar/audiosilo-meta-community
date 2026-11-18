@@ -401,9 +401,10 @@ jobs:
           # The rebase needs real history, and the PAT (when present) is what
           # makes the force-push re-trigger the required checks - the same
           # reasoning as the create-pull-request step above. The credential
-          # stays PERSISTED here: the sweep pushes with plain git. That is why
-          # the SECURITY note above keeps branch code out of this job's
-          # process tree.
+          # stays PERSISTED here: the sweep pushes with plain git. That, and the
+          # write-scoped GH_TOKEN in the sweep step's environment, is why the
+          # SECURITY note above keeps branch code out of this job's process
+          # tree; not persisting it would not be enough on its own.
           fetch-depth: 0
           token: ${{ secrets.INTAKE_PAT || github.token }}
 

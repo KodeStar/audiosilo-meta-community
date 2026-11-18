@@ -33,7 +33,7 @@ SHA=0123456789abcdef0123456789abcdef01234567
 run() {
   printf '%s\n' "$1" > "$WORK/repo/.github/core-ref"
   rm -f "$WORK/gh-args"
-  out="$(PATH="$WORK/bin:$PATH" WORK="$WORK" STATUS="$2" GH_FAIL="${3:-}" CORE_REPO=KodeStar/audiosilo-meta \
+  out="$(PATH="$WORK/bin:$PATH" WORK="$WORK" STATUS="$2" GH_FAIL="${3:-}" CORE_REPO=example/core \
     bash "$WORK/repo/.github/scripts/core-ref.sh" 2> "$WORK/stderr")"
   code=$?
 }
@@ -44,8 +44,8 @@ for status in behind identical; do
   [ "$code" -eq 0 ] || fail "$status: exit $code, want 0 ($(cat "$WORK/stderr"))"
   [ "$out" = "CORE_REF=$SHA" ] || fail "$status: printed '$out'"
 done
-grep -q "repos/KodeStar/audiosilo-meta/compare/main...$SHA" "$WORK/gh-args" \
-  || fail "the compare call names main...<sha> on core: $(cat "$WORK/gh-args")"
+grep -q "repos/example/core/compare/main...$SHA" "$WORK/gh-args" \
+  || fail "the compare call names main...<sha> on CORE_REPO: $(cat "$WORK/gh-args")"
 
 # A commit not on main - a fork's, which GitHub serves through the parent, or
 # another branch's - prints nothing for GITHUB_ENV.
