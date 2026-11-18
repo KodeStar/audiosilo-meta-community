@@ -35,11 +35,12 @@ concurrency:
 env:
   # The core repository holds ALL the tooling (one implementation of pack math,
   # canonical JSON and validation - see README.md). The exact core commit the
-  # checks below run is CORE_REF, read from .github/core-ref by the first step
-  # after the checkout (.github/scripts/core-ref.sh). It is pinned by sha rather
-  # than floating on main so a core change can never turn this repository's
-  # history red on its own, and it is ONE file because intake.yml composes with
-  # the same tooling: the bot must never compose by rules the checks do not use.
+  # checks below run is CORE_REF, read from .github/core-ref by a step after the
+  # checkout (.github/scripts/core-ref.sh, which refuses a sha that is not on
+  # core's main: a fork's commit). It is pinned by sha rather than floating on
+  # main so a core change can never turn this repository's history red on its
+  # own, and it is ONE file because intake.yml composes with the same tooling:
+  # the bot must never compose by rules the checks do not use.
   #
   # TO BUMP: put the new full 40-character sha of KodeStar/audiosilo-meta@main
   # in .github/core-ref in its own pull request, and read the diff of what the
@@ -79,7 +80,17 @@ jobs:
       - name: Test the ai-verify script
         run: bash .github/scripts/ai-verify-test.sh
 
+      # The pin reader's own cases, with a stub gh (no network), before the
+      # real read below relies on it.
+      - name: Test the core pin reader
+        run: bash .github/scripts/core-ref-test.sh
+
+      # core-ref.sh asks the GitHub API whether the pin is on core's main (a
+      # fork's commit checks out through the parent repository too); core is
+      # public, so this job's read-only token is enough.
       - name: Read the core tooling pin
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: bash .github/scripts/core-ref.sh >> "$GITHUB_ENV"
 
       - name: Checkout the core tooling

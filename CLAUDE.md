@@ -110,10 +110,13 @@ measured). Both workflows instead do a **blobless sparse checkout of core's
 tooling directories at a pinned sha** and run from it. The sha is ONE file,
 `.github/core-ref`, which both read into `CORE_REF` through
 `.github/scripts/core-ref.sh`, so the bot always composes with the rules the
-checks validate against; bump it in its own pull request. Each core checkout's
-`ref` falls back to a name that does not exist, so a job that never read the pin
-fails rather than floating on core's main. The full rationale is in check.yml's
-env comment.
+checks validate against; bump it in its own pull request, to a commit of core's
+main. core-ref.sh refuses any other sha through the compare API, because GitHub
+serves a fork's commits through the parent repository and a checkout would build
+them (`.github/scripts/core-ref-test.sh` covers it, in check.yml). Each core
+checkout's `ref` falls back to a name that does not exist, so a job that never
+read the pin fails rather than floating on core's main. The full rationale is in
+check.yml's env comment.
 
 ## The AI review (ai-verify.yml) and the steward
 
@@ -201,3 +204,11 @@ ready pull requests cost about N*(N+1)/2 model runs (14, about 100, on
 - **The merge driver is not optional for pack conflicts.** git's line merge can
   write one entry key twice, which is not valid pack storage. Configure
   `scripts/pack-union-merge.sh` (see README.md) before resolving one by hand.
+- **The intake sweep runs nothing from a swept branch.** intake.yml's `rebase`
+  job holds a persisted write token while it checks intake branches out, so it
+  builds metafmt and metacheck from the pinned core and copies main's
+  `scripts/pack-union-merge.sh` into the runner temp before touching any branch,
+  names the driver by that absolute path. It skips a fork's branch (a log
+  line) and refuses, with one comment, a branch adding a symbolic link or
+  changing anything outside `data/**/*.json`. Core's intake.yml does the same;
+  keep the two in step.
