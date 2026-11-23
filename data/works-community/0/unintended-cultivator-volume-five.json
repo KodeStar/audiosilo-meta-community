@@ -1683,6 +1683,301 @@
         "work": "unintended-cultivator-volume-six"
       }
     },
+    "unintended-cultivator-volume-ten": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Judgment's Gale",
+              "Patriarch",
+              "Lord Lu"
+            ],
+            "description": "A core-stage cultivator, alchemist and body cultivator who heads a young sect and has, almost by accident, become the master of a fast-growing town. He is the adoptive father of a small girl named Ai and is bringing a group of rescued villagers back to his town as a spirit beast war looms. He dislikes the titles people give him and feels uneasy about becoming a ruler.",
+            "id": "sen",
+            "name": "Sen",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Sen's young daughter, who calls him Papa. She arrives at the town riding a young feng huang that has attached itself to her, and she relays the bird's name to the adults. Her safety and future are the center of Sen's concerns.",
+            "id": "ai",
+            "name": "Ai",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Dancing Cloud"
+            ],
+            "description": "A young feng huang that has bonded with Ai and lets her ride it. Uncle Kho believed the species had died out. It is not yet fully grown but carries strong fire chi, has silver eyes, and calls Sen the oxen friend, which hints that the spirit oxen may have sent it.",
+            "id": "the-feng-huang",
+            "name": "The feng huang",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Sen's trusted companion and ally. When the story opens she is away from the town, trying to negotiate with rogue spirit beasts who refuse to follow the Beast King, and Sen asks after her as soon as he returns.",
+            "id": "falling-leaf",
+            "name": "Falling Leaf",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A nascent soul cultivator in Sen's inner circle who conceals the true extent of his strength from outsiders, a secret Sen intends to protect. He is knowledgeable about rare creatures and recognizes the feng huang as something he had thought extinct.",
+            "id": "uncle-kho",
+            "name": "Uncle Kho",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The ruler of the spirit beasts and the power behind the coming war. Some rogue beasts refuse to follow him, and Falling Leaf has been meeting with them.",
+            "id": "beast-king",
+            "name": "The Beast King",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A woman cultivator who gathers plants for alchemy and led the expedition connected to the rescued villagers. She is badly frightened by the feng huang when it lands among them.",
+            "id": "plant-gathering-cultivator",
+            "name": "The plant-gathering cultivator",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Someone Sen counts among the few people he genuinely looks forward to seeing when he returns to his town.",
+            "id": "glimmer-of-night",
+            "name": "Glimmer of Night",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A nascent soul cultivator who lives in a domain near Sen's town, having moved out there to get away from crowds. Sen expects her to be unhappy that the town is swelling toward the size of a city.",
+            "id": "fu-ru-lan",
+            "name": "Fu Ru Lan",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An ancient elder cultivator who is Sen's master and one of the trusted figures in his inner circle.",
+            "id": "master-feng",
+            "name": "Master Feng",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elder close to Sen who shares in caring for Ai and Jur. She coaches Sen on how a leader should present himself, advising him to keep an aloof public bearing.",
+            "id": "auntie-caihong",
+            "name": "Auntie Caihong",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The feared enforcer of Sen's sect, who removes nuisances and helps keep petitioners away from Sen. His strict discipline stops senior members from abusing juniors. Sen regards him as brutal but loyal and efficient, and means to reward him.",
+            "id": "long-jia-wei",
+            "name": "Long Jia Wei",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elder of Sen's sect whom he trusts with the logistics of settling the rescued villagers he has brought back to his town.",
+            "id": "sect-administrator",
+            "name": "The sect administrator",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Big Sister Lei"
+            ],
+            "description": "A young foundation formation cultivator of Sen's sect, known to Ai and Jur as Big Sister Lei. She carries the message that the spirit beast war has begun. Wary and perceptive, she senses Sen's flash of rage and grasps that he would destroy anyone who harmed Ai. Sen tells her to stay close.",
+            "id": "chen-lei",
+            "name": "Chen Lei",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Sen's niece, a small girl who spends a day out with Sen and Ai, including a visit to a bakery. Her mother is Li Hua.",
+            "id": "jur",
+            "name": "Jur",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Sen's grandmother and the head of the House of Lu in the capital. As the war breaks out she calls the family's members back to the capital manor and closes its gates, and Sen sends cultivators to strengthen her defenses.",
+            "id": "grandmother-lu",
+            "name": "Grandmother Lu",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A nascent soul cultivator in the capital and Master Feng's brother. He bears a grudge against Sen, which Sen learned of from Lai Dongmei, and may be strong enough to hold off Master Feng or Uncle Kho for a time. Master Feng promises to deal with him personally.",
+            "id": "master-fengs-brother",
+            "name": "Master Feng's brother",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A person Sen knows who told him that Master Feng's brother holds a grudge against him.",
+            "id": "lai-dongmei-early",
+            "name": "Lai Dongmei",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A seamstress about Sen's age and the mother of Jur, friendly with Sen and Ai. When Sen offers the town's mortals elixirs that ignite cultivation, he stops her before she drinks one and arranges for someone who endured the painful process to explain it to her first. Her choice is left open.",
+            "id": "li-hua",
+            "name": "Li Hua",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The king, ruling a capital overwhelmed by refugees and short of food. Exhausted and short-tempered, he approves cutting refugee rations for winter, rejects conscription as unaffordable, and drafts a functionary who proposed it callously. In private he gives way to despair.",
+            "id": "jiang",
+            "name": "Jiang",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An awakened elder ghost panther of great power. Sen suspects intelligent beasts like him coordinate the spirit beast armies, but judges that he would lose to this one in single combat and cannot hope to capture him yet.",
+            "id": "boulder-shadow",
+            "name": "Boulder Shadow",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The matriarch of the Golden Phoenix sect, a nascent soul cultivator, and Sen's lover and ally. In the capital she plays the planned voice of mercy at the public judgment of a defiant noble house, persuading Sen to spare the soldiers and children. She agrees to serve as the one person seen to temper his anger, and she helps him cow the war council by humiliating a challenger.",
+            "id": "lai-dongmei",
+            "name": "Lai Dongmei",
+            "reveal": {
+              "chapter": 43
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A Ninetail fox spirit beast and an acquaintance of Sen who hides her nature among the humans of the capital. She came to help humanity survive and shelters other foxes in a house she bought, though food and supplies are running low. She is weighing whether to reveal herself to Sen so the foxes' illusions can aid the defense.",
+            "id": "misty-peak",
+            "name": "Misty Peak",
+            "reveal": {
+              "chapter": 43
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A handsome cultivator representing the Calamitous Fist sect at the capital's war council. He questions Sen's report of the beast numbers, is cornered by Lai Dongmei into kneeling and apologizing, and is made to stand by the wall in disgrace.",
+            "id": "calamitous-fist-representative",
+            "name": "The Calamitous Fist representative",
+            "reveal": {
+              "chapter": 43
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A nascent soul elder of the Lunar Tiger Sect who scoffs at the value of mortals during the war council. Sen silences him with a growing sphere of black lightning and a warning not to harm mortals, after which he falls into line.",
+            "id": "lunar-tiger-elder",
+            "name": "The Lunar Tiger Sect elder",
+            "reveal": {
+              "chapter": 43
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A resident of Lu Manor who is close to Grandmother Lu and on easy, teasing terms with Sen. The manor's defensive formations never turn on her. She jokes with Sen about having become a dictator.",
+            "id": "lo-meifeng",
+            "name": "Lo Meifeng",
+            "reveal": {
+              "chapter": 45
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A cultivator who once traveled with Sen and Lo Meifeng between the Clear Spring sect and the capital, back then plump and cowardly. An elixir from Sen lifted him to core formation, and he returns lean and assured. He admits he resents Sen but is grateful, and he comes to Lu Manor seeking orders for the battle as a wandering cultivator.",
+            "id": "core-cultivator-acquaintance",
+            "name": "Sen's old traveling companion",
+            "reveal": {
+              "chapter": 50
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A mortal general who won his rank in battle and admits twenty years of peace have softened him. He had thought little of Sen until the lightning strike, after which he sees him as an army in himself. He walks the wall to steady the troops and orders the alarm when the horde advances.",
+            "id": "old-general",
+            "name": "The old general",
+            "reveal": {
+              "chapter": 53
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A nascent soul cultivator of the Lunar Tiger Sect with a moon-linked intuition; years earlier he had a vision of Sen as a god soaked in blood. During the siege he is turned away by Lu Manor's defenses, apologizes to Lai Dongmei for a jab, and flies out with her to face two powerful evolved spirit beasts, fighting with pale blades of moonlight.",
+            "id": "lunar-tiger-swordsman",
+            "name": "The Lunar Tiger nascent soul fighter",
+            "reveal": {
+              "chapter": 60
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A woman who uses a chi-formed false face to slip into Sen's sickroom at Lu Manor while Lo Meifeng is away. She blames Sen for ruining her family and expected a large payment for killing him. Sen, already awake, stops her and burns out her cultivation for good, keeping her for Lo Meifeng to question.",
+            "id": "would-be-assassin",
+            "name": "The would-be assassin",
+            "reveal": {
+              "chapter": 64
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:uk:B0HP3ZMXMN",
+            "type": "community"
+          }
+        ],
+        "work": "unintended-cultivator-volume-ten"
+      }
+    },
     "unique": {
       "characters": {
         "characters": [
