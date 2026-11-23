@@ -1242,11 +1242,11 @@
             "role": "supporting"
           },
           {
-            "description": "A Greek warrior and commander who supports the plan to elevate Ajax as a way of challenging Achilles's pride.",
+            "description": "A Greek commander who escorts Cressida from Troy to the Greek camp once the prisoner exchange has been agreed.",
             "id": "diomedes",
             "name": "Diomedes",
             "reveal": {
-              "chapter": 1
+              "chapter": 4
             },
             "role": "supporting"
           },
@@ -2816,7 +2816,7 @@
             "role": "supporting"
           },
           {
-            "description": "Olivia's quick-witted attendant. She is loyal to her mistress but enjoys Sir Toby's noisy company and is prepared to answer Malvolio's self-importance with a practical joke.",
+            "description": "Olivia's quick-witted attendant. She is loyal to her mistress but enjoys Sir Toby's noisy company.",
             "id": "maria",
             "name": "Maria",
             "reveal": {
@@ -2837,7 +2837,7 @@
             "aliases": [
               "Clown"
             ],
-            "description": "The licensed fool in Olivia's household, a singer whose wordplay often exposes what the supposedly sensible characters refuse to see. Though Olivia initially faults him for being absent, he talks his way back into favor.",
+            "description": "The licensed fool in Olivia's household, a singer whose wordplay often exposes what the supposedly sensible characters refuse to see.",
             "id": "feste",
             "name": "Feste",
             "reveal": {
@@ -2868,7 +2868,7 @@
             "id": "fabian",
             "name": "Fabian",
             "reveal": {
-              "chapter": 2
+              "chapter": 3
             },
             "role": "minor"
           },

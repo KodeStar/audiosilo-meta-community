@@ -2612,12 +2612,12 @@
             "id": "dauphin",
             "name": "Dauphin",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "antagonist"
           },
           {
-            "description": "An argumentative former soldier from Henry's youthful circle. Hoping to profit from the war in France, he quarrels with Nym and serves under Captain Fluellen.",
+            "description": "An argumentative former soldier from Henry's youthful circle. Hoping to profit from the war in France, he quarrels with Nym before the army sails.",
             "id": "pistol",
             "name": "Pistol",
             "reveal": {
@@ -2635,7 +2635,7 @@
             "role": "minor"
           },
           {
-            "description": "A red-faced former companion of Henry who enlists for the French campaign with Pistol and Nym. His old familiarity with the king offers him no exemption from the army's laws.",
+            "description": "A red-faced former companion of Henry who enlists for the French campaign with Pistol and Nym.",
             "id": "bardolph",
             "name": "Bardolph",
             "reveal": {
@@ -2695,11 +2695,11 @@
             "role": "minor"
           },
           {
-            "description": "A French herald who carries formal messages between the armies. He repeatedly communicates demands and assessments without sharing the Dauphin's mockery of Henry.",
+            "description": "A French herald who carries formal messages between the armies. He delivers France's demands with formal courtesy and none of the Dauphin's mockery of Henry.",
             "id": "montjoy",
             "name": "Montjoy",
             "reveal": {
-              "chapter": 3
+              "chapter": 4
             },
             "role": "supporting"
           },
@@ -2748,7 +2748,7 @@
           },
           {
             "scope": "book",
-            "text": "Henry's army besieges Harfleur. He rallies his troops for another assault and threatens the town with the violence that will follow if resistance continues. The governor, unable to obtain relief from the Dauphin, surrenders. Henry orders Exeter to govern the town and show mercy to its inhabitants. Disease and exhaustion have sharply reduced the English force, but Henry decides to march toward Calais rather than remain at Harfleur. Among the soldiers, Captain Fluellen insists on discipline and military method, while the Boy recognizes that Pistol, Nym, and Bardolph are more interested in plunder than honor. Bardolph is caught robbing a church. Henry upholds the death sentence despite their former friendship, making clear that the army's rules apply even to men he once knew closely.",
+            "text": "Henry's army besieges Harfleur. He rallies his troops for another assault and threatens the town with the violence that will follow if resistance continues. The governor, unable to obtain relief from the Dauphin, surrenders. Henry orders Exeter to govern the town and show mercy to its inhabitants. Disease and exhaustion have sharply reduced the English force, but Henry decides to march toward Calais rather than remain at Harfleur. At the French court, Princess Katherine takes a first lesson in English from her attendant Alice. Among the soldiers, Captain Fluellen insists on discipline and military method, while the Boy recognizes that Pistol, Nym, and Bardolph are more interested in plunder than honor. Bardolph is caught robbing a church. Henry upholds the death sentence despite their former friendship, making clear that the army's rules apply even to men he once knew closely.",
             "through": {
               "chapter": 3
             }

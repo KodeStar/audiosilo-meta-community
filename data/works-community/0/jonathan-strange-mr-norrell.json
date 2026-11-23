@@ -1736,7 +1736,7 @@
             "role": "supporting"
           },
           {
-            "description": "A blunt Roman senator whom Cassius draws into the conspiracy. He reports that Antony publicly offered Caesar a crown three times and that Caesar refused it while enjoying the crowd's approval.",
+            "description": "A blunt Roman senator who reports that Antony publicly offered Caesar a crown three times and that Caesar refused it while enjoying the crowd's approval.",
             "id": "casca",
             "name": "Casca",
             "reveal": {
@@ -1779,7 +1779,7 @@
             "id": "cinna",
             "name": "Cinna",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "minor"
           },
@@ -1797,7 +1797,7 @@
             "id": "artemidorus",
             "name": "Artemidorus",
             "reveal": {
-              "chapter": 2
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -1827,7 +1827,7 @@
             "id": "cinna-the-poet",
             "name": "Cinna the Poet",
             "reveal": {
-              "chapter": 3
+              "chapter": 4
             },
             "role": "minor"
           }
@@ -1961,7 +1961,7 @@
             "role": "protagonist"
           },
           {
-            "description": "A senator with a blunt manner who reports how Caesar was offered a crown and refused it three times before the crowd. His observations make him valuable to the emerging conspiracy.",
+            "description": "A senator with a blunt manner who reports how Caesar was offered a crown and refused it three times before the crowd.",
             "id": "casca",
             "name": "Casca",
             "reveal": {
@@ -1970,7 +1970,7 @@
             "role": "supporting"
           },
           {
-            "description": "Caesar's wife. Troubled by ominous dreams and reports of unnatural events, she urges her husband to remain at home rather than attend the Senate.",
+            "description": "Caesar's wife, who attends the festival procession at his side.",
             "id": "calpurnia",
             "name": "Calpurnia",
             "reveal": {
@@ -2010,7 +2010,7 @@
             "id": "artemidorus",
             "name": "Artemidorus",
             "reveal": {
-              "chapter": 2
+              "chapter": 3
             },
             "role": "minor"
           },

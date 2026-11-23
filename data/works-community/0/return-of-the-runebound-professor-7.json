@@ -3062,7 +3062,7 @@
             "role": "supporting"
           },
           {
-            "description": "A courtier favored by Richard and associated with Bushy and Bagot. He helps advise the queen during the king's absence and is condemned by the returning opposition as a corrupt influence.",
+            "description": "A courtier favored by Richard and associated with Bushy and Bagot. He helps advise the queen during the king's absence and is resented by the nobles who blame Richard's favorites for misgovernment.",
             "id": "green",
             "name": "Green",
             "reveal": {
@@ -3075,7 +3075,7 @@
             "id": "bishop-of-carlisle",
             "name": "Bishop of Carlisle",
             "reveal": {
-              "chapter": 3
+              "chapter": 4
             },
             "role": "supporting"
           },

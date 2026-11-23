@@ -663,7 +663,7 @@
             "id": "the-dauphin",
             "name": "The Dauphin",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "antagonist"
           },
@@ -953,7 +953,7 @@
             "role": "supporting"
           },
           {
-            "description": "A teacher who has learned the names and intentions of Caesar's enemies. He prepares a written warning listing the conspirators and waits along Caesar's route to the Capitol, hoping Caesar will read it in time.",
+            "description": "A teacher who has learned the names and intentions of Caesar's enemies. He prepares a written warning listing the conspirators and hopes to place it in Caesar's hands.",
             "id": "artemidorus",
             "name": "Artemidorus",
             "reveal": {
@@ -1688,7 +1688,7 @@
             "role": "protagonist"
           },
           {
-            "description": "Viola's twin brother, separated from her during the shipwreck and initially presumed dead by her. His close resemblance to Viola in disguise later creates confusion in Illyria.",
+            "description": "Viola's twin brother, separated from her during the shipwreck and initially presumed dead by her.",
             "id": "sebastian",
             "name": "Sebastian",
             "reveal": {
@@ -1706,7 +1706,7 @@
             "role": "minor"
           },
           {
-            "description": "A wealthy countess who is refusing suitors during a period of mourning for her brother. Orsino's repeated approaches do not move her, but the arrival of his eloquent new messenger immediately interests her.",
+            "description": "A wealthy countess who is refusing suitors during a period of mourning for her brother. Orsino's repeated approaches do not move her.",
             "id": "olivia",
             "name": "Olivia",
             "reveal": {
@@ -1715,7 +1715,7 @@
             "role": "supporting"
           },
           {
-            "description": "Olivia's uncle, a heavy drinker who stays in her house and resents any interference with his late-night pleasures. He encourages Sir Andrew's hopeless courtship of Olivia and joins Maria in mocking the severe Malvolio.",
+            "description": "Olivia's uncle, a heavy drinker who stays in her house and resents any interference with his late-night pleasures. He encourages Sir Andrew's hopeless courtship of Olivia.",
             "id": "sir-toby-belch",
             "name": "Sir Toby Belch",
             "reveal": {
@@ -1733,7 +1733,7 @@
             "role": "supporting"
           },
           {
-            "description": "Olivia's quick-witted attendant. She criticizes Sir Toby's disorderly habits but enjoys verbal play and soon recognizes that Malvolio's self-regard can be used against him.",
+            "description": "Olivia's quick-witted attendant. She criticizes Sir Toby's disorderly habits but enjoys verbal play.",
             "id": "maria",
             "name": "Maria",
             "reveal": {
@@ -1769,7 +1769,7 @@
             "role": "supporting"
           },
           {
-            "description": "A member of Olivia's household who joins Sir Toby and Maria in their campaign against Malvolio. He helps observe the steward's reaction to the forged letter and later takes part in the challenge arranged for Cesario.",
+            "description": "A member of Olivia's household who joins Sir Toby and Maria in their campaign against Malvolio. He helps observe the steward's reaction to the forged letter.",
             "id": "fabian",
             "name": "Fabian",
             "reveal": {
@@ -2351,7 +2351,7 @@
             "role": "supporting"
           },
           {
-            "description": "A teacher who has learned the names and intentions of Caesar's enemies. He prepares a written warning listing the conspirators and waits along Caesar's route to the Capitol, hoping Caesar will read it in time.",
+            "description": "A teacher who has learned the names and intentions of Caesar's enemies. He prepares a written warning listing the conspirators and hopes to place it in Caesar's hands.",
             "id": "artemidorus",
             "name": "Artemidorus",
             "reveal": {
@@ -2810,14 +2810,14 @@
         "recaps": [
           {
             "scope": "book",
-            "text": "Scotland is fighting rebellion and foreign attack. King Duncan receives reports that Macbeth and Banquo have fought with exceptional courage, and he orders that Macbeth receive the title of the defeated Thane of Cawdor. Before the news reaches them, Macbeth and Banquo encounter three witches. They address Macbeth by his current title, by the title of Cawdor, and as a future king; they tell Banquo that his descendants will be kings though he will not. Ross and Angus then arrive and announce Macbeth's new title, making part of the prediction immediately true. Macbeth begins imagining the crown and is disturbed by the violent possibility that accompanies it. Duncan names his son Malcolm heir and plans to visit Macbeth's castle, placing both an obstacle and an opportunity before Macbeth.",
+            "text": "Scotland is fighting rebellion and foreign attack. King Duncan receives reports that Macbeth and Banquo have fought with exceptional courage, and he orders that Macbeth receive the title of the defeated Thane of Cawdor. Before the news reaches them, Macbeth and Banquo encounter three witches. They address Macbeth by his current title, by the title of Cawdor, and as a future king; they tell Banquo that his descendants will be kings though he will not. Ross and Angus then arrive and announce Macbeth's new title, making part of the prediction immediately true. Macbeth begins imagining the crown and is disturbed by the violent possibility that accompanies it. Duncan names his son Malcolm heir and plans to visit Macbeth's castle, placing both an obstacle and an opportunity before Macbeth. Lady Macbeth reads her husband's account of the witches and fears he lacks the hardness to seize the crown. When Duncan's visit is announced, she resolves that he must not leave alive. Duncan arrives at the castle and is welcomed with formal loyalty, unaware of the danger. Macbeth initially considers reasons against murder: Duncan is his king, relative, guest, and a good ruler, while Macbeth has no motive beyond ambition. Lady Macbeth attacks his courage and outlines a plan to intoxicate Duncan's guards, kill the sleeping king, and blame the servants. Macbeth agrees.",
             "through": {
               "chapter": 1
             }
           },
           {
             "scope": "book",
-            "text": "Lady Macbeth reads her husband's account of the witches and fears he lacks the hardness to seize the crown. When Duncan's visit is announced, she resolves that he must not leave alive. Macbeth initially considers reasons against murder: Duncan is his king, relative, guest, and a good ruler, while Macbeth has no motive beyond ambition. Lady Macbeth attacks his courage and outlines a plan to intoxicate Duncan's guards, kill the sleeping king, and blame the servants. Macbeth agrees. Duncan arrives at the castle and is welcomed with formal loyalty, unaware of the plan. As the household settles for the night, Banquo tells Macbeth that he has dreamed of the witches. Macbeth conceals his thoughts and moves toward Duncan's room after imagining a dagger leading him there. Macbeth murders Duncan but returns shaken, carrying the guards' daggers. Lady Macbeth takes the weapons back to the room and smears the sleeping guards with blood. Macduff discovers the king's body the next morning. Macbeth kills the guards, claiming rage, and Lady Macbeth diverts attention when his explanation draws scrutiny. Duncan's sons Malcolm and Donalbain fear a wider plot and flee separately, which makes them appear guilty. Macbeth is crowned at Scone. Banquo suspects that Macbeth gained the crown through murder but remembers that the witches promised kingship to his own descendants. Macduff avoids the coronation and returns home, a sign that acceptance of the new king is not complete. The natural and political order of Scotland has been disrupted, while Macbeth has obtained the position he and his wife sought.",
+            "text": "As the household settles for the night, Banquo tells Macbeth that he has dreamed of the witches. Macbeth conceals his thoughts and moves toward Duncan's room after imagining a dagger leading him there. Macbeth murders Duncan but returns shaken, carrying the guards' daggers. Lady Macbeth takes the weapons back to the room and smears the sleeping guards with blood. Macduff discovers the king's body the next morning. Macbeth kills the guards, claiming rage, and Lady Macbeth diverts attention when his explanation draws scrutiny. Duncan's sons Malcolm and Donalbain fear a wider plot and flee separately, which makes them appear guilty. Macbeth is crowned at Scone. Banquo suspects that Macbeth gained the crown through murder but remembers that the witches promised kingship to his own descendants. Macduff avoids the coronation and returns home, a sign that acceptance of the new king is not complete. The natural and political order of Scotland has been disrupted, while Macbeth has obtained the position he and his wife sought.",
             "through": {
               "chapter": 2
             }
@@ -3003,14 +3003,14 @@
           },
           {
             "scope": "book",
-            "text": "Romeo enters the Capulet feast with Benvolio and Mercutio. There he sees Juliet and immediately forgets Rosaline. Tybalt recognizes Romeo's voice and wants to attack him, but Lord Capulet forbids violence under his roof. Romeo and Juliet speak, kiss, and only afterward learn that each belongs to the enemy family. Later Romeo slips into the Capulet orchard, where he hears Juliet privately confessing her love for him. He reveals himself, and they acknowledge that their family names make the relationship dangerous. Juliet insists that their vows must lead to honorable marriage rather than a passing courtship. They arrange for her to send a messenger to Romeo the next morning so he can provide the time and place for a wedding.",
+            "text": "Romeo enters the Capulet feast with Benvolio and Mercutio. There he sees Juliet and immediately forgets Rosaline. Tybalt recognizes Romeo's voice and wants to attack him, but Lord Capulet forbids violence under his roof. Romeo and Juliet speak, kiss, and only afterward learn that each belongs to the enemy family. Later Romeo slips into the Capulet orchard, where he hears Juliet privately confessing her love for him. He reveals himself, and they acknowledge that their family names make the relationship dangerous. Juliet insists that their vows must lead to honorable marriage rather than a passing courtship. They arrange for her to send a messenger to Romeo the next morning so he can provide the time and place for a wedding. Friar Lawrence agrees to marry Romeo and Juliet, partly because their union might reconcile the two families. The Nurse carries messages between them, and the couple marry in secret.",
             "through": {
               "chapter": 2
             }
           },
           {
             "scope": "book",
-            "text": "Friar Lawrence agrees to marry Romeo and Juliet, partly because their union might reconcile the two families. The Nurse carries messages between them, and the couple marry in secret. Soon afterward Tybalt challenges Romeo. Bound to Tybalt by the hidden marriage, Romeo refuses to fight, but Mercutio takes up the challenge and is fatally wounded when Romeo intervenes. Enraged and grieving, Romeo kills Tybalt. Prince Escalus spares Romeo's life but banishes him from Verona. Juliet first reacts with horror to the news of Tybalt's death, then remains loyal to her husband. The Nurse helps Romeo reach Juliet for a final night together before he must leave for Mantua, while Friar Lawrence urges him to wait there for a chance to disclose the marriage and seek a pardon.",
+            "text": "Soon after the wedding, Tybalt challenges Romeo. Bound to Tybalt by the hidden marriage, Romeo refuses to fight, but Mercutio takes up the challenge and is fatally wounded when Romeo intervenes. Enraged and grieving, Romeo kills Tybalt. Prince Escalus spares Romeo's life but banishes him from Verona. Juliet first reacts with horror to the news of Tybalt's death, then remains loyal to her husband. The Nurse helps Romeo reach Juliet for a final night together before he must leave for Mantua, while Friar Lawrence urges him to wait there for a chance to disclose the marriage and seek a pardon.",
             "through": {
               "chapter": 3
             }
@@ -3101,7 +3101,7 @@
             "role": "supporting"
           },
           {
-            "description": "A wealthy countess mourning her dead brother and refusing Orsino's courtship. She intends to withdraw from society for years, though the arrival of Orsino's unusually eloquent new messenger soon unsettles that resolve.",
+            "description": "A wealthy countess mourning her dead brother and refusing Orsino's courtship. She intends to withdraw from society for years.",
             "id": "olivia",
             "name": "Olivia",
             "reveal": {
@@ -3122,7 +3122,7 @@
             "aliases": [
               "Clown"
             ],
-            "description": "Olivia's licensed fool, a singer and quick verbal performer whose apparent nonsense often exposes the folly of people with higher status. He has been absent from the household and must talk his way back into Olivia's favor.",
+            "description": "Olivia's licensed fool, a singer and quick verbal performer whose apparent nonsense often exposes the folly of people with higher status.",
             "id": "feste",
             "name": "Feste",
             "reveal": {
@@ -3153,7 +3153,7 @@
             "id": "fabian",
             "name": "Fabian",
             "reveal": {
-              "chapter": 2
+              "chapter": 3
             },
             "role": "minor"
           }

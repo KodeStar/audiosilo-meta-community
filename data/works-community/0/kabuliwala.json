@@ -2231,7 +2231,7 @@
             "id": "fool",
             "name": "Fool",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "supporting"
           },
@@ -2240,7 +2240,7 @@
             "id": "oswald",
             "name": "Oswald",
             "reveal": {
-              "chapter": 1
+              "chapter": 2
             },
             "role": "supporting"
           },

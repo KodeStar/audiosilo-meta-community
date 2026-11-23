@@ -3926,7 +3926,7 @@
             "role": "supporting"
           },
           {
-            "description": "A witty, irreverent gentleman and friend of Claudio. He mocks Vienna's sudden moral discipline but acts decisively when Claudio asks him to seek Isabella's help. His loose talk and resistance to authority repeatedly bring him into conflict with the disguised Duke.",
+            "description": "A witty, irreverent gentleman and friend of Claudio. He mocks Vienna's sudden moral discipline but acts decisively when Claudio asks him to seek Isabella's help.",
             "id": "lucio",
             "name": "Lucio",
             "reveal": {
@@ -3999,7 +3999,7 @@
             "id": "mariana",
             "name": "Mariana",
             "reveal": {
-              "chapter": 4
+              "chapter": 3
             },
             "role": "supporting"
           },

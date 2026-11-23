@@ -3070,7 +3070,7 @@
             "role": "supporting"
           },
           {
-            "description": "A group of Theban elders who respond to the conflict and advise Creon. The Chorus reflects the city's relief after the failed invasion, its respect for authority, and its growing fear that the king's refusal to bend is violating divine order.",
+            "description": "A group of Theban elders who respond to the conflict and advise Creon. The Chorus reflects the city's relief after the failed invasion and its respect for authority.",
             "id": "chorus-of-theban-elders",
             "name": "Chorus of Theban Elders",
             "reveal": {
