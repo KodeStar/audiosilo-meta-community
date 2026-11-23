@@ -2286,7 +2286,7 @@
             "id": "howard-givings",
             "name": "Howard Givings",
             "reveal": {
-              "chapter": 2
+              "chapter": 10
             },
             "role": "minor"
           },
@@ -2295,7 +2295,7 @@
             "id": "maureen-grube",
             "name": "Maureen Grube",
             "reveal": {
-              "chapter": 3
+              "chapter": 5
             },
             "role": "supporting"
           },
@@ -2304,7 +2304,7 @@
             "id": "bart-pollock",
             "name": "Bart Pollock",
             "reveal": {
-              "chapter": 5
+              "chapter": 13
             },
             "role": "supporting"
           },
@@ -2313,7 +2313,7 @@
             "id": "john-givings",
             "name": "John Givings",
             "reveal": {
-              "chapter": 6
+              "chapter": 12
             },
             "role": "supporting"
           },
@@ -2322,7 +2322,7 @@
             "id": "jennifer-wheeler",
             "name": "Jennifer Wheeler",
             "reveal": {
-              "chapter": 2
+              "chapter": 3
             },
             "role": "minor"
           },
@@ -2331,7 +2331,7 @@
             "id": "michael-wheeler",
             "name": "Michael Wheeler",
             "reveal": {
-              "chapter": 2
+              "chapter": 3
             },
             "role": "minor"
           }
@@ -2346,6 +2346,10 @@
         ],
         "work": "revolutionary-road"
       },
+      "position_scale": {
+        "length": 22,
+        "unit": "chapter"
+      },
       "recaps": {
         "ending": "After John Givings bluntly exposes the fear and self-deception behind the canceled move to Paris, Frank and April's marriage reaches its final collapse. Frank admits his affair, but April's indifference denies him the emotional response he expected. She later sleeps with Shep Campbell, then returns home without finding a way out of her situation. Following one last argument, April becomes unnaturally calm. She sends Frank to work after preparing breakfast and then attempts to end her pregnancy by herself. She suffers catastrophic bleeding and dies at the hospital. Frank is left shocked and diminished; the children go to live with relatives, and he eventually leaves Revolutionary Road for the city. Shep continues to grieve April while keeping the truth of their encounter from Milly. The Wheelers' house is sold to another young couple, allowing the neighborhood to absorb the tragedy into fresh appearances. When Helen Givings talks about the former residents, Howard quietly turns off his hearing aid.",
         "in_short": "Frank and April Wheeler regard themselves as exceptional people trapped in a conventional Connecticut suburb, but their marriage is already damaged by contempt, disappointment, and performance. After April's failed appearance in an amateur play, she proposes that the family move to Paris, where she will work while Frank discovers a meaningful direction. The plan briefly restores their intimacy. Frank nevertheless begins an affair with secretary Maureen Grube and receives an attractive promotion offer. When April becomes pregnant, Frank uses the pregnancy and his new prospects to abandon Paris, while April considers ending the pregnancy herself. John Givings, a psychiatric patient whose bluntness the Wheelers once admired, names their retreat as fear. Their arguments intensify; Frank's confession of infidelity changes little, and April briefly turns to neighbor Shep Campbell. The next morning she performs an abortion alone, hemorrhages, and dies. Frank leaves the suburb and the children live with relatives, while the neighborhood replaces the Wheelers and resumes its reassuring stories about itself.",
@@ -2355,42 +2359,42 @@
             "scope": "book",
             "text": "April Wheeler gives a poor performance as the lead in a community theater production, and Frank's attempt to comfort her turns into a vicious argument on the drive home. Their fight reveals a marriage sustained partly by the belief that they are more intelligent and alive than the suburban people around them. Frank remembers the early confidence of their courtship and the compromises that brought them to a house on Revolutionary Road with two children. By morning, neither has resolved the humiliation or the anger exposed after the play.",
             "through": {
-              "chapter": 2
+              "chapter": 3
             }
           },
           {
             "scope": "book",
             "text": "Frank commutes to an unfulfilling job at Knox Business Machines, where he performs sophistication for his younger secretary, Maureen Grube, and begins an affair with her. At home, April proposes a radical solution to their stagnation: the family will move to Paris, she will support them by working, and Frank will be free to discover what he actually wants to do. He is flattered by her faith in his unrealized potential. Planning the move revives their intimacy and gives both of them a story in which their present failures are temporary.",
             "through": {
-              "chapter": 3
+              "chapter": 8
             }
           },
           {
             "scope": "book",
             "text": "The Wheelers announce the Paris plan to Shep and Milly Campbell and to others in their circle. The reactions allow Frank and April to feel daring and united, although Shep is distressed by the prospect of April leaving. Helen Givings brings her son John, temporarily out of a psychiatric hospital, to meet the couple. His contempt for suburban pretense seems to validate their planned escape. Meanwhile, Frank continues concealing his affair, so the new honesty he celebrates at home rests on another deception.",
             "through": {
-              "chapter": 4
+              "chapter": 12
             }
           },
           {
             "scope": "book",
             "text": "Two developments threaten the move. Frank attracts the attention of executive Bart Pollock, who offers the recognition and advancement at Knox that Frank had claimed not to want. April then learns that she is pregnant. She proposes ending the pregnancy herself so they can preserve the Paris plan, but Frank resists. His objections combine genuine fear with a growing desire to accept the corporate future now available to him. Their shared project becomes another contest over whose account of their life will prevail, and Paris is canceled.",
             "through": {
-              "chapter": 6
+              "chapter": 14
             }
           },
           {
             "scope": "book",
             "text": "Without Paris, the Wheelers lose the hopeful role that briefly held them together. Frank presents the pregnancy and promotion as reasons for maturity, while April sees him using them to retreat into the life they both condemned. During another visit, John Givings immediately detects that the plan has collapsed and says openly that fear, not necessity, stopped them. His attack strips away their preferred explanations. Frank later confesses his affair with Maureen, expecting the disclosure to have emotional force, but April responds with detachment rather than jealousy.",
             "through": {
-              "chapter": 8
+              "chapter": 18
             }
           },
           {
             "scope": "book",
             "text": "April turns briefly to Shep Campbell, who has long loved her, but their encounter offers no durable escape. After a final night of conflict with Frank, she becomes calm and prepares breakfast for him the next morning. Once Frank leaves for work, April attempts to terminate her pregnancy alone. She hemorrhages and dies after being taken to the hospital. Frank is left devastated and later moves away, while Jennifer and Michael are placed with relatives. Shep grieves privately, and the house on Revolutionary Road is sold to a new family. Helen Givings reshapes the Wheelers' story into neighborhood conversation; as she talks, Howard Givings switches off his hearing aid, ending the novel with another quiet act of withdrawal.",
             "through": {
-              "chapter": 9
+              "chapter": 22
             }
           }
         ],
@@ -3337,6 +3341,10 @@
           }
         ],
         "work": "richard-iii"
+      },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
       },
       "recaps": {
         "ending": "On the night before Bosworth, the ghosts of Richard's victims visit his camp and condemn him, then promise Richmond victory. Richard wakes shaken but goes into battle determined to fight. Stanley's position remains uncertain until the fighting begins, when he and other wavering nobles support Richmond. Richard fights fiercely after losing his horse and searches for Richmond on foot, but Richmond kills him. Stanley retrieves the crown and places it on Richmond, who becomes Henry VII. Richmond announces that he will marry Elizabeth of York, joining the Lancastrian and Yorkist lines. He pardons surviving opponents who submit, orders burial for the dead, and promises a peaceful government. Richard's defeat ends his violent reign, while the planned marriage offers a political settlement to the dynastic conflict that enabled his rise.",

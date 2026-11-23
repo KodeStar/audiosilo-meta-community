@@ -222,6 +222,10 @@
         ],
         "work": "the-country-wife"
       },
+      "position_scale": {
+        "length": 5,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "At Horner's lodging, Pinchwife's attempt to control Margery turns into a public accusation against his innocent sister. Sparkish immediately believes the accusation against Alithea and rejects her, clearing the way for the faithful Harcourt to marry her. Margery's arrival threatens a different exposure when she openly declares her love for Horner. Lucy rescues the group from scandal by claiming that Margery's behavior was a device meant to test Sparkish and bring Alithea and Harcourt together. The explanation is false, but the company accepts it because it preserves their interests. Quack again supports Horner's supposed incapacity, so Pinchwife has to accept the public fiction and take Margery home. Horner's affairs with Lady Fidget and her circle remain concealed, and his fraudulent reputation survives. Alithea gains a more suitable husband in Harcourt, while Margery returns to a jealous marriage with her desires unchanged and Horner remains free to continue exploiting the husbands' misplaced confidence.",
         "in_short": "Horner, a London rake, has a doctor spread the false report that he is impotent so husbands will trust him with their wives. Sir Jaspar Fidget accordingly gives Horner access to Lady Fidget and her circle, whose public claims of virtue conceal their affairs. The jealous Pinchwife brings his inexperienced country bride Margery to London and tries to hide her, but his restrictions intensify her attraction to Horner. Even disguising her as a boy lets Horner approach her under Pinchwife's supervision. A second courtship plot follows Alithea, Pinchwife's sister, who remains loyal to the vain Sparkish while Harcourt sincerely pursues her. At the final gathering, Pinchwife's suspicions falsely compromise Alithea, and Sparkish abandons her; she is then free to marry Harcourt. Margery nearly exposes Horner by declaring her love, but Lucy invents an explanation that protects everyone. Horner's deception and the ladies' secret survive, while Pinchwife takes Margery home without having secured her affection.",
@@ -730,7 +734,7 @@
             "id": "alexis",
             "name": "Alexis",
             "reveal": {
-              "chapter": 2
+              "chapter": 44
             },
             "role": "supporting"
           }
@@ -745,6 +749,10 @@
         ],
         "work": "the-crossover"
       },
+      "position_scale": {
+        "length": 142,
+        "unit": "poem"
+      },
       "recaps": {
         "ending": "Chuck suffers another heart crisis and is hospitalized. Josh visits him before an important game, then plays while his mother remains at the hospital. Chuck dies during the game, leaving the family and team to face the loss without him. Josh withdraws into grief and initially cannot accept Jordan's efforts to reach him. After the funeral, Jordan gives Josh their father's championship ring, acknowledging Josh's bond with both Chuck and basketball. The twins return to the court for a private one-on-one game. Their play does not erase the death or the hurt between them, but it restores communication through the language they have always shared. Josh ends the story mourning his father while reconnecting with his brother and carrying forward what Chuck taught them.",
         "in_short": "Twelve-year-old twins Josh and Jordan Bell are stars of their middle-school basketball team, coached at home by their father, former professional player Chuck Bell. When Jordan begins dating Alexis, Josh feels abandoned. A bet costs Josh his locks, jealousy builds, and he deliberately throws a ball at Jordan during a game, injuring him and earning a suspension. At the same time, Chuck's untreated high blood pressure becomes impossible to dismiss. The brothers begin to repair their relationship, but Chuck suffers a fatal heart crisis while Josh is playing in a championship game. In grief, Josh pulls away from everyone. Jordan gives him their father's championship ring, and the twins play together again, using basketball to begin reconciling and to honor the father they lost.",
@@ -754,28 +762,28 @@
             "scope": "book",
             "text": "Josh Bell and his twin brother, Jordan, are twelve-year-old standouts on their middle-school basketball team. Josh narrates their life in the language of dribbles, beats, and competition. Their father, Chuck, was once a celebrated professional player overseas and still coaches the boys with showmanship and affection. Their mother, Crystal, is an assistant principal who insists that schoolwork and discipline matter as much as winning. The twins are close, but change begins when Jordan becomes interested in a new student, Alexis. Josh jokingly calls her Miss Sweet Tea and feels the first signs that his brother's attention is moving beyond their shared world.",
             "through": {
-              "chapter": 2
+              "chapter": 54
             }
           },
           {
             "scope": "book",
             "text": "Jordan's relationship with Alexis takes more of his time, leaving Josh jealous and isolated. A careless bet and a haircut mishap result in Josh losing the locks that have been part of his identity. On the court, frustration replaces the twins' instinctive teamwork. Josh finally hurls a basketball at Jordan in anger during a game, bloodying his brother's nose. He is suspended and ordered to apologize, while Jordan refuses to forgive him immediately. At home, another source of fear is becoming visible: Chuck has high blood pressure and troubling symptoms, but he jokes, ignores Crystal's warnings, and resists medical treatment.",
             "through": {
-              "chapter": 3
+              "chapter": 82
             }
           },
           {
             "scope": "book",
             "text": "Josh endures his suspension and the loss of trust from both his brother and his team. He begins to understand that his anger came from fear of being left behind, though recognizing it does not instantly repair the damage. Chuck's health worsens and he collapses, forcing the family to confront risks he has long dismissed. Hospital visits and basketball continue side by side. Josh and Jordan make tentative moves toward reconciliation as they worry about their father, but the pressure of the season and Chuck's uncertain condition keep the family suspended between hope and dread.",
             "through": {
-              "chapter": 4
+              "chapter": 118
             }
           },
           {
             "scope": "book",
             "text": "Chuck suffers a final heart crisis and is hospitalized. Josh sees him before leaving to play in a major game, while Crystal stays behind. During the game, the family receives the news that Chuck has died. Victory on the court cannot matter in the face of the loss. Josh retreats into grief and struggles to accept comfort, including from Jordan. After the funeral, Jordan brings him their father's championship ring and gives it to him as a sign of love and understanding. The brothers then play one-on-one. Their familiar competition becomes a way to speak when ordinary words are inadequate, beginning a reconciliation and allowing both boys to carry their father's memory forward together.",
             "through": {
-              "chapter": 6
+              "chapter": 142
             }
           }
         ],
@@ -1155,6 +1163,10 @@
           }
         ],
         "work": "the-crucible-arthur-miller"
+      },
+      "position_scale": {
+        "length": 4,
+        "unit": "act"
       },
       "recaps": {
         "ending": "By autumn, Abigail has fled Salem with Mercy Lewis after taking Parris's money, and fear of unrest has grown as nearby Andover rejects its own trials. Hale, now convinced the proceedings are wrong, begs prisoners to confess falsely so they can live. Giles Corey has died under pressing without entering a plea, preserving his property for his sons. Elizabeth, pregnant and temporarily spared, is asked to persuade John to confess. John agrees to a lie but refuses to accuse anyone else. When Danforth demands a signed confession for public display, John tears it up rather than give the court his name as support for its fraud. He goes to execution with Rebecca Nurse. Hale pleads with Elizabeth to stop him, but she understands that John has recovered his self-respect and will not take that choice from him. The court continues the hangings even after its moral basis has collapsed.",

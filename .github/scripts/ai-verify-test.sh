@@ -1,0 +1,154 @@
+#!/usr/bin/env bash
+# ai-verify-test.sh - tests of ai-verify.sh's transport and its flag comment.
+#
+# Usage: bash .github/scripts/ai-verify-test.sh
+#
+# The community repository has no Go module, so these are the shell half of core's
+# scripts/aiverify_test.go cases for the shared transport (TestAIVerifyPrefersTheAPIKey,
+# TestAIVerifyAPIRequestIsNeverAnArgument) and the comment's pass note and flag lead
+# (TestAIVerifyCommentSaysWhatTheVerdictDoes, its bot-origin case). The claude CLI
+# and curl are stubs on PATH; nothing reaches the network. Needs bash, jq and perl,
+# as the script itself does. Runs every case and exits non-zero if any failed.
+
+set -uo pipefail
+
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SCRIPT="$HERE/ai-verify.sh"
+WORK="$(mktemp -d)"
+trap 'rm -rf "$WORK"' EXIT
+
+REAL_JQ="$(command -v jq)" || { echo "ai-verify-test: jq is required" >&2; exit 2; }
+FAILED=0
+fail() { echo "FAIL: $*" >&2; FAILED=1; }
+
+# argLimit refuses what Linux's execve refuses: one argument over MAX_ARG_STRLEN
+# (128 KiB with its NUL). macOS has no such limit, so without it a request passed
+# as an argument would only fail on the runners.
+ARG_LIMIT='#!/usr/bin/env bash
+for a in "$@"; do
+  if [ "${#a}" -gt 131071 ]; then echo "$0: Argument list too long (${#a} bytes)" >&2; exit 126; fi
+done
+'
+
+BIN="$WORK/bin"
+mkdir -p "$BIN"
+# The claude stub records that it ran and its stdin, and answers a pass or, with
+# REPLY_FILE set, that file's contents.
+cat > "$BIN/claude" <<'EOF'
+#!/usr/bin/env bash
+cat > "$OUTDIR/stdin.txt"
+if [ -n "${REPLY_FILE:-}" ]; then cat "$REPLY_FILE"; exit 0; fi
+printf '%s' '{"result":"{\"verdict\":\"pass\",\"findings\":[]}"}'
+EOF
+# The curl stub notes that it ran, keeps the request body it read on stdin and
+# answers the Messages API with a pass.
+{
+  printf '%s' "$ARG_LIMIT"
+  cat <<'EOF'
+touch "$OUTDIR/curl-called"
+cat > "$OUTDIR/request.json"
+printf '%s' '{"content":[{"type":"text","text":"{\"verdict\":\"pass\",\"findings\":[]}"}]}'
+EOF
+} > "$BIN/curl"
+# jq behind the same argument limit.
+printf '%sexec "%s" "$@"\n' "$ARG_LIMIT" "$REAL_JQ" > "$BIN/jq"
+chmod +x "$BIN/claude" "$BIN/curl" "$BIN/jq"
+
+CONTEXT="$WORK/context.txt"
+printf '=== ENTRY a-work (ADDED)\n{"characters": {}}\n' > "$CONTEXT"
+
+# run <name> <context> [VAR=value ...]: ai-verify.sh over <context> with the stubs first on
+# PATH and nothing else inherited, so a key in the caller's environment cannot
+# reach it. Leaves its files in $WORK/<name>/.
+run() {
+  local out="$WORK/$1" context="$2"
+  shift 2
+  mkdir -p "$out"
+  env -i PATH="$BIN:$PATH" HOME="$out" TMPDIR="$out" OUTDIR="$out" "$@" \
+    bash "$SCRIPT" "$context" "$out/verdict.json" "$out/comment.md" > "$out/log.txt" 2>&1 \
+    || fail "$(basename "$out"): ai-verify.sh exited non-zero: $(cat "$out/log.txt")"
+}
+
+# With both credentials the API key is used (billed per pull request, not the
+# subscription meta-sync's resolver shares); with the subscription token alone
+# the CLI still is.
+run both "$CONTEXT" CLAUDE_CODE_OAUTH_TOKEN=test ANTHROPIC_API_KEY=key
+[ -e "$WORK/both/curl-called" ] || fail "both credentials: curl was not called"
+[ ! -e "$WORK/both/stdin.txt" ] || fail "both credentials: the CLI was called"
+grep -q '"verdict":"pass"' "$WORK/both/verdict.json" || fail "both credentials: verdict $(cat "$WORK/both/verdict.json")"
+
+run oauth "$CONTEXT" CLAUDE_CODE_OAUTH_TOKEN=test
+[ ! -e "$WORK/oauth/curl-called" ] || fail "subscription token alone: curl was called"
+[ -s "$WORK/oauth/stdin.txt" ] || fail "subscription token alone: the CLI was not called"
+
+# ai-verify.yml installs no CLI when the key is set, so the key must reach a
+# verdict on a PATH with no `claude` at all: the curl and jq stubs alone, ahead
+# of the caller's PATH less every directory that holds one.
+NOCLI_BIN="$WORK/bin-nocli"
+mkdir -p "$NOCLI_BIN"
+cp "$BIN/curl" "$BIN/jq" "$NOCLI_BIN/"
+NOCLI_PATH="$NOCLI_BIN"
+while IFS= read -r -d : dir; do
+  if [ -n "$dir" ] && [ ! -x "$dir/claude" ]; then NOCLI_PATH="$NOCLI_PATH:$dir"; fi
+done <<< "$PATH:"
+run nocli "$CONTEXT" ANTHROPIC_API_KEY=key PATH="$NOCLI_PATH"
+[ -e "$WORK/nocli/curl-called" ] || fail "the key with no CLI installed: curl was not called"
+grep -q '"verdict":"pass"' "$WORK/nocli/verdict.json" || fail "the key with no CLI installed: verdict $(cat "$WORK/nocli/verdict.json" 2>/dev/null)"
+
+# On the API key transport the prompt and the message reach jq as files and the
+# request reaches curl on stdin. One entry can run to MAX_INPUT_BYTES (200 kB),
+# past the 128 KiB Linux allows one argument, where jq or curl handed it as one
+# does not start and the run is a skip.
+BIG="$WORK/big.txt"
+{
+  echo '=== ENTRY a-long-work (ADDED)'
+  "$REAL_JQ" -n '{characters: [range(0; 1200) | {id: "c\(.)", name: "A character named \(.)", description: "Somebody the reader meets early on, described at length."}]}'
+} > "$BIG"
+[ "$(wc -c < "$BIG")" -gt 140000 ] && [ "$(wc -c < "$BIG")" -lt 200000 ] || fail "the large context is $(wc -c < "$BIG") bytes, want 140-200 kB"
+run big "$BIG" ANTHROPIC_API_KEY=key
+REQ="$WORK/big/request.json"
+if ! "$REAL_JQ" -e . "$REQ" > /dev/null 2>&1; then
+  fail "the request curl read on stdin is not JSON: $(head -c 200 "$REQ" 2>/dev/null)"
+else
+  MAX_TOKENS="$("$REAL_JQ" -r '.max_tokens' "$REQ")"
+  [ "$MAX_TOKENS" = 16000 ] || fail "max_tokens = $MAX_TOKENS, want 16000"
+  "$REAL_JQ" -e '.model != "" and (.system | contains("You are a careful reviewer for the COMMUNITY layer"))' "$REQ" > /dev/null \
+    || fail "the request's model or system prompt is wrong"
+  "$REAL_JQ" -e '(.messages | length) == 1 and .messages[0].role == "user"' "$REQ" > /dev/null \
+    || fail "the request does not carry the one user message"
+  # The whole entry, byte for byte (the script's $(cat chunk) drops its final
+  # newline), not a line of it: a message cut short still holds any one line.
+  "$REAL_JQ" -e --rawfile big "$BIG" '.messages[0].content | contains($big | rtrimstr("\n"))' "$REQ" > /dev/null \
+    || fail "the message does not carry the whole $(wc -c < "$BIG")-byte entry"
+fi
+
+# audiosilo-meta-sync's steward reads a flag that lists no findings by its prose
+# lines, dropping the lead as the one that ends in a colon (watcher.FindingOf). A
+# lead ending otherwise would be the same "finding" on every such flag.
+printf '%s' '{"result":"{\"verdict\":\"flag\",\"findings\":[\"a-work characters: a finding\"]}"}' > "$WORK/flag.json"
+run flag "$CONTEXT" CLAUDE_CODE_OAUTH_TOKEN=test REPLY_FILE="$WORK/flag.json"
+grep -qF -- '- a-work characters: a finding' "$WORK/flag/comment.md" || fail "the flag's finding is missing: $(cat "$WORK/flag/comment.md")"
+# The comment says what the verdict DOES (core's TestAIVerifyCommentSaysWhatTheVerdictDoes,
+# its bot-origin case): the steward merges a community data-only pull request on a
+# pass and never on a flag, so neither comment may call the verdict advisory.
+grep -qF 'does not merge a pull request while it is flagged' "$WORK/flag/comment.md" \
+  && ! grep -qF 'not a merge block' "$WORK/flag/comment.md" \
+  || fail "the flag comment does not say the steward holds the merge: $(cat "$WORK/flag/comment.md")"
+grep -qF 'merges a data-only pull request on this verdict' "$WORK/oauth/comment.md" \
+  && ! grep -qF 'a maintainer still reviews before merge' "$WORK/oauth/comment.md" \
+  || fail "the pass comment does not say the steward merges on it: $(cat "$WORK/oauth/comment.md")"
+# A fork's pull request (judged on a maintainer's dispatch) carries this comment
+# too, and the steward only lists that one, so the pass note leaves it to a
+# maintainer rather than promise a merge that never comes.
+grep -qF "a pull request from a fork is a maintainer's to merge" "$WORK/oauth/comment.md" \
+  || fail "the pass comment does not leave a fork's pull request to a maintainer: $(cat "$WORK/oauth/comment.md")"
+while IFS= read -r line; do
+  line="$(printf '%s' "$line" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+  case "$line" in "" | "#"* | "- "*) continue ;; esac
+  case "$line" in *:) ;; *) fail "the flag comment's lead does not end in a colon: $line" ;; esac
+done < "$WORK/flag/comment.md"
+
+if [ "$FAILED" -ne 0 ]; then
+  exit 1
+fi
+echo "ai-verify-test: ok"

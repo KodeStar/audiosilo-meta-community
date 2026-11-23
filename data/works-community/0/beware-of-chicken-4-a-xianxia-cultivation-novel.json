@@ -2725,7 +2725,7 @@
             "id": "marge",
             "name": "Marge",
             "reveal": {
-              "chapter": 24
+              "chapter": 23
             }
           }
         ],
@@ -2738,6 +2738,10 @@
           }
         ],
         "work": "billy-summers"
+      },
+      "position_scale": {
+        "length": 24,
+        "unit": "chapter"
       },
       "recaps": {
         "ending": "Billy and Alice uncover the reason for the elaborate contract: Joel Allen possessed information about sexual abuse committed by Patrick Klerke, and Patrick's wealthy father Roger paid to silence Allen and then remove Billy as a witness. Billy and Alice enter the Klerke estate using carefully prepared disguises and turn the predators' assumptions against them. Patrick and Roger are killed, completing Billy's effort to hold the people behind the scheme accountable. As Billy and Alice leave, a household employee named Marge shoots Billy because of her loyalty to the Klerkes. He initially escapes with Alice, but the wound is fatal. Alice later completes the manuscript Billy began while posing as a writer. She first gives him a happier fictional survival, then records the truth: Billy died during their journey back to Bucky and was buried in Colorado. Writing lets her preserve his life without denying its end, and she considers becoming an author herself. Billy's last job therefore closes not with the retirement he wanted, but with Alice alive, protected, and able to tell both his story and her own.",
@@ -2783,14 +2787,14 @@
             "scope": "book",
             "text": "Billy and Alice learn that Joel Allen knew evidence could expose Patrick Klerke's sexual abuse and that Roger Klerke arranged the assassination to protect his son. Billy decides that surviving the betrayal is not enough; he and Alice prepare to confront the men who caused the chain of killings. They use costumes and the Klerkes' confidence in their own power to gain access to the estate. The plan also forces Alice to decide how directly she wants to participate after everything done to her. Together they kill Patrick and Roger and leave believing the danger has ended. Marge, a household employee loyal to the Klerkes, unexpectedly shoots Billy during their escape.",
             "through": {
-              "chapter": 24
+              "chapter": 23
             }
           },
           {
             "scope": "book",
             "text": "Alice gets the wounded Billy away from the Klerke property, but the gunshot cannot be overcome. He dies before they can return safely to Bucky. Bucky helps give him a private burial in Colorado, beyond the reach of the criminals and authorities who would reduce him to the courthouse assassination. Alice takes responsibility for the autobiographical manuscript Billy began as part of his false identity. In an initial version she writes an ending in which he recovers, lives quietly, and lets her begin an independent future. She then acknowledges that this is the ending she wanted rather than the one that occurred. Her final account states Billy's death and preserves the better possibilities he created for her. Finishing the book gives Alice a direction of her own and turns David Lockridge's invented occupation into Billy's lasting legacy.",
             "through": {
-              "chapter": 25
+              "chapter": 24
             }
           }
         ],
@@ -5827,6 +5831,10 @@
           }
         ],
         "work": "blithe-spirit"
+      },
+      "position_scale": {
+        "length": 3,
+        "unit": "act"
       },
       "recaps": {
         "ending": "Madame Arcati concludes that Edith's unsuspected psychic ability supplied the force that brought Elvira into the house. Using Edith in another attempt, the medium appears to send both dead wives away. Charles, relieved to be free of the household struggle, decides to leave at once and travel alone. Before going, he speaks dismissively to Elvira and Ruth in case they can still hear him. His confidence is misplaced: after he departs, objects move and the room is damaged, showing that both ghosts remain present even though Charles can no longer see or hear them. He has escaped their immediate company, but the supernatural problem has not actually been solved.",

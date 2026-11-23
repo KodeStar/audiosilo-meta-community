@@ -31,9 +31,7 @@ to three members:
   finished.
 - **description** - the spoiler-free paragraph a stranger reads before deciding
   to listen: the intro on the work's page, its meta description, and the blurb
-  every downstream consumer shows. It is schema-supported once core's
-  `schema_version` 6 change has landed and this repository's pinned `CORE_REF`
-  has been bumped to it.
+  every downstream consumer shows.
 
 Read **[AUTHORING.md](AUTHORING.md)** before writing any of them. To produce
 them from a book you own rather than from memory, follow

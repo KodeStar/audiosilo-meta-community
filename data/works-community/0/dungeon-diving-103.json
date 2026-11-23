@@ -1,0 +1,801 @@
+{
+  "entries": {
+    "dungeon-diving-103": {
+      "characters": {
+        "characters": [
+          {
+            "description": "Ken Nagato narrates the series. He is a first-year at Halen whose rare Emperor class comes with a sealed Demon Lord as its secondary class. When the book opens he is level 5, his skills include Absorb, Discharge and Dark Blades, and his party has just defeated its first boss. He leads a group made up of his partners Fayeth, Dez and Charlotte, along with Harley and Charlotte's rabbit, Bun Bun. He has also agreed to help rebuild the Nagato clan of assassins, a life his late mother chose to leave. His grandmother drives the party to the family estate for two weeks of training.",
+            "id": "ken-nagato",
+            "name": "Ken Nagato",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Ken's instructor at Halen and his patron, a very high-level adventurer who is personally invested in how fast he grows. She comes with the party to the Nagato estate and shares a house with Ken during the training stay. She and the elven royal censor dislike each other openly, and Crimson boasts that she once broke the censor's sword. Ken's grandfather flirts with her when she arrives.",
+            "id": "crimson",
+            "name": "Crimson",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elf and the tank of Ken's party. She says the city under her people's great tree is home to about twenty million elves. She shares an elven partner bond with Ken, which one of his grandmothers and the elven censor both treat as significant, and she moves into his house at the family estate.",
+            "id": "fayeth",
+            "name": "Fayeth",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A half-succubus warlock who scouts and fights at range for Ken's party. She is one of Ken's three partners, along with Fayeth and Charlotte, and she helps keep watch over the demonic seal inside him.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The druid healer of Ken's party and one of his partners. She is partnered with Bun Bun, a rabbit who fights with the group and understands what people say.",
+            "id": "charlotte",
+            "name": "Charlotte",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The bard of Ken's party, and the one member who is not also his partner. On arrival at the Nagato estate, grandmother Yui quietly lines up an especially tough training schedule for her.",
+            "id": "harley",
+            "name": "Harley",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Bun"
+            ],
+            "description": "Charlotte's rabbit, who fights with the party. The grandparents tell everyone that he will go through the same hard training as the humans during the stay at the family estate.",
+            "id": "bun-bun",
+            "name": "Bun Bun",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An elven envoy who serves the elven princess and has been sent to keep an eye on Ken's party. She clashes openly with Crimson and wants to know more about Ken and his team. When Fayeth decides to stay in Ken's house at the estate, the censor goes along with it.",
+            "id": "royal-censor",
+            "name": "The royal censor",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ken's grandmothers. She drives the party to the walled family estate and sets its house rules, including a ban on weapons inside any of the houses. She comes across as kind while planning brutal training, especially for Harley.",
+            "id": "yui",
+            "name": "Yui",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ken's biological grandmother, one of several grandmothers living at the Nagato estate. She is there when the party arrives and backs the plan to put everyone through demanding training.",
+            "id": "sakura",
+            "name": "Sakura",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ken's grandmothers, present in person when the party reaches the Nagato estate. She is a very big woman with the muscular build of a bodybuilder.",
+            "id": "akari",
+            "name": "Akari",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ken's grandfather, who runs the Nagato estate together with Ken's grandmothers. He has a teasing streak and flirts with Crimson when she arrives. He and the grandmothers want the party prepared to fight off hostile adventurers.",
+            "id": "kens-grandfather",
+            "name": "Ken's grandfather",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The elven royal who sent the censor to Ken. Crimson tells Ken that the princess does not truly have the class she claims, and Ken already knew it. He is meant to visit her after he reaches level 20, and he may share his Absorb skill with her.",
+            "id": "elven-princess",
+            "name": "The elven princess",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "description": "One of Ken's grandmothers, separate from Yui, Sakura and Akari, and the one Ken regards as the warmest toward him. She is away when the party first reaches the estate. During Ken's test in the family dungeon, her banner flags keep monsters away from his spot on floor 5 for a time. When he finally comes out after about three days, she is there to greet him and tells him the flags stopped working on purpose.",
+            "id": "banner-grandmother",
+            "name": "The banner grandmother",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Head of the Nagato family's retainers. He meets Ken as the clan starts hiring again for the first time in ten years, and he explains how the clan runs on tasks and points while still paying real wages. He also tells Ken that his mother disliked killing and thought the clan was no longer needed.",
+            "id": "hiroshi",
+            "name": "Hiroshi",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Charlotte's gray-haired father, a guild leader. After Charlotte's sister Rachel phones her, he joins by video and agrees to come visit the Nagato estate.",
+            "id": "marcus",
+            "name": "Marcus",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Charlotte's sister. She calls Charlotte while the party is at the Nagato estate and makes no secret of her hostility toward Ken.",
+            "id": "rachel",
+            "name": "Rachel",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Hiroshi's daughter, a quiet damage dealer who is one of the young recruits Ken meets at the clan store. She tells him the clan only kills people who have earned it. When two of the recruits attack Ken in a hallway, Amy blocks Fred's blade and takes a deep wound.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A level 7 tank who is one of the young recruits at the clan store, and Meg's brother. His family used to serve the clan and came back because Ken is Crimson's protege. He joins his sister in attacking Ken, Amy takes a deep wound blocking his blade, and he runs once Ken fights back.",
+            "id": "fred",
+            "name": "Fred",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A poison-casting Venomancer among the recruits at the clan store, and Fred's sister. She flirts with Ken, then corners him in a hallway and knocks out the two men with him using a bolt. Ken cancels her poison with Absorb, and she runs off with Fred, both shouting that a demon is on the attack.",
+            "id": "meg",
+            "name": "Meg",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The head of Halen. Crimson pays her to send everyone back to the academy from the family estate by portal.",
+            "id": "headmistress",
+            "name": "The headmistress",
+            "reveal": {
+              "chapter": 10
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A senior caster whom Ken and Dez notice in the dorm lobby after they return to Halen. They know her from the first party of the hostile student whose group Ken killed, where she appeared to be that student's subordinate or bodyguard. They suspect she is connected to the rival assassin clan and decide to raise it with Crimson.",
+            "id": "upperclass-caster",
+            "name": "The upperclass caster",
+            "reveal": {
+              "chapter": 11
+            }
+          },
+          {
+            "aliases": [
+              "Penny"
+            ],
+            "description": "A level 7 frost knight on Halen's Security Council. When a confrontation breaks out at the dorm entrance over Ken being there, she steps in and lets his group through.",
+            "id": "penelope",
+            "name": "Penelope",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A paladin on Halen's Security Council with fiery hair. She objects to Ken entering the dorm and stands in his way at the door until Dez throws her.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 11
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A student in Crimson's class who runs her own party, which includes a healer. She attends Crimson's lessons alongside Ken's party.",
+            "id": "kendra",
+            "name": "Kendra",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A student in Crimson's class who attends lessons alongside Kendra and Ken's party.",
+            "id": "taylor",
+            "name": "Taylor",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "UG president"
+            ],
+            "description": "The head of the United Guilds, a scarred summoner with a cluttered office full of secured files, who defers to Crimson. Together they give Ken a classified file on research into teleporting between dungeon safe zones. The file shows that the upperclass caster is assisting the research team on the tenth floor. The president is uneasy about her parent.",
+            "id": "united-guilds-president",
+            "name": "The United Guilds president",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A thin, platinum-blonde student who leads a rival party in Crimson's class. Her arcane weaver class lets her shape mana into many different weaves. She challenges Ken's party to race to the floor-5 safe zone, and Dez quietly takes a side bet with her on undisclosed terms.",
+            "id": "rival-party-leader",
+            "name": "The rival party leader",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A level 22 mage who runs a paid power-leveling guild from another city. Its customers pay to gain levels for health or job benefits. At the seventh-floor scorpion event he claims the eastern half for his guild with flags. He looks after his clients, stays neutral with the Halen students, and notices that Ken is Crimson's protege.",
+            "id": "roger",
+            "name": "Roger",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A rich online personality, only level 3, who pays for the power-leveling guild's level-20 clients at the scorpion event. She takes an epic wand from the loot and then gives it to Kendra in exchange for a future interview with Ken. She knows his family is a known assassin clan, and she has a crush on him.",
+            "id": "influencer",
+            "name": "The influencer",
+            "reveal": {
+              "chapter": 20
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Charlotte's mother, a well-known and strict fighter whose class controls storms. At first she banned Charlotte from adventuring and only gave in reluctantly. Charlotte's view that healers only put off the inevitable came from her.",
+            "id": "charlottes-mother",
+            "name": "Charlotte's mother",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A level-45 incubus demon lord sealed inside Ken. He visits Ken in a dream, swelling until the chains of the seal strain, and asks for magazines, offering power and training in exchange. He says he gave Ken the Charm skill and some stats, and Ken suspects he is holding back how much power he still has.",
+            "id": "snoo",
+            "name": "Snoo",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Penelope's cousin, a blue-haired girl who flirts with Harley.",
+            "id": "meredith",
+            "name": "Meredith",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A scientist in Halen's dungeon research labs with frizzy black hair. She has built a synthetic skill book that opens portals between tenth-floor safe zones, but learning it wiped the stats of the prison volunteers who tried. She is an idealist who does not want the technology used for war, and she plans a full demonstration at the end-of-year celebration. Her CID is fused into a band that the United Guilds tracks.",
+            "id": "dr-finley",
+            "name": "Dr. Finley",
+            "reveal": {
+              "chapter": 30
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A student mage with black hair and blue eyes who helps in Dr. Finley's lab on weekends by filling its batteries with mana. Ken recognizes her as the upperclass caster who supported the hostile student and the anti-elf front. She says the portal technology could favor the strong and calls the prison volunteers expendable. Ken suspects she belongs to the rival assassin clan.",
+            "id": "lab-assistant",
+            "name": "Dr. Finley's lab assistant",
+            "reveal": {
+              "chapter": 30
+            }
+          },
+          {
+            "aliases": [
+              "Harem Queen"
+            ],
+            "description": "Helen's red-haired mother, a powerful adventurer known as the Harem Queen. She is one of the elite parents who gather at the dungeon entrance for Dr. Finley's end-of-year portal demonstration.",
+            "id": "helens-mother",
+            "name": "Helen's mother",
+            "reveal": {
+              "chapter": 35
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A ten-foot, six-armed female Naga whose red scales turn blue toward her tail. She is the first creature through Dr. Finley's portal, and her shockwave levels nearby buildings. She can cast six spells at once and heal herself, and she kills a level 53 fighter of the White Tigers guild in close combat before Crimson attacks her and drives her back from the portal.",
+            "id": "six-armed-naga",
+            "name": "The six-armed Naga",
+            "reveal": {
+              "chapter": 36
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A masked fighter sent by the rival assassin clan as reinforcement when Ken's party corners the lab assistant at the floor-6 exit. He is a little higher in level than Ken and has a venomous, viper-like striking ability. He puts a knife to Charlotte and cuts her throat. Ken and Fayeth defeat him, and Fayeth stabs him to death.",
+            "id": "masked-assassin",
+            "name": "The masked assassin",
+            "reveal": {
+              "chapter": 37
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0F1DK8P7G",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-diving-103"
+      },
+      "recaps": {
+        "ending": "The first year at Halen ends in disaster at the portal demonstration. Dr. Finley's lab assistant, an agent of the rival assassin clan, opens the portal to a Naga world; her clan has worked with the Naga for decades. Ken's party stops her at the floor-6 exit, but her ultimate fate is unclear. Dr. Finley is killed, and her synthetic skill book is destroyed. The six-armed Naga woman dies, and the portal closes after Ken absorbs the burst of mana from the broken book. Ken is now level 13 with no weight manacles. He has a new Portal skill that failed the first time he tried it, and he senses that the dungeon itself has noticed him. Because powerful adventurers, Helen's mother among them, want that ability, the elven censor takes Ken and Fayeth down to the sixth floor, leaving the others behind. Crimson, lost to Limit Break, dove through the portal. She wakes in the Naga world's floor-5 safe zone with no memory of the fight and plans to make her way down to floor 60 and come back through there. Charlotte has recovered from her wound and wants to become stronger with her mother's approval, and Dez plans to unlock her secondary class before next year with her father's backing. The grandparents, Amy and Hiroshi are rebuilding the Nagato clan and the Silverfangs, which Crimson has joined. Unresolved at the close: the alliance between the rival clan and the Naga, how Ken might bring Limit Break under control, his promised trip to the elven princess at level 20, the scheme that got his parents killed, Snoo and the seal, who is writing the fan serial about Ken, and the favor he owes the influencer.",
+        "in_short": "Ken Nagato spends two weeks training at his family's estate, where a pair of spy recruits from a rival assassin clan attacks him, and he executes the captured traitors. Back at Halen, Crimson pushes her first-years toward the tenth floor. Fayeth hears from the censor that the elven princess's claimed class was staged, and Ken learns that Crimson chose him because her Limit Break skill keeps slipping out of her control, which leads to a rift that heals at the seventh-floor scorpion event. Ken's party grinds that event for months alongside a commercial leveling guild, Charlotte becomes Ken's full partner, and the party clears floor 10. Ken recognizes Dr. Finley's lab assistant, who is helping develop portal technology, as a probable clan agent. After the semester ends the grandparents announce the revival of the Silverfangs, which go public at the end-of-year maid cafe. During the portal demonstration that follows, the assistant lets Naga invaders through. Crimson fights the six-armed Naga woman until the creature dies, but she loses control and disappears through the portal. Finley is killed, and the portal closes after Ken absorbs the shattered skill book's mana and gains a Portal skill. The book ends with Ken in the elven censor's care on floor 6 and Crimson waking without her memory in the Naga world.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Ken Nagato enrolled at Halen, an academy that trains dungeon divers, and drew the rare Emperor class. His secondary class, Demon Lord, comes from an incubus demon lord named Snoo, who is sealed inside him. Ken's key skill, Absorb, can draw in energy and magic. Crimson, a very high-level adventurer, became his instructor and patron. Ken also wears manacles that get heavier whenever he casts. Ken's party is made up of Fayeth, an elf tank and the daughter of an ambassador, bonded to him by an elven partnership; Dez, a half-succubus warlock; Charlotte, a druid healer with her rabbit Bun Bun; and Harley, a bard. Fayeth, Dez and Charlotte are all his partners. During the first year Ken clashed with a hostile student and the people backing him. Ken killed that student's first party, and the group's anti-elf sympathies put Fayeth in danger more than once. In an early fight, Penelope of the Security Council cut off Charlotte's arm. Ken stole a flag in a gym contest while wearing a demon mask, and the headmistress kept him out of the dorms for a whole term. An elven princess who claims Ken's Emperor class wants him to visit her. Ken has agreed to help revive his family's Nagato clan of assassins, which his mother walked away from before she and his father were killed through a scheme by a member of their own party. As this book begins, the party has just beaten its first boss and Ken is level 5.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far this book: Ken's grandmother Yui drives the party and Crimson to the walled Nagato estate for two weeks of training. The elven royal censor comes too, serving the elven princess, and she and Crimson keep sniping at each other. Crimson privately tells Ken that the princess does not truly hold her claimed class, and that he may share Absorb with her when he visits at level 20. Sakura, Ken's biological grandmother, works out that Crimson has a berserk-like skill triggered by her heart rate, and she warns that she would kill Crimson rather than let her put Ken in danger. Crimson's Eyes of Wisdom ability told her that Ken, not Sakura, is the one who can help.\n\nKen wakes up alone on floor 5 of the family dungeon with almost nothing in his CID. He fights ghastly armor that copies his moves and knights that Crimson trained in her own style, earning potions and news of his party, and he gets out after about three days. He and Crimson pressure the censor into handing over a skill book, a training manual and a potion that makes stats easier to train. Harley returns at level 6 after discovering that her flute music kills reapers.\n\nHiroshi, head of the retainers, explains how the clan works, and Ken meets young recruits at the clan store. Two of them, the siblings Fred and Meg, attack him. Hiroshi's daughter Amy blocks Fred's blade and takes a deep wound, and Ken drives the pair off. Crimson brings back captives and dead guards bearing the tattoo of a rival assassin clan that the grandparents had pushed out of corporate takeovers. Charlotte's father Marcus, a famous guild leader, arrives with her sisters. Under questioning, Meg admits that her family sold clan secrets to the rival clan and that her mother ordered the attack. Ken kills the three captives himself and is shaken by it. Yui reports that the rival clan was interested in Ken early on and is also interested in Halen.",
+            "through": {
+              "chapter": 9
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far this book: The estate training wraps up with Ken still at level 5, now with Shadow Arm added to his skills. Sakura apologizes for how cold she has been since his mother died and gives each party member a camouflage skill book. Amy asks to become Ken's maid so she can help him get revenge, and Sakura agrees on the condition that she goes through intensive ninja training. Ken also tells Charlotte that his mother died because of a party member's scheme.\n\nBack at Halen, the headmistress is cool toward Ken. Dez throws Helen, a Security Council paladin, when she blocks Ken at the dorm door, and Penelope lets the group through. Ken and Dez spot an upperclass caster from the hostile student's old party in the lobby. The United Guilds president and Crimson show Ken a classified file revealing that this caster assists a tenth-floor research team studying teleportation between safe zones, though there is no evidence against her. Crimson sets her class the goal of beating the tenth-floor boss before the term ends.\n\nThe rival party leader, an arcane weaver, challenges Ken's party to race to the floor-5 safe zone, and Dez quietly takes a side bet. Ken's party wins the race by beating the floor-5 boss first. In the safe-zone bar the Halen parties celebrate, Crimson chases off a stranger who is flirting with the students, and she explains the seventh-floor event with its giant red scorpion boss. That night Charlotte sleeps beside Ken for the first time, although they stop short of sex.",
+            "through": {
+              "chapter": 14
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far this book: The censor tells Fayeth that the princess's Emperor class was a lie staged by her father when she was fifteen, meant to calm elven fear of the Naga. The princess has lived in seclusion ever since and hopes to gain Absorb. Ken pushes Crimson about the red lightning, and she explains that her passive skill, Limit Break, now goes off whenever her heart races, which has forced her to dive alone for two years. Her Eyes of Wisdom named Ken as the one who could help her control it. Ken takes this to mean she sees him only as a cure, and he is hurt. Crimson, meanwhile, learns from the censor how her words came across and asks for help putting things right.\n\nKen's party crosses the sixth-floor desert, where scorpions tear into Ken's calf, and arrives at the seventh-floor event town. Five Halen parties, including the rival leader's, Kendra's and Penelope's, join forces, while Roger's commercial leveling guild claims the other half of the town. The students run a bait-and-kill-zone plan, with Ken as a runner. Helen realizes that Ken was the masked flag thief from the gym contest. The guild's veterans kill the boss. A wealthy influencer gives Kendra an epic wand in exchange for a promised interview with Ken. Charlotte promises Ken she will push herself harder.\n\nAfter six rounds Ken reaches level 6. During a practice interview with the influencer, he accidentally reveals that he and Crimson live together and realizes that his feelings for her run deeper than he thought.",
+            "through": {
+              "chapter": 21
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far this book: Charlotte trains between rounds and talks about her stern, storm-wielding mother. Dez fully harmonizes with Fayeth, and the party discovers an online fan serial about Ken that now uses the rumor nickname Incubus of Halen. Crimson, thinking Ken is the tank being impaled, smashes the boss arena and kills the event boss herself. She apologizes, admits she chose him partly because of her ability, and promises to teach him for as long as he stays at Halen. She builds a Halen annex at the event site and steers her class into voting for a maid cafe at Halen's end-of-year mixer.\n\nSnoo reaches Ken in a dream, straining the seal and demanding magazines. While shopping in the safe zone, the rival leader gives Ken the Shadow Ambush skill, and Charlotte picks up Summon Guardian. A market stall keeper cages Ken over a stolen root, the influencer pays the reduced price, and Ken buys a magazine to keep Snoo quiet. Crimson admits she was behind getting rid of the stall keeper and starts planning gifts. Back in their room, Fayeth and Dez host a dinner, and Charlotte becomes Ken's full partner.\n\nTwo and a half months of training follow. The influencer interviews Crimson and Ken together. Ken climbs past level 10, picks up Elemental Shield and epic gear, and leads eleven Halen parties to defeat the raid boss. Crimson then sends parties above level 10 on toward the tenth-floor boss.",
+            "through": {
+              "chapter": 28
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far this book: Ken's party beats the floor-10 boss, a mirror party of storm-wrapped monsters, and goes on to the floor-11 safe zone. There Ken holds a knife to the throat of a drunk man who has confronted Charlotte. Charlotte's older half-sister Rachel arrives and is friendly now, and Fayeth announces publicly that she is the ambassador's daughter and engaged to Ken.\n\nCrimson teaches that reaching level 10 changes the body and opens up study of mana techniques. She takes Ken to the research labs, where Dr. Finley shows off a synthetic skill book that opens portals between tenth-floor safe zones. Ken recognizes Finley's weekend lab assistant as the caster who backed the hostile student and the anti-elf front, and he suspects she works for the rival assassin clan. The party climbs through floors of bouncing clouds, and Harley offers to leave to make room for the princess, which Ken refuses.\n\nThe semester ends. Amy returns fully trained and calls Ken master. The grandparents announce that they are reviving the Nagato family and the Silverfangs, and Crimson joins. Crimson warns that the rival clan may strike at the end-of-year celebration, possibly targeting the researcher or the portal project, and that more than a dozen parties above level 50 will be there. The censor has been secretly shadowing the party for months. When Ken touches Crimson, red sparks flare in her eyes, and holding her hand calms them.",
+            "through": {
+              "chapter": 32
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far this book: The class opens the Class 1A Maid Cafe in the cafeteria, and powerful adventurers, including a White Tigers guild leader, line up an hour before it opens. Ken coaxes an embarrassed Penelope out of her room, tells her he forgives her for cutting off Charlotte's arm, and fixes her outfit. Dez suspects Helen's party of writing the fan serial, and Helen hints that she might be the author. Before opening, Crimson gives Ken a magazine of herself, new manacles and a choker engraved with his name, and when they kiss, red lightning sparks. She publicly announces the return of the Silverfangs. During service Crimson cuts off the arms of two patrons for breaking the no-touching rule.\n\nAfter closing, Crimson takes several students to the dungeon entrance to meet their elite parents, among them Marcus, Charlotte's mother, Dez's father and Helen's mother, known as the Harem Queen. Fayeth rejoins the group with her father and the censor. The censor urges Ken, now level 13, to reach level 20 and visit the elves, and Crimson suggests a trial visit over the summer. In the safe zone, Dr. Finley opens a portal to a dungeon floor in Hong Kong, the lab assistant confirms the readings, and a red-scaled arm reaches through and grabs the edge of the portal.",
+            "through": {
+              "chapter": 35
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far this book: A six-armed Naga woman comes through the portal with male Naga warriors behind her, and her shockwave levels nearby buildings. The lab assistant reveals that she belongs to the rival assassin clan, that she opened the portal on purpose, and that her clan has worked with the Naga for decades. She has two Naga carry Dr. Finley toward the floor-6 exit. The Naga woman kills a White Tigers fighter. Encouraged by Ken, Crimson gives in to the red mana and fights her, sending Ken to rescue Finley.\n\nHelen's mother fights alongside her companions, and Charlotte's mother and Dez's parents clear a path for Ken's party. At the exit, a masked clan assassin cuts Charlotte's throat, and her mother saves her with a potion. Ken hamstrings the assistant, Dez drags her down, Fayeth kills the assassin, and Ken tears off his manacles to fight faster. What becomes of the assistant after the battle is left unclear.\n\nFinley explains that the dungeon itself is keeping the portal open. Crimson brings the Naga woman to the edge of death again and again until she dies, but Limit Break takes over. She attacks the United Guilds president's angels, almost strikes Ken but stops herself, and then dives through the portal. Ken uses Absorb on the portal's edge. A Naga blade kills Finley, her skill book shatters, and Ken absorbs the burst of mana. He feels the dungeon notice him, and the portal closes. His CID now shows a Portal skill, but his first attempt to cast it fails. Adventurers including Helen's mother take an interest in that power, so the censor carries Ken and Fayeth off to the sixth floor. Charlotte and Dez stay with their parents, both determined to get stronger. Crimson wakes in the Naga world's floor-5 safe zone with no memory of the battle and decides to head down to floor 60 to find a way back.",
+            "through": {
+              "chapter": 38
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B0F1DK8P7G",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-diving-103"
+      }
+    },
+    "dungeon-diving-104": {
+      "characters": {
+        "characters": [
+          {
+            "aliases": [
+              "Ken Nagato"
+            ],
+            "description": "Narrator and head of the Nagato clan, a human student adventurer at level 13. During the Naga incident he absorbed a synthetic portal spellbook and used it to shut the portal, but the Portal skill it gave him now shows as restricted. He turns down the harem queen's offer and agrees to spend the summer in the elven world, drawing the people who want his ability away from home while Crimson tries to find her way back.",
+            "id": "ken",
+            "name": "Ken",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "An elf tank who fights with shield and spear, and Ken's bonded partner. She is carried out of the dungeon with him after the Naga incident and goes with Ken, Amy and the royal censor to the elven world for the summer.",
+            "id": "fayeth",
+            "name": "Fayeth",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ken's instructor, a ferocious fighter whose Limit Break state is hard for her to rein in. During the Naga incident she went through a portal into Naga territory, and she is stranded there as the book opens. Part of Ken's reason for leaving Earth for the summer is to buy her time to return.",
+            "id": "crimson",
+            "name": "Crimson",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A silver-haired elf with a ponytail who serves as a royal censor and is one of the strongest fighters on the scene. She carries Ken and Fayeth out of the dungeon, beats the harem queen in a duel, and takes on the job of escorting and protecting Ken during his summer in the elven world.",
+            "id": "royal-censor",
+            "name": "The royal censor",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Helen's mother, a red-haired fighter who carries a sword wreathed in blue flame. She chases Ken out of the dungeon and offers him the top place in her harem because of the portal spellbook he absorbed. When he says no, she loses a duel to the royal censor and pulls back, insisting he will come to her in the end. She is later allowed to supervise Helen.",
+            "id": "harem-queen",
+            "name": "The harem queen",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A member of Ken's circle and the harem queen's daughter. To avoid being taken home by her mother, she adopts a cover story suggested by Dez, publicly declaring that she loves Ken and writes an online smut serial about him. The ploy lets her stay: she joins the Silverfangs, with her mother permitted to oversee her.",
+            "id": "helen",
+            "name": "Helen",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A masked, white-haired member of the Nagato clan, assigned to Ken as an ally by one of his grandmothers. She joins Ken, Fayeth and the royal censor on the journey to the elven world and stays close to him as his attendant.",
+            "id": "amy",
+            "name": "Amy",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of Ken's grandmothers, a healer able to move as mist. She travels with the group for the first stretch of the descent toward the elven world before turning back.",
+            "id": "yui",
+            "name": "Yui",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A druid healer among Ken's fellow students. When the families arrange intensive summer training at the Nagato estate, aiming to push the students to level 20 before their second year, Charlotte asks to take part and her mother agrees. She remains on Earth while Ken leaves for the elven world.",
+            "id": "charlotte",
+            "name": "Charlotte",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Charlotte's mother, a mage who commands storms. She is present at the dungeon exit after the Naga incident and gives her consent for Charlotte to join the accelerated summer training the families organize at the Nagato estate.",
+            "id": "charlottes-mother",
+            "name": "Charlotte's mother",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A half-demon member of Ken's group whose family is responsible for the demon sealed inside him. After the Naga incident her father leads the push to fast-track the students' growth over the summer, and she is the one who proposes Helen's cover story so Helen can stay rather than go home with her mother.",
+            "id": "dez",
+            "name": "Dez",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A white-haired woman of a cat-eared tribal race, marked with blue tiger stripes, whom Ken meets in the floor 45 safe zone. A shaman traveling with a protective leopard-spotted guard, she sits down with Ken uninvited, questions him, and is taken with his scent, yet will not explain how her people make use of the dungeon.",
+            "id": "cat-people-shaman",
+            "name": "The cat-people shaman",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The emperor's red-haired, blue-eyed daughter, an isolated young elf with few if any friends. She is a distant cousin and childhood friend of Fayeth. She hopes to gain Ken's Absorb ability and hosts him and Fayeth as if they were family.",
+            "id": "elf-princess",
+            "name": "The elf princess",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A royal censor ranked just below the head of the princess's guard. Watching Ken train in the palace gym, she studies his Nagato sword style and correctly guesses that assassins taught him. She is fiercely protective of the princess and had bowed to Ken after the welcome dinner.",
+            "id": "second-ranking-censor",
+            "name": "The second-ranking censor",
+            "reveal": {
+              "chapter": 6
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Fayeth's mother, a warm and very outspoken elf whose husband works as an ambassador in another world. On meeting Ken she teases him with blunt questions and is alarmed to hear that Crimson is his teacher, given the rumors about Crimson, but she quickly declares that she is adopting him as a son and plans to cook him dinner.",
+            "id": "fayeths-mother",
+            "name": "Fayeth's mother",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Ruler of the elves and the princess's father. He presented his daughter to the public as a prophesied hero. He has turned floors 61 to 65 of the dungeon into sealed minefields because the route to the Naga lies beneath them, a move that has angered elite elves, and there is talk that he may abdicate in her favor.",
+            "id": "emperor",
+            "name": "The emperor",
+            "reveal": {
+              "chapter": 7
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "One of the princess's royal censors. On the party's first dive through the royal family's private entrance, she uses a teleport-like ability to move everyone from the grassland of the first floor to a red-rock zone containing an orc village, where the princess shows Ken how she really fights.",
+            "id": "teleporting-censor",
+            "name": "The teleporting censor",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The arrogant heir of a powerful ducal house, strong enough to stand up to the royal censor. He barges into the princess's training zone with high-level companions, demands a spar, sneers at Ken as a mere human, and claims the princess will soon be engaged to him. She denies it and he storms off. His house once governed three great trees, lost two in a tax scandal, and has since won one back.",
+            "id": "younger-duke",
+            "name": "The younger duke",
+            "reveal": {
+              "chapter": 8
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "Father of the younger duke, holding the same ducal title. Together they lead a large bloc of dukes and top adventurers opposed to the emperor, whose main demand is that the closed upper dungeon floors be reopened. A marriage between his son and the princess would expose her false class.",
+            "id": "elder-duke",
+            "name": "The elder duke",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "An older elf with a mustache who directs a wave of crushing killing intent toward the princess's group at the palace ballroom event. Ken steps in front of her and mostly withstands it, though he can tell the man is far beyond his own strength.",
+            "id": "mustached-elf",
+            "name": "The mustached elf",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A noble elf at the palace event who belittles Ken as the princess's pet. After Ken shows her how much metal humans have and casually throw away on Earth, she changes course and asks for a meeting to discuss trade.",
+            "id": "duchess",
+            "name": "The duchess",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The princess's mother, who no longer stands at the emperor's side and has withdrawn from politics because she disapproves of his course. She is described as gentler than her husband, and Ken is promised an introduction to her.",
+            "id": "princess-mother",
+            "name": "The princess's mother",
+            "reveal": {
+              "chapter": 13
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Head of an elven adventuring party led by a hooded archer that ambushes Ken's group on the sixth floor. He offers to sell the disguised princess and Fayeth in a duke's new city and turns out to be part of a ring trafficking drugged, declawed cat-people. Cruel but loyal to his own crew, he is a little more skilled in combat than Ken.",
+            "id": "slaver-leader",
+            "name": "The slaver leader",
+            "reveal": {
+              "chapter": 16
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The owner of a brothel in a neon-lit vice district hidden under the roots of a duke's city. Far stronger than anyone in Ken's party, she buys the disguised princess for a large sum in crystals. Flirtatious and businesslike, she boasts that she will sell anything, information included, and she quickly suspects the princess is more than a lookalike.",
+            "id": "underroot-madam",
+            "name": "The brothel madam",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A level 30 cat-person held captive and forced to work in the hidden vice district. Ken books time with her and proves his connection to the cat-people shaman with clothing that carries the shaman's scent. She agrees to help, and Ken promises that she and the other captives will be sent home.",
+            "id": "captive-cat-woman",
+            "name": "The captive cat-woman",
+            "reveal": {
+              "chapter": 17
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A heavyset elf who runs a bar in the hidden district and wields ember magic, stronger than Ken. He is allied with the duke's family and schemes to take over the madam's position. When Ken attacks him he grows more powerful amid the flames, sets his own bar on fire, and pursues Ken after he escapes.",
+            "id": "ember-mage",
+            "name": "The ember mage",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A tall, thin elf armed with crescent blades who works under the ember mage. Ken overhears the two discussing a book of letters tying the duke to the trafficking, and the lanky elf carries the book off to a safe house.",
+            "id": "lanky-elf",
+            "name": "The lanky elf",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A huge white Naga matriarch commanding an army in a Naga safe zone. When Crimson cuts through dozens of her soldiers, the matriarch strikes her hard with her tail, and Crimson chooses to flee rather than face her directly.",
+            "id": "white-matriarch",
+            "name": "The white Naga matriarch",
+            "reveal": {
+              "chapter": 22
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A royal censor who fights on the front line and is the strongest brawler among the princess's guards. Her power grows with contracts and money, and the class she advertises is not her real one. She travels with the party as they escort the freed cat-people down through the dungeon.",
+            "id": "merchant-censor",
+            "name": "The merchant censor",
+            "reveal": {
+              "chapter": 23
+            },
+            "role": "minor"
+          },
+          {
+            "description": "An older cat-person woman with silver in her hair who leads the group waiting in the floor 40 safe zone. She thanks Ken and the elves for returning the freed captives, invites the shaman to lead a ritual in their honor, and blesses Ken as someone with great potential.",
+            "id": "cat-people-elder",
+            "name": "The cat-people elder",
+            "reveal": {
+              "chapter": 24
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The head of the UG, who is visibly afraid of Crimson and gives way to her. After she gets a new CID, the president brings her up to date on Ken closing the portal, the greed his ability stirred up, and his departure for the elven world, and asks her not to kill the harem queen.",
+            "id": "ug-president",
+            "name": "The UG president",
+            "reveal": {
+              "chapter": 25
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A royal censor able to change her face. During the plan to slip into the seized palace she takes on the mustached elf's appearance to help the infiltrators, then stays behind to guard the entrance.",
+            "id": "shapeshifting-censor",
+            "name": "The shapeshifting censor",
+            "reveal": {
+              "chapter": 27
+            },
+            "role": "minor"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:us:B0F1DL28J9",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-diving-104"
+      },
+      "recaps": {
+        "ending": "The coup is over and the house behind it is finished: the younger duke dies at the wedding, and his father, crippled there, is beheaded in the throne room, while the rebels' supporters are sent to fight the Naga. The princess governs as acting regent and is publicly bound to Ken, sharing Absorb and Spell Mirror with him through their harmony; her own claimed hero class still rests on borrowed effects. She promises to join Ken on Earth once her father's war is won. The emperor, now holding the front until floor 65 is retaken, grudgingly values ties with humans but still seems to dislike the match. A metal supply contract of at least a million metric tons links the Nagato clan to a blue-haired duchess, with the head censor as liaison. The captive empress mentioned during the coup is not accounted for. Crimson is back as Ken's trainer and apparent partner, with partial command over Limit Break that Ken can switch off by voice. Ken, stronger and carrying Hydra and Blessing of the Dungeon, can use Portal inside the dungeon but still cannot open portals, and others continue to covet the ability. He and Fayeth head home for their second year, where Dez (level 25), Charlotte (level 21) and Helen wait at the Nagato estate. The harem queen remains alive, punished and interested in Ken, and the cat-people shaman is among several other suitors. A human faction working with the Naga, a rival clan, his parents' betrayal and the sealed demon all remain open.",
+        "in_short": "With Crimson lost in Naga territory and powerful adventurers chasing his new portal power, Ken spends the summer in the elven world under a royal censor's protection, bringing Fayeth and Amy, while his friends train at the Nagato estate. The elf princess, whose hero class is a lie staged by her father, courts him openly, and Ken accepts her into his household alongside Fayeth despite the emperor's hostility. Hunting evidence against a scheming ducal house, Ken goes undercover among slavers, kills two of the house's agents, turns a fugitive former censor into a witness, and frees captive cat-people; the duke is condemned and the princess publicly chooses Ken. Crimson fights her way out of the Naga floors, while the cat-people shaman's ritual unlocks Ken's Portal inside the dungeon. The ducal house then seizes the palace while the emperor is at the Naga front. Ken kills the younger duke in an infiltration, but the group is captured and the princess is to be forced into marriage. Crimson arrives, the wedding is turned into a rout, the usurper is executed, and the princess pledges herself to Ken as acting regent. Crimson destroys a Naga army and its white matriarch, Ken learns he can command her Limit Break to stop, and he leaves with Fayeth for his second school year.",
+        "license": "CC-BY-SA-4.0",
+        "recaps": [
+          {
+            "scope": "series",
+            "text": "Previously: Ken Nagato is a student adventurer and head of the Nagato clan, whose grandparents are assassins who keep him sharp with surprise attacks. He trains under Crimson, an immensely powerful instructor whose berserk Limit Break state is difficult for her to control. His circle includes his elf partner Fayeth, the druid healer Charlotte, the half-demon Dez, and Helen. Dez's family sealed a level 45 demon inside Ken, which gave him a secondary Demon Lord class. The previous book ended with the Naga incident: a portal opened toward Naga territory, Crimson went through it while deep in Limit Break and vanished, and Ken absorbed a synthetic portal spellbook and used its power to close the gateway. That feat has made his new ability something strong adventurers want for themselves. Several older matters also remain unsettled, including a rival clan, his parents' betrayal, and the demon sealed within him.",
+            "through": {
+              "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far this book: An elven royal censor carries Ken and Fayeth out of the dungeon after the Naga incident. Helen's mother, the harem queen, pursues them and offers Ken the head place in her harem; he refuses, the censor defeats her in a duel, and she backs off for now. Ken's Portal skill is marked restricted, and Crimson is stranded among the Naga. To pull pursuers away and give Crimson time, Ken decides to spend the summer in the elven world with the censor, Fayeth and Amy, a masked Nagato clan member who insists she is his butler. Back home, the families plan intensive training at the Nagato estate aimed at level 20 before second year. Charlotte joins, Dez takes on demon blood to grow her class, and Helen stays by pretending to love Ken and write a smut serial about him, joining the Silverfangs.\n\nThe censor power-levels the party on the descent, and Ken's grandmother Yui travels with them as far as floor 50. In the floor 45 safe zone a cat-people shaman takes an interest in Ken, sleeps beside him, guesses his tie to Crimson, and leaves after Amy trades his dirty clothes; the skill book she offered teaches Amy a stealth skill.\n\nIn the elven capital Ken meets the princess, Fayeth's cousin and old friend. Her hero class is a fiction staged by her father, the emperor; she is actually an Eidolon Priest, and she wants Ken's Absorb ability, which would require genuine soul harmony. She flirts openly; Ken insists he will judge her by her actions, while Fayeth encourages him to let her in. The emperor has sealed floors 61 to 65 against the Naga, angering the elite, and may abdicate. Fayeth's mother meets Ken and adopts him as a son.",
+            "through": {
+              "chapter": 7
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far this book: Through the royal family's private dungeon entrance, the princess shows her true fighting style, taking on monster forms such as a minotaur and a hydra that replace her own abilities. The younger duke, heir of a house that once ruled three great trees, interrupts with high-level allies, insults Ken, and claims the princess will marry him; she refuses. Fayeth's mother learns that the princess intends to present Ken as the human holder of the revered elven class and approves of the princess joining his household. She also explains the politics: several dukes, led by the younger duke and his father, have formed a bloc against the emperor and want the upper floors reopened. Ken realizes a marriage into that house would expose the princess's false class.\n\nIn the royal library the princess helps Ken choose a dark area-damage skill that spreads blades in a wide arc, gives him the book, and kisses him; he agrees to try for a shared household, and Fayeth approves. Meanwhile Crimson surfaces after about a week of nonstop Limit Break on a deep Naga floor, her CID broken, holding herself together by thinking of Ken.\n\nAt a palace ball the princess presents Ken to the dukes. He turns a duchess's insult into interest in a metal trade, plans to supply iron through the Silverfangs, and shields the princess from a mustached elf ranked eighth among elven adventurers. The emperor then forbids the match, calls Ken merely the key to his daughter's cage, says Crimson will probably not return, and predicts elves may one day conquer humans, though he asks Ken to keep her safe. Shaken, Ken grows wary of the princess's motives. The head censor, who turns out to be the emperor's cousin and the princess's relative, advises her to keep courting Ken and reveal her politics gradually.",
+            "through": {
+              "chapter": 14
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far this book: A noble loyal to the duke seals the palace dungeon stairway as a protest. Ken is level 19, his CID cut off from home servers, and the princess explains that Absorb lets harmonized partners share class skills, which are lost if the harmony breaks. Ken tells her he believes she is not using him. Disguised as a servant, the princess enters the public dungeon with Ken, Fayeth and Amy; Ken buys her a blue crystal ring. On floor 6 an elven party ambushes them, offering to sell the servants in the duke's new city, and Ken learns they traffic drugged, declawed cat-people. The princess has secretly hired the Nagato clan to find proof linking the duke to the kidnapping of a noblewoman, so Ken plays along and sells her.\n\nIn a hidden vice district under the city a powerful madam buys the princess. A captive cat-woman agrees to help Ken. He kills the slaver leader, overhears an ember-mage bar owner and a lanky elf discussing a book of incriminating letters, fights the mage, and later kills him in a burning building. The madam confronts Ken, sees his Absorb, and works out that the princess's class is false.\n\nThe royal censor arrives. The madam proves to be a former royal censor wanted for taking the duke's bribes; she sells the princess back, accepts a five-year contract with her bounty lifted, agrees to testify, and goes with Ken to the safe house, where she kills the lanky elf. Ken's earnings are surrendered in the deal. The district is dismantled, the duke's family is placed under house arrest, and fifteen cat-people are sheltered at the palace. At the trial Ken's truthful testimony holds up, the duke is condemned to death, and the princess tells the jailed younger duke that Ken is the man she will marry.",
+            "through": {
+              "chapter": 21
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far this book: Crimson wakes among Naga corpses, her armor ruined and CID smashed, and dresses in Naga gear. Her Eyes of Wisdom finally reveal a stairway up. A white matriarch's tail blow convinces her to flee, and she picks her way across trapped floors into elf territory and out to a UG branch with Italian-speaking staff, where she demands a new CID.\n\nAbout a month after the incident, Ken learns in training that Portal works on the elven surface but collapses him from mana drain. Eleven censors escort Ken, the princess, Fayeth, Amy and the fifteen freed cat-people down the royal entrance; the princess invites Ken to share her tent. On floor 40 the cat-people reclaim their kin. Their shaman says the dungeon, which they worship as the Great One, has marked Ken, and her ritual gives him a dagger tattoo showing that Portal now works inside the dungeon at a high mana cost. He also gains Blessing of the Dungeon, and he uses Absorb on the princess.\n\nThe UG president tells Crimson that Ken closed the portal and went to the elves, that most of her students are at the Nagato estate, and asks her not to kill the harem queen. A floor 60 report says Crimson passed through and that white Naga have broken through trapped floors. Returning, the party is ambushed at the palace exit by the mustached elf, who announces the duke now holds the throne while the emperor is away; the merchant censor smashes him into the ceiling.\n\nAt the estate Crimson finds Charlotte at level 21 and Dez more demonic, then beats and chains the harem queen, demanding skill books for Ken's partners. Ken proposes infiltrating the seized palace; the princess insists on coming, and a shapeshifting censor helps them in.",
+            "through": {
+              "chapter": 27
+            }
+          },
+          {
+            "scope": "book",
+            "text": "So far this book: Inside the royal quarters the princess charms a captive duke into revealing that the rebels hold the empress prisoner, then kills him. Ken finds the younger duke in the princess's bed and kills him using Absorb, Spell Mirror and Dark Strike, but the noise brings guards, and the whole group, censors included, is captured. The younger duke's father takes the throne, has healers revive his son, and orders the princess married to him at dawn. One censor who had seemed bought by the rebels appears to defect. That night the princess fights the younger duke off twice with her monster forms.\n\nCrimson reaches Ken's cell, heals him, and they plan to wreck the wedding. She blasts the guards and frees the head censor, and the supposedly bought censor, loyal all along under a contract clause, breaks the usurper's legs. Ken and the princess fight together and kill the younger duke. The princess declares the coup treason and publicly pledges herself to Ken, with Fayeth at their side. As acting regent she has the usurper beheaded and sends his backers to the Naga front, and she brokers a metal deal of at least a million metric tons between a duchess and the Nagato clan. Crimson shows her greatly increased stats and approves of the princess; the princess's mother, wary of the rushed marriage, accepts Ken once he says the emperor asked him to protect her.\n\nCrimson drills Ken hard, and he takes Hydra from the princess. At floor 63 a Naga army led by a white matriarch emerges; at Ken's request Crimson enters a controlled Limit Break, annihilates it, kills the matriarch, and calms down on her own. The emperor thanks them grudgingly and will hold the front until floor 65 is retaken. Ken finds he can order Crimson's Limit Break off. The princess promises to follow after the war, and Ken and Fayeth leave for their second school year.",
+            "through": {
+              "chapter": 33
+            }
+          }
+        ],
+        "sources": [
+          {
+            "ref": "audible:us:B0F1DL28J9",
+            "type": "community"
+          }
+        ],
+        "work": "dungeon-diving-104"
+      }
+    }
+  }
+}
