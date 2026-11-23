@@ -2619,7 +2619,7 @@
             "id": "roberto-miranda",
             "name": "Roberto Miranda",
             "reveal": {
-              "chapter": 2
+              "chapter": 1
             },
             "role": "supporting"
           }
@@ -2634,6 +2634,10 @@
         ],
         "work": "death-and-the-maiden-ariel-dorfman"
       },
+      "position_scale": {
+        "length": 3,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "Gerardo persuades Roberto to produce the confession Paulina demands, privately supplying details from her imprisonment so Roberto can construct an account. Paulina has deliberately altered some details when speaking to Gerardo, however, and Roberto's corrections align with what she remembers, reinforcing her certainty that he was the doctor who abused her. With the deadline she set approaching, Paulina confronts Roberto with this test and insists that only genuine remorse, not performance, can save him. The immediate confrontation ends without providing a simple public verdict. Later, Paulina and Gerardo attend a concert where Schubert's quartet is being performed. The truth commission has completed work within its restricted mandate, leaving many crimes such as Paulina's outside its official account. Paulina sees Roberto in the audience, or imagines seeing him, and the three remain connected by an unresolved past that neither private vengeance nor the new state's limited justice has conclusively settled.",
         "in_short": "In a country newly returned to democracy, lawyer Gerardo Escobar joins a commission limited to investigating abuses that resulted in death. His wife Paulina, a survivor of torture and rape whom the commission cannot help, hears the voice of visiting doctor Roberto Miranda and identifies him as the physician who supervised and joined in her abuse while playing Schubert. She takes Roberto captive, conducts a private trial, and demands a full confession. Roberto denies knowing her, while Gerardo tries to prevent violence and secure his release. Gerardo gives Roberto details of Paulina's ordeal so he can make a convincing statement, but Paulina has planted false details; Roberto corrects them in ways that confirm her suspicions. The confrontation produces no clean legal resolution. In an epilogue at a concert, after the truth commission has reported within its narrow limits, Paulina sees or imagines Roberto across the hall as the music associated with her torture plays, leaving guilt, punishment, and recovery unresolved.",
@@ -2643,28 +2647,21 @@
             "scope": "book",
             "text": "In an unnamed country emerging from dictatorship, Gerardo Escobar returns to his isolated coastal home after a flat tire. He tells his wife Paulina that the president has asked him to join a truth commission, but its mandate covers only abuses that led to death. Paulina, who was abducted, tortured, and raped by agents of the former regime, resents a process that excludes surviving victims and doubts the new authorities' courage. A stranger named Roberto Miranda arrives, having helped Gerardo on the road, and stays to talk about the political transition. Listening from another room, Paulina becomes convinced that his voice belongs to the doctor who participated in her torture years earlier, when she was blindfolded and unable to see him.",
             "through": {
-              "chapter": 2
+              "chapter": 1
             }
           },
           {
             "scope": "book",
             "text": "While the men sleep, Paulina takes Gerardo's gun, binds Roberto to a chair, and reveals her accusation. She also finds a recording of Schubert's string quartet known as Death and the Maiden in Roberto's car, matching the music played during her captivity. Roberto insists that he is innocent and that the recording is common; Gerardo is horrified by Paulina's improvised tribunal and argues that recognition by voice and manner is not proof. Paulina demands that Roberto confess fully, saying that she needs his acknowledgment more than formal punishment. She forces Gerardo into the role of defense counsel but controls the room and the weapon. The dispute sets her remembered certainty against the safeguards Gerardo believes the new democracy must observe.",
             "through": {
-              "chapter": 4
+              "chapter": 2
             }
           },
           {
             "scope": "book",
-            "text": "Gerardo speaks privately with Paulina about her imprisonment, learning details she had never fully shared with him, and tries to negotiate a way for Roberto to survive. Roberto continues to deny being her torturer but agrees to record a confession if it will secure his release. Gerardo supplies him with information from Paulina's account so that the statement will satisfy her. The resulting confession describes the doctor's movement from detached medical supervision into active cruelty and sexual violence. Paulina listens carefully rather than simply accepting it. She has not treated the confession as an empty ritual: she is testing whether Roberto possesses knowledge that Gerardo could not have given him.",
+            "text": "Gerardo speaks privately with Paulina about her imprisonment, learning details she had never fully shared with him, and tries to negotiate a way for Roberto to survive. Roberto continues to deny being her torturer but agrees to record a confession if it will secure his release. Gerardo supplies him with information from Paulina's account so that the statement will satisfy her. The resulting confession describes the doctor's movement from detached medical supervision into active cruelty and sexual violence. Paulina listens carefully rather than simply accepting it. She has not treated the confession as an empty ritual: she is testing whether Roberto possesses knowledge that Gerardo could not have given him. Paulina reveals that she intentionally gave Gerardo inaccurate details. Roberto corrected those details in his confession, strengthening her belief that he can only know them because he was present during her torture. Roberto still frames his statement as something composed under threat, while Paulina demands genuine recognition of what was done to her. The private trial reaches its deadline without yielding a conventional verdict or a stable division between proof, confession, and coercion. Later, Gerardo and Paulina attend a concert after the truth commission has completed its restricted work. Schubert's Death and the Maiden is performed, and Paulina sees, or may imagine she sees, Roberto in the audience. The image leaves the three figures facing one another across a society that has moved toward democracy without fully accounting for the violence carried into its present.",
             "through": {
-              "chapter": 6
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Paulina reveals that she intentionally gave Gerardo inaccurate details. Roberto corrected those details in his confession, strengthening her belief that he can only know them because he was present during her torture. Roberto still frames his statement as something composed under threat, while Paulina demands genuine recognition of what was done to her. The private trial reaches its deadline without yielding a conventional verdict or a stable division between proof, confession, and coercion. Later, Gerardo and Paulina attend a concert after the truth commission has completed its restricted work. Schubert's Death and the Maiden is performed, and Paulina sees, or may imagine she sees, Roberto in the audience. The image leaves the three figures facing one another across a society that has moved toward democracy without fully accounting for the violence carried into its present.",
-            "through": {
-              "chapter": 7
+              "chapter": 3
             }
           }
         ],
@@ -3478,7 +3475,7 @@
             "role": "supporting"
           },
           {
-            "description": "Charley's son, remembered as a studious boy who tried to help Biff pass mathematics. As an adult he has become a successful lawyer preparing to argue a case before the Supreme Court, though he remains modest and treats Willy kindly.",
+            "description": "Charley's son, remembered as a studious boy who tried to help Biff pass mathematics.",
             "id": "bernard",
             "name": "Bernard",
             "reveal": {
@@ -3542,6 +3539,10 @@
         ],
         "work": "death-of-a-salesman"
       },
+      "position_scale": {
+        "length": 2,
+        "unit": "act"
+      },
       "recaps": {
         "ending": "After Biff finally states that neither he nor Willy is destined for exceptional business success, he breaks down and weeps in his father's arms. Willy recognizes Biff's love but misunderstands the confrontation as proof that Biff can still fulfill his ambitions. Convinced that the insurance payment from his death will give Biff the capital and status he lacks, Willy drives away and deliberately crashes his car. Only Linda, Biff, Happy, Charley, and Bernard attend the funeral. Biff concludes that Willy pursued a mistaken dream and intends to return to the outdoor life that suits him. Happy rejects that judgment and vows to prove that Willy's vision of success was right. Charley defends the hopes on which a salesman depends. Linda, unable to understand why Willy died just after the last house payment was made, addresses him at the grave. The family is free of the mortgage but divided over the meaning of Willy's life and death.",
         "in_short": "Exhausted salesman Willy Loman returns to his Brooklyn home as his career and grasp on the present fail. He clings to memories of his sons' promising youth and believes Biff can still become a business success. Biff, now a restless adult, agrees to seek financing, but the meeting fails; on the same day Willy is fired. At dinner Biff tries to tell the truth, while Willy retreats into the memory of Biff discovering his affair in Boston, the event that destroyed the boy's trust and ambitions. Back home Biff rejects the family's inflated dreams and insists that both men accept their ordinary selves. Willy sees Biff's tears as renewed faith in him and kills himself in a car crash so Biff can receive the insurance money. The funeral is sparsely attended. Biff abandons Willy's dream, while Happy vows to continue it, and Linda mourns beside a house whose mortgage has finally been paid.",
@@ -3556,16 +3557,9 @@
           },
           {
             "scope": "book",
-            "text": "Willy asks Howard Wagner for a non-traveling position, but Howard dismisses his claims of past service and fires him. Willy then meets the now-successful Bernard, who asks why Biff abandoned his future after visiting Willy in Boston. Willy avoids the answer. Charley again offers him a job and gives him money, but Willy's pride lets him accept only the loan. At a restaurant Biff tries to explain that Bill Oliver barely remembered him and never considered him a salesman; after waiting all day, Biff impulsively stole Oliver's fountain pen. Willy refuses this correction to the family's story and announces that he has been fired. As the conversation collapses, Happy leaves with two women and denies that Willy is his father. Willy relives Boston, where teenage Biff discovered him with another woman. Biff's admiration broke, and he abandoned the summer school needed for graduation. At home Linda condemns both sons for deserting Willy. Biff confronts his father, rejects their fantasies of greatness, and says he will leave. His tears convince Willy that Biff loves him. Believing his life-insurance money will make Biff successful, Willy consults the imagined Ben and drives away to kill himself.",
+            "text": "Willy asks Howard Wagner for a non-traveling position, but Howard dismisses his claims of past service and fires him. Willy then meets the now-successful Bernard, who asks why Biff abandoned his future after visiting Willy in Boston. Willy avoids the answer. Charley again offers him a job and gives him money, but Willy's pride lets him accept only the loan. At a restaurant Biff tries to explain that Bill Oliver barely remembered him and never considered him a salesman; after waiting all day, Biff impulsively stole Oliver's fountain pen. Willy refuses this correction to the family's story and announces that he has been fired. As the conversation collapses, Happy leaves with two women and denies that Willy is his father. Willy relives Boston, where teenage Biff discovered him with another woman. Biff's admiration broke, and he abandoned the summer school needed for graduation. At home Linda condemns both sons for deserting Willy. Biff confronts his father, rejects their fantasies of greatness, and says he will leave. His tears convince Willy that Biff loves him. Believing his life-insurance money will make Biff successful, Willy consults the imagined Ben and drives away to kill himself. Willy dies in the planned car crash. Despite his belief that personal popularity would bring a great public farewell, only Linda, Biff, Happy, Charley, and Bernard gather at his grave. Charley argues that a salesman's work depends on dreams and that Willy was destroyed when those dreams ceased to sustain him. Biff believes Willy misunderstood himself and spent his life pursuing the wrong kind of success; he plans to leave the business world and return to work outdoors. Happy instead vows to remain in the city and demonstrate that Willy's ambition was valid. Linda cannot reconcile the suicide with the family's new financial position: the mortgage has just been paid, and she had imagined that they were finally secure. She says goodbye at the grave, left with an empty, fully owned house. Willy's death ends his struggle but passes the conflict over his values to his sons.",
             "through": {
               "chapter": 2
-            }
-          },
-          {
-            "scope": "book",
-            "text": "Willy dies in the planned car crash. Despite his belief that personal popularity would bring a great public farewell, only Linda, Biff, Happy, Charley, and Bernard gather at his grave. Charley argues that a salesman's work depends on dreams and that Willy was destroyed when those dreams ceased to sustain him. Biff believes Willy misunderstood himself and spent his life pursuing the wrong kind of success; he plans to leave the business world and return to work outdoors. Happy instead vows to remain in the city and demonstrate that Willy's ambition was valid. Linda cannot reconcile the suicide with the family's new financial position: the mortgage has just been paid, and she had imagined that they were finally secure. She says goodbye at the grave, left with an empty, fully owned house. Willy's death ends his struggle but passes the conflict over his values to his sons.",
-            "through": {
-              "chapter": 3
             }
           }
         ],
