@@ -11,9 +11,7 @@ its CLAUDE.md is worth reading before any non-trivial change.
 4.0 characters, recaps and description sidecars, keyed by work slug, plus the
 optional `position_scale` member stating the ruler those positions are on
 (AUTHORING.md). The third
-member, `description` - the spoiler-free intro paragraph - is schema-supported
-once core's `schema_version` 6 change has landed and `CORE_REF` has been bumped
-to it; written against an older pin, metacheck rejects it. No Go module, no
+member, `description`, is the spoiler-free intro paragraph. No Go module, no
 schemas, no build - the tooling all lives in core and is run against this tree.
 The three authoring guides (AUTHORING.md, EXTRACTION.md, EXTRACTION-AUDIO.md)
 live here because they document the process that produces this content.
@@ -110,10 +108,13 @@ measured). Both workflows instead do a **blobless sparse checkout of core's
 tooling directories at a pinned sha** and run from it. The sha is ONE file,
 `.github/core-ref`, which both read into `CORE_REF` through
 `.github/scripts/core-ref.sh`, so the bot always composes with the rules the
-checks validate against; bump it in its own pull request. Each core checkout's
-`ref` falls back to a name that does not exist, so a job that never read the pin
-fails rather than floating on core's main. The full rationale is in check.yml's
-env comment.
+checks validate against; bump it in its own pull request, to a commit of core's
+main. core-ref.sh refuses any other sha through the compare API, because GitHub
+serves a fork's commits through the parent repository and a checkout would build
+them (`.github/scripts/core-ref-test.sh` covers it, in check.yml). Each core
+checkout's `ref` falls back to a name that does not exist, so a job that never
+read the pin fails rather than floating on core's main. The full rationale is in
+check.yml's env comment.
 
 ## The AI review (ai-verify.yml) and the steward
 
@@ -201,3 +202,43 @@ ready pull requests cost about N*(N+1)/2 model runs (14, about 100, on
 - **The merge driver is not optional for pack conflicts.** git's line merge can
   write one entry key twice, which is not valid pack storage. Configure
   `scripts/pack-union-merge.sh` (see README.md) before resolving one by hand.
+- **The intake sweep runs nothing from a swept branch.** intake.yml's `rebase`
+  job holds a persisted write token while it checks intake branches out, so it
+  builds metafmt and metacheck from the pinned core and copies main's
+  `scripts/pack-union-merge.sh` into the runner temp before touching any branch,
+  and names the driver by that absolute path. It skips a fork's branch (a log
+  line) and refuses, with one comment, a branch whose whole change or any one
+  commit changes anything but a regular file plainly named `data/**/*.json` (a
+  symbolic link, a submodule or an executable included). It fetches main and
+  the branch into two refs of its own (`refs/intake-sweep/main`,
+  `refs/intake-sweep/head`) and works by their commit ids, since a tag or
+  branch called `origin/main`, or a branch called `HEAD`, would otherwise
+  become the rebase base. Two things a branch still
+  reaches are held as well. metafmt runs only on a tree whose every entry key is
+  a slug: it names a split pack after an entry key, so a key like `a/../../x`
+  was a file written outside `data/` (the root fix is core's, in pkg/pack). And
+  what git and the tools print goes to the log with workflow commands stopped,
+  since a commit subject or a quoted value could otherwise issue one. Every
+  rebase, clean or not, is followed by metafmt and metacheck before the push,
+  and a failure parks the branch with the give-up comment below: a clean replay
+  with no driver merge once kept a stale split pack, a copy of main's entries in
+  a second pack, and pushed it for three days (#517). metafmt is not run on a
+  tree that holds one entry in two packs with different content (`one_copy`):
+  an older metafmt settled an entry held twice by keeping the copy in the pack
+  whose range covers it and discarding the other, and a stale pack made the kept
+  copy the branch's, so over #517's tree it deleted recaps main had merged since
+  and left a tree metacheck passes. The pinned metafmt refuses such a tree
+  itself (`pack.ErrDifferingCopies`: `--write` exits 2 and writes nothing);
+  `one_copy` stays as the cheap first check with a clearer reason. Identical
+  copies are metafmt's to settle. The test's
+  stub metafmt changes nothing, so it covers these guards and not what the real
+  metafmt does to a tree. The step
+  runs under `bash -e` (GitHub's default for a `run:` with no `shell:`), so a
+  status it reads goes through `||`; `.github/scripts/intake-sweep-test.sh` runs
+  the step that way against a local origin (check.yml runs it; it needs bash
+  4.4, so not macOS's). The give-up comment opens with its marker alone on the
+  first line (`<!-- intake-sweep:rebase-failed <head> <reason> -->`), then
+  "The intake bot could not rebase this branch onto ...": a CONTRACT with
+  audiosilo-meta-sync's steward (`watcher.IsSweepFailure`,
+  `watcher.SweepFailureHead`). Core's intake.yml carries the same sweep, with
+  the same rules, guards and comment shape; keep the two in step.
