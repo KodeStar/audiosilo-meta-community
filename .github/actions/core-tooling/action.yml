@@ -1,0 +1,67 @@
+# The core tooling, the ONE way check.yml and intake.yml get it: read the pin,
+# check core out at it, set up Go. It was three copies of the same three steps
+# (check.yml's structure job, intake.yml's intake and rebase jobs), and a copy
+# that drifted could check out a different ref or a different tree.
+#
+# Use it after this repository's checkout: it reads .github/core-ref through
+# .github/scripts/core-ref.sh, which refuses any sha that is not on core's main
+# (a fork's commit included: check.yml's env comment and CLAUDE.md "The tooling
+# checkout" say why). It exports CORE_REF to the job's later steps, as the step
+# it replaces did.
+name: Core tooling
+description: >-
+  Read .github/core-ref, check out core's tooling at that sha into ./core
+  (blobless and sparse, never core's data/), and set up Go from core/go.mod.
+inputs:
+  token:
+    description: >-
+      A token for core-ref.sh's compare call. Core is public, so a read-only
+      github.token is enough.
+    required: true
+  core-repo:
+    description: The core repository.
+    default: KodeStar/audiosilo-meta
+runs:
+  using: composite
+  steps:
+    - name: Read the core tooling pin
+      id: pin
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.token }}
+        CORE_REPO: ${{ inputs.core-repo }}
+      run: |
+        line="$(bash "$GITHUB_ACTION_PATH/../../scripts/core-ref.sh")"
+        echo "$line" >> "$GITHUB_ENV"
+        echo "ref=${line#CORE_REF=}" >> "$GITHUB_OUTPUT"
+
+    - name: Checkout the core tooling
+      uses: actions/checkout@v7
+      with:
+        repository: ${{ inputs.core-repo }}
+        # Never empty: with no ref this checkout takes core's DEFAULT BRANCH, so
+        # a pin that was not read would float on core's main and stay green. An
+        # unread pin names a ref that does not exist instead, and the checkout
+        # fails.
+        ref: ${{ steps.pin.outputs.ref || 'core-ref-not-read' }}
+        path: core
+        # Nothing runs git against core after this, so no credential stays in
+        # core/.git.
+        persist-credentials: false
+        # Blobless + sparse: the tooling, the schemas and the module files, never
+        # data/. Without this the checkout would pull the whole core catalogue for
+        # tools that never read it.
+        sparse-checkout: |
+          cmd
+          internal
+          pkg
+          schema
+          go.mod
+          go.sum
+          schema.go
+        sparse-checkout-cone-mode: false
+
+    - name: Set up Go
+      uses: actions/setup-go@v7
+      with:
+        go-version-file: core/go.mod

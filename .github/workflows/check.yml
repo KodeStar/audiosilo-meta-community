@@ -35,12 +35,13 @@ concurrency:
 env:
   # The core repository holds ALL the tooling (one implementation of pack math,
   # canonical JSON and validation - see README.md). The exact core commit the
-  # checks below run is CORE_REF, read from .github/core-ref by a step after the
-  # checkout (.github/scripts/core-ref.sh, which refuses a sha that is not on
-  # core's main: a fork's commit). It is pinned by sha rather than floating on
-  # main so a core change can never turn this repository's history red on its
-  # own, and it is ONE file because intake.yml composes with the same tooling:
-  # the bot must never compose by rules the checks do not use.
+  # checks below run is CORE_REF, read from .github/core-ref after the checkout
+  # (.github/actions/core-tooling, through .github/scripts/core-ref.sh, which
+  # refuses a sha that is not on core's main: a fork's commit). It is pinned by
+  # sha rather than floating on main so a core change can never turn this
+  # repository's history red on its own, and it is ONE file because intake.yml
+  # composes with the same tooling: the bot must never compose by rules the
+  # checks do not use.
   #
   # TO BUMP: put the new full 40-character sha of KodeStar/audiosilo-meta@main
   # in .github/core-ref in its own pull request, and read the diff of what the
@@ -92,40 +93,21 @@ jobs:
       - name: Test the intake sweep
         run: bash .github/scripts/intake-sweep-test.sh
 
-      # core is public, so this job's read-only token is enough for
-      # core-ref.sh's compare call.
-      - name: Read the core tooling pin
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: bash .github/scripts/core-ref.sh >> "$GITHUB_ENV"
+      # The two copies the workflows keep (intake.yml's concurrency group of its
+      # job's `if`, the rebase job's core checkout of the action's), each held
+      # to its original.
+      - name: Test the workflow copies
+        run: bash .github/scripts/workflow-copies-test.sh
 
-      - name: Checkout the core tooling
-        uses: actions/checkout@v7
+      # The pin, core's tooling at it and Go: .github/actions/core-tooling, the
+      # one copy of those steps (intake.yml's intake job uses it too). core is
+      # public, so this job's read-only token is enough for core-ref.sh's
+      # compare call.
+      - name: Core tooling
+        uses: ./.github/actions/core-tooling
         with:
-          repository: ${{ env.CORE_REPO }}
-          # Never empty: with no ref this checkout takes core's DEFAULT BRANCH,
-          # so a job that lost the step above would float on core's main and
-          # stay green. An unread pin names a ref that does not exist instead,
-          # and the checkout fails.
-          ref: ${{ env.CORE_REF || 'core-ref-not-read' }}
-          path: core
-          # Blobless + sparse: the tooling, the schemas and the module files,
-          # never data/. Without this the checkout would pull the whole core
-          # catalogue for two commands that never read it.
-          sparse-checkout: |
-            cmd
-            internal
-            pkg
-            schema
-            go.mod
-            go.sum
-            schema.go
-          sparse-checkout-cone-mode: false
-
-      - name: Set up Go
-        uses: actions/setup-go@v7
-        with:
-          go-version-file: core/go.mod
+          token: ${{ github.token }}
+          core-repo: ${{ env.CORE_REPO }}
 
       - name: Validate the community tree (metacheck)
         working-directory: core

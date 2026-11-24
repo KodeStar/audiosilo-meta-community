@@ -105,8 +105,13 @@ Neither workflow can `go run github.com/kodestar/audiosilo-meta/...`: the core
 module carries the ~1.5GB core data tree and proxy.golang.org times out on every
 post-seed version, so a direct fetch clones the whole repository (~40 minutes,
 measured). Both workflows instead do a **blobless sparse checkout of core's
-tooling directories at a pinned sha** and run from it. The sha is ONE file,
-`.github/core-ref`, which both read into `CORE_REF` through
+tooling directories at a pinned sha** and run from it, through ONE composite
+action, `.github/actions/core-tooling` (read the pin, check core out, set up Go).
+intake.yml's `rebase` job alone writes those steps out, as it checks intake
+branches out into the workspace a local action is read from;
+`.github/scripts/workflow-copies-test.sh` (in check.yml) holds its sparse list
+to the action's, and intake.yml's concurrency group to the intake job's `if`. The
+sha is ONE file, `.github/core-ref`, which both read into `CORE_REF` through
 `.github/scripts/core-ref.sh`, so the bot always composes with the rules the
 checks validate against; bump it in its own pull request, to a commit of core's
 main. core-ref.sh refuses any other sha through the compare API, because GitHub

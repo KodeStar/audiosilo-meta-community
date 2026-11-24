@@ -2,7 +2,8 @@
 # core-ref.sh - print CORE_REF=<sha> from .github/core-ref, for $GITHUB_ENV.
 #
 # Usage (a workflow step, after the checkout of this repository, with GH_TOKEN
-# set so gh can ask the GitHub API):
+# set so gh can ask the GitHub API; .github/actions/core-tooling runs it so for
+# every job but intake.yml's rebase, which writes the step out):
 #   bash .github/scripts/core-ref.sh >> "$GITHUB_ENV"
 #
 # .github/core-ref is the ONE pin of the core commit whose tooling check.yml
