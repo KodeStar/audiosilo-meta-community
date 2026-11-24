@@ -180,7 +180,10 @@ no_leak() {
   else
     grep -qF -- "$want" "$out/comment.md" || fail "$name: comment lacks '$want': $(cat "$out/comment.md")"
   fi
+  # The one directory and nothing beside it (a case pattern's * matches a line
+  # break, so a second entry is refused first).
   case "$(cat "$out/during.txt" 2>/dev/null)" in
+  *$'\n'*) fail "$name: TMPDIR held more than the script's directory while the transport ran: $(cat "$out/during.txt")" ;;
   ai-verify.*) ;;
   *) fail "$name: TMPDIR held '$(cat "$out/during.txt" 2>/dev/null)' while the transport ran, want the script's ai-verify.* directory" ;;
   esac
