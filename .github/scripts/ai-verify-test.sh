@@ -58,17 +58,19 @@ chmod +x "$BIN/claude" "$BIN/curl" "$BIN/jq"
 CONTEXT="$WORK/context.txt"
 printf '=== ENTRY a-work (ADDED)\n{"characters": {}}\n' > "$CONTEXT"
 
-# run <name> <context> [VAR=value ...]: ai-verify.sh over <context> with the stubs first on
-# PATH and nothing else inherited, so a key in the caller's environment cannot
-# reach it. Leaves its files in $WORK/<name>/.
-run() {
+# invoke <name> <context> [VAR=value ...]: ai-verify.sh over <context> with the stubs
+# first on PATH and nothing else inherited, so a key in the caller's environment
+# cannot reach it (a VAR given here, PATH and TMPDIR included, replaces the
+# default). Leaves its files in $WORK/<name>/ and returns the script's status.
+invoke() {
   local out="$WORK/$1" context="$2"
   shift 2
   mkdir -p "$out"
   env -i PATH="$BIN:$PATH" HOME="$out" TMPDIR="$out" OUTDIR="$out" "$@" \
-    bash "$SCRIPT" "$context" "$out/verdict.json" "$out/comment.md" > "$out/log.txt" 2>&1 \
-    || fail "$(basename "$out"): ai-verify.sh exited non-zero: $(cat "$out/log.txt")"
+    bash "$SCRIPT" "$context" "$out/verdict.json" "$out/comment.md" > "$out/log.txt" 2>&1
 }
+# run: invoke, which must exit zero.
+run() { invoke "$@" || fail "$1: ai-verify.sh exited non-zero: $(cat "$WORK/$1/log.txt")"; }
 
 # With both credentials the API key is used (billed per pull request, not the
 # subscription meta-sync's resolver shares); with the subscription token alone
@@ -167,8 +169,7 @@ echo "$p"
 EOF
   if [ -n "$curl_body" ]; then printf '%s' "$curl_body" > "$out/bin/curl"; fi
   chmod +x "$out/bin/"*
-  env -i PATH="$out/bin:$BIN:$PATH" HOME="$out" TMPDIR="$out/tmp" OUTDIR="$out" "$@" \
-    bash "$SCRIPT" "$CONTEXT" "$out/verdict.json" "$out/comment.md" > "$out/log.txt" 2>&1 || status=1
+  invoke "leak-$name" "$CONTEXT" PATH="$out/bin:$BIN:$PATH" TMPDIR="$out/tmp" "$@" || status=1
   [ "$status" = "$want_exit" ] || fail "$name: exit $status, want $want_exit: $(cat "$out/log.txt")"
   grep -qF -- "$want" "$out/comment.md" || fail "$name: comment lacks '$want': $(cat "$out/comment.md")"
   [ -z "$(ls -A "$out/tmp")" ] || fail "$name: TMPDIR still holds $(ls -A "$out/tmp")"
