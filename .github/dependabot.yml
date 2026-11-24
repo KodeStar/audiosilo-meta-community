@@ -10,9 +10,14 @@ updates:
   # the only update is the next major. ai-verify.yml pins its checkout to a
   # commit sha with the version in a trailing comment (it holds the OAuth secret
   # and a write token); dependabot understands that form and rewrites both
-  # together.
+  # together. `/` alone reaches .github/workflows and nothing under
+  # .github/actions, so the composite actions there are listed too: without
+  # them core-tooling's checkout and setup-go would never be bumped while the
+  # rebase job's written-out copies of them were.
   - package-ecosystem: github-actions
-    directory: /
+    directories:
+      - /
+      - /.github/actions/*
     schedule:
       interval: weekly
     groups:
