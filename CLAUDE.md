@@ -105,13 +105,20 @@ Neither workflow can `go run github.com/kodestar/audiosilo-meta/...`: the core
 module carries the ~1.5GB core data tree and proxy.golang.org times out on every
 post-seed version, so a direct fetch clones the whole repository (~40 minutes,
 measured). Both workflows instead do a **blobless sparse checkout of core's
-tooling directories at a pinned sha** and run from it. The sha is ONE file,
-`.github/core-ref`, which both read into `CORE_REF` through
-`.github/scripts/core-ref.sh`, so the bot always composes with the rules the
-checks validate against; bump it in its own pull request, to a commit of core's
-main. core-ref.sh refuses any other sha through the compare API, because GitHub
-serves a fork's commits through the parent repository and a checkout would build
-them (`.github/scripts/core-ref-test.sh` covers it, in check.yml). Each core
+tooling directories at a pinned sha** and run from it, through ONE composite
+action, `.github/actions/core-tooling` (read the pin, check core out, set up Go).
+intake.yml's `rebase` job alone writes those steps out, as it checks intake
+branches out into the workspace a local action is read from;
+`.github/scripts/workflow-copies-test.sh` (in check.yml) holds its pin read to
+core-ref.sh and its checkout and Go set-up to the action's, every input and
+action version of them, with no step between, and intake.yml's concurrency
+group to the intake job's `if`. The sha is ONE file, `.github/core-ref`, which
+both read into `CORE_REF` through `.github/scripts/core-ref.sh`, so the bot
+always composes with the rules the checks validate against; bump it in its own
+pull request, to a commit of core's main. core-ref.sh refuses any other sha
+through the compare API, because GitHub serves a fork's commits through the
+parent repository and a checkout would build them
+(`.github/scripts/core-ref-test.sh` covers it, in check.yml). Each core
 checkout's `ref` falls back to a name that does not exist, so a job that never
 read the pin fails rather than floating on core's main. The full rationale is in
 check.yml's env comment.
@@ -133,10 +140,10 @@ pull request, which the steward only lists, is a maintainer's to merge), and the
 flag lead stays ONE line
 ending in a colon (the steward's `watcher.FindingOf` drops it as the line that
 does). `bash .github/scripts/ai-verify-test.sh` tests that transport, the note
-and the lead with stub `claude` and `curl` (core's `scripts/aiverify_test.go`
-cases; this repository has no Go module), and check.yml's `structure` job
-runs it. With the key set, ai-verify.yml skips the CLI install.
-`.github/scripts/ai-verify-context.sh` renders the changed ENTRIES
+and the lead with stub `claude`, `curl` and `timeout` (core's
+`scripts/aiverify_test.go` cases; this repository has no Go module), and
+check.yml's `structure` job runs it. With the key set, ai-verify.yml skips the
+CLI install. `.github/scripts/ai-verify-context.sh` renders the changed ENTRIES
 (keyed by work slug across the touched packs, so a pack split is invisible),
 never a raw diff.
 

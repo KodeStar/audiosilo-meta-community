@@ -102,8 +102,8 @@ permissions: {}
 # events therefore get their own `-noop` group, as in core's intake.yml and
 # ai-verify.yml. The condition below is a VERBATIM copy of the intake job's `if`
 # (its call and `issues` halves), so keeping the two in step is a matter of
-# keeping them identical. A called run (route.yml) shares the issue's `run` group
-# with a later edit's.
+# keeping them identical (.github/scripts/workflow-copies-test.sh checks it). A
+# called run (route.yml) shares the issue's `run` group with a later edit's.
 concurrency:
   group: >-
     ${{ github.event_name == 'push' && 'intake-rebase' || format('intake-{0}-{1}', github.event.issue.number,
@@ -172,36 +172,13 @@ jobs:
         with:
           ref: main
 
-      - name: Read the core tooling pin
-        env:
-          # For core-ref.sh's check that the pin is on core's main.
-          GH_TOKEN: ${{ github.token }}
-        run: bash .github/scripts/core-ref.sh >> "$GITHUB_ENV"
-
-      - name: Checkout the core tooling
-        uses: actions/checkout@v7
+      # The pin, core's tooling at it and Go. The token is for core-ref.sh's
+      # check that the pin is on core's main.
+      - name: Core tooling
+        uses: ./.github/actions/core-tooling
         with:
-          repository: ${{ env.CORE_REPO }}
-          # Never empty (see check.yml): an unread pin fails here, it does not
-          # float on core's main.
-          ref: ${{ env.CORE_REF || 'core-ref-not-read' }}
-          path: core
-          # Blobless + sparse: the tooling, the schemas and the module files,
-          # never core's data/ - see check.yml.
-          sparse-checkout: |
-            cmd
-            internal
-            pkg
-            schema
-            go.mod
-            go.sum
-            schema.go
-          sparse-checkout-cone-mode: false
-
-      - name: Set up Go
-        uses: actions/setup-go@v7
-        with:
-          go-version-file: core/go.mod
+          token: ${{ github.token }}
+          core-repo: ${{ env.CORE_REPO }}
 
       - name: Download the newest data release artifact
         env:
@@ -419,6 +396,13 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.INTAKE_PAT || github.token }}
 
+      # These three steps are .github/actions/core-tooling's, written out, as
+      # this job is the one that checks intake branches out into the workspace
+      # the local action would be read from: keeping it on remote actions alone
+      # leaves nothing of the job's own definition there. The pin read stays
+      # core-ref.sh's, and the checkout and the Go set-up the action's, every
+      # input and action version of them, with no step between
+      # (.github/scripts/workflow-copies-test.sh checks it).
       - name: Read the core tooling pin
         env:
           GH_TOKEN: ${{ github.token }}
@@ -432,6 +416,8 @@ jobs:
           # float on core's main.
           ref: ${{ env.CORE_REF || 'core-ref-not-read' }}
           path: core
+          # As in the action: nothing fetches from core after this.
+          persist-credentials: false
           sparse-checkout: |
             cmd
             internal

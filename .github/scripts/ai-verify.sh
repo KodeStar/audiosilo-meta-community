@@ -48,7 +48,10 @@ CONTEXT_FILE="${1:?context file required}"
 VERDICT_OUT="${2:?verdict output path required}"
 COMMENT_OUT="${3:?comment output path required}"
 
-MODEL="claude-sonnet-5"
+# The current Sonnet (an upgrade from claude-sonnet-5), named by its full id so
+# the reviewer only changes in a commit (both transports send it as written).
+# Core's is the same.
+MODEL="claude-sonnet-5-5"
 API_URL="https://api.anthropic.com/v1/messages"
 MAX_INPUT_BYTES=200000 # cap the context sent to the model
 
@@ -62,6 +65,22 @@ skip() {
   } > "$COMMENT_OUT"
   echo "ai-verify: skipped - $reason" >&2
   exit 1
+}
+
+# skip_if_refused skips when a reply is a refusal: the API's response and the
+# CLI's result object both carry the final stop_reason. A refusal holds no
+# verdict (any partial text it carries is not one), so the skip says so, and
+# which classifier declined where the reply names it (stop_details.category, the
+# fact that tells a false positive; the CLI's result object does not carry it),
+# rather than the generic "no text output" or "could not be parsed" below.
+skip_if_refused() {
+  local refusal
+  refusal="$(printf '%s' "$1" | jq -r 'select(.stop_reason? == "refusal")
+    | ((.stop_details | objects | .category | strings) // "") as $c
+    | "stop_reason refusal" + (if $c == "" then "" else ", category " + $c end)' 2>/dev/null)"
+  if [ -n "$refusal" ]; then
+    skip "The model declined to review this change (${refusal})."
+  fi
 }
 
 if [ -z "${CLAUDE_CODE_OAUTH_TOKEN:-}" ] && [ -z "${ANTHROPIC_API_KEY:-}" ]; then
@@ -80,8 +99,15 @@ fi
 # summary drops whole entries and says so.) A single entry larger than the cap
 # cannot be judged whole, which is a skip, never a pass. LC_ALL=C makes awk's
 # length() count bytes.
-CHUNK_DIR="$(mktemp -d)"
-trap 'rm -rf "$CHUNK_DIR"' EXIT
+# WORK_DIR holds every temp file: the chunks, and the API request and the CLI's
+# stderr (beside the chunks, so neither is ever counted as one). One directory,
+# removed on every exit, skip()'s included, so a transport that fails part way
+# leaves nothing behind on the runner. The template keeps it under $TMPDIR on
+# every platform (macOS's mktemp ignores TMPDIR without one), as core's does.
+WORK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/ai-verify.XXXXXX")" || skip "No temporary directory could be made."
+trap 'rm -rf "$WORK_DIR"' EXIT
+CHUNK_DIR="$WORK_DIR/chunks"
+mkdir "$CHUNK_DIR" || skip "No temporary directory could be made."
 LC_ALL=C awk -v cap="$MAX_INPUT_BYTES" -v dir="$CHUNK_DIR" '
   function flush() { if (buf != "") { n++; f = sprintf("%s/%04d", dir, n); printf "%s", buf > f; close(f); buf = ""; size = 0 } }
   function add(block) { if (size > 0 && size + length(block) > cap) flush(); buf = buf block; size += length(block) }
@@ -145,7 +171,7 @@ judge() {
     # API this model thinks unless told not to, so the ceiling leaves room for
     # both: a reply-sized one can run out mid-thought and leave no verdict.
     # --max-time allows for that longer answer.
-    REQUEST_FILE="$(mktemp)"
+    REQUEST_FILE="$WORK_DIR/request.json"
     jq -n \
       --arg model "$MODEL" \
       --rawfile system <(printf '%s' "$SYSTEM") \
@@ -153,12 +179,20 @@ judge() {
       '{model: $model, max_tokens: 16000, system: $system, messages: [{role: "user", content: $user}]}' \
       > "$REQUEST_FILE" 2>/dev/null || skip "The Anthropic API request could not be built."
 
-    RESPONSE="$(curl -sS --max-time 300 "$API_URL" \
+    # A timeout (curl's exit 28) is named apart from the other transport errors:
+    # it is the one a longer answer, not a broken network, can cause.
+    API_MAX_TIME=300
+    CURL_STATUS=0
+    RESPONSE="$(curl -sS --max-time "$API_MAX_TIME" "$API_URL" \
       -H "x-api-key: ${ANTHROPIC_API_KEY}" \
       -H "anthropic-version: 2023-06-01" \
       -H "content-type: application/json" \
-      --data-binary @- < "$REQUEST_FILE" 2>/dev/null)" || skip "The Anthropic API request failed (transport error)."
-    rm -f "$REQUEST_FILE"
+      --data-binary @- < "$REQUEST_FILE" 2>/dev/null)" || CURL_STATUS=$?
+    case "$CURL_STATUS" in
+    0) ;;
+    28) skip "The Anthropic API request timed out (no answer within ${API_MAX_TIME} seconds)." ;;
+    *) skip "The Anthropic API request failed (transport error, curl exit ${CURL_STATUS})." ;;
+    esac
 
     if [ -z "$RESPONSE" ]; then
       skip "The Anthropic API returned an empty response."
@@ -168,6 +202,9 @@ judge() {
     if [ -n "$API_ERROR" ]; then
       skip "The Anthropic API returned an error: ${API_ERROR}"
     fi
+
+    # A refusal is an HTTP 200 with no verdict in it.
+    skip_if_refused "$RESPONSE"
 
     TEXT="$(printf '%s' "$RESPONSE" | jq -r '[.content[]? | select(.type=="text") | .text] | join("")' 2>/dev/null)"
   else
@@ -183,13 +220,33 @@ judge() {
       skip "The Claude Code CLI (\`claude\`) is not installed on the runner."
     fi
 
+    # A hung CLI is bounded HERE, not by the job's timeout-minutes: a job cut off
+    # there is cancelled, so the step that posts the comment (`!cancelled()`)
+    # never runs, and the pull request gets no comment and keeps the last push's
+    # outcome label. CLI_MAX_TIME bounds ONE chunk's call, well above the 4-7
+    # minutes one takes (ai-verify.yml's timeout-minutes is sized from those),
+    # and a timeout skips the whole run, so a hung call never runs on into the
+    # next chunk's. GNU timeout (on every Linux runner) signals the CLI's whole
+    # process group, KILLs it 30 seconds later if it is still there (an exit of
+    # 137, a plain failure below), and exits 124 when it fired.
+    if ! command -v timeout >/dev/null 2>&1; then
+      skip "\`timeout\` (GNU coreutils) is not installed on the runner, so the Claude Code CLI cannot be given a time limit."
+    fi
+    CLI_MAX_TIME=900
     CLI_STATUS=0
-    CLI_ERR_FILE="$(mktemp)"
-    CLI_OUT="$(printf '%s' "$USER_MSG" | claude -p \
+    CLI_ERR_FILE="$WORK_DIR/cli.err"
+    CLI_OUT="$(printf '%s' "$USER_MSG" | timeout --kill-after=30 "$CLI_MAX_TIME" claude -p \
       --system-prompt "$SYSTEM" \
       --model "$MODEL" \
       --output-format json \
       --allowedTools "" 2>"$CLI_ERR_FILE")" || CLI_STATUS=$?
+
+    if [ "$CLI_STATUS" -eq 124 ]; then
+      skip "The Claude Code CLI timed out (no answer within ${CLI_MAX_TIME} seconds)."
+    fi
+    # Before the exit status and is_error: a refused run can end as an error, and
+    # what names it is the refusal, not the error's text.
+    skip_if_refused "$CLI_OUT"
 
     if [ "$CLI_STATUS" -ne 0 ]; then
       CLI_DETAIL="$(printf '%s' "$CLI_OUT" | jq -r '.result // empty' 2>/dev/null)"

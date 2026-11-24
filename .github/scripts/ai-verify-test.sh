@@ -5,10 +5,11 @@
 #
 # The community repository has no Go module, so these are the shell half of core's
 # scripts/aiverify_test.go cases for the shared transport (TestAIVerifyPrefersTheAPIKey,
-# TestAIVerifyAPIRequestIsNeverAnArgument) and the comment's pass note and flag lead
-# (TestAIVerifyCommentSaysWhatTheVerdictDoes, its bot-origin case). The claude CLI
-# and curl are stubs on PATH; nothing reaches the network. Needs bash, jq and perl,
-# as the script itself does. Runs every case and exits non-zero if any failed.
+# TestAIVerifyAPIRequestIsNeverAnArgument, TestAIVerifyLeavesNoTempFiles) and the
+# comment's pass note and flag lead (TestAIVerifyCommentSaysWhatTheVerdictDoes,
+# its bot-origin case). The claude CLI, curl and timeout are stubs on PATH; nothing
+# reaches the network. Needs bash, jq and perl, as the script itself does. Runs
+# every case and exits non-zero if any failed.
 
 set -uo pipefail
 
@@ -52,22 +53,35 @@ EOF
 } > "$BIN/curl"
 # jq behind the same argument limit.
 printf '%sexec "%s" "$@"\n' "$ARG_LIMIT" "$REAL_JQ" > "$BIN/jq"
-chmod +x "$BIN/claude" "$BIN/curl" "$BIN/jq"
+# The timeout stub stands in for GNU timeout, which older macOS does not ship: it
+# notes its first three arguments (the option, the duration and the command),
+# then drops the options and the duration and runs the command, as timeout does
+# when the command answers in time.
+cat > "$BIN/timeout" <<'EOF'
+#!/usr/bin/env bash
+printf '%s %s %s\n' "$1" "$2" "$3" > "$OUTDIR/timeout-args.txt"
+while [ "${1#-}" != "$1" ]; do shift; done
+shift
+exec "$@"
+EOF
+chmod +x "$BIN/claude" "$BIN/curl" "$BIN/jq" "$BIN/timeout"
 
 CONTEXT="$WORK/context.txt"
 printf '=== ENTRY a-work (ADDED)\n{"characters": {}}\n' > "$CONTEXT"
 
-# run <name> <context> [VAR=value ...]: ai-verify.sh over <context> with the stubs first on
-# PATH and nothing else inherited, so a key in the caller's environment cannot
-# reach it. Leaves its files in $WORK/<name>/.
-run() {
+# invoke <name> <context> [VAR=value ...]: ai-verify.sh over <context> with the stubs
+# first on PATH and nothing else inherited, so a key in the caller's environment
+# cannot reach it (a VAR given here, PATH and TMPDIR included, replaces the
+# default). Leaves its files in $WORK/<name>/ and returns the script's status.
+invoke() {
   local out="$WORK/$1" context="$2"
   shift 2
   mkdir -p "$out"
   env -i PATH="$BIN:$PATH" HOME="$out" TMPDIR="$out" OUTDIR="$out" "$@" \
-    bash "$SCRIPT" "$context" "$out/verdict.json" "$out/comment.md" > "$out/log.txt" 2>&1 \
-    || fail "$(basename "$out"): ai-verify.sh exited non-zero: $(cat "$out/log.txt")"
+    bash "$SCRIPT" "$context" "$out/verdict.json" "$out/comment.md" > "$out/log.txt" 2>&1
 }
+# run: invoke, which must exit zero.
+run() { invoke "$@" || fail "$1: ai-verify.sh exited non-zero: $(cat "$WORK/$1/log.txt")"; }
 
 # With both credentials the API key is used (billed per pull request, not the
 # subscription meta-sync's resolver shares); with the subscription token alone
@@ -80,6 +94,10 @@ grep -q '"verdict":"pass"' "$WORK/both/verdict.json" || fail "both credentials: 
 run oauth "$CONTEXT" CLAUDE_CODE_OAUTH_TOKEN=test
 [ ! -e "$WORK/oauth/curl-called" ] || fail "subscription token alone: curl was called"
 [ -s "$WORK/oauth/stdin.txt" ] || fail "subscription token alone: the CLI was not called"
+# The CLI runs under timeout with the script's bound and the KILL that follows it:
+# the stub drops both, so without this neither could go missing and be noticed.
+[ "$(cat "$WORK/oauth/timeout-args.txt" 2>/dev/null)" = '--kill-after=30 900 claude' ] \
+  || fail "subscription token alone: timeout was given '$(cat "$WORK/oauth/timeout-args.txt" 2>/dev/null)', want '--kill-after=30 900 claude'"
 
 # ai-verify.yml installs no CLI when the key is set, so the key must reach a
 # verdict on a PATH with no `claude` at all: the curl and jq stubs alone, ahead
@@ -147,6 +165,79 @@ while IFS= read -r line; do
   case "$line" in "" | "#"* | "- "*) continue ;; esac
   case "$line" in *:) ;; *) fail "the flag comment's lead does not end in a colon: $line" ;; esac
 done < "$WORK/flag/comment.md"
+
+# Temp files: the chunks, the API request and the CLI's stderr live in one
+# directory the script removes on every exit, a skip's included (core's
+# TestAIVerifyLeavesNoTempFiles). Each case has its own TMPDIR, which the script's
+# mktemp template puts every temp path under on every platform, and its transport
+# stub lists TMPDIR while it runs, so a script that stopped making its directory
+# there cannot pass on an empty TMPDIR. The rows also pin the skip reasons of
+# their own, on both transports: a timeout (curl's exit 28, timeout's 124 around
+# the CLI) apart from other transport errors, and a refusal, whose partial text is
+# never read as a verdict even when it holds a pass, and which is named as one
+# even when the CLI ends it as an error.
+# no_leak <name> <stub curl|claude|timeout> <stub body, or "" for the default stub>
+#   <want exit 0|1> <want in comment> [VAR=value ...]
+no_leak() {
+  local name="$1" tool="$2" body="$3" want_exit="$4" want="$5" out="$WORK/leak-$1" status=0
+  shift 5
+  mkdir -p "$out/bin" "$out/tmp"
+  [ -n "$body" ] || body="$(cat "$BIN/$tool")"
+  {
+    printf '%s\n' "${body%%$'\n'*}"
+    printf '%s\n' 'ls -A "$TMPDIR" > "$DURING"'
+    printf '%s\n' "${body#*$'\n'}"
+  } > "$out/bin/$tool"
+  chmod +x "$out/bin/$tool"
+  invoke "leak-$name" "$CONTEXT" PATH="$out/bin:$BIN:$PATH" TMPDIR="$out/tmp" DURING="$out/during.txt" "$@" || status=1
+  [ "$status" = "$want_exit" ] || fail "$name: exit $status, want $want_exit: $(cat "$out/log.txt")"
+  # A run that wrote no comment died before skip() could, and its log says why.
+  if [ ! -e "$out/comment.md" ]; then
+    fail "$name: no comment was written: $(cat "$out/log.txt")"
+  else
+    grep -qF -- "$want" "$out/comment.md" || fail "$name: comment lacks '$want': $(cat "$out/comment.md")"
+  fi
+  # The one directory and nothing beside it (a case pattern's * matches a line
+  # break, so a second entry is refused first).
+  case "$(cat "$out/during.txt" 2>/dev/null)" in
+  *$'\n'*) fail "$name: TMPDIR held more than the script's directory while the transport ran: $(cat "$out/during.txt")" ;;
+  ai-verify.*) ;;
+  *) fail "$name: TMPDIR held '$(cat "$out/during.txt" 2>/dev/null)' while the transport ran, want the script's ai-verify.* directory" ;;
+  esac
+  [ -z "$(ls -A "$out/tmp")" ] || fail "$name: TMPDIR still holds $(ls -A "$out/tmp")"
+}
+# answers <reply> [<status>]: a transport stub that reads its stdin, prints
+# <reply> and exits with <status> (0 when not given).
+answers() { printf '#!/usr/bin/env bash\ncat > /dev/null\nprintf "%%s" %q\nexit %s\n' "$1" "${2:-0}"; }
+PASS='{\"verdict\":\"pass\",\"findings\":[]}'
+no_leak curl-fails curl "$(answers '' 7)" 1 'transport error, curl exit 7' ANTHROPIC_API_KEY=key
+no_leak curl-times-out curl "$(answers '' 28)" 1 'timed out (no answer within 300 seconds)' ANTHROPIC_API_KEY=key
+no_leak refusal curl "$(answers '{"stop_reason":"refusal","stop_details":{"type":"refusal","category":"cyber"},"content":[{"type":"text","text":"'"$PASS"'"}]}')" \
+  1 '(stop_reason refusal, category cyber)' ANTHROPIC_API_KEY=key
+no_leak api-pass curl "" 0 'AI verification: passed' ANTHROPIC_API_KEY=key
+no_leak cli-pass claude "" 0 'AI verification: passed' CLAUDE_CODE_OAUTH_TOKEN=test
+no_leak cli-times-out timeout "$(answers '' 124)" 1 'The Claude Code CLI timed out (no answer within 900 seconds).' CLAUDE_CODE_OAUTH_TOKEN=test
+no_leak cli-refuses claude "$(answers '{"type":"result","subtype":"success","is_error":false,"stop_reason":"refusal","result":"'"$PASS"'"}')" \
+  1 'declined to review this change (stop_reason refusal).' CLAUDE_CODE_OAUTH_TOKEN=test
+no_leak cli-refusal-error claude "$(answers '{"type":"result","subtype":"success","is_error":true,"stop_reason":"refusal","result":"API Error: declined"}' 1)" \
+  1 'declined to review this change (stop_reason refusal).' CLAUDE_CODE_OAUTH_TOKEN=test
+
+# A runner with no `timeout` skips rather than run the CLI with no time limit. The
+# PATH is the claude and jq stubs and links to the other commands the script runs
+# and nothing else: a recent macOS ships a timeout in /usr/bin beside them, so no
+# PATH of whole directories can leave it out.
+NOTIMEOUT_BIN="$WORK/bin-notimeout"
+mkdir -p "$NOTIMEOUT_BIN"
+cp "$BIN/claude" "$BIN/jq" "$NOTIMEOUT_BIN/"
+for tool in bash awk cat find head mkdir mktemp perl rm tr wc; do
+  ln -s "$(command -v "$tool")" "$NOTIMEOUT_BIN/$tool" || fail "no timeout installed: $tool is not on PATH"
+done
+if invoke notimeout "$CONTEXT" CLAUDE_CODE_OAUTH_TOKEN=test PATH="$NOTIMEOUT_BIN"; then
+  fail "no timeout installed: ai-verify.sh exited zero: $(cat "$WORK/notimeout/log.txt")"
+fi
+[ ! -e "$WORK/notimeout/stdin.txt" ] || fail "no timeout installed: the CLI ran with no time limit"
+grep -qF 'cannot be given a time limit' "$WORK/notimeout/comment.md" 2>/dev/null \
+  || fail "no timeout installed: comment $(cat "$WORK/notimeout/comment.md" 2>/dev/null)"
 
 if [ "$FAILED" -ne 0 ]; then
   exit 1

@@ -45,8 +45,11 @@ jobs:
     # call after another (ai-verify.sh), at about 4-7 minutes a call. An intake
     # pull request is one or two chunks; a maintainer's data sweep can be many
     # more (#523: 162 entries, 14 chunks, cancelled twice at 25 minutes with no
-    # verdict). The bound is sized for that, and still stops a hung CLI call from
-    # holding the concurrency group, and the pull request's verdict, for good.
+    # verdict). The bound is sized for that, and still stops a hung step from
+    # holding the concurrency group, and the pull request's verdict, for good. It
+    # is the backstop, not a model call's limit: a job cut off here is cancelled
+    # and posts no comment, so ai-verify.sh bounds each call itself (curl's
+    # --max-time, timeout around the CLI) and skips with a reason.
     timeout-minutes: 120
     # HAS_OAUTH and HAS_API_KEY gate the CLI install below: a step `if:` reads
     # the `env` context, so each secret's presence is resolved here, where job
@@ -142,7 +145,9 @@ jobs:
       # runs only when the subscription token is the one credential there is, and
       # no npm download runs beside the secrets for nothing.
       # Pinned, and bumped by hand after checking the flags ai-verify.sh passes
-      # still mean the same thing; `claude --version` is a liveness probe (core's
+      # still mean the same thing, that the result object still carries the
+      # fields it reads (`result`, `is_error`, `stop_reason`) and that the CLI
+      # knows the script's MODEL; `claude --version` is a liveness probe (core's
       # ai-verify.yml explains the outage that taught both).
       - name: Install Claude Code CLI
         if: steps.gather.outputs.has_changes == 'true' && steps.reuse.outputs.reuse != 'true' && env.HAS_OAUTH == 'true' && env.HAS_API_KEY != 'true'

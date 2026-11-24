@@ -1,0 +1,69 @@
+# The core tooling: read the pin, check core out at it, set up Go. Every job
+# that needs core uses this but intake.yml's rebase, which writes the steps out
+# (that job says why; .github/scripts/workflow-copies-test.sh holds its pin
+# read to core-ref.sh and its steps to every step below from the checkout on,
+# every input and action version of them, with no step between).
+# dependabot.yml lists this directory, so the actions below are bumped as the
+# workflows' are.
+#
+# Use it after this repository's checkout: it reads .github/core-ref through
+# .github/scripts/core-ref.sh, which refuses any sha that is not on core's main
+# (check.yml's env comment says why), and exports CORE_REF to the job's later
+# steps.
+name: Core tooling
+description: >-
+  Read .github/core-ref, check out core's tooling at that sha into ./core
+  (blobless and sparse, never core's data/), and set up Go from core/go.mod.
+inputs:
+  token:
+    description: >-
+      A token for core-ref.sh's compare call. Core is public, so a read-only
+      github.token is enough.
+    required: true
+  core-repo:
+    description: The core repository (the workflows' CORE_REPO).
+    required: true
+runs:
+  using: composite
+  steps:
+    - name: Read the core tooling pin
+      id: pin
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.token }}
+        CORE_REPO: ${{ inputs.core-repo }}
+      run: |
+        line="$(bash "$GITHUB_ACTION_PATH/../../scripts/core-ref.sh")"
+        echo "$line" >> "$GITHUB_ENV"
+        echo "ref=${line#CORE_REF=}" >> "$GITHUB_OUTPUT"
+
+    - name: Checkout the core tooling
+      uses: actions/checkout@v7
+      with:
+        repository: ${{ inputs.core-repo }}
+        # Never empty: with no ref this checkout takes core's DEFAULT BRANCH, so
+        # a pin that was not read would float on core's main and stay green. An
+        # unread pin names a ref that does not exist instead, and the checkout
+        # fails.
+        ref: ${{ steps.pin.outputs.ref || 'core-ref-not-read' }}
+        path: core
+        # Nothing fetches from core after this (go's VCS stamping only reads
+        # core/.git), so no credential stays there.
+        persist-credentials: false
+        # Blobless + sparse: the tooling, the schemas and the module files, never
+        # data/. Without this the checkout would pull the whole core catalogue for
+        # tools that never read it.
+        sparse-checkout: |
+          cmd
+          internal
+          pkg
+          schema
+          go.mod
+          go.sum
+          schema.go
+        sparse-checkout-cone-mode: false
+
+    - name: Set up Go
+      uses: actions/setup-go@v7
+      with:
+        go-version-file: core/go.mod

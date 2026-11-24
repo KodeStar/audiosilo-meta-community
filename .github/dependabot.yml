@@ -4,18 +4,36 @@ version: 2
 # audiosilo-meta's, checked out at a pinned sha by the workflows - so the one
 # dependency surface it has is the workflows' actions. Minor and patch updates
 # are GROUPED into one pull request per week; a major update still arrives on
-# its own, because that is the one that needs reading.
+# its own, because that is the one that needs reading. checkout and setup-go
+# are the exception: each arrives as one pull request of its own, whatever the
+# update (core-tooling-actions below says why).
 updates:
   # Most actions are referenced by major tag (actions/checkout@v4), so for them
   # the only update is the next major. ai-verify.yml pins its checkout to a
   # commit sha with the version in a trailing comment (it holds the OAuth secret
   # and a write token); dependabot understands that form and rewrites both
-  # together.
+  # together. `/` alone reaches .github/workflows and nothing under
+  # .github/actions, so the composite actions there are listed too: without
+  # them core-tooling's checkout and setup-go would never be bumped while the
+  # rebase job's written-out copies of them were.
   - package-ecosystem: github-actions
-    directory: /
+    directories:
+      - /
+      - /.github/actions/*
     schedule:
       interval: weekly
     groups:
+      # intake.yml's rebase job writes out core-tooling's checkout and Go set-up,
+      # and workflow-copies-test.sh fails while their versions differ. Updates
+      # are opened per directory unless grouped by name, so a bump would arrive
+      # as two pull requests, each red; this group opens ONE per action across
+      # both directories (a major still on its own). It comes first, as an update
+      # joins the first group it matches.
+      core-tooling-actions:
+        group-by: dependency-name
+        patterns:
+          - actions/checkout
+          - actions/setup-go
       actions-minor-and-patch:
         update-types:
           - minor
