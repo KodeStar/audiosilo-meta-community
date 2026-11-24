@@ -153,35 +153,56 @@ done < "$WORK/flag/comment.md"
 
 # Temp files: the chunks, the API request and the CLI's stderr live in one
 # directory the script removes on every exit, a skip's included (core's
-# TestAIVerifyLeavesNoTempFiles, which also pins the refusal's own reason). Each
-# case has its own TMPDIR, which the script's mktemp template puts every temp
-# path under on every platform.
-# no_leak <name> <curl stub body, or ""> <want exit 0|1> <want in comment> [VAR=value ...]
+# TestAIVerifyLeavesNoTempFiles). Each case has its own TMPDIR, which the script's
+# mktemp template puts every temp path under on every platform, and its transport
+# stub lists TMPDIR while it runs, so a script that stopped making its directory
+# there cannot pass on an empty TMPDIR. The API answers also pin the skip reasons
+# of their own: a timeout apart from other transport errors, and a refusal, whose
+# partial text is never read as a verdict even when it holds a pass.
+# no_leak <name> <transport curl|claude> <stub body, or "" for the default stub>
+#   <want exit 0|1> <want in comment> [VAR=value ...]
 no_leak() {
-  local name="$1" curl_body="$2" want_exit="$3" want="$4" out="$WORK/leak-$1" status=0
-  shift 4
+  local name="$1" tool="$2" body="$3" want_exit="$4" want="$5" out="$WORK/leak-$1" status=0
+  shift 5
   mkdir -p "$out/bin" "$out/tmp"
-  if [ -n "$curl_body" ]; then
-    printf '%s' "$curl_body" > "$out/bin/curl"
-    chmod +x "$out/bin/curl"
-  fi
-  invoke "leak-$name" "$CONTEXT" PATH="$out/bin:$BIN:$PATH" TMPDIR="$out/tmp" "$@" || status=1
+  [ -n "$body" ] || body="$(cat "$BIN/$tool")"
+  {
+    printf '%s\n' "${body%%$'\n'*}"
+    printf '%s\n' 'ls -A "$TMPDIR" > "$DURING"'
+    printf '%s\n' "${body#*$'\n'}"
+  } > "$out/bin/$tool"
+  chmod +x "$out/bin/$tool"
+  invoke "leak-$name" "$CONTEXT" PATH="$out/bin:$BIN:$PATH" TMPDIR="$out/tmp" DURING="$out/during.txt" "$@" || status=1
   [ "$status" = "$want_exit" ] || fail "$name: exit $status, want $want_exit: $(cat "$out/log.txt")"
-  grep -qF -- "$want" "$out/comment.md" || fail "$name: comment lacks '$want': $(cat "$out/comment.md")"
+  # A run that wrote no comment died before skip() could, and its log says why.
+  if [ ! -e "$out/comment.md" ]; then
+    fail "$name: no comment was written: $(cat "$out/log.txt")"
+  else
+    grep -qF -- "$want" "$out/comment.md" || fail "$name: comment lacks '$want': $(cat "$out/comment.md")"
+  fi
+  case "$(cat "$out/during.txt" 2>/dev/null)" in
+  ai-verify.*) ;;
+  *) fail "$name: TMPDIR held '$(cat "$out/during.txt" 2>/dev/null)' while the transport ran, want the script's ai-verify.* directory" ;;
+  esac
   [ -z "$(ls -A "$out/tmp")" ] || fail "$name: TMPDIR still holds $(ls -A "$out/tmp")"
 }
 CURL_FAILS='#!/usr/bin/env bash
 cat > /dev/null
 exit 7
 '
+CURL_TIMES_OUT='#!/usr/bin/env bash
+cat > /dev/null
+exit 28
+'
 CURL_REFUSES='#!/usr/bin/env bash
 cat > /dev/null
-printf "%s" "{\"stop_reason\":\"refusal\",\"content\":[]}"
+printf "%s" '"'"'{"stop_reason":"refusal","stop_details":{"type":"refusal","category":"cyber"},"content":[{"type":"text","text":"{\"verdict\":\"pass\",\"findings\":[]}"}]}'"'"'
 '
-no_leak curl-fails "$CURL_FAILS" 1 'transport error' ANTHROPIC_API_KEY=key
-no_leak refusal "$CURL_REFUSES" 1 'stop_reason refusal' ANTHROPIC_API_KEY=key
-no_leak api-pass "" 0 'AI verification: passed' ANTHROPIC_API_KEY=key
-no_leak cli-pass "" 0 'AI verification: passed' CLAUDE_CODE_OAUTH_TOKEN=test
+no_leak curl-fails curl "$CURL_FAILS" 1 'transport error, curl exit 7' ANTHROPIC_API_KEY=key
+no_leak curl-times-out curl "$CURL_TIMES_OUT" 1 'timed out (no answer within 300 seconds)' ANTHROPIC_API_KEY=key
+no_leak refusal curl "$CURL_REFUSES" 1 '(stop_reason refusal, category cyber)' ANTHROPIC_API_KEY=key
+no_leak api-pass curl "" 0 'AI verification: passed' ANTHROPIC_API_KEY=key
+no_leak cli-pass claude "" 0 'AI verification: passed' CLAUDE_CODE_OAUTH_TOKEN=test
 
 if [ "$FAILED" -ne 0 ]; then
   exit 1
