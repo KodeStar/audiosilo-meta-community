@@ -66,7 +66,8 @@ fail() { echo "FAIL: $*" >&2; FAILED=1; }
 copies_if "$WORKFLOW" || fail "intake.yml: the concurrency group and the intake job's if differ"
 
 # The check itself: a label changed in only one of the two copies is caught
-# either way round (the group comes first in the file), and so is a missing block.
+# either way round (the group comes first in the file), and so is either block
+# gone missing.
 WORK="$(mktemp -d)"
 trap 'rm -rf "$WORK"' EXIT
 LABEL="github.event.label.name != 'data:duplicate'"
@@ -78,7 +79,8 @@ change_nth() {
 change_nth 1 > "$WORK/group.yml"
 change_nth 2 > "$WORK/if.yml"
 perl -pe 's/^  group: >-$/  group: x/' "$WORKFLOW" > "$WORK/nogroup.yml"
-for mutated in group if nogroup; do
+perl -pe 's/^    if: >-$/    if: x/' "$WORKFLOW" > "$WORK/noif.yml"
+for mutated in group if nogroup noif; do
   if copies_if "$WORK/$mutated.yml" 2>/dev/null; then
     fail "the check passed with the $mutated copy changed"
   fi
