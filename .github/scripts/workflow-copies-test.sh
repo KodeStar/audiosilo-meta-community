@@ -19,9 +19,9 @@
 #    unread-pin fallback, the credential, the sparse list and its mode included,
 #    and each step's `uses:` version, with only the names that say where the
 #    steps live (the action's inputs and pin output, the job's env) set aside.
-#    dependabot moves each copy's versions (dependabot.yml lists both places),
-#    so a bump that reaches one copy alone is a difference here. And no other
-#    workflow checks core out.
+#    dependabot.yml groups each of those actions' bumps across both places into
+#    one pull request, so a bump that reaches one copy alone is a difference
+#    here. And no other workflow checks core out.
 #
 # Each check is then shown to catch a change made to one side alone. Needs bash,
 # awk and perl; no network.
@@ -161,21 +161,19 @@ for program in \
     fail "the check passed with the rebase job's copy changed by $program"
   fi
 done
-# And a step the action gains after its Go set-up, written out nowhere, fails it.
-perl -pe 's/^(\s+)(go-version-file: core\/go\.mod)$/$1$2\n\n    - name: More\n      shell: bash\n      run: "true"/' "$ACTION" > "$WORK/action-more.yml"
-if cmp -s "$ACTION" "$WORK/action-more.yml"; then
-  fail "the added step left action.yml as it was"
-elif same_steps "$WORKFLOW" "$WORK/action-more.yml" 2>/dev/null; then
-  fail "the check passed with a step the rebase job does not write out added to the action"
-fi
-
-# And so does an action version bumped in the action alone.
-perl -pe 's/^(\s+uses: actions\/checkout)@\S+$/$1\@v0/' "$ACTION" > "$WORK/action-version.yml"
-if cmp -s "$ACTION" "$WORK/action-version.yml"; then
-  fail "the version change left action.yml as it was"
-elif same_steps "$WORKFLOW" "$WORK/action-version.yml" 2>/dev/null; then
-  fail "the check passed with the action's checkout version changed alone"
-fi
+# And so does a change made to the action alone: a step it gains after its Go
+# set-up, written out nowhere, or a version bumped there alone.
+for program in \
+  's/^(\s+)(go-version-file: core\/go\.mod)$/$1$2\n\n    - name: More\n      shell: bash\n      run: "true"/' \
+  's/^(\s+uses: actions\/checkout)@\S+$/$1\@v0/'; do
+  n=$((n + 1))
+  perl -pe "$program" "$ACTION" > "$WORK/action-$n.yml"
+  if cmp -s "$ACTION" "$WORK/action-$n.yml"; then
+    fail "the change $program left action.yml as it was"
+  elif same_steps "$WORKFLOW" "$WORK/action-$n.yml" 2>/dev/null; then
+    fail "the check passed with the action alone changed by $program"
+  fi
+done
 
 if [ "$FAILED" -ne 0 ]; then
   exit 1

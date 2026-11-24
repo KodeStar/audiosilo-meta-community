@@ -7,9 +7,9 @@
 # scripts/aiverify_test.go cases for the shared transport (TestAIVerifyPrefersTheAPIKey,
 # TestAIVerifyAPIRequestIsNeverAnArgument, TestAIVerifyLeavesNoTempFiles) and the
 # comment's pass note and flag lead (TestAIVerifyCommentSaysWhatTheVerdictDoes,
-# its bot-origin case). The claude CLI,
-# curl and timeout are stubs on PATH; nothing reaches the network. Needs bash, jq and perl,
-# as the script itself does. Runs every case and exits non-zero if any failed.
+# its bot-origin case). The claude CLI, curl and timeout are stubs on PATH; nothing
+# reaches the network. Needs bash, jq and perl, as the script itself does. Runs
+# every case and exits non-zero if any failed.
 
 set -uo pipefail
 
@@ -200,39 +200,21 @@ no_leak() {
   esac
   [ -z "$(ls -A "$out/tmp")" ] || fail "$name: TMPDIR still holds $(ls -A "$out/tmp")"
 }
-CURL_FAILS='#!/usr/bin/env bash
-cat > /dev/null
-exit 7
-'
-CURL_TIMES_OUT='#!/usr/bin/env bash
-cat > /dev/null
-exit 28
-'
-CURL_REFUSES='#!/usr/bin/env bash
-cat > /dev/null
-printf "%s" '"'"'{"stop_reason":"refusal","stop_details":{"type":"refusal","category":"cyber"},"content":[{"type":"text","text":"{\"verdict\":\"pass\",\"findings\":[]}"}]}'"'"'
-'
-no_leak curl-fails curl "$CURL_FAILS" 1 'transport error, curl exit 7' ANTHROPIC_API_KEY=key
-no_leak curl-times-out curl "$CURL_TIMES_OUT" 1 'timed out (no answer within 300 seconds)' ANTHROPIC_API_KEY=key
-no_leak refusal curl "$CURL_REFUSES" 1 '(stop_reason refusal, category cyber)' ANTHROPIC_API_KEY=key
+# answers <reply> [<status>]: a transport stub that reads its stdin, prints
+# <reply> and exits with <status> (0 when not given).
+answers() { printf '#!/usr/bin/env bash\ncat > /dev/null\nprintf "%%s" %q\nexit %s\n' "$1" "${2:-0}"; }
+PASS='{\"verdict\":\"pass\",\"findings\":[]}'
+no_leak curl-fails curl "$(answers '' 7)" 1 'transport error, curl exit 7' ANTHROPIC_API_KEY=key
+no_leak curl-times-out curl "$(answers '' 28)" 1 'timed out (no answer within 300 seconds)' ANTHROPIC_API_KEY=key
+no_leak refusal curl "$(answers '{"stop_reason":"refusal","stop_details":{"type":"refusal","category":"cyber"},"content":[{"type":"text","text":"'"$PASS"'"}]}')" \
+  1 '(stop_reason refusal, category cyber)' ANTHROPIC_API_KEY=key
 no_leak api-pass curl "" 0 'AI verification: passed' ANTHROPIC_API_KEY=key
 no_leak cli-pass claude "" 0 'AI verification: passed' CLAUDE_CODE_OAUTH_TOKEN=test
-CLI_TIMES_OUT='#!/usr/bin/env bash
-cat > /dev/null
-exit 124
-'
-CLI_REFUSES='#!/usr/bin/env bash
-cat > /dev/null
-printf "%s" '"'"'{"type":"result","subtype":"success","is_error":false,"stop_reason":"refusal","result":"{\"verdict\":\"pass\",\"findings\":[]}"}'"'"'
-'
-CLI_REFUSES_AS_ERROR='#!/usr/bin/env bash
-cat > /dev/null
-printf "%s" '"'"'{"type":"result","subtype":"success","is_error":true,"stop_reason":"refusal","result":"API Error: declined"}'"'"'
-exit 1
-'
-no_leak cli-times-out timeout "$CLI_TIMES_OUT" 1 'The Claude Code CLI timed out (no answer within 900 seconds).' CLAUDE_CODE_OAUTH_TOKEN=test
-no_leak cli-refuses claude "$CLI_REFUSES" 1 'declined to review this change (stop_reason refusal).' CLAUDE_CODE_OAUTH_TOKEN=test
-no_leak cli-refusal-error claude "$CLI_REFUSES_AS_ERROR" 1 'declined to review this change (stop_reason refusal).' CLAUDE_CODE_OAUTH_TOKEN=test
+no_leak cli-times-out timeout "$(answers '' 124)" 1 'The Claude Code CLI timed out (no answer within 900 seconds).' CLAUDE_CODE_OAUTH_TOKEN=test
+no_leak cli-refuses claude "$(answers '{"type":"result","subtype":"success","is_error":false,"stop_reason":"refusal","result":"'"$PASS"'"}')" \
+  1 'declined to review this change (stop_reason refusal).' CLAUDE_CODE_OAUTH_TOKEN=test
+no_leak cli-refusal-error claude "$(answers '{"type":"result","subtype":"success","is_error":true,"stop_reason":"refusal","result":"API Error: declined"}' 1)" \
+  1 'declined to review this change (stop_reason refusal).' CLAUDE_CODE_OAUTH_TOKEN=test
 
 # A runner with no `timeout` skips rather than run the CLI with no time limit. The
 # PATH is the claude and jq stubs and links to the other commands the script runs
