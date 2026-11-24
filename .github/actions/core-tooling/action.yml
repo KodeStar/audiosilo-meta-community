@@ -1,7 +1,8 @@
 # The core tooling: read the pin, check core out at it, set up Go. Every job
 # that needs core uses this but intake.yml's rebase, which writes the steps out
-# (that job says why; .github/scripts/workflow-copies-test.sh holds its
-# checkout and Go set-up to these, every input of them). dependabot.yml lists
+# (that job says why; .github/scripts/workflow-copies-test.sh holds its pin
+# read to core-ref.sh and its steps to every step below from the checkout on,
+# every input of them, with no step between). dependabot.yml lists
 # this directory, so the actions below are bumped as the workflows' are.
 #
 # Use it after this repository's checkout: it reads .github/core-ref through

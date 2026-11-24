@@ -109,12 +109,12 @@ tooling directories at a pinned sha** and run from it, through ONE composite
 action, `.github/actions/core-tooling` (read the pin, check core out, set up Go).
 intake.yml's `rebase` job alone writes those steps out, as it checks intake
 branches out into the workspace a local action is read from;
-`.github/scripts/workflow-copies-test.sh` (in check.yml) holds its checkout and
-Go set-up to the action's, every input of them, and intake.yml's concurrency
-group to the intake job's `if`. The
-sha is ONE file, `.github/core-ref`, which both read into `CORE_REF` through
-`.github/scripts/core-ref.sh`, so the bot always composes with the rules the
-checks validate against; bump it in its own pull request, to a commit of core's
+`.github/scripts/workflow-copies-test.sh` (in check.yml) holds its pin read to
+core-ref.sh and its checkout and Go set-up to the action's, every input of them,
+with no step between, and intake.yml's concurrency group to the intake job's
+`if`. The sha is ONE file, `.github/core-ref`, which both read into `CORE_REF`
+through `.github/scripts/core-ref.sh`, so the bot always composes with the rules
+the checks validate against; bump it in its own pull request, to a commit of core's
 main. core-ref.sh refuses any other sha through the compare API, because GitHub
 serves a fork's commits through the parent repository and a checkout would build
 them (`.github/scripts/core-ref-test.sh` covers it, in check.yml). Each core

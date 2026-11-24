@@ -12,13 +12,14 @@
 #    comment. The two are compared with whitespace removed (they are wrapped
 #    differently, and no label or event name holds a space). Core's
 #    scripts/intakeconcurrency_test.go checks core's intake.yml the same way.
-# 2. The rebase job's core checkout and Go set-up are .github/actions/core-tooling's,
-#    the one copy every other job uses (the job says why it writes the steps
-#    out): every input, so the ref's unread-pin fallback, the credential, the
-#    sparse list and its mode included, with only the names that say where the
-#    steps live (the action's inputs and pin output, the job's env) and the
-#    actions' versions (dependabot moves each copy's) set aside. And no other
-#    workflow writes a core checkout out.
+# 2. The rebase job's core steps are .github/actions/core-tooling's, the one copy
+#    every other job uses (the job says why it writes the steps out): the pin
+#    read through core-ref.sh, then every step of the action from its checkout
+#    on with nothing between, every input and its indentation, so the ref's
+#    unread-pin fallback, the credential, the sparse list and its mode included,
+#    with only the names that say where the steps live (the action's inputs and
+#    pin output, the job's env) and the actions' versions (dependabot moves each
+#    copy's) set aside. And no other workflow checks core out.
 #
 # Each check is then shown to catch a change made to one side alone. Needs bash,
 # awk and perl; no network.
@@ -86,56 +87,59 @@ for mutated in group if nogroup noif; do
   fi
 done
 
-# sparse_lists <file>: every `sparse-checkout: |` list in <file>, one entry per
-# line, trimmed, each list ended by a `--` line.
-sparse_lists() {
-  awk '
-    found && NF { match($0, /^ */); if (RLENGTH <= ind) { print "--"; found = 0 } }
-    found && NF { gsub(/^[[:space:]]+|[[:space:]]+$/, ""); print }
-    !found && /^ *sparse-checkout: \|$/ { found = 1; match($0, /^ */); ind = RLENGTH }
-    END { if (found) print "--" }
-  ' "$1"
-}
-
-# core_steps <file>: the core checkout and the Go set-up step after it, as
-# <file> writes them: from `- name: Checkout the core tooling` to the end of the
-# next step, each line trimmed, comments and blank lines dropped, the action's
-# names for the repository and the pin spelled as the job's env, and every
-# `uses:` without its version. Empty when there is no such step.
-core_steps() {
-  awk '
-    !found && /^ *- name: Checkout the core tooling$/ { found = 1; match($0, /^ */); ind = RLENGTH }
+# steps_from <file> <name> [<count>]: <count> steps of <file> (every step to the
+# end of its list when not given) from the one named `- name: <name>`, as <file>
+# writes them: each line with its indentation taken relative to that step's dash,
+# so a key indented into a block scalar above it (cone mode swallowed into the
+# sparse list) is a difference, trailing blanks, comments and blank lines dropped,
+# the action's names for the repository and the pin spelled as the job's env, and
+# every `uses:` without its version. Empty when there is no such step.
+steps_from() {
+  awk -v name="$2" -v max="${3:-0}" '
+    !found && match($0, /^ *- name: /) && substr($0, RLENGTH + 1) == name { found = 1; ind = RLENGTH - 8 }
     found && NF {
       match($0, /^ */)
-      if (RLENGTH < ind || (RLENGTH == ind && /^ *- / && ++steps > 2)) exit
-      sub(/^[[:space:]]+/, ""); sub(/[[:space:]]+$/, "")
-      if (/^#/) next
-      gsub(/inputs\.core-repo/, "env.CORE_REPO"); gsub(/steps\.pin\.outputs\.ref/, "env.CORE_REF")
-      if (/^uses: /) sub(/@.*$/, "")
-      print
+      if (RLENGTH < ind || (RLENGTH == ind && /^ *- / && ++steps > max && max > 0)) exit
+      line = substr($0, ind + 1); sub(/[[:space:]]+$/, "", line)
+      if (line ~ /^[[:space:]]*#/) next
+      gsub(/inputs\.core-repo/, "env.CORE_REPO", line); gsub(/steps\.pin\.outputs\.ref/, "env.CORE_REF", line)
+      if (line ~ /^[ -]*uses: /) sub(/@.*$/, "", line)
+      print line
     }
   ' "$1"
 }
 
-# same_steps <file>: succeeds when <file> writes the action's core steps out.
+# The rebase job's pin read, which the action's differs from only in where it
+# writes the sha: core-ref.sh, and so its on-main check, with the read-only token.
+PIN_STEP='- name: Read the core tooling pin
+  env:
+    GH_TOKEN: ${{ github.token }}
+  run: bash .github/scripts/core-ref.sh >> "$GITHUB_ENV"'
+
+# same_steps <workflow> [<action>]: succeeds when <workflow> reads the pin with
+# PIN_STEP and then writes every step of the action from its core checkout on
+# out, with no step between.
 same_steps() {
-  local want got
-  want="$(core_steps "$ACTION")"
-  got="$(core_steps "$1")"
+  local action="${2:-$ACTION}" steps want got
+  steps="$(steps_from "$action" "Checkout the core tooling")"
+  want="$PIN_STEP"$'\n'"$steps"
+  got="$(steps_from "$1" "Read the core tooling pin" "$(($(printf '%s\n' "$steps" | grep -c '^- ') + 1))")"
   if [ "$got" != "$want" ]; then
-    printf 'the core steps in %s:\n%s\nwant the action'"'"'s:\n%s\n' "$1" "$got" "$want" >&2
+    printf 'the core steps in %s:\n%s\nwant the pin read and the action'"'"'s:\n%s\n' "$1" "$got" "$want" >&2
     return 1
   fi
 }
 
-[ -n "$(core_steps "$ACTION")" ] || fail "core-tooling/action.yml has no \`Checkout the core tooling\` step"
+[ -n "$(steps_from "$ACTION" "Checkout the core tooling")" ] || fail "core-tooling/action.yml has no \`Checkout the core tooling\` step"
 same_steps "$WORKFLOW" || fail "intake.yml: the rebase job's core steps are not the action's"
-# The rebase job's is the one core checkout a workflow writes out.
-for wf in "$HERE"/../workflows/*.yml; do
+# The rebase job's is the one core checkout a workflow writes out: a
+# `repository:` naming core, sparse or not.
+for wf in "$HERE"/../workflows/*.yml "$HERE"/../workflows/*.yaml; do
+  [ -e "$wf" ] || continue
   want=0
   [ "$wf" != "$WORKFLOW" ] || want=1
-  have="$(sparse_lists "$wf" | grep -c -- '^--$' || true)"
-  [ "$have" = "$want" ] || fail "$(basename "$wf") holds $have sparse checkout list(s), want $want (only intake.yml's rebase job writes core's checkout out)"
+  have="$(grep -cE '^[[:space:]]*repository:.*(CORE_REPO|core-repo|audiosilo-meta([^-[:alnum:]]|$))' "$wf" || true)"
+  [ "$have" = "$want" ] || fail "$(basename "$wf") checks core out $have time(s), want $want (only intake.yml's rebase job writes core's checkout out)"
 done
 # Each change below, made to the rebase job's copy alone, fails the check.
 n=0
@@ -143,7 +147,10 @@ for program in \
   's/^\s+schema\.go\n//' \
   "s/env\\.CORE_REF \\|\\| 'core-ref-not-read'/env.CORE_REF/" \
   's/^\s+persist-credentials: false\n//' \
-  's/^(\s+sparse-checkout-cone-mode:) false$/$1 true/'; do
+  's/^(\s+sparse-checkout-cone-mode:) false$/$1 true/' \
+  's/^(\s+)(sparse-checkout-cone-mode: false)$/$1  $2/' \
+  's/core-ref\.sh >>/core-ref-unchecked.sh >>/' \
+  's/^(\s+)(- name: Checkout the core tooling)$/$1- run: echo CORE_REF=0 >> "\$GITHUB_ENV"\n$1$2/'; do
   n=$((n + 1))
   perl -pe "$program" "$WORKFLOW" > "$WORK/steps-$n.yml"
   if cmp -s "$WORKFLOW" "$WORK/steps-$n.yml"; then
@@ -152,6 +159,13 @@ for program in \
     fail "the check passed with the rebase job's copy changed by $program"
   fi
 done
+# And a step the action gains after its Go set-up, written out nowhere, fails it.
+perl -pe 's/^(\s+)(go-version-file: core\/go\.mod)$/$1$2\n\n    - name: More\n      shell: bash\n      run: "true"/' "$ACTION" > "$WORK/action-more.yml"
+if cmp -s "$ACTION" "$WORK/action-more.yml"; then
+  fail "the added step left action.yml as it was"
+elif same_steps "$WORKFLOW" "$WORK/action-more.yml" 2>/dev/null; then
+  fail "the check passed with a step the rebase job does not write out added to the action"
+fi
 
 if [ "$FAILED" -ne 0 ]; then
   exit 1

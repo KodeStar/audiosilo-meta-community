@@ -399,8 +399,9 @@ jobs:
       # These three steps are .github/actions/core-tooling's, written out, as
       # this job is the one that checks intake branches out into the workspace
       # the local action would be read from: keeping it on remote actions alone
-      # leaves nothing of the job's own definition there. The checkout and the
-      # Go set-up must stay the action's, every input of them
+      # leaves nothing of the job's own definition there. The pin read stays
+      # core-ref.sh's, and the checkout and the Go set-up the action's, every
+      # input of them, with no step between
       # (.github/scripts/workflow-copies-test.sh checks it).
       - name: Read the core tooling pin
         env:
