@@ -1,13 +1,12 @@
-# The core tooling, the ONE way check.yml and intake.yml get it: read the pin,
-# check core out at it, set up Go. It was three copies of the same three steps
-# (check.yml's structure job, intake.yml's intake and rebase jobs), and a copy
-# that drifted could check out a different ref or a different tree.
+# The core tooling: read the pin, check core out at it, set up Go. Every job
+# that needs core uses this but intake.yml's rebase, which writes the steps out
+# (that job says why; .github/scripts/workflow-copies-test.sh holds its sparse
+# list to this one).
 #
 # Use it after this repository's checkout: it reads .github/core-ref through
 # .github/scripts/core-ref.sh, which refuses any sha that is not on core's main
-# (a fork's commit included: check.yml's env comment and CLAUDE.md "The tooling
-# checkout" say why). It exports CORE_REF to the job's later steps, as the step
-# it replaces did.
+# (check.yml's env comment says why), and exports CORE_REF to the job's later
+# steps.
 name: Core tooling
 description: >-
   Read .github/core-ref, check out core's tooling at that sha into ./core
@@ -19,8 +18,8 @@ inputs:
       github.token is enough.
     required: true
   core-repo:
-    description: The core repository.
-    default: KodeStar/audiosilo-meta
+    description: The core repository (the workflows' CORE_REPO).
+    required: true
 runs:
   using: composite
   steps:

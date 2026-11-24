@@ -99,10 +99,8 @@ jobs:
       - name: Test the workflow copies
         run: bash .github/scripts/workflow-copies-test.sh
 
-      # The pin, core's tooling at it and Go: .github/actions/core-tooling, the
-      # one copy of those steps (intake.yml's intake job uses it too). core is
-      # public, so this job's read-only token is enough for core-ref.sh's
-      # compare call.
+      # The pin, core's tooling at it and Go. core is public, so this job's
+      # read-only token is enough for core-ref.sh's compare call.
       - name: Core tooling
         uses: ./.github/actions/core-tooling
         with:

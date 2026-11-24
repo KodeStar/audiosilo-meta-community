@@ -102,8 +102,8 @@ permissions: {}
 # events therefore get their own `-noop` group, as in core's intake.yml and
 # ai-verify.yml. The condition below is a VERBATIM copy of the intake job's `if`
 # (its call and `issues` halves), so keeping the two in step is a matter of
-# keeping them identical (.github/scripts/workflow-copies-test.sh checks it). A called run (route.yml) shares the issue's `run` group
-# with a later edit's.
+# keeping them identical (.github/scripts/workflow-copies-test.sh checks it). A
+# called run (route.yml) shares the issue's `run` group with a later edit's.
 concurrency:
   group: >-
     ${{ github.event_name == 'push' && 'intake-rebase' || format('intake-{0}-{1}', github.event.issue.number,
@@ -172,9 +172,8 @@ jobs:
         with:
           ref: main
 
-      # The pin, core's tooling at it and Go (check.yml's structure job uses the
-      # same action). The token is for core-ref.sh's check that the pin is on
-      # core's main.
+      # The pin, core's tooling at it and Go. The token is for core-ref.sh's
+      # check that the pin is on core's main.
       - name: Core tooling
         uses: ./.github/actions/core-tooling
         with:
@@ -415,6 +414,8 @@ jobs:
           # float on core's main.
           ref: ${{ env.CORE_REF || 'core-ref-not-read' }}
           path: core
+          # As in the action: nothing runs git against core after this.
+          persist-credentials: false
           sparse-checkout: |
             cmd
             internal
