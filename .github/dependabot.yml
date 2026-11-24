@@ -4,7 +4,9 @@ version: 2
 # audiosilo-meta's, checked out at a pinned sha by the workflows - so the one
 # dependency surface it has is the workflows' actions. Minor and patch updates
 # are GROUPED into one pull request per week; a major update still arrives on
-# its own, because that is the one that needs reading.
+# its own, because that is the one that needs reading. checkout and setup-go
+# are the exception: each arrives as one pull request of its own, whatever the
+# update (core-tooling-actions below says why).
 updates:
   # Most actions are referenced by major tag (actions/checkout@v4), so for them
   # the only update is the next major. ai-verify.yml pins its checkout to a
