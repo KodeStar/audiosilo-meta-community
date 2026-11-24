@@ -212,13 +212,30 @@ judge() {
       skip "The Claude Code CLI (\`claude\`) is not installed on the runner."
     fi
 
+    # A hung CLI is bounded HERE, not by the job's timeout-minutes: a job cut off
+    # there is cancelled, so the step that posts the comment (`!cancelled()`)
+    # never runs, and the pull request gets no comment and keeps the last push's
+    # outcome label. CLI_MAX_TIME bounds ONE chunk's call, well above the 4-7
+    # minutes one takes (ai-verify.yml's timeout-minutes is sized from those),
+    # and a timeout skips the whole run, so a hung call never runs on into the
+    # next chunk's. GNU timeout (on every Linux runner) signals the CLI's whole
+    # process group, KILLs it 30 seconds later if it is still there (an exit of
+    # 137, a plain failure below), and exits 124 when it fired.
+    if ! command -v timeout >/dev/null 2>&1; then
+      skip "\`timeout\` (GNU coreutils) is not installed on the runner, so the Claude Code CLI cannot be given a time limit."
+    fi
+    CLI_MAX_TIME=900
     CLI_STATUS=0
     CLI_ERR_FILE="$WORK_DIR/cli.err"
-    CLI_OUT="$(printf '%s' "$USER_MSG" | claude -p \
+    CLI_OUT="$(printf '%s' "$USER_MSG" | timeout --kill-after=30 "$CLI_MAX_TIME" claude -p \
       --system-prompt "$SYSTEM" \
       --model "$MODEL" \
       --output-format json \
       --allowedTools "" 2>"$CLI_ERR_FILE")" || CLI_STATUS=$?
+
+    if [ "$CLI_STATUS" -eq 124 ]; then
+      skip "The Claude Code CLI timed out (no answer within ${CLI_MAX_TIME} seconds)."
+    fi
 
     if [ "$CLI_STATUS" -ne 0 ]; then
       CLI_DETAIL="$(printf '%s' "$CLI_OUT" | jq -r '.result // empty' 2>/dev/null)"

@@ -7,8 +7,8 @@
 # scripts/aiverify_test.go cases for the shared transport (TestAIVerifyPrefersTheAPIKey,
 # TestAIVerifyAPIRequestIsNeverAnArgument, TestAIVerifyLeavesNoTempFiles) and the
 # comment's pass note and flag lead (TestAIVerifyCommentSaysWhatTheVerdictDoes,
-# its bot-origin case). The claude CLI
-# and curl are stubs on PATH; nothing reaches the network. Needs bash, jq and perl,
+# its bot-origin case). The claude CLI,
+# curl and timeout are stubs on PATH; nothing reaches the network. Needs bash, jq and perl,
 # as the script itself does. Runs every case and exits non-zero if any failed.
 
 set -uo pipefail
@@ -53,7 +53,16 @@ EOF
 } > "$BIN/curl"
 # jq behind the same argument limit.
 printf '%sexec "%s" "$@"\n' "$ARG_LIMIT" "$REAL_JQ" > "$BIN/jq"
-chmod +x "$BIN/claude" "$BIN/curl" "$BIN/jq"
+# The timeout stub stands in for GNU timeout, which older macOS does not ship: it
+# drops the options and the duration and runs the command, as timeout does when
+# the command answers in time.
+cat > "$BIN/timeout" <<'EOF'
+#!/usr/bin/env bash
+while [ "${1#-}" != "$1" ]; do shift; done
+shift
+exec "$@"
+EOF
+chmod +x "$BIN/claude" "$BIN/curl" "$BIN/jq" "$BIN/timeout"
 
 CONTEXT="$WORK/context.txt"
 printf '=== ENTRY a-work (ADDED)\n{"characters": {}}\n' > "$CONTEXT"
@@ -156,10 +165,11 @@ done < "$WORK/flag/comment.md"
 # TestAIVerifyLeavesNoTempFiles). Each case has its own TMPDIR, which the script's
 # mktemp template puts every temp path under on every platform, and its transport
 # stub lists TMPDIR while it runs, so a script that stopped making its directory
-# there cannot pass on an empty TMPDIR. The API answers also pin the skip reasons
-# of their own: a timeout apart from other transport errors, and a refusal, whose
-# partial text is never read as a verdict even when it holds a pass.
-# no_leak <name> <transport curl|claude> <stub body, or "" for the default stub>
+# there cannot pass on an empty TMPDIR. The rows also pin the skip reasons of
+# their own, on both transports: a timeout (curl's exit 28, timeout's 124 around
+# the CLI) apart from other transport errors, and a refusal, whose partial text is
+# never read as a verdict even when it holds a pass.
+# no_leak <name> <stub curl|claude|timeout> <stub body, or "" for the default stub>
 #   <want exit 0|1> <want in comment> [VAR=value ...]
 no_leak() {
   local name="$1" tool="$2" body="$3" want_exit="$4" want="$5" out="$WORK/leak-$1" status=0
@@ -206,6 +216,28 @@ no_leak curl-times-out curl "$CURL_TIMES_OUT" 1 'timed out (no answer within 300
 no_leak refusal curl "$CURL_REFUSES" 1 '(stop_reason refusal, category cyber)' ANTHROPIC_API_KEY=key
 no_leak api-pass curl "" 0 'AI verification: passed' ANTHROPIC_API_KEY=key
 no_leak cli-pass claude "" 0 'AI verification: passed' CLAUDE_CODE_OAUTH_TOKEN=test
+CLI_TIMES_OUT='#!/usr/bin/env bash
+cat > /dev/null
+exit 124
+'
+no_leak cli-times-out timeout "$CLI_TIMES_OUT" 1 'The Claude Code CLI timed out (no answer within 900 seconds).' CLAUDE_CODE_OAUTH_TOKEN=test
+
+# A runner with no `timeout` skips rather than run the CLI with no time limit. The
+# PATH is the claude and jq stubs and links to the other commands the script runs
+# and nothing else: a recent macOS ships a timeout in /usr/bin beside them, so no
+# PATH of whole directories can leave it out.
+NOTIMEOUT_BIN="$WORK/bin-notimeout"
+mkdir -p "$NOTIMEOUT_BIN"
+cp "$BIN/claude" "$BIN/jq" "$NOTIMEOUT_BIN/"
+for tool in bash awk cat find head mkdir mktemp perl rm tr wc; do
+  ln -s "$(command -v "$tool")" "$NOTIMEOUT_BIN/$tool" || fail "no timeout installed: $tool is not on PATH"
+done
+if invoke notimeout "$CONTEXT" CLAUDE_CODE_OAUTH_TOKEN=test PATH="$NOTIMEOUT_BIN"; then
+  fail "no timeout installed: ai-verify.sh exited zero: $(cat "$WORK/notimeout/log.txt")"
+fi
+[ ! -e "$WORK/notimeout/stdin.txt" ] || fail "no timeout installed: the CLI ran with no time limit"
+grep -qF 'cannot be given a time limit' "$WORK/notimeout/comment.md" 2>/dev/null \
+  || fail "no timeout installed: comment $(cat "$WORK/notimeout/comment.md" 2>/dev/null)"
 
 if [ "$FAILED" -ne 0 ]; then
   exit 1
