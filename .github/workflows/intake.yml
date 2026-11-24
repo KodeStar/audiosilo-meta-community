@@ -399,8 +399,9 @@ jobs:
       # These three steps are .github/actions/core-tooling's, written out, as
       # this job is the one that checks intake branches out into the workspace
       # the local action would be read from: keeping it on remote actions alone
-      # leaves nothing of the job's own definition there. The sparse list must
-      # stay the action's (.github/scripts/workflow-copies-test.sh checks it).
+      # leaves nothing of the job's own definition there. The checkout and the
+      # Go set-up must stay the action's, every input of them
+      # (.github/scripts/workflow-copies-test.sh checks it).
       - name: Read the core tooling pin
         env:
           GH_TOKEN: ${{ github.token }}
@@ -414,7 +415,7 @@ jobs:
           # float on core's main.
           ref: ${{ env.CORE_REF || 'core-ref-not-read' }}
           path: core
-          # As in the action: nothing runs git against core after this.
+          # As in the action: nothing fetches from core after this.
           persist-credentials: false
           sparse-checkout: |
             cmd

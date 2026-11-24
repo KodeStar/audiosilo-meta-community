@@ -109,8 +109,9 @@ tooling directories at a pinned sha** and run from it, through ONE composite
 action, `.github/actions/core-tooling` (read the pin, check core out, set up Go).
 intake.yml's `rebase` job alone writes those steps out, as it checks intake
 branches out into the workspace a local action is read from;
-`.github/scripts/workflow-copies-test.sh` (in check.yml) holds its sparse list
-to the action's, and intake.yml's concurrency group to the intake job's `if`. The
+`.github/scripts/workflow-copies-test.sh` (in check.yml) holds its checkout and
+Go set-up to the action's, every input of them, and intake.yml's concurrency
+group to the intake job's `if`. The
 sha is ONE file, `.github/core-ref`, which both read into `CORE_REF` through
 `.github/scripts/core-ref.sh`, so the bot always composes with the rules the
 checks validate against; bump it in its own pull request, to a commit of core's

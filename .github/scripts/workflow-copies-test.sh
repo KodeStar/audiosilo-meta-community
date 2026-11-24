@@ -12,9 +12,13 @@
 #    comment. The two are compared with whitespace removed (they are wrapped
 #    differently, and no label or event name holds a space). Core's
 #    scripts/intakeconcurrency_test.go checks core's intake.yml the same way.
-# 2. The rebase job's core checkout lists the same sparse paths as
-#    .github/actions/core-tooling, the one copy every other job uses (the job
-#    says why it writes the steps out), and no other inline copy is left.
+# 2. The rebase job's core checkout and Go set-up are .github/actions/core-tooling's,
+#    the one copy every other job uses (the job says why it writes the steps
+#    out): every input, so the ref's unread-pin fallback, the credential, the
+#    sparse list and its mode included, with only the names that say where the
+#    steps live (the action's inputs and pin output, the job's env) and the
+#    actions' versions (dependabot moves each copy's) set aside. And no other
+#    workflow writes a core checkout out.
 #
 # Each check is then shown to catch a change made to one side alone. Needs bash,
 # awk and perl; no network.
@@ -23,7 +27,6 @@ set -euo pipefail
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 WORKFLOW="$HERE/../workflows/intake.yml"
-CHECK="$HERE/../workflows/check.yml"
 ACTION="$HERE/../actions/core-tooling/action.yml"
 
 # The group's text around the copied condition, whitespace removed.
@@ -92,29 +95,61 @@ sparse_lists() {
   ' "$1"
 }
 
-# same_sparse <workflow>: succeeds when the workflow holds exactly one sparse
-# list, the action's.
-same_sparse() {
+# core_steps <file>: the core checkout and the Go set-up step after it, as
+# <file> writes them: from `- name: Checkout the core tooling` to the end of the
+# next step, each line trimmed, comments and blank lines dropped, the action's
+# names for the repository and the pin spelled as the job's env, and every
+# `uses:` without its version. Empty when there is no such step.
+core_steps() {
+  awk '
+    !found && /^ *- name: Checkout the core tooling$/ { found = 1; match($0, /^ */); ind = RLENGTH }
+    found && NF {
+      match($0, /^ */)
+      if (RLENGTH < ind || (RLENGTH == ind && /^ *- / && ++steps > 2)) exit
+      sub(/^[[:space:]]+/, ""); sub(/[[:space:]]+$/, "")
+      if (/^#/) next
+      gsub(/inputs\.core-repo/, "env.CORE_REPO"); gsub(/steps\.pin\.outputs\.ref/, "env.CORE_REF")
+      if (/^uses: /) sub(/@.*$/, "")
+      print
+    }
+  ' "$1"
+}
+
+# same_steps <file>: succeeds when <file> writes the action's core steps out.
+same_steps() {
   local want got
-  want="$(sparse_lists "$ACTION")"
-  got="$(sparse_lists "$1")"
+  want="$(core_steps "$ACTION")"
+  got="$(core_steps "$1")"
   if [ "$got" != "$want" ]; then
-    printf 'sparse lists in %s:
-%s
-want the action'"'"'s alone:
-%s
-' "$1" "$got" "$want" >&2
+    printf 'the core steps in %s:\n%s\nwant the action'"'"'s:\n%s\n' "$1" "$got" "$want" >&2
     return 1
   fi
 }
 
-[ -n "$(sparse_lists "$ACTION")" ] || fail "core-tooling/action.yml has no sparse-checkout list"
-same_sparse "$WORKFLOW" || fail "intake.yml: the rebase job's sparse list is not the action's"
-[ -z "$(sparse_lists "$CHECK")" ] || fail "check.yml writes a core checkout out instead of using the action"
-perl -ne 'print unless /^\s+schema\.go$/' "$WORKFLOW" > "$WORK/sparse.yml"
-if same_sparse "$WORK/sparse.yml" 2>/dev/null; then
-  fail "the check passed with a path dropped from the rebase job's sparse list"
-fi
+[ -n "$(core_steps "$ACTION")" ] || fail "core-tooling/action.yml has no \`Checkout the core tooling\` step"
+same_steps "$WORKFLOW" || fail "intake.yml: the rebase job's core steps are not the action's"
+# The rebase job's is the one core checkout a workflow writes out.
+for wf in "$HERE"/../workflows/*.yml; do
+  want=0
+  [ "$wf" != "$WORKFLOW" ] || want=1
+  have="$(sparse_lists "$wf" | grep -c -- '^--$' || true)"
+  [ "$have" = "$want" ] || fail "$(basename "$wf") holds $have sparse checkout list(s), want $want (only intake.yml's rebase job writes core's checkout out)"
+done
+# Each change below, made to the rebase job's copy alone, fails the check.
+n=0
+for program in \
+  's/^\s+schema\.go\n//' \
+  "s/env\\.CORE_REF \\|\\| 'core-ref-not-read'/env.CORE_REF/" \
+  's/^\s+persist-credentials: false\n//' \
+  's/^(\s+sparse-checkout-cone-mode:) false$/$1 true/'; do
+  n=$((n + 1))
+  perl -pe "$program" "$WORKFLOW" > "$WORK/steps-$n.yml"
+  if cmp -s "$WORKFLOW" "$WORK/steps-$n.yml"; then
+    fail "the change $program left intake.yml as it was"
+  elif same_steps "$WORK/steps-$n.yml" 2>/dev/null; then
+    fail "the check passed with the rebase job's copy changed by $program"
+  fi
+done
 
 if [ "$FAILED" -ne 0 ]; then
   exit 1

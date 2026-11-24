@@ -1,7 +1,8 @@
 # The core tooling: read the pin, check core out at it, set up Go. Every job
 # that needs core uses this but intake.yml's rebase, which writes the steps out
-# (that job says why; .github/scripts/workflow-copies-test.sh holds its sparse
-# list to this one).
+# (that job says why; .github/scripts/workflow-copies-test.sh holds its
+# checkout and Go set-up to these, every input of them). dependabot.yml lists
+# this directory, so the actions below are bumped as the workflows' are.
 #
 # Use it after this repository's checkout: it reads .github/core-ref through
 # .github/scripts/core-ref.sh, which refuses any sha that is not on core's main
@@ -44,8 +45,8 @@ runs:
         # fails.
         ref: ${{ steps.pin.outputs.ref || 'core-ref-not-read' }}
         path: core
-        # Nothing runs git against core after this, so no credential stays in
-        # core/.git.
+        # Nothing fetches from core after this (go's VCS stamping only reads
+        # core/.git), so no credential stays there.
         persist-credentials: false
         # Blobless + sparse: the tooling, the schemas and the module files, never
         # data/. Without this the checkout would pull the whole core catalogue for
