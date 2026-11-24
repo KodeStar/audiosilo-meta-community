@@ -17,9 +17,11 @@
 #    read through core-ref.sh, then every step of the action from its checkout
 #    on with nothing between, every input and its indentation, so the ref's
 #    unread-pin fallback, the credential, the sparse list and its mode included,
-#    with only the names that say where the steps live (the action's inputs and
-#    pin output, the job's env) and the actions' versions (dependabot moves each
-#    copy's) set aside. And no other workflow checks core out.
+#    and each step's `uses:` version, with only the names that say where the
+#    steps live (the action's inputs and pin output, the job's env) set aside.
+#    dependabot moves each copy's versions (dependabot.yml lists both places),
+#    so a bump that reaches one copy alone is a difference here. And no other
+#    workflow checks core out.
 #
 # Each check is then shown to catch a change made to one side alone. Needs bash,
 # awk and perl; no network.
@@ -92,8 +94,8 @@ done
 # writes them: each line with its indentation taken relative to that step's dash,
 # so a key indented into a block scalar above it (cone mode swallowed into the
 # sparse list) is a difference, trailing blanks, comments and blank lines dropped,
-# the action's names for the repository and the pin spelled as the job's env, and
-# every `uses:` without its version. Empty when there is no such step.
+# and the action's names for the repository and the pin spelled as the job's env.
+# Empty when there is no such step.
 steps_from() {
   awk -v name="$2" -v max="${3:-0}" '
     !found && match($0, /^ *- name: /) && substr($0, RLENGTH + 1) == name { found = 1; ind = RLENGTH - 8 }
@@ -103,7 +105,6 @@ steps_from() {
       line = substr($0, ind + 1); sub(/[[:space:]]+$/, "", line)
       if (line ~ /^[[:space:]]*#/) next
       gsub(/inputs\.core-repo/, "env.CORE_REPO", line); gsub(/steps\.pin\.outputs\.ref/, "env.CORE_REF", line)
-      if (line ~ /^[ -]*uses: /) sub(/@.*$/, "", line)
       print line
     }
   ' "$1"
@@ -150,7 +151,8 @@ for program in \
   's/^(\s+sparse-checkout-cone-mode:) false$/$1 true/' \
   's/^(\s+)(sparse-checkout-cone-mode: false)$/$1  $2/' \
   's/core-ref\.sh >>/core-ref-unchecked.sh >>/' \
-  's/^(\s+)(- name: Checkout the core tooling)$/$1- run: echo CORE_REF=0 >> "\$GITHUB_ENV"\n$1$2/'; do
+  's/^(\s+)(- name: Checkout the core tooling)$/$1- run: echo CORE_REF=0 >> "\$GITHUB_ENV"\n$1$2/' \
+  's/^(\s+uses: actions\/setup-go)@\S+$/$1\@v0/'; do
   n=$((n + 1))
   perl -pe "$program" "$WORKFLOW" > "$WORK/steps-$n.yml"
   if cmp -s "$WORKFLOW" "$WORK/steps-$n.yml"; then
@@ -165,6 +167,14 @@ if cmp -s "$ACTION" "$WORK/action-more.yml"; then
   fail "the added step left action.yml as it was"
 elif same_steps "$WORKFLOW" "$WORK/action-more.yml" 2>/dev/null; then
   fail "the check passed with a step the rebase job does not write out added to the action"
+fi
+
+# And so does an action version bumped in the action alone.
+perl -pe 's/^(\s+uses: actions\/checkout)@\S+$/$1\@v0/' "$ACTION" > "$WORK/action-version.yml"
+if cmp -s "$ACTION" "$WORK/action-version.yml"; then
+  fail "the version change left action.yml as it was"
+elif same_steps "$WORKFLOW" "$WORK/action-version.yml" 2>/dev/null; then
+  fail "the check passed with the action's checkout version changed alone"
 fi
 
 if [ "$FAILED" -ne 0 ]; then

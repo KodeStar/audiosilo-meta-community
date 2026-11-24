@@ -2,8 +2,9 @@
 # that needs core uses this but intake.yml's rebase, which writes the steps out
 # (that job says why; .github/scripts/workflow-copies-test.sh holds its pin
 # read to core-ref.sh and its steps to every step below from the checkout on,
-# every input of them, with no step between). dependabot.yml lists
-# this directory, so the actions below are bumped as the workflows' are.
+# every input and action version of them, with no step between).
+# dependabot.yml lists this directory, so the actions below are bumped as the
+# workflows' are.
 #
 # Use it after this repository's checkout: it reads .github/core-ref through
 # .github/scripts/core-ref.sh, which refuses any sha that is not on core's main
