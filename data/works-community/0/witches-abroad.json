@@ -715,6 +715,9 @@
       "characters": {
         "characters": [
           {
+            "aliases": [
+              "The Gunslinger"
+            ],
             "description": "The last gunslinger of Gilead, leading his ka-tet along the path of the Beam toward the Dark Tower. Guarded and driven, he rarely speaks of himself, but in this book he opens his past to his companions, telling the long story of his youth. His memories reveal how the hard, closed man came to be.",
             "id": "roland-deschain",
             "name": "Roland Deschain",
@@ -751,7 +754,7 @@
             "role": "supporting"
           },
           {
-            "description": "A billy-bumbler, a small, clever animal of Mid-World that can echo human speech, devoted to Jake and to the whole company.",
+            "description": "A billy-bumbler, a small, clever animal of Mid-World that can echo human speech, devoted to Jake and to the whole company. He can follow a trail by scent.",
             "id": "oy",
             "name": "Oy",
             "reveal": {
@@ -773,7 +776,16 @@
             "role": "antagonist"
           },
           {
-            "description": "A young woman of the sleepy seaside barony of Mejis, appearing in Roland's account of his youth. Beautiful and headstrong, she has been promised as a concubine to the barony's aging mayor to settle a family debt. She meets a newly arrived young stranger and is drawn to him, though duty and the town's watchful eyes stand in the way.",
+            "description": "The unstable artificial intelligence controlling the monorail carrying Roland's ka-tet through the Waste Lands. Blaine intends to destroy the train and everyone aboard unless the travelers can ask him a riddle he cannot answer.",
+            "id": "blaine-the-mono",
+            "name": "Blaine the Mono",
+            "reveal": {
+              "chapter": 0
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A young woman of the sleepy seaside barony of Mejis, appearing in Roland's account of his youth. Beautiful and headstrong, she has been promised as a concubine to the barony's aging mayor to settle a family debt. She meets a newly arrived young stranger and is drawn to him, though duty and the town's watchful eyes stand in the way. Since her father died, Susan has lived with her aunt. At sixteen she is already an accomplished rider.",
             "id": "susan-delgado",
             "name": "Susan Delgado",
             "reveal": {
@@ -782,7 +794,7 @@
             "role": "supporting"
           },
           {
-            "description": "One of Roland's boyhood friends and fellow apprentices from Gilead, appearing in the story of Roland's youth. Quick with a joke and rarely serious on the surface, he is nonetheless a loyal companion and a deadly shot, sent east with Roland on a mission that is really an exile for safety.",
+            "description": "One of Roland's boyhood friends and fellow apprentices from Gilead, appearing in the story of Roland's youth. Quick with a joke and rarely serious on the surface, he is nonetheless a loyal companion and a deadly shot, sent east with Roland on a mission that is really an exile for safety. His weapon of choice is a slingshot.",
             "id": "cuthbert-allgood",
             "name": "Cuthbert Allgood",
             "reveal": {
@@ -798,12 +810,74 @@
               "chapter": 4
             },
             "role": "supporting"
+          },
+          {
+            "description": "Susan Delgado's aunt and guardian. Anxious about money and status, she has negotiated Susan's arrangement with Mayor Thorin and insists that Susan fulfill it, treating resistance as ingratitude and a threat to their household.",
+            "id": "cordelia-delgado",
+            "name": "Cordelia Delgado",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "aliases": [
+              "Rhea of the Coos"
+            ],
+            "description": "An isolated, malicious witch whom Susan must visit as part of the agreement made for her. Rhea possesses a pink glass sphere with powers of observation and fascination, and she uses both magic and humiliation to tighten her influence over Susan's future.",
+            "id": "rhea-dubativo",
+            "name": "Rhea Dubativo",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The aging leader of the Big Coffin Hunters, armed men employed by the authorities in Hambry. Once trained as a gunslinger but expelled from that path, Jonas quickly recognizes that Roland and his friends are more capable and less harmless than their cover story suggests.",
+            "id": "eldred-jonas",
+            "name": "Eldred Jonas",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A calculating member of the Big Coffin Hunters and Eldred Jonas's most controlled lieutenant. Reynolds helps watch the young visitors and enforce the hidden interests behind Hambry's local government.",
+            "id": "clay-reynolds",
+            "name": "Clay Reynolds",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The volatile third member of the Big Coffin Hunters. Depape's reckless confrontation with Cuthbert exposes the hostility between Jonas's men and the supposed young livestock counters soon after Roland's group arrives.",
+            "id": "roy-depape",
+            "name": "Roy Depape",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A good-natured stable worker at the Travelers' Rest who is often mocked and exploited by Hambry's more powerful residents. He responds readily to kindness, especially Susan's, and becomes a dependable friend despite the danger around him.",
+            "id": "sheemie-ruiz",
+            "name": "Sheemie Ruiz",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "supporting"
           }
         ],
         "license": "CC-BY-SA-4.0",
         "sources": [
           {
             "imported_at": "2026-07-25",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          },
+          {
+            "imported_at": "2026-08-07",
             "ref": "model-knowledge:best-effort",
             "type": "community"
           }
@@ -817,15 +891,62 @@
         "recaps": [
           {
             "scope": "series",
-            "text": "So far, Roland Deschain, the last gunslinger of Gilead, has chased the man in black across a desert, sacrificed the boy Jake, and been told he must draw three companions on the road to the Dark Tower. At the Western Sea he drew Eddie Dean and Susannah Dean through doors from twentieth-century New York, and both became gunslingers-in-training and lovers. Roland's meddling in the past had split the boy Jake between death and survival, driving them both toward madness, until the ka-tet drew Jake back through a haunted house and healed the paradox, gaining the billy-bumbler Oy along the way. Following the path of a Beam toward the Tower, they crossed the ruined city of Lud and boarded Blaine, an insane sentient monorail that carried them across the poisoned waste lands under threat of death unless they could beat it at riddles.",
+            "text": "So far, Roland Deschain, the last gunslinger of Gilead, has chased the man in black across a desert, sacrificed the boy Jake, and been told he must draw three companions on the road to the Dark Tower. At the Western Sea he drew Eddie Dean and Susannah Dean through doors from twentieth-century New York, and both became gunslingers-in-training and lovers. Roland's meddling in the past had split the boy Jake between death and survival, driving them both toward madness, until the ka-tet drew Jake back through a haunted house and healed the paradox, gaining the billy-bumbler Oy along the way. Following the path of a Beam toward the Tower, they crossed the ruined city of Lud and boarded Blaine, an insane sentient monorail that carried them across the poisoned waste lands under threat of death unless they could beat it at riddles. Blaine has destroyed Lud and plans to derail the train. In the ruins, Richard Fannin has recruited the wounded Tick-Tock Man.",
             "through": {
               "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The ka-tet continues its riddle contest aboard Blaine, but the machine solves every conventional puzzle. Eddie changes the contest by telling absurd jokes whose answers depend on human expectations rather than formal logic. Blaine cannot tolerate being unable to reason them out and suffers a catastrophic breakdown, but the travelers survive the end of the journey. They emerge in Topeka, Kansas, in a parallel world emptied by a deadly plague. Following the Beam out of the city, they find signs that their route is echoing a familiar children's story about an emerald city and a wizard. Around their camp, Roland agrees to explain why their surroundings remind him of a glass sphere and of a decisive tragedy from his youth.",
+            "through": {
+              "chapter": 3
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Roland recalls being sent to the distant barony of Mejis at fourteen with his friends Cuthbert Allgood and Alain Johns. Officially they are inexperienced boys assigned to count livestock, but they quietly assess whether local leaders are aiding the rebellion against Gilead. Susan Delgado, a skilled young horsewoman, has been promised to elderly Mayor Hart Thorin in exchange for security arranged by her aunt Cordelia. The witch Rhea verifies the agreement and uses a pink glass sphere to watch Susan. Before Susan enters the mayor's household, she meets Roland on the road, and the two are immediately drawn to each other. In Hambry, the three boys also encounter Eldred Jonas and the Big Coffin Hunters, armed enforcers who recognize that the visitors may be dangerous despite their harmless cover.",
+            "through": {
+              "chapter": 8
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Roland and Susan begin a secret relationship, placing her agreement with the mayor and the boys' mission at risk. Cuthbert resents Roland's distraction, while Alain tries to preserve the unity of their young ka-tet. Their investigation uncovers a store of oil tankers at the abandoned Citgo facility and evidence that Hambry's leaders intend to send fuel and horses to John Farson's rebel forces. Jonas and his men watch the boys closely, and Rhea uses the pink glass to spy on Susan and feed suspicion. Sheemie, a mistreated stable worker befriended by Susan and the gunslingers, becomes a quiet ally. What began as a routine survey has revealed a military supply operation that Roland's group cannot ignore.",
+            "through": {
+              "chapter": 13
+            }
+          },
+          {
+            "scope": "book",
+            "text": "The conspiracy in Mejis tightens around both the gunslingers and Susan. Roland's devotion to Susan causes an open breach with Cuthbert before the friends restore enough trust to act together. The boys gather proof that the oil and horses are meant for Farson and prepare to disrupt the plan, while Jonas works to frame and contain them. Susan rejects the future Cordelia arranged for her and commits herself to Roland, but their hope of leaving together depends on surviving the coming Reaping Day. Rhea's glass gives the witch an unnatural view into their choices, allowing personal jealousy and the larger political plot to reinforce each other. The young ka-tet must now oppose experienced killers while keeping the town from understanding its purpose.",
+            "through": {
+              "chapter": 17
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Roland, Cuthbert, and Alain are jailed after Jonas's faction moves against them, but Susan and Sheemie help them escape. The gunslingers outmaneuver the Big Coffin Hunters, kill Jonas and his companions, and attack the forces transporting Hambry's oil to Farson. They use the dangerous thinny outside town and explosives to destroy the tankers and scatter the rebel force, completing their military objective. Susan, however, is caught before she can join Roland. Rhea and Cordelia direct the town's fear and anger toward her, and a Reaping crowd burns Susan to death. Roland, already under the spell of the pink Wizard's Glass taken from Jonas, sees her death in the sphere but cannot reach her. He, Cuthbert, and Alain leave Mejis alive and victorious against Farson's plan, while Roland is devastated by Susan's murder and increasingly absorbed by the glass.",
+            "through": {
+              "chapter": 22
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Roland explains that the pink glass showed him wider threats and later helped turn his return to Gilead into another tragedy: deceived by a vision involving Rhea, he shot and killed his own mother. In the present, the ka-tet reaches an emerald palace that imitates the court of Oz. Behind its effects are the surviving Tick-Tock Man and Randall Flagg, the adversary connected to Walter and Marten Broadcloak in Roland's past. Tick-Tock attacks and is killed; Flagg confronts the travelers through the palace's spectacle, then escapes. The pink glass appears and offers seductive private visions, but Roland's companions refuse to be separated by it. The sphere and palace vanish. Eddie, Susannah, Jake, and Oy now understand both Roland's love for Susan and the guilt he has carried since youth. They nevertheless choose to remain his ka-tet, and all five continue along the Beam toward the Dark Tower.",
+            "through": {
+              "chapter": 27
             }
           }
         ],
         "sources": [
           {
             "imported_at": "2026-07-25",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          },
+          {
+            "imported_at": "2026-08-07",
             "ref": "model-knowledge:best-effort",
             "type": "community"
           }
