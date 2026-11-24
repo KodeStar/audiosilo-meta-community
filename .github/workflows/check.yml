@@ -74,8 +74,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
-      # The ai-verify transport and the flag lead's colon, with stub claude and
-      # curl (no secret, no network): this repository's stand-in for core's
+      # The ai-verify transport and the flag lead's colon, with stub claude, curl
+      # and timeout (no secret, no network): this repository's stand-in for core's
       # scripts/aiverify_test.go, as it has no Go module. First, as it needs
       # none of the Go tooling below.
       - name: Test the ai-verify script

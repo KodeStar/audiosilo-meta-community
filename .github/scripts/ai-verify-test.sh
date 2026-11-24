@@ -54,10 +54,12 @@ EOF
 # jq behind the same argument limit.
 printf '%sexec "%s" "$@"\n' "$ARG_LIMIT" "$REAL_JQ" > "$BIN/jq"
 # The timeout stub stands in for GNU timeout, which older macOS does not ship: it
-# drops the options and the duration and runs the command, as timeout does when
-# the command answers in time.
+# notes its first three arguments (the option, the duration and the command),
+# then drops the options and the duration and runs the command, as timeout does
+# when the command answers in time.
 cat > "$BIN/timeout" <<'EOF'
 #!/usr/bin/env bash
+printf '%s %s %s\n' "$1" "$2" "$3" > "$OUTDIR/timeout-args.txt"
 while [ "${1#-}" != "$1" ]; do shift; done
 shift
 exec "$@"
@@ -92,6 +94,10 @@ grep -q '"verdict":"pass"' "$WORK/both/verdict.json" || fail "both credentials: 
 run oauth "$CONTEXT" CLAUDE_CODE_OAUTH_TOKEN=test
 [ ! -e "$WORK/oauth/curl-called" ] || fail "subscription token alone: curl was called"
 [ -s "$WORK/oauth/stdin.txt" ] || fail "subscription token alone: the CLI was not called"
+# The CLI runs under timeout with the script's bound and the KILL that follows it:
+# the stub drops both, so without this neither could go missing and be noticed.
+[ "$(cat "$WORK/oauth/timeout-args.txt" 2>/dev/null)" = '--kill-after=30 900 claude' ] \
+  || fail "subscription token alone: timeout was given '$(cat "$WORK/oauth/timeout-args.txt" 2>/dev/null)', want '--kill-after=30 900 claude'"
 
 # ai-verify.yml installs no CLI when the key is set, so the key must reach a
 # verdict on a PATH with no `claude` at all: the curl and jq stubs alone, ahead
