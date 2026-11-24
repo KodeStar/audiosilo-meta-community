@@ -48,8 +48,9 @@ CONTEXT_FILE="${1:?context file required}"
 VERDICT_OUT="${2:?verdict output path required}"
 COMMENT_OUT="${3:?comment output path required}"
 
-# A full model id, never a family alias, so the reviewer only changes in a
-# commit (both transports send it as written). Core's is the same.
+# The current Sonnet (an upgrade from claude-sonnet-5), named by its full id so
+# the reviewer only changes in a commit (both transports send it as written).
+# Core's is the same.
 MODEL="claude-sonnet-5-5"
 API_URL="https://api.anthropic.com/v1/messages"
 MAX_INPUT_BYTES=200000 # cap the context sent to the model
