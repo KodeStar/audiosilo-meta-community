@@ -154,21 +154,17 @@ done < "$WORK/flag/comment.md"
 # Temp files: the chunks, the API request and the CLI's stderr live in one
 # directory the script removes on every exit, a skip's included (core's
 # TestAIVerifyLeavesNoTempFiles, which also pins the refusal's own reason). Each
-# case has its own TMPDIR and a stub mktemp that makes every temp path under it,
-# as macOS's ignores TMPDIR when it is given no template and would hide a leak.
+# case has its own TMPDIR, which the script's mktemp template puts every temp
+# path under on every platform.
 # no_leak <name> <curl stub body, or ""> <want exit 0|1> <want in comment> [VAR=value ...]
 no_leak() {
   local name="$1" curl_body="$2" want_exit="$3" want="$4" out="$WORK/leak-$1" status=0
   shift 4
   mkdir -p "$out/bin" "$out/tmp"
-  cat > "$out/bin/mktemp" <<'EOF'
-#!/usr/bin/env bash
-p="$TMPDIR/tmp.$$.$RANDOM"
-if [ "${1:-}" = "-d" ]; then mkdir "$p"; else : > "$p"; fi
-echo "$p"
-EOF
-  if [ -n "$curl_body" ]; then printf '%s' "$curl_body" > "$out/bin/curl"; fi
-  chmod +x "$out/bin/"*
+  if [ -n "$curl_body" ]; then
+    printf '%s' "$curl_body" > "$out/bin/curl"
+    chmod +x "$out/bin/curl"
+  fi
   invoke "leak-$name" "$CONTEXT" PATH="$out/bin:$BIN:$PATH" TMPDIR="$out/tmp" "$@" || status=1
   [ "$status" = "$want_exit" ] || fail "$name: exit $status, want $want_exit: $(cat "$out/log.txt")"
   grep -qF -- "$want" "$out/comment.md" || fail "$name: comment lacks '$want': $(cat "$out/comment.md")"

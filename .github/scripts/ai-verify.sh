@@ -85,8 +85,9 @@ fi
 # WORK_DIR holds every temp file: the chunks, and the API request and the CLI's
 # stderr (beside the chunks, so neither is ever counted as one). One directory,
 # removed on every exit, skip()'s included, so a transport that fails part way
-# leaves nothing behind on the runner.
-WORK_DIR="$(mktemp -d)" || skip "No temporary directory could be made."
+# leaves nothing behind on the runner. The template keeps it under $TMPDIR on
+# every platform (macOS's mktemp ignores TMPDIR without one), as core's does.
+WORK_DIR="$(mktemp -d "${TMPDIR:-/tmp}/ai-verify.XXXXXX")" || skip "No temporary directory could be made."
 trap 'rm -rf "$WORK_DIR"' EXIT
 CHUNK_DIR="$WORK_DIR/chunks"
 mkdir "$CHUNK_DIR" || skip "No temporary directory could be made."
