@@ -1136,6 +1136,9 @@
       "characters": {
         "characters": [
           {
+            "aliases": [
+              "The Gunslinger"
+            ],
             "description": "The last gunslinger of Gilead, leading his new companions inland on the quest for the Dark Tower. Hard, patient, and deadly, he has begun teaching Eddie and Susannah the gunslinger's craft. As this book opens he is troubled by a growing madness: two contradictory memories of the boy Jake war in his mind, threatening to tear his sanity apart.",
             "id": "roland-deschain",
             "name": "Roland Deschain",
@@ -1158,7 +1161,7 @@
               "Odetta Holmes",
               "Detta Walker"
             ],
-            "description": "A woman from 1960s New York, drawn into Roland's world through a door and made whole out of a once-divided self. She uses a wheelchair, having lost her legs before she came, and is fierce, clever, and devoted to Eddie. She is learning the gunslinger's way and carries the strength of the hard past that shaped her.",
+            "description": "A woman from 1960s New York, drawn into Roland's world through a door and made whole out of a once-divided self. She uses a wheelchair, having lost her legs before she came, and is fierce, clever, and devoted to Eddie. She is learning the gunslinger's way and carries the strength of the hard past that shaped her. Her New York was the city of 1964.",
             "id": "susannah-dean",
             "name": "Susannah Dean",
             "reveal": {
@@ -1167,13 +1170,25 @@
             "role": "supporting"
           },
           {
-            "description": "A boy from a version of New York who once traveled with Roland and died in the mountains beneath the man in black's chase. His fate and Roland's memory of him have become tangled and painful. In his own world, a boy who feels he does not belong there is likewise being pulled toward Mid-World, and reuniting the two threads is one of this book's central aims.",
+            "description": "A boy from a version of New York who once traveled with Roland and died in the mountains beneath the man in black's chase. His fate and Roland's memory of him have become tangled and painful. In his own world, a boy who feels he does not belong there is likewise being pulled toward Mid-World, and reuniting the two threads is one of this book's central aims. In 1977 New York, Jake remembers a death that never happened in his present life.",
             "id": "jake-chambers",
             "name": "Jake Chambers",
             "reveal": {
               "chapter": 0
             },
             "role": "supporting"
+          },
+          {
+            "aliases": [
+              "The Great Bear"
+            ],
+            "description": "A gigantic, ancient bear that attacks Roland's group near its territory. Metal components and a failing guidance system reveal that it is not an ordinary animal but a deteriorating guardian from Mid-World's technological past.",
+            "id": "shardik",
+            "name": "Shardik",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
           },
           {
             "description": "A billy-bumbler, a small, clever animal of Mid-World that resembles a cross between a raccoon, a dog, and a badger, and can echo human speech. Gentle and loyal, he attaches himself to Jake and becomes a beloved member of the traveling company.",
@@ -1185,11 +1200,65 @@
             "role": "supporting"
           },
           {
+            "description": "The owner of a small Manhattan bookstore that Jake feels compelled to enter. He sells Jake two books whose images and words appear strangely connected to the boy's divided memories and to the world Jake is trying to reach.",
+            "id": "calvin-tower",
+            "name": "Calvin Tower",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "minor"
+          },
+          {
+            "aliases": [
+              "Blaine the Mono"
+            ],
             "description": "A sentient monorail train, the last of its kind, that runs across the poisoned waste lands from the ruined city of Lud. Vastly intelligent and dangerously unstable, it takes a cruel delight in riddles and offers passage only on terms that put the travelers' lives at stake.",
             "id": "blaine",
             "name": "Blaine",
             "reveal": {
               "chapter": 4
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The elderly leader of River Crossing, a settlement whose inhabitants remember the old customs and honor Roland as a gunslinger. She offers the travelers hospitality and entrusts Roland with a silver cross as they continue toward Lud.",
+            "id": "aunt-talitha",
+            "name": "Aunt Talitha",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A diseased and violent member of Lud's Grays who ambushes the travelers near the city. He takes Jake captive and forces him through the ruined streets toward the underground territory of the Gray faction.",
+            "id": "gasher",
+            "name": "Gasher",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "The Tick-Tock Man"
+            ],
+            "description": "The charismatic and brutal leader of Lud's Grays, ruling from an underground refuge amid the failing machinery of the city. He prizes useful knowledge and treats prisoners as tools or entertainment.",
+            "id": "andrew-quick",
+            "name": "Andrew Quick",
+            "reveal": {
+              "chapter": 5
+            },
+            "role": "antagonist"
+          },
+          {
+            "aliases": [
+              "Richard Fannin"
+            ],
+            "description": "A mysterious man who finds the severely wounded Tick-Tock Man after Roland's group has left. He restores the outlaw enough to follow and recruits him for a larger purpose opposed to Roland.",
+            "id": "randall-flagg",
+            "name": "Randall Flagg",
+            "reveal": {
+              "chapter": 6
             },
             "role": "antagonist"
           }
@@ -1198,6 +1267,11 @@
         "sources": [
           {
             "imported_at": "2026-07-25",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          },
+          {
+            "imported_at": "2026-08-07",
             "ref": "model-knowledge:best-effort",
             "type": "community"
           }
@@ -1211,9 +1285,51 @@
         "recaps": [
           {
             "scope": "series",
-            "text": "In the earlier books, Roland Deschain, the last gunslinger of Gilead, chased the man in black across a desert, sacrificed the boy Jake to catch him, and was told he must draw three companions to him on the road to the Dark Tower. Reaching the Western Sea, and gravely wounded by a beach-monster, he found three doors into twentieth-century New York and drew two people through them: Eddie Dean, a young man freed from a heroin habit, and a woman whose split self was made whole as Susannah Dean. The two fell in love and became gunslingers-in-training under Roland's teaching. But Roland's meddling in the past has cut the thread that once brought Jake into his world, leaving Roland with two warring memories of the boy and a mind close to breaking.",
+            "text": "In the earlier books, Roland Deschain, the last gunslinger of Gilead, chased the man in black across a desert, sacrificed the boy Jake to catch him, and was told he must draw three companions to him on the road to the Dark Tower. Reaching the Western Sea, and gravely wounded by a beach-monster, he found three doors into twentieth-century New York and drew two people through them: Eddie Dean, a young man freed from a heroin habit, and a woman whose split self was made whole as Susannah Dean. The two fell in love and became gunslingers-in-training under Roland's teaching. But Roland's meddling in the past has cut the thread that once brought Jake into his world, leaving Roland with two warring memories of the boy and a mind close to breaking. By stopping Jack Mort from causing the accident that first sent Jake to Mid-World, Roland left the boy alive in New York.",
             "through": {
               "chapter": 0
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Roland, Eddie, and Susannah are attacked by Shardik, an enormous bear whose mechanical parts reveal him as one of the ancient guardians. After they kill him, they locate the portal he guarded and identify the Path of the Beam leading toward the Dark Tower. Roland's condition worsens as two histories compete in his mind: he remembers both Jake's death and a world in which Jake never came to him. Jake, still in New York, suffers the matching contradiction. Eddie becomes preoccupied with a piece of wood and a shape he senses within it, while the group understands that restoring Jake may be necessary to heal the break in reality.",
+            "through": {
+              "chapter": 1
+            }
+          },
+          {
+            "scope": "book",
+            "text": "In 1977 New York, Jake is unable to reconcile everyday life with his memory of Roland and Mid-World. He leaves school and follows a trail of intuitions, finding a vacant lot with a single rose that seems to carry immense importance. At Calvin Tower's bookstore he buys two books whose contents echo his experience, including a children's story about a train. In Mid-World, Eddie works from instinct to carve a wooden key, gradually producing the object Roland's group will need. The images linking door, key, and rose draw the two sides toward a meeting point, while the pressure of the contradictory timelines brings both Roland and Jake close to collapse.",
+            "through": {
+              "chapter": 2
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Jake enters the abandoned Dutch Hill house, which becomes a dangerous passage between worlds. Roland's group prepares a matching doorway in a speaking ring in Mid-World. Susannah holds off the ring's demon while Eddie uses his carved key to complete the opening. Jake passes through and is reunited with Roland. Their shared paradox ends once they are together, restoring both minds. Roland asks forgiveness for having sacrificed Jake in the other history, and Jake joins Roland, Eddie, and Susannah. The four now form a ka-tet, a fellowship bound by their common purpose, and continue southeast along the Beam.",
+            "through": {
+              "chapter": 3
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Following the Beam, Jake befriends an intelligent billy-bumbler and names him Oy. The travelers reach River Crossing, an aging settlement whose people welcome Roland's return as a gunslinger. Aunt Talitha gives him a silver cross, and the townspeople share what they know about Lud and its dangerous factions. The ka-tet proceeds to the ruined city, crossing a decayed bridge high above the river. Near Lud, Gasher of the Grays ambushes them and abducts Jake. He drags the boy into the city's tunnels while Roland and Oy pursue. Eddie and Susannah must seek another route through a place governed by rival gangs, failing machines, and a constant rhythmic sound.",
+            "through": {
+              "chapter": 4
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Gasher delivers Jake to Andrew Quick, the Tick-Tock Man, leader of the Grays. Tick-Tock questions Jake about technology and threatens him when his answers are not useful enough. Oy leads Roland through the underground passages to Jake. They get him out, leaving Tick-Tock gravely wounded. Meanwhile Eddie and Susannah confront Lud's other faction and establish contact with Blaine, the artificial intelligence governing the city's monorail and remaining systems. Blaine agrees to carry the travelers away only after demanding a demonstration of their ability to pose riddles. Roland, Susannah, Eddie, Jake, and Oy reunite and board the train as the unstable city approaches destruction.",
+            "through": {
+              "chapter": 5
+            }
+          },
+          {
+            "scope": "book",
+            "text": "Blaine leaves Lud with the full ka-tet aboard and unleashes the city's destructive systems behind them. As the monorail races into the Waste Lands along the Beam, Blaine explains that he is failing and intends to end his own existence in a fatal derailment. He offers the travelers a contest: if they can ask a riddle he cannot answer, he will spare them. The contest remains unresolved as the train speeds onward. Back in Lud, the badly wounded Tick-Tock Man is found by Richard Fannin, who is Randall Flagg under another name, and accepts service under him. The book closes with Roland's group still trapped on Blaine and searching for a riddle that can defeat him.",
+            "through": {
+              "chapter": 6
             }
           }
         ],
@@ -1221,6 +1337,16 @@
           {
             "imported_at": "2026-07-25",
             "ref": "model-knowledge:best-effort",
+            "type": "community"
+          },
+          {
+            "imported_at": "2026-08-07",
+            "ref": "model-knowledge:best-effort",
+            "type": "community"
+          },
+          {
+            "imported_at": "2026-11-24",
+            "ref": "Stephen King, Wizard and Glass, Argument (the rescue in Lud and the bargain with Blaine)",
             "type": "community"
           }
         ],
