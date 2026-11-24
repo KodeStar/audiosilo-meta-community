@@ -146,7 +146,7 @@ jobs:
       # no npm download runs beside the secrets for nothing.
       # Pinned, and bumped by hand after checking the flags ai-verify.sh passes
       # still mean the same thing, that the result object still carries the
-      # fields it reads (`result`, `is_error`) and that the CLI
+      # fields it reads (`result`, `is_error`, `stop_reason`) and that the CLI
       # knows the script's MODEL; `claude --version` is a liveness probe (core's
       # ai-verify.yml explains the outage that taught both).
       - name: Install Claude Code CLI

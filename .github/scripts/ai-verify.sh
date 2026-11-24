@@ -67,6 +67,22 @@ skip() {
   exit 1
 }
 
+# skip_if_refused skips when a reply is a refusal: the API's response and the
+# CLI's result object both carry the final stop_reason. A refusal holds no
+# verdict (any partial text it carries is not one), so the skip says so, and
+# which classifier declined where the reply names it (stop_details.category, the
+# fact that tells a false positive; the CLI's result object does not carry it),
+# rather than the generic "no text output" or "could not be parsed" below.
+skip_if_refused() {
+  local refusal
+  refusal="$(printf '%s' "$1" | jq -r 'select(.stop_reason? == "refusal")
+    | ((.stop_details | objects | .category | strings) // "") as $c
+    | "stop_reason refusal" + (if $c == "" then "" else ", category " + $c end)' 2>/dev/null)"
+  if [ -n "$refusal" ]; then
+    skip "The model declined to review this change (${refusal})."
+  fi
+}
+
 if [ -z "${CLAUDE_CODE_OAUTH_TOKEN:-}" ] && [ -z "${ANTHROPIC_API_KEY:-}" ]; then
   skip "No \`CLAUDE_CODE_OAUTH_TOKEN\` or \`ANTHROPIC_API_KEY\` secret is configured for this repository. The workflow runs only on same-repo branches, so a missing secret here is a repository configuration problem rather than anything about this pull request."
 fi
@@ -187,16 +203,8 @@ judge() {
       skip "The Anthropic API returned an error: ${API_ERROR}"
     fi
 
-    # A refusal is an HTTP 200 with no verdict in it (any partial text it carries is
-    # not one): say so, and which classifier declined (stop_details.category, the
-    # fact that tells a false positive), rather than the generic "no text output"
-    # below.
-    REFUSAL="$(printf '%s' "$RESPONSE" | jq -r 'select(.stop_reason? == "refusal")
-      | ((.stop_details | objects | .category | strings) // "") as $c
-      | "stop_reason refusal" + (if $c == "" then "" else ", category " + $c end)' 2>/dev/null)"
-    if [ -n "$REFUSAL" ]; then
-      skip "The model declined to review this change (${REFUSAL})."
-    fi
+    # A refusal is an HTTP 200 with no verdict in it.
+    skip_if_refused "$RESPONSE"
 
     TEXT="$(printf '%s' "$RESPONSE" | jq -r '[.content[]? | select(.type=="text") | .text] | join("")' 2>/dev/null)"
   else
@@ -236,6 +244,9 @@ judge() {
     if [ "$CLI_STATUS" -eq 124 ]; then
       skip "The Claude Code CLI timed out (no answer within ${CLI_MAX_TIME} seconds)."
     fi
+    # Before the exit status and is_error: a refused run can end as an error, and
+    # what names it is the refusal, not the error's text.
+    skip_if_refused "$CLI_OUT"
 
     if [ "$CLI_STATUS" -ne 0 ]; then
       CLI_DETAIL="$(printf '%s' "$CLI_OUT" | jq -r '.result // empty' 2>/dev/null)"

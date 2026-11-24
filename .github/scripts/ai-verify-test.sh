@@ -168,7 +168,8 @@ done < "$WORK/flag/comment.md"
 # there cannot pass on an empty TMPDIR. The rows also pin the skip reasons of
 # their own, on both transports: a timeout (curl's exit 28, timeout's 124 around
 # the CLI) apart from other transport errors, and a refusal, whose partial text is
-# never read as a verdict even when it holds a pass.
+# never read as a verdict even when it holds a pass, and which is named as one
+# even when the CLI ends it as an error.
 # no_leak <name> <stub curl|claude|timeout> <stub body, or "" for the default stub>
 #   <want exit 0|1> <want in comment> [VAR=value ...]
 no_leak() {
@@ -220,7 +221,18 @@ CLI_TIMES_OUT='#!/usr/bin/env bash
 cat > /dev/null
 exit 124
 '
+CLI_REFUSES='#!/usr/bin/env bash
+cat > /dev/null
+printf "%s" '"'"'{"type":"result","subtype":"success","is_error":false,"stop_reason":"refusal","result":"{\"verdict\":\"pass\",\"findings\":[]}"}'"'"'
+'
+CLI_REFUSES_AS_ERROR='#!/usr/bin/env bash
+cat > /dev/null
+printf "%s" '"'"'{"type":"result","subtype":"success","is_error":true,"stop_reason":"refusal","result":"API Error: declined"}'"'"'
+exit 1
+'
 no_leak cli-times-out timeout "$CLI_TIMES_OUT" 1 'The Claude Code CLI timed out (no answer within 900 seconds).' CLAUDE_CODE_OAUTH_TOKEN=test
+no_leak cli-refuses claude "$CLI_REFUSES" 1 'declined to review this change (stop_reason refusal).' CLAUDE_CODE_OAUTH_TOKEN=test
+no_leak cli-refusal-error claude "$CLI_REFUSES_AS_ERROR" 1 'declined to review this change (stop_reason refusal).' CLAUDE_CODE_OAUTH_TOKEN=test
 
 # A runner with no `timeout` skips rather than run the CLI with no time limit. The
 # PATH is the claude and jq stubs and links to the other commands the script runs
