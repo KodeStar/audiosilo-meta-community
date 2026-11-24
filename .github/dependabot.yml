@@ -21,6 +21,17 @@ updates:
     schedule:
       interval: weekly
     groups:
+      # intake.yml's rebase job writes out core-tooling's checkout and Go set-up,
+      # and workflow-copies-test.sh fails while their versions differ. Updates
+      # are opened per directory unless grouped by name, so a bump would arrive
+      # as two pull requests, each red; this group opens ONE per action across
+      # both directories (a major still on its own). It comes first, as an update
+      # joins the first group it matches.
+      core-tooling-actions:
+        group-by: dependency-name
+        patterns:
+          - actions/checkout
+          - actions/setup-go
       actions-minor-and-patch:
         update-types:
           - minor
