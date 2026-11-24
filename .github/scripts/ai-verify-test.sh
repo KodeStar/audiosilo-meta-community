@@ -5,8 +5,9 @@
 #
 # The community repository has no Go module, so these are the shell half of core's
 # scripts/aiverify_test.go cases for the shared transport (TestAIVerifyPrefersTheAPIKey,
-# TestAIVerifyAPIRequestIsNeverAnArgument) and the comment's pass note and flag lead
-# (TestAIVerifyCommentSaysWhatTheVerdictDoes, its bot-origin case). The claude CLI
+# TestAIVerifyAPIRequestIsNeverAnArgument, TestAIVerifyLeavesNoTempFiles) and the
+# comment's pass note and flag lead (TestAIVerifyCommentSaysWhatTheVerdictDoes,
+# its bot-origin case). The claude CLI
 # and curl are stubs on PATH; nothing reaches the network. Needs bash, jq and perl,
 # as the script itself does. Runs every case and exits non-zero if any failed.
 
@@ -147,6 +148,43 @@ while IFS= read -r line; do
   case "$line" in "" | "#"* | "- "*) continue ;; esac
   case "$line" in *:) ;; *) fail "the flag comment's lead does not end in a colon: $line" ;; esac
 done < "$WORK/flag/comment.md"
+
+# Temp files: the chunks, the API request and the CLI's stderr live in one
+# directory the script removes on every exit, a skip's included (core's
+# TestAIVerifyLeavesNoTempFiles, which also pins the refusal's own reason). Each
+# case has its own TMPDIR and a stub mktemp that makes every temp path under it,
+# as macOS's ignores TMPDIR when it is given no template and would hide a leak.
+# no_leak <name> <curl stub body, or ""> <want exit 0|1> <want in comment> [VAR=value ...]
+no_leak() {
+  local name="$1" curl_body="$2" want_exit="$3" want="$4" out="$WORK/leak-$1" status=0
+  shift 4
+  mkdir -p "$out/bin" "$out/tmp"
+  cat > "$out/bin/mktemp" <<'EOF'
+#!/usr/bin/env bash
+p="$TMPDIR/tmp.$$.$RANDOM"
+if [ "${1:-}" = "-d" ]; then mkdir "$p"; else : > "$p"; fi
+echo "$p"
+EOF
+  if [ -n "$curl_body" ]; then printf '%s' "$curl_body" > "$out/bin/curl"; fi
+  chmod +x "$out/bin/"*
+  env -i PATH="$out/bin:$BIN:$PATH" HOME="$out" TMPDIR="$out/tmp" OUTDIR="$out" "$@" \
+    bash "$SCRIPT" "$CONTEXT" "$out/verdict.json" "$out/comment.md" > "$out/log.txt" 2>&1 || status=1
+  [ "$status" = "$want_exit" ] || fail "$name: exit $status, want $want_exit: $(cat "$out/log.txt")"
+  grep -qF -- "$want" "$out/comment.md" || fail "$name: comment lacks '$want': $(cat "$out/comment.md")"
+  [ -z "$(ls -A "$out/tmp")" ] || fail "$name: TMPDIR still holds $(ls -A "$out/tmp")"
+}
+CURL_FAILS='#!/usr/bin/env bash
+cat > /dev/null
+exit 7
+'
+CURL_REFUSES='#!/usr/bin/env bash
+cat > /dev/null
+printf "%s" "{\"stop_reason\":\"refusal\",\"content\":[]}"
+'
+no_leak curl-fails "$CURL_FAILS" 1 'transport error' ANTHROPIC_API_KEY=key
+no_leak refusal "$CURL_REFUSES" 1 'stop_reason refusal' ANTHROPIC_API_KEY=key
+no_leak api-pass "" 0 'AI verification: passed' ANTHROPIC_API_KEY=key
+no_leak cli-pass "" 0 'AI verification: passed' CLAUDE_CODE_OAUTH_TOKEN=test
 
 if [ "$FAILED" -ne 0 ]; then
   exit 1

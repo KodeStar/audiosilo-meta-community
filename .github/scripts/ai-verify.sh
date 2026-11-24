@@ -48,7 +48,9 @@ CONTEXT_FILE="${1:?context file required}"
 VERDICT_OUT="${2:?verdict output path required}"
 COMMENT_OUT="${3:?comment output path required}"
 
-MODEL="claude-sonnet-5"
+# A full model id, never a family alias, so the reviewer only changes in a
+# commit (both transports send it as written). Core's is the same.
+MODEL="claude-sonnet-5-5"
 API_URL="https://api.anthropic.com/v1/messages"
 MAX_INPUT_BYTES=200000 # cap the context sent to the model
 
@@ -80,8 +82,14 @@ fi
 # summary drops whole entries and says so.) A single entry larger than the cap
 # cannot be judged whole, which is a skip, never a pass. LC_ALL=C makes awk's
 # length() count bytes.
-CHUNK_DIR="$(mktemp -d)"
-trap 'rm -rf "$CHUNK_DIR"' EXIT
+# WORK_DIR holds every temp file: the chunks, and the API request and the CLI's
+# stderr (beside the chunks, so neither is ever counted as one). One directory,
+# removed on every exit, skip()'s included, so a transport that fails part way
+# leaves nothing behind on the runner.
+WORK_DIR="$(mktemp -d)" || skip "No temporary directory could be made."
+trap 'rm -rf "$WORK_DIR"' EXIT
+CHUNK_DIR="$WORK_DIR/chunks"
+mkdir "$CHUNK_DIR" || skip "No temporary directory could be made."
 LC_ALL=C awk -v cap="$MAX_INPUT_BYTES" -v dir="$CHUNK_DIR" '
   function flush() { if (buf != "") { n++; f = sprintf("%s/%04d", dir, n); printf "%s", buf > f; close(f); buf = ""; size = 0 } }
   function add(block) { if (size > 0 && size + length(block) > cap) flush(); buf = buf block; size += length(block) }
@@ -145,7 +153,7 @@ judge() {
     # API this model thinks unless told not to, so the ceiling leaves room for
     # both: a reply-sized one can run out mid-thought and leave no verdict.
     # --max-time allows for that longer answer.
-    REQUEST_FILE="$(mktemp)"
+    REQUEST_FILE="$WORK_DIR/request.json"
     jq -n \
       --arg model "$MODEL" \
       --rawfile system <(printf '%s' "$SYSTEM") \
@@ -158,7 +166,6 @@ judge() {
       -H "anthropic-version: 2023-06-01" \
       -H "content-type: application/json" \
       --data-binary @- < "$REQUEST_FILE" 2>/dev/null)" || skip "The Anthropic API request failed (transport error)."
-    rm -f "$REQUEST_FILE"
 
     if [ -z "$RESPONSE" ]; then
       skip "The Anthropic API returned an empty response."
@@ -167,6 +174,12 @@ judge() {
     API_ERROR="$(printf '%s' "$RESPONSE" | jq -r '.error.message // empty' 2>/dev/null)"
     if [ -n "$API_ERROR" ]; then
       skip "The Anthropic API returned an error: ${API_ERROR}"
+    fi
+
+    # A refusal is an HTTP 200 with no verdict in it: say so, rather than the
+    # generic "no text output" below.
+    if [ "$(printf '%s' "$RESPONSE" | jq -r '.stop_reason // empty' 2>/dev/null)" = "refusal" ]; then
+      skip "The model declined to review this change (stop_reason refusal)."
     fi
 
     TEXT="$(printf '%s' "$RESPONSE" | jq -r '[.content[]? | select(.type=="text") | .text] | join("")' 2>/dev/null)"
@@ -184,7 +197,7 @@ judge() {
     fi
 
     CLI_STATUS=0
-    CLI_ERR_FILE="$(mktemp)"
+    CLI_ERR_FILE="$WORK_DIR/cli.err"
     CLI_OUT="$(printf '%s' "$USER_MSG" | claude -p \
       --system-prompt "$SYSTEM" \
       --model "$MODEL" \
