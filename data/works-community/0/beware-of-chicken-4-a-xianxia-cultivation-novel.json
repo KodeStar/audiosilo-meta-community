@@ -4405,6 +4405,256 @@
       }
     },
     "black-sand-baron": {
+      "characters": {
+        "characters": [
+          {
+            "description": "The narrator, a gunslinging player who begins the book at holy war with a cult whose founder stands level with him on renown, while Ned still holds the top spot on the ladder. Dying to a war enemy now costs him double renown and drops more of his items. To stay ahead of the crowds heading for his desert city, he has a friendly guild keep its public distance, hands his helper his soul gems and most of his money, and sails for the Eastlands to buy the scarce smooth glass an auction house requires.",
+            "id": "ned",
+            "name": "Ned",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "protagonist"
+          },
+          {
+            "description": "Ned's talking axe and guide. He holds a vast store of game knowledge yet often declines to comment on what he knows. He enjoys violence and flirts openly with Darling. In the opening chapter he tells Ned that smooth glass is scarce because the cult's founder has been buying it up, and points him to a glass vendor in an Eastlands forest that can only be reached through the region's mist-covered port capital.",
+            "id": "frank",
+            "name": "Frank",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A guild leader working with Ned under a secret arrangement. Ned asks her to separate her guild from him in public, and a paid time-off story gives her a cover. Her guild takes on gathering the rarer auction house materials, marble and high-grade glass, and claims housing plots, including fresh ones at a cleared barbarian stronghold that can serve as a discreet second base. Only a small circle knows what the work is really for.",
+            "id": "darling",
+            "name": "Darling",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "Ned's AI helper, who follows instructions to the letter and has a habit of turning up without a sound. Ned counts her as a full member of the team and sends her out scouting. Before he leaves for the Eastlands he gives her his soul gems and most of his currency so she can raise her professions, with lumber and machining as the main focus.",
+            "id": "house",
+            "name": "House",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A young flute player connected to Ned's inn who badly wants to prove himself. He tries to overhear Ned's plans and then trails after him to ask if he can join the trip east. Ned refuses on safety grounds but says something might be arranged later if Lars gains some levels.",
+            "id": "lars",
+            "name": "Lars",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An armored military officer in Ned's desert city. He takes Ned to see a red portal and a brick building that is assembling itself on a dune to the west, a red cathedral already partly complete. He has a history with the ice mage Sarissa and asks that she be warned, and Ned agrees to send someone to her.",
+            "id": "arlen",
+            "name": "Arlen",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "An ice mage who shares some past with Arlen. When a red cathedral starts building itself on a dune outside the desert city, Arlen asks that she be told about it, and Ned agrees to send a messenger. She is only spoken of at this stage and does not yet appear.",
+            "id": "sarissa",
+            "name": "Sarissa",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A top-ranked player who founded a religion in the Eastlands and has declared holy war on Ned, which grants his followers combat bonuses against him. He is level with Ned on renown, and his cult is close to bringing a new minor god into the world. He has also been buying up the available smooth glass, most likely to build churches.",
+            "id": "the-cult-leader",
+            "name": "The cult leader",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A member of Darling's guild who is present at the inn when Ned sets out his plans. She is among the handful of guild members trusted with the secret partnership between Ned and Darling.",
+            "id": "nina",
+            "name": "Nina",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A member of Darling's guild who is at the inn while Ned lays out his plans, and one of the few guild members let in on the secret arrangement between Ned and Darling.",
+            "id": "rock",
+            "name": "Rock",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A member of Darling's guild who is at the inn during Ned's planning session, and one of the small group of guild members who know about Ned's hidden partnership with Darling.",
+            "id": "zoe",
+            "name": "Zoe",
+            "reveal": {
+              "chapter": 1
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The game's creator or administrator, and the maker of Frank, whose abrasive personality traces back to him. He is unfriendly toward Ned and Frank. He teleports onto Ned's boat, pushes Frank into his sheath, and reports that House is being upgraded so she can fight and blend in. He is clearly under strain because players uncovered the ripple system sooner than expected and the cathedrals have already begun.",
+            "id": "klein",
+            "name": "Klein",
+            "reveal": {
+              "chapter": 2
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A new minor deity the cult is working to bring into existence. Crossing the sea at night, Ned passes a large ring of boats around an island where a glowing column of faith rises; this is where the cult's founder is birthing the god. Cult followers feed this faith by tithing a fifth of their gold.",
+            "id": "the-cults-god",
+            "name": "The cult's god",
+            "reveal": {
+              "chapter": 2
+            }
+          },
+          {
+            "description": "A boss crocodile lurking in the sewers beneath the Eastlands capital. Frank identifies it as the guardian of a door that has stayed sealed for a long time, and Ned treats it as a danger ahead as he works deeper into the tunnels.",
+            "id": "the-keykeeper",
+            "name": "The keykeeper",
+            "reveal": {
+              "chapter": 3
+            },
+            "role": "minor"
+          },
+          {
+            "description": "The NPC rulers of Ned's desert region. A royal decree makes selling water a punishable offense, and they have already hanged one player for it. Their stance forces Ned to rework his water pricing around a cheap, short-term price aimed at NPC buyers.",
+            "id": "the-merchant-kings",
+            "name": "The merchant kings",
+            "reveal": {
+              "chapter": 4
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "A friendly, slow-speaking giant of black and blue glass, a legendary-rank construct vendor living in a sapphire-walled sanctum in the Eastlands. He recognizes Frank as a legendary axe, is alarmed that Ned belongs to a new race, and senses unrest in the land. He sells Ned 22 smooth glass and is preparing to leave his home and travel north by sea through the cult's capital, which he believes is friendly. Ned decides to ride hidden in his mouth to get past the cult's search lines.",
+            "id": "the-glass-giant",
+            "name": "The glass giant",
+            "reveal": {
+              "chapter": 9
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A stealthy fighter armed with a dark hammer, part of the crew of a cult galley that chases Ned at sea. He stays hidden during Ned's ambush on the ship, then nearly kills him and hunts him through the galley's cabin while Ned's health is low.",
+            "id": "the-dark-hammer-fighter",
+            "name": "The dark-hammer fighter",
+            "reveal": {
+              "chapter": 12
+            },
+            "role": "minor"
+          },
+          {
+            "description": "Lars's giant beat beetle, a companion bonded to musicians that eats or licks magical items and soon licks Frank. Lars rides it through the water to reach Ned at sea, and it rescued Lars after an enemy with a halberd nearly killed him.",
+            "id": "lars-beetle",
+            "name": "Lars's beetle",
+            "reveal": {
+              "chapter": 15
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A tank in Darling's guild who has long held the lead tank position. Darling tells Ned that a newer tank has now pulled ahead of him, and she is unsure how to rank the two.",
+            "id": "tun",
+            "name": "Tun",
+            "reveal": {
+              "chapter": 18
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "A friendly level 12 arcane familiar that watches Ned's party from the entrance to the walled labyrinth around the black tower inside the whirlpool. It appears to be connected to the tower's mage and runs away as the party approaches.",
+            "id": "bella",
+            "name": "Bella",
+            "reveal": {
+              "chapter": 21
+            },
+            "role": "minor"
+          },
+          {
+            "description": "A floating figure who meets Ned's party in a courtyard deep in the black tower's labyrinth. He talks about a lost sword, assumes the party has come to take it, and mentions a group called the triad. He then coats a four-armed statue in coral shards, turning it into an elite Tower Guardian that the party must fight.",
+            "id": "the-tower-mage",
+            "name": "The tower mage",
+            "reveal": {
+              "chapter": 22
+            }
+          },
+          {
+            "description": "A figure identified by a codex entry as the maker of the Reality Blade, a weapon he forged and then hid away in a random world. Ned learns of him after the tower's mage muses about swapping Frank for the blade.",
+            "id": "the-possibility-king",
+            "name": "The Possibility King",
+            "reveal": {
+              "chapter": 23
+            }
+          },
+          {
+            "description": "The figure who arrives for the meeting with Ned in a self-driving carriage and speaks only through a slot, calling himself a merchant king. He offers Ned 5, then 7, then 10 gold for the inn, says the city is overcrowded and people are dying, and fears the other kings more than death. His own guards mock him and attack Ned on another king's orders. He escapes with a burst of flash powder, and Ned realizes he is a teenage boy of about 16 or 17.",
+            "id": "the-youngest-merchant-king",
+            "name": "The youngest merchant king",
+            "reveal": {
+              "chapter": 27
+            }
+          },
+          {
+            "description": "A tank Darling brings into Ned's group for a seven-person rift in the White Hills, filling an ice-style tanking role. He is the rising tank in a long-standing dispute with Tun over the guild's lead tank role, and Tun is left out of this group partly because Ned asked.",
+            "id": "the-dodge-tank",
+            "name": "The dodge tank",
+            "reveal": {
+              "chapter": 34
+            },
+            "role": "supporting"
+          },
+          {
+            "description": "The boss of the White Hills raid rift, named by a codex entry as the head of a cannibal sect that has preyed on the White Hills for a long time. Fire does not harm him. When his first form is beaten he dives into a pool and returns as a level 11 serpent raid boss whose water jets trap players in bubbles and summon adds. In that form he swallows Ned, killing him.",
+            "id": "scion-of-red-waters",
+            "name": "Scion of Red Waters",
+            "reveal": {
+              "chapter": 38
+            },
+            "role": "antagonist"
+          },
+          {
+            "description": "The ruler of Highwater and sister of the captive young merchant king's mother. About twenty-five years ago she had Arlen beaten, after which Sarissa was forced into the sapphire tower.",
+            "id": "the-queen-of-highwater",
+            "name": "The queen of Highwater",
+            "reveal": {
+              "chapter": 48
+            }
+          },
+          {
+            "description": "A level 12 demon raid boss who glides down on bat-like wings from a rift above an empty throne at the end of the bridge rift. High-voiced and mocking, he opens windows onto other realities, including a burning version of the Vale beside a completed red cathedral. He speaks of a triad of mages who sacrificed themselves and insists the Possibility King cannot be beaten.",
+            "id": "chances-herald",
+            "name": "Chance's Herald",
+            "reveal": {
+              "chapter": 57
+            },
+            "role": "antagonist"
+          }
+        ],
+        "license": "CC-BY-SA-4.0",
+        "sources": [
+          {
+            "ref": "audible:uk:B09GW96WDY",
+            "type": "community"
+          }
+        ],
+        "work": "black-sand-baron"
+      },
       "recaps": {
         "ending": "The book closes with Ned at the center of a new world event. Now a tier-three Shadewalker with illusion magic, a legendary rifle, the God Slayer title and renown rank 11, he has formally joined Darling's guild, which is at open war with the cult. Frank remains with him. Darling, Nina, Rock, Zoe, Tun and the guild's other tank hold the first bridge rift clear and temporary Hall of Rifts access, which Ned is using as a fast-travel network for his auction trade, now spread across eight cities behind the Francis alias. House is a guild member living at the stronghold with thirteen cats. Lars has left the inn to run a caravan to the Sanguine Port. The cult's god is dead and its religion permanently removed, but the cult leader is alive, publicly humiliated, and likely to strike back. Ned used the god's legendary item to free Sarissa and the other two tower occupants; the released water turned the sands into the onyx delta and the Vale into the Black Oasis, and Sarissa has reunited with Arlen, who now knows Ned's secret and backs him. The freed red-tower occupant is hunting the man who imprisoned him, and the queen of Highwater is said to be roaming its dry ruins, intent on reclaiming her realm. Ned still holds the youngest merchant king, has promised to remove the other two quietly, and the water decree remains in dispute. The tree is absorbing Sarissa's released mana. The first red cathedral has completed in the onyx delta, opening a raid with a five-day window to defeat the Possibility King for a world branch throne, while the other cathedrals, including the cult leader's, are close to finishing.",
         "in_short": "At holy war with a cult whose founder is racing to birth a god, Ned slips into the Eastlands for smooth glass, steals a key the cult wanted, hijacks a cult galley, and returns with the materials for the first auction house, which he fronts through his alias Francis. A whirlpool event shows him that a triad of bound mages once guarded the Reality Blade and that the Possibility King has taken it; soon a world event fills every zone with crimson rifts and self-building red cathedrals. Ned takes the youngest merchant king hostage, gives water away free to break the kings' monopoly, and grows close to Darling's guild through rift clears, while tricking the cult leader into spreading his trade network. Through a secret railway he reaches Highwater, learns illusion magic from Sarissa, and becomes the first Shadewalker. After Arlen learns his secret, Ned and the guild win the first bridge rift and the Hall of Rifts, then kill the cult's newborn god and escape its leader's fleet. Ned gives the god's item to Sarissa, freeing the triad; the water floods the sands into the onyx delta, Sarissa reunites with Arlen, and the first red cathedral completes, launching a five-day raid against the Possibility King.",
